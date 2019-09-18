@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.license = 'MIT'
 
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
-    `git ls-files config -z`
+    `git ls-files config -z`.split("\x0")
   end
   spec.bindir = 'exe'
   spec.executables = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
