@@ -1,0 +1,244 @@
+tr-TR:
+  frm:
+    general:
+      forum: Forum
+      topics: Başlıklar
+      topic: Konu
+      posts: Mesajlar
+      posts_count:
+        one: 1 mesaj
+        other: "%{count} mesaj"
+      flagged_for_spam: Hesabınızın spam olarak işaretlenmiş.
+      cannot_create_topic: Yeni bir konu şu anda oluşturulamıyor.
+      cannot_create_post: Yeni bir yorum şu anda oluşturulamıyor.
+    access_denied: "Bu işlemi gerçekleştiremezsiniz."
+    admin:
+      area: Yönetici alanı
+      back_to_admin: "Yönetici'ye geri dön"
+      back_to_forums: "Forumlara geri dön"
+      back_to_groups: "Gruplara geri dön"
+      forum:
+        moderator_groups: Moderatör grupları
+        index: Forumları yönetme
+        new: Yeni bir forum oluşturma
+        new_link: Yeni Forum
+        deleted: Seçili oturum silindi
+        created: Bu forum oluşturulmuştur.
+        not_created: Bu forum oluşturulamamıştır
+        updated: Bu forum güncellenmiştir.
+        not_updated: Bu forum güncellenememiştir
+      forums:
+        edit: Düzenle
+        delete: Sil
+        category: Kategori
+        delete_confirm: Bu forumu silmek istediğinizden emin misiniz?
+        index:
+          last_post: Son mesaj
+          none: Yok
+          moderators: Moderatörler
+          no_category: (Kategori yok)
+        default_private: "Özel Forum"
+        default_public: "Genel Forum"
+        default_private_description: "Forum grup katılımcılara özeldir"
+        default_public_description: "Forum tüm Airesis kullanıcılara görünür. Ayrıca grupta olmayan kullanılıcılara da"
+      mod:
+        index: Grupları yönet
+        new: Yeni Grup
+        created: Grup başarıyla oluşturulmuştur
+        not_created: Grup oluşturulamamıştır
+        deleted: Seçili grup silindi
+        members: "%{group} 'daki katılımcılar"
+      mods:
+        show:
+          add_member: Ekle
+          add_a_new_member: "Yeni bir kullanıcı ekle"
+          current_members: "Güncel kullanıcılar"
+        edit: Düzenle
+        delete: Sil
+        name: İsim
+      category:
+        index: Forum Kategorilerini Yönet
+        new: Yeni bir Forum Kategorisi oluşturma
+        edit: "%{title} Kategorisini düzenleme"
+        new_link: Yeni Forum Kategorisi
+        deleted: Seçili forum kategorisi silindi
+        created: Bu forum kategorisi oluşturuldu
+        not_created: Bu forum kategorisi oluşturulamadı
+        updated: Bu forum kategorisi güncellenmiştir
+        not_updated: Bu forum kategorisi güncellenememiştir
+      categories:
+        edit: Düzenle
+        delete: Sil
+        category: Kategori
+        delete_confirm: Bu forum kategorisini silmek istediğinizden emin misiniz?
+        default_private: "Kişisel bölüm"
+        default_public: "Açık bölüm"
+      group:
+        index: "Ara bulucu grupları yönetme"
+        show:
+          title: "Ara bulucuları yönetme"
+        new: "Yeni ara bulucu grupları"
+        created: "Ara bulucu grupları başarıyla oluşturulmuştur"
+        not_created: "Moderatör grupları oluştururken bir hata oluştu"
+        deleted: "Moderatör grubu başarıyla sillinmiştir"
+    common:
+      pages: Sayfa
+    errors:
+      not_signed_in: Önce oturum açmanız gerekir
+      access_denied: Erişim reddedildi.
+    forum:
+      header: "%{title} gözetleme"
+      forums: Forumlar
+      new: Yeni forum oluşturma
+      edit: "%{title} forumu düzenleme"
+      topics_count:
+        one: 1 Konu
+        other: "1 Konu\n%{count} konuları"
+      posts_count:
+        one: '%{count} gönderi'
+        other: "%{count} gönderi"
+      moderator_tools: "Ilımlılık ayarları"
+      topic_tools: "Konu ayarları"
+      admin_tools: "Yönetim ayarları"
+      title: "Yeni forum"
+    forums:
+      index:
+        title: Forum
+        forum: Forum
+        views: Görünüm
+        last_post: 'Son gönderi:'
+        none: Yok
+    topic:
+      headings:
+        topic: Konu
+        latest: Son
+        posts: Mesajlar
+        views: Görüntülenmeler
+      moderation:
+        success: Seçili başlık ılımlılaştırıldı
+        no_option_selected: Hiç bir ılımlılık seçeneği seçilmedi
+      received_reply: Abone olduğunuz başlık yanıt aldı
+      reply: Yanıtla
+      quote: Alıntı
+      delete: Sil
+      created: Konu eklendi
+      new: Yeni bir konu oluşturma
+      edit: Konu düzenleme
+      not_created: Bu konu oluşturulamadı
+      deleted: Bu konun silinmiştir
+      cannot_delete: Sahip olmadığınız bir başlığı silemezsiniz
+      updated: Bu başlık güncellenmiştir
+      not_updated: Bu başlık gücellenememiştir
+      subscribed: Bu başlığa abone oldunuz
+      unsubscribed: Bu başlıktaki aboneliğinizi kaldırdınız
+      none: Şu anda forumda başlık bulunmamakta
+      links:
+        new: Yeni konu
+        back_to_topics: Konulara geri dön
+        edit: Konuyu Düzenle
+      not_found: Aradığınız sayda bulunamadı
+      hidden:
+        'true': Bu sayfa gizlenmiştir
+        'false': Bu sayfa artık görüntülenebilir
+      locked:
+        'true': Bu sayfa artık kilitlenmiştir
+        'false': Bu sayfa artık görüntülenebilir
+      pinned:
+        'true': Bu başlık artık sabitlenmiş durumda
+        'false': Bu başlık artık sabitlenmiş durumda değil
+    topics:
+      show:
+        reply: Yanıtla
+        delete: Sil
+        subscribe: Abone Ol
+        unsubscribe: Abonelikten Çık
+        reply_to_topic: Konuyu Cevapla
+        pending_review: Bu başlık şu anda incelenmeyi bekliyor. Yalnızca onu oluşturan kullanıcı ve denetleyiciler onu görüntüleyebilir.
+        hide:
+          'true': Bu konu göster
+          'false': Bu konuyu gizle
+        lock:
+          'true': Başlığın kilidini aç
+          'false': Konuyu kilitle
+        pin:
+          'true': Başlığın sabitliğini kaldır
+          'false': Başlığı sabit yap
+        related_proposals: "İlgili teklifler"
+    post:
+      buttons:
+        reply: Yanıt Yaz
+        edit: Düzenle
+      created: Cevabınız gönderildi
+      new: Cevap gönder
+      edit: Düzenle
+      not_created: Cevabın gönderilemedi
+      not_created_topic_locked: Kilitli bir konuyu cevaplayamazsınız
+      edited: Gönderiniz düzenlendi
+      not_edited: Gönderiniz düzenlenemedi
+      deleted: Gönderiniz silindi
+      deleted_with_topic: Başlıktaki son gönderi silindi. Ayrıca başlık da silindi
+      cannot_delete: Sahip olmadığınız bir gönderiyi silemezsiniz
+      cannot_quote_deleted_post: Alıntı yapmaya çalıştığınız gönderi artık mevcut değil.
+    posts:
+      moderation:
+        moderate: Düzenle
+        approve: Onayla
+        spam: İstenmeyen
+        success: Seçilen gönderiler düzenlendi
+      post:
+        pending_review: Bu gönderi şu anda incelenmeyi bekliyor. Yalnızca onu oluşturan kullanıcı ve denetleyiciler onu görüntüleyebilir.
+        in_reply_to: cevap olarak
+    moderation:
+      index:
+        title: "%{forum} için düzenleyici araçları"
+  helpers:
+    submit:
+      frm_forum:
+        create: Forum Oluştur
+        update: Forumu Güncelle
+      topic:
+        create: Başlık Oluştur
+        update: Başlığı Güncelle
+      frm_mod:
+        create: Grup Oluştur
+      frm_category:
+        create: Kategori Oluştur
+        update: Kategori Güncelle
+  simple_form:
+    labels:
+      frm_forum:
+        category: Kategori
+        title: Başlık
+        name: Başlık
+        description: Açıklama
+        moderators: Moderatörler
+        visible_outside: Grup haricindekilere görünür
+      topic:
+        subject: Konu
+        locked: Kilitlendi
+        pinned: Sabitlenmiş
+        hidden: Gizlenmiş
+        posts:
+          text: Yazı
+      frm_category:
+        name: İsim
+      post:
+        text: Yazı
+      frm_mod:
+        name: İsim
+  time_ago_in_words: "%{time} önce"
+  ago: " önce"
+  ago_by: " önce"
+  by: tarafından
+  started_by: "Başlatan "
+  are_you_sure: Emin misiniz?
+  lst_post: "Son Mesaj"
+  last_post: "Son Konu"
+  back_to_forums: "Foruma geri dön"
+  pages:
+    forum_groups:
+      index:
+        create_first: Henüz bir moderatör grubu yok. İlkini oluştur!
+  info:
+    members:
+      ok_message: Kullanıcı gruba başarıyla eklendi
