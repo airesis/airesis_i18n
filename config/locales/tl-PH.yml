@@ -1,0 +1,1498 @@
+tl-PH:
+  unauthorized:
+    default: "Ikaw ay wala ng kinakailangan na mga pahintulot para isagawa ang aksyong ito"
+    create:
+      group: "Ikaw ay hindi pwedeng gumawa ng higit na grupo sa isang araw"
+  permissions_required: "Ikaw ay hindi pinapayagan na gawin ang opersyong ito"
+  test: "Pagsubok"
+  open_space: 'Bukas na espasyo'
+  hello: 'Hello world'
+  pages:
+    top_panel:
+      login: 'Mag-log in o kay mag-sign up'
+      facebook_login: 'Mag-login gamit ang Facebook'
+      google_login: 'Mag-log in gamit ang Google'
+      twitter_login: "Mag-login gamit ang Twitter"
+      meetup_login: "Mag-login gamit ang Meetup"
+      linkedin_login: "Mag-login gamit ang LinkedIn"
+      openid_login: "Mag-login gamit ang OpenID"
+      find_groups: 'Ang Paghahanap sa mga Grupo'
+      parma_login: "Mag-login gamit ang Parma"
+      tecnologiedemocratiche_login: "Mag-login gamit ang Tecnologie Democratiche"
+      tecnologiedemocratiche: "Ang Teknolohiyang Democratiche"
+    user:
+      notifications: 'Ang mga Alarma at mga Notipikasyon'
+      privacy: "Ang mga Akawnt at Probisiya"
+    users:
+      index:
+        title: 'Ang Listahan ng Gumagamit'
+      show:
+        groups_title: "Ang aking mga grupo"
+        group_column: "Grupo"
+        role_column: "Gampanin"
+        get_out_of_group_button: "Umalis sa grupong ito"
+        get_out_of_group_confermation: "Ikaw ba ay sigurado?"
+        secret_vote: "Sekreto"
+        votations_title: "Iboto ka para sa partisipikasyon sa"
+        proposal_column: "Ang Panukala"
+        votation_date_column: "Petsa"
+        vote_column: "Iboto"
+        profile_info: "Ang mga impormasyon ng Propayl"
+        profile_info_unconfirmed: "(hindi kumpirmadong gumagamit)"
+        send_message_button: "Magpadala ng pribadong mensahe"
+        name_label: "Pangalan"
+        surname_label: "Apelyido"
+        email_label: "Email"
+        edit_image: "Baguhin ang imahe"
+        to_be_confirmed: "para sa pagkukumpirma"
+        password_label: "Password"
+        facebook_url_label: "Ang URL ng Facebook"
+        googleplus_url_label: "Ang URL ng Google+"
+        linkedin_url: "Ang URL ang LinkeIn"
+        username_label: "Username"
+        registered_from: "Magrehistro mula sa"
+        load_image: "Mag-load ng isang imahe"
+        max_file_size: "Pinakamataas na sukat: 2MB"
+        what_can_i_do: "Ano ang maipaglilingkod ko?"
+        what_i_cant_do: "Ano ang hindi ko magagawa?"
+        certified_from: "Sertipikadong mula sa"
+        group_level_permission_title: "Ang antas ng mga pahintulot ng grupo"
+        admin_permissions: "Ikaw ang tagapangasiwa sa grupong ito at ikaw ay mayroon ng lahat ng mga pahintulot"
+        certified_cannot_edit_info: "Ikaw ay sertipikadong tagagamit: hindi mo pwedeng baguhin ang iyong Pangalan, Apelyido at Email"
+        twitter_url: "Ang URL ng Twitter"
+        meetup_url: "Ang URL ng Meetup"
+      send_message:
+        subject_label: "Paksa"
+        body_label: "Katawan"
+        massive_email: "Nagpapadala ng mabibigat na mensahe"
+      left_panel:
+        general_info: "Ang pangkalahatang impormasyon"
+        alarm_and_notifications: "Ang alarma at mga notipikasyon"
+        geographic_borders: "Ang mga hangganan ng heograpiya"
+        account_and_privacy: "Ang ang akawnt at probisiya"
+        title: "Ang mga SETTING AT PREPERENSIYA"
+      alarm_preferences:
+        receive_on_address: "Kumuha ng newsletter sa %{email}"
+        alerts: "Ang mga alerto"
+        emails: "Ang mga email"
+      privacy_preferences:
+        tooltips: "Ang mga tooltip ay ipakita"
+        show_urls: "Ipakita sa mga gumagamit ang mga URL ng Facebook, Google+ at LinkeIn"
+        private_messages: "Nakatanggap ng pribadong mga mensahe mula sa ibang mga gumagamit"
+        join_accounts: "Sumila sa ibang akawnt"
+        join_accounts_description: "Tungkol sa %{app_short_name} ikaw ay may kakayahang kumonekta sa lahat ng iyong Sosyal Network gamit ang solong akawnt. <br/> Pumili ng manggagawa para makakonekta at ma-aakses mo lagi ang parehong akawnt mula sa Facebook, Google, Twitter at marami pa!"
+        joined_all: "Ikaw ay kasalukuyan ng nakasali sa lahat ng available na mga provider. Maraming salamat!"
+        join_facebook: "Sumalik sa iyong Facebook akawnt"
+        join_google: "Sumalik sa iyong Google akawnt"
+        join_twitter: "Sumalik sa iyong Twitter akawnt"
+        join_linkedin: "Sumalik sa iyong LinkedIn akawnt"
+        join_meetup: "Sumalik sa iyong Meetup akawnt"
+        providers_list: "Ang listahan ng mga provider na ginawang aktibo"
+        options: "Ang mga opsyon"
+        rotp: "Naka-enable ang Seguridad ng Token"
+        rotp_title: "Ang Seguridad ng Token"
+        rotp_confirm_enable: "Sigurado kaba na gusto mong i-enable ang seguridad ng token?"
+        rotp_confirm_disable: "Sigurado kaba na gusto mong i-disable ang seguridad ng token?"
+        mail_language: "Ang mga wika para sa mga e-mail"
+        time_zone: "Time Zone"
+      border_preferences:
+        updating: "Pakiusap maghintay habang ina-update namen ang iyong preperensiya alinsunod sa hanggang ng iyong preperensiya"
+        your_borders: "Ang iyong mga hanggan ng heograpiya ng interesado"
+      send_message_title: "Ipadala ang mensahe sa %{name}"
+    groups:
+      accept_requests:
+        portavoce: "Ayon sa Tagapangasiwa: kapag ang gumagamit ay gustong sumili ang lamang at ang tagapangasiwa ng grupo ang pwedeng tumanggap sa kahilingan. Kapag tinanggap ng tagapangasiwa ang kahilingan, ang gumagamit ay talagang ganap na miyembro ng grupo."
+        unavailable_option: "Ang opsyon ay hindi pa pwedeng magamit"
+      administration_panel:
+        title: 'Ang Panig ng Tagapangasiwa'
+        info: 'Ang pangunahing impormasyon'
+        events: 'Ang mga Kaganapan at mga Pagpupulong'
+        permissions: 'Mga tungkulin at mga pahintulot'
+        proposals: 'Kurom at mga panukala'
+        areas: "Lugar ng gawaan"
+        forum: "Pangangasiwa ng forum"
+        users: "Pamahalaan ang mga gumagamit"
+      edit_events:
+        title: 'Pamahalaan ang mga kaganap na grupo'
+      edit_permissions:
+        title: 'Baguhin ang mga tungkulin at mga pahintulot'
+        new_role: "Magdagdag ng bagong tungkulin"
+        edit_role_title: "I-edit ang tungkulin"
+        new_role_title: "Bagong tungkulin"
+        user_title: "Gumagamit"
+        role_title: "Tungkulin"
+        no_users_yet: "Dito ay maaari mong baguhin ang mga tungkulin ng mga kalahok, kung magkakaroon ilan."
+        default_role: "Default na tungkulin sa grupo"
+        confirm_role_deletion: "Ikaw ba ay sigurado na gusto mong alisin ang tungkuling ito?"
+        remove_user: "Alisin ang user"
+        confirm_role_change1: "Ang tungkulin ng user"
+        confirm_role_change2: "ay pagbabago mula sa"
+        confirm_role_change3: "para"
+        confirm_role_change4: "Kumpirmahin?"
+        confirm_delete_1: "Ang operasyon ay kakailanginan ng mga ilang minut.. Ikaw pa ay sigurado na gusto mong tangggalin ang %{count} mga tagagamit mula sa grupo?"
+        confirm_delete_2: "Ang operasyong ito ay sangkot para pagtatanggal sa lahat ng %{count} napiling mga gumagamit at hindi pa pwedeng kunin! Ikaw ba talaga ay sigurado na gusto mong ituloy?"
+      edit_proposals:
+        title: 'Pamahalaan ang korum at ang mga panukala'
+      index:
+        title: 'Ang lahat ng grupo'
+        open_space_button: "Pumunta sa Bukas na Espasyo"
+        create_group_button: "Lumikha ng bagong grupo"
+        find_group_label: "Humanap ng grupo kung saan ikaw ay magiging interesado"
+        find_title: "Paghahanap sa pangalan ng grupo o kaya paglalarawan"
+        find_button: "Hanapin"
+        groups_list: "Sa mga grupo na kung saan ikaw ay kalahok"
+        groups_registration: "Ang Pagpaparehistro para sa Grupo"
+        groups_list_2: "Ang listahan ng mga grupo"
+        no_groups_yet: "Ikaw ay hindi pa kalahakol ng kahit saan %{name}"
+        open_space_title: "Ang pampubliko na mga kaganapan"
+        show_more: "Ipakita pa ang lahat ng mga grupo"
+        search_mask: "Kasangkapan sa paghahanap"
+        search_with_query: "gamitin ang personal na mga katanungan"
+        search_with_place: "o kaya ang hangganan ng heograpika"
+        search_description: "Gumamit ng kasangkapan sa paghahanap o kaya ay pindutin sa taga para makahanap ng mga grupo na iyong interesado"
+        insert_query_or_place: "Ikaw ay dapat mag-type ng kahit tatlong mga karakter o kaya ay hanggan sa heograpika"
+        tags: "Ang mga tag"
+        participants_number: "Ang bilang ng mga kalahok"
+        proposals_number: "Ang bilang ng mga panukala"
+        events_number: "Ang bilang ng mga kaganapan"
+        no_results: "Walang nakitang grupo"
+        limit_reached: "Pwede kang lumika ng mas maraming grupo kada araw"
+        switchButton:
+          exact_border: "Ang eksaktong paghahanap: hanapin ang lahat ng mga grupo na gamit ang eksaktong hangganan ng heograpika"
+          area_border: "Ang paghahanap sa lugar: hanapin ang lahat ng mga grupo sa loob ng hangganan ng heograpika"
+          all_words: "Hanapin ang lahat ng mga grupo na mayroon ng lahat ng salitang ito"
+          one_word: "Hanapin ang lahat ng mga grupo na mayroon kahit isa sa mga salitang ito"
+      new:
+        title: 'Gumawa ng bagong grupo'
+        new_group: "Ang bagong grupo"
+        create_button: "Gumawa ng grupo!"
+        change_permissions_button: "Gusto mo bang baguhin ang pamantayan ng mga pahintulot ?"
+        change_permissions_title: "Baguhin ang pamantayan ng mga pahintulpt ng bagong gumagamit"
+        change_permissions_description: "Ito ang mga aksyon na pwedeng isagawa ng mga bagong gumagamit sa loob ng grupo: paalala na pwede mong laging baguhin sila at lumikha ng mga bagong tungkulin!"
+        errors_title: "Patawad, pero ang post ay hindi maipasok:"
+        tags:
+          title: "Ang mga tag ay (pinaghihiwalay sa pamamagitan ng kuwit)"
+      edit:
+        title: 'Baguhin ang mga Setting ng Grupo'
+        change_permissions: "Sa mga Setting ng mga Tungkulin at mga Pahintulot ay pwede mo laging baguhin ang mga pahintulot ng mga miyembro."
+        remove_user_confirm: "Ikaw ba ay sigurado na gusto mong tanggalin ito %{name} mula sa grupo?"
+        modify_group: "Baguhin ang grupo"
+        private_warning_html: |
+          <b> Ang payo sa mga grupong pribado </ b> <br/>
+          Ang pampublikong mga panukala ay makikita parin mula sa labas. <br/>
+          Pumunta sa <b>%{link}</b> at i-disable ang opsyon para sa 'mga Panukala na nakkita mula sa labas'. <br/>
+          Ang mga post na nailathala na sa haligi ng grupo ay laging makikita sa pansariling pahina ng mga gumagamit. <br/>
+          Ang pampublikong mga pag-uusap ay laging makikita sa labas.
+      layout:
+        home_button: "HALIGI"
+        proposals_button: "ANG MGA PANUKALA"
+        calendar: "KALENDARYO"
+      show:
+        rules_button: "Ang mga patakaran"
+        post_button: "I-post sa haligi ng grupo"
+        blog_button: "Gawin ang aking Blog"
+        participants_list: "Ang listahan ng kalahok "
+        invite_button: "Imbitahan ang iyong mga kaibigan!"
+        show_all_participants: "Ang lahat ay ipakita %{count} ..."
+        show_all_admins: "Ipakita ang lahat %{count} ..."
+        show_all_requests: "Ang lahat ay ipakita %{count} ..."
+        participants_full_list: "Kumpletohin ang listahan ng mga miyembro ng grupo"
+        no_participants: "Wala pang mga gumagamit ang kasali sa grupong ito."
+        no_blogs_yet: "Wala pang blog na mga post sa grupong ito, bumalik agad mamaya."
+        waiting_participation_requests: "Ang kahilingan ng kalahok ay hinihintay para sa kasagutan"
+        accept_request_button: "Tinanggap"
+        reject_request_button: "Hindi Tinanggap"
+        ask_participate_button: "Magtanong para maging parte ng grupo"
+        remove_post: "Tanggalin mula sa grupo ng pisara"
+        destroy_button: "Alisin"
+        confirm_destroy: "IKAW AY INALIS ANG GRUPO!!! Sigurado kaba na gusto mong gawin ito?"
+        list_permissions:
+          title: "Ang listahan ng mga pahintulot sa loob ng grupo"
+          button: "Ang listahan ng mga pahintulot"
+        print_all_participants: "I-imprinta ang listahan ng mga kalahok"
+        last_proposals: "Kamakailan lamang ay idinagdag ang mga panukala"
+        last_topics: "Ang huling paksa na nagawa"
+        next_events: "Ang susunod na mga kaganapan"
+        rule_book_html: |
+          Ang mga patakaran ay pwedeng piliin habang ginagawa ang grupo.<br/>
+          <p>Tulad ngayon ang lahat ng gumagamit ay pwedeng gumawa ng grupo.</p>
+          <p>Kapag ikaw ay lumahok sa isang grupo ang mga post mo sa iyong blog ay pwedeng ipakita sa Haligi ng grupo.</p>
+          <p>Ang mga grupo ay pwedeng alalayan ang mga panukala, at gumawang ng isang bago, gumawa ng mga pagsisiyasat at itatag ang mga miyembro gamit ang mga tungkulin at mga pahintulot.</p>
+          <p>Posible ba na pwedeng baguhin ang mga alituntunin sa grupong ito sa pamamagitan ng <b>mga Setting</b>. </p>
+        short_url: "Ang maiksing url"
+        featured_post:
+          'true': I-unpin
+          'false': I-pin sa itaas
+        permissions_title: "Ikaw at ang grupo mo"
+      header:
+        settings: "ANG MGA SETTING"
+        documents: "ANG MGA DOKUMENTO"
+        forums: "PAG-UUSAP"
+        alarm_settings: "Ang mga setting"
+      documents:
+        documents_archive: "Ang mga dokumento ay naka archive"
+        storage_size: "Inukupahan ang sukat ng imbakan"
+        max_storage_size: "Ang pinaka malaking sukat ng imbakan na magagamit"
+        current_storage_usage: "Ang sukat ng imbakan na ginagamit"
+        not_authorized: "Ikaw ay walang kinakailangang mga pahintulot para tignan ang mga dokumentong ito. Pakiusap kontakin ang tagapangasiwa sa grupo"
+      edit_quorums:
+        new_quorum:
+          title: "Ang bagong korum"
+          simple: "Payak"
+          advanced: "Nangunguna"
+          time_description: "Ang huling pinagtalonan %{days} %{hours} %{minutes}"
+          simple_percentage_description: "at ang pantay na pagtanda o kaya ay higit pa sa %{good_score}%."
+          advanced_participation_description: "(%{current_number} mula sa %{total_number} lahat ng mga karapatan) <b>(pinaka mahalaga: %{average})</b>"
+          advanced_percentage_description: "Kung datapwa't ang pagtanda ay mababa sa %{bad_score}% ang panukala ay inabandona."
+          advanced_percentage_description3: "Ang panukala ay nanatili parin sa pagtatalo kung ang dalawang nakakatanda ay nasa pagitan ng dalawng mga threshold."
+        active: "Aktibo"
+        name: "Pangalan"
+        participants: "Ang mga kalahok"
+        condition: "Ang mga kondisyon"
+        good_percentage: "% Ang Pagtanda"
+        bad_percentage: "% Tinanggihan"
+        confirm_deletion: "Ikaw ba ay siguro na gusto mong alisin ang kurom na ito %{quorum}?"
+        add_quorum: "Gumawa ng bagong kurom"
+        edit_quorum: "Ipasadya ang kurom"
+        configure_proposal_parameters: "Kompigurahin ang mga panukala na mga parametro"
+        default_anonymous_proposal: "Ibig sabihin panasamantalang aktibo"
+        default_private_proposal: "Ang mga panukala ay makikita sa labas ng grupo"
+        default_secret_vote: "Ang sekretong pagboto"
+        let_editor_change_settings: "Ang mga taga-edit ay malayang makaka pili ng mga opsyon sa itaas"
+        time: "Oras"
+        edit_quorum_warning: "Babala! Ang mga modipikasyon sa korum na ito ay hindi makakaapekto sa mga panukala na kasalukuyang ginagamit na!"
+      edit_work_areas:
+        index:
+          not_enabled: "Hindi gumagana ang mga lugar ng pagawaan"
+          description: "%{app_short_name} Hinayaan kana na pamahalaan ang mga iba't-ibang lugar ng pagawaan sa loob ng grupo."
+          description2: "Kasama ang tampok na ito ay mas maaayos mo mapapamahalaan ang mga kahalok at kanilang mga papel."
+          description3: "Maging maingat! Ito ay ang pinahusay na tampok, ay dinesenyo para lamang sa malalaking mga grupo at mga eksperto na gumagamit."
+          enable: "Gumagana ang mga lugar ng pagawaan"
+          description4: "Bago gawing aktibo ang mga lugar ng pagawan, i-tsek kung kaya mong pamahalaan ang mga grupo mga miyembro direkta sa paggamit "
+        manage:
+          new_area: "Gumawa nang isang lugar ng pagawaan"
+          switch_area_participants: "Lumipat sa tagapamahala nang kalahok"
+          list_title: "Ang lista ng mga lugar ng pagawaan. Ang mga kalahok ay pumili ng para sa bawat isa sa kanila, o kaya ay pindotin ang pangalan para pamahalaan ang mga tungkulin at ang mga pahintulot sa lugar ng pagawaan na iyan"
+          title: "Ang mga setting ng lugar ng pagawaan"
+          list_participants: "Ang listahan ng mga grupo ng miyembro. Pumili para sa bawat isa kanila ng mga lugar ng pagawaan na sila ay mga pag-aari nang."
+          switch_area_management: "Lumipat sa pangangasiwa ng lugar ng pagawaan"
+          confirm_deletion: "Ikaw ba ay sigurado an gusto mong alisin ang lugar ng pagawaan na ito?"
+          manage_roles_in_area: "Baguhin ang mga papel at mga pahintulot sa lugar ng pagawaan %{area}"
+        manage_group_areas: "Pamahalaan ang mga gumagamit sa loob ng mga lugar ng pagawaan"
+        form:
+          title: "Ang bagong lugar ng pagawaan"
+      default_admin_title: "Ang tagapangasiwa"
+      invite_your_friends:
+        type_email_addresses: "Isulat ang mga e-mail address, na pinaghihiwalay sa pamamagitan ng kuwit"
+        email_not_valid: "Ang e-mail address ay hindi balido"
+        text_to_send: "Ang teksto para ipadala (pagpipilian)"
+        title: "Imbitahan ang iyong mga kaibigan para sumali sa grupo!"
+      participations:
+        list_participations: "Ang listahan ng mga kalahok"
+        search: "Paghahanap"
+        filter: "Pagsasala"
+        anything: "Lahat"
+        operations_on_user: "Ang mga operasyon ay available sa mga gumagamit"
+        send_email: "Magpadala ng email"
+        surname: "Apelyido"
+        name: "Pangalan"
+        role: "Tungkulin"
+        member_since: "Miyembro na mula noon"
+        participants_html:
+          one: "<b>1</b> kalahok\n\n<b>%{count}</b> ang mga kalahok"
+          other: "<b>1</b> kalahok\n\n<b>%{count}</b> ang mga kalahok"
+        added_by: "Idinagdag sa pamamagitan ng"
+        remove_all: "Tanggalin ang lahat"
+      statistics:
+        title: "Kinukwenta ang mga karaniwang mga halaga (ang huling updeyt sa %{date})"
+      archives:
+        page_title: "I-archive para sa %{month}, %{year}"
+    login:
+      title: 'Mag-login'
+    confirmation:
+      title: 'Ipadala muli ang mga tagubilin ng Kumpirmasyon'
+      submit: 'Ipadala sakin ang mga tagubilin'
+    password:
+      title: 'Nakalimutan mo naba ang iyong password?'
+      submit: 'Pakiusap ipadala sakin ang mga tagubilin para i-reset ang password'
+      edit:
+        new_password: "Ang bagong password"
+        confirm_password: "Nakumpirma ang bagong password"
+        confirm_button: "Baguhin ang aking password"
+    registration:
+      title: 'Rehistro'
+      email_confirmed: "Kapag ikaw ay nagparehistro sa email address na yan hindi mo na kailangan pang itanong para kumpirmahin ang iyong email address."
+      choose_password: "Pumili ng password"
+      confirm_password: "Nakumpirma ang password"
+      accept_conditions: "Ang mga Tuntunin ng Serbisyo ay Tanggapin"
+      register_button: "Magpa-rehistro"
+      identity_provviders_title: "Kunin agad sa iyong paboritong akawnt"
+      accept_privacy: "Tanggapin ang mga Tuntunin sa Probisiya"
+    proposals:
+      index:
+        title: 'Ang listahan ng mga panukala'
+        debate: 'Pinagtatalunan ang lahat ng mga panukala na sinusuri'
+        voting: 'Ang lahat ng mga panukala ay nakabinbin pa para sa boto o kaya nasa bahagi pa ng paboboto'
+        accepted: 'Ang lahat ng mga panukala na natapos na ay nasa bahagi na ng pagboto'
+        revision: 'Ang lahat ng mga panukala na hindi pumasa sa pagtatalo ay ibabalik muli sa pagtatalo'
+        last: "Ang huling mga idinagdag"
+        most_popular: "Ang mga pinaka sikat"
+        most_valutated: "Ang mga pinaka sinusuri"
+        continue_reading: 'Ipagpatuloy ang pagbabasa sa panukala'
+        debate_title: "Nasa pagtatalo ⋅ %{count}"
+        voting_title: "Bumuboto ⋅ %{count}"
+        accepted_title: "Binoto ⋅ %{count}"
+        revision_title: "Abandonado ⋅ %{count}"
+        login_with: "mag-login sa:"
+        group_areas_title: "Ang mga lugar ng pagta-trabaho"
+        no_group_areas: "Walang lugar"
+        all_areas: "Ang lahat ay nasa lugar"
+        categories_title: "ANG MGA KATEGORYA"
+        all_categories: "Ang lahat ng mga kategorya"
+        loading_proposals: "Nagloload ang mga panukala, pakiusap maghintay..."
+        title_with_category: "Ang mga panukala sa kategorya %{category}"
+        all_categories_title: "Ang mga panukala sa lahat ng mga kategorya"
+        in_group_area_title: "sa lugar ng pagawaan"
+        last_title: "Ang huling ipinasok (TODO)"
+        most_popular_title: "Ang pinaka-sikat (TODO)"
+        most_voted_title: "Ang pinaka rango (TODO)"
+        show_more: "Ipakita ang marami pang mga panukala..."
+        loading_alt: "Nagloload"
+        choose_model: "Pumili ng modelo sa isang panukala"
+        search_title: "Ang paghahanap ng mga panukala sa grupo"
+        search_placeholder: "Magpasok ng kahit dalawang mga karakter para sa paghahanap"
+        search_words: "May mga sasabihin ba"
+        participants_number: "ANG MGA KALAHOK"
+        contributes_number: "ANG MGA AMBAG"
+        rank: "ANG PAGTANDA"
+        voters: "ANG MGA BOTO"
+        date_range: "nilakaha sa pagitan ng %{start} at %{end}"
+        proposal_types_title: "ANG MGA MODELO"
+        all_proposal_types: "Ang lahat ng mga modelo"
+        with_text: "naglalaman '%{text}'"
+        last_24h: "ito ay nilakha sa nakalipas na 24 na oras"
+        last_1h: "ito ay nilikha sa nakalipas na isang oras"
+        last_7d: "ito ay nilikha sa nakalipas na isang linggo"
+        last_1m: "ito ay nilikha sa nakalipas na isang buwan"
+        last_1y: "ito ay nilikha sa nakalipas ng isang taon"
+      show:
+        voteup: 'Ako ay sumasang-ayon'
+        votenil: "Hindi ko alam / Hindi ko maintindihan"
+        votedown: 'Ako ay hindi sumasang-ayon'
+        random_stack: 'Matalinong paghihiwalay'
+        most_recent: 'Ang pinaka bago'
+        most_ranked: 'Ang pinaka sinusuri'
+        history_button: "Historya"
+        choose_votation_period: "Pumili ng panahon ng pagboto"
+        choose_votation_period_alert: "Ikaw ba ay sigurado sa panahon ng pagboto? Hindi mo na yan pwedeng mabago mamaya!"
+        choose_votation_period_button: "Ang pinili ko!"
+        create_votation_period: "Walang itinakda ng mga petsa sa pagboto, pakiusap magtakda ng bagong petsa"
+        no_periods_contact_group: "Walang itinakda ng mga petsa sa pagboto, pakiusap kontakin ang mga tagapangasiwa para maayos ang pagpili sa petsa."
+        choose_new_votation_period_button: "Pakiusap pumili ng bagong petsa sa pagboto"
+        loading_contributions: "Nagloload ang mga ambag, pakiusap maghintay..."
+        previos_contributes: "Ang mga nakalipas na mga ambag..."
+        delete_contribute_confirmation: "Ikaw ba ay sigurado na gusto mong alisin ang ambag na ito?"
+        delete_suggestion_confirmation: "Ikaw ba ay sigurado na gusto mong alisin ang komentong ito?"
+        offered_as_editor_message: "Ikaw ay nag-alok bilang taga-edit para sa panukalang ito"
+        offer_as_editor_button: "Gusto kung maging taga-edit ng panukalangito!"
+        available_editors_button: "Ang mga taga-edit ay pwedeng magamit"
+        confirm_editors_button: "Gusto mo bang mag-alok bilang isang taga-edit sa panukalang ito?"
+        editors_list_title: "Ang listahan ng mga taga-edit na pwedeng magamit sa panukalang ito"
+        attached_documents: "Ang mga dokumento na nakalakip"
+        no_document_attached: "Walang mga dokumento na nakalakip"
+        geographic_boundaries_title: "Ang mga hangganan sa heograpiya"
+        tags_title: "Ang mga tag"
+        similar_proposals_title: "Ang mga panukalang may katulad"
+        category_title: "Kategorya"
+        edit_button: "Baguhin"
+        delete_button: "Alisin"
+        delete_proposal_confirmation: "Ikaw ba ay sigurado na gusto mong alisin ang panukalang ito?"
+        votation_message: "Ang panukalang ito ay binoto mula %{from} sa %{to}"
+        editing_message_1: "Ang panukalang ito ay aayosin sa pamamagitan ng mga editor maraming salamat sa lahat ng mga nag-ambag"
+        editing_message_2: "Upang maboto ito kailangan ay may maabot tayo na"
+        editing_message_3: "pinakamababang pagtanda"
+        votation_page_button: "Pumunta sa pahina ng pagboto"
+        vote_button: "Boto!"
+        send_contribute_button: "Ipadala"
+        characters_left: "Ang mga karakter na natitira:"
+        score: "Ang pagbibigay halaga"
+        rank: "Pagtanda"
+        created_at_html: "Ginawa %{time} kanina:<br/><b>%{date}</b>"
+        updated_at_html: "Inupdate %{time} kanina:<br/><b>%{date}</b>"
+        votation_results: "Ang mga resulta"
+        votation_results_title: "Ang mga resulta ng boto"
+        in_votation_html: "Angmga boto mula sa: <br/><b>%{start}</b><br/> sa: <br/><b>%{end}</b>"
+        in_votation_now: "Ang pagboto ngayon!"
+        in_votation_until_html: "Ang huling boto sa:<br/><b>%{date}</b>"
+        anonimity_active: "Pansamantalang aktibo ang mga hindi kilala"
+        your_nickname_is: "Ang iyong palayaw ay"
+        editors_title: "Ang mga taga-edit"
+        supporting_group: "Ang mga suporta ng mga grupo"
+        no_supporting_group: "Walang grupo ang sumuporta sa panukalang ito"
+        support_proposal_button: "Suportahan ang panukalang ito..."
+        close_debate_button: "Isara na ang pagtatalo"
+        close_debate_proposal_confirmation: "Ang pagtatalo ay isara agad at pumunta sa susunod na yugto?"
+        during_debate: "Ang pagpapatuloy ng pagtatalo"
+        comment_inserted_by: "%{who} - %{when}"
+        comment_updated_by: "%{who} - i-updeyt %{when}"
+        replies:
+          show_all: "Ipakita ang lahat %{count} ng mga komento..."
+          delete: "Alisin"
+        reply_button: "Tugon"
+        reply_placeholder: "Magbigay ng iyong komento"
+        export_pdf: "I-imprinta ang PDF"
+        manage_noise_folder: "Tanggalin ang mga ambag (%{removable}/%{removed})"
+        noise_folder: "Tanggalin ang mga ambag"
+        what_nickname: "Ano yan?"
+        give_contribute: "ISULAT AT IPAKITA ANG MGA AMBAG"
+        no_contributes: "Habang bumuboto ang mga ambag ay hindi pinakita"
+        new_valutation_message: "Ang mga panukala ay nakatanggap ng bagong mga mahahalagang pagsusuri"
+        old_editors_title: "Ang lumang taga-edit"
+        back_debate_button: "Bumalik sa pagtatalo"
+        new_quorum_title: "Pumili ng bagong korum"
+        enable_alerts: "Naka-enable ang mga alerto"
+        disable_alerts: "Naka-disable ang mga alerto"
+        close_contribute: "SARADO ANG MGA AMBAG"
+        contributes_list: "Ang listahan ng mga ambag sa '%{section}'"
+        add_comment: "Magdagdag ng isang komento"
+        add_contribute: "Ibigay ang iyong mga ideya! Magmukahi ng mga pagbabago sa teksto at tulongan ang taga-edit para mapabuti ang panukala"
+        login_to_comment: "Mag-login para makapagdagdag ng komento"
+        regenerate_nickname: "Binubuo ang palayaw"
+        add_contribution_no_paragraph: "Walang talaga ang tinutukoy"
+        debate_ends_html: "Ang kataposan ng pagtatalo sa"
+        debate_ends_valutations_or: "o kaya ang kasama"
+        debate_ends_valutations_and: "at ang kasama"
+        debate_ends_valutations: "Ang huling pagtatalo kasama ang"
+        error_loading_paragraph: "Ang taludtod na ito ay tatanggalin. I-load uli ang pahina para makita ang mga updeyt sa panukala"
+        generic_fake_content: "Ang seksyong ito ay hindi pa naisasama. Tulongan ang taga-edit sa pamamagitan ng pagpasok sa ambag!"
+        model_title: "Dekorasyon"
+        created_events: "Kasalukuyan ng nalika ang mga kaganapan"
+        create_new_votation_period: "Gumawa ng isang bagong kaganapan at ng huling pagtatalo"
+        choose_later: "Walang anuman. Mamaya ako pipili"
+        choose_now: "Gusto ko ng pumili ngayon"
+        group_area: "Lugar ng pagawaan"
+        nickname_assigned: "Ikaw ay tinalaga sa palayaw na ito '%{nickname}'. Kung ayaw mo ito, may karapatan ka na baguhin mula sa kalawang pagpipilian ng 10 na minuto"
+        cant_participate:
+          no_permissions: "Ikaw ay hindi pwedeng makilahok sa panukalang ito dahil ikaw ay miyembro ng grupo pero ikaw ay walang pahintuloy na makilahok."
+          ask_permissions: "Tanungin ang iyong tagapangasiwa para sa mga pahintulot, magpadala ng minsahe sa kanya."
+          request_pending: "Ikaw ay hindi pwedeng makilahok sa panukalang ito dahil sinabi mo na gusto mong maging miyembro ng grupong ito, pero ang iyong kahilingan ay hindi pa pwedeng tanggapin."
+          send_message: "Gusto mo bang magpadala ng mensahe sa tagapangasiwa ng grupo?"
+          not_a_member: "Ikaw ay hindi pwedeng makilahok sa panukalang ito dahil ikaw ay hindi miyembro ng grupong ito."
+          not_logged_in: "Ikaw ay hindi pwedeng makilahok sa panukalang ito dahil ikaw ay hindi kasalukuyang naka log-in. "
+        read_contribute: "IPAKITA NG LAHAT NG MGA AMBAG"
+        security_token: "Ang Token ng Seguridad"
+        you_can_choose_vote_dates: "Ang panukalang ito ay hinihintay para sa %{count} mga araw para sa petsa ng pagboto, kaya ikaw ay walang karapatan para pumili ng isa."
+        no_contributes_yet: "Dito ay walang mga ambag sa ngayon"
+        start_votation_proposal_confirmation: "Gusto mo ba talagang simulan agad ang pagboboto?"
+        abandoned_message: "Abandonado %{ago}"
+      new:
+        quorum_prompt: "Pumili ng kurom"
+        quorum_help: "Tulong"
+        step_classification: "Klasipikasyon"
+        step_similar: "Ang mga panukala na may katulad"
+        step_3: "Ang mga Problema/Balakid"
+        step_dates: "Ang pagtatalo at pagboboto"
+        step_3_title: "Ipaliwanag ang komprehensibong mga problema na iyong kinakaharap at ano ang iyong mga layunin ng panukala na gusto mong makamit"
+        create_button: "Ang panukala ay gawin"
+        title: "Ang mga bagong panukala"
+        title_group: "%{name}:"
+        title_synthetic: "Ang Layunin (sa pagbubuod)"
+        title_placeholder: "hal. 'Padaliin ang transportasyon ng biseklita sa mga tren'"
+        interest_borders_tkn_placeholder: "Ang mga Siyudad, Rehiyon o kaya mga Estado ay interesado sa pamamagitan ng panukala"
+        tags_list_placeholder: "Ipasok ang mga ilang tag para sa iyong panukala"
+        step_1_title: "Pwede kang umasta na ang problema ay mareresolba, ang isang ideya para gumaling, ang isang pagkukusa sa pag-aayos ... Ang bagay na mahalaga para magkaroon ng isang malinaw na layunin: %{app_short_name} ay makakatulong sayo upang makamit kasama ang tulong ng ibang tao, sa pamamagitan ng proseso ng pamamahagi ng pag-resolba sa problema."
+        step_2_title: "Siguro may isang tao na kasalukuyang gumawa ng isang katulad na panukala: suriin sa ibaba at sa huli itigil ang iyong paglikha upang maiwasan ang pagkopya. Ang pagsali pwersa ay nagbibigay ng lakas sa iyong mga ideya! Ang pagpindot sa pamagat ay bubuksan ang mga panukala sa isang bagong tab."
+        step_4_title: "Tama! Pumili ng iyong mga opsyon at pindutin 'Ang mga panukala ay gawin' para makumpleto ang gabay. Ang iyong panukala ay isasama sa %{app_short_name} ay may kakayahan ka na magdagdag ng maraming impormasyon na gusto mo kasama ang maraming impormasyon."
+        step_4_footer_html: |
+          %{app_short_name} tutulongan ka namen na maabot ang iyong layunin sa pamamagitan ng pagbahagi ng pag-resolba sa problema: ang mga gumagamit ay nagmungkahi para sa modipikasyon at mga pag-ambag sa iyong teksto at <b>yan ay nasa sa iyo</b> upang mapagsasama-sama ang mga makakapareho.<br/>
+          Kung ay hindi mo gagawin, ang iyong panukala ay hindi mapupunta sa bahagi ng pagboto.<br/>
+          Gud lak sayo at wag mamatakot: ikaw ay makakatulong sa ibang tao sa iyong gawain.
+        category_prompt: "--Pumili ng kategorya--"
+        tags_separated_by_comma: "(pinaghihiwala sa pamamagitan ng kuwit)"
+        cannot_add_proposal_in_work_area: "Ikaw ay walang kilanakailangan na mga pahintulot upang idagdag ang panukala sa kahit anong lugar"
+        no_work_area_selected: "Walang lugar ng pagawaan"
+        solution1: "Walang Aytem na binabalak"
+        solution: "Ang adyenda na Aytem"
+        step_base_info: "Ang inisyal na impormasyon"
+        advanced_options: "Ang pinahusay na mga opsyon"
+        wait: |
+          Ikaw ay pwede lamang gumawa ng isang panukala kada dalawang minuto
+          Pakiusa maghintay ng %{minutes} ilang minuto at %{seconds} mga segundo.
+      tabs:
+        last_inserted: "Ang huling pag-updeyt"
+        most_popular: "Ang pinakamataas na rango"
+        most_valutated: "Marami pang pagsusuri"
+        most_urgent: "Ang pinaka mahalaga"
+      list:
+        last_update: "Updated<br/>%{time_ago}"
+        waiting_date: "Naghihintay para sa petsa"
+        voting_from_to: "Mula %{from} sa %{to}"
+        voting_until: "Hanggang sa <br/>%{date}"
+        votation_finished: "Tapos na<br/>%{time_ago}"
+        no_votation: "Walang kahit anong boto"
+        votation_finished_approved: "Sinang-ayunan<br/> %{date}"
+        interest_borders: "Ang mga hangganan ng heograpiya"
+        authors: "Ang mga taga-edit"
+        support_group: "Ang mga grupo ay suportahan"
+        no_proposals: "Wala pang mga panukala sa ngayon"
+        condition_left: "Ang kondisyon sa huling pagtatalo"
+        time_left: "Ang natitirang oras"
+        vote: "BOTO"
+      delete_comment: "Alisin"
+      results:
+        total: "Ang kabuuang mga botante: %{count}"
+        vote_column: "Boto"
+        number_column: "Numero"
+        percentage_column: "Porsiyento"
+        positive: "Sang-ayon"
+        negative: "Bagkos"
+        neutral: "Neutrals"
+        name_surname_column: "Ang Una at Huling Pangalan"
+        date_time_column: "Ang boto ng petsa at oras"
+      report_contribute:
+        mark_title: "Markahan ang ambag"
+        mark_description: "Pwede mong ituro sa mga taga-edit ang panukala na ang kontribusyon na ito ay hindi naglalaman ng may katuturang impormasyon para humanap ng solusyon sa panukala.<br/> Kung ang kontribusyon ay namarkahan na %{num} ang mga oras, ang mga taga-edit sa panukala ay hindi pwedeng alisin ito mula sa mga pagtatalakay and ilagay ito sa \"noise\" polder.<br/>"
+        report_title: "Iulat ang kontribusyon"
+        report_description: "Pwede mong ituro sa webmaster na ang kontribusyong ito ay nilalabag ang mga batas sa kasalukuyang pwersa. <br/> Kapag natukoy ang mga paglalabag ay aalisin ang mga kontribusyon. Huwag abusohin ang kagamitang ito."
+      vote_panel:
+        title: "Lumikha ng iyong boto!"
+        schulze_title: "Mayroong ilang mga solusyon para sa panukalang ito.<br> Ayon ito ayon sa iyong mga preperensiya."
+        secret_vote: "Ang iyong boto ay naka sekreto at ikaw ay walang kakayahang mabawi o kaya baguhin ito kapag naihayag na."
+        clear_vote: "Ang iyong boto ay naitala na at ito ay mapapatunayan."
+        single_title: "Sa panukalang ito ay mayroon lamang na isang solusyon. Gawin ang iyong punto!"
+        results_time: "Ang iyong boto ay inihahayag mo sa %{when}"
+        hidden_vote: "Ang iyong boto ay naka sekreto kaya ito ay hindi maipapakita."
+        preferences_order: "Ang ayos ng iyong mga preperensiya ay:"
+        expressed_vote: "Inihahayag mo ang iyong %{vote} pagboto"
+      edit:
+        title: "Baguhin ang panukala '%{title}'"
+        hurry_up: "Magmadali!"
+        last_minutes: "Ikaw ay pinapayagan na baguhin ang field na ito sa isang %{minutes} minuto lamang."
+        no_participants: "Ikaw ay pinapayagan na baguhin lamang ang mga field na ito kung ang bawat isa ay makikilahok!"
+        remove_section: "Alisin ang taludtod"
+        add_paragraph: "Idadag ang bagong taludtod"
+        edit_proposal: "Baguhin at i-updeyt ang teksto ng panukala!"
+        remove_solution: "Tanggalin ang solusyon"
+        press_to_compress: "Pindutin sa titulo para bumagsak ang solusyong ito"
+        add_paragraph_to_solution: "Idagdag ang taludtod sa solusyon"
+        you_know_what_you_do: "Alam mo ba talaga kung anong ginagawa mo?"
+        schulze_title: "Isa o kaya maraming solusyon?"
+        inserted_contributes: "Permahan ang mga kontribusyon na isinama mo sa bersyong ito"
+        more_solutions_explained_html: |
+          <b>Bakit ka pa nameng kailangang tanungin kung alam mo na ang ginagawa?</b><br/>
+          %{app_short_name} pinayagan ka na magdagdag ng isa o mas maraming mga solusyon sa panukala.<br/>
+          Kung magkakaroon lamang ng solusyon, sa yugto ng pagboto ng mga kalahok magkakaroon ng opsyon para aprubahan o kaya ay tanggihan ang teskto na ginawang drafted.<br/>
+          Kung magkakaroon pa ng mas maraming solusyon, ang boto ay magiging iba at ang bawat kalahok ay magkakaroon ng kakayahan na bumoto gamit ang pamamaraang Schulze.<br/>
+          Kung susubukan mo na i-draft ang pagbubuod ng problema at kung gusto mo na ibahagi ang teksto <b>huwag lumikha ng alternatibong mga solusyon</b>!<br/>
+          Bagkus kung, ikaw ay maghahanap sa sa boto o kaya ay gusto ng isang alternatibo na hindi malagom ang unang solusyon paktapos ay magpatuloy.<br/>
+          Tandaan yaan, bago ang pagtatalo ay matapos, ikaw ay magkakaroon ng kakayahan na magdagdag o kaya ay tanggalin ang mga solusyon, baguhin ang pamamaraan ng paggamit sa boto.
+        paragraph: "Taludtod"
+        confirm_paragraph_deletion: "Ikaw ba ay talagang sigurado na gusto mong alisin ang taludtod na ito?"
+        confirm_solution_deletion: "Sigurado kaba na gusto mong alisin ang solusyong ito?"
+        press_to_expand: "Pindutin sa titulo para palawakin ang solusyong ito"
+        integrated: "Koordinasyon"
+        contribution_valuation: "Ano sa palagay mo ang kanilang iniisip?"
+        navigator: "Nabigasyon"
+        compress_solutions: "Nabuwag ang mga solusyon"
+        hide_contributes: "Itago ang mga kontribusyon"
+        expand_solutions: "Ang paglawak ng mga solusyon"
+        show_contributes: "Ipakita ang mga kontribusyon"
+        cancel_confirm: "Kanselahin ang iyong mga operasyon at ipakita ang panukala?"
+        update_confirm: "Ikaw ay walang koordinasyon sa kahit anong kontribusyon. Sigurado kaba na gusto mong ituloy?"
+      manage_noise:
+        available: "Ang karapat dapat na alisin na mga kontribusyon"
+        removed: "Ang mga kontribusyon ay inalis mula sa pagtatalakay"
+      contribution_valuation: "Ano sa tingin mo?"
+      contribution_valuation_again: "Baguhin ang iyong iniisip?"
+      new_rank_bar:
+        creation: "Ang paglikha: %{time_ago}<br/>%{date}"
+        end: "TAPOS NA ANG PAGTATALO:<br/> %{date}"
+        valutations:
+          one: "%{count} Ang PAGSUSURI\n"
+          other: "%{count} Ang mga PAGSUSURI"
+        good_score: "ANG POSITIBONG KUROM %{score}%"
+        bad_score: "ANG NEGATIBONG KUROM %{score}%"
+        now: "%{left} NAIWAN"
+      left_panel:
+        creation_date: "Ang petsa ng paglikha"
+        any_date: "May petsa naba"
+        choose_creation_date: "Pumili ng oras ng agwat"
+        last_hour: "Ang huling isang oras"
+        last_24_hour: "Ang huling 24 na oras"
+        last_week: "Noong huling linggo"
+        last_month: "Noong huling buwan"
+        last_year: "Noong huling taon"
+        date_range: "Ang agwat ng oras"
+      update_comment: "Baguhin"
+    events:
+      index:
+        title: 'Kalendaryo'
+        group_title: "Ang mga kalendaryo ng kaganapan"
+        choose_type: "PUMILI NG URI NG KAGANAPAN"
+      new:
+        private_tooltip: "Ang mga miyembro lamang ng grupo ang makakakita at makikihalok sa kaganapan"
+        title: "Ang Bagong Kaganapan"
+        submit: "Pumili ng kaganapan"
+        type_for_town: "Isulat ang iba pang mga karakter para sa paghahanap ng isang bayan"
+        no_town_found: "Walang bayan na nakita"
+        town_searching: "Ang paghahanap"
+        title_event: "ANG MGA KAGANAPAN SA PAGBOBOTO"
+        title_meeting: "ANG BAGONG KAGANAPAN SA PAKIKIPAG-TAGPO"
+        step_1: "Ang uri ng kaganapan"
+        step_2: "Ang paglalarawan"
+        step_3: "Kailan"
+        step_4: "Saan"
+      show:
+        map: "Mapa"
+        event_place: "Ang lugar ng kaganapan"
+        when_past: "Kailan ba ito?"
+        when: "Kailan?"
+        where_past: "Saan ba ito?"
+        where: "Saan?"
+        show_on_map: "Ipakita sa mapa"
+        reply: "Sagot!"
+        no_answer: "Ikaw ay hindi tumutugon sa imbitasyon"
+        yes_partecipated: "Ikaw ay may kalahok sa kaganapan"
+        no_partecipated: "Ikaw ay walang kalahok sa kaganapan"
+        yes_partecipate: "Ikaw ay makikilahok sa kaganapan"
+        no_partecipate: "Ikaw ay hindi makikilahok sa kaganapan"
+        with_guests: "may %{field} mga bisita"
+        will_be_in: "Ikaw ba ay pupunta sa kaganapan?"
+        participants: "Sino-sinu ang pupunta?"
+        will_partecipate: "Sino ang mga pupunta?"
+        no_participants: "Walang kahit isa ang pumunta"
+        no_participants_yet: "Wala paring mga kalahok"
+        non_participants: "Sino ang hindi pupunta?"
+        will_non_participants: "Sino ang hindi makakapunta?"
+        voting_proposals: "Sa mga araw na ito ang mga panukalang ito ay pabobotahan na"
+        no_voting_proposals: "Walang panukala ang pagbobotahan sa mga araw na ito"
+    votations:
+      show:
+        vote_positive: 'Positibo ang grado'
+        vote_neutral: 'Patas ang grado'
+        vote_negative: 'Negatibo ang grado'
+        confirm_positive: "Nakumpirma na POSITIBO kang bumuto sa panukala '%{name}'? Kapag ikaw ay bumoto hindi na ito nababago."
+        confirm_neutral: "Nakumpirma ang iyong PATAS na pagboto sa panukala '%{name}'? Kapag ikaw ay bumoto hindi na ito nababago."
+        confirm_negative: "Nakumpirma ang iyong NEGATIBO na pagboto sa panukala '%{name}'? Kapag ikaw ay bumoto hindi na ito nababago."
+        confirm_schulze: "Nakumpirma ang iyong pagboto sa panukala '%{name}'? Kapag ikaw ay bumoto hindi na ito nababago."
+    blog_posts:
+      new:
+        title: 'Idagdag ang iyong bagong post'
+        published_in_groups: "Ang post ay ilalathala sa mga sumusunod na mga grupo:"
+      new_button: "Magdagdag ng bagong post"
+      drafts_button: "Hindi na-ilathala ang mga post"
+      drafts:
+        title: "%{blog} - hindi na-ilathala ang mga post"
+      edit_button: "Baguhin"
+      delete_button: "Alisin"
+      comment:
+        delete_button: "Alisin"
+        confirm_delete: "Ikaw ba ay sigurado na gusto mong alisin ang post na ito?"
+        inserted_when: "Pagdadagdag %{when}"
+      list_elements:
+        inserted: "Idinagdag ni %{name} sa %{date}"
+      show:
+        previous_comments: "Ang nakalipas na mga komento..."
+        tags_title: "Ang mga tag:"
+        edit_button: "Baguhin"
+        delete_button: "Burahin"
+        delete_button_confirm: "Ikaw ba ay sigurado na gusto mong burahin ang post na ito?"
+        draft: "I-draft"
+        comments_says: "sabihin..."
+        reserved: "i-reserba"
+      published_button: "Paglalathala ng mga post"
+      view:
+        comments: "Ang mga komento (%{count})"
+      index:
+        title: "Ang huling mga post sa %{app_short_name}"
+      edit:
+        title: "Baguhin ang post"
+      archives:
+        title: "Paghiwa-hiwalayin para sa %{month}, %{year}"
+    alerts:
+      polling:
+        show_all: "Ipakita ang lahat ng mga notipikasyon"
+      index:
+        new_not_read: "Ang mga bagong notipikasyon na ndi pa nababasa"
+        no_new: "Walang bagong notipikasyon"
+        old_not_read: "Nabasa na ang mga lumang notipikasyon"
+        no_old: "Walang notipikasyon"
+    blog_comments:
+      new:
+        insert_comment: "Ilagay ang komento"
+    header:
+      groups:
+        events: "ANG MGA KAGANAPAN"
+        proposals: "ANG MGA PANUKALA"
+        forum: "PAGTITIPON"
+      no_groups_yet: "Ikaw wala pa sa kahit anong grupo."
+      menu:
+        my_page: "ANG AKING HOMEPAGE"
+        my_blog: "ANG AKING BLOG"
+        create_blog: "IKAW AY GUMAWA NG BLOG"
+        preferences: "ANG MGA PREPERENSIYA"
+        administration: "ANG MGA TAGAPANGASIWA"
+        logout: "MAG-LOGOUT"
+        remember_me: "Ako ay tandaan sa kompyuter na ito"
+        login_button: "Mag-login"
+        registration_button: "SUMALI SA AMIN"
+        forgot_password_button: "Ang password na nakalimutan?"
+        resend_email_button: "Wala ka pa bang natatanggap na email ng kumpirmasyon?"
+        no_notifications: "Walang notipikasyon"
+        sign_has_read: "Markahan bilang nabasa na"
+        moderator: "ANG PANIG NG MODERATOR"
+        profile: "PROPAYL"
+      welcome: "Maligayang pagdating"
+      groups_title: "ANG MGA GRUPO"
+      login: "MAG-LOGIN"
+      login_placeholder: "Ang Email"
+      groups_list: "Kayo ay igugrupo para makilahok sa"
+      open_group: "Magsimula ng isang bagong grupo"
+      new_group: "Humanap ng mga grupo"
+      support_us: "SUPORTAHAN KAME"
+      no_alerts: "Walang mga alerto"
+      read: "Basahin"
+    blogs:
+      show:
+        no_posts: "Walang mga Post"
+        no_posts_long: "Walang pang mga post sa Blog na ito, pakiusap tignan at bumalik agad."
+        tag: "Ang Tag"
+        previous_posts: "Ang mga nakalipas na mga Post..."
+        edit_button: "Baguhin ang blog"
+        title: "Ang listahan ng mga blog"
+        no_unpublished_posts: "Wala pang mga inilathala na mga post sa kasalukuyan"
+        other_blogs: "Maraming mga blog"
+      new:
+        title: "Gumawa ka nang pansarili mong blog!"
+        cancel_button: "Hindi, maraming salamat!"
+        create_button: "Lumikha"
+      edit:
+        title: "Ang blog ay baguhin"
+        title_label: "Ang pamagat ng blog"
+        back_to_blog: "Bumalik sa akin blog"
+      index:
+        blog_subtitle: "%{posts} ang mga post, %{comments} ang mga komento"
+        find_blog_label: "Humanap ng blog kung saan ikaw ay interesado sa"
+        search_description: "Gamitin ang bagay sa paghahanap sa tag upang makita ang mga blog ng iyong interesado"
+        search_with_query: "gamitin ang pansariling katanungan"
+        find_title: "Hanapin sa pamagat ng blog o kaya sa pangalan ng may akda"
+        search_with_place: "o kaya ang hangganan ng heograpiya"
+    quorums:
+      index:
+        title: "Ang lahat ng pwedeng magamit na korum"
+        how_read: "Ano ang kurom?"
+        debate_end: "tapos na ang pagtatalo"
+    home:
+      index:
+        whatis: "ANO ITO"
+        partecipate: "IKAW AY KASANGKOT"
+        videos: "ANG MGA GABAY SA BIDYO"
+        whowe: "TUNGKOL SA AMIN"
+        support: "♥ KAME AY SUPORTAHAN"
+        cloud_1: "IMUNGKAHI"
+        cloud_2: "PAGTUTULONGAN"
+        cloud_3: "E-DOMAKRASYA"
+        cloud_4: "ULAT"
+        cloud_5: "MAKIPAGTALO"
+        cloud_6: "PAGTATALO"
+        cloud_7: "KASANGKOT"
+        cloud_8: "BOTO"
+        cloud_9: " PUMILI"
+        try_it: "Subukan ito"
+        register: "Mag rehistro"
+        login: "Mag-login"
+        forgot_password: "Ang nakalimutang password?"
+        follw_on_twitter: "Subabayan @democracyo sa Twitter"
+        field_1:
+          title: "<em>Mungkahi</em> sa mga solusyon"
+          content: "Ang lugar para iulat ang mga problema, mungkahi sa mga solusyon, alternatibong talakayan, upang ibahagi ang desisyon sa pagbubuod. Ang isang makapangyarahing gamit upang mas mapaganda ang pangungulekta sa katalinohan."
+        field_2:
+          title: "<em>Ikaw ay kasangkot</em> sa e-demekrasiya"
+          content: "Sumali sa mga Grupo, pumili ng mga kakatawan sayo a makilahok sa mga kaganapan ayon sa inyo interesado. Kapagmagkakasama tayo ay malakas."
+        field_3:
+          title: "<em>Pumili</em> ng inyong hinaharap"
+          content: "Ang gamit sa paggawa ng-desisyon para ipasya ang makabagong mga pagpipilian sa loob ng mga grupo. Isang simpleng sistema sa pagboto, ang mga pagtatanto direkta at malagnaw na demokrasiya."
+        field_4:
+          title: "<em>Trabaho</em> sa iyong mahusay na interesado"
+          content: "Ibahagi ang iyong mga karanasan, pahusayin ang mga panukala ng iba. Humanap ng mga bagong kaibigan na sa tingin mo ay gusto ka. Pagtatanto sa iyong mga ideya kasama ang iba pa."
+        keep_connected: "Panatilihin ang sesyon"
+        feedback: "MAGPADALA NG MGA SAGOT"
+        FAQ: "KATANUNGAN"
+        guide: "GABAY"
+        change_language: "Baguhin ang lenggwahe"
+        most_used_tags: "Ang pinakang ginagamit na mga tag"
+        show_tags: "Ipakita ang lahat ng mga tag"
+        next_events: "Ang mga susunod na kaganapan"
+        show_events: "Ipakita ang kalendaryo"
+        most_active_groups: "Ang mga pinaka aktibong grupo"
+        show_groups: "Ipakita ang lahat na mga grupo"
+        last_proposals: "Ang huling pampublikong mga panukala"
+        from_blogs: "Ang huling mga post mula sa mga blog"
+        features: "Ang mga tampok"
+        donations: "Ang mga donasyon"
+        volunteers: "Ang mga boluntaryo"
+      show:
+        your_proposals: "Ang mga panukala kung saan ikaw ay kalahok"
+        proposals:
+          title: "Pamagat"
+          last_edit: "Ang huling binago"
+          authors: "Ang mga taga-edit"
+          notifications: "Ang mga notipikasyon"
+        notifications:
+          title: "Ang mga alerto"
+        your_contributes: "Ang iyong huling mga ambag"
+        your_territory: "Ang iyong teritoryo (pagsubok)"
+        no_proposals_to_vote_now: "Walang mga panukala sa bahagi ng pagboto sa mga sandaling ito"
+        proposals_now_voting: "Ang mga panukala para sa pag-boto ngayon"
+    open_space:
+      layout:
+        proposals_button: "ANG MGA PANUKALA"
+        calendar_button: "ANG KALENDARYO"
+        map_button: "MAPA"
+        groups_button: "ANG MGA GRUPO"
+        blogs_button: "ANG MGA BLOG"
+        petitions_button: "ANG MGA PETISYON"
+        tags_button: "ANG MGA TAG"
+    proposal_supports:
+      new:
+        panel_title: "Nakumpirma ang suporta sa panukala"
+        no_available_groups: "Ikaw ay walang pahintulot upang suportahan ang panukala sa ngalan ng anumang grupo"
+      confirm_button: "Nakumpirma"
+    calendar:
+      create_event_button: "Gumawa ng bagong kaganapan"
+    sessions:
+      new:
+        login_label: "Email"
+        remember_me_label: "Ako ay tandaan"
+      links:
+        register: "Hindi pa nakapag rehistro? Mag-sign up!"
+        forgot_password: "Nakalimutan mo ang iyong password?"
+        havent_received_email: "Wala ka pa bang natanggap na email ng kumpirmasyon?"
+    steps:
+      next: "Ipagpatuloy"
+      interest_borders:
+        title: "Magsimulang makilahok"
+        description_html: |
+          Itakda ang mga interasadong hangganan ng iyong heograpiko.<br />
+          Kung ang Airesis ay alam kung anong mga teritoryo na ikaw ay interesado sa, ito ay pwede mong imungkahi sa mga grupo na sumunod at ipakita ang bagong mga panukala na may kaugnayan sa iyong teritoryo.<br />
+      rank_bar_explain:
+        title: "Ang baras ng matatanda"
+        description_html: |
+          Ang bar ng pagtanda ay nakatayo sa kaliwang bahagi ng menu ng panagiliran.<br />
+          Ang mga bar ay ipapakita ang na aprobahan ng matatanda ng panukala sa gitna ang mga kalahok.<br />
+          Pwede mong imungkahi kung ang teksto ng panukala ay kumpleto o kaya ay hindi ginamit ang dalawang pindutan sa ibaba ng bar.<br />
+          Ang taga-edit ng panukala ay isinusulat ang teksto sa batayan ng mga ambag ng ibang mga kalahok. Kapag ang teksto ng panukala ay binago ikaw ay magbibigay ng posibilidad na imumungkahi kung gusto mo o kaya ay hindi mo gusto ang bagong teksto at bilang kahihinatnan, upang mabago ang mga nakalipas na pagsusuri.<br /> Ang kulay ng bar na mga ipapakita kung ang panukala ay kasalukuyan ng dadalhin sa bahagi ng pagboto, habang ang haba na oras ng mga palabas at/o kaya ang mga pagsusuri ay iiwanan bago ang kataposan ng diskusyon.<br />
+        newdescription2: "Ang mga bar na ididispley nang matatanda na panukala na nakapaloob ang mga kalahok at ilang oras ang natitira hanggang sa matapos ang pagtatalo"
+        newdescription3: "Ang kulay ay ididispley kung ang panukalang ito ay maaaring pumunta sa bahagi ng pagboto, habang ang haba ay ididipley at kung gaano karaming oras ang naiwan bago ang katapusan ng pagtatalo"
+        newdescription4: "Kapag naisip mo na ang pagtatalo ay tapos na at isinama ng mga taga-edit ang mga ambag ng iba pang mga gumagamit, at gamitin ang pindutan na ito"
+        newdescription5: "Kung inisip mo na ang pagtatalong ito ay magpapatuloy, gamitin ang pindutan na ito"
+        newdescription6: "Kapag na-updeyt na ang teksto ng panukala, pwede mong baguhin ang iyong pagsusuri"
+      welcome:
+        title_html: <b>Maligayang pagdating sa %{app_short_name}, %{user}</b><br/>
+        description_html: |
+          Ang maikling pagtuturo na ito ay tutulong sa iyo sa mga unang pagpipilian sa loob ng plataporma.<br/>
+          Ito ang iyong desktop: dito matatagpuan mo ang lahat ng impormasyong kailangan mo upang makipag-ugnay sa iyong teritoryo.<br/>
+          Maaari mong pamahalaan ang iyong mga panukala at ang iyong mga grupo, tingnan ang mga kaganapan sa paligid mo at makipag-ugnay sa iba pang mga mamamayan.<br/>
+          Pagbutihin ang Airesis sa pamamagitan ng pagpapadala ng kasagotan sa <a href="mailto:info@airesis.it">
+          info@airesis.it</a>.<br/>
+      choose_follow:
+        description_html: |
+          Ikaw ay narito ang pinaka-aktibong grupo sa mga teritoryo sa loob ng iyong mga interesado na hangganan.
+          <br />Piliin ang isa sa iyong gusto na makilahok, kaya makakausap mo sila at makilahok sa kanilang mga kaganapan at mga panukala.<br />
+          Pindutin nang isang beses upang piliin, pindutin muli upang tanggalin ang pagkakapili.<br />
+      first_proposal:
+        title_html: Ang iyong unang ambag
+        description_html: |
+          Panahon na upang ibigay ang iyong opinyon!<br />
+          Idagdag ang isang panukala, isang ideya o isang kasagotan mula sa teritoryo.<br />
+          Mapangahas sa diskusyon at ipaalam sa iba pang mga tagagamit sa iyo.<br/>
+          Ang iyong panukala ay idaragdag sa %{proposal} at maaaring suportado ng mga grupo sa iyong teritoryo!
+    proposal_histories:
+      index:
+        title: "%{title} - Pagbabago ng beryson ng Historya"
+        back_to_proposal: "Bumalik sa pabukala"
+      title: "Pagbabago ng beryson ng Historya"
+      loading_revisions: "Ang pagbabago ng mga bersyon ay nagloload..."
+      editor_name: "Ang may akda sa pagbabago ng bersyon:"
+      revision: "Ang pagbabago ng bersyon"
+      date_and_time: "Ang pesta at oras"
+      present_life_cycle: "Ang kasalukuyang ikot ng buhay"
+      no_revision: "Walang pagbabago ng bersyon"
+      life_cycle: "Ang ikot ng buhay"
+      life_cycle_number: "Ang bilang ng ikot ng buhay %{life}"
+      end_date: "Ang petsa ng kataposan:"
+      score_reached: "Ang pagtanda ay naabot na:"
+      evaluation_reached: "Ang bilang ng mga pagpapahalaga:"
+      quorum_used: "Ang kurom ay ginagamit:"
+      editors_in_life_cycle: "Ang mga taga-edit sa ikot ng buhay:"
+      solutions:
+        added: "ANG BAGONG SOLUSYON"
+        removed: "ALISIN ANG SOLUSYON"
+      sections:
+        added: "ANG BAGONG TALATA"
+        removed: "ALISIN ANG TALATA"
+    tags:
+      show:
+        related_title: "Ang mga tag na may kaugnayan"
+        not_found: "Ang tag '%{tag}' ay hindi nakita"
+        title: "Ang listahan ng mga elemento na may tag '%{tag}'"
+      list_proposals_with_tag: "Ang mga panukala"
+      no_proposals_with_tag: "Walang pang mga panukala sa tag na ito"
+      list_posts_with_tag: "Ang mga post"
+      no_posts_with_tag: "Walang mga post na may kasamang tag na ito"
+      list_groups_with_tags: "Ang mga grupo"
+      no_groups_with_tag: "Walang mga grupo na may kasamang tag na ito"
+      proposals_tab: "Ang mga panukala"
+      posts_tab: "Ang mga post"
+      groups_tab: "Ang mga grupo"
+      not_found:
+        subtitle: "Ito ang mga pinakang ginagamit na mga keyword sa Airesis"
+      index:
+        title: "Ang lista ng mga pinakang ginagamit na tag"
+    footer:
+      for_edemocracy: "para sa e-demokrasiya"
+      go_to_main_site: "Pumunta sa pinaka pangunahing site"
+      for_edemocracy_html: "<a href=\"https://github.com/coorasse/Airesis\" target=\"_blank\">Bukas ang Pinagmulan</a> ang proyekto para sa e-demokrasiya"
+    moderator_panel:
+      title: "Ang panig ng moderator"
+      block_user: "Ang hinarang na tagagamit"
+      blocked_user_list: "Ang listahan ng mga hinarang na tagagamit"
+      block: "I-unblock"
+    feedback:
+      send_feedback: "Kasagotan"
+      add_details: "Idagdag ang mga detalye"
+      view_preview: "Pribyu"
+      send_succes: "Magumpay na naipadala ang mga kasagotan. Maraming salamat!"
+      send_error: "Humihingi ka ng paumanhin dahil may maling naganap habang pinapadala ang kasagotan"
+      describe_problem: "Isulat ang iyong mensahe dito:"
+      highlight_or_blackout: "I-highlight o kaya ay i-blackout ang importanteng impormasyon"
+      blackout: "I-blackout"
+      highlight: "I-highlight"
+    passwords:
+      edit:
+        title: "Baguhin ang iyong password"
+    event_comments:
+      new:
+        insert_comment: "Ipasok ang isang komento"
+    propsoals:
+      index:
+        type: "ang uri ng %{type}"
+    proposal_comments:
+      title: "Ang Historya ng mga Ambag"
+      noise:
+        title: "Ang listahan ng pinaka-maingay na mga pag-ambag"
+        no_contributes: "Walang mga pag-ambag dito"
+    available_authors:
+      index:
+        explain_html: |
+          Pumili ng mga tagagamit na gusto mong tulongan na bunutin ang isang buod ng panukala at pinudutin sa 'Seyb'.<br/> Maging maingat! Ang mga tagagamit na ito ay mayroon na kaparehang mga pahintulot sa tagapamahala ng iyong panukala.
+    participation_roles:
+      edit:
+        title: "Baguhin ang gampanin ng kalahalok"
+    group_participations:
+      index:
+        title: "Ang mga listahan ng kalahok"
+    certifications:
+      index:
+        title: "Ang mga grupong sertipikado"
+  pl:
+    comments:
+      one: "mag komento ng isa"
+      other: "%{count} ang mga komento"
+  models:
+    best_quorum:
+      good_score_condition: "Ang panukala ay dadalhin na sa pagboto kapag mas marami ang nakakatanda <b>%{good_score}%</b> at %{participants}, kung hindi ito ay aabandonahin"
+      good_score_condition_past: "Ang panukala ay maaring mawala sa pagboto kung mas marami ang nakakatanda <b>%{good_score}%</b> at %{participants}, kung hindi ito ay aabandunahin"
+    quorum:
+      participants:
+        one: '<b>ang isang tao</b>ay maaaring makilahok'
+        other: 'may mga tao na nakikilahok <b>%{count}</b>'
+      participants_past:
+        one: '<b>ang isang tao</b> ay nakikilahok'
+        other: 'may mga nakikilahok sa <b>%{count}</b> tao'
+      or_condition_1: "Ang pagtatalo ay matatapos sa %{time} o kaya ay kelan %{participants_num}."
+      or_condition_1_past: "Ang huling pagtatalo %{time} o kaya kelan %{participants_num}."
+      and_condition_1: "Ang pagtatalo ay matatapos na sa %{time}, pero ito ay ipagpapatulong kung sakali %{participants_num}."
+      and_condition_1_past: "Ang huling pagtatalo %{time}, pero ito ay ipapapatuloy %{participants_num}."
+      time_condition_1: "Ang pagtatalo ay matatapo na sa %{time}"
+      time_condition_1_past: "Ang huling pagtatalo %{time}"
+      participants_condition_1: "Ang pagtatalo at ipagpapatuloy hangga sa %{participants_num}."
+      participants_condition_1_past: "Ang pagtatalo ay ipagpapatuloy hanggang %{participants_num}."
+      good_score_condition: "Ang panukala ay dadalhin na sa pagboboto kung mas marami ang nakakatanda <b>%{good_score}%</b>, kung hindi ito ay aabandunahin"
+      good_score_condition_past: "Ang panukala ay mamawala sa pagboboto kung mas marami ang nakakatanda <b>%{good_score}%</b>, kung hindi ito ay pwedeng abandunahin"
+      bad_score_explain: |
+        Kung ang panukala at pinagkukuha ng mas matanda pa <b>%{good_score}%</b> ito ay mapupunta sa bahagi ang pabobotahan. Kung gayunman ito ay mapupunta sa mas mababang rango <b>%{bad_score}%</b>, it ay 
+        aabandunahin.<br/>
+        Ang pagtatalo ay ipagpapatuloy kung ang rango ay nananatili sa pagitan dalawang mga bukanang ito, hindi alintana ang oras o kaya ay bilang ng mga susuriin
+      bad_score_explain_past: |
+        Kung ang panukala ay nakakuha ng isang pagkamatanda sa paglipas ng <b>%{good_score}%</b> ito ay mapupunta sa bahagi ng pagboto. Kung gayunman itong ranggo sa ibaba <b>%{bad_score}%</b>, ito ay inabandona.<br/>Ang pagtatalo ay nagpatuloy kung ang ranggo ay mananatili sa pagitan ng dalawang mga limitasyon na ito, anuman ang oras o ang bilang ng mga pagsusuri
+      until_date: "(hanggang sa %{date})"
+      help_content:
+        description_html: |
+          <h3>Ano ang korum?</h3>
+          <p>
+          Ang korum ay ang parametro na tumutukoy kapag ang pagtatalo ng panukala ay nagtatapos at ang bahagi ng pagboto ay nagsisimula.<br />
+          Kapag lumikha ka ng isang bagong panukalang piliin mo ang isa sa korum na magagamit sa Bukas na Espasyo o isa sa mga korum na magagamit sa iyong grupo.<br />
+          Sa windoe na ito maaari mong pindutin ang iba't-ibang mga korum upang tingnan ang mga katangian nito: makikita mo ang paglalarawan at ang listahan ng mga parametro na pinili.<br />
+          </p>
+        participants: "Ang pinaka mababang bilang ng kalahok:"
+        not_specified: "Hindi matukoy"
+        time_discussion: "Ang panahon ng talakayan:"
+        condition: "Ang kondisyon ng daanan:"
+        at_least_one: "Kahit isa"
+        both: "Parehas"
+        good_score: "Pagtanda:"
+        bad_score: "Tinanggihan:"
+  proposals:
+    create_button: "Gumawa ng isang panukala"
+    show:
+      ready_for_vote: "Nakahanda na para sa boto"
+      keep_discuss: "Ipagpatuloy ang talakayan"
+    regenerate_button: "Ibalik sa pagtatalo"
+    edit:
+      expand_all: "Ang lahat ay palawakin"
+      collapse_all: "Ang lahat ay bumagsak"
+    schulze_vote_results:
+      results: "Ang mga resulta"
+      votes: "Ang mga boto"
+      solution: "Solusyon"
+      points: "Ang mga puntos"
+      random_ordered_votes: "Ang pagtukmu-tukmo ng kaayosan sa mga boto"
+      number_of_voters: "Ang bilang ng mga botante"
+      vote: "Ang kanilang boto"
+    authors_list_panel:
+      dont_want_to_be_an_author: "Ayaw ko nang maging akda kahit kelan"
+    left_panel:
+      promote_proposal: "Itaguyod ang panukala"
+      share_with_friends: "Ibahagi sa mga kaibigan"
+    show_proposal:
+      vote_here: "Ang panukalang ito ay ang bahagi ang pagboto. Basahin ang mag solusyon(s) at %{link}."
+  digit_tags: "Isulat ang mga tag na gusto mong idagdag"
+  buttons:
+    cancel: "Kanselado"
+    save: "I-seyb"
+    report: "I-ulat"
+    update: "I-updeyt"
+    send: "Ipadala"
+    create: "Gumawa"
+    delete: "Alisin"
+    search: "Hanapin"
+    close: "Sarado"
+    edit: "Baguhin"
+    next: "Sunod"
+    go_back: "Bumalik"
+    chosen: "Ako ay may napili na!"
+    ok: "SIGE"
+    yes_word: 'OO'
+    no_word: 'HINDI'
+    mark: "Marka"
+    detach: "Hiwalay"
+    login: "Mag-login"
+    show: "Ipakita"
+    preview: "Pribyu"
+    new_newsletter: "Gumawa ng newsletter"
+    unlock: "I-unlock"
+    vote_here: "bumoto dito"
+    unintegrate: "Ibalik sa pagtatalo"
+    join_accounts: "Sumali sa mga akawnt at mag-login"
+    save_and_exit: "I-seyb at lumabas"
+  tooltips:
+    random_stack_1: "<strong>Paano ito gumagana?</strong><br/>Una, ang mga bagong ambag o kaya ay ang mga hindi mo nasuri ay ipinapakita, pagkatapos ay ang mga ambag na sinuri mo sa pagkakasunod-sunod. <br/> <b>Paalala</b>: Ang iyong grado ay magbabago sa ayos na ito!"
+    random_stack_2: "<strong>Paano ito gumagana?</strong><br/>Ang mga ambag ay ipapakita sa pagkakasunod-sunod ng ayos ay magsisimula sa pinaka kasalukuyan"
+    random_stack_3: "<strong>Paano ito gumagana?</strong><br/>Ang mga ambag ay ipinapakita sa pagkakasunud-sunod ng kasikatan.<br/> <b>Paalala</b>: Ang iyong grado ay magbabago sa ayos na ito!"
+    miglioricontributi: "<strong> Paano ako makakatulong? </strong> <br/> Ang mga ambag ay hindi dapat inihahayag sa simpleng pagpapahalaga ngunit malaking pagbabago sa teksto: ang nakakapag bigay liwanag sa pagpuna, ang mga alternatibo o pagpapabuti sa panukala ay tutulong sa manunulat na bumuo ng isang buod na buod ng teksto. <br /> <br/> <b>Paalala</b>: Ang pinakamahalagang ambag ay kung ano ang posible upang makahanap ng solusyon sa panukala!"
+    voglioredigere: "Tanungin ang mga taga-edit na pahintulutan kang baguhin ang teksto ng panukala batay sa mga kontribusyon ng mga gumagamit."
+    voteup: "Ang panukala ay sapat na at maaaring pumunta na sa bahagi ng pagboto (maaari mong baguhin ang iyong pagsusuri kapag i-napdeyt ang teksto ng panukala)"
+    votedown: "Ang teksto ng panukala ay hindi pa hinog sa ngayon, dahil ang mga kontribusyon ng mga gumagamit ay dapat na isinama (maaari mong baguhin ang iyong pagsusuri kapag ang teksto ng panukala ay maaaring i-updeyt)"
+    valutazioni: "ang kabuuang bilang ng mga pagsusuring natanggap"
+    gradimento: "ang porsyento ng positibong mga pagsusuri sa kabuuan"
+    nickname: "<strong> Sa panukalang ito, mas pinili namen na pag-usapan nang hindi pa nagpapakilala </strong> <br /> Sa ganitong paraan ay hindi posible para sa iba pang mga gumagamit na malaman kung sino ka at sa parehong oras, at hindi din posible para sa iyo na malaman kung sino ang iba pa. <br /> nagtatrabaho at nagsasalita sa ganitong paraan makakagawa ka ng mga pagpapasya at suriin ang mga panukalang batay lamang sa nilalaman. <br/> <b>Paalala</b>: Kapag tapos na ang talakayan at maaprubahan o tanggihan ang panukala pagkatapos ay makikita mo ang tunay na mga pangalan ng mga gumagamit!"
+    manage_noise: "<strong> Pamahalaan ang walang pakinabang na mga kontribusyon</strong> <br /> Ang mga kalahok ay ipapaalam sa iyo kung ano ang mga kontribusyon na walang pakinabang sa talakayan. Sa pamamagitan ng panig na ito maaari mong alisin at ilagay ang mga ito sa folder ng Mga Inalis na Kontribusyon."
+    view_noise: "Tingnan ang <strong>walang pakinabang na mga kontribusyon</strong> <br /> Dito mo makikita ang lahat ng mga kontribusyon na itinuring na walang paknabang at tinatanggal ang talakayan ng mga taga-edit ng panukala"
+    quorum_minutes: "hanggang <b>%{date}</b>sa %{time}"
+    quorum_valutations: "hanggang sa ma rate namen sa pamamagitan nang<b>kahit %{valutations} tao</b>"
+    quorum_description: "Ang panukala ay nasa pagtatalo na %{conditions}. Ito ay mapupunta lamang sa bahagi nang pagboboto kung ito ay <b>sapat na</b> at mas higit pa <b>%{good_score}%</b>."
+  group: "grupo"
+  saving: "Sini-seyb..."
+  sending: "Pinapadala..."
+  updating: "Ina-updeyt..."
+  loading: "Nagloload..."
+  error:
+    setting_preferences: "May habang sini-set ang mga preprensiya"
+    admin_required: "Kailangan ay maging admin ka upang makita ang pahinang ito"
+    permissions_required: "Ikaw ay walang pahintulot para gawin ang operasyong ito"
+    portavoce_required: "Kailangan ikaw ay admin ng grupo upang makita mo ang pahinang ito"
+    blog_required: "Upang gawin ang pagkilos na ito kailangan mong gawin ang iyong pansarili na blog"
+    not_your_blog: "Hindi maaaring gawin ang aksyon na ito sa blog ng ibang mga gumagamit"
+    role_permission_change: "Hindi possible na mabago ang pahintulot na ito"
+    event_answer: "May mali habang pinapadala ang sagot"
+    event_already_answered: "Ikaw ay kasalukuyan ng nasagotan ang kaganapang ito"
+    event_past: "Ang kaganapan ay natapos na"
+    configuration_required: "Ang modyul ay hindi magagamit"
+    areas_required: "Ito ay kinakailangan upang mapagana ang mga lugar sa pagawaan"
+    quorums:
+      quorum_creation: "May habang ginagawa ang kurom"
+      quorum_modification: "May mali habang ina-updeyt ang kurom"
+      advanced_proposals_settings: "May habang habang siniset ang mga preperensiya"
+    participation_roles:
+      role_updated: "May mali habang ina-update ang tungkulin"
+      role_created: "May mali habang ginagawa ang tungkulin"
+    groups:
+      update: "May mali habang ina-update ang grupo"
+      work_area:
+        area_created: "May mali habang ginagawa ang lugar ng pagawaan"
+      creation: "May mali habang ginagawa ang grupo"
+      post_removed: "May habang tinatanggal ang post mula sa grupo"
+    proposals:
+      view_proposal: "Ikaw ay wala ng kinakailangan na mga pahintulot upang makita ang panukalang ito"
+      participate: "Ikaw ay wala ng kinakailangan na mga pahintulot upang gawing aktibo ang mga kalahok sa panukalang ito. Pakiusap kontakin ang namamahala sa grupo"
+      modify_comments: "Hindi mo pwedeng baguhin ang mga komento na hindi nakapaloob sa iyo"
+      insert_comment: "May mali habang idinadagdag ang komento"
+      contribute_report: "May mali habang inuulat ang kontribusyon"
+      updating: "May mali habang nag-updeyt"
+      proposal_rank: "Habang habang itinatala ang iyong pagsusuri. Kame ay humihingi ng paumanhin para sa hindi maginhawa. Subukang muli mamaya. Maraming salamat"
+      proposal_not_waiting_date: "Ang panukalang ito ay hindi na makakapag hintay ng petsa para iboto sa"
+      proposal_not_voted: "Ang panukalang ito ay hindi pa tapos sa bahagi ng pagboto, kaya hindi mo na kailangan ang aksyon na ito kahit kelan"
+      proposal_not_valuating: "Ang panukalang ito ay wala pa sa bahagi ng pagboto, kaya hindi mo na magawa ang aksyon na ito"
+      proposal_already_ranked: "Kasalukuyan mo nang sinuri ang panukalang ito nang isang beses. Ang panukala ay hindi pa nabago mula sa iyong huling pagsusuri"
+      proposal_not_your: "Hindi mo pwedeng baguhin ang mga panukala na hindi gawa sayo iyo"
+      creation: "Kame ay humihingi ng paumanhin ngunit nagkaroon ng mali habang gumagawa ng panukala"
+      editors_added: "Nagkamali habang may idinadagdag ang mga taga-edit"
+      close_debate: "Nagkamali habang isinasara ang pagtatalo"
+      vote_period_incorrect: "Pumili ng ibang pagboboto sa kaganapan"
+      vote_period_soon: "Ang kaganapan sa boto ay magsisimula sa %{time} ilang mga minuto pagkatapos ng pagtatalo"
+      vote_period_short: "Ang kaganapan sa boto ay huli ng mahigit 10 na minuto"
+      same_title: "May bagong panukala na may kaparehong titutlo."
+    registration:
+      recaptcha: "May mali sa pagpapatunay sa captcha. Pakiusap ulitin muli"
+      user_not_found: "Ang gumagamit ay hindi matagpuan"
+    blog:
+      cannot_edit: "Hindi mo pwedeng baguhin ang blog dahil hindi yan sayo"
+      already_have: "Pasensiya na. Ikaw ay mayroon nang blog"
+      comment_added: "May mali habang nagdadagdag ng komento"
+    users:
+      join_accounts: "May mali habang sumasali sa mga akawnt."
+      join_accounts_password: "Ang password ay mali"
+    group_participations:
+      destroy: "Hindi ka pwedeng umalis sa grupo sa kung saan ikaw ay punong tagapangasiwa"
+      already_member: "May mali habang gumagawa ang kahalok ng kahilingan. Ikaw ay kasalukuyan ng miyembro ng grupong ito!"
+      request_not_registered: "Ikaw ay miyembro na ng mga grupong ito ngunit hindi nakarehistro ang iyong kahilingan sa paglahok."
+      request_sent: "May mali habang gumagawa ang kalahok ng kahilingan"
+      request_not_found: "Ang kahilingan ay hindi makita. May mali sa operasyon"
+      error_saving: "May mali sa pamamalakad. Hindi magawang makapag patuloy"
+    error_404:
+      proposals:
+        title: "Ang panukalang ito ay hindi umiiral"
+        description: "Ang panukala na iyong hinahanap para sa hindi umiiral o kaya ay inalis na"
+      blog_posts:
+        title: "Ang post na ito ay hindi umiiral"
+        description: "Ang post na iyong hinahanap para sa hindi umiiral o kaya ay inalis na"
+      events:
+        title: "Ang kaganapang ito ay hindi umiiral"
+        description: "Ang kaganapan na iyong hinahanap ay hindi umiiral o inalis na"
+      groups:
+        title: "Ang grupong ito ay hindi umiiral"
+        description: "Ang grupo na iyong hinahanap ay hindi umiiral o kaya ay inalis na"
+      title: "Ang pahina na iyong hinahanap ay hindi na umiiral"
+      description: "Ang iyong address ay maaaring hindi tama, o kaya ay hindi na umiiral ang pahinang ito"
+    error_500:
+      title: "Oops...mali kame"
+      description: "Ang ulat ay naipadala at ang problema ay dapat maayos sa lalong madaling panahon."
+    event:
+      comment_added: "May mali habang inilalagay ang komento"
+    participations_destroyed: "May mali habang ginagawa ang operasyon"
+    error_indexer:
+      title: "Ang serbisyo ay hindi magagamit"
+      description: "Tayo ay nakakaranas ng mga problema sa mga panloob na sistema. Subukan muli sa ilang minuto."
+    error_302:
+      title: "Ang akses ay hindi awtorisado"
+      description: "Pasensya na. Ikaw ay walang mga pahintulot upang ma akses ang pinagmulang ito."
+    area_participation:
+      create: "May mali habang idinadagdag ang gumagamit sa lugar"
+    area:
+      update: "May mali habang ina-updeyt ang lugar"
+    group_invitations:
+      code_expired: "Ang kowd ang imbitasyon ay paso na"
+      already_participant: "Ikaw ay kasalukuyang nang isang kalahok sa pangkat na ito"
+      create: "Walang email na napadala"
+  info:
+    setting_preferences: "Ang mga setting ay matagumpay na nabago"
+    blog_created: "Ang post ay matagumpay na nagawa"
+    proposal:
+      can_change_valutation: "Ang panukala ay binabago mula nang suriin mo ito. Kung gusto mo, maaari mong baguhin ang iyong pagsusuri!"
+      waiting_date: "Ang panukala ay nawala sa bahagi ng talakayan at ngayon ay naghihintay ng isang petsa para sa boto"
+      voting: "Ang panukala ay nasa bahagi ng pagboto"
+      ask_participation: "Tanungin para maging isang miyembro ng grupo upang suriin at mag-ambag sa panukalang ito"
+      public_visible: "Ang panukalang ito ay makikita sa pampubliko"
+      public_visible_short: "Makikita sa pampubliko"
+      available_authors: "May mga bagong taga-edit na magagamit para sa panukala"
+      updated_comment: "Ang iyong komento ay matagumpay na na-updeyt"
+      comment_deleted: "Ang komento ay matagumpay na naalis"
+      contribute_reported: "Ang mga kontribusyon ay matagumpay na na-iulat"
+      contribute_added: "Ang kontribusyon ay matagumpay na naidagdag"
+      comment_added: "Ang komento ay matagumpay na naidagdag"
+      contribute_added_right: "Ang kontribusyon ay matagumpay na naidagdag.<br/>Upang tingnan ito pindutin ang 'Sumulat at Ipakita ang Kontribusyon' sa tabi ng talata '%{section}'"
+      proposal_created: "Ang panukala ay matagumpay na gawa. Ipagpatuloy ang pagpapaliwanag na pinupunan ang mga natitirang mga anyo"
+      proposal_updated: "Ang panukala ay matagumpay na na-updeyt"
+      proposal_deleted: "Ang panukala ay matagumpay na inalis"
+      date_selected: "Ang panukala ay pagbobotohan sa napiling panahon"
+      rank_recorderd: "Ang iyong pagsusuri ay nakarehistro na"
+      comment_already_ranked: "Nasuri mo na ang komentong ito. Hindi posible na baguhin ang pagsusuri ng isang komento pa"
+      comment_not_your: "Ikaw ay walang ng kinakailangan na mga karapatana upang alisin ang komento"
+      login_to_contribute: "Mag-login upang idagdag ang iyong kontribusyon"
+      back_in_debate: "Ang panukala ay nasa pagtatalong muli. Ngayon ikaw ay taga-edit"
+      editors_added: "Ang mga bagong taga-edit ay matagumpay na naidagdag!"
+      offered_editor: "Inihahanadog mo ang iyong sarili para isulat ang panukalang ito!"
+      authors_added: "Ang mga bagong may-akda ay tama ang pagkakadagdag"
+    message_sent: "Ang mensahe ay matagumpany na naipadala"
+    private_messages_active: "Ang ibang mga tagagamit ay magpapadala sa iyo ng pribadong mga mensahe"
+    private_messages_inactive: "Ang ibang mga tagagamit ay hindi magpapadala sa iyo ng mga pribadong mensahe"
+    rotp_active: "Ang toke para sa seguridad ay naka-enable"
+    rotp_inactive: "Ang toke para sa seguridad ay naka-disable"
+    quorums:
+      quorum_created: "Ang kurom ay matagumpay na nagawa"
+      quorum_updated: "Ang kurom ay matagumpay na na-updeyt"
+      quorum_deleted: "Ang kurom ay matagumpay na naalis"
+      quorum_activated: "Ang kurom ay naka-enable"
+      quorum_deactivated: "Ang kurom ay naka-disable"
+      can_modify_advanced_proposals_settings: "Ang mga taga-edit ay babaguhin ang mga pinahusay na setting"
+      cannot_modify_advanced_proposals_settings: "Ang mga taga-edit ay hindi kayang baguhin ang mga pinahusay na setting"
+      anonymous_proposals: "Ang mga panukala ng grupo ay hindi makikilala sa pamamagitan ng default"
+      non_anonymous_proposals: "Ang mga panukala ng grupo ay hindi magiging kilala sa pamamagitan ng default"
+      public_proposals: "Ang mga panukala ng grupo ay makikita sa pampubliko bilang default"
+      private_proposals: "Ang mga panukala ng grupo ay hindi makikita sa pampubliko bilang default"
+      secret_vote: "Ang mga panukala ng grupo ay gagamit ng sekretong balota sa pamamagitan ng default"
+      non_secret_vote: "Ang mga panukala ng grupo ay hindi gagamit ng sekretong balota sa pamamagitan ng default"
+    groups:
+      group_updated: "Ang grupo ay matagumpay na na-updeyt"
+      work_area:
+        area_created: "Ang lugar ng pagawaan ay matagumpay na nagawa"
+      group_deleted: "Ang grupo ay naalis ang tama"
+      group_created: "Ang grupo ay nagawa ng tama"
+      search_participants: "Ang paghahanap ay nakumpleto. Ang paghahanap sa mga resulta ay na updeyt"
+      post_removed: "Ang post ay tinanggal mula sa Haligi ng grupo"
+      area_updated: "Ang lugar ay ina-updeyt"
+      post_featured:
+        'true': Ang post ay naka-pin sa taas
+        'false': Ang post ay tinanggal sa pagkaka-pin
+    participation_roles:
+      role_updated: "Ang tungkulin ay matagumpay na na-updeyt"
+      permissions_updated: "Ang mga pahintulot ay na-updeyt"
+      role_created: "Ang mga panukala ay matagumpay na nagawa"
+      role_changed: "Ang mga tungkulin ay matagumpay na nabago"
+      role_deleted: "Ang katangian ay matagumpay na naalis"
+      user_removed_from_group: "%{name} matagumpay na natanggal mula sa grupo"
+    user:
+      click_to_change: "Pindutin ang impormasyon na gusto mong bahugin"
+      info_updated: "Matagumpay na na-updeyt ang impormasyon"
+      account_joined: "Matagumpay na nakasali sa mga akawnt!"
+      tooltips_enabled: "Naka-enable ang mga tooltip"
+      tooltips_disabled: "Naka-disable ang mga tooltip"
+      url_shown: "Nakikita ang mag URL"
+      url_hidden: "Nakatago ang mga URL"
+      update_border: "Ang mga hangganan ng interes sa heograpikal ay na-updeyt nang tama"
+      confirm_email: "Kailangan mong kumpirmahin ang bagong email address"
+      IP_disabled: "Inalis ang pagkakakilanlan ng probayder"
+      time_zone_changed: "Ang oras ng lugar ay naka-seyb"
+    blog:
+      blog_created: "Ang blog ay matagumpay na nagawa"
+      title_updated: "Ang pamagat ng blog ay matagumpay na na-updeyt"
+      comment_added: "Ang komento ay matagumpay na nagawa"
+      destroyed: "Ang blog ay matagumpay na sinira na"
+    events:
+      event_deleted: "Ang kaganapan ay matagumpay na naalis"
+      event_updated: "Ang kaganapan ay matagumpay na na-updeyt"
+    moderator_panel:
+      account_blocked: "Ang akawnt ay blinock"
+      account_unblocked: "Ang akawnt ay inun-block"
+    locale_changed: "Ang lokalisasyon ay matagumpay na nabago"
+    blog_post_updated: "Ang iyong post ay matagumpay na na-updeyt"
+    blog_post_deleted: "Ang iyong post matagumpay na naalis"
+    participation_request:
+      multiple_request:
+        one: "Sinabi mo kung pwedeng makilahok sa %{count} bagong grupo"
+        other: "Sinabi mo kung pwedeng makilahok sa %{count} mga bagong grupo"
+    group_participations:
+      destroy_ok_1: "Ikaw ay umalis sa grupo. Sa hinaharap maaari mong sabihin na makilahok muli"
+      request_sent: "Ang kahilingan sa pakikilahok ay matagumpay na naipadala"
+      request_alredy_sent: "Ikaw ay kasalukuyang nang napadala ang kahilingan sa pakikilahok sa grupong ito"
+      status_accepted: "Ang kahilingan sa pakikilahok ay natatangap na"
+      status_voting: "Ang kahilingan sa pakikilahok ay pwedeng ng iboto ngayon"
+      status_declined: "Ang kahilingan sa pakikilahok ay hindi tinanggap"
+    event:
+      comment_added: "Ang komentpo ay matagumpay na naipasok"
+    topic:
+      hidden: "Ang paksang ito ay nakatago"
+    participations_destroyed: "Ang mga tagagamit ay inalis. Pakiusap i-refresh ang pahina."
+    area_participation:
+      create: "Ang gumagamit ay idinagdag sa lugar"
+      destroy: "Ang gumagamit ay tinanggal mula sa lugar"
+    group_invitations:
+      create:
+        one: "Ang imbitasyon ay naipadala ng tama sa %{email_addresses}"
+        other: "%{count} Ang imbitasyon ay naipadala ng tama sa %{email_addresses}"
+      accept: "Ang imbitasyon ay tinanggap! Ikaw ay miyembro na ng grupong ito."
+      reject: "Ang imbitasyon ay hindi tinanggap."
+      anymore: "Ang imbitasyon ay hindi tinanggap. Ikaw ay hindi nakatanggap ng ibang mga inimbita."
+    blog_comment:
+      destroyed: "Ang komento ay inalis na"
+    user_sensitive:
+      updated: "Ang sensitibong gumagamit ay matagumpay na na-updeyt."
+      created: "Ang sensitibong gumagamit ay matagumpay na nagawa."
+  interest_borders:
+    hint: "Mag-sulat ng ilang mga karakte upang maghanap ng isang lugar"
+    no_place_found: "Walang lugar na natagpuan"
+    searching: "Naghahanap, pakiusap maghintay..."
+    region: "%{name} (Rehiyon)"
+    province: "%{name} (Probinsya)"
+    town: "%{name} (Bayan)"
+    country: "%{name} (Bansa)"
+    continent: "%{name} (Kontinente)"
+  mailer:
+    default:
+      follow_twitter: "kame ay sundan sa Twitter"
+      follow_facebook: "kame ay sundan sa Facebook"
+      follow_google: "kame ay sundan sa Google+"
+      footer:
+        registered_at: "Natanggap mo ang email na ito dahil ikaw ay nakarehistro sa %{url}."
+        connect_with_us: "Kumonekta Sa Amin:"
+        contact_info: "Ang Impormasyon ng Kontak:"
+        email_label: "Email:"
+      edit_preferences: "Ang mga preperensiya"
+      click_here: "Pindutin dito"
+    new_contribute:
+      title: "%{user} ipinasok ang isang bago %{comment} sa panukala"
+      view_proposal: "%{click_here} para makita ang panukala."
+    text_update:
+      view_proposal:
+        one: "Ang panukala <b>%{proposal}</b> ay na-updeyt na."
+        other: "Ang panukala <b>%{proposal}</b> ay na-updeyt na %{count} ng ilang beses."
+      integrated_contributes: "Maligayang bati! Ang mga sumusunod na kontribusyon na iyong ipinasok ay isinama sa pamamagitan ng mga taga-edit:"
+      view_proposal_2: "%{click_here} at mapatunayan na ang bagong teksto ay naglalaman nang iyong mga mungkahi. <br/> Kung hindi ka nasisiyahan maaari mong palaging ibalik ang iyong mga kontribusyon sa pagtatalo sa pamamagitan ng paghatak sa mga ito mula sa Kasaysayan."
+      connect: "Mag-log in %{name}"
+    unintegrated_contribute:
+      view_proposal: "Ang isang kontribusyon ay isinama sa panukala <b>%{click_here}</b> ay naibalik sa pagtatalo ng may-akda nito."
+      view_proposal_2: "%{click_here} kung bakit ay may-akda ay hindi isinasaangalan ang kanyang kontribusyon ay maayos na isinama."
+      verify: "Tsek"
+    user_message:
+      hi_user: "Kamusta %{user},"
+      user_sent_message: "%{user} naipadala na sa iyong ang sumusunod na mensahe:"
+      reply_to_user: "Ikaw ay maaaring tumugon sa %{user} pamamagitan ng pagsagot sa e-mail na ito."
+    blocked:
+      hi_user: "Kamusta %{user},"
+      deleted_correctly: "ipaalam namin sa iyo na ang iyong akwant ay matagumpay na natanggal mula sa Airesis."
+      greetings: "Ang mga pagbati,<br/> mula sa Koponan ng Airesis"
+    new_blog_comment:
+      title: "%{user} nagdagdag ng isang bagong komento sa iyong post %{post}."
+      click_here: "Pindutin dito"
+      view_post: "%{click_here} para makita ang post."
+    invite:
+      hi_user: "Kamusta!"
+      invitation: "%{user} Inimbitahan ka na lumahok sa pangkat <b>%{group}</b> sa %{app_name}, ang platapormang e-demokrasya para sa direktang at partisipasyon sa demokrasya."
+      message_intro: "Ito ang mensahe na naipadala sa iyo:"
+      accept_or_reject: "Kung tinanggap mo ang pag-anyaya pindutin sa 'Tanggapin', kung hindi man sa 'Tanggihan'."
+      no_more: "Kung hindi mo gusto na makatanggap ng mga imbitasyon mula sa %{app_name} pindutin sa 'Walang karagdagang imbitasyon'."
+      accept: "Tanggapin"
+      reject: "Tanggihan"
+      greetings: "Ang mga pagbati!"
+      no_more_button: "Wala pang mga karagdagan na imbitasyon"
+      subject: "Ikaw ay imbitado sa %{group_name}"
+    update_contribute:
+      title: "%{user} Baguhin ang kanyang kontribusyon"
+      view_proposal: "%{click_here} para makita ang kontribusyon at para baguhin ang iyong pagsusuri"
+    new_forum_topic:
+      view: "para makita ang paksa sa %{app_short_name}."
+  words:
+    contribute: "kontribusyon"
+    comment: "komento"
+    or: "o kaya"
+    and: "at"
+    terms_of_service: "Ang mga tuntunin ng Serbisyo"
+    privacy_policy: "Pribasiyo"
+    guide: "KATANUNGAN"
+  terms_of_service: "Ang mga tuntunin"
+  privacy_policy: "Pribasiyo"
+  controllers:
+    searches:
+      index:
+        groups_divider: "Ang mg grupo"
+  tags:
+    index:
+      tag_title: "%{proposals} ang mga panukala - %{blog_posts} ang mga post na blog - %{groups} ang mga grupo"
+  blog_posts:
+    form:
+      published_title: "Ang iyong post ay mailalathala sa web at makakakita ng lahat, at magbahagi at magkomento dito"
+      reserved_title: "Ang iyong post ay makikita lamang sa mga gumagamit na kabilang sa mga pangkat na iyong ilalatlahala"
+      draft_title: "Ang iyong post ay ikaw lang ang makakakita"
+  confirm_delete: "Ikaw ba ay sigurado?"
+  you: "Ikaw"
+  twitter:
+    share:
+      blog_post: "Tignan ang post na ito sa #%{app}! %{tags}"
+      event: "May bagong kaganapan sa #%{app}"
+  home:
+    portlets:
+      last_proposals:
+        proceed_to_proposals: "Magpatuloy sa mga panukala"
+      from_blogs:
+        proceed_to_blogs: "Magpatuloy sa mga blog"
+      topics:
+        title: "Ang mga paksa na iyong sinusundan"
+  confirm_detach: "Ikaw ba ay sigurado na alisin ang Pagkakakilanlan Probayder na ito? Hindi mo magagawang gamitin ito sa hinaharap."
+  alert_detach: "Ikaw ay dapat magbigay ng wastong email address upang alisin ang Pagkakakilanlan ng Probayder na ito"
+  users:
+    confirm_credentials:
+      title: "Ang iyong mga kredensyal ay kumpirmahin"
+      instructions_html: |
+        May isa pang gumagamit sa Airesis na may parehong email address.<br />
+        Ipasok ang iyong password sa Airesis upang sumali sa dalawang mga akwant.<br />
+        Kung hindi mo matandaan ang password, magpatuloy sa pahina ng 'Ibalik ang Password'.
+    statistics:
+      title: "Ang mga istatiska ng gumagamit"
+      last_login: "Ang huling pag-login"
+      integrated_count: "Ang bilang ng mga pinagsamang mga kontribusyon"
+      spam_count: "Ang bilang ng mga kontribusyon na SPAM"
+      noisy_count: "Ang bilang ng mga kontribusyon na maiingay"
+      total_count: "Ang kabuuang bilang ng mga kontribusyon"
+      total_comments_count: "Ang kabuuang bilang ng mga komento"
+      proposals_editor: "Ang bilang ng mga panukala na iyong nabago"
+      proposals_voted: "Ang bilang ng mga panukala na naboto na"
+      average_rank_voted_proposals: "Ang karaniwan na ranggo ng mga panukala na naboto"
+      proposals_accepted_count: "Ang bilang ng mga panukala na na natanggap"
+      proposals_abandonend_count: "Ang bilang ng mga panukala na inabandona"
+      good_writer: "Ang mga magagandang manunulat na kontribusyon"
+      good_proposals_writer: "Ang magaling na manunulat ng mga panukala"
+  proposal_comments:
+    manage_noise:
+      title: "Pamahalaan ang mga walang pakinabang na kontribusyon"
+      help: "Hatakin at ilaglag ang mga kontribusyon na itinuturing mong walang pakinabang para sa talakayan sa kanan"
+  votations:
+    create:
+      confirm: "Magparehistro nang pagboto ng tama. Maraming Salamat!"
+  errors:
+    messages:
+      invalid_token: "Ang Token na Seguridad ay Imbalido"
+      votation: "Patawad pero may mali habang binabanggit ang iyong boto. Subukan ulit mamaya."
+    votation:
+      already_voted: "Ikaw ay nakaboto na sa panukalang ito"
+    proposal:
+      authors_added: "May mali habang nagdaragdag ng mga bagong may-akda"
+  draft_tooltip: "Ang post na ito ay ikaw lang ang makakakita"
+  reserved_tooltip: "Ang post na ito ay makikita lamang sa pamamagitan ng grupo ng nakikilahok"
+  placeholder:
+    find: "Maghanap ng mga gamit"
+  keep_reading: "magpatuloy sa pagbabasa"
+  feedback_subject: "%{time} - Bagong kasagotan"
+  delete_event_confirm: "Ikaw ba ay sigurado na gusto mong alisin ang komento na ito?"
+  groups:
+    group:
+      delete_group_warning_html: "Ikaw ay pinapayagan na alisin ang grupo na ito. Sa pamamagitan ng pagtanggal sa grupo na ito, tatanggalin mo ang lahat ng mga pagtitipon, mga panukala at mga dokumento na nauugnay dito.<br/>Ang atus ay hindi maibabalik.<br/>Maging maingat!"
+  confirm:
+    unintegrate: "Ikaw ay ibabalik pabalik ang iyong kontribusyon sa talakayan. Sigurado kaba?"
+  cookie_policy: "Ang mga cookie"
+  blog:
+    delete:
+      confirm_message: "Ikaw ba ay sigurado na gusto mong alisin ang iyong blog? %{count} ang mga post ay aalisin na rin."
+  click_here_to_view: "Pindutin dito para makita ito sa %{app_short_name}."
+  unsubscribe_from_topic: "Para hindi maka-subscribe mula sa paksang ito, %{click_here}"
+  select_debate_duration: "Pumili muna ng haba ng pagtatalo"
