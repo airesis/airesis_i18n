@@ -1,0 +1,161 @@
+tl-PH:
+  activerecord:
+    models:
+      meeting: 'Pagpupulong'
+      places: 'Ang lokayson'
+    attributes:
+      blog_comment:
+        body: 'Ang Komento'
+        created_at: "Ang AntiSpam"
+      event:
+        title: 'Titulo ng kaganapan'
+        description: 'Ang Paglalarawan'
+        event_type_id: 'Uri ng kaganapan'
+        starttime: 'Simula ng Petsa'
+        endtime: 'Katapusan ng Petsa'
+        all_day: 'Ang Buong Araw'
+        period: 'Umulit'
+        frequency: 'Kada Uulitin'
+        private: 'Ang Pribado'
+      group:
+        facebook_page_url: 'Ang pahina ng adress sa Facebook'
+        name: 'Ang Pangalan'
+        title_bar: 'Titulo ng Bar'
+        description: 'Ang Descripsyon'
+        accept_requests: 'Kahilingan para sa mga Partisipasyon'
+        porta_id: 'Tagapangasiwa'
+        interest_border_tkn: 'Ang interesadong lugar ng Heyograpikal'
+        interest_border_id: 'Ang interesadong lugar ng Heyograpikal'
+        image_url: 'Imahe ng Adress'
+        default_role_name: "Ano ang pangalan para sa bagong gumagamit?"
+        default_role_name_placeholder: "Halimbawa: Mga Gumagamit, Mga Miyembro, Mga Aktibista, at mga Pirata"
+        name_placeholder: "Ang Mamili ng pangalan na may kaugnayan sa pagkakakilanlan ng pangkat at/o lokasyon."
+        title_bar_placeholder: "Ang titulo ng pahina ng pangkat."
+        description_placeholder: "Ang mensahe na ito ay mapupunta sa unang pahina ng pangkat"
+        image_url_placeholder: "Ang imahe ng URL sa pangkat"
+        facebook_page_url_placeholder: "Ang Grupo sa pahina ng Facebook? ilagay ang link dito."
+        admin_title: "Paano ang tawag sa mga tagapangasiwa ng pangkat?"
+        private: "Ang Pribadong grupo"
+        rule_book: "Ang alituntunin ng Libro"
+        image: "Ni-load ang imahe"
+        admin_title_placeholder: "Ang pangalan ng tungkulin sa grupo ng mga tagapangasiwa (default: Tagapangasiwa)"
+      blog:
+        title: 'Ang pamagat'
+      blog_post:
+        title: 'Ang Titulo'
+        body: 'Ang Teksto'
+        published: 'Ang Estado'
+        published_true: 'I-Published'
+        published_false: 'I-draft'
+        published_reserved: "I-reserba"
+        group_ids: I-published ang mga sumusunod na pangkat
+        published_at: Ang Ilathala sa
+      participation_role:
+        name: 'Ang Pangalan'
+        description: 'Ang Maiksing paglalarawan'
+      group_invitation:
+        emails_list: "Mga Email Address"
+        testo: "Ang mensahe sa teksto"
+      place:
+        address: 'Ang Address'
+        municipality_id: 'Ang Siyudad'
+        latitude_original: Ang Latitud
+        longitude_original: Ang Longhitud
+      proposal:
+        group_area_id: "Ang Lugar ng trabaho"
+        proposal_category_id: 'Ang Kategorya'
+        title: 'Ang Pamagat'
+        subtitle: 'Ang Subtitle'
+        problems: 'Ang mga problema'
+        objectives: 'Ang mga layunin'
+        content: 'Ang Teksto'
+        interest_borders_tkn: 'Ang mga interesado heyograpikal na lugar'
+        tags_list: "Ang mga tag"
+        quorum_id: "Ang Tagal ng debate"
+        anonima: "Ang Pansamantalang pagkawala ng lagda"
+        visible_outside: "Ang hayagan na makita"
+        secret_vote: "Ang Lihim na Boto"
+        vote_starts_at: "Ang Boto ay nagsimula sa"
+        vote_ends_at: "Boto ay natapos sa"
+        debate_starts_at: "Ang Debate ay nag umpisa sa"
+        debate_ends_at: "Ang Debate ay natapos sa"
+      proposal_comment:
+        content: 'Ang Nilalaman'
+      quorum:
+        name: 'Ang Pangalan ng korum'
+        name_title: 'Pakiusap na magpasok ng maikli, paliwanag sa titulo'
+        description: 'Ang Paglalarawan / Ang Maikling paliwanag'
+        description_title: 'Ang Isang paglalarawan upang maunawaan ang layunin ng korum na ito'
+        minutes: Ang Tagal ng Debate
+        days_m: Ang mga araw
+        hours_m: mga oras
+        minutes_m: Ang mga Minuto
+        percentage_title: 'Ang Minimum na bilang ng mga kalahok sa talakayan bilang isang porsyento ng bilang ng mga kalahok sa pangkat'
+        good_score: 'Ang kapanahunan'
+        good_score_title: 'Ang marka na makakamit sa kaayusan para madala ang panukala para sa yugto ng pagboto'
+        bad_score: 'Hindi mabuti na Korum (posyento)'
+        bad_score_title: 'Marka sa ilalim kung saan ang panukala ay ayawan. Papayagan ka na magpatuloy sa deskusyon kung ang oras o mga kalahok a kondisyon ay hindi natutugunan'
+        condition: Ang Kondisyon
+        condition_title: 'Ang mga kondisyon ng Oras at mga kalahok ay dapat sabay na malampasan okahit isa sa kanila?'
+        vote_minutes: 'Ang tagal ng boto'
+        vote_percentage: 'Korum (mga boboto)'
+        vote_good_score: 'Ang aprobahan'
+      search_participant:
+        role_id: 'Ang Gampanan'
+        keywords: 'Una o Huling pangalan'
+      user:
+        name: 'Ang Unang pangalan'
+        email: 'Ang Email address'
+        surname: 'Ang Huling pangalan'
+        password: 'Ang Password'
+        linkedinpageurl: 'Ang pahina sa Linkedin'
+        facebookpageurl: 'Ang pahina sa Facebook'
+        accept_conditions: 'Ang mga tema sa Paggamit'
+        receive_newsletter: 'Ang Newsletter sa pamamagitan ng Email'
+        blocked: "Ang mali"
+      user_sensitive:
+        name: 'Ang unang pangalan'
+      group_area:
+        name: "Ang Pangalan"
+        description: "Ang Paglalarawan"
+        default_role_name: "I-Default ang pangalan ng tungkulin"
+    errors:
+      template:
+        header:
+          one: 'an error ay hindi ito pinapayagan %{model} mula sa pagkaka-save'
+          other: '%{count} ang mali ay hindi ito pinapayagan %{model} mula sa pag-save'
+        body: 'Mayroong problema sa mga susunod na patlang'
+      messages:
+        inclusion: 'ito ay hindi kasama sa listahan'
+        exclusion: 'ito ay naka reserba'
+        invalid: 'ito ay hindi balido'
+        confirmation: 'hindi natugma sa kompirmasyon'
+        accepted: 'kailangan na matanggap'
+        empty: 'hindi maaaring blanko'
+        blank: 'kailangan puno'
+        too_long: 'Ang teksto ay masayadong mahaba'
+        too_short: 'Ang teksto ay masyadong maiksi'
+        wrong_length: 'kailangan ay %{count} mga karakter'
+        taken: 'ay tuluyang nakuha'
+        not_a_number: 'ito ay hindi numero'
+        not_an_email: 'ay hindi balido na email address'
+        greater_than: 'kinakailangan na mas mataas %{count}'
+        greater_than_or_equal_to: 'kailangan na mas mataas o pantay sa %{count}'
+        equal_to: 'kailangan na pantay sa %{count}'
+        less_than: 'kailangan na mas mababa sa %{count}'
+        less_than_or_equal_to: 'kailangan mas mababa o pantay sa %{count}'
+        odd: 'kailangan pantay'
+        even: 'kailangan kakaiba'
+        record_invalid: 'Ang patunay ay bigo %{errors}'
+        not_found: 'hindi makita.'
+        TOS: "Ito ay kinakailangan na matanggap sa TOS"
+        certified_cannot_edit: 'hindi maaaring baguhin kung ikaw ay patunay na gumagamit'
+        forum_visibility: "Ang pagtitipon ay hindi maaaring makita sa labas ng grupo kung ang kategorya ay prebado"
+      models:
+        user:
+          attributes:
+            email:
+              already_confirmed: 'Ang e-mail address na ito ay rehistrado na'
+        group:
+          portavoce:
+            required: 'Kailangan mong pumili ng tagapagpamagitan'
