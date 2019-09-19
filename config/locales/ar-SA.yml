@@ -1,0 +1,91 @@
+ar-SA:
+  unauthorized:
+    default: "ليس لديك الأذونات المطلوبة لتنفيذ هذا الإجراء"
+    create:
+      group: "لا يمكنك إنشاء أكثر من مجموعة في اليوم"
+  permissions_required: "لا يسمح لك القيام بهذه العملية"
+  test: "اختبار"
+  open_space: 'مساحة مفتوحة'
+  hello: 'مرحبا بالعالم'
+  pages:
+    top_panel:
+      login: 'تسجيل الدخول أو التسجيل'
+      facebook_login: 'تسجيل الدخول من حساب فيس بوك'
+      google_login: 'تسجيل الدخول من حساب جوجل'
+      twitter_login: "تسجيل الدخول من حساب تويتر"
+      meetup_login: "تسجيل الدخول من حساب Meetup"
+      linkedin_login: "تسجيل الدخول من حساب LinkedIn"
+      openid_login: "تسجيل الدخول من حساب OpenID"
+      find_groups: 'البحث في المجموعات'
+      parma_login: "تسجيل الدخول من حساب Parma"
+    user:
+      notifications: 'إنذارات وإخطارات'
+    users:
+      privacy_preferences:
+        join_google: "الانضمام إلى حساب Google الخاص بك"
+        join_twitter: "الانضمام إلى حسابك في تويتر"
+        join_linkedin: "الانضمام إلى حسابك في LinkedIn"
+        join_meetup: "الانضمام إلى حسابك Meetup"
+        options: "خيارات"
+        rotp: "تمكين رمز أمان مميز"
+        rotp_title: "رمز أمان مميز"
+        rotp_confirm_enable: "هل أنت متأكد من أنك تريد تمكين رمز الأمان؟"
+        rotp_confirm_disable: "هل أنت متأكد من أنك تريد تعطيل رمز الأمان؟"
+        mail_language: "لغة رسائل البريد الإلكتروني"
+        time_zone: "النطاق الزمني"
+      border_preferences:
+        updating: "الرجاء الانتظار حتى نقوم بتحديث التفضيلات الخاصة بك وفقا لتفضيلاتك التي حددتها"
+    groups:
+      index:
+        proposals_number: "عدد من المقترحات"
+        events_number: "عدد من الأحداث"
+      new:
+        title: 'إنشاء مجموعة جديدة'
+        new_group: "مجموعة جديدة"
+        create_button: "إنشاء المجموعة!"
+        change_permissions_button: "هل تريد تغيير الأذونات القياسية؟"
+        change_permissions_title: "تغيير الأذونات القياسية للمستخدمين الجدد"
+      edit_quorums:
+        active: "نشط"
+        name: "الاسم"
+        participants: "المشاركون"
+        condition: "الشرط"
+      participations:
+        member_since: "عضو مُنذُ"
+    login:
+      title: 'تسجيل الدخول'
+    confirmation:
+      title: 'إعادة إرسال رسالة تأكيد التعليمات'
+      submit: 'أرسل لي التعليمات'
+    password:
+      title: 'هل نسيت كلمة المرور الخاصة بك؟'
+      submit: 'الرجاء إرسال تعليمات إعادة تعيين كلمة المرور'
+      edit:
+        new_password: "كلمة المرور الجديدة"
+        confirm_password: "تأكيد كلمة المرور الجديدة"
+        confirm_button: "تغيير كلمة المرور الخاصة بي"
+    registration:
+      title: 'تسجيل'
+      email_confirmed: "إذا قمت بالتسجيل باستخدام عنوان البريد الإلكتروني هذا لن يتم مطالبتك بتأكيد عنوان البريد الإلكتروني الخاص بك."
+      choose_password: "إختر كلمة مرور"
+    proposals:
+      index:
+        last_7d: "تم إنشاؤها في الأسبوع الماضي"
+        last_1m: "تم إنشاؤها في الشهر الأخير"
+        last_1y: "تم إنشاؤها في العام الماضي"
+      show:
+        voteup: 'أوافق'
+        votenil: "لا أعرف/ لم أفهم"
+        votedown: 'لا أوافق'
+        random_stack: 'الفرز الذكي'
+        most_recent: 'الأحدث'
+        most_ranked: 'الأكثر تقييماً'
+        history_button: "المحفوظات"
+        choose_votation_period: "اختر فترة التصويت"
+        choose_votation_period_alert: "هل أنت متأكد من فترة التصويت؟ لا يمكن تغييرها لاحقاً!"
+        choose_votation_period_button: "لقد اخترت!"
+        no_periods_contact_group: "لم يتم تعيين أي موعد التصويت، يرجى الاتصال بالمسؤولين من أجل اختيار تاريخ."
+        reply_button: "رد"
+        export_pdf: "طباعة PDF"
+        noise_folder: "مساهمات تمت إزالتها"
+        what_nickname: "ما هذا؟"
