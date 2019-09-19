@@ -1,58 +1,84 @@
 zh-TW:
   errors:
     messages:
-      expired: 過期了, 請重新申請一次 has expired, please request a new one
-      not_found: 找不到
-      already_confirmed: 已經確認，請試著直接登入
-      not_locked: 沒有被鎖定
+      expired: "نقضی شده است، لطفا یک نام جدید درخواست کنید"
+      not_found: "یافت نشد"
+      already_confirmed: "تأیید شده است، لطفا سعی کنید به طور مستقیم وارد شوید"
+      not_locked: "قفل نشده"
       not_saved:
-        one: '因為 1 個錯誤，禁止 %{resource} 被儲存。'
-        other: '%{count} 個錯誤不允許這 %{resource} 存檔:'
+        one: "1خطا این ممنوع است %{resource} از ذخیره شدن:"
+        other: "%{count} خطاها این را ممنوع کرده اند %{resource} از ذخیره شدن:"
   devise:
     failure:
-      locked: 你的帳號已被鎖定。
-      invalid: 帳號或密碼不正確。
-      invalid_token: 無效的認證安全碼。
-      timeout: 你已離開太久，請重新登入。
-      inactive: 你的帳號被凍結了。
+      locked: 'حساب شما قفل شده است'
+      invalid: 'ایمیل یا گذرواژه نامعتبر است'
+      invalid_token: 'کد تأیید صحت نامعتبر است'
+      timeout: 'جلسه شما منقضی شده است، لطفا برای ادامه به سیستم وارد شوید'
+      inactive: 'حساب شما هنوز فعال نشده است'
+      already_authenticated: 'شما قبلا ثبت نام کرده اید'
+      unauthenticated: 'برای دسترسی به این صفحه لازم است وارد شوید. لطفا وارد شوید'
+      unconfirmed: "حساب شما هنوز تایید نشده است"
+      user:
+        invalid: 'نام کاربری یا گذرواژه نامعتبر است'
+        not_found_in_database: 'نام کاربری یا گذرواژه نامعتبر است'
     sessions:
-      signed_in: 成功登入！
-      signed_out: 你已登出。
+      signed_in: 'با موفقیت وارد سیستم شد'
+      signed_out: 'با موفقیت خارج شد'
+      user:
+        signed_out: 'شما با موفقیت خارج شدید خداحافظ'
+        signed_in: 'شما وارد شده اید. خوش آمدید!'
+        signed_up: 'شما ثبت نام خود را با موفقیت انجام دادید. خوش آمدید'
     passwords:
-      send_instructions: 為了確認此你是帳號所有人，我們已將重設密碼的操作步驟寄到你的電子信箱，應該會在數分鐘內收到。
-      updated: 你的密碼變更成功，現在已登入。
-      updated_not_active: 你的密碼變更成功。
-      send_paranoid_instructions: 如果你的 E-mail 曾經註冊過，你將會在數分鐘內，收到一封含有密碼回復連結的信件。
+      send_instructions: 'شما یک ایمیل با دستورالعمل هایی در مورد نحوه بازنشانی رمز عبور خود را در چند دقیقه دریافت خواهید کرد'
+      updated: 'رمز عبور شما با موفقیت تغییر داده شد. شما در حال حاضر وارد شده اید'
+      updated_not_active: 'رمز عبور شما با موفقیت تغییر داده شد'
+      send_paranoid_instructions: "اگر ایمیل شما در پایگاه داده ما وجود داشته باشد، یک لینک بازیابی رمز عبور را در صندوق ورودی خود دریافت خواهید کرد"
     confirmations:
-      send_instructions: 為了確認此 E-mail 屬於你本人，我們已將一封帳號確認信件寄到你的信箱，應該會在數分鐘內收到。
-      send_paranoid_instructions: 如果你的 E-mail 曾經註冊過，你將會在數分鐘內，收到一封含有確認賬號連結的信件。
-      confirmed: 你已成功確認帳號，現在已登入。
+      send_instructions: 'شما یک ایمیل با دستورالعمل هایی در مورد چگونگی تأیید حساب خود را در چند دقیقه دریافت خواهید کرد'
+      send_paranoid_instructions: 'اگر ایمیل شما در پایگاه داده ما وجود داشته باشد، یک ایمیل با دستورالعمل در مورد چگونگی تأیید حساب کاربری خود را در چند دقیقه دریافت خواهید کرد'
+      confirmed: 'حساب شما با موفقیت تأیید شد شما در حال حاضر وارد شده اید'
+      user:
+        confirmed: 'ثبت نام شما با موفقیت انجام شده است'
+        send_instructions: 'دستورالعمل ها به ایمیل تعیین شده شما ارسال شده است'
     registrations:
-      signed_up: 歡迎！你已成功完成註冊！
-      signed_up_but_unconfirmed: 為了確認此 E-mail 屬於你本人，我們已將一封帳號確認信件寄到你的信箱，請點擊信件中的連結來完成註冊。
-      signed_up_but_inactive: 你的登入資訊正確，但是你的帳號現在正被凍結中。
-      signed_up_but_locked: 你的登入資訊正確，但是你的帳號現在正被鎖定中
-      updated: 成功修改帳號資訊。
-      update_needs_confirmation: 你已經成功修改帳號資訊，為了確認此新的 email 屬於你本人，我們已將一封帳號確認信件寄到你的信箱，請點擊信件中的連結來完成註冊。
-      destroyed: 你的帳號已經被刪除，再見！
+      signed_up: 'خوش آمدید! شما با موفقیت ثبت نام کردید'
+      signed_up_but_unconfirmed: 'یک پیام با پیوند تایید به آدرس ایمیل شما ارسال شده است. لطفا برای فعال کردن حساب کاربری خود، لینک را باز کنید'
+      signed_up_but_inactive: 'شما با موفقیت ثبت نام کردید با این وجود، ما نمیتوانیم به شما وارد شویم زیرا حساب شما هنوز فعال نشده است'
+      signed_up_but_locked: 'شما با موفقیت ثبت نام کردید با این حال، ما نمیتوانیم به شما وارد شویم زیرا حساب شما قفل است.'
+      updated: 'شما حساب خود را با موفقیت به روز کردید'
+      update_needs_confirmation: "شما حساب خود را با موفقیت به روز کردید، اما ما باید آدرس ایمیل جدید خود را تأیید کنیم. لطفا ایمیل خود را بررسی کنید و روی تأیید پیوند کلیک کنید تا نهایت تایید آدرس ایمیل جدیدتان باشد"
+      destroyed: 'خدا حافظ! حساب شما با موفقیت لغو شد امیدواریم به زودی ببینیمت'
+      user:
+        inactive_signed_up: 'برای تکمیل ثبت نام خود، لطفا روی لینک در ایمیلی که دریافت کرده اید کلیک کنید'
+        signed_up_but_unconfirmed: 'برای تکمیل روند ثبت نام، روی لینک در ایمیل فرستاده شده به آدرس خود کلیک کنید'
     unlocks:
-      unlocked: 你的帳號已經成功解除鎖定，請重新登入。
-      send_paranoid_instructions: 如果你的電子信箱曾經註冊過，你將會在數分鐘內，收到一封含有解除鎖定連結的信件。
+      send_instructions: 'شما یک ایمیل با دستورالعملهایی در مورد چگونگی باز کردن حساب خود در چند دقیقه دریافت خواهید کرد'
+      unlocked: 'حساب شما با موفقیت قفل شده است. لطفا برای ادامه وارد شوید'
+      send_paranoid_instructions: 'اگر حساب شما موجود است، یک ایمیل با دستورالعمل هایی در مورد نحوه باز کردن آن در چند دقیقه دریافت خواهید کرد'
     omniauth_callbacks:
-      failure: '無法連結你的 %{kind} 帳號，錯誤理由是："%{reason}".'
+      success: 'ثبت نام شما تکمیل شده است خوش آمدید'
+      failure: 'نمی توانم از شما مجوز بگیرم %{kind} زیرا "%{reason}"'
+      creation_failure: "خطا هنگام دسترسی از طریق %{provider}"
+      join_success: "حسابها با موفقیت ادغام شدند تبریک می گویم، اکنون می توانید از طریق وارد شوید %{provider}."
+      join_failure: "دیگری %{provider} حساب وجود دارد این ویژگی برای پیوستن به حساب ها به زودی در دسترس خواهد بود."
+      certified_email_taken: "حساب دیگری با ایمیل گواهی شما وجود دارد"
+      already_certified: "حساب دیگری با کد مالیاتی شما تایید شده است"
+      account_not_verified: "未驗證帳戶%{provider} 提供商。請在%{provider} 提供商上驗證您的帳戶。"
     mailer:
       confirmation_instructions:
-        subject: 帳號確認通知
-        welcome: '歡迎來到 %{app_name}，%{user}！'
-        follow_link: 你可以點擊下列的連結，來認證這個 e-mail 位置。
-        confirm_account: 認證帳號
-        follow_link_2: 或瀏覽這個網址：
-        access_by_email: '你現在可以用你設定的 e-mail 與密碼登入 %{app_name}'
-        contact_assistance: '如果你對這個過程有任何問題，請聯繫網站管理者 %{mail}'
+        subject: '帳號確認通知'
+        welcome: "歡迎來到 %{app_name}，%{user}！"
+        follow_link: "你可以點擊下列的連結，來認證這個 e-mail 位置。"
+        confirm_account: "認證帳號"
+        follow_link_2: "或瀏覽這個網址："
+        access_by_email: "你現在可以用你設定的 e-mail 與密碼登入 %{app_name}"
+        contact_assistance: "如果你對這個過程有任何問題，請聯繫網站管理者 %{mail}"
       reset_password_instructions:
-        subject: 重設你的密碼
-        hi_user: 'Hello %{user}！'
-        change_password: 變更密碼
-        password_will_not_change: 直到你按下上一個的連結之前，你的密碼不會更新
+        subject: '重設你的密碼'
+        hi_user: "Hello %{user}！"
+        follow_link: "您可以通過按一下以下連結來更改密碼:"
+        change_password: "變更密碼"
+        ignore: "如果您沒有要求更改您的密碼, 請忽略此電子郵件。"
+        password_will_not_change: "直到你按下上一個的連結之前，你的密碼不會更新"
       unlock_instructions:
-        subject: 解除帳號鎖定
+        subject: '解除帳號鎖定'
