@@ -1,12 +1,64 @@
 zh-TW:
   db:
     sys_locales:
+      bs-BA:
+        description: 波斯尼亚文
+      de-DE:
+        description: 德文
+      el-GR:
+        description: 希臘文
+      en-AU:
+        description: 英語（澳大利亞）
+      en-EU:
+        description: 英語 (歐洲)
+      en-GB:
+        description: 英語 (英國)
+      en-IE:
+        description: 英語（愛爾蘭）
+      en-NZ:
+        description: 英語（紐西蘭）
+      en-US:
+        description: 英語 （美國）
+      en-ZA:
+        description: 英語（南非）
+      es-AR:
+        description: 西班牙語（阿根廷）
+      es-CL:
+        description: 西班牙語（智利）
+      es-EC:
+        description: 西班牙語（厄瓜多）
       es-ES:
         description: 西班牙文
+      fr-FR:
+        description: 法文
+      hu-HU:
+        description: 匈牙利語
+      id-ID:
+        description: 印尼文
       it-IT:
         description: 義大利文
+      jp-JP:
+        description: 日文
+      me-ME:
+        description: 黑山
+      nl-NL:
+        description: 荷蘭
       pt-BR:
         description: 葡萄牙文 （巴西）
+      pt-PT:
+        description: 葡萄牙語（葡萄牙）
+      ro-RO:
+        description: 羅馬尼亞語
+      ru-RU:
+        description: 俄文
+      sh-HR:
+        description: 塞尔维亚-克罗地亚文
+      sr-CS:
+        description: 塞爾維亞語 (拉丁字母)
+      sr-SP:
+        description: 塞爾維亞語 (西里爾字母)
+      zh-TW:
+        description: 中文
     proposal_types:
       STANDARD:
         description: 標準的議案
@@ -72,110 +124,185 @@ zh-TW:
     notification_types:
       new_public_events:
         description: 新的公開活動
-        email_subject: '新公開活動：%{event}'
-        message: '新公開活動： <b>%{event}</b>'
+        email_subject: "新公開活動：%{event}"
+        message: "新公開活動： <b>%{event}</b>"
       new_events:
         description: 在我參加的群組中的新活動
-        email_subject: '新的活動：%{event}'
-        message: '在 <b>%{group}</b> 群組中的新活動 <b>%{event}</b> '
+        email_subject: "新的活動：%{event}"
+        message: "在 <b>%{group}</b> 群組中的新活動 <b>%{event}</b> "
       new_posts_user_follow:
         description: 我追蹤的使用者發表的新文章
         email_subject: 有一個新的文章
-        message: '%{user} 在他的 blog <b>%{blog}</b> 新增了一篇新文章'
+        message: "%{user} 在他的 blog <b>%{blog}</b> 新增了一篇新文章"
       new_valutation_mine:
         description: 我的提案的新評價
+        email_subject:
+          one: "%{title} - 新的評價"
+          other: "%{title} %{count} 新的評估"
+        message:
+          one: "您的建議 <b>%{title} </b> 已收到新的評估"
+          other: "您的建議 <b>%{title} </b> 已收到%{count} 新的評估"
       new_valutation:
         description: 我參加的一項提案有了新評價
+        email_subject:
+          one: "%{title} - 新的評價"
+          other: "%{title} %{count} 新的評估"
+        message:
+          one: "你的提案 <b>%{title}</b> 收到了一個新的評價"
+          other: "建議 <b>%{title} </b> 已收到%{count} 新的評估"
       available_author:
         description: 使用者現在可以成為一個提案的編輯
+        email_subject:
+          one: "%{title}-一個新的編輯器是可利用的"
+          other: "%{title}-%{count} 新編輯器可用"
+        message:
+          one: "%{user} 可成為提案 <b>%{title} </b> 的編輯器"
+          other: "%{count} 使用者可以成為提案 <b>%{title} </b> 的編輯器"
       author_accepted:
         description: 接受使用者成為此提案的編輯
-        email_subject: '%{title} -你現在是這個提案的編輯！'
-        message: '你現在是提案 <b>%{title}</b> 的編輯。 <br/>提醒您，作為一個編輯，你應該聽聽其他使用者的討論、作出的貢獻，來改善提案的文本。<br/>'
+        email_subject: "%{title} -你現在是這個提案的編輯！"
+        message: "你現在是提案 <b>%{title}</b> 的編輯。 <br/>提醒您，作為一個編輯，你應該聽聽其他使用者的討論、作出的貢獻，來改善提案的文本。<br/>"
       new_authors:
         description: 提案的新編輯
-        email_subject: '%{title}-新的編輯者'
-        message: '<b>%{user}</b> 現在是提案 <b>%{title}</b> 的編輯'
+        email_subject: "%{title}-新的編輯者"
+        message: "<b>%{user}</b> 現在是提案 <b>%{title}</b> 的編輯"
       unintegrated_contribute:
         description: 編輯修訂已經被放回討論
-        email_subject: '%{proposal} - 編輯修訂已經被放回討論'
-        message: '你針對提案 <b>%{poposal}<b> 提出的編輯修訂，現在已經放回討論階段'
-      text_update:
-        description: 我參與的提案內文更新了
-      new_contributes_mine:
-        description: 有人針對你的提案提出了新的編輯修訂
-      change_status:
-        description: 我參與的提案狀態更新了
+        email_subject: "%{proposal} - 編輯修訂已經被放回討論"
+        message: "你針對提案 <b>%{poposal}<b> 提出的編輯修訂，現在已經放回討論階段"
+      new_contributes:
+        description: "我參加的提案中的新貢獻"
         email_subject:
-          wait: '%{title} - 選擇投票日期！'
-          waiting_date: '%{title} - 投票日期決定了！'
-          in_vote: '%{title} - 快來參與投票！'
-          abandoned: '%{title} 沒有通過討論'
-          rejected: '%{title} 提案已被拒絕'
-          voted: '%{title} - 投票被終止'
-          24_hours: '針對提案 %{title} 的討論即將於明天截止！'
-          1_hour: '提案 %{title} 討論將在一小時內結束！'
-          24_hours_vote: '提案 %{title} 的投票將在明天結束！'
-          1_hour_vote: '提案 %{title} 的投票將在一小時內結束！'
+          one: "一個新的貢獻已入%{title}"
+          other: "%{title}-有%{count} 新的貢獻"
         message:
-          waiting_date: '%{name} 已經決定了提案 <b>%{title}</b> 的投票日期'
-          in_vote: '提案 <b>%{title}</b> 正在進行投票階段！'
-          abandoned: '提案 <b>%{title}</b> 沒有通過討論階段，已經被放棄'
-          rejected: '提案 <b>%{title}</b> 被參與者否決了'
-          voted: '%{title} - 投票結束'
-          24_hours: '提案 <b>%{title}</b> 的討論將於明天結束！'
-          1_hour: '提案 <b>%{title}</b> 的討論將在一小時內結束！'
-          24_hours_vote: '提案 <b>%{title}</b> 的投票將在明天結束！'
-          1_hour_vote: '提案 <b>%{title}</b> 的投票將在一小時內結束！'
+          one: "<b>%{name} </b> 在建議中添加了新的貢獻 <b>%{title} </b>"
+          other: "在提案中有 <b>%{count} </b> 新的貢獻 <b>%{title} </b>"
+      text_update:
+        description: "我參與的提案內文更新了"
+        email_subject:
+          one: "%{title} 提案已被拒絕"
+          other: "%{title} 已更新%{count} 時間"
+        message:
+          one: "建議 <b>%{title} </b> 已更新"
+          other: "建議 <b>%{title} </b> 已更新%{count} 次"
+      new_contributes_mine:
+        description: "有人針對你的提案提出了新的編輯修訂"
+        email_subject:
+          one: "一個新的貢獻已入%{title}"
+          other: "%{title}-有%{count} 新的貢獻"
+        message:
+          zero: "<b>%{name} </b> 在建議中添加了新的貢獻 <b>%{title} </b>"
+          one: "<b>%{name}</b> 在提案 <b>%{title}</b> 增加了一個新的編輯修訂"
+          other: "<b>%{count}</b> 在提案 <b>%{title}</b> 增加了一個新的編輯修訂"
+      change_status:
+        description: "我參與的提案狀態更新了"
+        email_subject:
+          wait: "%{title} - 選擇投票日期！"
+          waiting_date: "%{title} - 投票日期決定了！"
+          in_vote: "%{title} - 快來參與投票！"
+          abandoned: "%{title} 沒有通過討論"
+          rejected: "%{title} 提案已被拒絕"
+          voted: "%{title} - 投票被終止"
+          24_hours: "針對提案 %{title} 的討論即將於明天截止！"
+          1_hour: "提案 %{title} 討論將在一小時內結束！"
+          24_hours_vote: "提案 %{title} 的投票將在明天結束！"
+          1_hour_vote: "提案 %{title} 的投票將在一小時內結束！"
+        message:
+          waiting_date: "%{name} 已經決定了提案 <b>%{title}</b> 的投票日期"
+          in_vote: "提案 <b>%{title}</b> 正在進行投票階段！"
+          abandoned: "提案 <b>%{title}</b> 沒有通過討論階段，已經被放棄"
+          rejected: "提案 <b>%{title}</b> 被參與者否決了"
+          voted: "%{title} - 投票結束"
+          24_hours: "提案 <b>%{title}</b> 的討論將於明天結束！"
+          1_hour: "提案 <b>%{title}</b> 的討論將在一小時內結束！"
+          24_hours_vote: "提案 <b>%{title}</b> 的投票將在明天結束！"
+          1_hour_vote: "提案 <b>%{title}</b> 的投票將在一小時內結束！"
       change_status_mine:
         description: 更改我的提案的狀態
         email_subject:
-          wait: '%{title} - 選擇投票日期！'
-          waiting_date: '%{title} - 投票日期決定了！'
-          in_vote: '%{title} - 快來參與投票！'
-          abandoned: '%{title} 沒有通過討論'
-          rejected: '%{title} 提案已被拒絕'
-          voted: '%{title} - 投票結束'
-          24_hours: '針對提案 %{title} 的討論即將於明天截止！'
-          1_hour: '提案 %{title} 討論將在一小時內結束！'
-          24_hours_vote: '提案 %{title} 的投票將在明天結束！'
-          1_hour_vote: '提案 %{title} 的投票將在一小時內結束！'
+          wait: "%{title} - 選擇投票日期！"
+          waiting_date: "%{title} - 投票日期決定了！"
+          in_vote: "%{title} - 快來參與投票！"
+          abandoned: "%{title} 沒有通過討論"
+          rejected: "%{title} 提案已被拒絕"
+          voted: "%{title} - 投票結束"
+          24_hours: "針對提案 %{title} 的討論即將於明天截止！"
+          1_hour: "提案 %{title} 討論將在一小時內結束！"
+          24_hours_vote: "提案 %{title} 的投票將在明天結束！"
+          1_hour_vote: "提案 %{title} 的投票將在一小時內結束！"
         message:
-          wait: '你的提案 <b>%{title}</b> 已經通過討論階段，正在等待你決定投票日期。'
-          waiting_date: '%{name} 已經決定了提案 <b>%{title}</b> 的投票日期'
-          in_vote: '你的提案 <b>%{title}</b> 正在進行投票階段！'
-          abandoned: '你的提案 <b>%{title}</b> 並沒有通過討論且已經被放棄了，抱歉'
-          rejected: '你的提案 <b>%{title}</b> 被參與者否決了，抱歉'
-          voted: '<b>%{title}</b>-投票已終止'
-          24_hours: '提案 <b>%{title}</b> 的討論將於明天結束！'
-          1_hour: '提案 <b>%{title}</b> 的討論將在一小時內結束！'
-          24_hours_vote: '提案 <b>%{title}</b> 的投票將在明天結束！'
-          1_hour_vote: '提案 <b>%{title}</b> 的投票將在一小時內結束！'
+          wait: "你的提案 <b>%{title}</b> 已經通過討論階段，正在等待你決定投票日期。"
+          waiting_date: "%{name} 已經決定了提案 <b>%{title}</b> 的投票日期"
+          in_vote: "你的提案 <b>%{title}</b> 正在進行投票階段！"
+          abandoned: "你的提案 <b>%{title}</b> 並沒有通過討論且已經被放棄了，抱歉"
+          rejected: "你的提案 <b>%{title}</b> 被參與者否決了，抱歉"
+          voted: "<b>%{title}</b>-投票已終止"
+          24_hours: "提案 <b>%{title}</b> 的討論將於明天結束！"
+          1_hour: "提案 <b>%{title}</b> 的討論將在一小時內結束！"
+          24_hours_vote: "提案 <b>%{title}</b> 的投票將在明天結束！"
+          1_hour_vote: "提案 <b>%{title}</b> 的投票將在一小時內結束！"
+      proposal_phase_ending:
+        description: "提案辯論或 votation 將很快結束"
+        email_subject:
+          24_hours: "關於%{title} 的辯論明天結束!"
+          1_hour: "關於%{title} 的辯論一小時後結束!"
+          24_hours_vote: "%{title} 的投票明天結束!"
+          1_hour_vote: "%{title} 的票一小時後結束!"
+        message:
+          24_hours: "關於 <b>%{title} </b> 的辯論將在明天結束!"
+          1_hour: "關於 <b>%{title} </b> 的辯論在一個小時內結束!"
+          24_hours_vote: "對 <b>%{title} </b> 的投票將在明天結束!"
+          1_hour_vote: "對 <b>%{title} </b> 的投票在一小時內結束!"
       new_posts_group_follow:
         description: 我所追蹤的群組牆上新的文章
         email_subject: 新文章
       new_posts_group:
         description: 我所參與的群組牆上的新文章
         email_subject: 新文章
-        message: '<b>%{user}</b> 在群組 <b>%{group}</b> 中新增了一篇文章'
+        message: "<b>%{user}</b> 在群組 <b>%{group}</b> 中新增了一篇文章"
       new_public_proposals:
         description: 在 Open Space 中有一個新的提案
-        email_subject: '%{proposal}'
-        message: '加入到 Open Space 的新提案 <b>%{proposal}</b>'
+        email_subject: "%{proposal}"
+        message: "加入到 Open Space 的新提案 <b>%{proposal}</b>"
       new_proposals:
         description: 群組提出的新提案
-        email_subject: '%{proposal}'
-        message: '<b>%{group}</b> 群組提出了新的提案 <b>%{proposal}</b> '
+        email_subject: "%{proposal}"
+        message: "<b>%{group}</b> 群組提出了新的提案 <b>%{proposal}</b> "
+      new_participation_request:
+        description: 新的參與請求
+        email_subject:
+          one: "有一個新的參與請求"
+          other: "有%{count} 新的參與請求"
+        message:
+          one: "<b>%{user} </b> 要求參與組 <b>%{group} </b>"
+          other: "<b>%{count} 使用者 </b> 要求參與組 <b>%{group} </b>"
       new_blog_comment:
         description: 你的 Blog 有了新的回應
+        email_subject:
+          one: "博客帖子中的新評論"
+          other: "%{count} 在你的博客文章中的新評論"
+        message:
+          one: "<b>%{user} </b> 評論您的帖子 <b>%{title} </b>"
+          other: "在您的帖子 <b>%{title} </b> 中有 <b>%{count} </b> 新注釋"
+      new_forum_topic:
+        message:
+          one: "已在 <b>%{group_name} </b> 中創建了主題 \"%{topic_subject}\""
+          other: "%{count} 主題已在 <b>%{group_name} </b> 中創建"
+        description: 論壇中的新主題
+        email_subject: "在%{group_name} 中創建了一個主題 \"%{topic_subject}\""
       new_comments_mine:
         description: 你的提案有新的回應
         email_subject: 你的提案有一個新的回應
-        message: '<b>%{name}</b> 針對你的提案 <b>%{title}</b> 的編輯修訂提出了回應'
+        message: "<b>%{name}</b> 針對你的提案 <b>%{title}</b> 的編輯修訂提出了回應"
       new_comments:
         description: 你參與討論的提案有新的回應
-        email_subject: '%{title} - 新的回應'
-        message: '<b>%{name}</b> 在你參與討論的提案 <b>%{title}</b> 中新增了一個回應'
+        email_subject: "%{title} - 新的回應"
+        message: "<b>%{name}</b> 在你參與討論的提案 <b>%{title}</b> 中新增了一個回應"
+      contribute_update:
+        description: 更新已經 evaualted 的貢獻的文本
+        email_subject: "%{title}-您先前評估的貢獻已更改"
+        message: "<b>%{name} </b> 更改了先前評估的 <b>%{title} </b> 中的貢獻。檢查你是否想改變你的觀點。"
     proposal_categories:
       no_category:
         description: 未分類
