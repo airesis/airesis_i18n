@@ -1,0 +1,14 @@
+nl-NL:
+  home:
+    intro:
+      title: "Het eerste sociale netwerk ter weerld voor E-democratie"
+      description: "Een hulpmiddel voor directe democratie om gezamenlijk te beslissen en op te treden op voorstellen en gegenereerde ideeën voor elk thema."
+      paragraph_1:
+        title: "Het sociale netwerk voor E-democratie"
+    engage:
+      nav:
+        participate: "Deelnemen"
+      developer:
+        title: "Ontwikkelaar"
+      graphic:
+        title: "Grafisch ontwerper"
