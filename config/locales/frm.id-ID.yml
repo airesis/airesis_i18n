@@ -6,16 +6,16 @@ id-ID:
       topic: Topik
       posts: Tulisan
       posts_count:
-        other: '%{count} tulisan'
+        other: "%{count} tulisan"
       flagged_for_spam: Akun Anda telah ditandai karena melakukan spam.
       cannot_create_topic: Anda tidak dapat membuat topik baru saat ini.
       cannot_create_post: Anda tidak dapat membuat tulisan baru saat ini.
-    access_denied: Anda tidak diizinkan untuk melakukan itu.
+    access_denied: "Anda tidak diizinkan untuk melakukan itu."
     admin:
       area: Area Admin
-      back_to_admin: Kembali ke Admin
-      back_to_forums: Kembali ke forum
-      back_to_groups: Kembali ke grup
+      back_to_admin: "Kembali ke Admin"
+      back_to_forums: "Kembali ke forum"
+      back_to_groups: "Kembali ke grup"
       forum:
         moderator_groups: Grup moderator
         index: Kelola Forum
@@ -36,29 +36,29 @@ id-ID:
           none: Tidak ada
           moderators: Moderator
           no_category: (Tidak ada kategori)
-        default_private: Forum Tertutup
-        default_public: Forum Umum
-        default_private_description: Forum untuk peserta grup
-        default_public_description: Forum terlihat oleh semua pengguna Airesis. Juga pengguna yang bukan anggota grup
+        default_private: "Forum Tertutup"
+        default_public: "Forum Umum"
+        default_private_description: "Forum untuk peserta grup"
+        default_public_description: "Forum terlihat oleh semua pengguna Airesis. Juga pengguna yang bukan anggota grup"
       mod:
         index: Atur grup
         new: Grup Baru
         created: Grup berhasil dibuat
         not_created: Grup tidak dapat dibuat
         deleted: Grup yang dipilih telah dihapus
-        members: 'Anggota dalam %{group}'
+        members: "Anggota dalam %{group}"
       mods:
         show:
           add_member: Tambahkan
-          add_a_new_member: Tambahkan anggota baru
-          current_members: Anggota Saat Ini
+          add_a_new_member: "Tambahkan anggota baru"
+          current_members: "Anggota Saat Ini"
         edit: Sunting
         delete: Hapus
         name: Nama
       category:
         index: Kelola Kategori Forum
         new: Membuat Kategori Forum baru
-        edit: 'Menyunting kategori %{title}'
+        edit: "Menyunting kategori %{title}"
         new_link: Kategori Forum Baru
         deleted: Kategori forum yang dipilih telah dihapus
         created: Kategori forum ini telah dibuat
@@ -70,30 +70,34 @@ id-ID:
         delete: Hapus
         category: Kategori
         delete_confirm: Yakin Anda ingin menghapus kategori forum ini?
-        default_private: Bagian tertutup
-        default_public: Bagian umum
+        default_private: "Bagian tertutup"
+        default_public: "Bagian umum"
       group:
-        index: Atur grup moderator
+        index: "Atur grup moderator"
         show:
-          title: Atur moderator
+          title: "Atur moderator"
+        new: "Grup Moderator Baru"
+        created: "Berhasil membuat kelompok moderator"
+        not_created: "Kesalahan membuat kelompok Moderator"
+        deleted: "Berhasil dihapus Moderator grup"
     common:
       pages: Halaman
     errors:
       not_signed_in: Anda harus masuk (sign in) lebih dulu
       access_denied: Akses ditolak.
     forum:
-      header: 'Melihat %{title}'
+      header: "Melihat %{title}"
       forums: Forum
       new: Membuat forum baru
-      edit: 'Menyunting forum %{title}'
+      edit: "Menyunting forum %{title}"
       topics_count:
-        other: '%{count} topik'
+        other: "%{count} topik"
       posts_count:
-        other: '%{count} tulisan'
-      moderator_tools: Alat moderasi
-      topic_tools: Alat topik
-      admin_tools: Alat administrasi
-      title: Forum baru
+        other: "%{count} tulisan"
+      moderator_tools: "Alat moderasi"
+      topic_tools: "Alat topik"
+      admin_tools: "Alat administrasi"
+      title: "Forum baru"
     forums:
       index:
         title: Forum
@@ -131,14 +135,14 @@ id-ID:
         edit: Sunting topik
       not_found: Topik yang Anda cari tidak dapat ditemukan
       hidden:
-        "true": Topik ini sekarang tersembunyi
-        "false": Topik ini sekarang terlihat
+        'true': Topik ini sekarang tersembunyi
+        'false': Topik ini sekarang terlihat
       locked:
-        "true": Topik ini sekarang terkunci
-        "false": Topik ini sekarang tidak terkunci
+        'true': Topik ini sekarang terkunci
+        'false': Topik ini sekarang tidak terkunci
       pinned:
-        "true": Topik ini sekarang disematkan
-        "false": Topik ini sekarang tidak disematkan
+        'true': Topik ini sekarang disematkan
+        'false': Topik ini sekarang tidak disematkan
     topics:
       show:
         reply: Balas
@@ -146,17 +150,17 @@ id-ID:
         subscribe: Berlangganan
         unsubscribe: Berhenti berlangganan
         reply_to_topic: Balas Topik
-        pending_review: 'Topik ini sedang menunggu pemeriksaan. Hanya pengguna yang membuatnya  dan moderator yang dapat melihatnya.'
+        pending_review: Topik ini sedang menunggu pemeriksaan. Hanya pengguna yang membuatnya  dan moderator yang dapat melihatnya.
         hide:
-          "true": Tampilkan topik ini
-          "false": Sembunyikan topik ini
+          'true': Tampilkan topik ini
+          'false': Sembunyikan topik ini
         lock:
-          "true": Buka kunci topik ini
-          "false": Kunci topik ini
+          'true': Buka kunci topik ini
+          'false': Kunci topik ini
         pin:
-          "true": Lepaskan sematan topik ini
-          "false": Sematkan topik ini
-        related_proposals: Proposal terkait
+          'true': Lepaskan sematan topik ini
+          'false': Sematkan topik ini
+        related_proposals: "Proposal terkait"
     post:
       buttons:
         reply: Kirim balasan
@@ -183,7 +187,7 @@ id-ID:
         in_reply_to: balasan untuk
     moderation:
       index:
-        title: 'Alat moderasi untuk %{forum}'
+        title: "Alat moderasi untuk %{forum}"
   helpers:
     submit:
       frm_forum:
@@ -202,6 +206,7 @@ id-ID:
       frm_forum:
         category: Kategori
         title: Judul
+        name: Gelar
         description: Deskripsi
         moderators: Moderator
         visible_outside: Dapat dilihat oleh non-anggota
@@ -218,15 +223,15 @@ id-ID:
         text: Teks
       frm_mod:
         name: Nama
-  time_ago_in_words: '%{time} yang lalu'
-  ago: ' yang lalu'
-  ago_by: ' yang lalu oleh'
+  time_ago_in_words: "%{time} yang lalu"
+  ago: " yang lalu"
+  ago_by: " yang lalu oleh"
   by: oleh
-  started_by: 'Dimulai oleh '
+  started_by: "Dimulai oleh "
   are_you_sure: Anda yakin?
-  lst_post: Tulisan terakhir
-  last_post: Topik terakhir
-  back_to_forums: Kembali ke forum
+  lst_post: "Tulisan terakhir"
+  last_post: "Topik terakhir"
+  back_to_forums: "Kembali ke forum"
   pages:
     forum_groups:
       index:

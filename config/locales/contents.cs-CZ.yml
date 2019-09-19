@@ -1,0 +1,284 @@
+cs-CZ:
+  home:
+    intro:
+      title: "První sociální síť pro E-demokracie ve světě"
+      description: "Nástroj přímé demokracie narodil se rozhodovat a jednat kolektivně na návrhy a nápady vytvořené kdekoli pro jakékoliv téma."
+      paragraph_1:
+        title: "Sociální síť pro E-demokracie"
+        content_html: |
+          <p> Airesis je <a href="http://en.wikipedia.org/wiki/Free_software"> bezplatná softwarová platforma </a>, postavená
+          tým italských vývojářů a přispěvatelů, aby umožnily komunitám a skupinám organizovat se
+          Produktivním způsobem podle zásad <a href = "http://en.wikipedia.org/wiki/Direct_democracy"
+          target = "_ blank"> přímá demokracie </a> a účast. </ p>
+
+          <p> K dosažení tohoto cíle byla aplikace navržena jako multifunkční systém, který integruje všechny
+          nástroje, které mohou pomoci rozvoji komunity, zejména "sociálních" a deliberativních nástrojů. </ p>
+
+          <p> <strong> Sociální nástroje </ strong> Airesis nabízí blogy a systém propagace událostí
+          a schůzky se sousedním plánováním.
+          Z <strong> deliberativních nástrojů </ strong> obsahuje oblasti pro shromažďování a projednávání návrhů
+          a iniciativ,
+          a hlasovací systém zaměřený na volbu kandidátů. Platforma také umožňuje vytvářet skupiny s
+          přístup k regulačním politikám a přizpůsobitelná oprávnění.
+          Vzhledem k tomu, že cílem Airesis je podnítit účast, byla věnována velká pozornost, aby se maximalizovalo
+          intuitivnost celé platformy.
+          Filozofie vývoje je zaměřena na neustálé zlepšování, jakýsi druh evolučního procesu založený na uživatelích
+          zpětná vazba.
+          Vývojový tým je k dispozici pro potřeby komunit, které chtějí software používat
+          podle ducha přímé demokracie. </ p>
+      paragraph_3:
+        title: "Principy a základní hodnoty"
+        content_html: |
+          <p>Airesis je open source nástroj pro rozhodování pro e demokracie, silně orientovaný na řešení problémů a jehož cílem je maximalizovat obrovskou evoluční sílu <a heref="http://en.wikipedia.org/wiki/Collective_intelligence" target="_blank">kolektivní inteligenci</a>. Vše vyvíjeno dobrovolníky podle principů neziskových, Airesis
+          <p></p>
+          byl vytvořen aby rychleji, informováni, sdílené a zúčastnil rozhodnutí.<br/>
+          je založen na následujících principech:</p>
+          <ul>
+          <li><strong>účast</strong> <br/>
+          zapojení občanů znamená, mít více energie a názory k dispozici. Pouze prostřednictvím přímé účasti je možné zjistit problémy a pochopit, co lidé opravdu chtějí. Účast je podstatu demokratické rozhodnutí.
+          </li>
+
+          <li><strong>transparentnost a bezpečnost</strong><br/>
+          bez průhlednosti, pravidla lze snadno obejít a demokracie mohou rychle zvrhnout. Průhlednost rovněž znamená otevřenost, schopnost přijímat: to důvodů Airesis umožňuje také Neregistrovaní uživatelé zobrazit obsah webu. Zdrojový kód softwaru je také "transparentní", je to zcela open source.</li>
+
+          <li><strong>konstruktivní dialog</strong><br/>
+          nikdo nevlastní všechny správné odpovědi. Použití vhodných nástrojů, vypracování nápadů, navrhl mnoho lidí mohou být produktivnější než dělat to sami.</li>
+
+          <li><strong>rovné příležitosti</strong><br/>
+          určen jako jak efektivní rovnosti, z hlediska nabízené možnosti, může pokračovat v systému.
+          </li>
+
+          <li><strong>flexibilitu</strong><br/>
+          každá skupina má své vlastní potřeby, každý návrh se liší od ostatních, každý uživatel má své vlastní potřeby.</li>
+      paragraph_4:
+        title: "Náš cíl: přímé a participativní demokracie"
+        content_html: |
+          <p> Strukturovaný jako sociální síť, Airesis umožňuje uživatelům zapojit ostatní lidi podle svých zájmů a využívat je
+          kvality každého z nich, aby konsenzuálně uvažoval o jakémkoli typu návrhu.
+          Architektura a její základní hodnoty umožňují platformě sledovat cíle společenské a konstruktivní debaty
+          na otázky, které mohou zahrnovat území, sociální propagaci, odvětvové politiky a následně vyvstávat nejlepší nápady. </ p>
+          <p> Airesis poskytuje nástroje pro:
+          <ul>
+          <li> Propagujte nápady a zkušenosti jednotlivých členů </ li>
+          <li> Seskupit iniciativy / návrhy jednotlivých uživatelů a prezentovat je komunitě </ li>
+          <li> Poskytněte nástroje pro diskusi o různých iniciativ </ li>
+          <li> Podporujte sdílené úpravy návrhů </ li>
+          <li> Spravujte hlasování různých iniciativ a návrhů </ li>
+          <li> Propagujte obecné události nebo schůzky </ li>
+          <li> Správa aplikací kandidátů a sousedních volebních operací </ li>
+          <li> Správa omezených podskupin řízených konkrétními pravidly a oprávněními, ale se všemi nástroji poskytovanými platformou </ li>
+          </ ul>
+          </ p>
+      paragraph_5:
+        title: "Vlastnosti a vlastnosti"
+        content_html: |
+          První sociální síť pro e-demokracii ve světě
+          Nástroj pro přímou demokracii, který se rodí, aby se rozhodoval a společně jednal o návrzích a nápadech, které byly vytvořeny kdekoli pro nějakou téma.
+          Sociální síť pro e-demokracii
+          <p> Airesis je <a href="http://en. wikipedia. org/wiki/Free_software"> bezplatná softwarová platforma </a> postavená týmem italských vývojářů a přispěvatelů, která umožňuje komunitám a skupinám organizovat se produktivním způsobem podle zásad <a href="http://cs. wikipedia. org/wiki/Direct_democracy" target="_blank"> přímé demokracie </a> a účasti. </ p> </ p> Pro dosažení tohoto cíle byla aplikace navržena jako multifunkční systém, který integruje všechny nástroje, které mohou napomoci rozvoji komunity, zejména "sociálních" a deliberativních nástrojů. </ p> <p> strong> sociální nástroje </ strong>, Airesis nabízí blogy a systém propagace událostí a setkání s přilehlým plánováním. Z <deliberativních nástrojů </ strong> obsahuje oblasti pro shromažďování a projednávání návrhů a iniciativ a systém hlasování zaměřený na volbu kandidátů. Platforma také umožňuje vytvářet skupiny s přístupem k regulačním politikám a přizpůsobitelným oprávněním. Vzhledem k tomu, že cílem společnosti Airesis je stimulovat účast, byla věnována velká pozornost, aby se maximalizovala intuitivnost celé platformy. Filozofie vývoje je zaměřena na neustálé zlepšování, jakýsi evoluční proces založený na zpětné vazbě uživatelů. Vývojový tým je k dispozici pro potřeby komunit, které chtějí používat software v duchu přímé demokracie. </ P>
+          Principy a základní hodnoty
+          <p> Airesis je nástroj otevřeného rozhodování pro e-demokracii, silně orientovaný na řešení problémů a navržený tak, aby maximalizoval obrovskou evoluční sílu <a heref = "http://en. wikipedia. org/wiki/Collective_intelligence "target =" _ blank "> kolektivní zpravodajství </a>. </ p> <p> Úplně vyvinuté dobrovolníky podle neziskových principů, Airesis byla vytvořena pro rychlé, informované, sdílené a zúčastněné rozhodnutí. <br/> Je založen na následujících zásadách: </ p> <ul> <li> <strong> Účast </ strong> <br/> Zapojení občanů znamená, že je k dispozici více energie a názorů. Pouze přímou účastí je možné vyšetřovat problémy a pochopit, co lidé opravdu chtějí. Účast je podstata demokratických rozhodnutí. </ li> <li> <strong> Transparentnost a bezpečnost </ strong> <br/> Bez průhlednosti mohou být pravidla snadno obcházena a demokracie může rychle degenerovat. Transparentnost také znamená otevřenost, schopnost přijímat: z tohoto důvodu Airesis také umožňuje neregistrovaným uživatelům prohlížet si obsah webu. Zdrojový kód softwaru je také "transparentní", protože je zcela otevřený. </ Li> <li> <strong> Konstruktivní dialog </ strong> <br/> Nikdo nemá všechny správné odpovědi. Použití vhodných nástrojů, zpracování nápadů navržených mnoha lidmi může být mnohem produktivnější než dělat sami. </ Li> <li> <strong> Rovné příležitosti </ strong> <br/> Bude určena jako účinná rovnost, pokud jde o nabízené možnosti, může systém sledovat. </ li> <li> <strong> Flexibilita </ ​​strong> <br/> Každá skupina má své vlastní potřeby, každý návrh se liší od ostatních, každý uživatel má své vlastní potřeby. </ li>
+          Naším cílem je přímá a participativní demokracie
+          <p> Strukturovaný jako sociální síť, Airesis umožňuje uživatelům zapojovat jiné osoby podle svých zájmů a využívat kvality každého z nich, aby konsenzuálně uvažoval o jakémkoli typu návrhu. Architektura a její základní hodnoty umožňují platformě usilovat o cíle společenské a konstruktivní debaty o otázkách, které mohou zahrnovat území, sociální podporu, sektorové politiky a následně získat nejlepší nápady. </ P> <p> Airesis poskytuje nástroje k: <ul> <li> Propagovat nápady a zkušenosti jednotlivých členů </ li> <li> Seskupit iniciativy / návrhy jednotlivých uživatelů a prezentovat je komunitě </ li> <li> Poskytovat nástroje pro diskusi na různých iniciativách </ li> <li> Podporovat sdílené úpravy návrhů </ li> <li> Správa hlasování různých iniciativ a návrhů </ li> <li> Propagovat generické události nebo schůzky </ li> <li> Spravovat přihlášky kandidátů a sousední hlasovací operace </ li> <li> Spravujte omezené podskupiny, které se řídí specifickými pravidly a oprávněními, ale se všemi nástroji poskytovanými platformou </ li> </ ul> </ p>
+          Vlastnosti a vlastnosti
+          <p> Vývojový tým společnosti Airesis vytváří všechny funkce a nástroje <strong> podle potřeb skupin </ strong>, které využívají platformu. Stejná vývojová skupina je přítomná na Airesis a rozhoduje o budoucích implementacích <strong> konsensuálně </ strong>. </ P> <p> Skutečná struktura umožňuje registrovanému uživateli patřit do <strong> otevřeného prostoru </ strong> připojit se ke skupině <strong> skupiny </ strong> nebo k založení nové. Buď ve skupinách a v otevřeném prostoru
+      paragraph_6:
+        title: "Základní rysy"
+        content_html: |
+          <ul>
+          <li> <strong> Registrace a přihlášení </ strong> <br>
+          z každé stránky nebo dokonce po přidání komentáře nebo příspěvku. Je dokonce možné přihlásit se pomocí Facebooku, Google +, Meetup, Twitter nebo Linkedin
+          </ li>
+          <li> <strong> Veřejná oblast nebo soukromá oblast pro skupiny </ strong> (<a href="http://youtu.be/n_ZruAcNkVk" target="blank"> Další informace v tomto video tutoriálu </a>) <br>
+          Přihlášení se můžete účastnit otevřeného prostoru, připojit se ke skupině, která je již přítomna nebo k vytvoření nové.
+          </ li>
+          <li> <strong> Vytváření návrhů a diskusí </ strong>
+          Jak ve skupinách, tak v otevřeném prostoru je možné zveřejňovat návrhy / iniciativy a přijímat příspěvky,
+          komentáře a hodnocení k úpravě sdíleného shrnutí návrhu, který může získat co možná největší konsenzus.
+          </ li>
+          <li> <strong> Kvórum a návrhy hlasování </ strong> <br>
+          Každý návrh má své vlastní kvórum. Hlasování probíhá podle preference podle metody Schulze.
+          </ li>
+          <li> <strong> Správa událostí / kalendáře </ strong> <br>
+          Je možné naplánovat události týkající se setkání, hlasování, volby kandidátů v rámci skupin nebo v otevřeném prostoru.
+          </ li>
+          <li> <strong> Newsletter </ strong> o událostech a zprávách o platformě </ li>
+          <li> <strong> Zprávy </ strong> a <strong> upozornění e-mailem </ strong> (přizpůsobitelné uživatelem)
+          </ li>
+          <li> <strong> Nahrávání a správa dokumentů </ strong> a příloh k návrhům (funkce je momentálně zakázána)
+          </ li>
+          <li> <strong> Ankety </ strong> jak interní, tak externí pomocí metody hlasování Schulze. </ li>
+          <li> <strong> Aplikace pro mobily </ strong> </ li>
+          </ ul>
+      paragraph_7:
+        title: "Nástroj pro návrh a diskusi"
+        content_html: |
+          <p> Jádro softwaru je zaměřeno na <strong> deliberativní nástroj </ strong>, který vám umožní účastnit se navrhování návrhu, stanovit společný cíl,
+          přispívat k hledání alternativních řešení a hlasovat o výsledku této práce, aby návrh získal nejvíce
+          možný konsensus a nejlepší a nejčastěji sdílené řešení. </ p>
+          <p> Proces zahrnuje 3 kroky: </ p>
+          <ul>
+          <li> <strong> Autor vytvoří návrh </ strong> podle průvodce, po kterém systém publikuje text v části <strong> "V diskusi" </ strong>.
+          Během tohoto období může redakční návrh upravovat na základě daných hodnocení a příspěvků přidaných dalšími uživateli. </ Li>
+          <li> Po dosažení <strong> diskusního kvóra </ strong> se návrh v tomto období dostane do části <strong> "Hlasování" </ strong>
+          text návrhu nelze změnit, editor zvolí událost <strong> hlasování </ strong> (období hlasování)
+          mezi již plánovanými nebo můžete vytvořit novou pomocí kalendáře
+          Všichni oprávnění uživatelé (podle pravidel stanovených skupinou) mohou během stanoveného období <strong> hlasovat </ strong>. </ Li>
+          <li> <strong> Na konci hlasování </ strong> systém vypočítá <strong> výsledky </ strong> a návrh umístí do sekce <strong> "Hlasování </ strong>. </ li>
+          <li> Pokud však nedosáhnete <strong> diskusního kvora, </ strong>, přejděte do sekce <strong> "Opuštěné" </ strong>, kde lze <strong> vrátit debatu </ strong > znovu spustit nový životní cyklus. </ li>
+          </ ul>
+          <p> Zvláště zajímavé je přijetí <strong> diskusní oblasti </ strong> pro každý publikovaný návrh, který umožňuje, aby byl návrh sám upravován redaktory (jako například <a href = "http: //en.wikipedia. org / wiki / Wiki "cíl =" prázdný "> wiki </a>)
+          podle konsenzu získaného jednotlivými příspěvky.
+          Diskuzní prostor je dvouúrovňový, první je určen k shromažďování příspěvků, druhé osobní úvahy o druhém.
+          První úroveň implementuje mechanismus zvyšující zralost návrhu <strong> zahrnující v něm nejcennější příspěvky </ strong>. </ P>
+          <p> <strong> Diskusní kvora </ strong>, potřebné k podpoře návrhu do fáze hlasování, se skládá ze tří různých parametrů: </ p>
+          <ul>
+          <li> <strong> Účastníci </ strong>: počet lidí, kteří se účastní debaty;
+          </ li>
+          <li> <strong> Čas diskuse </ strong>: období, ve kterém návrh zůstává ve fázi debaty (počínaje podáním);
+          </ li>
+          <li> <strong> Zralost </ strong>: procento účastníků, kteří tvrdí, že návrh je připraven k hlasování;
+          </ li>
+          </ ul>
+          <p> Hodnocení "<strong> zralosti </ strong>" návrhu je formálním aktem členů komunity
+          (provedené během diskusního období), ve kterém vyjadřují <strong> vhodnost </ strong> znění návrhu <strong> následující fáze hlasování </ strong>. </ p>
+          <p> Existují <strong> různé typy kvora </ strong>: V závislosti na složitosti tématu se parametry (účast, čas a splatnost) liší.
+          Pro návrhy uvnitř otevřeného prostoru jsou kvorové definovány správcem systému, zatímco <strong> kvora návrhů zveřejněných uvnitř skupin může být volně upravovat správci skupin </ strong>.
+          </ p>
+          <p> Návrhy jsou <strong> organizované </ strong>, <strong> tříděné </ strong> a <strong> vyhledávatelné </ strong> různými způsoby: </ p>
+          <ul>
+          <li> v závislosti na stavu <strong> </ strong> ("V rozhovoru", "Hlasování", "Hlasoval", "Opuštěný") </ li>
+          <li> podle předdefinovaných <strong> kategorií </ strong> ("Práce", "Zdraví", "Vzdělávání" atd.) </ li>
+          <li> v závislosti na typu <strong> typu </ strong> návrhu: standard, regulace, odhad, prohlášení, technické rozhodnutí atd. </ li>
+          <li> pomocí <strong> volných značek </ strong>, které lze zadat do textu návrhu. </ li>
+          </ ul>
+      paragraph_8:
+        title: "Schulze metoda hlasování a přímá demokracie"
+        content_html: |
+          <p> Když končí časová lhůta určená pro rozpravu a dostačující počet lidí se dohodne na splatnosti návrhu (tyto podmínky se liší podle kvora debaty), návrh jde do <strong> fáze hlasování </ strong> strong>. </ p>
+          <p> V tomto okamžiku je návrh <strong> zmrazen </ strong> a editor musí <strong> vybrat časový rámec </ strong>, ve kterém bude mít skupina možnost hlasovat.
+          Událost "hlasování" je zaznamenána do skupinového kalendáře a <strong> oznámena </ strong> všem členům skupiny. </ P>
+          <p> V době hlasování se zašle nové oznámení, ve kterém se zobrazí návrh, který se má hlasovat, a na stránce, ve které se hlasuje. V tomto okamžiku může každý účastník poté, co si přečetl návrh a seznam možných řešení, předložit své řešení <strong> objednávání </ strong> těchto řešení z těch, kteří se nejvíce líbí, a tím umožňují zpracování <a href = "http://it.wikipedia.org/wiki/Metodo_Schulze" target = "blank"> Metoda Schulze </a>, abyste zjistili, jakou skupinu preferuje skupina. </ p>
+          <p> Na konci hlasování se návrh dostane do stavu "<strong>" hlasoval "</ strong>, kde je kdykoli možné zkontrolovat výsledek hlasování. </ p>
+      paragraph_9:
+        title: "Podpora sdílených návrhů a participativní demokracie"
+        content_html: |
+          <p> Airesis byla vyvinuta pro podporu sdílení nápadů a názorů v rámci komunity. K dosažení tohoto cíle nabízí platforma různé nástroje: </ p>
+          <ul>
+          <li> <strong> Návrh je ve výchozím nastavení veřejný </ strong>
+          </ li>
+          <li> zveřejnění návrhů <strong> sociálních sítí </ strong>, v Open Space of Airesis nebo na externích blogech a fórech;
+          </ li>
+          <li> <strong> Osobní blog </ strong>, kde se členové komunity mohou kromě sdílení nápadů a názorů prezentovat a zveřejňovat informace a oznámení ve zprávách o skupinách, které jsou členy.
+          </ li>
+          <li> možnost uspořádat <strong> setkání </ strong> pro členy komunity;
+          </ li>
+          <li> možnost <strong> označit zajímavé události </ strong> ve sdíleném kalendáři;
+          </ li>
+          <li> přítomnost <strong> diskusního panelu </ strong> v každém návrhu, ve kterém se podle získaných hodnocení přidávají příspěvky, které mohou editoři integrovat do textu návrhu;
+          </ li>
+          <li> Systém pověstí, který odměňuje účast, konstruktivní debaty a jasnost a podporuje řešení problémů
+          </ li>
+          <li> možnost pozvat své kontakty, aby se zapojili do diskuse
+          </ li>
+          <li> možnost žádat o zařazení do projektu; </ li>
+          <li> usnesení o návrzích prostřednictvím hlasování certifikovaných členů.
+          </ li>
+          </ ul>
+      paragraph_10:
+        title: "Dočasná anonymita, tajné hlasování a ověřitelné hlasování"
+        content_html: |
+          <p> Jednou ze zvláštností společnosti Airesis je, že <strong> skupiny si mohou vybrat, zda bude diskuse o návrzích anonymní nebo nikoli </ strong>. </ p>
+
+          <p> Pokud je povolena anonymita, autory a komentátoři návrhů jsou označeni pseudonymem.
+          Tato funkce umožňuje vyhodnocovat návrhy, kritiky a návrhy podle jejich obsahu pouze, nestranně,
+          bez "jména" autorů a dynamika interpersonálního zálibu / nepřítomnosti ovlivňuje debatu.
+          </ p>
+
+          <p> V každém případě se na konci rozpravy a po hlasování účastníci zobrazí se svými skutečnými jmény, aby bylo možné ověřit zásahy každého z nich. </ p>
+
+          <p> Tato možnost platí také pro fázi hlasování, takže je možné zvolit, zda k tomu dojde otevřeným nebo tajným hlasováním.
+          Důležité, zejména v případě tajného hlasování, je možnost ověřit registraci hlasů a absenci podvodu.
+          To je možné prostřednictvím systému auditovatelného hlasování prováděného společností Airesis.
+          </ p>
+      paragraph_11:
+        title: "Správa skupin a uživatelských rolí"
+        content_html: |
+          <p> Airesis implementuje flexibilní systém pro správu <strong> oprávnění </ strong>, který může každý člen
+          mít v rámci skupiny, abychom mohli přidělit následující <strong> role </ strong>: </ p>
+          <ul>
+          <li> Zobrazit soukromé návrhy </ li>
+          <li> Přispějte k návrhům </ li>
+          <li> Vložte do skupiny nové návrhy </ li>
+          <li> Publikujte na domovské stránce skupiny </ li>
+          <li> Vytvořte události a hlasy </ li>
+          <li> Podpora návrhů v názvu skupiny </ li>
+          <li> Přidat účastníky ve skupině </ li>
+          <li> Nominujte členy pro volby </ li>
+          </ ul>
+          <p> Airesis umožňuje skupinám, které ji používají, k výběru
+          <strong> nastavení, které nejlépe vyhovují jejich potřebám </ strong> a jejich interní předpisy. to je
+          například umožnit přístup k určitým funkcím pouze
+          <strong> aktivní uživatelé a / nebo certifikáty </ strong> nebo ty, které mají <strong> zvláštní roli </ strong>.
+          Existuje také značná svoboda, pokud jde o požadavky na řízení, které musí splňovat návrhy pro přístup k hlasování.
+          </ p>
+          <p> Další důležitou vlastností je <strong> rozdělení na oblasti / pracovní skupiny </ strong>, které to dělá
+          možné vytvářet oblasti v rámci skupin a mít právo držet každou oblast účastníků, kteří budou
+          diskutovat o návrzích týkajících se dané oblasti. Každý účastník bude přiřazen
+          <strong> konkrétní role pro každou oblast </ strong>, aby se stal ještě flexibilnějším nástrojem. </ p>
+      paragraph_12:
+        title: "Skupiny"
+        content_html: |
+          Přístup k "skupinám" lze provést buď stisknutím "vyhledávacích skupin" z horního panelu nebo z levého sloupce pracovníků domovské stránky.
+          <p> Kliknutím na název skupiny se otevře jeho domovská stránka (prezentace + zprávy / blogy). V oblasti
+          návrhy
+          jsou zobrazeny to, co se skupina rozhodla zveřejnit a vidět i ty vnitřní
+          (návrhy a soukromé akce), musíte požádat místního správce o přijetí do skupiny. </ p>
+          <p> Navrhovaná oblast je rozdělena do čtyř tabulek ("V diskusích", "V hlasování", "Hlasování", "Vlevo za sebou"), které jsou
+          uvádí návrhy podle jejich stavu. Kliknutím na název návrhu se otevře,
+          zobrazení
+          text a oblast příspěvků. Návrhy lze dále filtrovat výběrem kategorií nebo
+          Štítek,
+          zobrazit pouze návrhy témat, které vás zajímají. </ p>
+          <p> Každý člen komunity může podpořit nový návrh: stačí kliknout na tlačítko "Vytvořit nový
+          návrh "a zobrazí se ve formuláři, který vyplní. </ p>
+          <p> Prostřednictvím přístupu v rámci diskutovaného návrhu mohou členové komunity s ním komunikovat v souladu
+          jejich dovednosti, odborné znalosti a názory. </ p>
+          <h3 id = "Spazio_comune"> Otevřený prostor </ h3>
+          <p> Klepnutím na "Open Space" otevřete oblast určenou pro správu návrhů, které mohou být
+          společný zájem. </ p>
+          <p> Oblast návrhů skupiny vypadá podobně jako skupina; Je také přítomen "soukromý
+          kalendář ", který zobrazuje všechny veřejné události, většinu soukromých událostí souvisejících se skupinou. </ p>
+          <p> V otevřeném prostoru je také karta "kalendář", která vyzdvihla události pro
+          celý
+          (signalizační akce, schůzky, hlasování). Kliknutím na poznámku otevřete stránku události
+          a v závislosti na typu můžete komunikovat s ním (např. účastníte se hlasování nebo signalizovat ochotu)
+          zúčastnit se schůzky). </ p>
+    whatis:
+      title: "První sociální síť pro E-demokracie ve světě"
+      description: "Nástroj přímé demokracie narodil se rozhodovat a jednat kolektivně na návrhy a nápady vytvořené kdekoli pro jakékoliv téma."
+      paragraph_1:
+        title: "Sociální síť pro E-demokracie"
+      paragraph_7:
+        title: "Prostor k diskuzi"
+      paragraph_8:
+        title: "Mnohem, mnohem více"
+        link: 'uvítací stránka'
+    roadmap:
+      paragraph1:
+        content_html: |
+          <p> Airesis se narodil z fúze dvou projektů zahájených před více než dvěma lety v důsledku nutnosti
+          softwarová platforma, která by mohla integrovat hlavní rysy sociálních sítí, správu událostí a masový rozhodovací systém. </ p>
+          <p> V březnu 2012, během setkání "Cittadini a cinque stelle" (Pět hvězdiček občanů), které se konalo v Rimini, Alessandro Rodi
+          se svým projektem Airesis poznal Nicola Giulietti a projekt Agora 2.0: na jedné straně dobrý software,
+          na druhé straně vynikající analýza vlastností, které měl mít portál pro přímou demokracii. </ p>
+          <p> Po tomto setkání bylo rozhodnuto spolupracovat na vývoji společné aplikace open source, aby mohla
+          implementujte funkce označené skupinou Agora 2.0 za více než rok trvající práci. </ p>
+          <p> Mise byla (a přesto je) ambiciózní, ale víme, že je možné je dosáhnout pomocí správných nástrojů krok za krokem. </ p>
+          <p> Díky našemu odhodlání, co původně vypadalo jako sen svobody, našel podporu mnoha lidí a pomoc programátorů,
+          analytiků, matematiků, grafických designérů a odpovědných občanů. </ p>
+          <p> Aktuálně vydané softwarové verze jsou vydávány měsíčně nebo dvakrát měsíčně, aby vyhovovaly požadavkům a potřebám uživatelů,
+          za účelem uplatnění procesu neustálého zlepšování. </ p>
+    engage:
+      developer:
+        title: "Vývojář"

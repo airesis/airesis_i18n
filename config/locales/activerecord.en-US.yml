@@ -5,16 +5,10 @@ en-US:
       places: 'Place'
     attributes:
       blog_comment:
-         body: 'Comment'
-         created_at: "AntiSpam"
-      candidate:
-         user: 'Candidate'
-         election: 'Election'
-      election:
-        groups_end_time: 'Deadline date for group entry'
-        candidates_end_time: 'Deadline date for candidates entry'
+        body: 'Comment'
+        created_at: "AntiSpam"
       event:
-        title: 'Event title'
+        title: 'Event Title'
         description: 'Description'
         event_type_id: 'Event Type'
         starttime: 'Start Date'
@@ -23,11 +17,6 @@ en-US:
         period: 'Repeat'
         frequency: 'Repeat every'
         private: 'Private'
-        candidates_end_time: 'Deadline date for candidates entry'
-        meeting:
-          place:
-            address: "Address"
-            municipality_id: "City"
       group:
         facebook_page_url: 'Facebook page address'
         name: 'Name'
@@ -44,10 +33,10 @@ en-US:
         title_bar_placeholder: "Group page title."
         description_placeholder: "This message will be on the first page of the group"
         image_url_placeholder: "Group image URL"
-        facebook_page_url_placeholder: "Group Facebook page? insert link here."
+        facebook_page_url_placeholder: "Group Facebook page? Insert link here."
         admin_title: "How are the administrators of the group called?"
         private: "Private group"
-        rule_book: "Rule book"
+        rule_book: "Rulebook"
         image: "Load image"
         admin_title_placeholder: "Role name of the group administrators (default: Administrator)"
       blog:
@@ -58,14 +47,20 @@ en-US:
         published: 'State'
         published_true: 'Published'
         published_false: 'Draft'
+        published_reserved: "Reserved"
+        group_ids: Published in the following groups
+        published_at: Published at
       participation_role:
-         name: 'Name'
-         description: 'Short description'
+        name: 'Name'
+        description: 'Short description'
       group_invitation:
         emails_list: "E-mail addresses"
         testo: "Message text"
       place:
-         address: 'Address'
+        address: 'Address'
+        municipality_id: 'City'
+        latitude_original: Latitude
+        longitude_original: Longitude
       proposal:
         group_area_id: "Work area"
         proposal_category_id: 'Category'
@@ -80,13 +75,18 @@ en-US:
         anonima: "Temporary anonymity"
         visible_outside: "Publicly visible"
         secret_vote: "Secret vote"
+        vote_starts_at: "Vote starts at"
+        vote_ends_at: "Vote ends at"
+        debate_starts_at: "Debate starts at"
+        debate_ends_at: "Debate ends at"
       proposal_comment:
-         content: 'Content'
+        content: 'Content'
       quorum:
         name: 'Name of the quorum'
         name_title: 'Please enter a short, explanatory title'
         description: 'Description / Brief explanation'
         description_title: 'A description to understand the purpose of this quorum'
+        minutes: Debate duration
         days_m: Days
         hours_m: hours
         minutes_m: Minutes
@@ -98,6 +98,9 @@ en-US:
         bad_score_title: 'Rating under which the proposal will be rejected. Allows you to continue the discussion if the Time or Participants conditions are not met'
         condition: Condition
         condition_title: 'The conditions of Time and Participants must be both overcome or just one of them?'
+        vote_minutes: 'Vote duration'
+        vote_percentage: 'Quorum (voters)'
+        vote_good_score: 'Approval'
       search_participant:
         role_id: 'Role'
         keywords: 'Name or surname'
@@ -105,13 +108,14 @@ en-US:
         name: 'Name'
         email: 'Email address'
         surname: 'Surname'
-        login: 'Username'
         password: 'Password'
         linkedinpageurl: 'Your page on LinkedIn'
         facebookpageurl: 'Your page on Facebook'
         accept_conditions: 'Terms of Use'
         receive_newsletter: 'Newsletter via Email'
         blocked: "Error"
+      user_sensitive:
+        name: 'First Name'
       group_area:
         name: "Name"
         description: "Description"
@@ -132,9 +136,10 @@ en-US:
         blank: 'must be filled'
         too_long: 'The text is too long'
         too_short: 'The text is too short'
-        wrong_length: should be %{count} characters)'
+        wrong_length: 'should be %{count} characters)'''
         taken: 'is already taken'
         not_a_number: 'is not a number'
+        not_an_email: 'is not a valid email address'
         greater_than: 'must be greater than %{count}'
         greater_than_or_equal_to: 'must be greater than or equal of %{count}'
         equal_to: 'must be equal to %{count}'
@@ -145,8 +150,8 @@ en-US:
         record_invalid: 'Validation failed %{errors}'
         not_found: 'not found.'
         TOS: "It is required to accept the TOS"
-      full_messages:
-        format: "%{attribute} %{message}"
+        certified_cannot_edit: 'cannot be edited if you are a certified user'
+        forum_visibility: "A forum can't be visible outside the group if the category is private"
       models:
         user:
           attributes:

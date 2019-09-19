@@ -1,0 +1,158 @@
+pl-PL:
+  activerecord:
+    models:
+      meeting: 'Spotkanie'
+      places: 'Miejsce'
+    attributes:
+      blog_comment:
+        body: 'Komentarz'
+        created_at: "AntiSpam"
+      event:
+        title: 'Tytuł wydarzenia'
+        description: 'Opis'
+        event_type_id: 'Rodzaj wydarzenia'
+        starttime: 'Data rozpoczęcia'
+        endtime: 'Data zakończenia'
+        all_day: 'Cały dzień'
+        period: 'Powtórz'
+        frequency: 'Powtórz wszystkie'
+        private: 'Prywatne'
+      group:
+        facebook_page_url: 'Adres strony Facebook'
+        name: 'Nazwa'
+        title_bar: 'Pasek tytułu'
+        description: 'Opis'
+        accept_requests: 'Prośba o uczestnictwo'
+        porta_id: 'Administrator'
+        interest_border_tkn: 'Geograficzne miejsce zainteresowania'
+        interest_border_id: 'Geograficzne miejsce zainteresowania'
+        image_url: 'Adres obrazka'
+        default_role_name: "Jaka jest nazwa nowych użytkowników?"
+        default_role_name_placeholder: "Np.: Użytkownicy, Członkowie, Działacze, Piraci"
+        name_placeholder: "Wybierz imię związane z tożsamością grupy i/lub lokalizacją."
+        title_bar_placeholder: "Tytuł strony grupy."
+        description_placeholder: "Ta wiadomość będzie na pierwszej stronie grupy"
+        image_url_placeholder: "Adres URL obrazu grupy"
+        facebook_page_url_placeholder: "Strona grupowa na Facebooku? Link tutaj."
+        admin_title: "Jak nazywają się administratorzy grup?"
+        private: "Prywatna grupa"
+        rule_book: "Książka zasad"
+        image: "Ładowanie obrazu"
+        admin_title_placeholder: "Nazwa roli administratorów grup (domyślnie: Administrator)"
+      blog:
+        title: 'Tytuł'
+      blog_post:
+        title: 'Tytuł'
+        body: 'Tekst'
+        published: 'Stan'
+        published_true: 'Opublikowany'
+        published_false: 'Projekt'
+        published_reserved: "Zastrzeżony"
+        group_ids: Opublikowany w następujących grupach
+        published_at: Opublikowane o
+      participation_role:
+        name: 'Nazwa'
+        description: 'Krótki opis'
+      group_invitation:
+        emails_list: "Adresy e-mail"
+        testo: "Treść wiadomości"
+      place:
+        address: 'Adres'
+        municipality_id: 'Miasto'
+        latitude_original: Szerokość
+        longitude_original: Długość geograficzna
+      proposal:
+        group_area_id: "Obszar pracy"
+        proposal_category_id: 'Kategoria'
+        title: 'Tytuł'
+        subtitle: 'Napisy'
+        problems: 'Problemy'
+        objectives: 'Cele'
+        content: 'Tekst'
+        interest_borders_tkn: 'Geograficzne miejsca zainteresowania'
+        tags_list: "Tagi"
+        quorum_id: "Czas trwania debaty"
+        anonima: "Tymczasowa anonimowość"
+        visible_outside: "Widoczne publicznie"
+        secret_vote: "Sekretne głosowanie"
+        vote_starts_at: "Głosowanie zaczyna się o"
+        vote_ends_at: "Głosowanie kończy się o"
+        debate_starts_at: "Debata zaczyna się o"
+        debate_ends_at: "Debata kończy się o"
+      proposal_comment:
+        content: 'Zawartość'
+      quorum:
+        name: 'Nazwa kworum'
+        name_title: 'Wprowadź krótki, wyjaśniający tytuł'
+        description: 'Opis / krótkie wyjaśnienie'
+        description_title: 'Opis aby zrozumieć cel tego kworum'
+        minutes: Czas trwania debaty
+        days_m: Dni
+        hours_m: godzin
+        minutes_m: Minut
+        percentage_title: 'Minimalna liczba uczestników w dyskusji jako procent uczestników w grupie'
+        good_score: 'Dojrzałość'
+        good_score_title: 'Ocena może być osiągnięta w celu dania wniosku do fazy głosowania'
+        bad_score: 'Złe Kworum (procenty)'
+        bad_score_title: 'Ocena pod którą wniosek będzie odrzucony. Pozwala ci kontynuować dyskusję jeśli warunki czasu lub użytkowników nie są spójne'
+        condition: Warunek
+        condition_title: 'Warunki czasu i uczestników muszą przezwyciężyć oba czy tylko jeden z nich?'
+        vote_minutes: 'Czas trwania głosowania'
+        vote_percentage: 'Kworum (wyborców)'
+        vote_good_score: 'Zatwierdzenie'
+      search_participant:
+        role_id: 'Rola'
+        keywords: 'Imię lub nazwisko'
+      user:
+        name: 'Imię'
+        email: 'Adres e-mail'
+        surname: 'Nazwisko'
+        password: 'Hasło'
+        linkedinpageurl: 'Twoja strona na LinkedIn'
+        facebookpageurl: 'Twoja strona na Facebooku'
+        accept_conditions: 'Warunki użytkowania'
+        receive_newsletter: 'Biuletyn e-mail'
+        blocked: "Błąd"
+      user_sensitive:
+        name: 'Imię'
+      group_area:
+        name: "Imię"
+        description: "Opis"
+        default_role_name: "Domyślna nazwa roli"
+    errors:
+      template:
+        body: 'Wystąpiły problemy z następującymi polami'
+      messages:
+        inclusion: 'nie znajduje się na liście'
+        exclusion: 'jest zarezerwowany'
+        invalid: 'jest nieprawidłowy'
+        confirmation: 'nie pasuje do potwierdzenia'
+        accepted: 'musi być zaakceptowane'
+        empty: 'nie może być puste'
+        blank: 'musi być wypełnione'
+        too_long: 'Tekst jest zbyt długi'
+        too_short: 'Tekst jest zbyt krótki'
+        wrong_length: 'powinno być %{count} znaków'
+        taken: 'jest już zajęte'
+        not_a_number: 'nie jest liczbą'
+        not_an_email: 'nie jest poprawnym adresem email'
+        greater_than: 'musi być większe niż %{count}'
+        greater_than_or_equal_to: 'musi być większe lub równe %{count}'
+        equal_to: 'musi być równe %{count}'
+        less_than: 'musi być mniejsze niż %{count}'
+        less_than_or_equal_to: 'musi być mniejsze lub równe %{count}'
+        odd: 'musi być parzyste'
+        even: 'musi być nieparzyste'
+        record_invalid: 'Validation failed %{errors}'
+        not_found: 'nie znaleziono.'
+        TOS: "Zaakceptowanie niniejszych warunków jest wymagane"
+        certified_cannot_edit: 'nie można edytować, jeśli jesteś certyfikowanym użytkownikiem'
+        forum_visibility: "Forum nie może być widoczne poza grupą, jeśli kategoria jest prywatna"
+      models:
+        user:
+          attributes:
+            email:
+              already_confirmed: 'Ten adres e-mail jest już zarejestrowany'
+        group:
+          portavoce:
+            required: 'Musisz wybrać administratora'

@@ -7,16 +7,16 @@ pt-BR:
       posts: mensagem
       posts_count:
         one: 1 mensagem
-        other: '% {count} mensagens'
+        other: "% {count} mensagens"
       flagged_for_spam: Sua conta foi sinalizada por envio de spam.
       cannot_create_topic: Não é possível criar um novo tópico neste momento.
       cannot_create_post: Não é possível criar um nova mensagem neste momento.
-    access_denied: Não podes fazer isso.
+    access_denied: "Não podes fazer isso."
     admin:
       area: Area administrador
-      back_to_admin: Volta para Admin
-      back_to_forums: Voltar para Fórum
-      back_to_groups: Voltar para grupos
+      back_to_admin: "Volta para Admin"
+      back_to_forums: "Voltar para Fórum"
+      back_to_groups: "Voltar para grupos"
       forum:
         moderator_groups: Moderador dos grupos
         index: Gerenciar fóruns
@@ -40,7 +40,7 @@ pt-BR:
       category:
         index: Gerenciar categorias de fórum
         new: Criando uma nova categoria do fórum
-        edit: 'Editando a categoria %{title}'
+        edit: "Editando a categoria %{title}"
         new_link: Nova categoria do Fórum
         deleted: A categoria do Fórum selecionada foi excluída
         created: A nova categoria do fórum foi criada
@@ -58,13 +58,13 @@ pt-BR:
       not_signed_in: Você deve assinar
       access_denied: Acesso negado.
     forum:
-      header: 'Visualizando %{title}'
+      header: "Visualizando %{title}"
       forums: Fórum
       new: Criando um novo fórum
-      edit: 'Editando o fórum % {title}'
-      moderator_tools: Ferramentas de moderação
-      topic_tools: Ferramentas do tópico
-      admin_tools: Ferramentas de administração
+      edit: "Editando o fórum % {title}"
+      moderator_tools: "Ferramentas de moderação"
+      topic_tools: "Ferramentas do tópico"
+      admin_tools: "Ferramentas de administração"
     forums:
       index:
         forum: Fórum
@@ -101,13 +101,13 @@ pt-BR:
         edit: Editar tópico
       not_found: O tópico que procura não pôde ser encontrado
       hidden:
-        "true": Este tópico agora está escondido
-        "false": Este tópico é agora visível
+        'true': Este tópico agora está escondido
+        'false': Este tópico é agora visível
       locked:
-        "true": Este tópico agora está bloqueado
-        "false": Este tópico está agora desbloqueado
+        'true': Este tópico agora está bloqueado
+        'false': Este tópico está agora desbloqueado
       pinned:
-        "true": Este tópico está agora fixado
+        'true': Este tópico está agora fixado
     topics:
       show:
         reply: Responder
@@ -117,13 +117,13 @@ pt-BR:
         reply_to_topic: Responder ao tópico
         pending_review: Este post está esperando uma revisão. Somente o autor e os moderadores podem visualizá-lo.
         hide:
-          "true": Mostrar este tópico
-          "false": Esconder este tópico
+          'true': Mostrar este tópico
+          'false': Esconder este tópico
         lock:
-          "true": Desbloquear este tópico
-          "false": Bloquear este tópico
+          'true': Desbloquear este tópico
+          'false': Bloquear este tópico
         pin:
-          "false": Fixar este tópico
+          'false': Fixar este tópico
     post:
       buttons:
         reply: Postar resposta
@@ -148,7 +148,7 @@ pt-BR:
         in_reply_to: em resposta a
     moderation:
       index:
-        title: 'Atalhos de moderaçâo para %{forum}'
+        title: "Atalhos de moderaçâo para %{forum}"
   helpers:
     submit:
       frm_forum:
@@ -178,14 +178,14 @@ pt-BR:
         name: Nome
       post:
         text: Texto
-  time_ago_in_words: '% {time} atrás'
-  ago: ' Há'
+  time_ago_in_words: "% {time} atrás"
+  ago: " Há"
   by: por
-  started_by: 'Iniciado por '
+  started_by: "Iniciado por "
   are_you_sure: Tem certeza?
-  lst_post: Última mensagem
-  last_post: Último tópico
-  back_to_forums: Voltar para Fórum
+  lst_post: "Última mensagem"
+  last_post: "Último tópico"
+  back_to_forums: "Voltar para Fórum"
   pages:
     forum_groups:
       index:

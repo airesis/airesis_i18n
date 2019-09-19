@@ -7,16 +7,16 @@ es-AR:
       posts: Mensajes
       posts_count:
         one: 1 mensaje
-        other: '%{count} mensajes'
+        other: "%{count} mensajes"
       flagged_for_spam: Su cuenta ha sido marcada como spam.
       cannot_create_topic: No puede crear un nuevo tema en este momento.
       cannot_create_post: No puede crear un nuevo tema en este momento.
-    access_denied: No puedes hacer eso.
+    access_denied: "No puedes hacer eso."
     admin:
       area: Área de administración
-      back_to_admin: Volver a Admin
-      back_to_forums: Volver a los foros
-      back_to_groups: Volver a grupos
+      back_to_admin: "Volver a Admin"
+      back_to_forums: "Volver a los foros"
+      back_to_groups: "Volver a grupos"
       forum:
         moderator_groups: Grupos de moderador
         index: Administrar foros
@@ -31,35 +31,35 @@ es-AR:
         edit: Editar
         delete: Eliminar
         category: Categoría
-        delete_confirm: ¿Está seguro que desea eliminar este mensaje?
+        delete_confirm: '¿Está seguro que desea eliminar este mensaje?'
         index:
           last_post: Último mensaje
           none: Ninguno
           moderators: Moderadores
           no_category: (Sin categoría)
-        default_private: Foro privado
-        default_public: Foro público
-        default_private_description: Foro reservado a los participantes del grupo
-        default_public_description: Foro visible para todos los usuarios Airesis. También los usuarios que no están en el grupo
+        default_private: "Foro privado"
+        default_public: "Foro público"
+        default_private_description: "Foro reservado a los participantes del grupo"
+        default_public_description: "Foro visible para todos los usuarios Airesis. También los usuarios que no están en el grupo"
       mod:
         index: Administrar grupos
         new: Nuevo grupo
         created: El grupo fue creado con éxito
         not_created: No se pudo crear grupo
         deleted: El grupo seleccionado se ha eliminado
-        members: 'Miembros en %{group}'
+        members: "Miembros en %{group}"
       mods:
         show:
           add_member: Añadir
-          add_a_new_member: Añadir un nuevo miembro
-          current_members: Miembros actuales
+          add_a_new_member: "Añadir un nuevo miembro"
+          current_members: "Miembros actuales"
         edit: Editar
         delete: Eliminar
         name: Nombre
       category:
         index: Administrar categorías Foro
         new: Crear una nueva categoría de foro
-        edit: 'Editar el %{title} categoría'
+        edit: "Editar el %{title} categoría"
         new_link: Nueva categoría de foro
         deleted: Se ha eliminado la categoría seleccionada Foro
         created: Se ha creado esta categoría Foro
@@ -70,29 +70,37 @@ es-AR:
         edit: Editar
         delete: Eliminar
         category: Categoría
-        delete_confirm: ¿Está seguro que desea eliminar esta categoría Foro?
-        default_private: Sección privada
-        default_public: Sección pública
+        delete_confirm: '¿Está seguro que desea eliminar esta categoría Foro?'
+        default_private: "Sección privada"
+        default_public: "Sección pública"
+      group:
+        index: "Administrar grupos de moderador"
+        show:
+          title: "Gestión de moderadores"
+        new: "Nuevo grupo de moderadores"
+        created: "Ha creado el grupo de moderadores"
+        not_created: "Error al crear el grupo de moderadores"
+        deleted: "Se ha eliminado grupo de moderadores con éxito"
     common:
       pages: Páginas
     errors:
       not_signed_in: Usted debe firmar primero
       access_denied: Acceso denegado.
     forum:
-      header: 'Visualización %{title}'
+      header: "Visualización %{title}"
       forums: Foros
       new: Crear un nuevo foro
-      edit: 'Edición del %{title} del foro'
+      edit: "Edición del %{title} del foro"
       topics_count:
         one: 1 tema
-        other: '%{count} temas'
+        other: "%{count} temas"
       posts_count:
         one: 1 mensaje
-        other: '%{count} mensajes'
-      moderator_tools: Herramientas de moderación
-      topic_tools: Tema Herramientas
-      admin_tools: Herramientas de administración
-      title: Nuevo foro
+        other: "%{count} mensajes"
+      moderator_tools: "Herramientas de moderación"
+      topic_tools: "Tema Herramientas"
+      admin_tools: "Herramientas de administración"
+      title: "Nuevo foro"
     forums:
       index:
         title: Foro
@@ -130,14 +138,14 @@ es-AR:
         edit: Editar tema
       not_found: El tema que buscas no se encuentra
       hidden:
-        "true": Este tema está oculto
-        "false": Este tema es ahora visible
+        'true': Este tema está oculto
+        'false': Este tema es ahora visible
       locked:
-        "true": Este tema está ahora cerrado
-        "false": Este tema está ahora cerrado
+        'true': Este tema está ahora cerrado
+        'false': Este tema está ahora cerrado
       pinned:
-        "true": Este tema es ahora cubrió
-        "false": Este tema es ahora no cubierto
+        'true': Este tema es ahora cubrió
+        'false': Este tema es ahora no cubierto
     topics:
       show:
         reply: Respuesta
@@ -147,15 +155,15 @@ es-AR:
         reply_to_topic: Respuesta al tema
         pending_review: Este tema está actualmente pendiente de revisión. Sólo el usuario que creó y moderadores puede visualizarlo.
         hide:
-          "true": Mostrar este tema
-          "false": Ocultar este tema
+          'true': Mostrar este tema
+          'false': Ocultar este tema
         lock:
-          "true": Desbloquear este tema
-          "false": Bloquear este tema
+          'true': Desbloquear este tema
+          'false': Bloquear este tema
         pin:
-          "true": Liberar este tema
-          "false": Pin este tema
-        related_proposals: Propuestas relacionadas
+          'true': Liberar este tema
+          'false': Pin este tema
+        related_proposals: "Propuestas relacionadas"
     post:
       buttons:
         reply: Publicar respuesta
@@ -168,6 +176,7 @@ es-AR:
       edited: Tu post ha sido editado
       not_edited: No se puede editar tu post
       deleted: Su mensaje ha sido borrado
+      deleted_with_topic: Se ha eliminado el último post en el tema. Eliminado también el tema entero
       cannot_delete: No es posible borrar un post que no posee
       cannot_quote_deleted_post: La publicación que intentó citar ya no existe.
     posts:
@@ -181,7 +190,7 @@ es-AR:
         in_reply_to: en respuesta a
     moderation:
       index:
-        title: 'Herramientas de moderación %{forum}'
+        title: "Herramientas de moderación %{forum}"
   helpers:
     submit:
       frm_forum:
@@ -200,6 +209,7 @@ es-AR:
       frm_forum:
         category: Categoría
         title: Título
+        name: Título
         description: Descripción
         moderators: Moderadores
         visible_outside: Visible fuera del grupo
@@ -216,15 +226,15 @@ es-AR:
         text: Texto
       frm_mod:
         name: Nombre
-  time_ago_in_words: '%{time} atras'
-  ago: ' hace'
-  ago_by: ' hace por'
+  time_ago_in_words: "%{time} atras"
+  ago: " hace"
+  ago_by: " hace por"
   by: por
-  started_by: 'Iniciado por '
-  are_you_sure: ¿Estás seguro?
-  lst_post: Último mensaje
-  last_post: Último tema
-  back_to_forums: Volver a los foros
+  started_by: "Iniciado por "
+  are_you_sure: '¿Estás seguro?'
+  lst_post: "Último mensaje"
+  last_post: "Último tema"
+  back_to_forums: "Volver a los foros"
   pages:
     forum_groups:
       index:

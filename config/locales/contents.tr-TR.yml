@@ -1,0 +1,411 @@
+tr-TR:
+  home:
+    intro:
+      title: "E-Demokrasi için dünyanın ilk sosyal platformu"
+      description: "Direkt demokrasi aracı herhangi bir konu üzerine öne sürülen teklif ve fikirler üzerinde topluca karar verip hareket etmek için ortaya çıktı."
+      paragraph_1:
+        title: "E-Demokrasi için sosyal ağ"
+        content_html: |
+          <p>Airesis <a href="http://en.wikipedia.org/wiki/Free_software">özgür yazılım platformu</a> olup İtalyan geliştiriciler ve katkı sağlayıcılar tarafından oluşturuldu, toplulukların ve grupların kendilerini <a href="http://en.wikipedia.org/wiki/Direct_democracy"
+          target="_blank">direkt demokrasi</a>ile organize etmelerini ve katılımlarını sağlamayı amaçlamaktadır.</p>
+
+          <p>Bu hedefleri gerçekleştirmek için, uygulama çok fonksiyonu olarak dizayn edildi, bir topluluğun, özellikle "sosyal" ve tartışmalı konuların geliştirilmesine yardımcı olabilecek tüm araçları bir araya getiren bir araçtır.</p>
+
+          <p><strong>Sosyal araçlar</strong> olarak, Airesis blogları ve bitiş çizelgeleme ile olayların ve toplantıların tanıtımını yapan bir sistem sunmaktadır.
+          <strong>Tartışma araçları</strong> tekliflerin ve girişimlerin toplanması ve tartışılması için özel alanlar ile adayların seçilmesine yönelik bir oylama sistemi içermektedir. Platform bunun haricinde düzenleme politikalarına ve kişiselleştirilebilen izinlere erişimi olan gruplar oluşturmanıza da olanak sağlar.
+          Airesis'in asıl amacı katılımı teşvik etmektir, bundan dolayı, tüm platformun sezgiselliğini en üst düzeye çıkarmak için büyük çaba sarfedildi.
+          Geliştirmenin ana fikri, kullanıcıların geribildirimlerine dayanan bir tür gelişim süreci olan sürekli iyileştirmeye yöneliktir.
+          Geliştirme ekibi, bu yazılımı direkt demokrasi ruhuna uygun olarak kullanmak isteyen toplulukların ihtiyaçlarını karşılamaya hazırdır.</p>
+      paragraph_3:
+        title: "İlke ve değerlerimiz"
+        content_html: |
+          <p>Airesis e-demokrasi için bir açık kaynaklı karar verme aracıdır, ağırlıklı olarak sorun çözme odaklıdır ve <a href="http://en.wikipedia.org/wiki/Collective_intelligence" target="_blank">kollektif zekann</a>muazzam evrimsel gücünü en üst düzeye çıkarmak için tasarlanmıştır.</p>
+          <p>Gönüllüler tarafından tamamen kar amacı gütmeyen ilkeler esasında geliştirilen Airesis, daha hızlı, bilgilendirilmiş ve paylaşılan kararları almak için geliştirilmiştir.<br/>
+          Aşağıdaki ilkeler esas alınmıştır:</p>
+          <ul>
+          <li><strong>Katılım</strong> <br/>
+          Vatandaşları dahil etmek, daha fazla enerji ve bakış açısına sahip olmak anlamıan gelir.
+          sadece direkt katılım yoluyla problemleri araştırmak ve insanların gerçekten neleri istediklerini anlamak mümkün olmaktadır. Katılım, demokratik kararların temelidir.
+          </li>
+
+          <li><strong>Şeffaflık ve Güvenlik</strong><br/>
+          Şeffaflık olmaksızın, kurallar kolaylıkla engellenebilir ve demokrasi hızla zarar görebilir.
+          Şeffaflık aynı zamanda açıklık, alma becerisi anlamına da gelir: Bunlardan dolayı Airesis, kayıtsız kullanıcıların sitenin içeriğini görüntülemelerine izin verir.
+          Yazılımın kaynak kodu da tamamen açık kaynak olduğu için şeffaftır.</li>
+
+          <li><strong>Yapıcı Konuşmalar</strong><br/>
+          Kimse tüm doğru cevapları bilmemektedir. En uygun araçları kullanarak, çoğu insanın önerdiği fikirleri kullanarak çok daha verimli olabilirsiniz.</li>
+
+          <li><strong>Fırsat Eşitliği</strong><br/>
+          Eşitlik sunulan fırsatlar açısından sistem tarafından etkili bir şekilde uygulanabilecek şekilde tasarlanmalıdır.
+          </li>
+
+          <li><strong>Esneklik</strong><br/>
+          Her grubun ihtiyaçları kendine göredir, her bir teklif diğerlerinden farklı olmaktadır, her kullanıcının kendine has ihtiyaçları vardır.</li>
+      paragraph_4:
+        title: "Amacımız: direkt ve katılımcılı bir demokrasidir"
+        content_html: |
+          <p>Sosyal bir ağ olarak tasarlanan Airesis diğer kulalnıcılara ilgi alanına göre erişme izni verir ve her şekil teklifi rastgele tasarlamak amacıyla niteliklerini kullanmaya yardım eder.
+          Yapısal ve temel değerler, platformun bölgesel, sosyal tanıtım, sektör politikaları ve dolaylı yollardan en iyi fikirleri ortaya çıkarabilecek konular üzerine toplumsal ve yapıcı bir tartışma amacını izlemesine fırsat tanır.</p>
+          <p>Airesis'in sağladığı araçlar:
+          <ul>
+          <li>Bireysel üyelerin fikirlerini ve tecrübelerini destekleme</li>
+          <li>Bireysel kullanıcıların inisiyatif veya tekliflerini gruplandırma ve topluluğa sunma.</li>
+          <li>Farklı inisiyatifler üzerinde tartışmak için araçlar sağlamak</li>
+          <li>Paylaşılan tekliflerin paylaşılmasını teşvik etmek</li>
+          <li>Farklı inisiyatif ve önerilerin oylarını yönetmek</li>
+          <li>Genel etkinlik yahut toplantıları teşvik etmek</li>
+          <li>Aday başvurularını ve entegre oy işlemlerini yönetmek</li>
+          <li>Belirli yönetmelik ve izinlere göre yönetilen kısıtlı alt grupları yönetmek, ancak platform tarafından sağlanan tüm araçların kullanımı ile</li>
+          </ul>
+          </p>
+      paragraph_5:
+        title: "Vasıflar ve özellikler"
+        content_html: |
+          <p>Airesis geliştirme ekibi platformdan yararlanan <strong> grupların ihtiyaçlar doğrultusunda </ strong> gereken tüm fonksiyon ve araçları geliştirir.
+          Aynı geliştirme ekibi Airesis'te bulunmakta ve eklenecek özellikleri <strong> izne tabi olarak </ strong> kararlaştırmaktadır. </p>
+          <p>Mevcut yapı kayıtlı kullanıcıların <strong>açık alana</strong>,
+          katılmalarına ve zaten mevcut <strong>gruplara</strong> dahil olmalarına ya da yenilerini oluşturmalarına olanak sağlar.
+          Gruplar ve açık alanlarda inisiyatifler / teklifler yayınlamak, <strong> değerlendirmek </ strong>, <strong> özet </ strong> paylaşmak ve daha sonra <strong> oy vermek </ strong> mümkündür. Aynı şekilde, <strong> toplantılar </ strong> ve <strong> oylama </ strong> ile ilgili etkinlikler oluşturabilirsiniz.
+          </p>
+      paragraph_6:
+        title: "Temel Özellikler"
+        content_html: |
+          <ul>
+          <li><strong>Kayıt ve giriş</strong> <br>
+          bir katkı veya yorum eklenen her sayfadan mümkün olmaktadır. Facebook, Google +, Meetup, Twitter veya Linkedin ile de giriş yapmak mümkündür.
+          </li>
+          <li><strong>Toplu alan veya gruplar için özel alan</strong> (<a href="http://youtu.be/n_ZruAcNkVk" target="blank">Daha fazla bilgi bu video tutorialda yer alır</a>) <br>
+          Kayıt işlemi, Açık Alan'a veya mevcut gruplardan birine katılmanıza ya da yeni bir alan oluşturmanıza olanak tanır.
+          </li>
+          <li><strong>Teklif ve tartışmaların oluşturulması</strong>
+          Hem gruplarda hem de Açık alanlarında mümkün olduğunca en iyi uzlaşmayı elde edebilecek teklifin ortak bir özetini düzenlemek amacıyla teklif veya girişimler sonrasında katkı, yorum ve değerlendirmeler almak mümkün olmaktadır.
+          </li>
+          <li><strong>Düzen ve teklif oylaması</strong> <br>
+          Her teklifin kendi düzeni vardır. Oylama Schulze metoduna uygun olarak yapılmaktadır.
+          </li>
+          <li><strong>Etkinlik / takvim yönetimi</strong> <br>
+          Gruplar veya Açık Alanda toplantılar, oylama, aday seçimleri gibi etkinliklerin planlanması mümkündür.
+          </li>
+          <li>Platform etkinlikleri ve yenilikleri ile ilgili <strong>Bülten</strong></li>
+          <li><strong>Mesajlaşma servisi</strong> ve <strong>e-mail bildirimleri</strong> (kulalnıcı tarafından kişiselleştirilebilir)
+          </li>
+          <li><strong>Dökümanların yüklenmesi ve yönetimi</strong> ve tekliflere eklenmesi (özellik şu anda devre dışıdır)
+          </li>
+          <li><strong>Oylamalar</strong> Schulze oy verme metodu kullanarak yapılan iç ve dış oylamalar.</li>
+          <li><strong>Mobil Uygulama</strong></li>
+          </ul>
+      paragraph_7:
+        title: "Öneri ve tartışma aracı"
+        content_html: |
+          <p>Yazılımın temeli bir önerinin taslağına katılmanıza, ortak bir hedef belirlemenize, alternatif çözüm arayışına katkıda bulunmanıza ve sonuç olarak oylama yapılarak öneriden en çok yararlanabilmek adına olası fikir birliği ve en iyi ve en çok paylaşılan çözüm ortaya çıkabilmesini sağlayan <strong>tartışma aracından</strong> oluşur.</p>
+          <p>Süreç 3 aşamalıdır:</p>
+          <ul>
+          <li> <strong>"Tartışma"</strong> bölümünde bir yazı yayınladıktan sonra süreci takip eden <strong>yazar önerisini sunar</strong>.
+          Bu süre içerisinde, öneri, yapılan değerlendirmeler ve diğer kullanıcılar tarafından eklenen katkılara göre editörler tarafından değiştirilebilir.</li>
+          <li><strong>Tartışma amacına ulaştığında</strong> öneri <strong>"Oylama"</strong> bölümüne gider, bu süre zarfında öneri metni değiştirilemez, editör önceden planlanmış olanlar arasından veya takvimi kullanarak yeni bir tane <strong> oylama vakası </ strong> (oylama dönemi) seçer;<br>
+          Mevcut tüm kullanıcılar (grup kurallarına uygun olarak) bu süre zarfında <strong>oy</strong> kullanabilirler.</li>
+          <li><strong>Oylama bitiminde</strong> sistem <strong>sonuçları</strong> belirler ve öneri <strong>"Oylanmış"</strong> bölümüne gider.</li>
+          <li>Eğer <strong>tartışma yeterli sayıya ulaşmazsa</strong>, öneri bu kez <strong>"Kullanım dışı"</strong> bölümüne gider ve burada <strong>yeniden tartışmaya sunularak</strong> yeni dönemine başlayabilir.</li>
+          </ul>
+          <p>Burada çok ilginç olan, bireysel katkılarla elde edilen uzlaşmaya göre önerinin editörler tarafından değiştirilmesini sağlayan her bir yayınlanmış teklif için (<a href = "http://en.wikipedia.org/wiki / Wiki "target =" blank "> wiki </a>) gibi bir <strong> tartışma alanının </ strong> benimsenmesidir.
+          Tartışma alanı, katkıları biriktirmek üzere tasarlanan iki düzeyli bir alandır.
+          Birinci seviye, önerinin olgunluğunu artırmak için <strong> en çok katkıda bulunan katkıları </ strong> içeren bir mekanizma uygular.</p>
+          <p><strong>Tartışma</strong>, oy verme bölümüne bir öneri sunmak için gerekli olan üç farklı parametreden oluşmaktadır:</p>
+          <ul>
+          <li><strong>Katılımcılar</strong>: tartışmaya katılan kişi sayısı;
+          </li>
+          <li><strong>Tartışmasaati</strong>: önerinin tartışma aşamasına kadar kalan süre (gönderimden itibaren;
+          </li>
+          <li><strong>Olgunluk</strong>: önerinin oylamaya hazır olduğunu iddia eden katılımcı yüzdesi;
+          </li>
+          </ul>
+          <p>Önerinin "<strong> olgunluk </ strong>" değerlendirilmesi, topluluk üyelerinin resmi bir kuralıdır
+          <strong> Aşağıdaki oylama aşaması </ strong> için önerilen metnin <strong> uygunluğunu </ strong> ifade ettiklerini belirtir (tartışma döneminde yapılır).</p>
+          <p><strong>Farklı tartışma tipleri vardır</strong>: Konunun karmaşıklığına bağlı olarak, (katılım, zaman ve olgunluk) parametrelerine göre değişir.
+          Açık Alanların içindeki öneriler için, yeterlilikler sistem yöneticisi tarafından belirlenirken, gruplar içerisinde yayınlanan önerilerin <strong> yeterliliği grup yöneticileri tarafından rahatlıkla değiştirilebilir</strong>.
+          </p>
+          <p>Öneriler, farklı şekillerde <strong> organize edilir</ strong>, <strong> sıralanır </ strong> ve <strong> aranabilir </ strong>:</p>
+          <ul>
+          <li><strong>durumlarına</strong> bağlı olarak ("tartışmada," "oylamada", "oylanmış", "kullanım dışı")</li>
+          <li>önceden tanımlanmış <strong>kategorilere</strong> göre ("İş", "Sağlık", "Eğitim", vb.)</li>
+          <li>öneri <strong>tiplerine</strong> göre: standart, düzenli, yaklaşık, beyan, teknik karar, vb ...</li>
+          <li>öneri metnine girilebilir <strong>ücretsiz etiket</strong> kullanımına göre.</li>
+          </ul>
+      paragraph_8:
+        title: "Schulze oylama metodu ve direkt demokrasi"
+        content_html: |
+          <p>Tartışma için belirlenen sürenin sona ermesiyle ve önerinin yeterliliği konusunda gerekli sayıda oy kabul edilirse (bu koşullar tartışmanın çoğunluğuna göre değişir) öneri, <strong> oylama aşamasına </ strong> geçer.</p>
+          <p>Bu aşamada öneri, grubun öneriye oy verebileceği <strong> dondurulmuş </ strong> ve editör <strong> bir süre seçmek </ strong> zorundadır.
+          'Oylama' etkinliği grubun takvimine kaydedilir ve gruptaki tüm üyeler <strong> bilgilendirilir </ strong></p>
+          <p>Oylama sırasında, oylanacak öneri ve oylamanın yapıldığı sayfanın görüntülendiği yeni bir bildirim gönderilir. Bu aşamada, her bir katılımcı öneriyi ve mevcut çözüm listesini inceledikten sonra, bu çözümlere en çok beğenilenlerden en az olana kadar <strong> oy </ strong> tercihini gönderebilir ve böylece <a href = "http://it.wikipedia.org/wiki/Metodo_Schulze" target = "blank"> Schulze Yöntemi </a> ile grubun tercih ettiği çözüm bulunur.</p>
+          <p>Oylama sonunda öneri, <strong> "oylanmış" </ strong> kısmına gider ve burada oylamanın sonucu istenildiğinde incelenebilir.</p>
+      paragraph_9:
+        title: "Paylaşılan tekliflerin ve katılımcı demokrasinin teşvik edilmesi"
+        content_html: |
+          <p> Airesis, fikirler ve görüşlerin toplum içinde paylaşılmasını sağlamak için geliştirildi. Bunu başarmak için, platform farklı araçlar sunar: </ p> 
+          <ul> 
+          <li> <strong> önerisi varsayılan olarak herkese açıktır </ strong> 
+          </ li> 
+          <li> üzerindeki tekliflerin yayın <strong> sosyal ağlar < / strong>, Airesis'in Açık Alanında veya harici bloglarda ve forumlarda;
+          </ li> 
+          <li> <strong> kişisel blog </ strong> topluluk üyeleri themselfes sunmak ve üye oldukları gruplar haberlerde bilgi ve duyuru yayınlayabilirsiniz nerede,
+          </ li> 
+          <li> organize olasılığı <strong> toplantılar </ strong> topluluğun üyeleri için;
+          </ li> 
+          <li> paylaşılan bir takvimde <strong> ilginç etkinlikleri işaretleme </ strong> olasılığı;
+          </ li> 
+          <li> alınan her değerlendirmede, editörlerin teklif metnine entegre olabilecek katkıları ekleyecekleri bir <strong> tartışma panosu varlığı </ strong>;
+          </ li> 
+          <li> Katılımı, yapıcı tartışmaları ve netliği ödüllendiren itibar sistemi;
+
+          <li> görüşmelerini görüşmeye davet etme fırsatı
+           </ li> 
+          <li> bir önerinin ortak editörü olmaya başvurma fırsatı; </ li> 
+          <li> sertifikalı üyelerin oyları ile önerilere ilişkin karar.
+          </ li> 
+          </ ul>
+      paragraph_10:
+        title: "Geçici anonimlik, gizli oy ve denetlenebilir oy kullanma"
+        content_html: |
+          <p> Airesis'in özelliklerinden birisi, <strong> gruplar, teklif tartışması anonim olup olmayacağını seçebilir </strong>. </p>
+
+          <p> Anonimlik etkinleştirilmişse, tekliflerin yazarları ve yorumcuları bir takma adla gösterilir.
+          Bu özellik, teklifleri, eleştirileri ve önerileri, yalnızca içeriğine, tarafsız olarak,
+          yazarların "adı" olmadan ve kişilerarası beğenilme / hoşlanmayan dinamikler tartışmayı etkilemektedir.
+          </p>
+
+          <p> Her durumda, tartışmanın sonunda ve oydan sonra, katılımcılar gerçek adlarıyla görüntülenecek ve böylece her birinin müdahalelerini doğrulayabilecektir. </p>
+
+          <p> Bu seçenek oy sahnesi için de geçerlidir, dolayısıyla bu oyların açık veya gizli oyla gerçekleşip seçilmeyeceğini seçmek mümkündür.
+          Önemli olan, özellikle gizli oylar söz konusu olduğunda, oyların kaydını ve dolandırıcılık yapılmadığını doğrulama kabiliyeti önemlidir.
+          Bu, Airesis tarafından uygulanan denetlenebilir oy sistemiyle mümkündür.</p>
+      paragraph_11:
+        title: "Grupları ve kullanıcı rollerini yönetme"
+        content_html: |
+          <p> Airesis, herhangi bir üyenin yapabileceği <strong> izinleri </strong> yönetmek için esnek bir sistem uygular
+          aşağıdaki <strong> roller </strong> tahsis edebilmek için grup içinde bulunun: </p>
+          <ul>
+          <li> özel teklifleri görüntüle </li>
+          <li> tekliflere katkıda bulunun </li>
+          <li> Gruba yeni teklifler ekleyin </li>
+          <li> grubun Ana Sayfasında yayınla </li>
+          <li> Olaylar ve oylar oluşturun </li>
+          <li> Grup adına tekliflerin desteklenmesi </li>
+          <li> Gruba katılımcı ekleyin </li>
+          <li> Seçimler için üyeleri adayın </li>
+          </ul>
+          <p> Airesis, grupları seçerek kullanmalarına izin verir.
+          <strong> ihtiyaçlarına en uygun ayarları </strong> ve iç düzenlemelerini. Bu
+          örneğin, yalnızca belirli işlevlere yalnızca
+          <strong> etkin kullanıcılar ve / veya sertifikalar </strong> veya <strong> belirli bir role sahip olanlar </strong>.
+          Ayrıca, yönetim gereklerine, oyların erişilmesi için tekliflerin yerine getirilmesi gereken geniş bir özgürlük de bulunmaktadır.
+          </p>
+          <p> Bir diğer önemli özellik, onu oluşturan <strong> alanlara / çalışma gruplarına bölünmesi / çalışma grupları </strong> olmasıdır
+          gruplar içinde olası alanlar yaratmak ve katılımcıların her alanını tutma hakkına sahip olmak
+          o alanla ilgili teklifleri tartışın. Her katılımcı atanacak
+          <strong> Her alan için belirli roller </strong> sayesinde daha esnek bir araç haline getirilir. </p>
+      paragraph_12:
+        title: "Gruplar"
+        content_html: |
+          ''Gruplara'' erişim ya üstteki çubuktan ''arayan gruplarına'' ya da ana sayfa desteğinin sol sütununa basarak yapılabilir.
+          <p>Grubun adına tıklayarak ana sayfayı açar (sunum+haberler/bloglar). Öneriler alanında, kurumun kamuya açıklamalarını ve dahili grupları (teklifler ve özel etkinlikler), görmek için karar aldığı alanlar gösterilir, yerel yöneticinin gruba kabul edilmesini istemelisiniz.</ p> 
+          Teklif edilen alan, tekliflerin durumlarına göre listelenen dört sekmeye (''tartışmada'',''oyda'',''oy'',''Sola Arkaya'') bölünmüştür. Bir teklifin başına tıklandığında, metin ve katkı alanını gösteren bir teklif açılır. Yalnızca ilgilendiğiniz konuların tekliflerini görüntülemek için teklifler Kategoriler veya Etiket'i seçerek daha fazla filtreleyebilirsiniz.</ p> 
+          <p>Toplumun her üyesi yeni bir teklifte bulunabilir: Bunu yapmak için ''Yeni Teklif oluştur'' düğmesini tıklamanız yeterlidir ve doldurulacak formda görünür.</ p> 
+          <p>Topluluk üyeleri, görüşülmekte olan bir öneriye erişmek suretiyle yetenekleri, uzmanlıkları ve görüşleri doğrultusunda kendisiyle etkileşimde bulunabilirler.</ p> 
+          <h3 id="Spazio_comune">Açık Alan</h3>
+          <p>Ortak ilgi çekici olabilecek tekliflerin yönetimi için tasarlanan alana erişmek için ''Açık Alan''ı tıklarsınız.</ p> 
+          <p>Grubun önerdiği alanlar Gruplarınki ile benzer; Ayrıca tüm kamuya açık etkinlikleri, en özel gruplarla ilgili görüntüleyen bir ''özel takvim'' var.<p>
+          <p>Açık Alan'da da, tüm topluluk için etkinlikleri vurgulayan bir sekme ''takvim'' (etkinlik, toplantı, oylama) vardır. Bir nota tıklamak suretiyle etkinliğin sayfasını açın ve türüne bağlı olarak onunla etkileşim kurabilirsiniz (örneğin, bir oya katılarak veya bir toplantıya katılma isteği bildirerek).</ p>
+    whatis:
+      title: "İlk Sosyal ağ, e-demokrasi dünyasında"
+      description: "Doğrudan demokrasi enstrümanı, herhangi bir konu için herhangi bir yerde üretilen teklif ve fikirler üzerinde topluca karar vermek ve bunlarla hareket etmek için doğmuştur."
+      paragraph_1:
+        title: "E-Demokrasi için Sosyal Ağ"
+        content_html: |
+          <p>Airesis, toplulukların ve grupların ilkelere göre verimli bir şekilde örgütlenmelerini sağlamak için İtalyan geliştiricilerin ve katkıda bulunanların oluşturduğu bir ekip tarafından <a href="http://en.wikipedia.org/wiki/Direct_democracy" target="_blank">doğrudan demokrasi</a> ilkerine uygun oluşturulmuş bir <a href="http://en.wikipedia.org/wiki/Free_software">özgür yazılım platformudur</a>.
+          </p>
+      paragraph_2:
+        title: "Grup oluşturmak"
+        content_html: |
+          <p>
+          Bir dernek, bir şirket, bir okul veya partiysen, Airesis kesinlikle tam size göre!<br/>
+          Birkaç dakika içinde grubunuzu oluşturun ve mevcut tüm araçları deneyin.<br/>
+          Bir grup oluşturmak ücretsizdir, hızlı ve kolaydır ve %{groups} zaten aktiftir.<br/>
+          Daha iyi organize etmeyi öğrenmek ve grubunuzu Airesis ile organize etmenin ve e-demokrasi araçları sağlamanın ne kadar kolay olduğunu keşfetmek için lütfen politikayla ilgili belgelerimizi okuyun!
+          </p>
+      paragraph_3:
+        title: "Katılımcıları organize et"
+        content_html: |
+          <p>
+          Grubunuza istediğiniz gibi şekil vermenizi sağlayan <strong>roller ve izinler<strong> için güçlü bir mekanizma:
+          rollerine bağlı olarak kullanıcılara az veya daha çok izin verebilir, katılımcıları hiyerarşik olarak organize edebilir ya da herkese eşit haklar ve görevler verebilirsiniz.</br>
+          Airesis bu yüzden bir <strong>Şirketin</strong>, bir <strong>Demokratik Hareketin</strong> ya da bir <strong>Derkeğin</strong> ihtiyaçlarına mükemmel bir şekilde uyar.
+          </p>
+      paragraph_4:
+        title: "Öner ve tartış"
+        content_html: |
+          <p>
+          Airesis'in kalbi önerilerdir: gruptaki insanlara ulaşabileceğiniz ve onların görüşlerini dinleyebileceğiniz birkaç şablonunuz olacaktır.<br/>
+          Özel konular hakkında tartışabilir, gündemi ortaklaşa şekilde belirleyebilir ya da adaylara demokratik bir şekilde oy verebilirsiniz.<br/>
+          Airesis'in Öneriler aracı şu anda internette bulabileceğiniz en gelişmiş ve eksiksiz toplu müzakere sistemidir!<br/>
+          Tam şu anda %{users} kullanıcı %{proposals} öneriyi tartışmaktadır.
+          </p>
+      paragraph_5:
+        title: "Etkinliklerinizi düzenleyin, katılımı arttırın"
+        content_html: |
+          <p>
+          Etkinlikleri planlamak için eksiksiz bir sistem, grubunuzun etkinliklerini daha iyi organize etmenizi sağlar. <br/>
+          Katılımcılar yaklaşan etkinlikler hakkında bilgilendirilir ve takvimlerini grubun takvimi ile senkronize edebilirler. <br/>
+          Daha sonra her katılımcı, katılıp katılmayacağını belirtebilir, bu da organizatörlerin etkinliklerini daha iyi yönetmelerine imkan sağlar.
+          </p>
+      paragraph_6:
+        title: "Paylaşılan belgeler arşivi"
+        content_html: |
+          <p>
+          Grubunuz, tüm katılımcıların tüm gerekli materyalleri sunabilmeleri için klasörler ve alt klasörler halinde düzenlenebilecek çok kullanışlı ve eksiksiz bir Doküman Arşivine sahip olacak. <br/>
+          Airesis Belgeler Arşivi'nin kullanım kolaylığı eşsizdir: Dosyaları tarayıcıya bilgisayarınızdan sürükleyerek sunucuya yükleyebilirsiniz. <br/>
+          Sadece birkaç saniye bekleyin ve yükleme tamamlanmış olacak! Ekibimize kullanımınızdaki depolama alanını nasıl artırabileceğinizi ve 1 Gb'tan daha fazla belgeyi nasıl yükleyebileceğinizi sorun.
+          </p>
+      paragraph_7:
+        title: "Tartışacak bir alan"
+        content_html: |
+          <p>
+          En iyi fikirler konuşarak bulunur: bu yüzden Airesis her grup için kullanıcıların fikir alışverişinde bulunabileceği veya özgür şekilde sohbet edebilecekleri bir forum sunmaya karar verdi.<br/>
+          Sağlanan forum hem eksiksiz hem de moderndir, gruplar tarafından ihtiyaçlarına göre tamamen düzenlenebilir ve genişletilebilir.
+          Herkesin görebileceği herkese açık tartışmalar ya da sadece katılımcıların görebileceği özel tartışmalar yapabilirsiniz.
+          Forumları bölümlere ayırın ve yöneticiler için gruplar kurun! Hepsi sizin elinizde!<br/>
+          Şu anda Airesis'de %{topics} aktif tartışma var!
+          </p>
+      paragraph_8:
+        title: "Çok, çok fazlası"
+        content_html: |
+          <p>
+          Airesis'in özellikleri sadece bunlar değil! <br/>
+          Grubunuz için mevcut olan onlarca 
+          araç ve seçeneği keşfetmek için %{intro_page}'i izleyin. <br/>
+          Grubu yönetmenize yardımcı olacak sayısız özelliği keşfedin ve en iyi şekilde 
+          organize edin: eğer ihtiyacınız varsa Airesis kesinlikle bunu tatmin etmenizi sağlayacaktır!
+          </p>
+        link: 'giriş sayfası'
+    press:
+      title: "Basın açıklamaları"
+    roadmap:
+      paragraph1:
+        title: "Hedef: doğrudan demokrasi"
+        content_html: |
+          <p>Airesis, sosyal ağların, olay yönetiminin ve kitlesel karar alma sisteminin ana özelliklerini bütünleştirebilecek bir yazılım platformunu kullanabilmek için iki yıl önce başlatılan iki projenin kaynaşmasından doğdu. </p>
+          <p> Rimini'de düzenlenen "Cittadini cinque stelle" (Beş Yıldızlı Vatandaş) toplantısı sırasında, Airesis projesiyle Alessandro Rodi, Agora 2.0 projesiyle Nicola Giulietti kendini tanıttı: bir yanda iyi bir yazılım, diğer yandan doğrudan demokrasi için bir portalın sahip olması gereken özelliklerin mükemmel bir bütünü..</p>
+          <p> Bu toplantıdan sonra, ortak ve açık kaynaklı uygulama geliştirilmesi konusunda çalışılmaya karar verildi ve böylece Agora 2.0 grubu, belirlenen işlevleri bir yıldan uzun bir süre içinde uygulayabildi. </p>
+          <p> Çalışanlar hırslıydı (ve halen devam ediyorlar), ancak doğru araçlar ile adım adım hareket edilmesi gerektiğini biliyoruz </p>
+          <p> Başlangıçta özgürlüğün rüyası gibi görünen kararlılığımız sayesinde birçok insanın desteğini ve programcıların, analistlerin, matematikçilerin, grafik tasarımcıların ve sorumlu vatandaşların yardımlarını aldık.</p>
+          <p> Günümüzde yazılım yayınları, sürekli iyileştirme sürecini uygulamak için veya kullanıcıların talep ve ihtiyaçlarını karşılamak için aylık yada iki ayda bir yayınlanmaktadır.</p>
+      paragraph2:
+        title: "Airesis'in gelişimi"
+        content_html: |
+          <p>Aşağıdaki liste Airesis'in gelişimi sırasındaki değişimlerini gösterir.
+          Ayrıca gelecek sürümlerdeki planlanan vurgulanmış yenilikleri de görebilirsiniz.
+          Hangi özelliklerin geliştirildiğini bilmek ve bizi tekrar ziyaret etmek istiyorsanuz bu sayfayı sık sık kontrol edin!</p>
+      title: "Airesis'in gelişimi"
+      description: "Yolumuz, web'de hayata geçirilen demokrasiyi geliştirecek bir yazılım gerçekleştirme fikri."
+    helpus:
+      paragraph1:
+        title: "Neden Airesis'e desktek olmanızı rica ediyoruz?"
+        content_html: |
+          <p>Bu proje üzerinde çalışan gönüllüler, topluluklarımıza faydalı bir yazılım getirmek için oldukça zaman harcıyorlar.
+          Bununla birlikte, yalnızca gönüllü ve zorlu çalışma yeterli değildir: Sunucuyu herkese açık tutmak için para gereklidir ve yazılım güncellendiğinde geliştirdiğimiz yeni özellikler ve geliştirmelerle güncellenir ve denemeler gerçekleştirilir. Buna ek olarak, sunucu bakımı ve kullanıcı yardım masası için ücretli çalışma gereklidir.</p>
+      paragraph4:
+        content_html: |
+          Daha fazla bilgi için <p><a href="mailto:%{mail}"></a>bizimle iletişime geçin.</p>
+      paragraph5:
+        title: "Bu projeyi başkalarına duyurun"
+      title: "İstediğiniz kadar bize yardım edin, herkes katkıda bulunabilir"
+      description: "E-demokrasiyi geliştirecek bir yararlı araç gerçekleştirmeye katkıda bulunun"
+    linkback:
+      paragraph1:
+        title: "Bu e-demokrasi aracını duyurma konusunda bize yardımcı olun"
+        content_html: |
+          <p>Projemizin demokrasinin geleceği konusu ile ilgilenen herkes tarafından bilinmesi gerekir. Blog ve forumlarda, Facebook'ta,sosyal platformlarda ve demokrasiye istek duyulan tüm mecralarda projeyi yaygınlaştımaya yardımcı olun.</p>
+          <p>Linkimizi veya bannerımızı sitelerinizde veya arkadaş çevrenizle veya kuruluşlarla paylaşabilirsiniz. Banner veya linkimizi sitenizde görüntülemek için aşağıda bulunan kodu kopyalayın ve sitenizde görüntülenmesiniistediğiniz bölüme yapıştırın.</p>
+      paragraph2:
+        title: "Afişler"
+      paragraph3:
+        title: "Metin bağlantısı"
+        content_html: |
+          <p>Afişinizi yayınlamayı seçerseniz, projeye büyük yardımcı olacaktır. Teşekkür ederim.</p>
+    tags:
+      description: "Direkt demokrasi ve e-devlet karar verme aracı: tartışmalara katılın, fikirlerinizi öne sürün, çözüm önerin ve online oy verin"
+    engage:
+      title: "Yeni demokrasi projesine katılın"
+      description: "Bu projeye tecrübelerinizle katkıda bulunun, yeni demokrasiyi daha şeffaf ve paylaşılan kılmamıza yardımcı olun"
+      nav:
+        opensource: "Açık Kaynak"
+        participate: "Katılım"
+        banner: "Afiş"
+      paragraph1:
+        title: "Airesis herkese açık"
+      paragraph2:
+        title: "Nasıl katkıda bulunulur"
+        description_html: |
+          <p>Herkes açık kaynak kodlu Airesis projesine yardım edebilir: programcı olmanıza gerek yoktur, nasıl olsa yapacak birçok iş var.
+          Projede hepimiz vatandaşların şeffaf bir şekilde örgütlenmesine yardımcı olma ve üst düzey bir demokrasi kurulmasına katkı sağlama arzusu paylaşan <a href=%{chisiamo}>ücretsiz çalışan gönüllüleriz.</a>.</p>
+          <p>Durumunuzu bildirmek için lütfen <a href="%{form}" target="_blank"><strong>bu formu</strong></a> doldurun ya da aklınıza takılanları sormak ve daha fazla bilgi almak için <strong>Nicola Giulietti</strong> ile iletişime geçin&nbsp;-%{email} - Gsm %{cell}</p>
+          <p>İşte ihtiyacımız olan gönüllülerin listesi:</p>
+      developer:
+        title: "Geliştirici"
+        description_html: |
+          <p>
+          Geliştirici Airesis'in kodunu yazan bir insandır. <br/> 
+          Ekip tarafından kararlaştırılan özellikler ve yönergeleri takip eder. 
+          Eklenecek yeni bir özellik yada HTML sayfaları olduğunda geliştirici bu yeni modülü Ruby dilinde yazar aynı zamanda kullanıcı arayüzü fonksiyonları için CSS ve Javascript de kullanır.<br/>
+          Yeni başvuranlar kolaylıkla işlerine başlamaları için ilk adımlarında <a href="%{chisiamo}" target="_blank">baş programcı</a> tarafından yardım ve rehberlik katkısı alırlar.
+          </p>
+      analyst:
+        title: "Analist"
+        description_html: |
+          <p>
+          O, kullanıcılar ve geliştirici ekibi arasındaki bağlantı halkasıdır. <br/>
+          Gruplardan ve vatandaşlardan geribildirim toplar ve yeni işlevsellikler geliştirmek 
+          veya mevcut olanları iyileştirmek için gerekli ek belgelendirmeleri geliştirme ekibine verir.<br/>
+          Her özelliğin artı ve eksilerini ve olası uygun olmayan kullanımlarının algoritmalarını ayrıntılı bir şekilde geliştirir.
+          </p>
+      first_lev_tester:
+        title: "Birinci seviye test edici"
+        description_html: |
+          <p>Birinci seviye test eden, sisteme mutlaka kodla ilgili herhangi bir teknik geri bildirim vermek zorunda kalmadan test edebilecek bir kişidir.
+          Birinci seviye test kullanıcısı, sistemin nasıl çalıştırılacağını bilmelidir ve bir tarayıcıyı veya sosyal ağ sistemini kullanabilmesine ihtiyaç duymaktadır, ancak herhangi bir programlama dili bilmeleri gerekmemektedir. <br/>
+          Birinci düzey testten gelen geri bildirimler, sistem ve arızalardaki beklenmedik olaylarla ilgili olacaktır.</p>
+      sec_lev_tester:
+        title: "İkinci seviye test edici"
+        description_html: |
+          <p>
+          İkinci düzey bir test kullanıcısı olmak için iyi programlama bilgisi gereklidir. Birinci seviye test kullanıcısından daha sıkı ve ayrıntılı testler yapması istenir. İkinci düzey bir test kullanıcısı, karmaşık sorunlar üzerinde çalışır ve gizli sorunları keşfetmek için tüm sisteme stress testi yapabilir.
+          </p>
+      graphic:
+        title: "Grafik tasarımcı"
+        description_html: |
+          <p>
+          Grafik tasarımcılar, kullanıcı arayüzü çizer ve taslaklarını geliştirici grubuna verir.
+          Yazılımdaki metinlerin kullanılabilirliğini ve kapsamlılığını geliştirir. (örn: kullanıcı rehberleri...)
+          </p>
+      recruiter:
+        title: "Gerekli olanlar"
+        description_html: |
+          <p>
+          O, bu projeye yardımcı olmak isteyen yeni gönüllüleri, test görevlilerini ve yazılımları ihtiyaçları için kullanabilecek grupları aramakla görevlidir.
+          Geliştirme grubu tarafından temsil edilmeyen gruplar (düşük bilgi işlem yeteneği olan kişiler vb.) ile etkileşime geçerek, onların geri bildirimlerine dayanarak yazılımın daha fazla ilgi çekici olmasını sağlayabilir.
+          </p>
+      communication:
+        title: "İletişim Yöneticisi"
+        description_html: |
+          <p>
+          Basınla ilişkileri yönetir, yazılımı yeni kullanıcı, geri bağlantı ve SEO (Arama Motoru Optimizasyonu) gibi teknik yönleri, viral pazarlama (örn: ilginç teklifler oluşturma), videolar ve bilgilendirici belgeleri arayanlara teşvik eder.
+          Sosyal paylaşım ağlarını ve medyayı günceller, dış iletişim sözcülüğünü temsil eder.
+          </p>
+      i18n:
+        title: "Uluslararasılaşma"
+        description_html: |
+          <p>
+          Yazılımın çevirisinden sorumludur. Yabancı çevirmenlerle irtibat kurar ve koordinasyonu sağlar.<br/>
+          (NOT: Herhangi bir programlama yeteneğine sahip olmak zorunlu değildir)
+          </p>

@@ -1,9 +1,51 @@
 en-US:
   pages:
     proposals:
+      edit:
+        add_solution:
+          standard: "Add another solution"
+          poll: "Add another option"
+          rule_book: "Add another solution"
+          press: "Add another solution"
+          event: "Add another solution"
+          estimate: "Add another solution"
+          agenda: "Add another point"
+          candidates: "Add another candidate"
+          simple: "Add another solution"
+        solution_title:
+          standard: "Solution"
+          poll: "Option"
+          rule_book: "Solution"
+          press: "Solution"
+          event: "Solution"
+          estimate: "Solution"
+          agenda: "Point"
+          candidates: "Candidate"
+          simple: "Solution"
+        insert_title:
+          standard: "Insert a title"
+          poll: "Insert a title"
+          rule_book: "Insert a title"
+          press: "Insert a title"
+          event: "Insert a title"
+          estimate: "Insert a title"
+          agenda: "Insert a title"
+          candidates: "Insert name and surname"
+          simple: "Insert a title"
+        new_solution_title:
+          standard: "Solution <span class=\"num\">%{num}</span>:"
+          poll: "Option <span class=\"num\">%{num}</span>:"
+          rule_book: "Solution <span class=\"num\">%{num}</span>:"
+          press: "Solution <span class=\"num\">%{num}</span>:"
+          event: "Solution <span class=\"num\">%{num}</span>:"
+          estimate: "Solution <span class=\"num\">%{num}</span>:"
+          agenda: "<span class=\"num\">%{num}</span> point:"
+          candidates: "Candidate <span class=\"num\">%{num}</span>:"
+          simple: "Solution <span class=\"num\">%{num}</span>:"
       new:
         standard:
           problems_title: "Problems"
+          problems_question: "What is the problem to be solved and/or what are the obstacles to overcome in order to achieve the goal?"
           problems_title_label: "What is the problem to be solved and/or what are the obstacles to overcome in order to achieve the goal?"
           objectives_title: "Objectives"
           step_4_title: "You can enter a text of the proposal or write it later based on the input received"
@@ -16,33 +58,34 @@ en-US:
             documents: "Documentation"
             pros: "Pros"
             cons: "Cons"
-          suggestion_html: |
-            <div><b>Example:</b></div>
-            <div>Reduce the usage of drinking water for irrigation.</div>
-            <div>Using drinking water to water public parks and private gardens is a waste and has relevant costs. Moreover the aquifer that supplies the aqueduct is running low</div>
+            title: "Solution 1"
+          paragraph:
+            similar: "Similar experiences"
+            stakeholders: "Stakeholders"
+            requirements: "Solution requirements"
+          question:
+            paragraph:
+              similar: "Are there experiences to inspire to achieve the goal? Among the possible solutions / initiatives already in place, which ones have achieved the best results and which ones have the worst? Why?"
+            solution:
+              time: "When will this solution be implemented? Identify possible stages of implementation."
+              documents: "Is documentation available for the solution?"
         rule_book:
-          problems_title_label: "What are the problems to be solved with the application of this regulation? What are the issues to be regulated? Why?"
-          suggestion_html: |
-            <div><b>Example:</b></div>
-            <div>Rule book to reserve the St. Peter's hall</div>
-            <div>The town of  Silverham has a conference room that nowadays is used only by the Mayor's "fellows". It is time to choose an impartial procedure to grant all citizens and public associations the right to book the room for public events.</div>
+          problems_title: "Problems"
+          problems_question: "What are the problems to be solved with the application of this regulation? What are the issues to be regulated? Why?"
           solution:
+            title: "Solution 1"
             article: "Article %{num}"
             pros: "Pros"
             cons: "Cons"
-          problems_title: "Problems"
           paragraph:
             inspire: "Regulation to inspire from"
             requirements: "Requirements to meet"
-          stakeholders: "Stakeholders (involved people)"
+            stakeholders: "Stakeholders (involved people)"
         press:
-          problems_title_label: "What is the message you want to convey? What obstacles are expected to its proper understanding and streams? There are articles or recent news that you want to replicate or to which you want to provide an adjustment?"
           problems_title: "Message to transmit"
-          suggestion_html: |
-            <div><b>Example:</b></div>
-            <div>Advertise the release of the version 3.5 of Airesis.</div>
-            <div>We have to advertise the release of the version 3.5 of Airesis, that brings important features for the Public Administrations. It is necessary to explain what Airesis is and captivate the attention of the press, given the recent rumors about the usage of Airesis in the White House.</div>
           solution:
+            title: "Solution 1"
+            maintitle: "Title"
             subtitle: "Subtitle"
             incipit: "Incipit"
             body: "Body"
@@ -51,29 +94,20 @@ en-US:
           paragraph:
             target: "Recipients/Target"
         estimate:
-          problems_title_label: "What goods or services you wish to purchase? To solve which problems?"
           problems_title: "Problems"
-          suggestion_html: |
-            <div><b>Example:</b></div>
-            <div>Replacement of the thermal plant in the headquarter of the Association.</div>
-            <div>Because of the failure of the old boiler, our quarter is impractical during winters. Given that it is not possible to fix it, we have to substitute the old thermal plant with a new one, with low energy consumption.</div>
           solution:
+            title: "Solution 1"
             cost: "Amount"
             problems: "Respect of constraints and problems"
             dumentation: "Documentation"
           paragraph:
             technical_constrains: "Technical  constrains"
             temporal_constrains: "Temporal constrains"
-            other_constrains: "Environmental, ethical, regulatory constrains"
             budget: "Maximum budget"
-            recipient_budget: "Recipients of the request for quotation"
         agenda:
           problems_title: "Type of meeting"
-          suggestion_html: |
-            <div><b>Example:</b></div>
-            <div>Choose an agenda for our meeting.</div>
-            <div>Ordinary co-ordination meeting to exchange experiences with the referents of the local committees for the biological agriculture of Italy.</div>
           solution:
+            title: "Item"
             priorities: "Item priority"
             links: "Insights links"
             description: "Description"
@@ -83,13 +117,9 @@ en-US:
             place: "Place"
         event:
           problems_title: "Event scope"
-          problems_title_label: "Why do you want to organize an event? What are the aims?"
-          suggestion_html: |
-            <div><b>Example:</b></div>
-            <div>Organize a low-cost rock concert.</div>
-            <div>In our town there are a lot of young bands that cannot show off and improve their talent, because of a lack of space. In addition to this, there are few events promoted by our Municipality for the next summer, because of a lack of resources.</div>
           solution:
             title: "Title"
+            maintitle: "Title"
             description: "Description of the solution"
             program: "Date, time and plan"
             body: "place"
@@ -103,19 +133,18 @@ en-US:
             stakeholders: "Stakeholders (involved people)"
             desired_characteristics: "Desired characteristics"
         candidates:
-          suggestion_html: |
-            <div><b>Example:</b></div>
-            <div>Elect the new referent for the communication group.</div>
-            <div>The communication group has just been established and it is necessary to elect a referent. All the people that have been members of the group for at least 5 months can be nominated.</div>
           solution:
             name: "Candidate Name and Surname"
             data: "Personal data"
             curriculum: "Curriculum"
-            available: "Availability for the position"
           paragraph:
             election_type: "Description of the type of election:"
         simple:
           problems_title: "Problem"
+          problems_title_label: "What is the problem to be solved and/or what are the obstacles to overcome in order to achieve the goal?"
           solution:
             description: "Description"
-          problems_title_label: "What is the problem to be solved and/or what are the obstacles to overcome in order to achieve the goal?"
+            title: "Solution 1"
+        petition:
+          paragraph:
+            text: "Petition text"

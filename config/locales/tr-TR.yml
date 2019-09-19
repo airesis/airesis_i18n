@@ -1,0 +1,1493 @@
+tr-TR:
+  unauthorized:
+    default: "Bu eylemi gerçekleştirmek için gerekli yetkiye sahip değilsiniz"
+    create:
+      group: "Bir günde birden fazla grup oluşturamazsınız"
+  permissions_required: "Bu işlemi yapmana izin verilmiyor"
+  test: "Deneme"
+  open_space: 'Açık alan'
+  hello: 'Merhaba dünya'
+  pages:
+    top_panel:
+      login: 'Giriş yap yada üye ol'
+      facebook_login: 'Facebook ile giriş yap'
+      google_login: 'Google ile giriş yap'
+      twitter_login: "Twitter ile giriş yap"
+      meetup_login: "Meetup ile giriş yap"
+      linkedin_login: "LinkedIn ile giriş yap"
+      openid_login: "OpenID ile giriş yap"
+      find_groups: 'Grupları Ara'
+      parma_login: "Parmak ile giriş yap"
+      tecnologiedemocratiche_login: "Tecnologie Democratiche ile Giriş Yap"
+      tecnologiedemocratiche: "Tecnologie Democratiche"
+    user:
+      notifications: 'Alarmlar ve Bildirimler'
+      privacy: "Hesap ve Gizlilik"
+    users:
+      index:
+        title: 'Kullanıcı Listesi'
+      show:
+        groups_title: "Benim gruplarım"
+        group_column: "Grup"
+        role_column: "Rol"
+        get_out_of_group_button: "Bu gruptan ayrıl"
+        get_out_of_group_confermation: "Emin misin?"
+        secret_vote: "Gizli"
+        votations_title: "Katıldıklarını oyla"
+        proposal_column: "Öneri"
+        votation_date_column: "Tarih"
+        vote_column: "Oyla"
+        profile_info: "Profil bilgisi"
+        profile_info_unconfirmed: "(doğrulanmamış kullanıcı)"
+        send_message_button: "Özel Mesaj Gönder"
+        name_label: "Ad"
+        surname_label: "Soyadınız"
+        email_label: "E-posta"
+        edit_image: "Görüntüyü Düzenle"
+        to_be_confirmed: "onay bekliyor"
+        password_label: "Parola"
+        facebook_url_label: "Facebook URL"
+        googleplus_url_label: "Google+ URL"
+        linkedin_url: "LinkedIn URL"
+        username_label: "Kullanıcı Adı"
+        registered_from: "'dan kayıtlı"
+        load_image: "Bir resim yükle"
+        max_file_size: "Maksimum boyut: 2MB"
+        what_can_i_do: "Ne yapabilirim?"
+        what_i_cant_do: "Ne yapamam?"
+        certified_from: "Üzerinden sertifikalı"
+        group_level_permission_title: "Grup düzeyinde izinler"
+        admin_permissions: "Bu grubun yöneticisisiniz ve tüm izinlere sahipsiniz"
+        certified_cannot_edit_info: "Sertifikalı bir üyesiniz: Adınızı, Soyadınızı ve E-postanızı düzenleyemezsiniz"
+        twitter_url: "Twitter URL"
+        meetup_url: "Meetup URL"
+      send_message:
+        subject_label: "Konu"
+        body_label: "İçerik"
+        massive_email: "Toplu mesaj gönderiliyor"
+      left_panel:
+        general_info: "Genel Bilgi"
+        alarm_and_notifications: "Alarmlar ve Bildirimler"
+        geographic_borders: "Coğrafi sınırlar"
+        account_and_privacy: "Hesap ve Gizlilik"
+        title: "AYARLAR VE TERCİHLER"
+      alarm_preferences:
+        receive_on_address: "%{email} ile bülten al"
+        alerts: "Uyarılar"
+        emails: "E-postalar"
+      privacy_preferences:
+        tooltips: "İpucuları Göster"
+        show_urls: "Facebook, Google + ve LinkedIn URL'leri kullanıcılara göstermek"
+        private_messages: "Diğer kullanıcılardan özel mesaj al"
+        join_accounts: "Başka hesap ekle"
+        join_accounts_description: "%{app_short_name} ile bütün sosyal hesaplarını tek bir hesaba bağlama olanağına sahip olursun.<br/> Bağlanmak için sağlayıcıyı seçin ve her zaman Facebook, Google, Twitter ve daha birçok sosyal hesaplarınızın olduğu tek hesaba bağlanma imkanına sahip olucaksın!"
+        joined_all: "Zaten mevcut tüm sağlayıcılara katıldınız. Teşekkür ederiz!"
+        join_facebook: "Facebook hesabınızı kullanarak Giriş Yapın"
+        join_google: "Google hesabınızla katılın"
+        join_twitter: "Twitter hesabınızla katılın"
+        join_linkedin: "LinkedIn hesabınızla katılın"
+        join_meetup: "Meetup hesabınızla katılın"
+        providers_list: "Etkinleştirilen sağlayıcıların listesi"
+        options: "Seçenekler"
+        rotp: "Güvenlik Anahtarını Etkinleştir"
+        rotp_title: "Güvenlik Anahtarı"
+        rotp_confirm_enable: "Güvenlik anahtarını etkinleştirmek istediğinize emin misiniz?"
+        rotp_confirm_disable: "Güvenlik anahtarını devre dışı bırakmak istediğinize emin misiniz?"
+        mail_language: "E-Postalar için dil"
+        time_zone: "Zaman dilimi"
+      border_preferences:
+        updating: "Tercihleriniz sınır tercihlerine göre ayarlanırken lütfen bekleyiniz"
+        your_borders: "İlginizi çekebilecek coğrafik yerler"
+      send_message_title: "%{name} kişisine mesaj gönder"
+    groups:
+      accept_requests:
+        portavoce: "Yönetici: bir kullanıcı gruba katılmak istediğinde yalnızca grup yöneticisi isteği kabul edebilir. Yönetici isteği kabul ettiğinde, kullanıcı grubun bir üyesi olur."
+        unavailable_option: "Seçenek henüz kullanılabilir değil"
+      administration_panel:
+        title: 'Yönetim Paneli'
+        info: 'Temel Bilgiler'
+        events: 'Etkinlikler ve toplantılar'
+        permissions: 'Roller ve İzinler'
+        proposals: 'Çoğunluk ve teklifler'
+        areas: "Çalışma alanları"
+        forum: "Forum Yöneticisi"
+        users: "Kullanıcıları yönet"
+      edit_events:
+        title: 'Grup etkinliklerini düzenle'
+      edit_permissions:
+        title: 'Rolleri ve izinleri yönet'
+        new_role: "Yeni rol ekle"
+        edit_role_title: "Rolü Düzenle"
+        new_role_title: "Yeni rol"
+        user_title: "Kullanıcı"
+        role_title: "Rol"
+        no_users_yet: "Burada, katılımcı olduğunda, onların rollerini yönetebilirsiniz"
+        default_role: "Grupta varsayılan rolde"
+        confirm_role_deletion: "Bu rolü silmek istediğinizden emin misiniz?"
+        remove_user: "Kullanıcı kaldır"
+        confirm_role_change1: "Kullanıcının rolü"
+        confirm_role_change2: "'dan değiştirilecek"
+        confirm_role_change3: "için"
+        confirm_role_change4: "Onaylıyor musunuz?"
+        confirm_delete_1: "Bu işlem birkaç dakika sürebilir.. Gruptan %{count} kullanıcı kaldırmak istediğinize emin misiniz?"
+        confirm_delete_2: "Bu işlem seçili %{count} kullanıcıyı kaldırır ve geri alınamaz. Bu işlemi yapmak istediğinize gerçekten emin misiniz?"
+      edit_proposals:
+        title: 'Çoğunluk ve teklifleri yönet'
+      index:
+        title: 'Tüm gruplar'
+        open_space_button: "Açık Alana Gidin"
+        create_group_button: "Yeni grup oluştur"
+        find_group_label: "İlgilenebileceğin bir grup bul"
+        find_title: "Grup ismiyle veya açıklamasıyla ara"
+        find_button: "Ara"
+        groups_list: "Katıldığınız gruplar"
+        groups_registration: "Grup Kaydı"
+        groups_list_2: "Grupların Listesi"
+        no_groups_yet: "Henüz bir %{name}'ye katılmadınız"
+        open_space_title: "Halka açık etkinlikler"
+        show_more: "Daha fazla grup göster"
+        search_mask: "Arama aracı"
+        search_with_query: "kişiselleştirilmiş bir kullan"
+        search_with_place: "veya coğrafi sınır"
+        search_description: "Arama aracını kullanın veya ilgilendiğin grupları bulmak için bir etikete tıklayın"
+        insert_query_or_place: "En az üç karakter veya coğrafi bir sınır yazmalısınız"
+        tags: "Etiketler"
+        participants_number: "Katılımcı sayısı"
+        proposals_number: "Teklif sayısı"
+        events_number: "Olay sayısı"
+        no_results: "Grup bulunamadı"
+        limit_reached: "Günde en fazla bir grup oluşturabilirsiniz"
+        switchButton:
+          exact_border: "Tam arama: Tam olarak bu coğrafi sınırı kullanan tüm grubları arama"
+          area_border: "Alan arama: bu coğrafi sınır içinde ki tüm grupları ara"
+          all_words: "Tüm bu kelimelere sahip olan grupları arama"
+          one_word: "Bu sözcüklerden en az birini içeren tüm grupları arama"
+      new:
+        title: 'Yeni grup oluştur'
+        new_group: "Yeni grup"
+        create_button: "Grup oluştur!"
+        change_permissions_button: "Standart izinleri değiştirmek istediğinize emin misiniz?"
+        change_permissions_title: "Yeni kullanıcılar için standart izinleri değiştir"
+        change_permissions_description: "Bu yeni kullanıcıların grup içinde gerçekleştirebileceği eylemlerdir: her zaman onları değiştirebilir ve yeni roller oluşturabilirsin!"
+        errors_title: "Malesef, gönderi eklenemiyor:"
+        tags:
+          title: "Etiketler (virgül ile ayırın)"
+      edit:
+        title: 'Grup Ayarlarını Düzenle'
+        change_permissions: "Görev ve İzin Ayarları'ndan üyelerin izinlerini her zaman değiştirebilirsiniz."
+        remove_user_confirm: "Gruptan %{name}'i kaldırmak istediğinizden emin misiniz?"
+        modify_group: "Grubu değiştir"
+        private_warning_html: |
+          <b>Tavsiye özel gruplar için < / b > <br/> Genel teklifler hala dışarıdan görülebilir. <br/> buraya gidin <b>%{link}</b> ve 'Önerileri dışarıdan görünen' seçeneğini devre dışı bırakın. <br/> Grup duvarın da Yayınlanan Mesaj kullanıcıların kişisel sayfaların da her zaman görülebilir. <br/> Genel Forumlar her zaman dışarıdan görülebilir.
+      layout:
+        home_button: "DUVAR"
+        proposals_button: "ÖNERİLER"
+        calendar: "TAKVİM"
+      show:
+        rules_button: "Kurallar"
+        post_button: "Grup duvarına gönder"
+        blog_button: "Bloğumu oluştur"
+        participants_list: "Katılımcı listesi "
+        invite_button: "Arkadaşlarınızı davet edin!"
+        show_all_participants: "Tümünü göster %{count} ..."
+        show_all_admins: "Tümünü göster %{count} ..."
+        show_all_requests: "Tümünü göster %{count} ..."
+        participants_full_list: "Grup üyelerinin tam listesi"
+        no_participants: "Bu grupta henüz katılımcı yok."
+        no_blogs_yet: "Bu grupta henüz bir blog yazısı yok, yakın zaman da tekrar kontrol edebilirsin."
+        waiting_participation_requests: "Katılım istekleri cevap bekliyor"
+        accept_request_button: "Kabul Et"
+        reject_request_button: "Reddet"
+        ask_participate_button: "Grubun bir parçası olmayı isteyin"
+        remove_post: "Grup tahtasından sil"
+        destroy_button: "Sil"
+        confirm_destroy: "GRUBU SİLİYORSUN!!! Ne yaptığından emin misin?"
+        list_permissions:
+          title: "Grup içindeki izinlerini listele"
+          button: "İzlerin listesi"
+        print_all_participants: "Katılımcıların listesini yazdır"
+        last_proposals: "Son zamanlarda eklenen teklifler"
+        last_topics: "Son oluşturulan başlık"
+        next_events: "Sonraki olaylar"
+        rule_book_html: |
+          Bir grup olurken seçilebilecek kurallar.<br/>
+          <p>Tüm kullanıcılar grup oluşturabilir, şimdiki gibi</p>
+          <p>Bir gruba katıldığınızda, bloğunuzdaki gönderiler grubun duvarında gösterilebilir.</p>
+          <p>Gruplar, teklifleri destekleyebilir, yenilerini oluşturabilir, anketler hazırlayabilir ve kuralları ve izinleri kullanarak üyeleri organize edebilir.</p>
+          <p>Grubun kuralları <b>Ayarlar</b> üzerinden değiştirilebilir.</p>
+        short_url: "Kısa url"
+        featured_post:
+          'true': Sabitlemeyi kaldır
+          'false': Üste tuttur
+        permissions_title: "Sen ve grup"
+      header:
+        settings: "AYARLAR"
+        documents: "BELGELER"
+        forums: "FORUM"
+        alarm_settings: "Ayarlar"
+      documents:
+        documents_archive: "Belge Arşivi"
+        storage_size: "Depolama alanı doldu"
+        max_storage_size: "Kullanılabilir asgari depolama alanı"
+        current_storage_usage: "Kullanılan depolama alanı"
+        not_authorized: "Belgeleri görüntülemek için gerekli izinlere sahip değilsiniz. Grup yöneticisine başvurun"
+      edit_quorums:
+        new_quorum:
+          title: "Yeni çekirdek"
+          simple: "Basit"
+          advanced: "Gelişmiş"
+          time_description: "Müzakereye %{days} %{hours} %{minutes}"
+          simple_percentage_description: "ve eşit veya daha üst bir vade %{good_score}."
+          advanced_participation_description: "(%{current_number}, %{total_number} dışında hakka sahiptir)<b>(ortalama değer: %{average})</b>"
+          advanced_percentage_description: "Bununla birlikte, olgunluk %{bad_score}% değerinden düşükse, teklif reddedilir."
+          advanced_percentage_description3: "Vade iki eşik arasında ise öneri tartışmaya kalır."
+        active: "Aktif et"
+        name: "İsim"
+        participants: "Katılımcılar"
+        condition: "Şart"
+        good_percentage: "% Olgunluk"
+        bad_percentage: "% Ret"
+        confirm_deletion: "%{quorum} çoğunluğunu silmek istediğinize emin misiniz?"
+        add_quorum: "Yeni çoğunluk oluştur"
+        edit_quorum: "Çekirdeği modife et"
+        configure_proposal_parameters: "Teklif parametrelerini yapılandır"
+        default_anonymous_proposal: "Geçici anonimlik aktif"
+        default_private_proposal: "Teklifler grup haricindekilere görünür"
+        default_secret_vote: "Gizli oy"
+        let_editor_change_settings: "Editörler yukarıdaki seçenekleri özgürce seçebilirler"
+        time: "Zaman"
+        edit_quorum_warning: "Uyarı! Bu çoğunluğa yapılan değişiklikler, verilmiş olan teklifleri etkilemez!"
+      edit_work_areas:
+        index:
+          not_enabled: "Çalışma alanları etkin değil"
+          description: "%{app_short_name}, grup içindeki farklı çalışma alanlarını yönetmenizi sağlar."
+          description2: "Bu özellik sayesinde katılımcıları ve görevlerini daha iyi yönetebilirsiniz."
+          description3: "Dikkat et! Bu sadece daha büyük gruplar ve uzman kullanıcılar için tasarlanmış gelişmiş bir özelliktir."
+          enable: "Çalışma alanlarını etkinleştir"
+          description4: "Çalışma alanlarını etkinleştirmeden önce, grup üyelerini doğrudan kullanıp kullanamayacağınızı kontrol edin "
+        manage:
+          new_area: "Çalışma alanı oluşturma"
+          switch_area_participants: "Katılımcı yönetimine geçiş"
+          list_title: "Çalışma alanlarının listesi. Her birinde katılımcıları seçin veya bu çalışma alanındaki rolleri ve izinleri yönetmek için adı tıklayın"
+          title: "Çalışma alanı ayarları"
+          list_participants: "Grup üyelerinin listesi. Her biri için ait olduğu çalışma alanlarını seçin."
+          switch_area_management: "Çalışma alanı yönetimine geç"
+          confirm_deletion: "Bu çalışma alanını silmek istediğinizden emin misiniz?"
+          manage_roles_in_area: "Çalışma alanındaki rolleri ve izinleri düzenleme %{area}"
+        manage_group_areas: "Kullanıcıları çalışma alanları içinde yönetme"
+        form:
+          title: "Yeni çalışma alanı"
+      default_admin_title: "Yönetici"
+      invite_your_friends:
+        type_email_addresses: "E-posta adreslerini virgülle ayırarak yazın"
+        email_not_valid: "E-posta adresi geçerli değil"
+        text_to_send: "Göndereceğiniz metin (isteğe bağlı)"
+        title: "Gruba katılmak için arkadaşlarınızı davet edin!"
+      participations:
+        list_participations: "Katılımcı listesi"
+        search: "Arama"
+        filter: "Filtre"
+        anything: "Tümü"
+        operations_on_user: "Kullanıcılar üzerinde işlemler"
+        send_email: "E-posta gönder"
+        surname: "Soyad"
+        name: "Ad"
+        role: "Görev"
+        member_since: "Üyelik tarihi"
+        participants_html:
+          one: <b>1</b> katılımcı
+          other: <b>%{count}</b> katılımcılar
+        added_by: "Ekleyen"
+        remove_all: "Tümünü kaldır"
+      statistics:
+        title: "Hesaplanan ortalama değerler (%{date} tarihinde son güncelleme)"
+      archives:
+        page_title: "%{month}, %{year} için Arşiv"
+    login:
+      title: 'Giriş Yap'
+    confirmation:
+      title: 'Onay yönergelerini yeniden gönder'
+      submit: 'Bana talimatları gönder'
+    password:
+      title: 'Parolanızı unuttunuz mu?'
+      submit: 'Lütfen şifreyi sıfırlama talimatlarını bana yolla'
+      edit:
+        new_password: "Yeni parola"
+        confirm_password: "Parolayı onayla"
+        confirm_button: "Parolamı değiştir"
+    registration:
+      title: 'Kayıt Ol'
+      email_confirmed: "Bu e-posta adresi ile kayıt olursanız, e-posta adresinizi onaylamanız istenmez."
+      choose_password: "Bir parola seçin"
+      confirm_password: "Parolayı doğrulayın"
+      accept_conditions: "Hizmet Şartlarını Kabul Et"
+      register_button: "Kayıt Ol"
+      identity_provviders_title: "En sevdiğiniz hesabınızla hemen girin"
+      accept_privacy: "Gizlilik Şartlarını Kabul Et"
+    proposals:
+      index:
+        title: 'Tekliflerin listesi'
+        debate: 'İncelenen tüm teklifler tartışılıyor'
+        voting: 'Şu anda tüm teklifler bekliyor veya oylama aşamasında'
+        accepted: 'Tüm önerilerin oy verme aşaması bitmiştir'
+        revision: 'Tartışmayı geçmeyen ve tartışmalara geri dönülebilecek tüm teklifler'
+        last: "Son eklenen"
+        most_popular: "En popülerler"
+        most_valutated: "En çok değerlendirilenler"
+        continue_reading: 'Teklifi okumaya devam et'
+        debate_title: "Tartışma ⋅ %{count} içinde"
+        voting_title: "Voting ⋅ %{count}"
+        accepted_title: "Oylandı ⋅ %{count}"
+        revision_title: "İptal edildi %{count}"
+        login_with: "bununla giriş yap:"
+        group_areas_title: "Çalışma alanları"
+        no_group_areas: "Bölge yok"
+        all_areas: "Tüm bölgeler"
+        categories_title: "KATEGORİLER"
+        all_categories: "Tüm kategoriler"
+        loading_proposals: "Teklifler yükleniyor, lütfen bekleyin..."
+        title_with_category: "Kategorideki teklifler %{category}"
+        all_categories_title: "Kategorideki teklifler"
+        in_group_area_title: "çalışma alanları"
+        last_title: "Son eklenen (TODO)"
+        most_popular_title: "En popüler (TODO)"
+        most_voted_title: "En yüksek sıra (TODO)"
+        show_more: "Daha fazla sonuç göster..."
+        loading_alt: "Yükleniyor"
+        choose_model: "Ürün modeli seçin"
+        search_title: "Grup öneriler arama"
+        search_placeholder: "Lütfen arama yapmak için en az 2 karakter giriniz"
+        search_words: "Herhangi bir kelime"
+        participants_number: "KATILIMCILAR"
+        contributes_number: "KATKILAR"
+        rank: "OLGUNLUK"
+        voters: "SEÇMENLER"
+        date_range: "arasında yaratılmış %{start} ve %{end}"
+        proposal_types_title: "MODELLER"
+        all_proposal_types: "Tüm modeller"
+        with_text: "'%{text}' içeren"
+        last_24h: "son 24 saat içinde oluşturuldu"
+        last_1h: "son bir saat içinde oluşturuldu"
+        last_7d: "son bir hafta içinde oluşturuldu"
+        last_1m: "son bir ay içinde oluşturuldu"
+        last_1y: "son bir yıl içinde oluşturuldu"
+      show:
+        voteup: 'Kabul ediyorum'
+        votenil: "Bilmiyorum / anlamıyorum"
+        votedown: 'Ben katılmıyorum'
+        random_stack: 'Akıllı sıralama'
+        most_recent: 'En güncel'
+        most_ranked: 'En çok değerlendirilenler'
+        history_button: "Tarihçe"
+        choose_votation_period: "Bir oylama dönemi seçin"
+        choose_votation_period_alert: "Oy verme süresi hakkında emin misin? Daha sonra değiştiremezsiniz!"
+        choose_votation_period_button: "Ben seçtim!"
+        create_votation_period: "Oy kullanma tarihi yok, lütfen yeni bir tarih ayarlayın"
+        no_periods_contact_group: "Oy kullanma tarihi yok, lütfen bir tarih seçmek için yöneticilere başvurun."
+        choose_new_votation_period_button: "Lütfen yeni bir oylama tarihi seçin"
+        loading_contributions: "Katkılar yükleniyor, lütfen bekleyin..."
+        previos_contributes: "Önceki katkılar..."
+        delete_contribute_confirmation: "Bu katkıyı silmek istediğinizden emin misiniz?"
+        delete_suggestion_confirmation: "Bu yorumu silmek istediğinizden emin misiniz?"
+        offered_as_editor_message: "Bu önerinin editörü olarak teklif ettiniz"
+        offer_as_editor_button: "Bu teklifin editörü olmak istiyorum!"
+        available_editors_button: "Kullanılabilir editörler"
+        confirm_editors_button: "Bu teklifin editörlüğünü teklif etmek ister misiniz?"
+        editors_list_title: "Bu teklif için uygun editörlerin listesi"
+        attached_documents: "Ekli belgeler"
+        no_document_attached: "Ekli belge yok"
+        geographic_boundaries_title: "Coğrafi sınırlar"
+        tags_title: "Etiketler"
+        similar_proposals_title: "Benzer teklifler"
+        category_title: "Kategori"
+        edit_button: "Düzenle"
+        delete_button: "Sil"
+        delete_proposal_confirmation: "Bu teklifi silmek istediğinize emin misiniz?"
+        votation_message: "Bu teklif %{from}'den %{to} değerine oylanacaktır"
+        editing_message_1: "Bu öneri tüm katkıları sayesinde editörler tarafından geliştirilecek"
+        editing_message_2: "Oy verilmek için bir"
+        editing_message_3: "en düşük olgunluk"
+        votation_page_button: "Oy sayfasına git"
+        vote_button: "Oy Ver!"
+        send_contribute_button: "Gönder"
+        characters_left: "Kalan karakter:"
+        score: "Değerlendirmeler"
+        rank: "Olgunluk"
+        created_at_html: "<br/><b>%{date}</b> den önce oluşturulmuş %{time}"
+        updated_at_html: "<br/><b>%{date}</b> den önce %{time} güncellendi"
+        votation_results: "Sonuçlar"
+        votation_results_title: "Oylama sonuçları"
+        in_votation_html: "<br/><b>%{start}</b><br/>'den <br/><b>%{end}</b>'e oylanıyor"
+        in_votation_now: "Şuan oylanıyor!"
+        in_votation_until_html: "Oylama bitişi:<br/><b>%{date}</b>"
+        anonimity_active: "Geçici anonimlik aktif"
+        your_nickname_is: "Takma adınız"
+        editors_title: "Editörler"
+        supporting_group: "Destekleyen gruplar"
+        no_supporting_group: "Bu öneriyi destekleyen herhangi bir grup yok"
+        support_proposal_button: "Bu teklifi destekleyin..."
+        close_debate_button: "Tartışmayı kapatın"
+        close_debate_proposal_confirmation: "Tartışmayı hemen kapatın ve bir sonraki aşamaya gidin?"
+        during_debate: "Devam etmeden tartışma"
+        comment_inserted_by: "%{who} - %{when}"
+        comment_updated_by: "%{who} - Güncellenme Zamanı %{when}"
+        replies:
+          show_all: "Tüm %{count} yorumu göster..."
+          delete: "Sil"
+        reply_button: "Yanıtla"
+        reply_placeholder: "Yorumunuzu girin"
+        export_pdf: "PDF Olarak Yazdır"
+        manage_noise_folder: "Kaldırılan katkılar (%{removable}/%{removed})"
+        noise_folder: "Kaldırılan katkılar"
+        what_nickname: "Bu nedir?"
+        give_contribute: "YAZ VE KATKILARI GÖSTER"
+        no_contributes: "Oylama sırasında katkılar gösterilmez"
+        new_valutation_message: "Teklifiniz yeni bir değerlendirme aldı"
+        old_editors_title: "Eski editörler"
+        back_debate_button: "Tartışma bölümüne geri koy"
+        new_quorum_title: "Yeni bir çekirdek seçin"
+        enable_alerts: "Uyarıları etkinleştir"
+        disable_alerts: "Uyarıları devre dışı bırak"
+        close_contribute: "KATKILARI KAPATIN"
+        contributes_list: "'%{section}'daki katkıların listesi"
+        add_comment: "Yorum ekle"
+        add_contribute: "Fikirlerinizi verin! Metnin değişikliklerini önerin ve editörün öneriyi geliştirmesine yardımcı olun"
+        login_to_comment: "Yorum eklemek için giriş yapın"
+        regenerate_nickname: "Kullanıcı adı yeniden oluşturun"
+        add_contribution_no_paragraph: "Belirtilen hiçbir paragraf yok"
+        debate_ends_html: "Tartışma sonu"
+        debate_ends_valutations_or: "veya ile"
+        debate_ends_valutations_and: "ve ile"
+        debate_ends_valutations: "Ile tartışmanın sonu"
+        error_loading_paragraph: "Bu paragraf kaldırıldı. Güncellenmiş teklifi görüntülemek için sayfayı tekrar yükleyin"
+        generic_fake_content: "Bu bölüm henüz derlenmedi. Katkıyı ekleyerek editöre yardım edin!"
+        model_title: "Şablon"
+        created_events: "Önceden oluşturulmuş etkinlikler"
+        create_new_votation_period: "Tartışma sonunda yeni bir olay oluşturun"
+        choose_later: "Hayır, Teşekkürler. Daha sonra seçeceğim"
+        choose_now: "Şimdi seçmek istiyorum"
+        group_area: "Çalışma alanı"
+        nickname_assigned: "Size '%{nickname}' takma adı atadık. Beğenmediyseniz, sol menüden 10 dakika içinde değiştirebilirsiniz"
+        cant_participate:
+          no_permissions: "Bu öneriye grubun bir üyesi olduğunuz, ancak katılma izniniz olmadığından katılamayacaksınız."
+          ask_permissions: "Yöneticiden izin talep edin, ona bir mesaj gönderin."
+          request_pending: "Bu teklife katkıda bulunamazsınız çünkü grup üyeliği için başvurmuş olsanız da henüz başvurunuz onaylanmadı."
+          send_message: "Grup yöneticisine mesaj göndermek ister misiniz?"
+          not_a_member: "Bu teklife katkıda bulunamazsınız çünkü grubun üyesi değilsiniz."
+          not_logged_in: "Bu teklife katkıda bulunamazsınız çünkü çevrimiçi değilsiniz. "
+        read_contribute: "KATKILARI GÖSTER"
+        security_token: "Güvenlik Anahtarı"
+        you_can_choose_vote_dates: "Bu teklif %{count} gündür oylanmayı bekliyor bu nedenle artık bir tane seçebilirsiniz."
+        no_contributes_yet: "Henüz hiç bir katkı yok"
+        start_votation_proposal_confirmation: "Oylamaya hemen başlamak istediğinizden emin misiniz?"
+        abandoned_message: "%{ago} önce iptal edildi"
+      new:
+        quorum_prompt: "Yeter sayıyı seçin"
+        quorum_help: "Yardım"
+        step_classification: "Sınıflandırma"
+        step_similar: "Benzer teklifler"
+        step_3: "Sorunları/engelleri"
+        step_dates: "Tartışma ve oylama"
+        step_3_title: "Karşılaştığınız sorunları ve teklifin hangi hedeflere ulaşmak istediğini kapsamlı bir şekilde tanımlayın"
+        create_button: "Öneri oluştur"
+        title: "Yeni öneri"
+        title_group: "%{name}:"
+        title_synthetic: "Amaç (Özetle)"
+        title_placeholder: "ör. 'Trenlerde bisiklet taşımanın kolaylaştırılması'"
+        interest_borders_tkn_placeholder: "Teklifle ilgilenen Şehirler, Bölgeler veya Eyaletler"
+        tags_list_placeholder: "Teklifinizi için bazı etiketler ekleyin"
+        step_1_title: "Çözmek için bir sorun teşkil edebilir, iyileştirmek için bir fikir, organize etme girişiminde bulunabilirsiniz ... Önemli olan kesin bir hedefe sahip olmaktır:%{app_short_name}paylaşılan bir problem çözme süreci boyunca, başkalarının yardımı ile başarmanıza yardımcı olacak"
+        step_2_title: "Belki birisi zaten benzer bir öneri oluşturmuştur: aşağıdakini kontrol edin ve çoğaltmayı önlemek için yaratımınızı durdurun. Güçleri birleştirmek, fikirlerinize güç katar! Başlık tıklandığında, teklifler yeni bir sekmede açılacaktır."
+        step_4_title: "Mükemmel! Seçeneklerinizi seçin ve kılavuzu tamamlamak için 'Teklif oluştur' a tıklayın. Teklifiniz %{app_short_name} alanına dahil edilecek ve daha çok bilgiyle istediğiniz zaman daha fazla bilgi ekleyebilirsiniz."
+        step_4_footer_html: |
+          %{app_short_name}, paylaşılan sorunların çözülmesi yoluyla hedefinize ulaşmanıza yardımcı olacaktır: Kullanıcılar en çok beğenilen metinleri entegre etmek için metninize değişiklikler ve katkılar önerebilir, <b>bu size bağlı dır</b>.<br/> Eğer bunu yapmazsanız teklifiniz oylama aşamasına geçmez.<br/> İyi şanslar ve korkmayın: görevinizde başkaları tarafından yardım alabilirsiniz.
+        category_prompt: "--Kategori Seçin--"
+        tags_separated_by_comma: "(virgül ile ayrılmış)"
+        cannot_add_proposal_in_work_area: "Bir alana teklif girebilmek için herhangi bir izniniz bulunmamaktadır"
+        no_work_area_selected: "Çalışma alanı yok"
+        solution1: "Ajanda öğesi"
+        solution: "Ajanda öğesi"
+        step_base_info: "İlk bilgi"
+        advanced_options: "Gelişmiş Ayarlar"
+        wait: |
+          2 dakikada sadece bir tane teklif verebilirsiniz
+          Lütfen %{minutes} dakika %{seconds} saniye bekleyin.
+      tabs:
+        last_inserted: "Son güncelleme"
+        most_popular: "Yüksek rütbe"
+        most_valutated: "Daha fazla değerlendirme"
+        most_urgent: "En acil"
+      list:
+        last_update: "Güncellendi<br/>%{time_ago}"
+        waiting_date: "Bir tarih için bekleniyor"
+        voting_from_to: "%{from}'den %{to}'ye"
+        voting_until: "<br/>%{date}'e kadar"
+        votation_finished: "<br/>%{time_ago}'de sona erdi"
+        no_votation: "Hiç oy yok"
+        votation_finished_approved: "Onaylandı<br/> %{date}"
+        interest_borders: "Coğrafi sınırlar"
+        authors: "Editörler"
+        support_group: "Destek grupları"
+        no_proposals: "Henüz teklif yok"
+        condition_left: "Tartışmayı sonlandırma durumu"
+        time_left: "Kalan süre"
+        vote: "OY"
+      delete_comment: "Sil"
+      results:
+        total: "Toplam oylayan: %{count}"
+        vote_column: "Oy"
+        number_column: "Numara"
+        percentage_column: "Yüzde"
+        positive: "Olumlu"
+        negative: "Tam tersine"
+        neutral: "Tarafsızlar"
+        name_surname_column: "Ad ve Soyad"
+        date_time_column: "Oy Tarih ve saati"
+      report_contribute:
+        mark_title: "Katkıyı işaretle"
+        mark_description: "Teklifin editörlerine, bu katkının teklifle ilgili bir çözüm bulmak için gerekli bilgileri içermediğini işaret edebilirsiniz. <br/> Eğer katkı %{num} kez işaretlenmişse, teklifin editörleri teklifi tartışmadan silip \"gürültü\" klasörüne yerleştirebilir. <br/>"
+        report_title: "Katkıyı rapor et"
+        report_description: "Web sorumlusuna, bu katkının yürürlükte olan yasaları ihlal ettiğine dikkat çekebilirsiniz. <br/> İhlal tespit edildikten sonra katkı kaldırılacak. Bu aracı kötüye kullanma."
+      vote_panel:
+        title: "Oyunu kullan!"
+        schulze_title: "Bu öneriye çeşitli çözümler var. <br> Onları tercihlerinize göre sipariş verin."
+        secret_vote: "Oyunuz gizli ve verildikten sonra onu kurtaramaz veya değiştiremezsiniz."
+        clear_vote: "Oyunuz kaydedildi ve bu nedenle doğrulanabilir olacaktır."
+        single_title: "Bu teklifte tek bir çözüm var. Dikkat!"
+        results_time: "Oyunuzu şu zamanda verdiniz %{when}"
+        hidden_vote: "Oy gizliydi bu nedenle gösterllemez."
+        preferences_order: "Tercihleriniz:"
+        expressed_vote: "%{vote} oyunu verdiniz"
+      edit:
+        title: "%{title} teklif başlığını değiştir"
+        hurry_up: "Acele et!"
+        last_minutes: "Bu alanları %{minutes} dakika içinde düzenleyebilirsiniz."
+        no_participants: "Bu alanları başkası henüz katkıda bulunmadıysa düzenleyebilirsiniz!"
+        remove_section: "Paragrafı kaldır"
+        add_paragraph: "Yeni paragraf ekle"
+        edit_proposal: "Öneri metnini değiştir ve güncelle!"
+        remove_solution: "Çözümü kaldır"
+        press_to_compress: "Bu çözümü daraltmak için başlığın üzerine tıklayın"
+        add_paragraph_to_solution: "Çözüme yeni bir paragraf ekleyin"
+        you_know_what_you_do: "Ne yapacağını biliyor musun?"
+        schulze_title: "Bir veya daha fazla çözüm?"
+        inserted_contributes: "Bu revizyona eklediğiniz katkıları işaretleyin"
+        more_solutions_explained_html: |
+          <b>Ne yaptığınızı bilip bilmediğinizi soruyoruz neden?</b><br/>
+          %{app_short_name}, bir teklifte bir veya daha fazla çözüm eklemenize izin verir.<br/>
+          Yalnızca bir çözüm olacak olursa, oylama aşamasında katılımcılar taslak metni onaylama ya da reddetme seçeneğine sahip olacaklar.<br/>
+          Bir çözümden fazlası varsa, oylama farklı olacak ve her katılımcı Schulze yöntemiyle oy kullanabilecektir.<br/>
+          Bir sorunun özetini hazırlamaya çalışıyorsanız ve paylaşılan bir metin istiyorsanız <b> alternatif çözümler yaratmayın.</b><br/>
+          Aksine, bir ankette bulunuyorsanız veya ilk çözümde entegre edilemeyen bir alternatif istiyorsanız, devam edin.<br/>
+          Tartışmanın sona ermesinden önce, kullanılan yöntem oyunun şeklini değiştirerek çözümler ekleyebilir veya kaldırabilirsiniz.
+        paragraph: "Paragraf"
+        confirm_paragraph_deletion: "Bu paragrafı silmek istediğinizden emin misiniz?"
+        confirm_solution_deletion: "Bu çözümü silmek istediğinizden emin misiniz?"
+        press_to_expand: "Bu çözümü genişletmek için başlığın üzerine tıklayın"
+        integrated: "Eklendi"
+        contribution_valuation: "Ne düşünüyorlar?"
+        navigator: "Gezgin"
+        compress_solutions: "Çözümleri Daralt"
+        hide_contributes: "Katkıları gizle"
+        expand_solutions: "Çözümler genişletin"
+        show_contributes: "Katkıları göster"
+        cancel_confirm: "İşlemler iptal edilip teklif görüntülensin mi?"
+        update_confirm: "Herhangi bir katkı eklemediniz. Devam etmek istediğinizden emin misiniz?"
+      manage_noise:
+        available: "Katkılar silme için uygun"
+        removed: "Katkılar tartışmadan kaldırıldı"
+      contribution_valuation: "Ne düşünüyorsun?"
+      contribution_valuation_again: "Fikrini mi değiştirdin?"
+      new_rank_bar:
+        creation: "OLUŞTURMA: %{time_ago} <br/>%{date}"
+        end: "TARTIŞMA SONU:<br/> %{date}"
+        valutations:
+          one: "%{count} DEĞERLENDİRME"
+          other: "%{count} DEĞERLENDİRME"
+        good_score: "%{score}% OLUMLU GÖRÜŞ"
+        bad_score: "%{score}% NEGATİF GÖRÜŞ"
+        now: "%{left} SOL"
+      left_panel:
+        creation_date: "Oluşturma tarihi"
+        any_date: "Herhangi bir Tarih"
+        choose_creation_date: "Bir zaman aralığı seçin"
+        last_hour: "Son 1 saat"
+        last_24_hour: "Son 24 Saat"
+        last_week: "Geçen hafta"
+        last_month: "Geçen ay"
+        last_year: "Geçen yıl"
+        date_range: "Zaman aralığı"
+      update_comment: "Düzenle"
+    events:
+      index:
+        title: 'Takvim'
+        group_title: "Etkinlik takvimi"
+        choose_type: "OLAY TÜRÜ SEÇME"
+      new:
+        private_tooltip: "Etkinliği sadece Grup üyeleri görebilir ve katılabilir"
+        title: "Yeni Etkinlik"
+        submit: "Etkinlik oluştur"
+        type_for_town: "Yerleşim yeri aramak için birkaç harf yazın"
+        no_town_found: "Yerleşim yeri bulunamadı"
+        town_searching: "Aranıyor"
+        title_event: "YENİ OYLAMA ETKİNLİĞİ"
+        title_meeting: "YENİ BULUŞMA ETKİNLİĞİ"
+        step_1: "Etkinlik türü"
+        step_2: "Açıklama"
+        step_3: "Ne zaman"
+        step_4: "Nerede"
+      show:
+        map: "Harita"
+        event_place: "Etkinlik yeri"
+        when_past: "Ne zamandı?"
+        when: "Ne zaman?"
+        where_past: "Neredeydi?"
+        where: "Nerede?"
+        show_on_map: "Haritada göster"
+        reply: "Yanıtla!"
+        no_answer: "Davete cevap vermedin"
+        yes_partecipated: "Etkinliğe katıldın"
+        no_partecipated: "Etkinliğe katılmadın"
+        yes_partecipate: "Etkinliğe katılacaksın"
+        no_partecipate: "Etkinliğe katılmayacaksın"
+        with_guests: "%{field} konukları ile"
+        will_be_in: "Bu etkinliğe katılıyor musun?"
+        participants: "Kim katıldı?"
+        will_partecipate: "Kim katılacak?"
+        no_participants: "Hiç kimse katılmadı"
+        no_participants_yet: "Henüz katılımcı yok"
+        non_participants: "Kimler katılmadı?"
+        will_non_participants: "Kimler katılmayacak?"
+        voting_proposals: "Bugünlerde bu teklifler oylanacak"
+        no_voting_proposals: "Bu günlerde hiçbir öneriye oy verilmiyor"
+    votations:
+      show:
+        vote_positive: 'Olumlu değerlendirme'
+        vote_neutral: 'Tarafsız değerlendirme'
+        vote_negative: 'Olumsuz değerlendirme'
+        confirm_positive: "'%{name}' teklifi hakkındaki OLUMLU oyunuzu onaylıyor musunuz? Oy verdikten sonra oyun değiştirilemez."
+        confirm_neutral: "'%{name}' teklifinde NÖTR oyunuzu onaylıyor musunuz? Oy verdikten sonra oyun değiştirilemez."
+        confirm_negative: "'%{name}' teklifindeki NEGATİF oyunuzu onaylıyor musunuz? Oy  verdikten sonra oyun değiştirilemez."
+        confirm_schulze: "Teklif %{name} ile ilgili oyunuzu onaylıyor musunuz? Oyunu verdikten sonra oyun değiştirilemez."
+    blog_posts:
+      new:
+        title: 'Yeni gönderi ekle'
+        published_in_groups: "Gönderi şu gruplarda yayınlanacak:"
+      new_button: "Yeni bir gönderi ekle"
+      drafts_button: "Yayında olmayan gönderiler"
+      drafts:
+        title: "%{blog} - yayınlanmamış gönderiler"
+      edit_button: "Değiştir"
+      delete_button: "Sil"
+      comment:
+        delete_button: "Sil"
+        confirm_delete: "Bu gönderiyi silmek istediğinizden emin misiniz?"
+        inserted_when: "%{when} eklendi"
+      list_elements:
+        inserted: "%{date} tarihinde %{name} tarafından eklendi"
+      show:
+        previous_comments: "Önceki yorumlar..."
+        tags_title: "Etiketler:"
+        edit_button: "Düzenle"
+        delete_button: "Sil"
+        delete_button_confirm: "Bu gönderiyi silmek istediğinizden emin misiniz?"
+        draft: "Taslak"
+        comments_says: "diyor ki..."
+        reserved: "ayrılmış"
+      published_button: "Yayınlanan gönderiler"
+      view:
+        comments: "Yorumlar (%{count})"
+      index:
+        title: "%{app_short_name} üzerinde son gönderiler"
+      edit:
+        title: "Gönderiyi düzenle"
+      archives:
+        title: "%{month}, %{year} için arşiv"
+    alerts:
+      polling:
+        show_all: "Tüm bildirimleri göster"
+      index:
+        new_not_read: "Yeni okunmamış bildirimler"
+        no_new: "Yeni bildirim yok"
+        old_not_read: "Eski bildirimler zaten okundu"
+        no_old: "Bildirim yok"
+    blog_comments:
+      new:
+        insert_comment: "Yorum ekle"
+    header:
+      groups:
+        events: "ETKİNLİKLER"
+        proposals: "ÖNERİLER"
+        forum: "FORUM"
+      no_groups_yet: "Henüz bir grupta değilsin."
+      menu:
+        my_page: "ANASAYFAM"
+        my_blog: "BLOĞUM"
+        create_blog: "BLOG OLUŞTURUN"
+        preferences: "TERCİHLER"
+        administration: "YÖNETİM"
+        logout: "ÇIKIŞ YAP"
+        remember_me: "Beni bu bilgisayarda hatırla"
+        login_button: "Giriş Yap"
+        registration_button: "BİZE KATIL"
+        forgot_password_button: "Şifrenizi mi unuttunuz?"
+        resend_email_button: "Onay e-postası almadınız mı?"
+        no_notifications: "Bildirim yok"
+        sign_has_read: "Okundu olarak işaretle"
+        moderator: "MODERATÖR PANELİ"
+        profile: "PROFİL"
+      welcome: "Hoşgeldin"
+      groups_title: "GRUPLAR"
+      login: "GİRİŞ YAP"
+      login_placeholder: "E-Posta"
+      groups_list: "Katıldığınız gruplar"
+      open_group: "Yeni bir grup başlat"
+      new_group: "Grupları bul"
+      support_us: "BİZİ DESTEKLEYİN"
+      no_alerts: "Uyarı yok"
+      read: "Oku"
+    blogs:
+      show:
+        no_posts: "Gönderi Yok"
+        no_posts_long: "Bu Blog'taki hiç gönderi yok, lütfen yakında kontrol edin."
+        tag: "Etiket"
+        previous_posts: "Önceki gönderiler..."
+        edit_button: "Bloğu düzenle"
+        title: "Blogların listesi"
+        no_unpublished_posts: "Şu anda yayınlanmamış gönderi yok"
+        other_blogs: "Daha fazla bloglar"
+      new:
+        title: "Kişisel bloğunu oluştur!"
+        cancel_button: "Hayıri teşekkürler!"
+        create_button: "Oluştur"
+      edit:
+        title: "Bloğu düzenle"
+        title_label: "Blog başlığı"
+        back_to_blog: "Bloğuma göre dön"
+      index:
+        blog_subtitle: "%{posts} gönderi, %{comments} yorum"
+        find_blog_label: "İlgini çekebilecek bir blog bul"
+        search_description: "İlgilendiğiniz blogları bulmak için arama aracını kullanın veya bir etikete tıklayın"
+        search_with_query: "kişiselleştirilmiş bir sorgu kullanma"
+        find_title: "Blogta başlık veya yazar adında arama yapın"
+        search_with_place: "veya coğrafi sınır"
+    quorums:
+      index:
+        title: "Mevcut tüm çekirdek sayısı"
+        how_read: "Yeterlilik nedir?"
+        debate_end: "tartışmayı bitir"
+    home:
+      index:
+        whatis: "NEDİR"
+        partecipate: "BAĞLANMAK İÇİN"
+        videos: "VIDEO REHBERLERİ"
+        whowe: "HAKKIMIZDA"
+        support: "♥ BİZİ DESTEKLEYİN"
+        cloud_1: "ÖNER"
+        cloud_2: "İŞBİRLİĞİ YAP"
+        cloud_3: "E-DEMOKRASİ"
+        cloud_4: "RAPOR"
+        cloud_5: "TARTIŞMA"
+        cloud_6: "TARTIŞMA"
+        cloud_7: "KATILAN"
+        cloud_8: "OY"
+        cloud_9: " SEÇİN"
+        try_it: "Dene"
+        register: "Kayıt Ol"
+        login: "Giriş yap"
+        forgot_password: "Şifrenizi mi unuttunuz?"
+        follw_on_twitter: "@democracyo Twitter'da takip edin"
+        field_1:
+          title: "Çözüm<em>Öner</em>"
+          content: "Sorun bildiren, çözüm öneren, alternatifleri tartışan, paylaşılan kararı özetleyen bir yer. Kollektif zekayı geliştirmek için güçlü bir araç."
+        field_2:
+          title: "E-demokrasiye<em>katıl</em>"
+          content: "Gruplara katıl, sizi kimin temsil edeceğini seçin ve ilgi alanlarınıza göre etkinliklere katılın. Birlikte güçlüyüz."
+        field_3:
+          title: "Geleceğinizi<em>Seçin</em>"
+          content: "Gruplar içindeki yenilikçi seçimleri belirlemek için bir karar verme aracı. Doğrudan demokrasiyi anlayan basit bir oylama sistemi."
+        field_4:
+          title: "<em>Çalış</em> en çok ilgilendiğin alanda"
+          content: "Deneyiminizi paylaşın, diğerlerinin önerilerini geliştirin. Sizin gibi düşünen yeni arkadaşlarınızı keşfedin. Fikirlerinizi başkaları ile paylaşın."
+        keep_connected: "Oturuma devam ettir"
+        feedback: "Geri bildirim yolla"
+        FAQ: "SSS"
+        guide: "REHBER"
+        change_language: "Dili değiştir"
+        most_used_tags: "En çok kullanılan etiketler"
+        show_tags: "Tüm etiketleri göster"
+        next_events: "Sonraki olaylar"
+        show_events: "Takvimi göster"
+        most_active_groups: "En aktif gruplar"
+        show_groups: "Tüm grupları göster"
+        last_proposals: "Halka açık son teklifler"
+        from_blogs: "Bloglardan gelen son mesajlar"
+        features: "Özellikler"
+        donations: "Bağışlar"
+        volunteers: "Gönüllüler"
+      show:
+        your_proposals: "Katıldığınız teklifler"
+        proposals:
+          title: "Başlık"
+          last_edit: "Son düzenleme"
+          authors: "Editörler"
+          notifications: "Bildirimler"
+        notifications:
+          title: "Uyarılar"
+        your_contributes: "Son katkıların"
+        your_territory: "Sizin bölgeniz (test)"
+        no_proposals_to_vote_now: "Oylama aşamasında şimdilik teklif yok"
+        proposals_now_voting: "Şimdi oy kullanma için teklifler"
+    open_space:
+      layout:
+        proposals_button: "ÖNERİLER"
+        calendar_button: "TAKVİM"
+        map_button: "HARİTA"
+        groups_button: "GRUPLAR"
+        blogs_button: "BLOGLAR"
+        petitions_button: "DİLEKÇELER"
+        tags_button: "ETİKETLER"
+    proposal_supports:
+      new:
+        panel_title: "Teklifi desteklemeyi onaylayın"
+        no_available_groups: "Bu teklifi herhangi bir grup adına desteklemeye yetkili değilsiniz"
+      confirm_button: "Onayla"
+    calendar:
+      create_event_button: "Yeni etkinlik oluştur"
+    sessions:
+      new:
+        login_label: "E-Posta"
+        remember_me_label: "Beni hatırla"
+      links:
+        register: "Henüz kayıt olmadınız mı? Kaydol!"
+        forgot_password: "Parolanızı mı unuttunuz?"
+        havent_received_email: "Onay e-postası almadınız mı?"
+    steps:
+      next: "Deva"
+      interest_borders:
+        title: "Katılmaya başlayın"
+        description_html: |
+          Coğrafi ilgi sınırlarınızı belirleyin. <br /> 
+          Airesis, ilgilendiğiniz toprakları bilmeniz durumunda, grupları takip etmeniz ve bölgenizle ilgili yeni teklifleri göstermek için size önerilerde bulunabilir. <br />
+      rank_bar_explain:
+        title: "Olgunluk barı"
+        description_html: |
+          Olgunluk çubuğu sol yan menüde yer almaktadır. <br/>
+          Çubuk, katılımcının önerisinin olgunluğunu gösterir. <br/>
+          Teklifin metninin eksik olup olmadığını, çubuğun altındaki iki düğmeyi kullanarak önerebilirsiniz. <br/>
+          Teklifin editörü, metni diğer katılımcıların katkıları temelinde yazmak zorundadır. Teklifin metni değiştiğinde, yeni metni beğenip beğenmediğinizi ve sonuç olarak önceki değerlendirmenizi değiştirebileceğinizi önerme imkanı verilir. <br/>
+          Çubuğun rengi, teklifin oylama aşamasına geçmeye hazır olup olmadığını gösterirken, uzunluk tartışma sona ermeden ne kadar zaman ve / veya değerlendirmenin kaldığını gösterir. <br/>
+        newdescription2: "Bar, katılımcının önerisinin olgunluğunu ve tartışmanın sonuna kadar ne kadar zaman kaldığını gösterir"
+        newdescription3: "Teklif, oylama aşamasına geçebiliyorsa renk görüntülenir; uzunluk, tartışmanın sona ermesi için ne kadar zaman kaldığını gösterir"
+        newdescription4: "Tartışmanın bittiğini ve editörlerin diğer kullanıcıların katkılarını tamamladığını düşündüğünüzde bu düğmeyi kullanın"
+        newdescription5: "Tartışmanın devam etmesi gerektiğini düşünüyorsanız, bu düğmeyi kullanın"
+        newdescription6: "Teklifin metni güncellendiğinde, değerlendirmenizi değiştirebileceksiniz"
+      welcome:
+        title_html: <b>%{app_short_name}'e hoşgeldin %{user}!</b><br/>
+        description_html: |
+          Bu kısa eğitim, platformun içindeki ilk tercihlerinizde size yardımcı olacaktır. <br/> 
+          Masaüstünüz şu: bölgenizde temas halinde olmamız gereken tüm bilgileri bulacaksınız. <br/> 
+          Önerilerinizi ve gruplarınızı yönetebilir, çevrenizdeki etkinlikleri görebilir ve diğer vatandaşlarla iletişime geçebilirsiniz. <br/> <a href="mailto:info@airesis.it"> info@airesis.it </a> adresine 
+          bir geri bildirim göndererek Airesis' i geliştirin. <br/>
+      choose_follow:
+        description_html: |
+          Burada ilgi sınırlarınızın içindeki topraklarda en aktif gruplardansınız. <br /> 
+          Katılmak istediklerinizi seçin, böylece onlarla iletişime geçip uygulama ve önerilerine katılabilirsin. <br /> 
+          Seçmek için bir kez tıklayın, seçimini kaldırmak için tekrar tıklayın. <br />
+      first_proposal:
+        title_html: İlk katkınız
+        description_html: |
+          Şimdi görüşünüzü belirtme zamanı!<br />
+          Bölgede bir öneri, fikir veya geri bildirim ekleyin.<br />
+          Tartışmaya katkıda bulunun ve diğer kullanıcıların sizi tanımasına izin verin.<br/>
+          Öneriniz %{proposal} alanına eklenecek ve bölgenizdeki gruplar tarafından desteklenebilecek!
+    proposal_histories:
+      index:
+        title: "%{title}Revizyon Geçmişi "
+        back_to_proposal: "Teklifte geri dön"
+      title: "Revizyon Geçmişi"
+      loading_revisions: "Düzeltmeler yükleniyor..."
+      editor_name: "Gözden geçirmenin yazarı:"
+      revision: "Değişiklik"
+      date_and_time: "Tarih ve zaman"
+      present_life_cycle: "Mevcut yaşam döngüsü"
+      no_revision: "Revizyon yok"
+      life_cycle: "Yaşam döngüsü"
+      life_cycle_number: "Yaşam döngüsü numarası%{life}"
+      end_date: "Bitiş tarihi:"
+      score_reached: "Vade doldu:"
+      evaluation_reached: "Değerlendirme sayısı:"
+      quorum_used: "Kullanılan çekirdek:"
+      editors_in_life_cycle: "Bu yaşam döngüsündeki editörler:"
+      solutions:
+        added: "YENİ ÇÖZÜM"
+        removed: "KALDIRILAN ÇÖZÜM"
+      sections:
+        added: "YENİ PARAGRAF"
+        removed: "KALDIRILAN PARAGRAF"
+    tags:
+      show:
+        related_title: "İlgili Etiketler"
+        not_found: "Etiket '%{tag}' bulunamadı"
+        title: "Etiket '%{tag}' ile öğeleri listesi"
+      list_proposals_with_tag: "Teklifler"
+      no_proposals_with_tag: "Bu etiketle henüz bir teklif yok"
+      list_posts_with_tag: "Gönderiler"
+      no_posts_with_tag: "Bu etiketi içeren hiç gönderi yok"
+      list_groups_with_tags: "Gruplar"
+      no_groups_with_tag: "Bu etiketi içeren grup yok"
+      proposals_tab: "Teklifler"
+      posts_tab: "Gönderiler"
+      groups_tab: "Gruplar"
+      not_found:
+        subtitle: "Bunlar Airesis'te en çok kullanılan anahtar kelimelerdir"
+      index:
+        title: "En çok kullanılan etiket listesi"
+    footer:
+      for_edemocracy: "e-demokrasi için"
+      go_to_main_site: "Ana sayfaya git"
+      for_edemocracy_html: "E-demoktasi için <a href=\"https://github.com/coorasse/Airesis\" target=\"_blank\">Açık Kaynak</a>projesi"
+    moderator_panel:
+      title: "Moderatör paneli"
+      block_user: "Kullanıcıyı Engelle"
+      blocked_user_list: "Engellenen kullanıcıların listesi"
+      block: "Engeli kaldır"
+    feedback:
+      send_feedback: "Geribildirim"
+      add_details: "Ayrıntıları ekleyin"
+      view_preview: "Önizleme"
+      send_succes: "Geri bildirim başarıyla gönderildi. Teşekkür ederim!"
+      send_error: "Maalesef geri bildirim gönderilirken bir hata oluştu"
+      describe_problem: "Mesajınızı buraya yazın:"
+      highlight_or_blackout: "Önemli bilgileri vurgulayın veya engelleyin"
+      blackout: "Karartma"
+      highlight: "Vurgula"
+    passwords:
+      edit:
+        title: "Şifreni değiştir"
+    event_comments:
+      new:
+        insert_comment: "Yorum ekle"
+    propsoals:
+      index:
+        type: "türü %{type}"
+    proposal_comments:
+      title: "Katkıda Bulunan Tarih"
+      noise:
+        title: "Gürültülü katkıların listesi"
+        no_contributes: "Buraya katkı yok"
+    available_authors:
+      index:
+        explain_html: |
+          Teklifin özetini hazırlamanıza yardımcı olmasını istediğiniz kullanıcıları seçin ve 'Kaydet'e tıklayın. <br/>
+          Dikkatli ol! Bu kullanıcıların, teklifinizin yönetiminde sizinle aynı izinleri olacaktır.
+    participation_roles:
+      edit:
+        title: "Katılım rolünü düzenle"
+    group_participations:
+      index:
+        title: "Katılımcı Listesi"
+    certifications:
+      index:
+        title: "Sertifikalı gruplar"
+  pl:
+    comments:
+      one: "bir yorum"
+      other: "%{count} yorum"
+  models:
+    best_quorum:
+      good_score_condition: "\nTeklif bir vadeden daha uzun olursa oy kullanacak%{good_score}ve%{participants}, aksi halde terk edilecek"
+      good_score_condition_past: "\nTeklif, oy hakkının üzerinde olgunluk olsaydı oy kullanırdı%{good_score}ve%{participants}, aksi halde terk edilmiş olurdu"
+    quorum:
+      participants:
+        one: '<b>Bir Kişi</b> katılmış olacak'
+        other: '<b>%{count}</b> kişi katılmış olacak'
+      participants_past:
+        one: '<b>Bir Kişi</b> katıldı'
+        other: '<b>%{count}</b> kişi katıldı'
+      or_condition_1: "Tartışma sona erecek %{time}ya da ne zaman%{participants_num}"
+      or_condition_1_past: "Tartisma surdu %{time} ya da ne zaman%{participants_num}"
+      and_condition_1: "Tartışma %{time} sone erecek, ama devam edecek aksi belirtilmedikçe %{participants_num}."
+      and_condition_1_past: "Tartışma %{time} kadar sürdü, ama devam etti aksi belirtilmediğinden %{participants_num}."
+      time_condition_1: "Tartışma %{time} zamanda sona erdi"
+      time_condition_1_past: "Tartışma %{time} sürdü"
+      participants_condition_1: "Tartışma %{participants_num} kadar devam edecek."
+      participants_condition_1_past: "Tartışma%{participants_num} kadar devam etti."
+      good_score_condition: "Teklif bir vadeden daha uzun olursa oy kullanacak %{good_score}, aksi halde terk edilecek"
+      good_score_condition_past: "Teklif, oy hakkının üzerinde olgunluk olsaydı oy kullanırdı  %{good_score}, aksi halde terk edilmiş olurdu "
+      bad_score_explain: |
+        Eğer teklifin vadesi dolarsa<b>%{good_score}%</b> oylama aşamasına geçecektir. Ancak bir seviye aşağıda olursa <b>%{bad_score}%</b>, kullanılmayacaktır.<br/>
+        Seviye bu iki eşik arasında kalması halinde, zamana veya değerlendirme sayısına bakmaksızın görüşme devam edecektir
+      bad_score_explain_past: |
+        Eğer teklifin vadesi dolarsa<b>%{good_score}%</b>oylama aşamasına geçecektir. ancak bunun altında bir derece varsa <b>%{bad_score}%</b>, öyleyse terkedilmiş.<br/>
+        seviyenin bu iki eşik arasında kalması halinde, zamana ve değerlendirme sayısına bakmaksızın görüşme devam edecektir
+      until_date: "(%{date}'e kadar)"
+      help_content:
+        description_html: |
+          <h3>Yeterli Çoğunluk Nedir?</h3>
+          <p>
+          Teklifin aşamasının ne zaman sona ereceğini ve oylama aşamasının ne zaman başlayacağını belirleyen parametredir.<br />
+          Yeni bir teklif oluştururken, Açık Alan'da mevcut nitelikte olan yeterli çoğunluktan birini veya grubunuzdaki yeterli çoğunluktan birini seçin.<br />
+          Yeterli çoğunluğun niteliklerini görmek için bu pencerede farklı teklifleri tıklaya bilirsiniz: seçilen parametrelerin açıklamasını ve listesini bulacaksınız.<br />
+          </p>
+        participants: "Minimum katılımcı sayısı:"
+        not_specified: "Belirtilmemiş"
+        time_discussion: "Tartışma dönemi:"
+        condition: "Geçiş şartı:"
+        at_least_one: "En az bir"
+        both: "İkisi de"
+        good_score: "Olgunluk:"
+        bad_score: "Reddetme:"
+  proposals:
+    create_button: "Teklif oluşturma"
+    show:
+      ready_for_vote: "Oy için hazır"
+      keep_discuss: "Tartışmaya devam et"
+    regenerate_button: "Tartışmayı geri ver"
+    edit:
+      expand_all: "Hepsini genişlet"
+      collapse_all: "Tüm daraltma"
+    schulze_vote_results:
+      results: "Sonuçlar"
+      votes: "Oylar"
+      solution: "Çözüm"
+      points: "Puanlar"
+      random_ordered_votes: "Rastgele sıralı oy"
+      number_of_voters: "Seçmen sayısı"
+      vote: "Oyları"
+    authors_list_panel:
+      dont_want_to_be_an_author: "Artık yazar olmak istemiyorum"
+    left_panel:
+      promote_proposal: "Teklife teşvik etmek"
+      share_with_friends: "Arkadaşlarınla ​​paylaş"
+    show_proposal:
+      vote_here: "Bu teklif oylama aşamasında. Çözümleri(s) ve %{link} okuyun."
+  digit_tags: "Eklemek istediğiniz etiketleri yazın"
+  buttons:
+    cancel: "İptal"
+    save: "Kaydet"
+    report: "Rapor et"
+    update: "Güncelle"
+    send: "Gönder"
+    create: "Oluştur"
+    delete: "Sil"
+    search: "Ara"
+    close: "Kapat"
+    edit: "Düzenle"
+    next: "İleri"
+    go_back: "Geri git"
+    chosen: "Seçtim!"
+    ok: "TAMAM"
+    yes_word: 'EVET'
+    no_word: 'HAYIR'
+    mark: "İşaretle"
+    detach: "Ayır"
+    login: "Giriş Yap"
+    show: "Göster"
+    preview: "Ön izleme"
+    new_newsletter: "Bülten oluştur"
+    unlock: "Kilidi aç"
+    vote_here: "Oy burda"
+    unintegrate: "Tartışma bölümüne geri koy"
+    join_accounts: "Hesaplara katılın ve giriş yapın  "
+    save_and_exit: "Kaydet ve Çık"
+  tooltips:
+    random_stack_1: "<strong>Nasıl Çalışır?</strong><br/>ilk olarak, yeni katkılar veya henüz değerlendirilmemiş olanlarınız gösterilir, daha sonra popülerlik sırasına göre değerlendirmiş olduğunuz katkılar gösterilir.<br/><b>Not</b>: Değerlendirmeniz bu sırayı değiştirecek!"
+    random_stack_2: "<strong> Nasıl çalışır?<br/>Katılımlar, en güncelden en eskiye doğru kronolojik sırayla gösterilmiştir"
+    random_stack_3: "<strong>Nasıl çalışır?</strong>Katılımlar popülerliğe göre sıralanır. <br/><b>Not</b>: Puanlanmanız bu sırayı değiştirecek!"
+    miglioricontributi: "<strong>Nasıl yardımcı olabilirim?</strong><br/>Katkılar, basit takdiri ifade etmemeli, metinde önemli değişiklikler yapmalıdır: yapıcı eleştiri, öneride alternatifler veya iyileştirmeler yazarın metnin paylaşılmış bir özetini geliştirmesine yardımcı olacaktır.<br /><br/><b>Not</b>: En değerli katkı teklife bir çözüm bulmak için mümkün olanı sağlar!"
+    voglioredigere: "Editörlerden, teklifin metnini kullanıcıların katkılarına dayanarak düzenlemenize izin vermelerini isteyin."
+    voteup: "Teklif yeterince olgun ve oylama aşamasına gidebilirsiniz (teklif metni güncellendiğinde değerlendirmenizi değiştirebilirsiniz) "
+    votedown: "Teklifin metni henüz yetersiz değil, çünkü kullanıcıların katkıları entegre edilmelidir (teklifin metni güncellendiğinde değerlendirmenizi değiştirebilirsiniz) "
+    valutazioni: "alınan toplam değerlendirmeler sayısı"
+    gradimento: "toplamdaki olumlu değerlendirmelerin yüzdesi"
+    nickname: "<strong>Bu öneride, isimsiz olarak tartışmayı seçtik </ strong> <br /> diğer kullanıcılar sizin kim olduğunuzu bilmeleri mümkün değil, siz de diğerlerinin kim olduğunu bilmeniz mümkün değil.<br /> Çalışarak ve bu şekilde konuşarak kararlar alabilir ve teklifleri sadece içeriğe dayalı olarak değerlendirebilirsiniz.<br/><b>Not</b>: Tartışma bittiğinde ve teklif onaylanırsa veya reddedilirse gerçek kullanıcı adlarını göreceksiniz!"
+    manage_noise: "<strong>Yararsız katkıları yönet</strong><br /> Katılımcılar, katkıların tartışmada yararsız olduklarını size bildireceklerdir. Bu panel ile bunları kaldırabilir ve Silinenler klasörüne koyabilirsiniz."
+    view_noise: "Yararsız<strong> katkıları görün</ strong> <br /> burada faydasız sayılan tüm katkıları bulacaksınız ve teklifin editörleri tarafından tartışma kaldırıldı"
+    quorum_minutes: "<b>%{date}</b> %{time} e kadar"
+    quorum_valutations: "<b>En azından %{valutations} insan tarafından </b> oylanıncaya kadar"
+    quorum_description: "Teklif tartışmada yer alacak %{conditions}. Teklif oylamaya gidecek ancak <b>erişkinliği</b> <b>%{good_score}%</b> dan daha yüksekse."
+  group: "grup"
+  saving: "Kaydediliyor..."
+  sending: "Gönderiliyor..."
+  updating: "Güncelleniyor..."
+  loading: "Yükleniyor..."
+  error:
+    setting_preferences: "Tercihler ayarlanırken hata oluştu"
+    admin_required: "Bu sayfayı görüntülemek için yönetici olmalısın"
+    permissions_required: "Bu işlemi yapmanıza izin verilmiyor"
+    portavoce_required: "Bu sayfayı görüntülemek için grubun yöneticisi olmalısınız"
+    blog_required: "Bu işlemi yapmak için kişisel blogunuzu oluşturmanız gerekir"
+    not_your_blog: "Bu eylem, başka bir kullanıcının blogunda yapılamaz"
+    role_permission_change: "Bu izni değiştirmek mümkün değildir"
+    event_answer: "Cevap gönderilirken hata oluştu"
+    event_already_answered: "Bu etkinliğe zaten cevap verdiniz"
+    event_past: "Etkinlik sona erdi"
+    configuration_required: "Modül etkin değil"
+    areas_required: "Çalışma alanlarını etkinleştirmek gereklidir"
+    quorums:
+      quorum_creation: "Yetersayı oluştururken hata oluştu"
+      quorum_modification: "Yeter sayıyı güncellerken hata oluştu"
+      advanced_proposals_settings: "Tercihler ayarlanırken hata oluştu"
+    participation_roles:
+      role_updated: "Rol güncellenirken hata oluştu"
+      role_created: "Rol oluşturulurken hata oluştu"
+    groups:
+      update: "Grup güncellenirken hata oluştu"
+      work_area:
+        area_created: "Çalışma alanı oluşturulurken hata oluştu"
+      creation: "Grup oluşturulurken hata oluştu"
+      post_removed: "Grubu gruptan kaldırırken hata oluştu"
+    proposals:
+      view_proposal: "Bu öneriyi görüntülemek için gerekli izinlere sahip değilsiniz"
+      participate: "Bu öneriye aktif olarak katılmak için gerekli izinlere sahip değilsiniz. Lütfen grup yöneticisine başvurun"
+      modify_comments: "Size ait olmayan yorumları düzenleyemezsiniz"
+      insert_comment: "Yorum eklenirken hata oluştu"
+      contribute_report: "Katkıyı bildirirken hata oluştu"
+      updating: "Güncellenirken hata oluştu"
+      proposal_rank: "Değerlendirmenizi kaydederken hata oluştu. Bu rahatsızlıktan dolayı özür dileriz. Lütfen daha sonra tekrar deneyiniz. Teşekkür ederim"
+      proposal_not_waiting_date: "Bu teklif, oy kullanma tarihini beklemiyor"
+      proposal_not_voted: "Bu teklif oy verme aşamasını tamamlamadı, bu nedenle bu eylemi artık yapamazsınız"
+      proposal_not_valuating: "Bu teklif oylama aşamasında değil, bu nedenle bu işlemi artık yapamazsınız"
+      proposal_already_ranked: "Bu öneriyi zaten bir kez değerlendirdiniz. Teklif son değerlendirmeden beri değiştirilmedi"
+      proposal_not_your: "Yapmadığınız teklifleri düzenleyemezsiniz"
+      creation: "Maalesef, teklif oluştururken bir hata oluştu"
+      editors_added: "Editörler eklenirken hata oluştu"
+      close_debate: "Tartışmayı kapatırken hata oluştu"
+      vote_period_incorrect: "Lütfen başka bir oylama olayı seçin"
+      vote_period_soon: "Oylama, tartışma bittikten en az %{time} dakika sonra başlamak zorunda"
+      vote_period_short: "Oylama olayı en az 10 dakika sürmelidir"
+      same_title: "Aynı başlıkta başka bir öneri var."
+    registration:
+      recaptcha: "Captcha onaylanırken hata oluştu. Lütfen tekrar yazınız"
+      user_not_found: "Kullanıcı bulunamadı"
+    blog:
+      cannot_edit: "Senin olmayan bir bloğu düzenleyemezsin"
+      already_have: "Afedersiniz. Zaten bir bloğunuz var"
+      comment_added: "Yorum eklenirken hata oluştu"
+    users:
+      join_accounts: "Hesaplara katılma sırasındaki hata."
+      join_accounts_password: "Yanlış şifre"
+    group_participations:
+      destroy: "Tek yöneticisi olduğunuz bir grubu terk edemezsiniz"
+      already_member: "Katılım isteği oluşturulurken hata oluştu. Zaten bu grubun üyesisin!"
+      request_not_registered: "Zaten bu grupların üyesisiniz, ancak katılma isteğiniz kaydedilmemiş."
+      request_sent: "Katılım isteği oluşturulurken hata oluştu"
+      request_not_found: "İstek bulunamadı. İşlem hatası"
+      error_saving: "İşlemde hata var. Devam edilemiyor"
+    error_404:
+      proposals:
+        title: "Bu teklif mevcut değil"
+        description: "Aradığınız teklif yok veya silindi"
+      blog_posts:
+        title: "Bu yazı mevcut değil"
+        description: "Aradığınız yazı yok veya silindi"
+      events:
+        title: "Bu olay yok"
+        description: "Aradığınız etkinlik yok veya silindi"
+      groups:
+        title: "Bu grup yok"
+        description: "Aradığınız grup yok ya da silindi"
+      title: "Aradığınız sayfa yok"
+      description: "Adresiniz yanlış olabilir veya bu sayfa artık mevcut değil"
+    error_500:
+      title: "Oops... bizim hatamız"
+      description: "Bir rapor gönderildi ve sorun en kısa sürede düzeltilecek."
+    event:
+      comment_added: "Yorum girilirken hata oluştu"
+    participations_destroyed: "Çalışma sırasında hata oluştu"
+    error_indexer:
+      title: "Hizmet kullanılamıyor "
+      description: "İç sistemler ile ilgili problemler yaşıyoruz. Birkaç dakika sonra tekrar deneyin. "
+    error_302:
+      title: "Yetkisiz işlem"
+      description: "Hata. Bu kaynağa erişmek için izinlere sahip değilsiniz."
+    area_participation:
+      create: "Alana kullanıcı eklenirken hata oluştu"
+    area:
+      update: "Alanı güncelleme hatası"
+    group_invitations:
+      code_expired: "Davet Kodunun süresi doldu"
+      already_participant: "Zaten bu grubun bir üyesisiniz"
+      create: "Hiçbir e-posta gönderilmedi"
+  info:
+    setting_preferences: "Ayarlar başarıyla değiştirildi"
+    blog_created: "Post başarıyla oluşturuldu"
+    proposal:
+      can_change_valutation: "Teklif siz değerledikten sonra değiştirildi. İsterseniz değerlemenizi değiştirebilirsiniz!"
+      waiting_date: "Teklif tartışma aşamasında geçti ve şimdi oylamanın yapılmasını bekliyor"
+      voting: "Teklif, oylama aşamasında"
+      ask_participation: "Bu öneriyi değerlendirmek ve katkıda bulunmak için grubun bir üyesi olmayı isteyin"
+      public_visible: "Bu teklif herkese görünür"
+      public_visible_short: "Herkese görünür"
+      available_authors: "Teklif için yeni editörler mevcut"
+      updated_comment: "Yorumun başarıyla güncellendi"
+      comment_deleted: "Yorumun başarıyla silindi"
+      contribute_reported: "Katkı başarıyla raporlandı"
+      contribute_added: "Katkı başarıyla eklendi"
+      comment_added: "Yorum başarıyla eklendi"
+      contribute_added_right: "Katkı başarıyla eklendi. <br/> Görmek için '%{section}' paragrafının yanındaki 'Katkı Yaz ve Gösteri tıklayın"
+      proposal_created: "Teklif başarıyla oluşturuldu. Kalan formları doldurarak hazırlamaya devam edin"
+      proposal_updated: "Teklif başarıyla güncellendi"
+      proposal_deleted: "Teklif başarıyla silindi"
+      date_selected: "Teklif, seçilen dönemde oylanacak"
+      rank_recorderd: "Değerlendirmeniz kaydedilmiştir"
+      comment_already_ranked: "Bu yorumu zaten değerlendirdiniz. Henüz bir değerlendirmeyi değiştirmek mümkün değil"
+      comment_not_your: "Yorumu silmek için gerekli haklara sahip değilsiniz"
+      login_to_contribute: "Katkınızı eklemek için giriş yapın"
+      back_in_debate: "Teklif şimdi tekrar tartışılıyor. Şimdi editörlük sizde"
+      editors_added: "Yeni editörler başarıyla eklendi!"
+      offered_editor: "Bu öneriyi yazmanız için kendinize teklif verdiniz!"
+      authors_added: "Yeni yazarlar doğru eklendi"
+    message_sent: "Mesaj başarıyla iletildi"
+    private_messages_active: "Diğer kullanıcılar size özel mesaj gönderebilir"
+    private_messages_inactive: "Diğer kullanıcılar size özel mesaj gönderemez"
+    rotp_active: "Güvenlik işareti etkin"
+    rotp_inactive: "Güvenlik işareti devre dışı"
+    quorums:
+      quorum_created: "Çekirdek başarıyla oluşturuldu"
+      quorum_updated: "Çekirdek başarıyla güncelleştirildi"
+      quorum_deleted: "Çekirdek başarıyla silindi"
+      quorum_activated: "Çekirdek etkin"
+      quorum_deactivated: "Çekirdek devre dışı"
+      can_modify_advanced_proposals_settings: "Editörler gelişmiş ayarları değiştirebilir"
+      cannot_modify_advanced_proposals_settings: "Editörler gelişmiş ayarları değiştiremez"
+      anonymous_proposals: "Grubun teklifleri varsayılan olarak anonim olacak"
+      non_anonymous_proposals: "Grubun teklifleri varsayılan olarak anonim olmayacak"
+      public_proposals: "Grubun teklifleri varsayılan olarak herkese görünür olacak"
+      private_proposals: "Grubun teklifleri varsayılan olarak herkese görünür olmayacak"
+      secret_vote: "Grubun önerileri hükmen gizli oylama kullanacak"
+      non_secret_vote: "Grubun önerileri hükmen gizli oylama kullanmayacak"
+    groups:
+      group_updated: "Grup başarıyla güncelleştirildi"
+      work_area:
+        area_created: "Çalışma alanı başarıyla oluşturuldu"
+      group_deleted: "Grup başarıyla silindi"
+      group_created: "Grup başarıyla oluşturuldu"
+      search_participants: "Arama tamamlandı. Arama sonuçları güncellendi"
+      post_removed: "Gönderi grubun duvarından silindi"
+      area_updated: "Alan güncellendi"
+      post_featured:
+        'true': Gönderi üste sabitlendi
+        'false': Gönderi sabitlemesi kaldırıldı
+    participation_roles:
+      role_updated: "Rol başarıyla güncelleştirildi"
+      permissions_updated: "İzinler güncellendi"
+      role_created: "İzin başarıyla oluşturuldu"
+      role_changed: "Rol başarıyla değiştirildi"
+      role_deleted: "Rol başarıyla silindi"
+      user_removed_from_group: "%{name} gruptan başarıyla kaldırıldı"
+    user:
+      click_to_change: "Değiştirmek istediğiniz bilgilere tıklayın"
+      info_updated: "Bilgi başarıyla güncellendi"
+      account_joined: "Hesap başarıyla bağlandı!"
+      tooltips_enabled: "Araç İpuçları Devrede"
+      tooltips_disabled: "Araç İpuçları Devredışı"
+      url_shown: "URL'ler görünür"
+      url_hidden: "URL'ler gizlenir"
+      update_border: "Coğrafi ilgi sınırları doğru bir şekilde güncellendi"
+      confirm_email: "Yeni e-posta adresini onaylamanız gerekiyor"
+      IP_disabled: "Kimlik Sağlayıcı kaldırıldı"
+      time_zone_changed: "Saat dilimi kaydedildi"
+    blog:
+      blog_created: "Blog başarıyla oluşturuldu"
+      title_updated: "Blogun başlığı başarıyla güncellendi"
+      comment_added: "Yorum başarıyla oluşturuldu"
+      destroyed: "Blog başarılı bir şekilde yok edildi"
+    events:
+      event_deleted: "Etkinlik başarıyla silindi"
+      event_updated: "Etkinlik başarıyla güncellendi"
+    moderator_panel:
+      account_blocked: "Hesap engellendi"
+      account_unblocked: "Hesap engeli kaldırıldı"
+    locale_changed: "Lokasyon başarıyla değiştirildi"
+    blog_post_updated: "Gönderiniz başarıyla güncellendi"
+    blog_post_deleted: "Gönderiniz başarıyla silindi"
+    participation_request:
+      multiple_request:
+        one: "%{count} yeni gruba katılmak istedin"
+        other: "%{count} yeni gruba katılmak istedin"
+    group_participations:
+      destroy_ok_1: "Grubtan çıktın. Daha sonra gruba tekrar katılmak isteyebilirsin"
+      request_sent: "Katılım isteği başarıyla gönderildi"
+      request_alredy_sent: "Bu gruba zaten bir katılım isteği gönderdiniz"
+      status_accepted: "Katılım talebi kabul edildi"
+      status_voting: "Katılım isteği şu an oylanıyor"
+      status_declined: "Katılım istediği geri çevrildi"
+    event:
+      comment_added: "Yorum başarıyla eklendi"
+    topic:
+      hidden: "Bu başlık gizli"
+    participations_destroyed: "Kullanıcılar silindi. Lütfen sayfayı yenileyin."
+    area_participation:
+      create: "Kullanıcı bölgeye eklendi"
+      destroy: "Kullanıcı alandan kaldırıldı"
+    group_invitations:
+      create:
+        one: "Davet başarıyla %{email_addresses} 'a gönderildi"
+        other: "%{count} Davet başarıyla %{email_addresses} 'a gönderildi"
+      accept: "Davet kabul edildi! Artık bu grubun üyesisin."
+      reject: "Davetiye reddedildi."
+      anymore: "Davetiye reddedildi. Başka davet almayacaksınız."
+    blog_comment:
+      destroyed: "Yorum silindi"
+    user_sensitive:
+      updated: "Kullanıcı hassasiyeti başarıyla güncellendi."
+      created: "Kullanıcı hassasiyeti başarıyla yaratıldı."
+  interest_borders:
+    hint: "Bir yer aramak için birkaç karakter yazın"
+    no_place_found: "Yer bulunamadı"
+    searching: "Aranıyor, lütfen bekleyin..."
+    region: "%{name} (Bölge)"
+    province: "%{name} (Şehir)"
+    town: "%{name} (Şehir)"
+    country: "%{name} (Ülke)"
+    continent: "%{name} (Kıta)"
+  mailer:
+    default:
+      follow_twitter: "bizi Twitter'da takip et"
+      follow_facebook: "Facebook'ta bizi takip edin"
+      follow_google: "Google+'ta bizi takip edin"
+      footer:
+        registered_at: "%{url} 'a kayıt olduğun için bu maili aldın."
+        connect_with_us: "Bizimle iletişime geçin:"
+        contact_info: "İletişim bilgileri:"
+        email_label: "E-Posta:"
+      edit_preferences: "Tercihler"
+      click_here: "Buraya tıklayın"
+    new_contribute:
+      title: "%{user} teklifteki %{comment} 'le ilgili"
+      view_proposal: "teklifi görmek için %{click_here}."
+    text_update:
+      view_proposal:
+        one: "Teklif <b>%{proposal}</b> güncellendi."
+        other: "Teklif %{count} kez <b>%{proposal}</b> güncellendi."
+      integrated_contributes: "Tebrikler! Katkılarınız editörler tarafından entegre edildi:"
+      view_proposal_2: "%{click_here} ve yeni metnin önerilerinizi içerdiğini onaylayın. <br/> Eğer yeteri kadar memnun değilseniz, her zaman metninizi Geçmiş kısmından geri çekerek tartışmaya geri koyabilirsiniz."
+      connect: "Giriş Yap %{name}"
+    unintegrated_contribute:
+      view_proposal: "Teklifi konulmuş bir katkı <b>%{click_here}</b>, yazarı tarafından tartışmaya geri çekildi."
+      view_proposal_2: "yazarın katkısının düzgünce entegre edilmediğini düşünmesinin sebebi %{click_here}."
+      verify: "Kontrol"
+    user_message:
+      hi_user: "Merhaba %{user},"
+      user_sent_message: "%{user} Bu mesajı yolladı:"
+      reply_to_user: "Basitçe bu maile yanıt vererek %{user}'ı yanıtlamış olursun."
+    blocked:
+      hi_user: "Merhaba %{user},"
+      deleted_correctly: "hesabınızın Airesis'den başarıyla silindiğini size bildiriyoruz."
+      greetings: "Selamlar, <br/>Airesis Team"
+    new_blog_comment:
+      title: "%{user} gönderine yeni bir yorum yapıldı %{post}."
+      click_here: "Buraya tıklayın"
+      view_post: "mesajı görüntülemek için %{click_here}."
+    invite:
+      hi_user: "Merhaba!"
+      invitation: "%{user} Kullanıcı sizi gruba katılmaya davet etti <b>%{group}</b> üzerinde %{app_name}, doğrudan ve katılımcı demokrasi için e-demokrasi platformu."
+      message_intro: "Size göndermiş olduğu mesaj:"
+      accept_or_reject: "Eğer daveti kabul ediyorsanız 'Kabul Et'e, kabul etmiyorsanız 'Geri Çevir'e tıklayınız."
+      no_more: "Eğer %{app_name}'dan davet almak istemiyorsan 'Davet İstemiyorum'a tıklayınız."
+      accept: "Kabul Et"
+      reject: "Reddet"
+      greetings: "Tebrikler!"
+      no_more_button: "Başka davet yok"
+      subject: "%{group_name}'a davet edildin"
+    update_contribute:
+      title: "%{user} katkısını değiştirdi"
+      view_proposal: "Katkıyı görmek ve değerlendirmeni değiştirmek için %{click_here}"
+    new_forum_topic:
+      view: "başlığı görüntülemek için %{app_short_name}."
+  words:
+    contribute: "katkı"
+    comment: "yorum"
+    or: "veya"
+    and: "ve"
+    terms_of_service: "Hizmet Şartları"
+    privacy_policy: "Gizlilik"
+    guide: "SSS"
+  terms_of_service: "Şartlar"
+  privacy_policy: "Gizlilik"
+  controllers:
+    searches:
+      index:
+        groups_divider: "Gruplar"
+  tags:
+    index:
+      tag_title: "%{proposals} teklif - %{blog_posts} blog paylaşımı - %{groups} gruplar"
+  blog_posts:
+    form:
+      published_title: "Paylaşımın internette yayımlanacak ve herkes tarafından görülebilecek, paylaş ve yorumla"
+      reserved_title: "Paylaşımın sadece paylaşımını yayınlamış olduğun gruplardaki kullanıcılar tarafında görülebilecek"
+      draft_title: "Paylaşımın sadece sen tarafından görülebilir"
+  confirm_delete: "Emin misiniz?"
+  you: "Sen"
+  twitter:
+    share:
+      blog_post: "Bu gönderiye bak #%{app}! %{tags}"
+      event: "Yeni bir etkinlik var #%{app}"
+  home:
+    portlets:
+      last_proposals:
+        proceed_to_proposals: "Önerilere doğru devam et"
+      from_blogs:
+        proceed_to_blogs: "Bloglara doğru devam et"
+      topics:
+        title: "Takip ettiğiniz konular"
+  confirm_detach: "Bu Kimlik Sağlayıcıyı kaldırmak istediğinizden emin misiniz? Gelecekte tekrar kullanamazsınız."
+  alert_detach: "Bu Kimlik Sağlayıcıyı kaldırmak için geçerli bir e-posta adresi sağlamalısınız"
+  users:
+    confirm_credentials:
+      title: "Kimlik bilgilerinizi onaylayın"
+      instructions_html: |
+        Airesis'de aynı e-posta adresine sahip başka bir kullanıcı zaten var<br />
+        İki hesaba da katılmak için şifrenizi Airesis'e ekleyin.<br />
+        Parolayı hatırlamıyorsanız, 'Parolayı Kurtar' sayfasına geçin.
+    statistics:
+      title: "Kullanıcı istatistikleri"
+      last_login: "Son giriş"
+      integrated_count: "Entegre edilmiş katkıların sayısı"
+      spam_count: "SPAM Katkıların sayısı"
+      noisy_count: "Gürültülü katkıların sayısı"
+      total_count: "Toplam katkıların sayısı"
+      total_comments_count: "Toplam yorumların sayısı"
+      proposals_editor: "Düzenlediğin tekliflerin sayısı"
+      proposals_voted: "Oylanmış tekliflerin sayısı"
+      average_rank_voted_proposals: "Oylanmış tekliflerin ortalama sırası"
+      proposals_accepted_count: "Kabul edilen tekliflerin sayısı"
+      proposals_abandonend_count: "Terk edilmiş tekliflerin sayısı"
+      good_writer: "İyi makale yazarı"
+      good_proposals_writer: "İyi teklif yazarı"
+  proposal_comments:
+    manage_noise:
+      title: "Yararsız katkıları yönetmek"
+      help: "Yararsız katkıyı sağ tarafa sürekleyin"
+  votations:
+    create:
+      confirm: "Ses veriş oy tamamlandı sağolun"
+  errors:
+    messages:
+      invalid_token: "Güvenlik işareti geçersiz"
+      votation: "Maalesef, oy kullanırken bir şeyler ters gitti. Daha sonra tekrar deneyin."
+    votation:
+      already_voted: "\nBu öneriye zaten oy verdiniz "
+    proposal:
+      authors_added: "Yeni yazarlar eklenirken hata oluştu "
+  draft_tooltip: "bu yazı sadece sizin tarafınızdan görülebilir"
+  reserved_tooltip: "Bu yazı yalnızca grup katılımcıları tarafından görülebilir"
+  placeholder:
+    find: "Dosyaları Bul"
+  keep_reading: "okumaya devam et"
+  feedback_subject: "%{time} - Yeni geri bildirim"
+  delete_event_confirm: "Bu yorumu silmek istediğinizden emin misiniz?"
+  groups:
+    group:
+      delete_group_warning_html: "Bu grubu silmeniz için izin var. Bu grubu silerek, kendisiyle ilişkili tüm forumları, teklifleri ve belgeleri silersiniz. <br/> Veriler geri yüklenemez. <br/> Dikkatli olun!"
+  confirm:
+    unintegrate: "Katkınızı tartışmaya geri koyacaksın. Emin misiniz?"
+  cookie_policy: "Çerezler"
+  blog:
+    delete:
+      confirm_message: "Blogunuza silmek istediğinizden emin misiniz? %{count} mesaj da silinecektir."
+  click_here_to_view: "%{app_short_name} üzerinde görüntülemek için burayı tıklatın."
+  unsubscribe_from_topic: "Aboneliği iptal etmek için %{click_here}"
+  select_debate_duration: "Önce bir tartışma süresi seçin"

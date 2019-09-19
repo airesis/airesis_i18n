@@ -1,0 +1,238 @@
+de-DE:
+  frm:
+    general:
+      forum: Forum
+      topics: Themen
+      topic: Thema
+      posts: Beiträge
+      posts_count:
+        one: 1 Beitrag
+        other: "%{count} Beiträge"
+      flagged_for_spam: Ihr Account wurde als Spam markiert.
+      cannot_create_topic: Sie können zu diesem Zeitpunkt kein neues Thema erstellen.
+      cannot_create_post: Sie können zu diesem Zeitpunkt keinen Beitrag erstellen.
+    access_denied: "Sie haben keine Berechtigung, um das zu tun."
+    admin:
+      area: Adminbereich
+      back_to_admin: "Zurück zum Admin"
+      back_to_forums: "Zurück zum Forum"
+      back_to_groups: "Zurück zu den Gruppen"
+      forum:
+        moderator_groups: Moderatorgruppen
+        index: Foren verwalten
+        new: Neues Forum erstellen
+        new_link: Neues Forum
+        deleted: Das gewählte Forum wurde gelöscht
+        created: Dieses Forum wurde erstellt.
+        not_created: Dieses Forum konnte nicht erstellt werden,
+        updated: Dieses Forum wurde aktualisiert.
+        not_updated: Dieses Forum konnte nicht aktualisiert werden
+      forums:
+        edit: Bearbeiten
+        delete: Löschen
+        category: Kategorie
+        delete_confirm: Möchten Sie dieses Forum wirklich löschen?
+        index:
+          last_post: Letzter Beitrag
+          none: Keine
+          moderators: Moderatoren
+          no_category: (Keine Kategorie)
+        default_private: "Privates Forum"
+        default_public: "Öffentliches Forum"
+        default_private_description: "Forum für Gruppenteilnehmer reserviert"
+        default_public_description: "Forum für alle Airesis-Benutzer sichtbar. Auch Benutzer, die nicht in der Gruppe sind"
+      mod:
+        index: Gruppen Verwalten
+        new: Neue Gruppe
+        created: Die Gruppe wurde erfolgreich erstellt
+        not_created: Gruppe konnte nicht erstellt werden
+        deleted: Die ausgewählte Gruppe wurde gelöscht
+        members: "Mitglieder in %{group}"
+      mods:
+        show:
+          add_member: Hinzufügen
+          add_a_new_member: "Füge neues Mitglied hinzu"
+          current_members: "Aktuelle Mitglieder"
+        edit: Bearbeiten
+        delete: Löschen
+        name: Name
+      category:
+        index: Forum-Kategorien verwalten
+        new: Neue Forum-Kategorie erstellen
+        edit: "Bearbeiten der %{title} Kategorie"
+        new_link: Neue Forum-Kategorie
+        deleted: Die ausgewählte Forums-Kategorie wurde gelöscht
+        created: Diese Forum-Kategorie wurde erstellt
+        not_created: Diese Forum-Kategorie konnte nicht erstellt werden
+        updated: Diese Forum-Kategorie wurde aktualisiert
+        not_updated: Diese Forum-Kategorie konnte nicht aktualisiert werden
+      categories:
+        edit: Bearbeiten
+        delete: Löschen
+        category: Kategorie
+        delete_confirm: Möchten Sie diese Forum-Kategorie wirklich löschen?
+        default_private: "Privatbereich"
+        default_public: "Öffentlicher Bereich"
+      group:
+        index: "Moderatorgruppen verwalten"
+        show:
+          title: "Moderatoren verwalten"
+        new: "Neue Moderatorgruppe"
+        created: "Erfolgreich Moderatorgruppe erstellt"
+        not_created: "Fehler beim erstellen der Moderatorengruppe"
+        deleted: "Erfolgreich Moderatorengruppe gelöscht"
+    common:
+      pages: Seiten
+    errors:
+      not_signed_in: Du musst dich erst anmelden
+      access_denied: Zugang verweigert.
+    forum:
+      header: "%{title} ansehen"
+      forums: Foren
+      new: Neues Forum erstellen
+      edit: "Bearbeiten des %{title} Forums"
+      moderator_tools: "Moderatorwerkzeuge"
+      topic_tools: "Themen-Tools"
+      admin_tools: "Administration"
+      title: "Neues Forum"
+    forums:
+      index:
+        title: Forum
+        forum: Forum
+        views: Ansichten
+        last_post: 'Letzter Beitrag:'
+        none: Keine
+    topic:
+      headings:
+        topic: Thema
+        latest: Neueste
+        posts: Beiträge
+        views: Ansichten
+      moderation:
+        success: Das ausgewählte Thema wurde moderiert
+        no_option_selected: Es wurde keine Moderations-Option ausgewählt
+      received_reply: Ein von dir abonniertes Thema hat eine Antwort erhalten
+      reply: Antworten
+      quote: Zitat
+      delete: Löschen
+      created: Dieses Thema wurde erstellt
+      new: Neues Thema erstellen
+      edit: Thema ändern
+      not_created: Dieses Thema konnte nicht erstellt werden
+      deleted: Dein Thema wurde gelöscht
+      cannot_delete: Du kannst kein Thema ändern, das nicht dir gehört
+      updated: Dieses Thema wurde aktualisiert
+      not_updated: Dieses Thema konnte nicht aktualisiert werden
+      subscribed: Du hast dieses Thema abonniert
+      unsubscribed: Du hast dieses Thema nicht mehr abonniert
+      none: In diesem Forum gibt es zurzeit keine Themen
+      links:
+        new: Neues Thema
+        back_to_topics: Zurück zu den Themen
+        edit: Thema bearbeiten
+      not_found: Das gesuchte Thema konnte nicht gefunden werden
+      hidden:
+        'true': Dieses Thema wird nun ausgeblendet
+        'false': Dieses Thema ist nicht sichtbar
+      locked:
+        'true': Dieses Thema wurde geschlossen
+        'false': Dieses Thema ist nun nicht mehr geschlossen
+      pinned:
+        'true': Dieses Thema wurde fixiert
+        'false': Dieses Thema ist nun nicht mehr fixiert
+    topics:
+      show:
+        reply: Antworten
+        delete: Löschen
+        subscribe: Abonnieren
+        unsubscribe: Abbestellen
+        reply_to_topic: Auf Thema antworten
+        pending_review: Dieses Thema wartet noch auf Überprüfung. Nur der Nutzer, der es erstellt hat, und die Moderatoren können es sehen.
+        hide:
+          'true': Dieses Thema anzeigen
+          'false': Dieses Thema verbergen
+        lock:
+          'true': Dieses Thema entsperren
+          'false': Dieses Thema sperren
+        pin:
+          'true': Fixierung dieses Themas aufheben
+          'false': Dieses Thema fixieren
+        related_proposals: "Verwandte Vorschläge"
+    post:
+      buttons:
+        reply: Antwort posten
+        edit: Bearbeiten
+      created: Deine Antwort wurde gepostet
+      new: Antwort posten
+      edit: Bearbeiten
+      not_created: Deine Antwort konnte nicht gepostet werden
+      not_created_topic_locked: Du kannst nicht auf eine gesperrtes Thema antworten
+      edited: Dein Beitrag wurde aktualisiert
+      not_edited: Dein Beitrag konnte nicht aktualisiert werden
+      deleted: Dein Beitrag wurde entfernt
+      deleted_with_topic: Der letzte Beitrag in diesem Thema wurde entfernt. Dadurch wurde auch das gesamte Thema gelöscht
+      cannot_delete: Du kannst keinen Beitrag ändern, der nicht dir gehört
+      cannot_quote_deleted_post: Der Beitrag, den du zitieren möchtest, existiert nicht mehr.
+    posts:
+      moderation:
+        moderate: Moderieren
+        approve: Akzeptieren
+        spam: Spam
+        success: Die ausgewählten Beiträge wurden moderiert
+      post:
+        pending_review: Dieser Beitrag wartet noch auf Überprüfung. Nur der Nutzer, der ihn erstellt hat, und die Moderatoren können ihn sehen.
+        in_reply_to: als Antwort auf
+    moderation:
+      index:
+        title: "Moderationstools für %{forum}"
+  helpers:
+    submit:
+      frm_forum:
+        create: Forum erstellen
+        update: Forum aktualisieren
+      topic:
+        create: Thema erstellen
+        update: Thema aktualisieren
+      frm_mod:
+        create: Gruppe erstellen
+      frm_category:
+        create: Kategorie erstellen
+        update: Kategorie aktualisieren
+  simple_form:
+    labels:
+      frm_forum:
+        category: Kategorie
+        title: Titel
+        name: Titel
+        description: Beschreibung
+        moderators: Moderatoren
+        visible_outside: Außerhalb der Gruppe sichtbar
+      topic:
+        subject: Betreff
+        locked: Gesperrt
+        pinned: Fixiert
+        hidden: Ausgeblendet
+        posts:
+          text: Text
+      frm_category:
+        name: Name
+      post:
+        text: Text
+      frm_mod:
+        name: Name
+  time_ago_in_words: "vor %{time}"
+  ago: " vor"
+  ago_by: " von"
+  by: von
+  started_by: "Begonnen von "
+  are_you_sure: Bist du sicher?
+  lst_post: "Letzter Beitrag"
+  last_post: "Letztes Thema"
+  back_to_forums: "Zurück zum Forum"
+  pages:
+    forum_groups:
+      index:
+        create_first: Es gibt bislang keine Moderatoren-Gruppen. Erstelle eine!
+  info:
+    members:
+      ok_message: Der Nutzer wurde der Gruppe erfolgreich hinzugefügt

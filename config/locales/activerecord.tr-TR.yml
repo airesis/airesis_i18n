@@ -1,0 +1,161 @@
+tr-TR:
+  activerecord:
+    models:
+      meeting: 'Toplantı'
+      places: 'Yer'
+    attributes:
+      blog_comment:
+        body: 'Yorum'
+        created_at: "AntiSpam"
+      event:
+        title: 'Etkinlik Başlığı'
+        description: 'Tanımlama'
+        event_type_id: 'Etkinlik Türü'
+        starttime: 'Başlangıç Tarihi'
+        endtime: 'Bitiş Tarihi'
+        all_day: 'Tüm Gün'
+        period: 'Tekrarlama'
+        frequency: 'Tekrar aralığı'
+        private: 'Özel'
+      group:
+        facebook_page_url: 'Facebook sayfası adresi'
+        name: 'Ad'
+        title_bar: 'Başlık çubuğu'
+        description: 'Tanımlama'
+        accept_requests: 'Katılım isteği'
+        porta_id: 'Yönetici'
+        interest_border_tkn: 'İlgilendiğiniz coğrafi yeri'
+        interest_border_id: 'İlgilendiğiniz coğrafi yeri'
+        image_url: 'Görüntü adresi'
+        default_role_name: "Yeni kullanıcılar için adın ne?"
+        default_role_name_placeholder: "Örneğin: Kullanıcılar, üye, eylemciler, korsanlar"
+        name_placeholder: "Grup kimliği ve/veya konumu ile ilgili bir ad seçin."
+        title_bar_placeholder: "Grup sayfa başlığı."
+        description_placeholder: "Bu mesaj grubun ilk sayfasında olacak"
+        image_url_placeholder: "Grup resim URL'si"
+        facebook_page_url_placeholder: "Facebook grup sayfası? Burada bağlantı ekle."
+        admin_title: "Grubun yöneticileri nasıl denir?"
+        private: "Özel grup"
+        rule_book: "Kural kitabı"
+        image: "Resimleri yükle"
+        admin_title_placeholder: "Bir grup yönetici rol adı (varsayılan: Yönetici)"
+      blog:
+        title: 'Başlık'
+      blog_post:
+        title: 'Başlık'
+        body: 'Yazı'
+        published: 'Durumu'
+        published_true: 'Yayınlandı'
+        published_false: 'Taslak'
+        published_reserved: "Saklıdır"
+        group_ids: Aşağıdaki gruplar halinde Yayınlandı
+        published_at: Şu tarihte yayınlandı
+      participation_role:
+        name: 'İsim'
+        description: 'Kısa açıklama'
+      group_invitation:
+        emails_list: "E-posta adresleri"
+        testo: "Mesaj metni"
+      place:
+        address: 'Adres'
+        municipality_id: 'Şehir'
+        latitude_original: Enlem
+        longitude_original: Boylam
+      proposal:
+        group_area_id: "Çalışma alanı"
+        proposal_category_id: 'Kategori'
+        title: 'Başlık'
+        subtitle: 'Alt başlık'
+        problems: 'Sorunlar'
+        objectives: 'Hedefler'
+        content: 'Metin'
+        interest_borders_tkn: 'İlginizi çekebilecek coğrafik yerler'
+        tags_list: "Etiketler"
+        quorum_id: "Müzakere süresi"
+        anonima: "Geçiçi anonimlik"
+        visible_outside: "Herkes görebilir"
+        secret_vote: "Gizli oy"
+        vote_starts_at: "Oylama başlangıcı:"
+        vote_ends_at: "Oylama bitişi:"
+        debate_starts_at: "Müzkere başlangıcı:"
+        debate_ends_at: "Müzakere bitişi:"
+      proposal_comment:
+        content: 'İçerik'
+      quorum:
+        name: 'Çoğunluğun adı'
+        name_title: 'Lütfen kısa ve açıklayıcı bir başlık girin'
+        description: 'Açıklama / Kısa açıklama'
+        description_title: 'Bu çoğunluğun amacını anlamak için bir açıklama'
+        minutes: Müzakere süresi
+        days_m: Gün
+        hours_m: saat
+        minutes_m: Dakika
+        percentage_title: 'Gruptaki katılımcı sayısının bir yüzdesi olarak tartışmadaki asgari katılımcı sayısı'
+        good_score: 'Olgunluk'
+        good_score_title: 'Teklifin oylama aşamasına getirilmesi için aldığı değerlendirme'
+        bad_score: 'Yetersiz Çoğunluk (yüzde)'
+        bad_score_title: 'Teklif değerlendirme altında kalırsa reddedilecektir. Zaman ve katılımcı koşulları sağlanamazsa görüşmeye devam edilmesine izin verilecektir'
+        condition: Şart
+        condition_title: 'Zaman ve katılımcı koşulları ikisi birden mi olacak yoksa sadece biri mi?'
+        vote_minutes: 'Oy süresi'
+        vote_percentage: 'Seçim (seçmen)'
+        vote_good_score: 'Onay'
+      search_participant:
+        role_id: 'Rol'
+        keywords: 'Adınız ya da soyadınız'
+      user:
+        name: 'İlk Adınız'
+        email: 'E-posta adresi'
+        surname: 'Soyadınız'
+        password: 'Şifre'
+        linkedinpageurl: 'LinkedIn sayfanızda'
+        facebookpageurl: 'Facebook sayfanızda'
+        accept_conditions: 'Kullanım Koşulları'
+        receive_newsletter: 'Bülten e-posta yoluyla'
+        blocked: "Hata"
+      user_sensitive:
+        name: 'İlk Adınız'
+      group_area:
+        name: "Ad"
+        description: "Tanımlama"
+        default_role_name: "Varsayılan rol adı"
+    errors:
+      template:
+        header:
+          one: 'bir hata %{model} öğesinin kaydedilmesine izin vermedi'
+          other: '%{count} hata %{model} öğesinin kaydedilmesine izin vermedi'
+        body: 'Aşağıdaki alanlarda sorunlar vardı'
+      messages:
+        inclusion: 'listede yok'
+        exclusion: 'ayrılmış'
+        invalid: 'geçersizdir'
+        confirmation: 'onayı eşleşmiyor'
+        accepted: 'kabul edilmesi gerekir'
+        empty: 'bok bırakılamaz'
+        blank: 'doldurulması zorunlu'
+        too_long: 'Yazı çok uzun'
+        too_short: 'Yazı çok kısa'
+        wrong_length: '%{count} karakter olmalıdır'
+        taken: 'çoktan alınmış'
+        not_a_number: 'bir sayı değil'
+        not_an_email: ' geçerli bir e-posta adresi değil'
+        greater_than: '%{count} sayısından büyük olmalıdır'
+        greater_than_or_equal_to: '%{count} değerinden büyük veya eşit olmalıdır'
+        equal_to: '%{count}''e eşit olmalıdır'
+        less_than: '%{count} sayısından az olmalı'
+        less_than_or_equal_to: '%{count}''den daha az veya ona eşit olmalıdır'
+        odd: 'eşit olmalı'
+        even: 'garip olmalı'
+        record_invalid: 'Doğrulama başarısız oldu %{errors}'
+        not_found: 'bulunamadı.'
+        TOS: "TOS kabul etmeniz gerekir"
+        certified_cannot_edit: 'sertifikalı kullanıcısı iseniz düzenlenemez'
+        forum_visibility: "Kategori özel olduğu durumda grup dışındakilere görünür olmaz"
+      models:
+        user:
+          attributes:
+            email:
+              already_confirmed: 'Bu e-posta adresi daha önce kaydedilmiştir'
+        group:
+          portavoce:
+            required: 'Bir yönetici seçmelisiniz'

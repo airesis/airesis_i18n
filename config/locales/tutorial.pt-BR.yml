@@ -1,28 +1,57 @@
 pt-BR:
   tutorial:
     proposals_index:
-      welcome_open_space: Bem-vindo no espaço aberto de Aires! O espaço aberto é um grupo muito particular em que participam todos os usuários. Aqui você encontra uma lista das propostas livremente adicionadas pelos usuários do aplicativo e você pode adicionar aqui as propostas de seu interesse
-      welcome_group: 'Esta é a lista das propostas da grupo <b>%{group_name}</b>. Aqui você encontra uma lista das propostas adicionadas pelos membros do grupo e você podem até adicionar seus próprios queridos, sendo que você tem permissão para'
-      new_proposal: No menu lateral direita você encontra o botão para criar novas propostas...
-      filters: ... e filtros diferentes para procurar as propostas que mais lhe interessam
-      tabs: Em Aires as propostas percorrem um caminho definido por quatro status principais. Vamos agora descobri-los!
-      tab_debate: As novas propostas começam na fase de debate e todos os usuários ou membros de um grupo podem participar, debater e elaborar a proposta, a fim de torná-la madura para a votação
-      tab_vote: Quando o debate termina, as propostas movem para a guia de votação, onde cada usuário pode votar as soluções surgiradas durante o debate
-      abandoned: Todas as propostas que não passam o debate vão na guia abandonados, do qual elas podem ser recolocados no debate a fim de continuar a discussão
-      proposal_list: Cada proposta é exibida em uma caixa como esta, junto a todas as informações sobre seu status, enquanto está em debate
-      model: O modelo usado para a criação da proposta
-      category_icon: A categoria escolhida
-      status: O status da proposta. Durante o debate, esta foi a última vez que o texto tem sido atualizado
-      maintitle: O título da proposta, que é o tópico da discussão
-      text_content: As primeiras linhas descrivem o problema ou a solução
-      contributes: O número de contribuições adicionadas
-      end: Esta é a estrutura da lista de propostas. É a mesma em cada grupo que você participa e ajudará você a orientar-se nas discussões do grupo
+      welcome_open_space: "Bem-vindo no espaço aberto de Aires! O espaço aberto é um grupo muito particular em que participam todos os usuários. Aqui você encontra uma lista das propostas livremente adicionadas pelos usuários do aplicativo e você pode adicionar aqui as propostas de seu interesse"
+      welcome_group: "Esta é a lista das propostas da grupo <b>%{group_name}</b>. Aqui você encontra uma lista das propostas adicionadas pelos membros do grupo e você podem até adicionar seus próprios queridos, sendo que você tem permissão para"
+      new_proposal: "No menu lateral direita você encontra o botão para criar novas propostas..."
+      filters: "... e filtros diferentes para procurar as propostas que mais lhe interessam"
+      tabs: "Em Aires as propostas percorrem um caminho definido por quatro status principais. Vamos agora descobri-los!"
+      tab_debate: "As novas propostas começam na fase de debate e todos os usuários ou membros de um grupo podem participar, debater e elaborar a proposta, a fim de torná-la madura para a votação"
+      tab_vote: "Quando o debate termina, as propostas movem para a guia de votação, onde cada usuário pode votar as soluções surgiradas durante o debate"
+      tab_voted: "Após a votação, todas as propostas votadas passam para o aba de Votações, onde é possível analisar o resultado do ciclo de vida completo da proposta"
+      abandoned: "Todas as propostas que não passam o debate vão na guia abandonados, do qual elas podem ser recolocados no debate a fim de continuar a discussão"
+      proposal_list: "Cada proposta é exibida em uma caixa como esta, junto a todas as informações sobre seu status, enquanto está em debate"
+      model: "O modelo usado para a criação da proposta"
+      category_icon: "A categoria escolhida"
+      status: "O status da proposta. Durante o debate, esta foi a última vez que o texto tem sido atualizado"
+      maintitle: "O título da proposta, que é o tópico da discussão"
+      text_content: "As primeiras linhas descrivem o problema ou a solução"
+      timeline: "Uma barra que exibe o estado do debate ou da votação"
+      timeleft: "O tempo e/ou as avaliações necessárias para terminar o debate"
+      rankDescription: "A maturidade da proposta, que mostra se a proposta está pronta para ser votada, com base nas avaliações dos participantes"
+      participants: "O número de pessoas que participam desta proposta com as suas contribuições e avaliações"
+      contributes: "O número de contribuições adicionadas"
+      end: "Esta é a estrutura da lista de propostas. É a mesma em cada grupo que você participa e ajudará você a orientar-se nas discussões do grupo"
     proposals_show:
-      welcome: Bem-vindo na presente proposta, no debate sobre Aires. Este tutorial irá explicar em detalhes as diferentes partes que é composto por
-      main: Estes são os paragrafos que compoem esta proposta
-      solution_main: Esta é uma solução. A solução é composta por diferentes parágrafos. Os editores vão escrever uma ou mais soluções para resolver o problema encontrado
-      status: O status da proposta. Neste caso, encontra-se na fase de debate
-      dates: Data da criação e da última atualização da proposta
-      condition_left: Condições para a termnação do debate
-      socialnetwork: Os botões para compartilhar as propostas em suas redes sociais e convide seus amigos para a discussão
-      category: A categoria desta proposta
+      welcome: "Bem-vindo na presente proposta, no debate sobre Aires. Este tutorial irá explicar em detalhes as diferentes partes que é composto por"
+      main: "Estes são os paragrafos que compoem esta proposta"
+      solution_main: "Esta é uma solução. A solução é composta por diferentes parágrafos. Os editores vão escrever uma ou mais soluções para resolver o problema encontrado"
+      contributeButton: "Usando estes botões pode visualizar as contribuições de outros utilizadores e adicionar as suas próprias. As contribuições são sempre referidas no parágrafo em que estão acessíveis"
+      menu_left: "Neste menu à esquerda pode encontrar toda a informação sobre a proposta"
+      evaluations: "O número de avaliações expressadas pelos participantes, que indica se a proposta está pronta para a votação ou se o debate deve continuar"
+      status: "O status da proposta. Neste caso, encontra-se na fase de debate"
+      dates: "Data da criação e da última atualização da proposta"
+      condition_left: "Condições para a termnação do debate"
+      socialnetwork: "Os botões para compartilhar as propostas em suas redes sociais e convide seus amigos para a discussão"
+      authors: "Os editores atuais da proposta"
+      category: "A categoria desta proposta"
+      history: "O histórico da proposta, na qual você pode ver as suas modificações e a sua evolução"
+    groups_edit:
+      group_users: "Aqui pode gerar os participantes no seu grupo. Pode atribuir-lhes com as funções e enviar-lhes e-mails."
+      group_proposals: "Esta é a página onde pode você mudar tudo o que esteja relacionado com as propostas: quóruns e configurações."
+      group_areas: "As Áreas estão disponíveis se desejar activá-las. Elas irão permitir você poder dividir o seu grupo em grupos menores"
+      group_forum: "E finalmente, aqui se encontra todas as configurações para o fórum."
+    users_alarm_preferences:
+      intro: "Nesta página você pode editar todas as configurações de alertas e notificações."
+      alerts: "Você pode escolher quais as alertas que você deseja receber na Airesis..."
+      emails: "... por email ou ambos."
+      no_emails: "Lembre-se: se você desativar uma alerta na Airesis, também não a receberá na Airesis."
+      desktop: "Esta é o seu <b>Escritório</b>:<br/> aqui você pode gerenciar <b>as suas propostas</b> e <b>Grupos</b>, Visualizar os <b>Eventos</b> e entrar em contato com outros cidadãos. Sua área de trabalho contém vários painéis que irão preencher o seu conteúdo para mantê-lo atualizado sobre suas atividades dentro da Airesis"
+      click_logo: "Clique sobre o logotipo da Airesis para sempre retornar a esta página"
+      click_groups: "Clique no ícone do menu de grupos para ter acesso rápido a área pública, os grupos em que você participa, ou abrir um novo grupo"
+    users_border_preferences:
+      intro: "Se ainda não o tiver feito, defina as suas fronteiras de interesse geográfico. A Airesis irá utilizá-las em breve para lhe mostrar conteúdos específicos."
+    next: "Próxima"
+    back: "Voltar"
+    done_label: "Feito"
+    skip_label: "X "

@@ -1,0 +1,332 @@
+tl-PH:
+  db:
+    sys_locales:
+      bs-BA:
+        description: Ang Bosnian
+      de-DE:
+        description: Ang Aleman
+      el-GR:
+        description: Ang Griyego
+      en-AU:
+        description: Ang Ingles (Australya)
+      en-EU:
+        description: Ang Ingles (Europa)
+      en-GB:
+        description: Ang Ingles (UK)
+      en-IE:
+        description: Ang Ingles (Ireland)
+      en-NZ:
+        description: Ang Ingles (New Zeland)
+      en-US:
+        description: Ang Ingles (USA)
+      en-ZA:
+        description: Ang Ingles (Timog Africa)
+      es-AR:
+        description: Ang Espanyol (Argentina)
+      es-CL:
+        description: Ang Espanyol (Chile)
+      es-EC:
+        description: Ang Espanyol (Ekwador)
+      es-ES:
+        description: Ang Ispanyol
+      fr-FR:
+        description: Ang Pranses
+      hu-HU:
+        description: Ang Unggaro
+      id-ID:
+        description: Ang Indonesian
+      it-IT:
+        description: Ang Italyano
+      jp-JP:
+        description: Ang Hapon
+      me-ME:
+        description: Ang Montenegrin
+      nl-NL:
+        description: Ang Netherland
+      pt-BR:
+        description: Ang Portuges (Brazil)
+      pt-PT:
+        description: Ang Portuges (Portugal)
+      ro-RO:
+        description: Ang Romano
+      ru-RU:
+        description: Ang Ruso
+      sh-HR:
+        description: Ang Serbo-Croatian
+      sr-CS:
+        description: Ang Serbiyo (Latino)
+      sr-SP:
+        description: Ang Serbiyo (Cyrillic)
+      zh-TW:
+        description: Ang Tsino
+    proposal_types:
+      STANDARD:
+        description: Ang Pamantayang Panukala
+      POLL:
+        description: Ang Poll
+      RULE_BOOK:
+        description: Alituntunin ng Libro
+      PRESS:
+        description: Pindutin ang Pagbitiw
+      EVENT:
+        description: Kaganapan sa Organisasyon
+      ESTIMATE:
+        description: Estimahin ang Halaga
+      AGENDA:
+        description: Ang agenda
+      CANDIDATES:
+        description: Pagpipilian ng Kandidato
+      SIMPLE:
+        description: Ang Simpleng Panukala
+      PETITION:
+        description: Ang Petisyon
+    event_types:
+      meeting:
+        description: ang pagpulong
+      vote:
+        description: ang boto
+      meeting2:
+        description: ang pagpulong
+      election:
+        description: ang eleksyon
+    notification_categories:
+      MYPROP:
+        description: Isusulat ko ang mga Panukala
+      PROP:
+        description: Ako ay lalahok sa mga panukala
+      NEWPROP:
+        description: Ang mga bagong Panukala
+      NEWEVENT:
+        description: Ang mga bagong Kaganapan
+      GROUPS:
+        description: Ang mga pangkat
+    notification_types:
+      new_public_events:
+        description: Ang mga bagong kaganapan sa publiko
+        email_subject: "Ang bagong kaganapan sa publiko: %{event}"
+        message: "Ang bagong kaganapan sa publiko: <b>%{event}</b>"
+      new_events:
+        description: Ang mga kaganapan sa pangkat at ako ay sumali
+        email_subject: "Ang Bagong kaganapan: %{event}"
+        message: "Ang Bagong kaganapan <b>%{event}</b> sa loob ng pangkat <b>%{group}</b>"
+      new_posts_user_follow:
+        description: I-post ang bago mula sa tagagamit na aking sinusundan
+        email_subject: Mayroong bagong na-post
+        message: "%{user} nagdagdag ng bagong post sa kanyang blog <b>%{blog}</b>"
+      new_valutation_mine:
+        description: Ang bagong ebolosyon para sa panukala ay akin
+        email_subject:
+          one: "%{title} ay mayroong bagong pagusuri"
+          other: "%{title} may %{count} ang mga bagong pagsusuri"
+        message:
+          one: "Iyong panukala <b>%{title}</b> ay nakatanggap ng bagong pagsusuri"
+          other: "Ang Iyong panukala <b>%{title}</b> ay nakatanggap %{count} ng bagong mga pagsusuri"
+      new_valutation:
+        description: Ang Bagong pagsusuri para sa panukala na aking sinalihan
+        email_subject:
+          one: "%{title} ay may bagong pagsusuri"
+          other: "%{title} ay may %{count} bagong mga pagsusuri"
+        message:
+          one: "Ang panukala <b>%{title}</b> ay nakatanggap ng bagong pagsusuri"
+          other: "Ang panukala <b>%{title}</b> ay nakatanggap %{count} ng mga bagong panukala"
+      available_author:
+        description: Ang tagagamit ay may bagong magagamit na panukala pa maging editor
+        email_subject:
+          one: "%{title} - Ang bagong editor ay may magagamit"
+          other: "%{title} - %{count} ang mga bagong editor ay magagamit na"
+        message:
+          one: "%{user} upang maging editor ang panukala ay magagamit na <b>%{title}</b>"
+          other: "%{count} upang maging editor sa panukala ang tagagamit ay magagamit na <b>%{title}</b>"
+      author_accepted:
+        description: Ang pagtanggap sa panukala bilang editor
+        email_subject: "%{title} - Ikaw ay ganap na editor nito!"
+        message: "Ikaw ngayon ay ganao ng editor sa isang panukala <b>%{title}</b>.<br/>Tandaan na bilang isang editor, kailangan mong makinig sa mga ambag ng ibang tagagamit at para mas mapagbuti ang teksto ayon sa kanila<br/>"
+      new_authors:
+        description: Ang mga bagong editor sa panukala
+        email_subject: "%{title} - Ang mga bagong editor"
+        message: "<b>%{user}</b> ay isang editor sa isang panukala <b>%{title}</b>"
+      unintegrated_contribute:
+        description: Ang mga kontiburyon ay inilagay pabalik sa debate
+        email_subject: "%{proposal} - Ang kontribusyon ay ibinalik sa debate"
+        message: "Ang iyong kontribusyon na pagsamahin sa panukala <b>%{proposal}</b> ay ibinalik sa debate"
+      new_contributes:
+        description: "Ang mga bagong kontribusyon sa mga panukala na aking lalahukan"
+        email_subject:
+          one: "%{title} - Ang bagong kontribusyon ay tuluyan ng naipasok"
+          other: "%{title} - Mayroon %{count} mga bagong kontribusyon"
+        message:
+          one: "<b>%{name}</b> nagdagdag ng bagong kontribusyon sa panukala <b>%{title}</b>"
+          other: "Mayroon <b>%{count}</b> mga bagong kontribusyon sa panukala <b>%{title}</b>"
+      text_update:
+        description: "I-update ang susunod na panukala na aking lalahukan"
+        email_subject:
+          one: "%{title} ay na-update na"
+          other: "%{title} ay na-update na %{count} ang ilang beses"
+        message:
+          one: "Ang panukala<b>%{title}</b> ay na-update na"
+          other: "Ang panukala <b>%{title}</b> ay na-update na %{count} ng ilang beses"
+      new_contributes_mine:
+        description: "Ang Mga bagong kontribusyon sa aking mga panukala"
+        email_subject:
+          one: "%{title} - Mayroong bagong mga kontribusyon ang naipasok"
+          other: "%{title} - Mayroon %{count} mga bagong kontribusyon"
+        message:
+          zero: "<b>%{name}</b> mayroong bagong kontribusyon na idinagdag sa iyong panukala <b>%{title}</b>"
+          one: "<b>%{name}</b> nadagdagan ang bagong kontribusyon sa iyong panukala <b>%{title}</b>"
+          other: "Mayroon <b>%{count}</b> may mga bagong kontribusyon sa loob ng panukalan <b>%{title}</b>"
+      change_status:
+        description: "Baguhin ang estado ng panukala na aking lalahukan"
+        email_subject:
+          wait: "%{title} - Pumili ng petsa ng botohan"
+          waiting_date: "%{title} - Ang petsa ng botohan ay napili na"
+          in_vote: "%{title} -TARA AND BOMOTO!"
+          abandoned: "%{title} hindi makapasok sa debatihan"
+          rejected: "%{title} ay tinanggihan"
+          voted: "%{title} Ang pagboto ay winakasan"
+          24_hours: "Ang debate sa %{title} ay matatapos bukas!"
+          1_hour: "Ang debate sa %{title} matatapos sa loob ng isang oras!"
+          24_hours_vote: "Ang boto sa %{title} matatapos na bukas!"
+          1_hour_vote: "Ang boto sa %{title} matatapos na sa loob ng isang oras!"
+        message:
+          waiting_date: "%{name} ang pinili na petsa sa pagboto para sa panukala<b>%{title}</b>"
+          in_vote: "Ang panukala <b>%{title}</b> ngayon ay naiboto na!"
+          abandoned: "Ang panukala <b>%{title}</b> ay hindi pumasa sa debate at ito ay inabandona"
+          rejected: "Ang panukala <b>%{title}</b> ay hindi tinanggap ng mga kalahok"
+          voted: "%{title} - Ang boto ay tinapos"
+          24_hours: "Ang debate sa <b>%{title}</b> ay matatapos bukas!"
+          1_hour: "Ang debate sa <b>%{title}</b> matatapos sa loob ng isang oras!"
+          24_hours_vote: "Ang boto sa <b>%{title}</b> ay matatapos bukas!"
+          1_hour_vote: "Ang boto sa <b>%{title}</b> ay matatapos na sa loob ng isang oras!"
+      change_status_mine:
+        description: Ang Pagbago ng estado ng aking mga panukala
+        email_subject:
+          wait: "%{title} - Ang Pumili ng petsa sa pagboto"
+          waiting_date: "%{title} - Ang petsa ng pagboto ay napili na"
+          in_vote: "%{title} - TARA AT BUMOTO!"
+          abandoned: "%{title} hindi na makapasok sa debate"
+          rejected: "%{title} ay tinanggihan"
+          voted: "%{title} - Ang boto ay tinapos na"
+          24_hours: "Ang debate sa %{title} ay matatapos na bukas!"
+          1_hour: "Ang debate sa %{title} ay matatapos na sa loob ng isang oras!"
+          24_hours_vote: "Ang boto sa %{title} ay matatapos na bukas!"
+          1_hour_vote: "Ang debate sa %{title} ay matatapos na sa loob ng ilang oras!"
+        message:
+          wait: "Ang iyong panukala <b>%{title}</b> ay pumasa sa yugto ng diskusyon at naghihintay na ikaw ay bomoto ngayon dito"
+          waiting_date: "%{name} au napili sa petsa ng pagboto para sa panukala <b>%{title}</b>"
+          in_vote: "Ang iyong panukala <b>%{title}</b> ay ibinoto na ngayon!"
+          abandoned: "Ang iyong panukala <b>%{title}</b> ay hindi pumasa sa debate at inabandona, patawad"
+          rejected: "Ang iyong panukala <b>%{title}</b> ay di tinanggap ng mga kalahok, patawarin"
+          voted: "<b>%{title}</b> - Ang boto ay tinapos na"
+          24_hours: "Ang debate sa <b>%{title}</b> matatapos na bukas!"
+          1_hour: "Ang debate sa <b>%{title}</b> matatapos na sa loob lang ng oras!"
+          24_hours_vote: "Ang boto sa <b>%{title}</b> matatapos na bukas!"
+          1_hour_vote: "Ang boto sa <b>%{title}</b> matatapos na sa loob ng ilang oras!"
+      proposal_phase_ending:
+        description: "Ang debate sa panukala o ang pagboto ay matatapos sa madaling panahon"
+        email_subject:
+          24_hours: "Ang debate sa %{title} matatapos ma bukas!"
+          1_hour: "Ang debate sa %{title} matatapos na sa loob ng ilang oras!"
+          24_hours_vote: "Ang boto sa %{title} matatapos na bukas!"
+          1_hour_vote: "Ang boto sa %{title} matatapos na sa loob ng ilang oras!"
+        message:
+          24_hours: "Ang debate sa <b>%{title}</b> matatapos na bukas!"
+          1_hour: "Ang debate sa <b>%{title}</b> matatapos na sa loob ng ilang oras!"
+          24_hours_vote: "Ang boto sa <b>%{title}</b> matatapos na bukas!"
+          1_hour_vote: "Ang boto sa <b>%{title}</b> matatapos na sa loob ng ilang oras!"
+      new_posts_group_follow:
+        description: May mga bagong post sa mga dingding ng pangkat na aking sinusundan
+        email_subject: Ang Bagong post
+      new_posts_group:
+        description: Ang bagong post sa mga Dingding ng pangkat ay nalahukan ko na
+        email_subject: Ang Bagong post
+        message: "<b>%{user}</b> ay nagdagdag ng bagong post sa pangkat <b>%{group}</b>"
+      new_public_proposals:
+        description: Ang bagong mga panukala ay dinagdag sa Open Source
+        email_subject: "%{proposal}"
+        message: "Ang Bagong panukala <b>%{proposal}</b> idinagdag sa Open Space"
+      new_proposals:
+        description: Ang bagong mga panukala sa loob ng grupo
+        email_subject: "%{proposal}"
+        message: "Ang Bagong panukala <b>%{proposal}</b> Nilikaha sa loob ng grupo <b>%{group}</b>"
+      new_participation_request:
+        description: Ang Bagong hiling sa pagsali
+        email_subject:
+          one: "Mayroong bagong hiling sa paglahok"
+          other: "Mayroong %{count} bagong mga kahilingan sa paglahok"
+        message:
+          one: "<b>%{user}</b> nagtanong sa kalahok ng kanilang grupo <b>%{group}</b>"
+          other: "<b>%{count} mga tagagamit</b> tanungin ang kalahok sa grupo <b>%{group}</b>"
+      new_blog_comment:
+        description: Ang bagong kumento sa aking blog
+        email_subject:
+          one: "Ang bagong kumento sa inyong blog post"
+          other: "%{count} bang bagong mga kumento sa iyong blog post"
+        message:
+          one: "<b>%{user}</b> nag komento sa iyong post <b>%{title}</b>"
+          other: "Mayroong <b>%{count}</b> bagong mga kumento sa iyong post <b>%{title}</b>"
+      new_forum_topic:
+        message:
+          one: "Ang paksa '%{topic_subject}' ay nalikha <b>%{group_name}</b>"
+          other: "%{count} ang mga paksa ay nalikha sa loob <b>%{group_name}</b>"
+        description: Ang mga bagong paksa na nasa mga forum
+        email_subject: "Ang paksa '%{topic_subject}' ay nalikha sa loob %{group_name}"
+      new_comments_mine:
+        description: Ang mga bagong kumento sa aking mga panukala
+        email_subject: Ang bagong kumento sa aking panukala
+        message: "<b>%{name}</b> magdagdag ng kumento sa pagtalakay ng iyong panukala <b>%{title}</b>"
+      new_comments:
+        description: Ang mga bagong kumento satalakayan na ako ay may parte sa loob
+        email_subject: "%{title} -Ang Bagong komento"
+        message: "<b>%{name}</b> Dagdagan ang kumento sa talakayan na iyong kinukuha sa parte ng panukala<b>%{title}</b>"
+      contribute_update:
+        description: I-update ang teksto sa nakahanda na sinusuri na ambag
+        email_subject: "%{title} - Ang kontribusyon na mayroon ka sa nakaraan na sinuri ay nabago na"
+        message: "<b>%{name}</b> baguhin ang kontribusyon sa <b>%{title}</b> mayroon kang nakaran na sinusuri. Suriin kung nais mong baguhin ang iyong opinyon."
+    proposal_categories:
+      no_category:
+        description: Ang Hindi nakategorya
+      education:
+        description: Edukasyon, Pananaliksik
+      health:
+        description: Kalusugan, Kalinisan
+      information:
+        description: Impormasyon, Komunikasyon
+      commerce:
+        description: Kalakal, Pananalapi, Mga Buwis
+      work:
+        description: Trabaho at Pagpapahalaga sa sarili
+      security:
+        description: Seguridad at Hustisya
+      world:
+        description: Mundo, Paglipat
+      minorities:
+        description: Mga Minorya, Kapansanan
+      ethics:
+        description: Etika, Tatag, Kabanalan
+      sexuality:
+        description: Sekswalidad, Pamilya, Kabataan
+      culture:
+        description: Ang Sining at Kultura
+      entertainment:
+        description: Sosyal, Palakasan, Libangan
+      organization:
+        description: Panloob na organisasyon
+      agricolture:
+        description: Tubig, Pagkain, Agrikultura
+      territory:
+        description: Teritoryo, Kalikasan, Mga hayop
+      mobility:
+        description: Urbanismo, Kadaliang kumilos, Pagtatayo
+      energy:
+        description: Enerhiya, Klima
+      industry:
+        description: Industriya, Mga materyal at mga nasayang
+      democracy:
+        description: Demokrasya, Institusyon
+    vote_types:
+      favorable:
+        description: Ang makabubuti
+      neutral:
+        description: Niyutral
+      dissenting:
+        description: Tutulan

@@ -1,10 +1,10 @@
 bs-BA:
   home:
     intro:
-      title: Prva društvena mreža za E-demokratiju u svijetu
-      description: Sredstvo direktne demokratije stvoreno da odlučuje i kolektivno djeluje o prijedlozima i idejama proizvedenim bilo gdje za bilo koju temu.
+      title: "Prva društvena mreža za E-demokratiju u svijetu"
+      description: "Sredstvo direktne demokratije stvoreno da odlučuje i kolektivno djeluje o prijedlozima i idejama proizvedenim bilo gdje za bilo koju temu."
       paragraph_1:
-        title: Društvena mreža za E-demokratiju
+        title: "Društvena mreža za E-demokratiju"
         content_html: |
           <p>Airesis je <a href="http://en.wikipedia.org/wiki/Free_software">besplatna softverka platforma</a>, postavljena
           od strane tima italijanskih programera i saradnika, sa ciljem da omogući zajednicama i grupama da se organizuju na produktivan način prema principima <a href="http://en.wikipedia.org/wiki/Direct_democracy" target="_blank">direktne demokratije</a> i učešća.</p>
@@ -18,7 +18,7 @@ bs-BA:
           Filozofija razvoja je fokusirana na kontinuirano poboljšanje, na način evolucijskog procesa zasnovanog na povratnim informacijama korisnika.
           Razvojni tim je dostupan da zadovolji potrebe zajednica koje žele da koriste softver u duhu direktne demokratije. </p>
       paragraph_3:
-        title: Načela i osnovne vrijednosti
+        title: "Načela i osnovne vrijednosti"
         content_html: |
           <p>Аiresis je alat otvorenog izvora za odlučivanje u e-demokratiji,
           snažno orijentiran na rješavanje problema i osmišljen da maksimizira ogromnu evolucionu moć <a heref="http://en.wikipedia.org/wiki/Collective_intelligence" target="_blank">kolektivne inteligencije</a>.</p>
@@ -45,41 +45,38 @@ bs-BA:
           <li><strong>Fleksibilnost</strong><br/>
           Svaka grupa ima svoje sopstvene potrebe, svaki prijedlog je različit, svaki korisnik ima svoje sopstvene potrebe.</li>
       paragraph_4:
-        title: 'Naš cilj: direktna i participativna demokratija'
+        title: "Naš cilj: direktna i participativna demokratija"
       paragraph_5:
-        title: Karakteristike i svojstva
+        title: "Karakteristike i svojstva"
       paragraph_6:
-        title: Osnovna svojstva
+        title: "Osnovna svojstva"
       paragraph_7:
-        title: Alat za prijedlog i debatu
+        title: "Alat za prijedlog i debatu"
     whatis:
       paragraph_1:
-        title: Društvena mreža za E-demokratiju
-    helpus:
-      paragraph3:
-        title: Kako donirati
+        title: "Društvena mreža za E-demokratiju"
     linkback:
       paragraph2:
-        title: Baneri
+        title: "Baneri"
     tags:
-      title: 'Airesis - Donijeti odluku'
+      title: "Airesis - Donijeti odluku"
     engage:
-      title: Učestvujte u projektu za novu demokratiju
+      title: "Učestvujte u projektu za novu demokratiju"
       nav:
-        opensource: Otvoreni izvor
-        participate: Učestvujte
-        banner: Baner
+        opensource: "Otvoreni izvor"
+        participate: "Učestvujte"
+        banner: "Baner"
       paragraph1:
-        title: Airesis je otvoren za sve
+        title: "Airesis je otvoren za sve"
       paragraph2:
-        title: Kako možete pridonijeti
+        title: "Kako možete pridonijeti"
       analyst:
-        title: Analitičar
+        title: "Analitičar"
       graphic:
-        title: Grafički dizajner
+        title: "Grafički dizajner"
       recruiter:
-        title: Zapošljavanje
+        title: "Zapošljavanje"
       communication:
-        title: Menadžer komunikacije
+        title: "Menadžer komunikacije"
       i18n:
-        title: Internacionalizacija
+        title: "Internacionalizacija"

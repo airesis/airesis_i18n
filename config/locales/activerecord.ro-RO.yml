@@ -1,121 +1,158 @@
 ro-RO:
   activerecord:
     models:
-      meeting: Întâlnire
-      places: Locul
+      meeting: 'Întâlnire'
+      places: 'Locul'
     attributes:
       blog_comment:
-        body: Comentariu
+        body: 'Comentariu'
+        created_at: "AntiSpam"
       event:
-        title: Titlul evenimentului
-        description: Descriere
-        event_type_id: Tipul evenimentului
-        starttime: Data de început
-        endtime: Data de sfârşit
-        all_day: Toata ziua
-        period: Repetă
-        frequency: Repetaţi fiecare
-        private: Privat
+        title: 'Titlul evenimentului'
+        description: 'Descriere'
+        event_type_id: 'Tipul evenimentului'
+        starttime: 'Data de început'
+        endtime: 'Data de sfârşit'
+        all_day: 'Toata ziua'
+        period: 'Repetă'
+        frequency: 'Repetaţi fiecare'
+        private: 'Privat'
       group:
-        facebook_page_url: Adresa de pagina de Facebook
-        name: Nume
-        title_bar: Bara de titlu
-        description: Descriere
-        accept_requests: Cerere pentru participare
-        interest_border_tkn: Loc geografic de interes
-        interest_border_id: Loc geografic de interes
-        image_url: Adresa de imagine
-        default_role_name: Care este numele pentru utilizatorii noi?
-        default_role_name_placeholder: 'Exemplu: Utilizatori, membri, activişti, pirați'
-        name_placeholder: Alege un nume legat de identitatea grupului şi/sau locaţie.
-        title_bar_placeholder: Titlul paginii de grup.
-        description_placeholder: Acest mesaj va fi pe prima pagină a grupului
-        image_url_placeholder: URL-ul imaginii de grup
-        facebook_page_url_placeholder: Pagina de Facebook a grupului? Introduceţi link-ul aici.
-        admin_title: Cum se numesc administratori de grup?
-        private: Grup privat
-        rule_book: Regulament
-        image: Încărcă imaginea
-        admin_title_placeholder: 'Nume de rol al administratorilor de grup (implicit: Administrator)'
+        facebook_page_url: 'Adresa de pagina de Facebook'
+        name: 'Nume'
+        title_bar: 'Bara de titlu'
+        description: 'Descriere'
+        accept_requests: 'Cerere pentru participare'
+        porta_id: 'Administrator'
+        interest_border_tkn: 'Loc geografic de interes'
+        interest_border_id: 'Loc geografic de interes'
+        image_url: 'Adresa de imagine'
+        default_role_name: "Care este numele pentru utilizatorii noi?"
+        default_role_name_placeholder: "Exemplu: Utilizatori, membri, activişti, pirați"
+        name_placeholder: "Alege un nume legat de identitatea grupului şi/sau locaţie."
+        title_bar_placeholder: "Titlul paginii de grup."
+        description_placeholder: "Acest mesaj va fi pe prima pagină a grupului"
+        image_url_placeholder: "URL-ul imaginii de grup"
+        facebook_page_url_placeholder: "Pagina de Facebook a grupului? Introduceţi link-ul aici."
+        admin_title: "Cum se numesc administratori de grup?"
+        private: "Grup privat"
+        rule_book: "Regulament"
+        image: "Încărcă imaginea"
+        admin_title_placeholder: "Nume de rol al administratorilor de grup (implicit: Administrator)"
       blog:
-        title: Titlu
+        title: 'Titlu'
       blog_post:
-        title: Titlu
-        body: Textul
-        published: Stare
-        published_true: Publicat
-        published_false: Ciornă
+        title: 'Titlu'
+        body: 'Textul'
+        published: 'Stare'
+        published_true: 'Publicat'
+        published_false: 'Ciornă'
+        published_reserved: "Reservat"
+        group_ids: Publicat în următoarele grupuri
+        published_at: Publicat în
+      participation_role:
+        name: 'Nume'
+        description: 'Descriere scurtă'
       group_invitation:
-        emails_list: Adresele de poştă electronică
-        testo: Mesaj text
+        emails_list: "Adresele de poştă electronică"
+        testo: "Mesaj text"
       place:
-        address: Adresă
+        address: 'Adresă'
+        municipality_id: 'Oraș'
+        latitude_original: Latitudine
+        longitude_original: Longitudine
       proposal:
-        group_area_id: Zona de lucru
-        proposal_category_id: Categorie
-        title: Titlu
-        subtitle: Subtitrare
-        problems: Probleme
-        objectives: Obiective
-        content: Textul
-        interest_borders_tkn: Puncte geografice de interes
-        tags_list: Tag-uri
-        anonima: Anonimat temporar
-        visible_outside: Vizibil publicului
-        secret_vote: Vot secret
+        group_area_id: "Zona de lucru"
+        proposal_category_id: 'Categorie'
+        title: 'Titlu'
+        subtitle: 'Subtitrare'
+        problems: 'Probleme'
+        objectives: 'Obiective'
+        content: 'Textul'
+        interest_borders_tkn: 'Puncte geografice de interes'
+        tags_list: "Tag-uri"
+        quorum_id: "Durata dezbaterii"
+        anonima: "Anonimat temporar"
+        visible_outside: "Vizibil publicului"
+        secret_vote: "Vot secret"
+        vote_starts_at: "Votarea începe la"
+        vote_ends_at: "Votarea se încheie la"
+        debate_starts_at: "Dezbaterea începe la"
+        debate_ends_at: "Dezbaterea se încheie la"
       proposal_comment:
-        content: Conţinut
+        content: 'Conţinut'
       quorum:
-        name: Numele cvorumului
-        name_title: Va rugam introduceti un titlu scurt, explicativ
-        description: Descriere / Scurtă explicaţie
-        description_title: O descriere pentru a înţelege scopul acestui cvorum
+        name: 'Numele cvorumului'
+        name_title: 'Va rugam introduceti un titlu scurt, explicativ'
+        description: 'Descriere / Scurtă explicaţie'
+        description_title: 'O descriere pentru a înţelege scopul acestui cvorum'
+        minutes: Durata dezbaterii
         days_m: Zile
         hours_m: ore
         minutes_m: Minute
-        percentage_title: Numărul minim de participanţi la discuţie ca un procent din numărul de participanţi în grup
-        good_score_title: Cotă realizată pentru a aduce propunerea la faza de vot
-        bad_score: Cvorumul negativ (procent)
-        bad_score_title: Cotă sub care propunerea va fi respinsă. Îți permite să continui discuția dacă nu sunt îndeplinite condițiile de timp sau de participanți
+        percentage_title: 'Numărul minim de participanţi la discuţie ca un procent din numărul de participanţi în grup'
+        good_score: 'Maturitate'
+        good_score_title: 'Cotă realizată pentru a aduce propunerea la faza de vot'
+        bad_score: 'Cvorumul negativ (procent)'
+        bad_score_title: 'Cotă sub care propunerea va fi respinsă. Îți permite să continui discuția dacă nu sunt îndeplinite condițiile de timp sau de participanți'
         condition: Condiţie
-        condition_title: Trebuie să fie ambele condiții de timp și participanți depășite sau numai una dintre ele?
+        condition_title: 'Trebuie să fie ambele condiții de timp și participanți depășite sau numai una dintre ele?'
+        vote_minutes: 'Durata procesului de votare'
+        vote_percentage: 'Cvorum (votanți)'
+        vote_good_score: 'Aprobare'
+      search_participant:
+        role_id: 'Rol'
+        keywords: 'Prenume sau nume'
       user:
-        email: Adresă de e-mail
-        password: Parola
-        linkedinpageurl: Pagina ta pe LinkedIn
-        facebookpageurl: Pagina ta pe Facebook
-        accept_conditions: Termeni de utilizare
-        receive_newsletter: Newsletter prin E-mail
-        blocked: Eroare
+        name: 'Prenume'
+        email: 'Adresă de e-mail'
+        surname: 'Nume de familie'
+        password: 'Parola'
+        linkedinpageurl: 'Pagina ta pe LinkedIn'
+        facebookpageurl: 'Pagina ta pe Facebook'
+        accept_conditions: 'Termeni de utilizare'
+        receive_newsletter: 'Newsletter prin E-mail'
+        blocked: "Eroare"
+      user_sensitive:
+        name: 'Prenume'
       group_area:
-        name: Nume
-        description: Descriere
-        default_role_name: Numele de rol
+        name: "Nume"
+        description: "Descriere"
+        default_role_name: "Numele de rol"
     errors:
+      template:
+        body: 'Au apărut probleme în următoarele câmpuri'
       messages:
-        inclusion: nu este inclus în listă
-        exclusion: este rezervat
-        invalid: nu este valid
-        confirmation: nu se potriveşte cu confirmare
-        accepted: trebuie să fie acceptată
-        empty: nu poate fi necompletat
-        blank: trebuie completate
-        too_long: Textul este prea lung
-        too_short: Textul este prea scurt
+        inclusion: 'nu este inclus în listă'
+        exclusion: 'este rezervat'
+        invalid: 'nu este valid'
+        confirmation: 'nu se potriveşte cu confirmare'
+        accepted: 'trebuie să fie acceptată'
+        empty: 'nu poate fi necompletat'
+        blank: 'trebuie completate'
+        too_long: 'Textul este prea lung'
+        too_short: 'Textul este prea scurt'
         wrong_length: 'ar trebui să fie %{count} caractere'
-        taken: este deja luat
-        not_a_number: nu este un număr
+        taken: 'este deja luat'
+        not_a_number: 'nu este un număr'
+        not_an_email: 'nu este o adresă de e-mail validă'
         greater_than: 'trebuie să fie mai mare de %{count}'
         greater_than_or_equal_to: 'trebuie să fie mai mare sau egal cu %{count}'
         equal_to: 'trebuie să fie egal cu %{count}'
         less_than: 'trebuie să fie mai mic decât %{count}'
         less_than_or_equal_to: 'trebuie să fie mai mic sau egal cu %{count}'
-        odd: trebuie să fie întocmai
-        even: trebuie să fie impar
+        odd: 'trebuie să fie întocmai'
+        even: 'trebuie să fie impar'
         record_invalid: 'Validare eșuată %{errors}'
-        not_found: nu a fost găsit.
+        not_found: 'nu a fost găsit.'
+        TOS: "Acceptarea TOS-ului este necesară"
+        certified_cannot_edit: 'nu poate fi editat daca sunteți un utilizator certificat'
+        forum_visibility: "Un forum nu poate vizibil în afara grupului, în cazul în care categoria acestuia este privată"
       models:
         user:
           attributes:
             email:
-              already_confirmed: Această adresă de e-mail este deja înregistrată
+              already_confirmed: 'Această adresă de e-mail este deja înregistrată'
+        group:
+          portavoce:
+            required: 'Este nevoie să alegeți un administrator'

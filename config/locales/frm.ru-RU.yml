@@ -5,19 +5,15 @@ ru-RU:
       topics: Темы
       topic: Тема
       posts: Сообщения
-      posts_count:
-        one: 1 сообщение
-        few: '%{count} сообщения'
-        other: '%{count} сообщений'
       flagged_for_spam: Ваша учетная запись была отмечена за спам.
       cannot_create_topic: Вы не можете создать новую тему сейчас.
       cannot_create_post: Вы не можете создать новую тему сейчас.
-    access_denied: У вас нет на это разрешения.
+    access_denied: "У вас нет на это разрешения."
     admin:
       area: Панель администрирования
-      back_to_admin: Вернуться к администрированию
-      back_to_forums: Вернуться к форумам
-      back_to_groups: Вернуться к группам
+      back_to_admin: "Вернуться к администрированию"
+      back_to_forums: "Вернуться к форумам"
+      back_to_groups: "Вернуться к группам"
       forum:
         moderator_groups: Группы модератора
         index: Управление форумами
@@ -38,29 +34,29 @@ ru-RU:
           none: Пусто
           moderators: Модераторы
           no_category: (Без категории)
-        default_private: Частный форум
-        default_public: Публичный форум
-        default_private_description: Форум для участников группы
-        default_public_description: Форум видимый для всех пользователей Airesis.
+        default_private: "Частный форум"
+        default_public: "Публичный форум"
+        default_private_description: "Форум для участников группы"
+        default_public_description: "Форум видимый для всех пользователей Airesis."
       mod:
         index: Управление группами
         new: Новая группа
         created: Группа была успешно создана
         not_created: Группа не может быть создана
         deleted: Выбранная группа была удалена
-        members: 'Участники %{group}'
+        members: "Участники %{group}"
       mods:
         show:
           add_member: Добавить
-          add_a_new_member: Добавить нового участника
-          current_members: Текущие участники
+          add_a_new_member: "Добавить нового участника"
+          current_members: "Текущие участники"
         edit: Редактировать
         delete: Удалить
         name: Имя
       category:
         index: Управление категориями
         new: Создание новой категории
-        edit: 'Редактирование %{title} категории'
+        edit: "Редактирование %{title} категории"
         new_link: Новая категория
         deleted: Выбранная категория была удалена
         created: Категория создана
@@ -72,34 +68,26 @@ ru-RU:
         delete: Удалить
         category: Категория
         delete_confirm: Вы уверены, что хотите удалить эту категорию?
-        default_private: Частный раздел
-        default_public: Публичный Раздел
+        default_private: "Частный раздел"
+        default_public: "Публичный Раздел"
       group:
-        index: Управление модераторскими группами
+        index: "Управление модераторскими группами"
         show:
-          title: Управление модераторами
+          title: "Управление модераторами"
     common:
       pages: Страницы
     errors:
       not_signed_in: Вам необходимо войти
       access_denied: Доступ запрещён.
     forum:
-      header: 'Просмотр %{title}'
+      header: "Просмотр %{title}"
       forums: Форумы
       new: Создание нового форума
-      edit: 'Редактирование форума %{title}'
-      topics_count:
-        one: 1 тема
-        few: '%{count} темы'
-        other: '%{count} тем'
-      posts_count:
-        one: 1 сообщение
-        few: '%{count} сообщения'
-        other: '%{count} сообщений'
-      moderator_tools: Модерация
-      topic_tools: Инструменты
-      admin_tools: Средства администрирования
-      title: Новый форум
+      edit: "Редактирование форума %{title}"
+      moderator_tools: "Модерация"
+      topic_tools: "Инструменты"
+      admin_tools: "Средства администрирования"
+      title: "Новый форум"
     forums:
       index:
         title: Форум
@@ -137,14 +125,14 @@ ru-RU:
         edit: Редактировать тему
       not_found: Не удалось найти тему, которую вы ищете
       hidden:
-        "true": Эта тема теперь скрыта
-        "false": Тема теперь видна
+        'true': Эта тема теперь скрыта
+        'false': Тема теперь видна
       locked:
-        "true": Тема заблокирована
-        "false": Тема разблокирована
+        'true': Тема заблокирована
+        'false': Тема разблокирована
       pinned:
-        "true": Тема прикреплена
-        "false": Тема откреплена
+        'true': Тема прикреплена
+        'false': Тема откреплена
     topics:
       show:
         reply: Ответить
@@ -154,15 +142,15 @@ ru-RU:
         reply_to_topic: Ответить
         pending_review: Эта тема ожидает рассмотрения. Только пользователь, который создал ее и модераторы, могут просматривать ее.
         hide:
-          "true": Показать эту тему
-          "false": Скрыть эту тему
+          'true': Показать эту тему
+          'false': Скрыть эту тему
         lock:
-          "true": Разблокировать эту тему
-          "false": Заблокировать тему
+          'true': Разблокировать эту тему
+          'false': Заблокировать тему
         pin:
-          "true": Открепить тему
-          "false": Прикрепить тему
-        related_proposals: Соответствующие предложения
+          'true': Открепить тему
+          'false': Прикрепить тему
+        related_proposals: "Соответствующие предложения"
     post:
       buttons:
         reply: Ответить
@@ -189,7 +177,7 @@ ru-RU:
         in_reply_to: ответ на
     moderation:
       index:
-        title: 'Модерирование %{forum}'
+        title: "Модерирование %{forum}"
   helpers:
     submit:
       frm_forum:
@@ -224,15 +212,15 @@ ru-RU:
         text: Текст
       frm_mod:
         name: Имя
-  time_ago_in_words: '%{time} назад'
-  ago: ' назад'
-  ago_by: ' назад от'
+  time_ago_in_words: "%{time} назад"
+  ago: " назад"
+  ago_by: " назад от"
   by: ' '
-  started_by: 'Начато '
+  started_by: "Начато "
   are_you_sure: Вы уверены?
-  lst_post: Последнее сообщение
-  last_post: Последняя тема
-  back_to_forums: Вернуться к форуму
+  lst_post: "Последнее сообщение"
+  last_post: "Последняя тема"
+  back_to_forums: "Вернуться к форуму"
   pages:
     forum_groups:
       index:

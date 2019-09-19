@@ -1,0 +1,244 @@
+es-VE:
+  frm:
+    general:
+      forum: Foro
+      topics: Temas
+      topic: Tema
+      posts: Publicaciones
+      posts_count:
+        one: 1 publicación
+        other: "1 publicación\n\n%{count} publicaciones"
+      flagged_for_spam: Su cuenta ha sido marcada como spam.
+      cannot_create_topic: Usted no puede crear un nuevo tema en éste momento.
+      cannot_create_post: Usted no puede crear una nueva publicación es éste momento.
+    access_denied: "Usted no está autorizado para hacer eso."
+    admin:
+      area: Área de administración
+      back_to_admin: "Volver al Administrador"
+      back_to_forums: "Volver a los foros"
+      back_to_groups: "Volver a los grupos"
+      forum:
+        moderator_groups: Grupos moderadores
+        index: Gestionar Foros
+        new: Creando un foro nuevo
+        new_link: Nuevo Foro
+        deleted: El foro seleccionado ha sido eliminado
+        created: El foro ha sido creado.
+        not_created: Éste foro no pudo ser creado
+        updated: Éste foro ha sido modificado.
+        not_updated: Éste foro no pudo ser actualizado
+      forums:
+        edit: Editar
+        delete: Eliminar
+        category: Categoría
+        delete_confirm: '¿Está usted seguro de querer borrar éste foro?'
+        index:
+          last_post: Última publicación
+          none: Ninguno
+          moderators: Moderadores
+          no_category: (Ninguna Categoría)
+        default_private: "Foro Privado"
+        default_public: "Foro Público"
+        default_private_description: "Foro reservado para participantes del grupo"
+        default_public_description: "Foro visible para todos los usuarios Airesis. También para los usuarios que no están en el grupo"
+      mod:
+        index: Gestionar Grupos
+        new: Nuevo Grupo
+        created: El grupo fue creado exitosamente
+        not_created: El grupo no pudo ser creado
+        deleted: El grupo seleccionado ha sido eliminado
+        members: "Miembros en %{group}"
+      mods:
+        show:
+          add_member: Añadir
+          add_a_new_member: "Añadir un nuevo miembro"
+          current_members: "Miembros actuales"
+        edit: Editar
+        delete: Eliminar
+        name: Nombre
+      category:
+        index: Gestionar categorías de Foro
+        new: Crear una nueva categoría de Foro
+        edit: "Modificando la categoría %{title}"
+        new_link: Nueva categoría de Foro
+        deleted: La categoría de foro seleccionado ha sido eliminada
+        created: Ésta categoría de foro ha sido creada
+        not_created: Ésta categoría de foro no ha podido ser creada
+        updated: Ésta categoría de foro ha sido actualizada
+        not_updated: Ésta categoría de foro no pudo ser actualizada
+      categories:
+        edit: Editar
+        delete: Eliminar
+        category: Categoría
+        delete_confirm: '¿Está usted seguro de querer eliminar ésta categoría de foro?'
+        default_private: "Sección privada"
+        default_public: "Sección pública"
+      group:
+        index: "Gestionar grupos moderadores"
+        show:
+          title: "Gestionar moderadores"
+        new: "Nuevo grupo de moderadores"
+        created: "Grupo de moderadores creado satisfactoriamente"
+        not_created: "Error al crear el grupo de Moderadores"
+        deleted: "Grupo de Moderadores eliminado satisfactoriamente"
+    common:
+      pages: Páginas
+    errors:
+      not_signed_in: Primero debe registrarse
+      access_denied: Acceso denegado.
+    forum:
+      header: "Viendo %{title}"
+      forums: Foros
+      new: Creando un foro nuevo
+      edit: "Modificando el foro %{title}"
+      topics_count:
+        one: "1 tema\n\n%{count} temas"
+        other: "1 tema\n\n%{count} temas"
+      posts_count:
+        one: "1 publicación\n\n%{count} publicaciones"
+        other: "1 publicación\n\n%{count} publicaciones"
+      moderator_tools: "Herramientas de Moderación"
+      topic_tools: "Herramientas para Temas"
+      admin_tools: "Herramientas de Administración"
+      title: "Nuevo foro"
+    forums:
+      index:
+        title: Foro
+        forum: Foro
+        views: Vistas
+        last_post: 'Última Publicación:'
+        none: Ninguno
+    topic:
+      headings:
+        topic: Tema
+        latest: Último
+        posts: Publicaciones
+        views: Vistas
+      moderation:
+        success: El tema seleccionado ha sido moderado
+        no_option_selected: Ninguna opción de moderación fue seleccionada
+      received_reply: Un tema al que se ha suscrito ha recibido una respuesta
+      reply: Responder
+      quote: Citar
+      delete: Eliminar
+      created: Este tema ha sido creado
+      new: Creando un tema nuevo
+      edit: Modificando tema
+      not_created: Éste tema no pudo ser creado
+      deleted: Su tema ha sido eliminado
+      cannot_delete: Usted no puede borrar un tema que no es suyo
+      updated: Este tema ha sido modificado
+      not_updated: Este tema no pudo ser modificado
+      subscribed: Usted se han suscrito a este tema
+      unsubscribed: Usted se ha dado de baja de éste tema
+      none: Actualmente no hay temas en este foro
+      links:
+        new: Tema nuevo
+        back_to_topics: Volver a temas
+        edit: Modificar tema
+      not_found: El tema que usted está buscando no pudo ser encontrado
+      hidden:
+        'true': Este tema ahora está oculto
+        'false': Este tema ahora es visible
+      locked:
+        'true': Este tema ha sido bloqueado
+        'false': Este tema ha sido desbloqueado
+      pinned:
+        'true': Este tema ha sido fijado
+        'false': Éste tema está ahora sin fijar
+    topics:
+      show:
+        reply: Responder
+        delete: Eliminar
+        subscribe: Suscribirse
+        unsubscribe: Darse de baja
+        reply_to_topic: Responder al Tema
+        pending_review: Éste tema está actualmente pendiente de revisión. Solamente el autor y los moderadores tienen acceso a él.
+        hide:
+          'true': Mostrar éste Tema
+          'false': Ocultar éste Tema
+        lock:
+          'true': Desbloquear éste Tema
+          'false': Bloquear éste Tema
+        pin:
+          'true': Desfijar éste Tema
+          'false': Fijar éste Tema
+        related_proposals: "Propuestas relacionadas"
+    post:
+      buttons:
+        reply: Responder
+        edit: Editar
+      created: Su respuesta ha sido publicada
+      new: Responder a
+      edit: Editar
+      not_created: Su respuesta no pudo ser publicada
+      not_created_topic_locked: Usted no puede responder a un tema bloqueado
+      edited: Su publicación ha sido modificada
+      not_edited: Su publicación no puede ser modificada
+      deleted: Su publicación ha sido eliminada
+      deleted_with_topic: La última publicación en el tema ha sido eliminada. El Tema entero ha sido eliminado
+      cannot_delete: Usted no puede eliminar un tema que no es suyo
+      cannot_quote_deleted_post: La publicación que usted ha intentado citar ya no existe.
+    posts:
+      moderation:
+        moderate: Moderar
+        approve: Aprobar
+        spam: Correo no deseado
+        success: Los temas seleccionados han sido moderados
+      post:
+        pending_review: Este mensaje está pendiente por revisión. Solamente el autor y los moderadores pueden verlo.
+        in_reply_to: en respuesta a
+    moderation:
+      index:
+        title: "Herramientas de moderación %{forum}"
+  helpers:
+    submit:
+      frm_forum:
+        create: Crear foro
+        update: Actualizar foro
+      topic:
+        create: Crear Tema
+        update: Actualizar Tema
+      frm_mod:
+        create: Crear grupo
+      frm_category:
+        create: Crear categoría
+        update: Actualizar categoría
+  simple_form:
+    labels:
+      frm_forum:
+        category: Categoría
+        title: Título
+        name: Título
+        description: Descripción
+        moderators: Moderadores
+        visible_outside: Visible desde afuera del grupo
+      topic:
+        subject: Asunto
+        locked: Bloqueado
+        pinned: Fijado
+        hidden: Oculto
+        posts:
+          text: Texto
+      frm_category:
+        name: Nombre
+      post:
+        text: Texto
+      frm_mod:
+        name: Nombre
+  time_ago_in_words: "%{time} atrás"
+  ago: " hace"
+  ago_by: " hace por"
+  by: por
+  started_by: "Iniciado por "
+  are_you_sure: '¿Está seguro?'
+  lst_post: "Ultima publicación"
+  last_post: "Último tema"
+  back_to_forums: "Volver al foro"
+  pages:
+    forum_groups:
+      index:
+        create_first: Todavía hay no hay grupos de moderadores. ¡Cree el primero de ellos!
+  info:
+    members:
+      ok_message: Usuario añadido satisfactoriamente al grupo

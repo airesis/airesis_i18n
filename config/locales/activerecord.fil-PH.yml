@@ -1,0 +1,60 @@
+fil-PH:
+  activerecord:
+    models:
+      meeting: 'Ang Pagpupulong'
+      places: 'Lugar'
+    attributes:
+      blog_comment:
+        body: 'Komento'
+        created_at: "AntiSpam"
+      event:
+        title: 'Pamagat ng pangyayari'
+        description: 'Deskripsiyon'
+        event_type_id: 'Uri ng Kaganapan'
+        starttime: 'Petsa ng Pagsimula'
+        endtime: 'Katapusan Petsa'
+        all_day: 'Buong araw'
+        period: 'Ulitin'
+        frequency: 'Ulitin sa bawat'
+        private: 'Pribado'
+      group:
+        facebook_page_url: 'Adresss ng Facebook page'
+        interest_border_tkn: 'Heograpikal na lugar ng interes'
+        image_url: 'Imahe ng Address'
+        default_role_name: "Ano ang pangalan para sa mga bagong user?"
+        default_role_name_placeholder: "Hal: Mag user, Mga miyembro, Mga aktibista, Mga Pirata"
+        name_placeholder: "Pumili ng pangalan na nauugnay sa identidad ng grupo at/o lokasyon."
+        facebook_page_url_placeholder: "Pahina ng grupong Facebook? Ipasok ang link dito."
+        admin_title: "Paano ang mga administrator ng grupo na tawagin?"
+        private: "Pribadong grupo"
+        image: "I-load ang imahe"
+        admin_title_placeholder: "Papel ng pangalan ng grupo ng mga administrator (default: Administrator)"
+      blog_post:
+        published_true: 'Nalathala'
+        group_ids: Inilathala sa sumusunod na mga grupo
+      group_invitation:
+        testo: "Texto ng mensahe"
+      quorum:
+        percentage_title: 'Pinakamababang bilang ng mga kalahok sa talakayan bilang isang porsyento ng bilang ng mga kalahok sa grupo'
+        bad_score_title: 'Rating sa ilalim kung saan ang panukala ay hindi tatanggapin. Nagbibigay-daan sa iyo upang ipagpatuloy ang talakayan kung ang Oras o Kalahok ay hindi natugunan'
+        condition_title: 'Ang mga kondisyon ng Oras at Kalahok ay dapat kapwa madaig o isa lamang sa kanila?'
+      user:
+        linkedinpageurl: 'Ang iyong sa LinkedIn'
+        facebookpageurl: 'Ang iyong @ahina sa Facebook'
+    errors:
+      template:
+        header:
+          one: 'ang isang error ay hindi pinayagan ito %{model} mula sa pagka-save'
+          other: 'ang %{count} isang error ay hindi pinayagan ito %{model} mula sa pagka-save'
+      messages:
+        confirmation: 'hindi tugma sa kumpirmasyon'
+        blank: 'dapat na mapuno'
+        too_short: 'Ang teksto ay masyadong maliit'
+        taken: 'ay nakuha na'
+        not_a_number: 'ay hindi isang numero'
+        not_an_email: 'ay hindi isang balidong email address'
+        greater_than: 'dapat na mas malaki kaysa sa %{count}'
+        greater_than_or_equal_to: 'dapat na mas malaki kaysa sa o katumbas ng %{count}'
+        equal_to: 'dapat na katumbas ng %{count}'
+        less_than: 'dapat na mas mababa kaysa sa %{count}'
+        less_than_or_equal_to: 'dapat na mas mababa kaysa sa o katumbas ng %{count}'

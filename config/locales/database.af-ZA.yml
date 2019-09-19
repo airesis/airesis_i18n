@@ -1,0 +1,7 @@
+af-ZA:
+  db:
+    proposal_types:
+      STANDARD:
+        description: Alapértelmezett javaslat
+      SIMPLE:
+        description: Egyszerű javaslat

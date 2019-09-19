@@ -1,0 +1,46 @@
+uk-UA:
+  activerecord:
+    models:
+      meeting: 'Зустріч'
+      places: 'Місце'
+    attributes:
+      blog_comment:
+        body: 'Коментар'
+        created_at: "Анти-спам"
+      event:
+        title: 'Назва події'
+        description: 'Опис'
+        event_type_id: 'Тип події'
+        starttime: 'Дата початку'
+        endtime: 'Дата закінчення'
+        all_day: 'Весь день'
+        period: 'Повторити'
+        frequency: 'Повторювати кожні'
+        private: 'Приватно'
+      group:
+        facebook_page_url: 'Посилання на сторінку у Фейсбук'
+        name: 'Назва'
+        title_bar: 'Заголовок'
+        description: 'Опис'
+        accept_requests: 'Заявка на участь'
+        porta_id: 'Адміністратор'
+        interest_border_tkn: 'Сфера інтересів'
+        interest_border_id: 'Сфера інтересів'
+        default_role_name: "Яке нове ім'я користувача?"
+        image: "Завантажити зображення"
+      blog:
+        title: 'Заголовок'
+      blog_post:
+        published_true: 'Опубліковане'
+        published_reserved: "Зарезервовано"
+      participation_role:
+        name: 'Назва'
+        description: 'Короткий опис'
+      group_invitation:
+        emails_list: "Адреса електронної пошти"
+        testo: "Текст повідомлення"
+      place:
+        address: 'Адреса'
+        municipality_id: 'Місто'
+      proposal:
+        visible_outside: "Публічний доступ"

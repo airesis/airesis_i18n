@@ -1,0 +1,163 @@
+tr-TR:
+  countdowns:
+    labelsPlural:
+      - Yıl
+      - Aylar
+      - Haftalar
+      - Günler
+      - Saatler
+      - Dakikalar
+      - Saniyeler
+    labelsSingular:
+      - Yıl
+      - Ay
+      - Hafta
+      - Gün
+      - Saat
+      - Dakika
+      - Saniye
+    compactLabelsPlural:
+      - 'y'
+      - 'a'
+      - 'h'
+      - 'g'
+    compactLabelsSingular:
+      - 'y'
+      - 'a'
+      - 'h'
+      - 'g'
+  calendar:
+    monthNames:
+      - Ocak
+      - Şubat
+      - Mart
+      - Nisan
+      - Mayıs
+      - Haziran
+      - Temmuz
+      - Ağustos
+      - Eylül
+      - Ekim
+      - Kasım
+      - Aralık
+    monthNamesShort:
+      - Ocak
+      - Şubat
+      - Mart
+      - Nisan
+      - Mayıs
+      - Haziran
+      - Temmuz
+      - Ağustos
+      - Eylül
+      - Ekim
+      - Kasım
+      - Aralık
+    dayNames:
+      - Pazar
+      - Pazartesi
+      - Salı
+      - Çarşamba
+      - Perşembe
+      - Cuma
+      - Cumartesi
+    dayNamesShort:
+      - Güneş
+      - Pazartesi
+      - Salı
+      - Çarşamba
+      - Perşembe
+      - Cuma
+      - C. tesi
+    today: 'bugün'
+    month: 'ay'
+    week: 'hafta'
+    day: 'gün'
+    firstDay: 0
+    timeFormat: 's:dd TT {-[ddd] [dd] s:dd TT}'
+    changed: 'Değiştirildi!'
+    eventsFormat: 'h(:dd)t'
+  date:
+    formats:
+      short: "%b %d"
+      long: "%d %B %Y"
+  time:
+    formats:
+      default: "%d %b %Y at %I:%M %p"
+      long: "%A %d %B %Y at %I:%M %p"
+      long_date: "%A %d %B %Y"
+      long_date_time: "%A %d %B %Y at %I:%M %p"
+      from_long_date_time: "İtibaren %A %d %B %Y at %I:%M %p"
+      until_long_date_time: "İçin %A %d %B %Y at %I:%M %p"
+      from_long_date: "İtibaren %A %d %B %Y"
+      until_long_date: "İçin %A %d %B %Y"
+      short: "%d %b %Y"
+      two_rows: "%d %b %Y <br/> %I:%M %p"
+      weekday: "%a at %I:%M %p"
+      month: "%B"
+      dayandmonth: "%d/%m"
+      hour: "%I:%M %p"
+      yesterday_at: "dün at %I:%M %p"
+      textfield: "%d/%m/%Y %I:%M %p"
+      datepicker: "%Y-%m-%d"
+      datetimepicker: "%Y-%m-%d %H:%M"
+    am: "öğleden önce"
+    pm: "öğleden sonra"
+    left:
+      seconds:
+        one: "1 saniye"
+        other: "%{count} saniye"
+      minutes:
+        one: "1 dakika"
+        other: "%{count} dakika"
+      hours:
+        one: "1 saat"
+        other: "%{count} saat"
+      days:
+        one: "1 gün"
+        other: "%{count} gün"
+      months:
+        one: "1 ay"
+        other: "%{count} ay"
+  datetime:
+    added_on: "on %{date}"
+    distance_in_words:
+      about_x_hours:
+        one: yaklaşık 1 saat önce
+        other: yaklaşık %{count} saat önce
+      about_x_months:
+        one: yaklaşık 1 ay önce
+        other: yaklaşık %{count} ay önce
+      about_x_years:
+        one: yaklaşık 1 yıl önce
+        other: yaklaşık %{count} yıl önce
+      almost_x_years:
+        one: yaklaşık 1 yıl önce
+        other: yaklaşık %{count} yıl önce
+      half_a_minute: yarım dakika önce
+      less_than_x_minutes:
+        one: 1 dakikadan daha az süre önce
+        other: '%{count} dakikadan daha az süre önce'
+      less_than_x_seconds:
+        one: 1 saniyeden az
+        other: '%{count} saniyeden az'
+      over_x_years:
+        one: 1 yıldan fazla önce
+        other: '%{count} yıldan fazla önce'
+      x_days:
+        one: 1 gün önce
+        other: ! '%{count} gün önce'
+      x_minutes:
+        one: 1 dakika önce
+        other: ! '%{count} dakika önce'
+      x_months:
+        one: 1 ay önce
+        other: ! '%{count} ay önce'
+      x_seconds:
+        one: "bir saniye önce"
+        other: ! '%{count} saniye önce'
+  label:
+    from: "itibaren"
+    to: "için"
+  countdown: "{m<}{mn} {ml} önce{m>} {s<}şu anda{s>}"
+  countdown2: "{y<}{yn} {yl}{y>} {o<}{on} {ol}{o>} {d<}{dn} {dl}{d>} {h<}{hn} {hl}{h>} {m<}{mn} {ml}{m>} {s<}birkaç saniye{s>}"

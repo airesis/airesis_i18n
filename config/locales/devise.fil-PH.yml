@@ -1,0 +1,84 @@
+fil-PH:
+  errors:
+    messages:
+      expired: "wala ng bisa, pakiusap humingi ng bago"
+      not_found: "hindi nahanap"
+      already_confirmed: "nakumpirma na, pakiusap subukang mag-sign in"
+      not_locked: "hindi naka-lock"
+      not_saved:
+        one: "1 error ang nagbabawal nitong %{resource} mula sa pagka-save:"
+        other: "%{count} mga error ay nagbabawal nitong %{resource} mula sa pagka-save:"
+  devise:
+    failure:
+      locked: 'Ang iyong account ay naka-lock'
+      invalid: 'Hindi wastong email o password'
+      invalid_token: 'Hindi wastong token ng pagpapatunay'
+      timeout: 'Ang iyong sesyon ay lumipas na, mangyaring magsign in ulit para magpatuloy'
+      inactive: 'Ang iyong acccount ay hindi pa naaktibo'
+      already_authenticated: 'Ikaw ay nakarehistro na'
+      unauthenticated: 'Ang paglog-in ay kailangan para ma-access ang pahinang ito. Mangyaring maglog-in.'
+      unconfirmed: "Ang account ay hindi pa nakumpirma"
+      user:
+        invalid: 'Hindi wasto ang username o password'
+        not_found_in_database: 'Hindi wasto ang username o password'
+    sessions:
+      signed_in: 'Matagumpay na nakasign-in'
+      signed_out: 'Matagumpay na nakasign out'
+      user:
+        signed_out: 'Ikaw ay matagumpay na nakalog-out. Paalam'
+        signed_in: 'Ikaw ay nagsign in. Maligayang pagdating!'
+        signed_up: 'Matagumpay mong nakompleto ang iyong rehistrasyon. Maligayang pagdating!'
+    passwords:
+      send_instructions: 'Ikaw ay makakatanggap ng email na mayroong mga tagubilin kung paano i-reset ang iyong password sa loob ng ilang minuto'
+      updated: 'Ang iyong password ay matagumpay na napalitan. Ikaw ngayon ay nakasign-in'
+      updated_not_active: 'Ang iyong password ay matagumpay na napalitan'
+      send_paranoid_instructions: "Kung ang iyong email ay namarati sa aming database, ikaw ay makakatanggap ng isang link sa pagbawi ng password sa iyong inbox"
+    confirmations:
+      send_instructions: 'Ikaw ay makakatanggap ng email na mayroong mga instruksiyon kung paano makumpirma ang iyong account sa loob ng ilang minuto'
+      send_paranoid_instructions: 'Kung ang iyong email ay mamarati sa aming database, ikaw ay makakatanggap ng email na mayroong mga instruksiyon kung paano makumpirma ang iyong account sa loob ng ilang minuto'
+      confirmed: 'Ang iyong account ay matagumpay na nakumpirma. Ikaw ngayon ay nakasign-in'
+      user:
+        confirmed: 'Ang iyong rehistrasyon ay matagumpay na nakompleto'
+        send_instructions: 'Ang mga instruksiyon ay naipadala sa iyong naitalagang email'
+    registrations:
+      signed_up: 'Maligayang pagdating! Ikaw ay matagumpay na nakasign-up'
+      signed_up_but_unconfirmed: 'Isang mensahe na may link ng kumpirmasyon ang naipadala sa iyong email address. Paki buksan ang link para maaktibo ang iyong account'
+      signed_up_but_inactive: 'Ikaw ay matagumpay na nakasign-up. Gayunman, hindi ka namin ma sign-in dahil ang iyong account ay hindi pa naaktibo'
+      signed_up_but_locked: 'Ikaw ay matagumpay na nakasign-up. Gayunman, hindi ka namin masign-in dahil ang iyong account ay naka-lock.'
+      updated: 'Matagumpay mong na-update ang iyong account'
+      update_needs_confirmation: "Matagumpay mong na-update ang iyong account, ngunit kailangan naming patunayan ang iyong bagong email address. Mangyaring suriin ang iyong email at i-click and confirm link para tapusin ang pagkumpirma sa iyong bagong email address"
+      destroyed: 'Paalam! ang iyong account ay matagumpay na nakansela. Umaasa kaming makita kang muli sa lalong madaling panahon'
+      user:
+        inactive_signed_up: 'Para makompleto ang iyong rehistrasyon mangyaring i-click ang link sa email na iyong natanggap'
+        signed_up_but_unconfirmed: 'I-click ang link na nasa email na ipinadala sa iyong address upang makompleto ang proseso ng rehistrasyon'
+    unlocks:
+      send_instructions: 'Ikaw ay makakatanggap ng email na mayroong mga instruksiyon kung paano i-unlock ang iyong account sa loob ng ilang minuto'
+      unlocked: 'Ang iyong account matagumpay na i-unlock. Mangyaring mag-sign in para magpatuloy'
+      send_paranoid_instructions: 'Kung ang iyong account ay mamarati, ikaw ay makakatanggap ng isang email na mayroong mga instruksiyon kung paano ito i-unclok sa loob ng ilang minuto'
+    omniauth_callbacks:
+      success: 'Ang iyong rehistrasyon ay kompleto na. Maligayang pagdating!'
+      failure: 'Hindi ka pinapahintulutan mula sa %{kind} dahil %{reason}'
+      creation_failure: "Error habang nag-access sa pamamagitang ng %{provider}"
+      join_success: "Ang mga account ay matagumpay na naisanib. Binabati kita,, ngayon ikaw ay makalog-in sa pamamagitan ng %{provider}."
+      join_failure: "Ibang %{provider} account ang umiiral. Ang tampok sa pagsali ng mga account ay magagamit sa lalong madaling panahon."
+      certified_email_taken: "May ibang account sa iyong setipikadong email ang umiiral."
+      already_certified: "Isa pang account ang nasertipikado gamit ang iyong tax code."
+      account_not_verified: "Ang account %{provider} ay hindi na-verify. Pakiusap i-verify ang iyong account sa %{provider}."
+    mailer:
+      confirmation_instructions:
+        subject: 'Kumpirmasyon na mga instruksiyon'
+        welcome: "Maligayang pagdating sa %{app_name} %{user}!"
+        follow_link: "Maari mong ikumpirma ang iyong email address sa pamamagitan ng pag-click sa sumusunod na link:"
+        confirm_account: "I-kumpirma ang account"
+        follow_link_2: "o sa pamamagitang ng pagbisita sa sumusunod na url:"
+        access_by_email: "Pagkatapos maari kang mag log in %{app_name} gamit ang ibinigay na e-mail at napiling password"
+        contact_assistance: "Kung ikaw ay may anumang problema sa pamamaraan i-kontak ang tagapangasiwa:%{mail}"
+      reset_password_instructions:
+        subject: 'Mga instruksiyon sa pag-reset ng password'
+        hi_user: "Kamusta %{user}!"
+        follow_link: "Maari mong palitan ang iyong password sa pamamagitan ng pag-click sa sumusunod na link:"
+        change_password: "Palitan ang password"
+        ignore: "Kung hindi mo hiniling na palitan ang iyong password, pakiusap balewalain ang email na ito."
+        password_will_not_change: "Ang iyong password ay hindi magbabago hanggang i-click mo ang naunang link."
+      unlock_instructions:
+        subject: 'I-unlock ang mga instruksiyon'

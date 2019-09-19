@@ -1,0 +1,332 @@
+tr-TR:
+  db:
+    sys_locales:
+      bs-BA:
+        description: Boşnakça
+      de-DE:
+        description: Almanca
+      el-GR:
+        description: Yunan
+      en-AU:
+        description: İngilizce (Avustralya)
+      en-EU:
+        description: İngilizce (Avrupa)
+      en-GB:
+        description: İngilizce (UK)
+      en-IE:
+        description: İngilizce (İrlanda)
+      en-NZ:
+        description: İngilizce (Yeni Zelanda)
+      en-US:
+        description: İngilizce (ABD)
+      en-ZA:
+        description: İngilizce (Güney Afrika)
+      es-AR:
+        description: İspanyolca (Arjantin)
+      es-CL:
+        description: İspanyolca (Şili)
+      es-EC:
+        description: İspanyolca (Ekvador)
+      es-ES:
+        description: İspanyolca
+      fr-FR:
+        description: Fransızca
+      hu-HU:
+        description: Macarca
+      id-ID:
+        description: Endonezya
+      it-IT:
+        description: İtalyan
+      jp-JP:
+        description: Japonca
+      me-ME:
+        description: Karadağca
+      nl-NL:
+        description: Hollanda
+      pt-BR:
+        description: Portekizce (Brezilya)
+      pt-PT:
+        description: Portekizce (Portekiz)
+      ro-RO:
+        description: Romence
+      ru-RU:
+        description: Rusça
+      sh-HR:
+        description: Sırpça-Hırvatça
+      sr-CS:
+        description: Srpça (Latin)
+      sr-SP:
+        description: Sırpça (Kiril)
+      zh-TW:
+        description: Çince
+    proposal_types:
+      STANDARD:
+        description: Normal Teklif
+      POLL:
+        description: Anket
+      RULE_BOOK:
+        description: Kural kitabı
+      PRESS:
+        description: Basın açıklamaları
+      EVENT:
+        description: Etkinlik organizasyonu
+      ESTIMATE:
+        description: Maliyet tahmini
+      AGENDA:
+        description: Gündem
+      CANDIDATES:
+        description: Bir adayın seçimi
+      SIMPLE:
+        description: Basit öneri
+      PETITION:
+        description: Dilekçe
+    event_types:
+      meeting:
+        description: toplantı
+      vote:
+        description: oy
+      meeting2:
+        description: toplantı
+      election:
+        description: seçim
+    notification_categories:
+      MYPROP:
+        description: Yazdığım teklifler
+      PROP:
+        description: Katılmak istediğim teklifler
+      NEWPROP:
+        description: Yeni öneriler
+      NEWEVENT:
+        description: Yeni etkinlikler
+      GROUPS:
+        description: Gruplar
+    notification_types:
+      new_public_events:
+        description: Yeni açık etkinlikler
+        email_subject: "Yenş açık etkinlik: %{event}"
+        message: "Yeni açık etkinlik: <b>%{event}</b>"
+      new_events:
+        description: Katıldığım gruplardaki yeni etkinlikler
+        email_subject: "Yeni etkinlik: %{event}"
+        message: "Grubun içindeki<b>%{group}</b>Yeni etkinlik<b>%{event}</b>"
+      new_posts_user_follow:
+        description: Takip ettiğim kullanıcılardan yeni paylaşım
+        email_subject: Yeni bir gönderi var
+        message: "%{user} <b>%{blog}</b> bloguna yeni bir paylaşım ekledi"
+      new_valutation_mine:
+        description: Teklifim için yeni bir değerlendirme
+        email_subject:
+          one: "%{title} yeni bir değerlendirmeye sahip"
+          other: "%{title} %{count} adet yeni değerlendirmeye sahip"
+        message:
+          one: "Teklifin <b>%{title}</b> yeni bir değerlendirmeye sahip"
+          other: "Teklifiniz <b>%{title}</b> %{count} adet yeni bildirim aldı"
+      new_valutation:
+        description: Katılmak istediğim bir teklife yeni değerlendirme
+        email_subject:
+          one: "%{title} yeni bir değerlendirmeye sahip"
+          other: "%{title} %{count} adet yeni derğelendirmeye sahip"
+        message:
+          one: "<b>%{title}</b> teklifiniz yeni bir değerlendirmeye sahip"
+          other: "<b>%{title}</b> teklifiniz %{count} adet yeni değerlendirmeye sahip"
+      available_author:
+        description: Kullanıcı bir teklifte editör olmaya uygun
+        email_subject:
+          one: "%{title} - Yeni bir editör mevcut"
+          other: "%{title} yeni %{count} editör mevcut"
+        message:
+          one: "%{user} <b>%{title}</b> teklifi için editör olmaya uygun"
+          other: "<b>%{title}</b> teklifiniz için %{count} kullanıcı editör olmaya uygun"
+      author_accepted:
+        description: Bir teklifin editörü olarak kabul etme
+        email_subject: "%{title} - Şuanda bunun editörüsün!"
+        message: "Şuanda <b>%{title}</b> teklifinin editörüsün.<br/>Editör olarak, diğer kullanıcıların katkılarını dinleyip ona göre postayı geliştirmeyi unutmamalısın.<br/>"
+      new_authors:
+        description: Tekliflerin yeni editörleri
+        email_subject: "%{title} - Yeni editörler"
+        message: "<b>%{user}</b> kullanıcısı <b>%{title}</b> teklifinin bir editörü"
+      unintegrated_contribute:
+        description: Katkılar tartışma panosuna geri kondu
+        email_subject: "%{proposal} - katkı tartışmaya geri kondu"
+        message: "<b>%{proposal}</b> teklifine yaptığın katkı tartışma panosuna geri kondu"
+      new_contributes:
+        description: "Katıldığım tekliflerdeki yeni katkılar"
+        email_subject:
+          one: "%{title} - Yeni bir katkı sağlandı"
+          other: "%{title} - %{count} Adet yeni katkı var"
+        message:
+          one: "<b>%{name}</b> <b>%{title}</b> teklfine yeni bir katkı sağladı"
+          other: "<b>%{title}</b> teklifinde <b>%{count}</b> adet yeni katkı var"
+      text_update:
+        description: "Katıldığım bir teklifin metnini düzenle"
+        email_subject:
+          one: "%{title} güncellendi"
+          other: "%{title} %{count} kez güncellendi"
+        message:
+          one: "<b>%{title}</b> teklifi güncellendi"
+          other: "<b>%{title}</b> teklifi %{count} kez güncellendi"
+      new_contributes_mine:
+        description: "Tekliflerimdeki yeni katılımlar"
+        email_subject:
+          one: "%{title} - Yeni bir katkı sağlandı"
+          other: "%{title} - Yeni %{count} adet katkı var"
+        message:
+          zero: "<b>%{name}</b> <b>%{title}</b> teklifine yeni bir katkı sağladı"
+          one: "<b>%{name}</b> <b>%{title}</b> teklifine yeni bir katkı sağladı"
+          other: "<b>%{title}</b> teklifinde yeni <b>%{count}</b> adet yeni katkı var"
+      change_status:
+        description: "Katıldığım teklifte değişiklik var"
+        email_subject:
+          wait: "%{title} - Oylama tarihi seçin"
+          waiting_date: "%{title} - The voting date has been chosen"
+          in_vote: "%{title} gel ve oy ver"
+          abandoned: "%{title} tartışma geçmedi"
+          rejected: "%{title} reddedildi\n "
+          voted: "%{title} oylamaya son verdi"
+          24_hours: "Tartışma başlandı%{title} yarın tamamlanıyor!"
+          1_hour: "Tartışma başladı %{title} bir saat içinde sona erecek!"
+          24_hours_vote: "Üzerinde oy verme %{title} yarın tamamlanıyor!"
+          1_hour_vote: "Üzerinde oy verme%{title} bir saate tamamlanıyor!"
+        message:
+          waiting_date: "%{name} teklifin oylama vaktini seçmek%{title}"
+          in_vote: "Teklif <b>%{title}</b> şimdi oylama başladı!"
+          abandoned: "Teklif <b>%{title}</b> tartışmayı geçmedi ve terk edildi"
+          rejected: "Teklif <b>%{title}</b> katılımcılar tarafından reddedildi"
+          voted: "%{title} - Oylama bitti"
+          24_hours: "Tartışma başladı <b>%{title}</b> yarın sona erecek!"
+          1_hour: "Tartışma başladı <b>%{title}</b> bir saat içinde sona erecek!"
+          24_hours_vote: "Oylama başladı <b>%{title}</b> yarın sona erecek!"
+          1_hour_vote: "Oylama başladı <b>%{title}</b> bir saat içinde sona erecek!"
+      change_status_mine:
+        description: Tekliflerimin durumundaki değişiklikler
+        email_subject:
+          wait: "%{title} - Oylama tarihi seçin"
+          waiting_date: "%{title} - Oylama tarihi seçildi"
+          in_vote: "%{title} - GEL VE OY VER!"
+          abandoned: "%{title} geçersiz tartışma"
+          rejected: "%{title} reddedildi"
+          voted: "%{title} - Oylama sona erdi"
+          24_hours: "Tartışma başladı %{title} yarın sona erecek!"
+          1_hour: "Tartışma başladı %{title} bir saat içinde sona erecek!"
+          24_hours_vote: "Oylama başladı %{title} yarın sona erecek!"
+          1_hour_vote: "Oylama başladı %{title} bir saat içinde sona erecek!"
+        message:
+          wait: "Teklifiniz <b>%{title}</b> tartışma aşamasını geçti ve şimdi ne zaman oy kullanacağınızı seçmenizi bekliyor"
+          waiting_date: "%{name} teklifin oylama zamanını seçiniz <b>%{title}</b>"
+          in_vote: "Teklif için <b>%{title}</b> oylama şimdi başladı!"
+          abandoned: "Teklifiniz <b>%{title}</b> tartışmayı geçmedi ve terk edildi, üzgünüm"
+          rejected: "Teklifiniz <b>%{title}</b> katılımcılar tarafından reddedildi, üzgünüm"
+          voted: "<b>%{title}</b> - Oylama sona erdi"
+          24_hours: "Tartışma başladı <b>%{title}</b> yarın sona erecek!"
+          1_hour: "Tartışma başladı <b>%{title}</b> bir saat içinde sona erecek!"
+          24_hours_vote: "Oylama başladı <b>%{title}</b> yarın sona erecek!"
+          1_hour_vote: "Oylama başladı <b>%{title}</b> bir saat içinde sona erecek!"
+      proposal_phase_ending:
+        description: "Bir öneri tartışması veya oylama yakında sona erecek"
+        email_subject:
+          24_hours: "Tartışma başladı %{title} yarın sona erecek!"
+          1_hour: "Tartışma başladı %{title} bir saat içinde sona erecek!"
+          24_hours_vote: "Oylama başladı %{title} yarın sona erecek!"
+          1_hour_vote: "Oylama başladı %{title} bir saat içinde sona erecek!"
+        message:
+          24_hours: "Tartışma başladı <b>%{title}</b> yarın sona erecek!"
+          1_hour: "Tartışma başladı <b>%{title}</b> bir saat içinde sona erecek!"
+          24_hours_vote: "Oylama başladı <b>%{title}</b> yarın sona erecek!"
+          1_hour_vote: "Oylama başladı <b>%{title}</b> bir saat içinde sona erecek!"
+      new_posts_group_follow:
+        description: Katıldığım grupların duvarlarındaki yeni paylaşımlar
+        email_subject: Yeni paylaşım
+      new_posts_group:
+        description: Katıldığım grupların duvarlarındaki yeni paylaşımlar
+        email_subject: Yeni paylaşım
+        message: "<b>%{user}</b> kullanıcısı <b>%{group}</b> grubunda yeni bir paylaşım yaptı"
+      new_public_proposals:
+        description: Açık alana yeni teklifler eklendi
+        email_subject: "%{proposal}"
+        message: "Yeni teklif açık alana eklendi <b>%{proposal}</b>"
+      new_proposals:
+        description: Grubun içindeki yeni teklifler
+        email_subject: "%{proposal}"
+        message: "<b>%{group}</b> grubunda yeni bir teklif eklendi <b>%{proposal}</b>"
+      new_participation_request:
+        description: Yeni katılma isteği
+        email_subject:
+          one: "Yeni bir katılma isteği var"
+          other: "%{count} adet yeni katılma isteği var"
+        message:
+          one: "<b>%{user}</b> <b>%{group}</b> grubuna katılmak istiyor"
+          other: "<b>%{count} kullanıcı</b> <b>%{group}</b> grubuna katılmak istiyor"
+      new_blog_comment:
+        description: Blogumda yeni yorum
+        email_subject:
+          one: "Blog paylaşımınızda bir yeni yorum"
+          other: "blog postunuzda %{count} adet yorum var"
+        message:
+          one: "<b>%{title}</b> paylaşımınızda <b>%{user}</b> kullanıcısı yorum yaptı"
+          other: "<b>%{title}</b> paylaşımınızda <b>%{count}</b> adet yeni yorum var"
+      new_forum_topic:
+        message:
+          one: "<b>%{group_name}</b> grubunda %{topic_subject} hakkında yeni bir konu oluşturuldu"
+          other: "<b>%{group_name}</b> grubunda %{count} adet konu oluşturuldu"
+        description: Forumlarda yeni konular var
+        email_subject: "%{group_name} grubunda %{topic_subject} hakkında yeni bir konu oluşturuldu"
+      new_comments_mine:
+        description: Tekliflerimdeki yeni yorumlar
+        email_subject: Teklifimdeki yeni yorum
+        message: "<b>%{name}</b> <b>%{title}</b> teklifine yeni bir katkı sağladı"
+      new_comments:
+        description: Katıldığım tartışmalardaki yeni yorumlar
+        email_subject: "%{title} yeni yorum"
+        message: "<b>%{name}</b> <b>%{title}</b> teklifine yeni bir katkı sağladı"
+      contribute_update:
+        description: Yüklenen bir katkının metni zaten güncellenmiştir
+        email_subject: "%{title} - Daha önce değerlendirdiğiniz bir katkı değişiklik yaptı"
+        message: "<b>%{name}</b> daha önceden bir katkı değerlendirilir <b>%{title}</b> olarak değişti. Fikrinizi değiştirmek isterseniz kontrol edin."
+    proposal_categories:
+      no_category:
+        description: Kategorilenmemiş
+      education:
+        description: Eğitim, araştırma
+      health:
+        description: Sağlık, hijyen
+      information:
+        description: Bilgi, iletişim
+      commerce:
+        description: Ticaret, Finans, Vergiler
+      work:
+        description: İş ve Kendini Gerçekleştirme
+      security:
+        description: Güvenlik ve adalet
+      world:
+        description: Dünya, Göç
+      minorities:
+        description: Azınlıklar, handikap
+      ethics:
+        description: Etik, dayanışma, maneviyat
+      sexuality:
+        description: Cinsellik, Aile, Çocuklar
+      culture:
+        description: Kültür ve Sanat
+      entertainment:
+        description: Sosyal, spor, eğlence
+      organization:
+        description: İç organizasyon
+      agricolture:
+        description: Su, gıda, tarım
+      territory:
+        description: Bölge, Doğa, Hayvanlar
+      mobility:
+        description: Şehircilik, Mobilite, İnşaat
+      energy:
+        description: Enerji, iklim
+      industry:
+        description: Sanayi, Malzemeler ve Atıklar
+      democracy:
+        description: Demokrasi, Kurumlar
+    vote_types:
+      favorable:
+        description: Olumlu
+      neutral:
+        description: Tarafsız
+      dissenting:
+        description: Muhalif

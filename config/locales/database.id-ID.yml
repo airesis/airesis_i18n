@@ -1,12 +1,64 @@
 id-ID:
   db:
     sys_locales:
+      bs-BA:
+        description: Bosnia
+      de-DE:
+        description: Jerman
+      el-GR:
+        description: Yunani
+      en-AU:
+        description: Inggris (Australia)
+      en-EU:
+        description: Inggris (Eropa)
+      en-GB:
+        description: Inggris (UK)
+      en-IE:
+        description: Inggris (Irlandia)
+      en-NZ:
+        description: Inggris (Selandia Baru)
+      en-US:
+        description: Inggris (AS)
+      en-ZA:
+        description: Inggris (Afrika Selatan)
+      es-AR:
+        description: Spanyol (Argentina)
+      es-CL:
+        description: Spanyol (Chile)
+      es-EC:
+        description: Spanyol (Ekuador)
       es-ES:
         description: Spanyol
+      fr-FR:
+        description: Prancis
+      hu-HU:
+        description: Hungaria
+      id-ID:
+        description: Indonesia
       it-IT:
         description: Italia
+      jp-JP:
+        description: Jepang
+      me-ME:
+        description: Montenegro
+      nl-NL:
+        description: Belanda
       pt-BR:
         description: Portugis (Brasil)
+      pt-PT:
+        description: Portugis (Portugal)
+      ro-RO:
+        description: Rumania
+      ru-RU:
+        description: Rusia
+      sh-HR:
+        description: Serbo-Kroasia
+      sr-CS:
+        description: Serbia (Latin)
+      sr-SP:
+        description: Serbia (Cyrillic)
+      zh-TW:
+        description: Tionghoa
     proposal_types:
       STANDARD:
         description: Proposal Standar
@@ -21,7 +73,7 @@ id-ID:
       ESTIMATE:
         description: Estimasi Biaya
       AGENDA:
-        description: Agenda
+        description: Jadwal
       CANDIDATES:
         description: Pilihan kandidat
       SIMPLE:
@@ -74,166 +126,185 @@ id-ID:
     notification_types:
       new_public_events:
         description: Kegiatan umum baru
-        email_subject: 'Kegiatan umum baru: %{event}'
-        message: 'Kegiatan umum baru: <b>%{event}</b>'
+        email_subject: "Kegiatan umum baru: %{event}"
+        message: "Kegiatan umum baru: <b>%{event}</b>"
       new_events:
         description: Kegiatan baru dalam grup tempat saya berpatisipasi
-        email_subject: 'Kegiatan baru: %{event}'
-        message: 'Kegiatan baru <b>%{event}</b> dalam grup <b>%{group}</b>'
+        email_subject: "Kegiatan baru: %{event}"
+        message: "Kegiatan baru <b>%{event}</b> dalam grup <b>%{group}</b>"
       new_posts_user_follow:
         description: Tulisan baru dari pengguna yang saya ikuti
         email_subject: Ada tulisan baru
-        message: '%{user} menambahkan tulisan baru ke dalam blog-nya <b>%{blog}</b>'
+        message: "%{user} menambahkan tulisan baru ke dalam blog-nya <b>%{blog}</b>"
       new_valutation_mine:
         description: Evaluasi baru untuk proposal saya
+        email_subject:
+          one: "%{title} mempunyai evaluasi baru"
+          other: "%{title} memiliki %{count} evaluasi baru"
+        message:
+          one: "Proposal Anda <b>%{title}</b> sudah menerima evaluasi baru"
+          other: "Proposal Anda <b>%{title}</b> sudah menerima %{count} evaluasi baru"
       new_valutation:
         description: Evaluasi baru untuk proposal tempat saya berpartisipasi
+        email_subject:
+          one: "%{title} memiliki evaluasi yang baru"
+          other: "%{title} memiliki %{count} evaluasi baru"
+        message:
+          one: "Proposal Anda, <b>%{title}</b>, sudah menerima evaluasi yang baru"
+          other: "Proposal <b>%{title}</b> sudah menerima %{count} baru evaluasi"
       available_author:
         description: Ada pengguna untuk menjadi penyunting proposal
         email_subject:
-          one: '%{title} - Ada penyunting baru'
-          other: '%{title} - Ada %{count} penyunting baru'
+          one: "%{title} - Ada penyunting baru"
+          other: "%{title} - Ada %{count} penyunting baru"
         message:
-          one: 'Ada %{user} untuk menjadi penyunting proposal <b>%{title}</b>'
-          other: 'Ada %{count} pengguna untuk menjadi penyunting proposal <b>%{title}</b>'
+          one: "Ada %{user} untuk menjadi penyunting proposal <b>%{title}</b>"
+          other: "Ada %{count} pengguna untuk menjadi penyunting proposal <b>%{title}</b>"
       author_accepted:
         description: Penerimaan sebagai penyunting proposal
-        email_subject: '%{title} - Kini Anda penyutingnya!'
-        message: 'Kini Anda menjadi penyunting proposal <b>%{title}</b>.<br/>Ingat, sebagai penyunting, Anda harus mendengarkan kontribusi pengguna lain dan memperbaiki teks berdasarkan pendapat mereka<br/>'
+        email_subject: "%{title} - Kini Anda penyutingnya!"
+        message: "Kini Anda menjadi penyunting proposal <b>%{title}</b>.<br/>Ingat, sebagai penyunting, Anda harus mendengarkan kontribusi pengguna lain dan memperbaiki teks berdasarkan pendapat mereka<br/>"
       new_authors:
         description: Penyunting baru proposal ini
-        email_subject: '%{title} - Penyunting baru'
-        message: '<b>%{user}</b> adalah penyuting proposal <b>%{title}</b>'
+        email_subject: "%{title} - Penyunting baru"
+        message: "<b>%{user}</b> adalah penyuting proposal <b>%{title}</b>"
       unintegrated_contribute:
         description: Kontribusi dikembalikan ke debat
-        email_subject: '%{proposal} - Kontribusi kembali ke debat'
-        message: 'Kontribusi yang Anda masukkan ke proposal <b>%{proposal}</b> telah dikembalikan ke debat'
+        email_subject: "%{proposal} - Kontribusi kembali ke debat"
+        message: "Kontribusi yang Anda masukkan ke proposal <b>%{proposal}</b> telah dikembalikan ke debat"
       new_contributes:
-        description: Kontribusi baru dalam proposal yang saya ikuti
+        description: "Kontribusi baru dalam proposal yang saya ikuti"
         email_subject:
-          one: '%{title} - Kontribusi baru telah dimasukkan'
-          other: '%{title} - Ada %{count} kontribusi baru'
+          one: "%{title} - Kontribusi baru telah dimasukkan"
+          other: "%{title} - Ada %{count} kontribusi baru"
         message:
-          one: '<b>%{name}</b> menambahkan kontribusi baru ke dalam proposal <b>%{title}</b>'
-          other: 'Ada <b>%{count}</b> kontribusi baru dalam proposal <b>%{title}</b>'
+          one: "<b>%{name}</b> menambahkan kontribusi baru ke dalam proposal <b>%{title}</b>"
+          other: "Ada <b>%{count}</b> kontribusi baru dalam proposal <b>%{title}</b>"
       text_update:
-        description: Update teks proposal tempat saya berpartisipasi
+        description: "Update teks proposal tempat saya berpartisipasi"
         email_subject:
-          one: '%{title} telah diperbarui'
-          other: '%{title} telah diperbarui %{count} kali'
+          one: "%{title} telah diperbarui"
+          other: "%{title} telah diperbarui %{count} kali"
         message:
-          one: 'Proposal <b>%{title}</b> telah diperbarui'
-          other: 'Proposal <b>%{title}</b> telah diperbarui %{count} kali'
+          one: "Proposal <b>%{title}</b> telah diperbarui"
+          other: "Proposal <b>%{title}</b> telah diperbarui %{count} kali"
       new_contributes_mine:
-        description: Kontribusi baru dalam proposal saya
+        description: "Kontribusi baru dalam proposal saya"
         email_subject:
-          one: '%{title} - Kontribusi baru telah dimasukkan'
-          other: '%{title} - Ada %{count} kontribusi baru'
+          one: "%{title} - Kontribusi baru telah dimasukkan"
+          other: "%{title} - Ada %{count} kontribusi baru"
         message:
-          zero: '<b>%{name}</b> menambahkan kontribusi baru ke dalam proposal Anda, <b>%{title}</b>'
-          one: '<b>%{name}</b> menambahkan kontribusi baru ke dalam proposal Anda, <b>%{title}</b>'
-          other: 'Ada <b>%{count}</b> kontribusi baru dalam proposal Anda, <b>%{title}</b>'
+          zero: "<b>%{name}</b> menambahkan kontribusi baru ke dalam proposal Anda, <b>%{title}</b>"
+          one: "<b>%{name}</b> menambahkan kontribusi baru ke dalam proposal Anda, <b>%{title}</b>"
+          other: "Ada <b>%{count}</b> kontribusi baru dalam proposal Anda, <b>%{title}</b>"
       change_status:
-        description: Perubahan dalam status proposal tempat saya berpartisipasi
+        description: "Perubahan dalam status proposal tempat saya berpartisipasi"
         email_subject:
-          wait: '%{title} - Pilih tanggal voting'
-          waiting_date: '%{title} - Tanggal voting telah dipilih'
-          in_vote: '%{title} - AYO VOTE!'
-          abandoned: '%{title} tidak lulus debat'
-          rejected: '%{title} telah ditolak'
-          voted: '%{title} - Voting telah dihentikan'
-          24_hours: 'Debat tentang %{title} akan berakhir besok!'
-          1_hour: 'Debat tentang %{title} akan berakhir satu jam lagi!'
-          24_hours_vote: 'Vote tentang %{title} akan berakhir besok!'
-          1_hour_vote: 'Vote tentang %{title} akan berakhir satu jam lagi!'
+          wait: "%{title} - Pilih tanggal voting"
+          waiting_date: "%{title} - Tanggal voting telah dipilih"
+          in_vote: "%{title} - AYO VOTE!"
+          abandoned: "%{title} tidak lulus debat"
+          rejected: "%{title} telah ditolak"
+          voted: "%{title} - Voting telah dihentikan"
+          24_hours: "Debat tentang %{title} akan berakhir besok!"
+          1_hour: "Debat tentang %{title} akan berakhir satu jam lagi!"
+          24_hours_vote: "Vote tentang %{title} akan berakhir besok!"
+          1_hour_vote: "Vote tentang %{title} akan berakhir satu jam lagi!"
         message:
-          waiting_date: '%{name} telah memilih tanggal voting untuk proposal <b>%{title}</b>'
-          in_vote: 'Proposal Anda, <b>%{title}</b>, sedang dalam tahap vote!'
-          abandoned: 'Proposal <b>%{title}</b> belum lulus debat dan telah ditinggalkan'
-          rejected: 'Proposal <b>%{title}</b> telah ditolak oleh para peserta'
-          voted: '%{title} - Vote berakhir'
-          24_hours: 'Debat tentang <b>%{title}</b> akan berakhir besok!'
-          1_hour: 'Debat tentang <b>%{title}</b> akan berakhir satu jam lagi!'
-          24_hours_vote: 'Vote tentang <b>%{title}</b> akan berakhir besok!'
-          1_hour_vote: 'Vote tentang <b>%{title}</b> akan berakhir satu jam lagi!'
+          waiting_date: "%{name} telah memilih tanggal voting untuk proposal <b>%{title}</b>"
+          in_vote: "Proposal Anda, <b>%{title}</b>, sedang dalam tahap vote!"
+          abandoned: "Proposal <b>%{title}</b> belum lulus debat dan telah ditinggalkan"
+          rejected: "Proposal <b>%{title}</b> telah ditolak oleh para peserta"
+          voted: "%{title} - Vote berakhir"
+          24_hours: "Debat tentang <b>%{title}</b> akan berakhir besok!"
+          1_hour: "Debat tentang <b>%{title}</b> akan berakhir satu jam lagi!"
+          24_hours_vote: "Vote tentang <b>%{title}</b> akan berakhir besok!"
+          1_hour_vote: "Vote tentang <b>%{title}</b> akan berakhir satu jam lagi!"
       change_status_mine:
         description: Perubahan status proposal saya
         email_subject:
-          wait: '%{title} - Pilih tanggal voting'
-          waiting_date: '%{title} - Tanggal voting telah dipilih'
-          in_vote: '%{title} - AYO VOTE!'
-          abandoned: '%{title} tidak lulus debat'
-          rejected: '%{title} telah ditolak'
-          voted: '%{title} - Vote berakhir'
-          24_hours: 'Debat tentang %{title} akan berakhir besok!'
-          1_hour: 'Debat tentang %{title} akan berakhir satu jam lagi!'
-          24_hours_vote: 'Vote tentang %{title} akan berakhir besok!'
-          1_hour_vote: 'Vote tentang %{title} akan berakhir satu jam lagi!'
+          wait: "%{title} - Pilih tanggal voting"
+          waiting_date: "%{title} - Tanggal voting telah dipilih"
+          in_vote: "%{title} - AYO VOTE!"
+          abandoned: "%{title} tidak lulus debat"
+          rejected: "%{title} telah ditolak"
+          voted: "%{title} - Vote berakhir"
+          24_hours: "Debat tentang %{title} akan berakhir besok!"
+          1_hour: "Debat tentang %{title} akan berakhir satu jam lagi!"
+          24_hours_vote: "Vote tentang %{title} akan berakhir besok!"
+          1_hour_vote: "Vote tentang %{title} akan berakhir satu jam lagi!"
         message:
-          wait: 'Proposal Anda, <b>%{title}</b>, telah melewati tahap diskusi dan kini menunggu Anda memilih waktu untuk vote'
-          waiting_date: '%{name} telah memilih tanggal voting untuk proposal <b>%{title}</b>'
-          in_vote: 'Proposal Anda, <b>%{title}</b>, sedang dalam tahap vote!'
-          abandoned: 'Proposal Anda, <b>%{title}</b>, belum lulus debat dan telah ditinggalkan. Maaf'
-          rejected: 'Proposal Anda, <b>%{title}</b>, telah ditolak peserta. Maaf'
-          voted: '<b>%{title}</b> - Vote telah selesai'
-          24_hours: 'Debat tentang <b>%{title}</b> akan berakhir besok!'
-          1_hour: 'Debat tentang <b>%{title}</b> akan berakhir satu jam lagi!'
-          24_hours_vote: 'Vote tentang <b>%{title}</b> akan berakhir besok!'
-          1_hour_vote: 'Vote tentang <b>%{title}</b> akan berakhir satu jam lagi!'
+          wait: "Proposal Anda, <b>%{title}</b>, telah melewati tahap diskusi dan kini menunggu Anda memilih waktu untuk vote"
+          waiting_date: "%{name} telah memilih tanggal voting untuk proposal <b>%{title}</b>"
+          in_vote: "Proposal Anda, <b>%{title}</b>, sedang dalam tahap vote!"
+          abandoned: "Proposal Anda, <b>%{title}</b>, belum lulus debat dan telah ditinggalkan. Maaf"
+          rejected: "Proposal Anda, <b>%{title}</b>, telah ditolak peserta. Maaf"
+          voted: "<b>%{title}</b> - Vote telah selesai"
+          24_hours: "Debat tentang <b>%{title}</b> akan berakhir besok!"
+          1_hour: "Debat tentang <b>%{title}</b> akan berakhir satu jam lagi!"
+          24_hours_vote: "Vote tentang <b>%{title}</b> akan berakhir besok!"
+          1_hour_vote: "Vote tentang <b>%{title}</b> akan berakhir satu jam lagi!"
       proposal_phase_ending:
-        description: Debat atau vote proposal akan segera berakhir
+        description: "Debat atau vote proposal akan segera berakhir"
         email_subject:
-          24_hours: 'Debat tentang %{title} akan berakhir besok!'
-          1_hour: 'Debat tentang %{title} akan berakhir satu jam lagi!'
-          24_hours_vote: 'Vote tentang %{title} akan berakhir besok!'
-          1_hour_vote: 'Vote tentang %{title} akan berakhir satu jam lagi!'
+          24_hours: "Debat tentang %{title} akan berakhir besok!"
+          1_hour: "Debat tentang %{title} akan berakhir satu jam lagi!"
+          24_hours_vote: "Vote tentang %{title} akan berakhir besok!"
+          1_hour_vote: "Vote tentang %{title} akan berakhir satu jam lagi!"
         message:
-          24_hours: 'Debat tentang <b>%{title}</b> akan berakhir besok!'
-          1_hour: 'Debat tentang <b>%{title}</b> akan berakhir satu jam lagi!'
-          24_hours_vote: 'Vote tentang <b>%{title}</b> akan berakhir besok!'
-          1_hour_vote: 'Vote tentang <b>%{title}</b> akan berakhir satu jam lagi!'
+          24_hours: "Debat tentang <b>%{title}</b> akan berakhir besok!"
+          1_hour: "Debat tentang <b>%{title}</b> akan berakhir satu jam lagi!"
+          24_hours_vote: "Vote tentang <b>%{title}</b> akan berakhir besok!"
+          1_hour_vote: "Vote tentang <b>%{title}</b> akan berakhir satu jam lagi!"
       new_posts_group_follow:
         description: Tulisan baru di Dinding Grup yang saya ikuti
         email_subject: Tulisan baru
       new_posts_group:
         description: Tulisan baru di Dinding Grup tempat saya berpartisipasi
         email_subject: Tulisan baru
-        message: '<b>%{user}</b> telah menambah tulisan baru ke dalam grup <b>%{group}</b>'
+        message: "<b>%{user}</b> telah menambah tulisan baru ke dalam grup <b>%{group}</b>"
       new_public_proposals:
         description: Ada proposal baru dalam Ruang Terbuka
-        email_subject: '%{proposal}'
-        message: 'Proposal baru <b>%{proposal}</b> ditambahkan ke Ruang Terbuka'
+        email_subject: "%{proposal}"
+        message: "Proposal baru <b>%{proposal}</b> ditambahkan ke Ruang Terbuka"
       new_proposals:
         description: Proposal baru dalam grup
-        email_subject: '%{proposal}'
-        message: 'Proposal baru <b>%{proposal}</b> dibuat dalam grup <b>%{group}</b>'
+        email_subject: "%{proposal}"
+        message: "Proposal baru <b>%{proposal}</b> dibuat dalam grup <b>%{group}</b>"
       new_participation_request:
         description: Permintaan partisipasi baru
         email_subject:
-          other: 'Ada %{count} permintaan partisipasi baru'
+          one: "Ada permintaan partisipasi yang baru"
+          other: "Ada %{count} permintaan partisipasi baru"
         message:
-          one: '<b>%{user}</b> meminta untuk berpartisipasi dalam grup <b>%{group}</b>'
-          other: '<b>%{count} pengguna</b> meminta untuk berpartisipasi dalam grup <b>%{group}</b>'
+          one: "<b>%{user}</b> meminta untuk berpartisipasi dalam grup <b>%{group}</b>"
+          other: "<b>%{count} pengguna</b> meminta untuk berpartisipasi dalam grup <b>%{group}</b>"
       new_blog_comment:
         description: Ada komentar baru di blog saya
         email_subject:
-          one: Ada satu komentar baru dalam tulisan blog Anda
-          other: 'Ada %{count} komentar baru dalam tulisan blog Anda'
+          one: "Ada satu komentar baru dalam tulisan blog Anda"
+          other: "Ada %{count} komentar baru dalam tulisan blog Anda"
         message:
-          one: '<b>%{user}</b> mengomentari tulisan Anda, <b>%{title}</b>'
-          other: 'Ada <b>%{count}</b> komentar baru dalam tulisan Anda, <b>%{title}</b>'
+          one: "<b>%{user}</b> mengomentari tulisan Anda, <b>%{title}</b>"
+          other: "Ada <b>%{count}</b> komentar baru dalam tulisan Anda, <b>%{title}</b>"
+      new_forum_topic:
+        message:
+          one: "'%{topic_subject}' topik sudah dibuat di <b>%{group_name}</b>"
+          other: "%{count} topik sudah dibuat di <b>%{group_name}</b>"
+        description: Topik baru dalam Forum
+        email_subject: "Topik '%{topic_subject}' berhasil dibuat di %{group_name}"
       new_comments_mine:
         description: Ada koemntar baru dalam proposal saya
         email_subject: Komentar baru dalam proposal saya
-        message: '<b>%{name}</b> menambahkan komentar dalam diskusi proposal Anda, <b>%{title}</b>'
+        message: "<b>%{name}</b> menambahkan komentar dalam diskusi proposal Anda, <b>%{title}</b>"
       new_comments:
         description: Komentar baru dalam diskusi tempat saya berpartisipasi
-        email_subject: '%{title} - Komentar baru'
-        message: '<b>%{name}</b> menambahkan komentar dalam diskusi tempat Anda berpartisipasi dalam proposal <b>%{title}</b>'
+        email_subject: "%{title} - Komentar baru"
+        message: "<b>%{name}</b> menambahkan komentar dalam diskusi tempat Anda berpartisipasi dalam proposal <b>%{title}</b>"
       contribute_update:
         description: Pembaruan teks kontribusi yang telah dievaluasi
-        email_subject: '%{title} - Kontribusi yang telah Anda evaluasi sebelumnya telah berubah'
-        message: '<b>%{name}</b> mengubah kontribusi dalam <b>%{title}</b> yang telah Anda evaluasi sebelumnya. Periksa jika Anda ingin mengubah pendapat Anda.'
+        email_subject: "%{title} - Kontribusi yang telah Anda evaluasi sebelumnya telah berubah"
+        message: "<b>%{name}</b> mengubah kontribusi dalam <b>%{title}</b> yang telah Anda evaluasi sebelumnya. Periksa jika Anda ingin mengubah pendapat Anda."
     proposal_categories:
       no_category:
         description: Tidak Terkategori

@@ -3,54 +3,135 @@ pt-BR:
     proposals:
       edit:
         add_solution:
-          standard: Adicionar outra solução
-          poll: Adicionar outra opção
-          rule_book: Adicionar outra solução
-          press: Adicionar outra solução
-          event: Adicionar outra solução
-          estimate: Adicionar outra solução
-          agenda: Adicionar outro ponto
-          candidates: Adicionar outro candidato
-          simple: Adicionar outra solução
+          standard: "Adicionar outra solução"
+          poll: "Adicionar outra opção"
+          rule_book: "Adicionar outra solução"
+          press: "Adicionar outra solução"
+          event: "Adicionar outra solução"
+          estimate: "Adicionar outra solução"
+          agenda: "Adicionar outro ponto"
+          candidates: "Adicionar outro candidato"
+          simple: "Adicionar outra solução"
+        solution_title:
+          standard: "Solução"
+          poll: "Opção"
+          rule_book: "Solução"
+          press: "Solução"
+          event: "Solução"
+          estimate: "Solução"
+          agenda: "Ponto"
+          candidates: "Candidado"
+          simple: "Solução"
+        insert_title:
+          standard: "Insira um título"
+          poll: "Insira um título"
+          rule_book: "Insira um título"
+          press: "Insira um título"
+          event: "Insira um título"
+          estimate: "Insira um título"
+          agenda: "Insira um título"
+          candidates: "Insira o nome e sobrenome"
+          simple: "Insira um título"
+        new_solution_title:
+          standard: "Solução <span class=\"num\"> %{num}</span>:"
+          poll: "Opção <span class=\"num\"> %{num}</span>:"
+          rule_book: "Solução <span class=\"num\"> %{num}</span>:"
+          press: "Solução <span class=\"num\"> %{num}</span>:"
+          event: "Solução <span class=\"num\"> %{num}</span>:"
+          estimate: "Solução <span class=\"num\"> %{num}</span>:"
+          agenda: "<span class=\"num\"> %{num}</span> ponto:"
+          candidates: "Candidato <span class=\"num\"> %{num}</span>:"
+          simple: "Solução <span class=\"num\"> %{num}</span>:"
       new:
         standard:
-          problems_title: Problemas
-          problems_title_label: Qual é o problema a ser resolvido e/ou quais são os obstáculos a superar para alcançar o objetivo?
-          objectives_title: Objetivos
-          step_4_title: Você pode inserir um texto para a proposta ou escrevê-lo mais tarde baseado nas contribuições recebidas
+          problems_title: "Problemas"
+          problems_question: "Qual é o problema a ser resolvido e/ou quais são os obstáculos a superar para poder alcançar o objetivo?"
+          problems_title_label: "Qual é o problema a ser resolvido e/ou quais são os obstáculos a superar para alcançar o objetivo?"
+          objectives_title: "Objetivos"
+          step_4_title: "Você pode inserir um texto para a proposta ou escrevê-lo mais tarde baseado nas contribuições recebidas"
           solution:
-            description: Descrição da solução
-            time: Período
-            subject: Supervisor
-            resources: Recursos necessários e como obtê-los
-            aspects: Aspectos éticos, ambientais, sociais
-            documents: Documentação
-            pros: Prós
-            cons: Contras
-            title: Solução 1
-          suggestion_html: '<div><b>Exemplo:</b></div> <div>Reduzir o uso de água potável para irrigação.</div> <div>Usando água para regar os parques públicos e jardins privados é um desperdício e tem custos relevantes. Além disso, o aquífero que abastece o aqueduto está exaurindo.</div>'
-        rule_book:
-          problems_title: Problemas
-          problems_title_label: Quais são os problemas a serem resolvidos com a aplicação do presente regulamento. Quais são as questões a serem reguladas? Por que?
-          solution:
-            title: Solução 1
-            article: 'Artigo %{num}'
-            pros: Prós
-            cons: Contras
+            description: "Descrição da solução"
+            time: "Período"
+            subject: "Supervisor"
+            resources: "Recursos necessários e como obtê-los"
+            aspects: "Aspectos éticos, ambientais, sociais"
+            documents: "Documentação"
+            pros: "Prós"
+            cons: "Contras"
+            title: "Solução 1"
+          suggestion_html: |
+            <div><b>Exemplo:</b></div> <div>Reduzir o uso de água potável para irrigação.</div> <div>Usando água para regar os parques públicos e jardins privados é um desperdício e tem custos relevantes. Além disso, o aquífero que abastece o aqueduto está exaurindo.</div>
           paragraph:
-            inspire: Regulamento de inspiração
-            requirements: Requisitos necessários
+            similar: "Experiências semelhantes"
+            stakeholders: "Partes interessadas"
+            requirements: "Requisitos da solução"
+          question:
+            paragraph:
+              similar: "Existem experiências em que se inspirar para atingir o objetivo? Entre as possíveis soluções/iniciativas já em vigor, quais alcançaram os melhores resultados e quais têm os piores resultados? Por quê?"
+              stakeholders: "Quem receberá os benefícios e as desvantagens da realização do objetivo e das soluções propostas? Esses tópicos foram envolvidos na discussão desta proposta? De que forma?"
+              requirements: "Quais são as características que a solução ideal deve respeitar? Podem referir-se aos requisitos técnicos assim como os valores e princípios a serem observados."
+            solution:
+              description: "Descreva a solução que, na prática, se propõe tomar para atingir o objetivo."
+              time: "Quando será implementada esta solução? Identificar as etapas possíveis de implementação."
+              subject: "Quem irá implementar, ou organizar para implementar a solução? Em caso de implementação, como monitorar e verificar os resultados da solução? "
+              resources: "Existem fundos necessários, voluntários, ferramentas e habilidades para implementar esta solução? Listá-los e quantificá-los. Como vão ser encontrados esses recursos?"
+              aspects: "Esta solução satisfaz os requisitos éticos do grupo ou comunidade a que é dirigida? Qual será o seu impacto social e ambiental?"
+              documents: "Há documentação disponível sobre esta solução?"
+              pros: "Listar e resumir as principais vantagens e pontos fortes desta solução. Indicar quem são os interessados nas vantagens."
+              cons: "Listar e resumir os principais problemas e desvantagens desta solução. Indicar quem são os interessados nas desvantagens."
+        rule_book:
+          problems_title: "Problemas"
+          problems_title_label: "Quais são os problemas a serem resolvidos com a aplicação do presente regulamento. Quais são as questões a serem reguladas? Por que?"
+          problems_question: "Quais são os problemas a serem resolvidos com a aplicação do presente regulamento. Quais são as questões a serem reguladas? Por que?"
+          suggestion_html: |
+            <div><b>Exemplo:</b></div> 
+            <div>Livro de regras para reservar a sala de conferências</div> <div>A cidade de Silverham tem uma sala de conferências que hoje em dia é usada somente por "amigos" do Governador. Chegou a hora de escolher um procedimento imparcial para conceder a todos os cidadãos e associações públicas o direito de reservar o espaço para eventos públicos.</div>
+          solution:
+            title: "Solução 1"
+            article: "Artigo %{num}"
+            pros: "Prós"
+            cons: "Contras"
+          paragraph:
+            inspire: "Regulamento de inspiração"
+            requirements: "Requisitos necessários"
+            stakeholders: "Stakeholders (partes interessadas)"
+          question:
+            paragraph:
+              inspire: "Existem regulamentos análogos, para usar como ponto de partida? Entre as experiências de regras semelhantes, quais alcançaram os melhores resultados e quais o pior? Porquê?"
+              requirements: "Quais são as principais limitações que o regulamento deve levar em consideração? Quais são os valores e os princípios a serem observados? Qual será o custo de aplicação do regulamento? Quem será encarregado de aplicar os mesmos?"
+              stakeholders: "Quem é mais afetado pela aplicação do regulamento? Quem vai sofrer as consequências? Estes temas foram envolvidos na discussão desta proposta? Como?"
+            solution:
+              article: "Insira o texto do artigo primeiro, assegurando que a sua interpretação seja inequívoca. Inserir uma definição de termos ou expressões sujeitos a mal-entendidos."
+              pros: "Listar e resumir as principais vantagens e pontos fortes desta solução. Indicar quem são os interessados nas vantagens."
+              cons: "Listar e resumir os principais problemas e desvantagens desta solução. Indicar quem são os interessados nas desvantagens."
         press:
-          problems_title_label: Qual é a mensagem que você deseja transmitir? Quais obstáculos são esperados para sua compreensão adequada? Existem artigos ou notícias recentes que você deseja replicar ou para os quais você deseja fornecer mais informações?
-          problems_title: Mensagem a transmitir
+          problems_title_label: "Qual é a mensagem que você deseja transmitir? Quais obstáculos são esperados para sua compreensão adequada? Existem artigos ou notícias recentes que você deseja replicar ou para os quais você deseja fornecer mais informações?"
+          problems_title: "Mensagem a transmitir"
+          problems_question: "Qual é a mensagem que você deseja transmitir? Quais obstáculos são esperados para sua compreensão adequada e ajeitamento? Existem artigos ou notícias recentes que você deseja replicar ou para os quais você deseja fornecer mais informações?"
+          suggestion_html: |
+            <div><b>Exemplo:</b></div> 
+            <div>Anunciar o lançamento da versão 3.5 da Airesis.</div> <div>Temos de anunciar o lançamento da versão 3.5 da Airesis, que traz novidades importantes para as administrações públicas. É preciso explicar o que é a Airesis a quem não o conhece e cativar a atenção da imprensa, chamando atenção sobre os recentes rumores referente o uso da Airesis na Casa Branca.</div>
           solution:
-            title: Solução 1
-            maintitle: Título
-            body: Corpo
-            conclusion: Conclusões
+            title: "Solução 1"
+            maintitle: "Título"
+            body: "Corpo"
+            conclusion: "Conclusões"
         estimate:
-          problems_title: Problemas
+          problems_title: "Problemas"
           solution:
-            title: Solução 1
-            cost: Valor
-            problems: Respeito de problemas e restrições
+            title: "Solução 1"
+            cost: "Valor"
+            problems: "Respeito de problemas e restrições"
+        simple:
+          problems_title: "Problema"
+          problems_title_label: "Qual é o problema a ser resolvido e/ou quais são os obstáculos a superar para poder alcançar o objetivo?"
+          problems_question: "Qual é o problema a ser resolvido e/ou quais são os obstáculos a superar para poder alcançar o objetivo?"
+          solution:
+            description: "Descrição"
+            title: "Solução 1"
+        petition:
+          paragraph:
+            text: "Texto da petição"
+          question:
+            paragraph:
+              text: "Texto da petição"

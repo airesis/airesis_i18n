@@ -1,0 +1,163 @@
+es-VE:
+  countdowns:
+    labelsPlural:
+      - Años
+      - Meses
+      - Semanas
+      - Días
+      - Horas
+      - Minutos
+      - Segundos
+    labelsSingular:
+      - Año
+      - Mes
+      - Semana
+      - Día
+      - Hora
+      - Minuto
+      - Segundo
+    compactLabelsPlural:
+      - 'y'
+      - 'm'
+      - 'w'
+      - 'd'
+    compactLabelsSingular:
+      - 'y'
+      - 'm'
+      - 'w'
+      - 'd'
+  calendar:
+    monthNames:
+      - Enero
+      - Febrero
+      - Marzo
+      - Abril
+      - Mayo
+      - Junio
+      - Julio
+      - Agosto
+      - Septiembre
+      - Octubre
+      - Noviembre
+      - Diciembre
+    monthNamesShort:
+      - Ene
+      - Feb
+      - Mar
+      - Abr
+      - Mayo
+      - Jun
+      - Jul
+      - Ago
+      - Sept
+      - Oct
+      - Nov
+      - Dic
+    dayNames:
+      - Domingo
+      - Lunes
+      - Martes
+      - Miércoles
+      - Jueves
+      - Viernes
+      - Sábado
+    dayNamesShort:
+      - Dom
+      - Lun
+      - Mar
+      - Mié
+      - Jue
+      - Vie
+      - Sáb
+    today: 'hoy'
+    month: 'mes'
+    week: 'semana'
+    day: 'día'
+    firstDay: 0
+    timeFormat: 'h:mm TT {-[ddd] [dd] h:mm TT}'
+    changed: 'Cambiado!'
+    eventsFormat: 'h(:mm) t'
+  date:
+    formats:
+      short: "%b %d"
+      long: "%d %B %Y"
+  time:
+    formats:
+      default: "%d %b %Y en %I:%M %p"
+      long: "%A %d %B %Y en %I:%M %p"
+      long_date: "%A %d %B %Y"
+      long_date_time: "%A %d %B %Y en %I:%M %p"
+      from_long_date_time: "De %A %d %B %Y en %I:%M %p"
+      until_long_date_time: "A %A %d %B %Y en %I:%M %p"
+      from_long_date: "De %A %d %B %Y"
+      until_long_date: "A %A %d %B %Y"
+      short: "%d %b %Y"
+      two_rows: "%d %b %Y<br/> %I:%M %p"
+      weekday: "%a en %I:%M %p"
+      month: "%B"
+      dayandmonth: "%d/%m"
+      hour: "%I:%M %p"
+      yesterday_at: "ayer a las %I:%M %p"
+      textfield: "%d/%m/%Y %I:%M %p"
+      datepicker: "%Y-%m-%d"
+      datetimepicker: "%Y-%m-%d %H:%M"
+    am: "am"
+    pm: "pm"
+    left:
+      seconds:
+        one: "1 segundo"
+        other: "%{count} segundos"
+      minutes:
+        one: "1 minuto"
+        other: "%{count} minuto"
+      hours:
+        one: "1 hora"
+        other: "%{count} hora"
+      days:
+        one: "1 día"
+        other: "%{count} días"
+      months:
+        one: "1 mes"
+        other: "%{count} meses"
+  datetime:
+    added_on: "el %{date}"
+    distance_in_words:
+      about_x_hours:
+        one: hace alrededor de una hora
+        other: hace %{count} horas
+      about_x_months:
+        one: hace un mes
+        other: hace %{count} meses
+      about_x_years:
+        one: hace un año
+        other: hace %{count} años
+      almost_x_years:
+        one: hace casi un año
+        other: hace casi %{count} años
+      half_a_minute: hace medio minuto
+      less_than_x_minutes:
+        one: hace menos de un minuto
+        other: menos de %{count} minutos hace
+      less_than_x_seconds:
+        one: hace menos de un segundo
+        other: menos de %{count} segundos hace
+      over_x_years:
+        one: hace más de un año
+        other: más que %{count} años
+      x_days:
+        one: hace un dia
+        other: ! 'hace %{count} días'
+      x_minutes:
+        one: hace un minuto
+        other: ! '%{count} minutos'
+      x_months:
+        one: hace un mes
+        other: ! 'hace %{count} meses'
+      x_seconds:
+        one: "hace 1 segundo"
+        other: ! '%{count} segundos hace'
+  label:
+    from: "de"
+    to: "para"
+  countdown: "{m<} hace {mn} {ml} {m>} {s<}ahora{s>}"
+  countdown2: "{y<}{yn} {yl}{y>} {o<}{on} {ol}{o>} {d<}{dn} {dl}{d>} {h<}{hn} {hl}{h>} {m<}{mn} {ml}{m>} {s<}segundos{s>}"

@@ -17,29 +17,29 @@ ro-RO:
       - Minutul
       - Secunda
     compactLabelsPlural:
-      - a
-      - l
-      - s
-      - z
+      - 'a'
+      - 'l'
+      - 's'
+      - 'z'
     compactLabelsSingular:
-      - a
-      - l
-      - s
-      - z
+      - 'a'
+      - 'l'
+      - 's'
+      - 'z'
   calendar:
-    today: astăzi
-    month: lună
-    week: săptămână
-    day: zi
+    today: 'astăzi'
+    month: 'lună'
+    week: 'săptămână'
+    day: 'zi'
   time:
     formats:
-      default: '%d %b %Y at %H:%M'
-      long: '%A %d %B %Y %H:%M'
-      long_date_time: '%A %d %B %Y at %H:%M'
-      from_long_date_time: 'From %A %d %B %Y at %H:%M'
-      until_long_date_time: 'Until %A %d %B %Y at %H:%M'
-      weekday: '%A'
-      textfield: '%d/%m/%Y %H:%M'
+      default: "%d %b %Y at %H:%M"
+      long: "%A %d %B %Y %H:%M"
+      long_date_time: "%A %d %B %Y at %H:%M"
+      from_long_date_time: "From %A %d %B %Y at %H:%M"
+      until_long_date_time: "Until %A %d %B %Y at %H:%M"
+      weekday: "%A"
+      textfield: "%d/%m/%Y %H:%M"
   datetime:
     distance_in_words:
       half_a_minute: o jumătate de minut în urmă

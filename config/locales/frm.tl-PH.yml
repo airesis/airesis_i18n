@@ -1,0 +1,244 @@
+tl-PH:
+  frm:
+    general:
+      forum: Ang Forum
+      topics: Ang Mga paksa
+      topic: Ang Paksa
+      posts: Ang Mga paskil
+      posts_count:
+        one: Ang 1 paskil
+        other: "%{count} mga paskil"
+      flagged_for_spam: Ang account mo ay nalagyan ng flagged para sa spam.
+      cannot_create_topic: Hindi ka maaaring lumikha ng bagong paksa sa mga oras na ito.
+      cannot_create_post: Hindi ka pwede gumawa ng bagong post sa oras na ito.
+    access_denied: "Hindi mo maaari na gawin yan."
+    admin:
+      area: Ang Lugar ng Admin
+      back_to_admin: "Ang Bumalik sa Admin"
+      back_to_forums: "Ang Magbalik sa mga furom"
+      back_to_groups: "Ang magbalik sa mga grupo"
+      forum:
+        moderator_groups: Ang mga grupo ng tagapamagitan
+        index: Ang mangasiwa sa mga Forum
+        new: Ang lumikha ng bagong forum
+        new_link: Bagong Forum
+        deleted: Napili na forum ay binura
+        created: Ang forum na ito ay nilikha.
+        not_created: Ang forum na ito ay hindi maaari na malikha
+        updated: Ang forum na ito ay na-update na.
+        not_updated: Ang forum na ito ay hindi ma-upadate
+      forums:
+        edit: Baguhin
+        delete: Burahin
+        category: Ang Kategorya
+        delete_confirm: Sigurado ka ba na nais mo burahin ang forum na ito?
+        index:
+          last_post: Ang Huli na post
+          none: Wala
+          moderators: Ang mga Tagapamagitan
+          no_category: (Walang Kategorya)
+        default_private: "Ang Pribado na Forum"
+        default_public: "Ang Pampubliko na Forum"
+        default_private_description: "Ang Forum ay nakareserba sa grupo ng mga kalahok"
+        default_public_description: "Ang Forum ay makikita ng mga tagagamit ng Aireses. Pati na din ang mga tagagamit na wala sa grupo"
+      mod:
+        index: Ang Pamahalaan ang mga Grupo
+        new: Ang mga bagong grupo
+        created: Ang grupo ay matagaumpay na nalikha
+        not_created: Ang grupo ay hindi maaari na malikha
+        deleted: Ang napili na grupo ay burado na
+        members: "Ang mga miyembro sa %{group}"
+      mods:
+        show:
+          add_member: Dagdagan
+          add_a_new_member: "Ang magdadag ng bagong miyembro"
+          current_members: "Ang mga kasalukuyang Miyembro"
+        edit: Baguhin
+        delete: Burahin
+        name: Ang Pangalan
+      category:
+        index: Ang Pangasiwaan ang Kategorya ng forum
+        new: Ang Lumikha ng bagong Kategorya ng Forum
+        edit: "Ang Pag-edit sa %{title} kategorya"
+        new_link: Ang Bagong Kategorya ng Forum
+        deleted: Ang napili na kategorya sa forum ay nabura na
+        created: Ang kategorya ng forum na ito ay nalikha na
+        not_created: Ang kategorya sa forum na ito ay hindi malikha
+        updated: Ang kategorya sa forum na ito ay na-update na
+        not_updated: Ang kategorya sa forum na ito ay hindi ma-update
+      categories:
+        edit: Baguhin
+        delete: Burahin
+        category: Ang Kategorya
+        delete_confirm: Sigurado ka ba na nais mong burahin ang kategorya sa forum?
+        default_private: "Ang Prebado na Seksyon"
+        default_public: "Ang Pampublikong Seksyon"
+      group:
+        index: "Ang Mamahala sa mga tagapamagitan ng mga grupo"
+        show:
+          title: "Pamahalaan ang mga tagapamagitan"
+        new: "Ang mga bagong Tagapamagitan ng Grupo"
+        created: "Tagumpay na nalikha ng tagapamagitan ang grupo"
+        not_created: "Mali ang nalikha na grupo ng mga Tagapamahala"
+        deleted: "Tagumpay na nabura ang grupo ng mga Tagapamahala"
+    common:
+      pages: Ang mga pahina
+    errors:
+      not_signed_in: Kailangan mo muna mag-sign in
+      access_denied: Ang pag-access ay tinanggihan.
+    forum:
+      header: "Tanawin %{title}"
+      forums: Ang mga Forum
+      new: Lumikha ng bagong forum
+      edit: "Baguhin ang %{title} forum"
+      topics_count:
+        one: Ang 1 paksa
+        other: "%{count} mga paksa"
+      posts_count:
+        one: Ang 1 paskil
+        other: "%{count} mga paskil"
+      moderator_tools: "Ang mga Katamtaman na kagamitan"
+      topic_tools: "Mga Paksa ng kagamitan"
+      admin_tools: "Pamahalaan ang mga Kagamitan"
+      title: "Ang bagong forum"
+    forums:
+      index:
+        title: Ang Forum
+        forum: Ang Forum
+        views: Mga tanawin
+        last_post: 'Ang Huling post:'
+        none: Wala
+    topic:
+      headings:
+        topic: Ang Paksa
+        latest: Ang Pinakabago
+        posts: Ang mga paskil
+        views: Tanawin
+      moderation:
+        success: Ang napili na paksa ay na-moderate na
+        no_option_selected: Walang napili na-moderation ay walang opsyon
+      received_reply: Mag-subscribed sa paksa na natanggap at sagutin
+      reply: Ang Tugon
+      quote: Ang Banggit
+      delete: Burahin
+      created: Ang paksa na ito ay nalikha na
+      new: Lumikha ng bagong paksa
+      edit: Baguhin ang paksa
+      not_created: Ang paksa na ito ay hindi malikha
+      deleted: Ang paksa mo ay nabura na
+      cannot_delete: Hindi mo maaaring burahin ang paksa na hindi mo pagmamayari
+      updated: Ang paksa na ito ay na-update na
+      not_updated: Ang paksa na ito ay hindi ma-update
+      subscribed: Mag-subscribe ka sa paksa na ito
+      unsubscribed: Mag-subscribed ka mula sa paksa na ito
+      none: Kasalukuyang walang mga paksa sa forum
+      links:
+        new: Ang Bagong paksa
+        back_to_topics: Ang Bumalik sa mga paksa
+        edit: Baguhin ang paksa
+      not_found: Ang paksa na iyong hinahanap ay hindi matagpuan
+      hidden:
+        'true': Ang paksa na ito ay nakatago na ngayon
+        'false': Ang paksa na ito ay makikita na ngayon
+      locked:
+        'true': Ang paksa na ito ay sarado na ngayon
+        'false': Ang paksa na ito ay bukas na ngayon
+      pinned:
+        'true': Ang paksa na ito ay naka-pin na ngayon
+        'false': Ang paksa na ito ay naka-unpin na ngayon
+    topics:
+      show:
+        reply: Ang Tugon
+        delete: Burahin
+        subscribe: Mag-Subscribe
+        unsubscribe: Mag-unsubscribe
+        reply_to_topic: Tumugon sa Paksa
+        pending_review: Nakabinbin ang kasalokuyang paksa na ito para masuri. tagagamit lamang ang naglikha at mga tagapamagitan ang maaaring tignan ito.
+        hide:
+          'true': Ipakita ang paksa na ito
+          'false': Itago ang paksa na ito
+        lock:
+          'true': I-unlock ang paksa na ito
+          'false': I-lock ang paksa na ito
+        pin:
+          'true': I-unpin ang paksa na ito
+          'false': I-pin ang paksa na ito
+        related_proposals: "Ang mga kaugnay na panukala"
+    post:
+      buttons:
+        reply: Magpost ng tugon
+        edit: Baguhin
+      created: Ang iyong tugon ay nai-post
+      new: I-post ang tugon sa
+      edit: Baguhin
+      not_created: Ang iyong tugon ay hindi mai-post
+      not_created_topic_locked: Hindi ka maaaring tumugon sa naka-locked na paksa
+      edited: Ang iyong paskil ay nabago na
+      not_edited: Ang iyong paskil ay hindi mabago
+      deleted: Ang iyong paskil ay nabura na
+      deleted_with_topic: Ang huling paskil sa paksa na ito ay burado na. Ang buong Paksa ay binura din
+      cannot_delete: Hindi mo maaaring tanggalin ang paskil na hindi mo pag-aari
+      cannot_quote_deleted_post: Ang paskil na sinusubukan mong sipiin ay hindi nag-exits kahit kailan.
+    posts:
+      moderation:
+        moderate: Ang katamtaman
+        approve: Ang Aprubahan
+        spam: I-spam
+        success: Ang napili na mga paskil ay na-moderate na
+      post:
+        pending_review: Ang kasalokuyang paskil na ito ay nakabinbin sa pagtanaw. Tagagamit lamang ang makapag paskil dito at mga tagapamagitan ang makakita nito.
+        in_reply_to: ang tugon sa
+    moderation:
+      index:
+        title: "Ang katamtaman na mga kagamitan para sa %{forum}"
+  helpers:
+    submit:
+      frm_forum:
+        create: Lumikha ng Forum
+        update: I-update ang Forum
+      topic:
+        create: Lumikha ng Paksa
+        update: I-update ang Paksa
+      frm_mod:
+        create: Lumikha ng Grupo
+      frm_category:
+        create: Lumikha ng Kategorya
+        update: I-update ang Kategorya
+  simple_form:
+    labels:
+      frm_forum:
+        category: Ang Kategorya
+        title: Ang Titulo
+        name: Ang Titulo
+        description: Ang Paglalarawan
+        moderators: Ang mga tagapamahala
+        visible_outside: Ang makikita sa labas ng grupo
+      topic:
+        subject: Ang Paksa
+        locked: Ang naka-lock
+        pinned: Naka-pin
+        hidden: Ang Nakatago
+        posts:
+          text: Ang Teksto
+      frm_category:
+        name: Ang Pangalan
+      post:
+        text: Ang Teksto
+      frm_mod:
+        name: Ang Pangalan
+  time_ago_in_words: "%{time} nakaraan"
+  ago: " nakaraan"
+  ago_by: " ang nakaraaan ng"
+  by: ng
+  started_by: "Sinimulan ng "
+  are_you_sure: Sigurado ka na ba?
+  lst_post: "Ang Huling post"
+  last_post: "Ang Huling paksa"
+  back_to_forums: "Ang Magbalik sa forum"
+  pages:
+    forum_groups:
+      index:
+        create_first: Wala pang mga grupo ng tagapamagitan. Lumikha ng nagiisa na umpisa!
+  info:
+    members:
+      ok_message: Ang gumagamit ay matagumpay na nadagdag sa grupo

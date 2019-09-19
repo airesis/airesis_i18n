@@ -1,0 +1,332 @@
+pl-PL:
+  db:
+    sys_locales:
+      bs-BA:
+        description: Bośniacki
+      de-DE:
+        description: Niemiecki
+      el-GR:
+        description: Grecki
+      en-AU:
+        description: Angielski (Australia)
+      en-EU:
+        description: Angielski (Europa)
+      en-GB:
+        description: Angielski (Wielka Brytania)
+      en-IE:
+        description: Angielski (Irlandia)
+      en-NZ:
+        description: Angielski (Nowa Zelandia)
+      en-US:
+        description: Angielski (USA)
+      en-ZA:
+        description: Angielski (Rep. Południowej Afryki)
+      es-AR:
+        description: Hiszpański (Argentyna)
+      es-CL:
+        description: Hiszpański (Chile)
+      es-EC:
+        description: Hiszpański (Ekwador)
+      es-ES:
+        description: Hiszpański
+      fr-FR:
+        description: Francuski
+      hu-HU:
+        description: Węgierski
+      id-ID:
+        description: Indonezyjski
+      it-IT:
+        description: Włoski
+      jp-JP:
+        description: Japoński
+      me-ME:
+        description: Czarnogórski
+      nl-NL:
+        description: Holandia
+      pt-BR:
+        description: Portugalski (Brazylia)
+      pt-PT:
+        description: Portugalski (Portugalia)
+      ro-RO:
+        description: Rumuński
+      ru-RU:
+        description: Rosyjski
+      sh-HR:
+        description: Serbsko-chorwacki
+      sr-CS:
+        description: Serbski (Łacina)
+      sr-SP:
+        description: Serbski (Cyrylica)
+      zh-TW:
+        description: Chiński
+    proposal_types:
+      STANDARD:
+        description: Standardowy wniosek
+      POLL:
+        description: Ankieta
+      RULE_BOOK:
+        description: Zasady
+      PRESS:
+        description: Komunikaty prasowe
+      EVENT:
+        description: Organizacja imprez
+      ESTIMATE:
+        description: Kosztorys
+      AGENDA:
+        description: Plan
+      CANDIDATES:
+        description: Wybór kandydata
+      SIMPLE:
+        description: Prosty wniosek
+      PETITION:
+        description: Petycja
+    event_types:
+      meeting:
+        description: spotkanie
+      vote:
+        description: głos
+      meeting2:
+        description: spotkanie
+      election:
+        description: wybory
+    notification_categories:
+      MYPROP:
+        description: Propozycje, które piszę
+      PROP:
+        description: Propozycje, w których biorę udział
+      NEWPROP:
+        description: Nowe propozycje
+      NEWEVENT:
+        description: Nowe wydarzenie
+      GROUPS:
+        description: Grupy
+    notification_types:
+      new_public_events:
+        description: Nowe wydarzenia publiczne
+        email_subject: "Nowe zdarzenie publiczne: %{event}"
+        message: "Nowe zdarzenie publiczne: <b>%{event}</b>"
+      new_events:
+        description: Nowe zdarzenia w grupie, w których uczestniczę
+        email_subject: "Nowe wydarzenie: %{event}"
+        message: "Nowe wydarzenie <b>%{event}</b> w grupie <b>%{group}</b>"
+      new_posts_user_follow:
+        description: Nowe posty od użytkownika, którego obserwuję
+        email_subject: Jest nowy post
+        message: "%{user} dodał nowy post na swoim blogu <b>%{blog}</b>"
+      new_valutation_mine:
+        description: Nowa ocena mojej wniosku
+        email_subject:
+          one: "%{title} ma nową ocenę"
+          other: "%{title} ma %{count} nowych ocen"
+        message:
+          one: "Twój wniosek <b>%{title}</b> dostał nową ocenę"
+          other: "Twój wniosek <b>%{title}</b> dostał %{count} nowych ocen"
+      new_valutation:
+        description: Nowa ocena dla wniosku w którym uczestniczę
+        email_subject:
+          one: "%{title} ma nową ocenę"
+          other: "%{title} ma %{count} nowych ocen"
+        message:
+          one: "Wniosek <b>%{title}</b> otrzymała nową ocenę"
+          other: "Propozycja <b>%{title}</b> otrzymała %{count} nowych ocen"
+      available_author:
+        description: Użytkownik nadający się do zostania edytorem wniosku
+        email_subject:
+          one: "%{title}- Nowy edytor jest dostępny"
+          other: "%{title} - %{count} nowi edytorzy są dostępni"
+        message:
+          one: "%{user} jest dostępny aby zostać edytorem propozycji <b>%{title}</b>"
+          other: "%{count} użytkowników jest dostępnych aby zostać edytorami wniosku <b>%{title}</b>"
+      author_accepted:
+        description: Przyjęcie jako edytora wniosku
+        email_subject: "%{title} - jesteś teraz edytorem tego!"
+        message: "Jesteś teraz edytorem wniosku <b>%{title}</b>,<br/>Pamiętaj, że jako edytor powinieneś słuchać opinii innych użytkowników i ulepszać tekst zgodnie z nimi.<br/>"
+      new_authors:
+        description: Nowi edytorzy wniosków
+        email_subject: "%{title} - Nowi edytorzy"
+        message: "<b>%{user}</b> jest edytorem wniosku <b>%{title}</b>"
+      unintegrated_contribute:
+        description: Wkłady pozostają do dyskusji
+        email_subject: "%{proposal} - Wkłady wracają do dyskusji"
+        message: "Wkład który zintegrowałeś we wniosku <b>%{proposal}</b> został odłożony do dyskusji"
+      new_contributes:
+        description: "Nowe wkłady we wnioskach w których uczestniczę"
+        email_subject:
+          one: "%{title} - Nowy wkład został wstawiony"
+          other: "%{title} Tutaj jest %{count} nowych wkładów"
+        message:
+          one: "<b>%{name}</b> dodał nowy wkład do wniosku <b>%{title}</b>"
+          other: "Tutaj jest <b>%{count}</b> nowych wkładów we wniosku <b>%{title}</b>"
+      text_update:
+        description: "Aktualizacja treści wniosku do którego należę"
+        email_subject:
+          one: "%{title} został zaktualizowany"
+          other: "%{title} został zaktualizowany %{count} razy"
+        message:
+          one: "Wniosek <b>%{title}</b> został zaktualizowany"
+          other: "Wniosek <b>%{title}</b> został zaktualizowany %{count} razy"
+      new_contributes_mine:
+        description: "Nowe wkłady w moich wnioskach"
+        email_subject:
+          one: "%{title} - Nowy wkład został wstawiony"
+          other: "%{title} - Tutaj jest %{count} nowych wkładów"
+        message:
+          zero: "<b>%{name}</b> dodał nowy wkład do twojego wniosku <b>%{title}</b>"
+          one: "<b>%{name}</b> dodał nowy wkład do twojego wniosku <b>%{title}</b>"
+          other: "Jest <b>%{count}</b> nowych wkładów w twoim wniosku <b>%{title}</b>"
+      change_status:
+        description: "Zmiana w treści wniosku do którego należę"
+        email_subject:
+          wait: "%{title} - Wybierz datę głosowania"
+          waiting_date: "%{title} - Data głosowania została wybrana"
+          in_vote: "%{title} - ZAPRASZAMY DO GŁOSOWANIA!"
+          abandoned: "%{title} nie przeszedł przez debatę"
+          rejected: "%{title} został odrzucony"
+          voted: "%{title} - Głosowanie zakończone"
+          24_hours: "Debata %{title} kończy się jutro!"
+          1_hour: "Debata %{title} kończy się jutro!"
+          24_hours_vote: "Głosowanie %{title} kończy się jutro!"
+          1_hour_vote: "Głosowanie na %{title} kończy się w ciągu godziny!"
+        message:
+          waiting_date: "%{name} wybrał datę głosowania na propozycję <b>%{title}</b>"
+          in_vote: "Głosowanie na wniosek <b>%{title}</b> właśnie trwa!"
+          abandoned: "Wniosek <b>%{title}</b> nie przeszedł debaty i został porzucony"
+          rejected: "Wniosek <b>%{title}</b> został odrzucony przez uczestników"
+          voted: "%{title} - głosowanie zakończone"
+          24_hours: "Debata <b>%{title}</b> kończy się jutro!"
+          1_hour: "Debata na temat <b>%{title}</b> kończy się w ciągu godziny!"
+          24_hours_vote: "Głosowanie na <b>%{title}</b> kończy się jutro!"
+          1_hour_vote: "Głosowanie na <b>%{title}</b> kończy się w ciągu godziny!"
+      change_status_mine:
+        description: Zmiany w stanie moich propozycji
+        email_subject:
+          wait: "%{title} - Wybierz datę głosowania"
+          waiting_date: "%{title} - data głosowania została wybrana"
+          in_vote: "%{title} - ZAPRASZAMY DO GŁOSOWANIA!"
+          abandoned: "%{title} nie przeszedł przez debatę"
+          rejected: "%{title} został odrzucony"
+          voted: "%{title} - głosowanie zakończone"
+          24_hours: "Debata %{title} kończy się jutro!"
+          1_hour: "Debata %{title} kończy się w ciągu godziny!"
+          24_hours_vote: "Głosowanie na %{title} kończy się jutro!"
+          1_hour_vote: "Głosowanie na %{title} kończy się w ciągu godziny!"
+        message:
+          wait: "Twoja propozycja <b>%{title}</b> została przyjęta i czeka, na wybór daty głosowania"
+          waiting_date: "%{name} wybrał datę głosowania na propozycję <b>%{title}</b>"
+          in_vote: "Twoja propozycja <b>%{title}</b> jest teraz przegłosowywany!"
+          abandoned: "Twoja propozycja <b>%{title}</b> nie przeszła debaty i została porzucona, przykro nam"
+          rejected: "Twoja propozycja <b>%{title}</b> została odrzucona przez uczestników, przykro nam"
+          voted: "<b>%{title}</b> - Głosowanie zakończone"
+          24_hours: "Debata na temat <b>%{title}</b> kończy się jutro!"
+          1_hour: "Debata na temat <b>%{title}</b> kończy się w ciągu godziny!"
+          24_hours_vote: "Głosowanie na <b>%{title}</b> kończy się jutro!"
+          1_hour_vote: "Głosowanie na <b>%{title}</b> kończy się w ciągu godziny!"
+      proposal_phase_ending:
+        description: "Propozycja debaty lub głosowania skończy się wkrótce"
+        email_subject:
+          24_hours: "Debata %{title} kończy się jutro!"
+          1_hour: "Debata %{title} kończy się w ciągu godziny!"
+          24_hours_vote: "Głosowanie na %{title} kończy się jutro!"
+          1_hour_vote: "Głosowanie na %{title} kończy się w ciągu godziny!"
+        message:
+          24_hours: "Debata <b>%{title}</b> kończy się jutro!"
+          1_hour: "Debata na temat <b>%{title}</b> kończy się w ciągu godziny!"
+          24_hours_vote: "Głosowanie na <b>%{title}</b> kończy się jutro!"
+          1_hour_vote: "Głosowanie na <b>%{title}</b> kończy się w ciągu godziny!"
+      new_posts_group_follow:
+        description: Nowe posty na ścianach grup, które obserwuję
+        email_subject: Nowy wpis
+      new_posts_group:
+        description: Nowe posty na ścianac grup do których należę
+        email_subject: Nowy wpis
+        message: "%{user} dodał nowy post na swoim blogu <b>%{group}</b>"
+      new_public_proposals:
+        description: Nowe propozycje dodane w otwartej przestrzeni
+        email_subject: "%{proposal}"
+        message: "Nowa propozycja <b>%{proposal}</b> dodana do Open Space"
+      new_proposals:
+        description: Nowe propozycje w grupie
+        email_subject: "%{proposal}"
+        message: "Nowe wydarzenie <b>%{proposal}</b> w grupie <b>%{group}</b>"
+      new_participation_request:
+        description: Nowe zgłoszenie uczestnictwa
+        email_subject:
+          one: "Masz nowe zgłoszenie uczestnictwa"
+          other: "Masz %{count} nowych zgłoszeń uczestnictwa"
+        message:
+          one: "%{user} spytał o uczestnictwo w grupie <b>%{group}</b>"
+          other: "%{count} spytał o uczestnictwo w grupie <b>%{group}</b>"
+      new_blog_comment:
+        description: Nowy komentarz na moim blogu
+        email_subject:
+          one: "Nowy komentarz w blogu"
+          other: "%{count} nowe komentarze na twoim blogu"
+        message:
+          one: "<b>%{user}</b> skomentował Twój post <b>%{title}</b>"
+          other: "<b>%{count}</b> skomentował Twój post <b>%{title}</b>"
+      new_forum_topic:
+        message:
+          one: "Temat '%{topic_subject}' została utworzona w <b>%{group_name}</b>"
+          other: "%{count} tematów zostało stworzonych w <b>%{group_name}</b>"
+        description: Nowe wątki na forach
+        email_subject: "Temat '%{topic_subject}' został stworzony w %{group_name}"
+      new_comments_mine:
+        description: Nowe komentarze w moich propozycjach
+        email_subject: Nowy komentarz w mojej propozycji
+        message: "%{name} dodał(a) komentarz w dyskusji o twoim projekcie %{title}"
+      new_comments:
+        description: Nowe komentarze w dyskusjach w których uczestniczę
+        email_subject: "%{title} - Nowy komentarz"
+        message: "%{name} dodał komentarz w dyskusji w której bierzesz udział %{title}"
+      contribute_update:
+        description: Aktualizacja tekstu już oszacowanego wkładu
+        email_subject: "%{title} - Wkład, jaki wcześniej oceniano zmienił się"
+        message: "</b>%{name}</b> zmienił wkład w <b>%{title}</b>, które zostały wcześniej oszacowane. Sprawdź, jeśli chcesz zmienić swoją opinię."
+    proposal_categories:
+      no_category:
+        description: Bez kategorii
+      education:
+        description: Edukacja, badania
+      health:
+        description: Zdrowie, Higiena
+      information:
+        description: Informacja, Komunikacja
+      commerce:
+        description: Komercja, Finanse, Podatki
+      work:
+        description: Praca i Samorealizacja
+      security:
+        description: Bezpieczeństwo i sprawiedliwość
+      world:
+        description: Świat, Migracja
+      minorities:
+        description: Mniejszości, Kalectwo
+      ethics:
+        description: Etyka, Solidarność, Duchowość
+      sexuality:
+        description: Seksualność, Rodzina, Dzieci
+      culture:
+        description: Sztuka i Kultura
+      entertainment:
+        description: Społeczeństwo, Sport, Rozrywka
+      organization:
+        description: Komunikacja wewnętrzna
+      agricolture:
+        description: Woda, Jedzenie, Rolnictwo
+      territory:
+        description: Terytorium, Natura, Zwierzęta
+      mobility:
+        description: Urbanistyka, Mobilność, Budowa
+      energy:
+        description: Energia, Klimat
+      industry:
+        description: Przemysł, Materiały i Marnotrawstwo
+      democracy:
+        description: Demokracja, Instytucje
+    vote_types:
+      favorable:
+        description: Korzystne
+      neutral:
+        description: Neutralny
+      dissenting:
+        description: Odrębne

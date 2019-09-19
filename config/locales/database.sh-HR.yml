@@ -74,16 +74,16 @@ sh-HR:
     notification_types:
       new_public_events:
         description: Novi javni događaji
-        email_subject: 'Novi javni događaj: %{event}'
-        message: 'Novi javni događaj: <b>%{event}</b>'
+        email_subject: "Novi javni događaj: %{event}"
+        message: "Novi javni događaj: <b>%{event}</b>"
       new_events:
         description: Novi događaji u grupama u kojima učestvujem
-        email_subject: 'Novi događaj: %{event}'
-        message: 'Novi događaj <b>%{event}</b> u grupi <b>%{group}</b>'
+        email_subject: "Novi događaj: %{event}"
+        message: "Novi događaj <b>%{event}</b> u grupi <b>%{group}</b>"
       new_posts_user_follow:
         description: Novi postovi od korisnika kojeg pratim
         email_subject: Novi post
-        message: '%{user} je dodao/la novi post u svoj blog <b>%{blog}</b>'
+        message: "%{user} je dodao/la novi post u svoj blog <b>%{blog}</b>"
       new_valutation_mine:
         description: Nova ocjena mog prijedloga
       new_valutation:

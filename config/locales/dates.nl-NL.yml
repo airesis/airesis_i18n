@@ -1,0 +1,105 @@
+nl-NL:
+  calendar:
+    monthNames:
+      - Januari
+      - Februari
+      - Maart
+      - April
+      - Mei
+      - Juni
+      - Juli
+      - Augustus
+      - September
+      - Oktober
+      - November
+      - December
+    monthNamesShort:
+      - Jan
+      - Feb
+      - Mar
+      - Apr
+      - Mei
+      - Jun
+      - Jul
+      - Aug
+      - Sep
+      - Okt
+      - Nov
+      - Dec
+    dayNames:
+      - Zondag
+      - Maandag
+      - Dinsdag
+      - Woensdag
+      - Donderdag
+      - Vrijdag
+      - Zaterdag
+    dayNamesShort:
+      - Zo
+      - Ma
+      - Di
+      - Wo
+      - Do
+      - Vr
+      - Za
+    today: 'vandaag'
+    month: 'maand'
+    week: 'week'
+    day: 'dag'
+    firstDay: 0
+    timeFormat: 'h:mm TT{ - [ddd] [dd] h:mm TT}'
+  date:
+    formats:
+      short: "%b %d"
+      long: "%d %B %Y"
+  time:
+    formats:
+      default: "%d %b %Y om %I:%M %p"
+      long: "%A %d %B %Y om %I:%M %p"
+      long_date: "%A %d %B %Y"
+      long_date_time: "%A %d %B %Y om %I:%M %p"
+      from_long_date_time: "Vanaf %A %d %B %Y om %I:%M %p"
+      until_long_date_time: "Tot %A %d %B %Y om %I:%M %p"
+      short: "%d %b %Y"
+      two_rows: "%d %b %Y <br/> %I:%M %p"
+      weekday: "%a om %I:%M %p"
+      month: "%B"
+      dayandmonth: "%d/%m"
+      hour: "%I:%M %p"
+      yesterday_at: "gisteren om %I:%M:%p"
+      textfield: "%d/%m/%Y %I:%M %p"
+      datepicker: "%Y-%m-%d"
+      datetimepicker: "%Y-%m-%d %H:%M"
+    am: "am"
+    pm: "namiddag"
+    left:
+      seconds:
+        one: "1 seconde"
+        other: "%{count} seconden"
+      minutes:
+        one: "1 minuut"
+        other: "%{count} minuten"
+      hours:
+        one: "1 uur"
+        other: "%{count} uren"
+      days:
+        one: "1 dag"
+        other: "%{count} dagen"
+      months:
+        one: "1 maand"
+        other: "%{count} maanden"
+  datetime:
+    added_on: "op %{date}"
+    distance_in_words:
+      half_a_minute: een halve minuut geleden
+      less_than_x_seconds:
+        one: minder dan 1 seconde geleden
+        other: minder dan %{count} seconden geleden
+      over_x_years:
+        one: meer dan 1 jaar geleden
+        other: meer dan %{count}  jaren geleden
+  label:
+    from: "van"
+    to: "tot"
+  countdown: "Vor {m<}{mn} {ml} geleden{m>} {s<}pas geleden{s>}"
+  countdown2: "{y<}{yn} {yl}{y>} {o<}{on} {ol}{o>} {d<}{dn} {dl}{d>} {h<}{hn} {hl}{h>} {m<}{mn} {ml}{m>} {s<}paar seconden{s>}"

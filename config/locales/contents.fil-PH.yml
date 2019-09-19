@@ -1,0 +1,474 @@
+fil-PH:
+  home:
+    intro:
+      title: "Ang unang panlipunang network para sa E-Democracy sa mundo"
+      description: "Kasangkapan ng tuwirang demokrasya na isinilang upang magpasya at aktibong kumolekta sa mga panukala at ideya na nabubuo kahit saan para sa kahit anong tema."
+      paragraph_1:
+        title: "Ang Panlipunang Network para sa E-Democracy"
+        content_html: |
+          <p>Ang Airesis ay isang <a href="http://en.wikipedia.org/wiki/Free_software"> libreng software plataporma</a>, binuovng isang koponan ng mga Italian developer at kontribyutor, upang paganahin ang mga komunidad at grupo upang ayusin ang kanilang sarili
+          Sa isang produktibong pamaraan ayon sa prinsipyo ng <a href="http://en.wikipedia.org/wiki/Direct_democracy"
+          target="_blank">direct democracy</a> at paglahok.</p>
+
+          <p>Upang makamit ang layunin na ito, ang aplikasyon ay naka-desinyo na bilang sistema ng multifunctional, kung saan pinagsama lahat ang mga kagamitan na maaring makatulong sa pagbabago ng komunidad, Sa partikukar "social" at deliberative na kagamitan.</p>
+
+          <p>Na ang <strong>social tools</strong>, Ang Airesis ay nag-aalok ng blog at sistema ng pag-promote ng pagtatanghal at pagpupulong sa magkakaugnay na pag-iiskedyul.
+          Na ang <strong>deliberative tools</strong> kasama dito ang mga lugar para sa koleksyon at pag-aaral ng mga panukala at inisyatibo,
+          at sistema ng pagboto ay naglayon sa eleksyon ng mga kandidato. Ang plataporma ay pinahintulutan rin na lumikha ka ng grupo na may access sa mga patakaran ng regulasyon at naka-customize na permiso.
+          Dahil ang layunin ng Airesis ay pasiglahin ang partipasyon, mahusay na atensyon ang ginugol upang mapalaki ang intuitiveness sa kabuuang plataporma.
+          Ang pagbabago ng pilosopiya ay nakatuon sa patuloy na pagbabago, isang uri ng ebolusyon sa proseso nakabase sa feedback ng mga gumagamit.
+          Ang koponan ng pagbabago ay ay magagamit upang makamit ang mga kinakailangan ng komunidad kung saan gustong gamitin ang software
+          ayon sa espiritu ng direktang demokrasya.</p>
+      paragraph_3:
+        title: "Ang mga prinsipyo at pangunahing pinahahalagahan"
+        content_html: |
+          <p>Ang Airesis ay open source na gamit sa pagdedesisyon para sa e-democracy, 
+          strongly oriented sa paglutas ng problema at idinisenyo para i-maximize ang lakas pang-ebolusyon
+          ng <a heref="http://en.wikipedia.org/wiki/Collective_intelligence" target="_blank">sama-sama na katalinuhan.</a>.</p>
+          <p>binuo ng mga boluntaryo base sa non-profit na mga prinsipyo, ang Airesis ay ginawa para sa mas mabilis,
+          maalam, pamamahagi at sa tulong-tulong na mga desisyon.<br/>
+          Ito ay base sa mg sumusunod na prinsipyo:</p>
+          <ul>
+          <li><strong>Partisipasyon</strong><br/>
+          Ang mga kasangkot na mamamayan ay nangangahulugan na maraming enerhiya at puntos ng mga pananaw na magagamit.
+          Sa direktang partisipasyon lamang magiging posible na mag-imbestiga sa mga problema at maintindihan kung ano ang kagustuhan
+          ng mga tao. Ang partisipasyon ay kakanyahan ng demokratikong mga desisyon.
+          </li>
+
+          <li><strong>Aninaw at Seguridad</strong><br/>
+          Kapag walang aninaw, ang mga patakaran ay madaling dayain at ang demokrasya ay mabilis na mag-degenerate.
+          Ang aninaw ay nangangahulugan din ng kabukasan, abilidad na tumanggap: sa kadahilanang ito ang Airesis ay pinahihintulutan din ang mga
+          hindi rehistradong manggagamit na tingnan ang laman ng site.
+          Ang source code ng software ay "aninaw" din, sa pagiging open source.</li>
+
+          <li><strong>Nakabubuong Usapan</strong><br/>
+          Walang sinuman ang nagmamay-ari ng tamang mga sagot. Sa paggamit ng akmang kasangkapan, mga karagdagang ideya na iminungkahi
+          ng maraming tao ay mas nagbubunga kaysa sa paggawa ng ikaw lamang.</li>
+
+          <li><strong>Pantay na mga oportunidad</strong><br/>
+          Inilayon kung paanong epektibo ang pagkakapantay-pantay, sa tuntunin ng mga iminungkahing oportunidad, ay pwedeng ituloy ng sistema.
+          </li>
+
+          <li><strong>Kakayahang bumaluktot</strong><br/>
+          Bawat grupo ay may sariling pangangailangan, bawat mungkahi ay naiiba, bawat manggagamit ay may sariling pangangailangan.</li>
+      paragraph_4:
+        title: "Ang ating layunin: direkta at makilahok sa demokrasya"
+        content_html: |
+          <p>Nakabalangkas bilang isang panlipunang network, Pinahihintulutan ng Airesis ang mga gumagamit upang kumasundo ng ibang tao ayon sa kanilang mga interes at magpa-unlad.
+          ang mga kalidad ng bawat isa upang pag usapan at ayunan ang anumang uri ng panukala.
+          Ang arkitektura at ang sentro ng pagpapahalaga na mag-pahintulot upang pag ibayuhin ang layunin ng panlipunan at nakakabuting debate
+          sa mga isyu na may kinalaman sa teritoryo, panlipunang promosyon, mga polisiya ng sektor at samakatuwid maka paglabas ng pinakamagaling na mga ideya.</p>
+          <p>Ang Airesis ay nagbibigay ng mga tool sa:
+          <ul>
+          <li>Pagtataguyod ng mga ideya at mga karanasan ng bawat kasapi</li>
+          <li>I-grupo ang mga inisyatibo, mga panukala ng bawat mga gumagamit at ilahad ang mga ito sa komunidad</li>
+          <li>Pagbibigay ng mga tool para sa debate sa iba-ibang uri ng inisyatibo</li>
+          <li>Pagtataguyod ng pinagsamang pagbabago ng mga panukala</li>
+          <li>Pamahalaan ang boto sa iba-ibang uri ng inisyatibo at mga panukala.</li>
+          <li>Pagtataguyod ng mga panlahat na kaganapan at mga pagpupulong</li>
+          <li>Pamahalaan ang mga aplikasyon ng mga kandidato at ang mga katabing operasyon sa boto</li>
+          <li>Pamahalaan ang mga limitadong sub-groups, pinamamahalaan ng tiyak na mga regulasyon at mga pahintulot, ngunit mayroon nang lahat ng tools na ibibigay ng plataporma</li>
+          </ul>
+          </p>
+      paragraph_5:
+        title: "Mga katangian at mga tampok"
+        content_html: |
+          <p>Ang grupo ng nag-dedevelop sa Airesis ay bumubuo ng lahat ng mga tungkulin at mga tools
+          <strong>ayon sa mga pangangailangan ng mga grupo</strong> na nakakapagbigay benepisyo na plataporma.
+          Ang parehas na grupo na nag-dedevelop ay naroon sa Airesis at gumagawa ng mga desisyon
+          <strong>umaayon</strong> sa hinaharap na mga implentasyon.</p>
+          <p>Ang aktwal na istruktura ay nagpapahintulot sa mga rehistradong gumagamit na mabilang sa <strong>bukas na espasyo</strong>,
+          upang makalahok sa isa sa <strong> mga grupo</strong> na naroon na o upang magbuo ng isa pang bago.
+          Kahit sa loob ng grupo o sa bukas na espasyo ay posibleng mag lathala ng mga inisyatibo / mga panukala, <strong>suriin ang mga ito</strong>, i-edit
+          ang pinagsaluhan na <strong>buod</strong> at pagkatapos <strong>iboto ang mga ito</strong>. Sa parehong konteksto ikaw ay makalikha ng mga kaganapan tungkol <strong>sa mga pagpupulong</strong> at <strong>boto</strong>.
+          </p>
+      paragraph_6:
+        title: "Tampok na mga batayan"
+        content_html: |
+          <ul>
+          <li><strong>Mag-sign up at mag-login</strong> <br>
+          mula sa bawat pahina o kahit bago magdagdag ng komento o kontribusyon. Posible din na mag-login gamit ang Facebook, Google+, Meetup o Linkedin
+          </li>
+          <li><strong>Pampublikong lugar o pribadong lugar para sa mga grupo</strong> (<a
+          href="http://youtube.be/n_ZruAcNkVk"target="blank"> Marami pang info sa video-
+          tutorial na ito</a>) 
+          <br>
+          Ang pag-sign up ay mag papalahok sa iyo sa Open Space, upang makasali sa isa sa mga grupo na naroon na o lumikha ng bago.
+          </li>
+          <li><strong>Paglikha ng mga panukala at mga debate</strong>
+          Pareho sa mga grupo at sa Open Space ito ay posible na mag-post ng mga panukala/inisyatibo at tumanggap ng mga kontribusyon,
+          mga komento at mga pagsusuri na i-edit ang pinagsamang buod ng panukala na kakatamo ng pinakamalaking posibleng konsensus.
+          </li>
+          <li><strong>Korum at mga panukala sa boto</strong> <br>
+          Ang bawat panukala ay mayroong sariling korum. Ang pagboto ay nagaganap sa kagustuhan ayon sa pamamaraang Schulze.
+          </li>
+          <li><strong>Mga kaganapan/kalendaryo ng pamamahala</strong> <br>
+          Posible na mag-iskedyul ng mga kaganapan tungkol sa mga pagpupulong, pagboto, eleksyon ng mga kandidato sa loob ng mga grupo o sa Open Space.
+          </li>
+          <li><strong>Pahayagang-liham</strong> ng mga kaganapan at mga balita tungkol sa plataporma</li>
+          <li><strong>Serbisyo ng Pag-mensahe</strong> at <strong>mga e-mail notifications</strong>
+          (naka-customize na ng gumagamit)
+          </li>
+          <li><strong>Uploading at pamamahala ng mga dokumento</strong> at mga attachment sa mga panukala (ang feature ay kasalukuyang hindi gumagana)
+          </li>
+          <li><strong>mga Poll</strong> pareho sa panloob at panlabas gamit ang pamamaraan sa pag-boto na Schulze.</li>
+          <li><strong>Mobile App</strong></li>
+          </ul>
+      paragraph_7:
+        title: "Panukala at tool sa debate"
+        content_html: |
+          <p>ang sentro ng software ay nakapokus sa <strong>tool ng pakikipanayam</strong> kung saan ay nagpapahintulot upang makalahok sa paggawa ng burador ng panukala, magtakda ng karaniwang layunin, mag-ambag sa paghahanap para sa alternatibong mga solusyon at dahlin sa yugto ng pagboto ang resulta ng gawaing ito upang ang panukala ay makatanggap ng pinaka posibleng konsensus at ang pinakamahusay at ang paglitaw ng pinaka ibinahagi na solusyon.</p>
+          <p>Ang proseso ay nagtataglay ng 3 hakbang:</p>
+          <ul>
+          <li><strong>Ang May-akda ang lilikha ng panukala</strong>sumusunod sa wizard, matapos kung saan ay ilalathala ng sistema ang tekst sa seksyon<strong>"In debate"</strong>.
+          Sa mga panahong ito ang panukala ay maaaring bahagyang baguhin ng mga patnugot sa batayan na ibinibigay ng mga ebalwasyon at kontribusyon na idinagdag ng ibang gumagamit.</li>
+          <li>Kapag ang <strong>korum ng debate ay narating na</strong> ang panukala ay mapupunta sa seksyon <strong>"Voting"</strong> sa panahong ito
+          ang teksto ng mga panukala ay hindi maaaring magbago, ang mga patnugot ay mamimili ng <strong>kaganapan sa pagboto</strong>
+          (yugto ng pagboto)
+          kasama noong mga naplano na o makalikha ng panibago gamit ang kalendaryo.<br>
+          Lahat ng karapat-dapat na mga gumagamit (naaayon sa mga patakaran na itinatag ng grupo) ay maaaring <strong>bumoto</strong> habang nasa tukoy na panahon.</li>
+          <li><strong>Sa pagtatapos ng boto</strong>kakalkulahin ng sistema ang <strong>mga resulta</strong>at ilalagay ang panukala sa <strong>"Naibotong"</strong> seksyon.</li>
+          <li>Kung sakali ang <strong>korum ng debate ay hindi nakamit</strong>, ang panukala ay mapupunta sa <strong>"Pinabayaan na"</strong> seksyon, kung saan maaari itong <strong>ibalik muli sa debate</strong> upang magsimula uli ng bagong sirkulo ng buhay.</li>
+          </ul>
+          <p>Lalong naka-aakit ay ang adapsiyon ng <strong>lugar ng talakayan</strong> para sa bawat nalathalang panukala na nagpapahintulot sa panukala mismo na bahagyang mabago ng mga patnugot (gaya ng <a
+          href="http://en.wikipedia.org/wiki/Wiki" target="blank">wiki</a>)
+          ayon sa mga konsensus na nakuha ng indibidwal na mga kontribusyon.
+          Ang lugar ng talakayan ay may dalawang bahagdan na may yupi, ang una ay idinisenyo upang mangolekta ng mga kontribusyon, ang ikalawa mga personal na konsiderasyon sa nauna.
+          Ang unang bahagdan ay nagpapatupad ng mekanismo upang dagdagan ang ganap na gulang ng panukala
+          <strong>Isanama dito ang pinaka pinahalagahan na mga kontribusyon</strong>.</p>
+          <p>Ang <strong>korum ng debate</strong>, na kailangan upang iangat ang panukala sa yugto ng botohan, ay binubuo ng tatlong magkakaibang mga parametro:</p>
+          <ul>
+          <li><strong>Mga kalahok</strong>: bilang ng mga tao na nakilahok sa debate;
+          </li>
+          <li><strong>Oras ng talakayan</strong>: yugto ng oras kung saan ang panukala ay nanatili sa bahagi debate (simula sa pagpapasa nito);
+          </li>
+          <li><strong>Ganap na gulang</strong>: Bahagdan ng mga kalahok na nagpapahayag na ang panukala ay handa na para botohan;
+          </li>
+          </ul>
+          <p>Ang pagsusuri ng "<strong>ganap na gulang</strong>" ng panukala ay isang pormal na kilos ng mga kasapi ng komunidad
+          (ginagawa habang nasa panahon ng talakayan), kung saan ay ipinahahayag nila ang <strong>pagiging angkop</strong> ng teksto ng panukala para <strong>sa susunod na yugto ng botohan</strong>.</p>
+          <p>Mayroong<strong>magkakaibang uri ng korum</strong>: Depende sa kaguluhan ng paksa, ang mga parametro(partisipasyon, oras at ganap na gulang) ay mag-iiba.
+          Para sa mga panukala sa loob ng korum ng Open Space na tinutukoy ng sistema ng administrador, habang ang <strong>korum ng mga panukala na nailathala sa loob ng mga grupo ay malayang bahagyang mabago nang mga administrador ng grupo</strong>.
+          </p>
+          <p>Ang mga panukala ay <strong>itinatag</strong>, <strong>inuri</strong>at
+          <strong>madaling hanapin</strong> sa iba't-ibang paraan:</p>
+          <ul>
+          <li>depende sa kanilang <strong>status</strong> ("Nasa debate," "Bumoboto", "Naiboto", "Pinabayaan")</li>
+          <li>ayon sa pre-defined <strong>mga kategorya</strong> ("Trabaho", "Kalusugan", "Edukasyon", etc.)</li>
+          <li>depende sa <strong>uri</strong> ng panukala: pamantayan, regulasyon, tantiyahin, pangungusap, teknikal na desisyon, ect ...</li>
+          <li>gamit ang <strong>mga libreng tag</strong>kung saan maaaring ipasok sa teksto ng panukala.</li>
+          </ul>
+      paragraph_8:
+        title: "Pagboto sa pamamaraang Schulze and Tuwirang Demokrasya"
+        content_html: |
+          <p>Kapag ang haba ng oras na nakatakda para sa debate ay nagtapos at sapat na bilang ng tao ay umayon sa ganap na gulang ng panukala (ang mga kondisyong ito ay mag iiba-iba ayon sa korum ng debate), ang panukala ay mapupunta sa <strong>yugto ng pagboto</strong>.</p>
+          <p>Sa puntong ito ang panukalang ito ay <strong>nakahinto</strong> at ang patnugot ay kinakailangang <strong>mamili ng balangkas ng oras</strong> kung saan ang grupo ay maaaring bumoto sa panukala.
+          Ang kaganapan sa "botohan" ay itinatala sa kalendaryo ng grupo at <strong>ipagbigay alam</strong> sa lahat ng mga kasapi ng grupo.</p>
+          <p>Sa oras na ang boto bagong abiso ang ipadadala kung saan ay ipinapakita ang panukala na iboboto at ang pahina kung saan ang boto ay naganap. Sa puntong ito ang bawat kalahok, matapos na mabasa ang panukala at ang listahan ng mga posibleng solusyon, ay maaaring magpasa ng kanilang kagustuhan.
+          <strong>aayusin</strong> ang mga solusyon na ito mula sa pinaka nagustuhan hanggang sa pinaka hindi at gayon ay hahayaan ang pagproseso ng <a href="http://it.wikipedia.org/wiki/Metodo_Schulze"
+          target="blank">Pamamaraang Schulze</a>upang malaman ang solusyon na gusto ng ng grupo.</p>
+          <p>Sa pagtatapos ng botohan ang panukala ay mapupunta sa <strong>"Naiboto"</strong>kalagayan, kung saan ay posibleng muling pag-aralan ang boto kahit anong oras.</p>
+      paragraph_9:
+        title: "Pagtataguyod ng ibinahaging mga panukala at May Pakikilahok na Demokrasya"
+        content_html: |
+          <p>Ang Airesis ay binuo upang itaguyod ang pagbabahagi ng mga ideya at mga opinyon s loob ng komunidad. Upang ito ay makamit, ang plataporma ay nag aalok ng iba't-ibang tool:</p>
+          <ul>
+          <li>ang <strong>panukala ay pampubliko sa default</strong>
+          </li>
+          <li>ang paglalathala ng mga panukala sa <strong>mga social network</strong>, sa Open Space ng Airesis o sa mga panlabas na blog at mga forum;
+          </li>
+          <li>ang <strong>pansariling blog</strong> kung saan ang mga kasapi ng komunidad ay maaaring ipresenta ang kanilang sarili at mag paskil ng info at mga patalastas sa balita ng mga grupo na sila ay kasapi, bilang dagdag sa nai-bahaging mga ideya/opinyon;
+          </li>
+          <li>Ang posibilidad ng pagbuo ng <strong>mga pagpupulong</strong> para sa mga kasapi ng komunidad;
+          </li>
+          <li>ang posibilidad na <strong>tandaan ang mga makawiwiling mga kaganapan</strong> sa nai-bahagi na kalendaryo;
+          </li>
+          <li>ang pagdalo ng <strong>board ng talakayan</strong> sa bawat panukala, kung saan ang pagdagdag ng mga kontribusyon na maaaring isama ng mga patnugot sa teksto ng panukala, ayon sa mga pagsusuring natanggap;
+          </li>
+          <li>ang sistema ng reputasyon na nagbibigay ng gantimpala sa pakikilahok, nakakabuting mga debate at paglilinaw, paghimok sa pagbibigay solusyon sa problema
+          </li>
+          <li>ang pagkakataon na maanyaya ang kanilang mga kontak na lumahok sa talakayan
+          </li>
+          <li>ang pagkakataon na mag-apply na maging mga taga-patnugot ng mga panukala;</li>
+          <li>ang paglutas sa mga panukala sa pamamagitan ng boto ng mga sertipikadong kasapi.
+          </li>
+          </ul>
+      paragraph_10:
+        title: "Pansamantalang kawalan ng lagda, sikretong botohan at pagsuri ng kwenta sa botohan"
+        content_html: |
+          <p>Isa sa mga sariling katangian ng Airesis ay ang <strong>mga grupo ay makakapamili kung ang debate ng panukala ay magiging di-kilala o hindi</strong>.</p>
+
+          <p>kung ang kawalan ng pagkakakilanlan ay pinagana, ang mga may-akda at komentarista ng mga panukala ay mai-tuturo sa pamamagitan ng sagisag.
+          Ang katangian na ito ay magpa-pahintulot sa iyo upang suriin ang mga panukala, mga kritisismo at suhestiyon ayon lamang sa kanilang nilalaman, na walang pinapanigan,
+          Wala ang "pangalan" ng mga may-akda at ang dynamics ng interpersonal na impluwensya ng pagkagusto/pag-ayaw sa debate.
+          </p>
+
+          <p>Sa anumang kaso, sa dulo ng debate, at pagkatapos ng boto, ang mga kalahok ay ipa-kikita sa kanilang totoong pangalan upang maging posible na suriin ang pakikialam ng bawat isa sa kanila.</p>
+
+          <p>Ang pagpipilian na ito ay maaaring gamitin din sa yugto ng botohan, kaya posibleng pumili kung ito ay magaganap sa bukas o sikterong balota.
+          Mahalaga, lalo na sa kaso ng sikretong balota, ay ang abilidad na mapatunayan ang pagtatala ng mga boto at ang kawalan ng pandaraya.
+          Ito ay posible sa pamamagitan ng sistema ng maaaring i-audit na botohan na ipinatutupad ng Airesis.
+          </p>
+      paragraph_11:
+        title: "Pamamahala sa mga grupo at tungkulin ng mga gumagamit"
+        content_html: |
+          <p>Ang Aires ay nagpapatupad ng isang nababagay na sistem upang pamahalaan <strong>ang mga pahintulot</strong> kung saan ang sinumang miyembro ay maaaring magkaroon sa loob ng grupo upang magawa nating ilaan ang sumusunod <strong>roles</strong>: </p>
+          <ul>
+          <li>Tingnan ang mga pribadong panukala</li>
+          <li>Tumulong sa mga panukala</li>
+          <li>Maglakip ng mga panukala sa grupo</li>
+          <li>Maglathala sa Home Page ng grupo</li>
+          <li>Gumawa ng mga kaganapan at boto</li>
+          <li>Pagsuporta sa mga panukala sa pangalan ng grupo</li>
+          <li>Magdagdag ng mga kalahok sa grupo<li></li>
+          <li>Humirang ng mga miyembro para sa eleksiyon</li>
+          </ul>
+          <p> Ang Airesis ay pinapahintulutan ang mga grupo na gamitin ang mga ito na mamili
+          <strong>ng mga setting na naaangkop sa kanilang pangangailangan</strong> at sa kanilang panloob na mga regulasyon. Ito ay
+          posible, halimbawa, pinapayagan ang pag-access sa tiyak na mga function lamang sa mga
+          <strong>aktibong user at/o sertipiko</strong>, o ang mga mayroong <strong>partikular na ginagampan</strong>.
+          Mayroon ding sapat na kalayaan sa mga kailangan sa pamamahala na ang mga panukala ay dapat matugunan upang ma-access ang boto.
+          </p>
+          <p>Ang isa pang mahalagang tampok ay ang <strong>pagkakahati-hati nito ng mga lugar/grupo ng nagtatrabaho</strong> na ginawang 
+          posible ang paglikha ng mga lugar sa loob ng mga grupo at maging karapat-dapat na humawak ng bawat lugar ng mga kalahok na magtatalakay ng mga panukala tungkol sa partikular na lugar. Bawat kalahok ay matatalaga sa
+          <strong> mga partikular na tungkulin para sa bawat lugar </strong> nang sa ganun ay gawin itong mas nababaluktot na tool. </p>
+      paragraph_12:
+        title: "Mga grupo"
+        content_html: |
+          Ang access sa mga "Grupo" ay maaaring magawa alinman sa pamamagitan ng pagpindot sa 'paghahanap sa mga grupo' mula sa bar sa itaas o mula sa kaliwang hanay ng home page staff.
+          <p> Pagpindut sa mga pangalan ng isang grupo, buksan ang home page nito (presentasyon + mga balita / mga blog). Sa lugar ng 
+          mga panukala 
+          ay ipinapakita kung ano ang pinagpasyahan ng grupo na gawing publiko, at makita ang mga panloob na (mga panukala at mga pribadong pangyayari), Kailangan mong tanungin ang lokal na tagapangasiwa na makapasok na ang grupo. </p>
+          <p> Ang lugar na iminungkahi ay nahahati sa apat na tab ("Sa debate", "Sa boto", "Pagboto", "Naiwan"),
+          kung saan 
+          itinalaga ang mga panukala na naaayon sa kanilang katayuan. Ang pagpindut sa pamagat ng isang panukala, nagbubukas ito, na nagpapakita ng teksto at ang lugar ng mga kontribusyon. Ang mga panukala ay maaaring higit pang salain sa pamamagitan ng pagpili ng mga 
+          Kategorya o 
+          Tag, 
+          upang ipakita lamang ang mga panukala sa mga paksa na interesado ka.</p>
+          <p> Bawat miyembro ng komunidad ay maaaring magpromote ng bagong panukala: upang gawin ito ay pindutin ang pindutan na "Gumawa ng Bagong Panukala", at ito ay lilitaw sa form upang punan.</p>
+          <p> Sa pag-access sa loob ng isang panukala sa ilalim ng diskusyon, ang mga miyembro ng komunidad ay maaaring makipag-ugnayan sa ito alinsunod 
+          sa kanilang mga kasanayan, kadalubhasaan at opinyon.
+          <h3 id="Spazio_comune">Buksan ang Espasyo</h3>
+          </p>Ang pagpindut sa "Bukas ang Espasyo" upang ma-access ang lugar na inilaan para sa pamamahala ng mga panukala 
+          na maaaring may
+           karaniwang interes.</p>
+          <p> Ang lugar ng mga panukala ng grupo ay mukhang magkapareho sa mga Grupo na iyon; Ito ay naglalahad ng isang 
+          "pribadong 
+          kalendaryo" na nagpapakita ng lahat ng mga pampublikong kaganapan, karamihan sa mga pribadong kaganapan na may kinalaman sa grupo.</p>
+          <p> Sa Bukas na Espasyo ay isa ding tab na "kalendaryo", kung saan itinampok ang mga pangyayari para sa 
+          buong 
+          komunidad (na nagsesenyas ng mga pangyayari, pulong, pagboto). Sa pagpindut sa isang tala, buksan ang pahina sa kaganapan at, depende sa uri, maaari kang makipag-ugnayan dito  (hal. sa pamamagitan ng pagsali sa isang pagboto o pagsesenyas sa pagpayag ng mga dumalo sa pulong).</p>
+    whatis:
+      title: "Ang unang Panlipunang network para sa e-democracy sa mundo"
+      description: "Isang instrumento ng tuwirang demokrasya na isinilang upang magdesisyon at kumilos ng pinagsama-sama sa mga panukala at mga ideya na nabubuo kahit saan para sa anumang tema."
+      paragraph_1:
+        title: "Ang Panlipunang Network para sa E-Democracy"
+        content_html: |
+          <p>Ang Airesis ay isang <a dref="http://en.wikipedia.org/wiki/free_software">plataporma ng libreng software</a>, ginawa
+          ng grupo ng Italian developers at mga kontributor, upang paganahin ang mga komunidad at mga grupo na ayusin ang kanilang sarili sa isang produktibong pamamaraan ayon sa mga prinsipyo
+          ng <a href="http//en.wikipedia.org/wiki/Direct_democracy"target="_blank">tuwirang demokrasya</a> at pakikilahok.
+          </p>
+      paragraph_2:
+        title: "Buuin ang iyong grupo"
+        content_html: |
+          <p>
+          Kung ikaw ay isang asosasyon, kompanya, paaralan o isang partido, ang Airesis ay siguradong angkop para sa iyo!
+          <br/>
+          Lumikha ng iyong grupo sa loob lamang ng ilang minuto at subukan ang lahat ng mga available na tool.<br/>
+          Ang paglikha ng grupo ay libre, mabilis at madali at %{groups} ang mga grupo ay aktibo agad.<br/>
+          Maaaring basahin ang aming dokumento sa polisiya upang malaman kung paano ito ayusin ng mas mabuti at matuklasan kung gaano kadali na ayusin ang iyong grupo gamit ang Airesis at magbigay ng mga e-democracy tool!
+          </p>
+      paragraph_3:
+        title: "Ayusin ang mga kalahok"
+        content_html: |
+          <p>
+          Isang makapangyarihang mekanismo sa paghawak ng mga <strong> papel at mga pahintulot </strong> na papayag sa iyo na bigyan ang iyong grupo ng hugis na iyong nais:
+          Maaaring mayroon kang mga gumagamit na may humigit-kumulang na pahintulot depende sa kanilang papel, at ayusin ng hierarchically ang mga kalahok
+          o bigyan ang lahat ng pantay na mga karapatan at tungkulin.</br>
+          Ito ang dahilan kung bakit ang Airesis ay ganap na angkop para sa mga pangangailangan ng <strong> Kompanya </strong>, at <strong> Demokratikong Kilusan </strong> o isang <strong> Asosasyon </strong>.
+          </p>
+      paragraph_4:
+        title: "Magmungkahi at pagtalunan"
+        content_html: |
+          <p>
+          Ang puso ng Airesis ay ang mga panukala: ikaw ay magkakaroon ng ilang template na maaaring gamitin kung saan ay maisasali mo ang mga tao sa grupo at marinig ang kanilang opinyon. <br/>
+          Maaari kayong magdebate sa indibidwal na mga paksa, bumuo ng adyenda sa pinagtulungang paraan o bumoto ng mga kandidato sa isang demokratikong paraan. <br/>
+          Ang tool ng mga Panukala ng Airesis ay ngayon ang pinaka sopistikado at kumpletong mass deliverative na sistema na available online! <br/>
+          Sa sandaling ito %{users} ang mga gumagamit ay tumatalakay %{proposals} ng mga panukala.
+          </p> 
+      paragraph_5:
+        title: "Ayusin ang iyong mga kaganapan, iangat ang paglahok"
+        content_html: |
+          <p>
+          Isang kumpletong sistema sa pag-iskedyul ng mga kaganapan na nagpapahintulot sa iyo na mas ayusin ang mga gawain ng iyong grupo.
+          <br/>
+          Ang mga kalahok ay mapadadalan ng abiso sa mga parating na kaganapan at maaari nilang isabay ang kanilang kalendaryo sa kalendaryo ng grupo. <br/>
+          Bawat kalahok ay maaari nang tukuyin kung sila ay makakalahok o hindi, upang hayaan ang mga tagapamahala na mas ayusin ang kaganapan.
+          </p>
+      paragraph_6:
+        title: "Arkibo ng mga dokumentong pinagbahaginan"
+        content_html: |
+          <p>
+          Ang iyong grupo ay magkakaroon isang lubhang kapaki-pakinabang at kumpletong mga Dokumento ng Archive na maaaring isaayos sa mga polder at subpolder upang gawing available sa lahat ng mga kalahok ang lahat ng kinakailangang materyal. <br/>
+          Ang kadalian ng paggamit ng mga Dokumento na Archive ng Airesis ay walang katugma: maaari kang mag-upload ng mga file sa 
+          server 
+          sa pamamagitan lang ng paglipat ng mga ito sa browser mula sa iyong computer. <br/>
+          Ilang mga segundo at ang ina-upload ay ang magiging kumpleto! Tanungin ang pangkat namin kung paano dagdagan ang 
+          esapasyo sa storage 
+          sa iyong disposal at mag-upload ng hanggang sa 1GB ng mga dokumento.
+          </p>
+      paragraph_7:
+        title: "Isang espasyo para tumalakay"
+        content_html: |
+          <p>
+          Ang pinakamagandang ideya ay nagmula sa dayalogo na: Yan ang dahilan kung bakit nagpasya ang Airesis na magbigay ng pagtitipon para sa bawat grupo kung saan ang mga gumagamit ay maaaring magpalitan ng kanilang mga ideya, mga suhestiyon o simpleng pag-uusap ng malaya. <br/>
+          Ang pagtitipon ay parehong kumpleto at moderno, ganap na maiko-configure at napalalawak ng grupo upang ayusin
+          ayon sa kanilang mga pangangailangan.
+          Maaari kang magsagawa ng pampublikong talakayan, na makikita ng lahat, at pampribadong mga talakayan, na naka-reserba sa mga kalahok ng
+          grupo.
+          Ayusin ang mga pagtitipon sa mga seksyon at lumikha ng mga grupo ng moderators! Lahat iyon ay nasa iyong mga kamay! <br/>
+          Sa kasalukuyan mayroon nang %{topics} aktibong mga talakayan sa Airesis!
+          </p>
+      paragraph_8:
+        title: "At maraming, marami pang iba"
+        content_html: |
+          <p>
+          Ang katangian ng Airesis ay hindi lamang ang mga ito! <br/>
+          Panoorin ang aming %{intro_page} upang matuklasan ang dose-dosenang mga tool at opsyon na available para sa iyong grupo. <br/>
+          Tuklasin ang napakaraming katangian na makakatulong sa iyong pamahalaan ang grupo at magpapahintulot sa iyong isaayos ang mga ito sa pinakamabuting paraan: Kung may kailangan ka, tiyak na ang Airesis ay pahihintulotan ka na masiyahan sa mga ito!
+          </p>
+        link: 'pahina ng panimula'
+    press:
+      title: "Pahayag"
+    roadmap:
+      paragraph1:
+        title: "Destinasyon: tuwirang demokrasya"
+        content_html: |
+          <p>Ang Airesis ay isinilang mula sa pagsasanib ng dalawang proyekto na inilunsad ng mahigit dalawang taon na ang nakararaan bilang resulta sa pangangailangan upang magawang gamitin ang isang 
+          platform ng software na maaaring isama sa mga pangunahing tampok ng mga social network, pamamahala ng mga kaganapan at sistema ng paggawa ng desisyon ng masa.</p>
+          <p>Noong Marso, 2012, sa panahon ng pulong "Cittadini a cinque stelle" (Five Star Cititzen) na itinatag sa 
+          Rimini, Alessandro Rodi 
+          kasama ang proyekto nito sa Airesis ay nakuhang malaman ang Nicola Giulietti at Agora 2.0: sa isang panig, isang 
+          magandang software, 
+          sa kabila ng mahusay na pagsusuri sa mga tampok na ang isang portal para sa direktang demokrasya ay dapat na nagkaroon.</p>
+          <p>Kasunod ng pulong na ito ay napagpasyahan na makipagtulungan sa pagpapaunlad ng isang karaniwang application ng open source upang maaari nitong maipatupad ang mga tungkuling kinilala ng grupong Agora 2.0 sa higit na isang taon ng mahabang gawain.<p>
+          </p>Ang misyon ay (at patuloy rin ay) mapag-adhika, ngunit alam natin na ang mga ito ay posibleng makakamit ng mga tamang tools, hakbang-hakbang.</p>
+          <p>Salamat sa ating determinasyon na noong una ay katulad ng isang panaginip ng kalayaan, natagpuan ang suporta ng maraming tao at sa tulong ng mga programmer, 
+          analysts, matematisyan, graphic designer at mga responsableng mamamayan.</p>
+          <p>Sa kasalukuyan ang mga paglabas ng software ay inilathala sa isang buwanang o dalawang beses sa isang buwan ang batayan upang matugunan ang mga hinihingi at pangangailangan ng mga gumagamit, 
+          upang ilapat ang isang proseso ng patuloy na pagpapabuti.</p>
+      paragraph2:
+        title: "Ang ebolusyon ng Airesis"
+        content_html: |
+          <p>Ang listahan sa ibaba ay nagpapakita ng mga pagbabago ng Airesis sa panahon ng ebolusyon nito. Maaari mo ring mahanap ang mga naka-highlight na inobasyon na naiplano para sa hinaharap na mga bersyon. Tingnan ang pahinang ito ng madalas kung interesado kang malaman kung aling mga tampok ang binuo at bumalik upang bisitahin kamii!</p>
+      title: "Ang ebolusyon ng Airesis"
+      description: "Ang ating daan upang matanto ang isang bagong software, isang ideya na may kakayahang baguhin ang demokrasya na dumating na buhay sa web."
+    helpus:
+      paragraph1:
+        title: "Bakit namin hinihiling sa iyo na suportahan ang Airesis?"
+        content_html: |
+          <p>
+          Ang mga boluntaryo na gumagawa ng proyektong ito ay ginugugol ang malaking halaga ng oras upang magdala ng isang kapaki-pakinabang na software para sa ating mga komunidad. Gayunman, ang pagboboluntaryo at kasipagan lang ay hindi sapat: pera ang kailangan upang mapanatili ang server na publikong magamit at ang software na nai-update at na-eksperimento sa mga bagong tampok at ang pagbuo ng mga pagpapabuti. Bukod pa dito, ang bayad na trabaho ay kailangan para sa pagpapanatili ng server at help desk ng user.
+          </p>
+      paragraph4:
+        content_html: |
+          <p><a href="mailto:%{mail}">Makipag-ugnayan sa amin ng</a> para sa karagdagang impormasyon.</p>
+      paragraph5:
+        title: "Ikalat ang salita tungkol sa proyektong ito"
+      title: "Tulungan kami ayon sa gusto mo, maaaring tumulong ang sinuman"
+      description: "Tumulong na tantuhin ang isang tool na may kakayahang baguhin ang e-demokrasya"
+    linkback:
+      paragraph1:
+        title: "Tulongan kaming ipagkalat ang salita tungkol dito sa tool na e-demokrasya"
+        content_html: |
+          <p>Ang aming proyekto ay kailangang malaman ng lahat ng mga nagmamalasakit sa kinabukasan ng ating demokrasya. Tulongan kaming ikalat ang mga ito sa pamamagitan ng mga blog at forum, sa Facebook, sa mga social network at saanman mayroong isang pagnanais para sa demokrasya.</p>
+          <p>Maaari mong gamitin ang aming link o banner sa iyong site o sa iyong mga kaibigan, asosasyon' o mga organisasyon na nagbabahagi ng mga layunin ng proyekto. 
+          Upang ipakita ang banner o link sa iyong websayt, kopyahin ang code na matatagpuan sa ibaba at ipasok ito sa pahina ng code ng inyong site, sa punto kung saan mo nais ang mga ito ipakita:</p>
+      paragraph2:
+        title: "Mga Banner"
+      paragraph3:
+        title: "Link sa teksto"
+        content_html: |
+          <p>Kung pinili mong ilathala ang iyong banner ito ay magiging malaking tulong sa proyekto. Salamat.</p>
+    tags:
+      description: "Isang tool sa paggawa ng desisyon para sa direktang demokrasya at e-gobyerno: makilahok sa mga talakayann, dalhin ang inyong mga ideya, magmungkahi ng mga solusyon at bumoto sa online"
+    engage:
+      title: "Makilahok sa proyekto para sa isang bagong demokrasya"
+      description: "Mag-ambag sa proyektong ito sa pamamagitan ng iyong mga karanasan, tulongan kaming itayo ang isang bagong demokrasya, na mas madaling maunawaan at maibahagi"
+      nav:
+        opensource: "Open Source"
+        participate: "Makilahok"
+        banner: "Banner"
+      paragraph1:
+        title: "Ang Aires ay bukas para sa lahat"
+      paragraph2:
+        title: "Paano mag-ambag"
+        description_html: |
+          <p> Kahit sinuman ay maaaring tumulong sa proyekto na open-source ng Airesis: hindi kailangan na ikaw ay isang programmer, dahil may mga maraming aktibidades ang gagawin pa rin.
+          Sa proyekto <a href=%{chisiamo}>lahat tayo ay mga di-binabayarang boluntaryo</a>, ibinabahagi ang kalooban sa pagtulong sa mga mamamayan na itayo ang walang pinapanigan at makilahok sa pagsulong sa nangungunang demokrasya.</p>
+          <p>Upang i-report ang iyong availability mangyaring punan <a href="%{form}" target="_blank"><strong>ang form na ito</strong></a>, o makipag-ugnayan kay <strong>Nicola Giulietti</strong>&nbsp;- %{email} - cell. %{cell} kung may mga pagdududa o gusto mo ng karagdagang impormasyon.</p>
+          <p>Naririto ang listahan ng mga boluntaryo na kailangan natin:</p>
+      developer:
+        title: "Developer"
+        description_html: |
+          <p>
+          Ang developer ay isang tao na talagang nagsusulat ng code ng Airesis. <br/>
+          Sinusundan niya ang mga espisipiko at patnubay na napagkasunduan ng koponan.
+          Ang developer ay nagsusulat ng mga bagong module sa Ruby pag may mga bagong tampok na idadagdag, o mga pahina ng HTML, paggamit din ng CSS at Javascript sa kaso ng mga pagpapa-andar sa UI.<br/>
+          Ang mga bagong aplikante ay matutulongan at mapapatnubayan ng <a href="%{chisiamo}" target="_blank">ulo ng programmer</a> sa kanilang mga hakbang upang madaling masimulan ang kanilang mga trabaho.
+          </p>
+      analyst:
+        title: "Analyst"
+        description_html: |
+          <p>
+          Siya ang ugnayan sa pagitan ng mga user at koponan ng pagsulong<br/>
+          Nangungulekta siya ng mga feedback mula sa mga grupo at mamamayan at ibinibigay sa koponan ng pagsulong ang lahat ng mga kinakailangang dokumentasyon upang bumuo ng mga bagong pagpapa-andar o pagpapabuti sa umiiral na mga dokumentasyon. <br/>
+          Nagdedetalye siya ng mga algorithm, ganun din ang mga pagsang-ayon at pagkontra sa bawat tampok, at ang nitong posibleng hindi makatwirang mga gamit. 
+          </p>
+      first_lev_tester:
+        title: "Unang anatas na tester"
+        description_html: |
+          <p>
+          Ang unang antas na tester ay isang tao na avaiaable upang suriin ang sistema na hindi kinakailangan na ibigay ang anumang teknikal na feedback tungkol sa code.
+          Ang unang antas na tester ay kinakailangang malaman ang tungkol sa kung paano patakbuhin ang sistema at magawang gamitin ang internet browser o sistema ng social networking ngunit ito ay hindi kinakailangang malaman ang anumang lengguwaheng ginagamit sa programming.<br/>
+          Ang feedback mulas sa unang antas na tester ay magiging ayon tungkol sa di-inaasahang mga pangyayari sa sistema at mga bug
+          </p>
+      sec_lev_tester:
+        title: "Pangalawang antas na tester"
+        description_html: |
+          <p>
+          Ang magandang kaalaman sa programming ay kailangan upang maging isang pangalawang antas na tester. Siya ay hihilinging magsagawa ng mas mahigpit at detalyadong pagsusuri kaysa sa unang antas na tester.
+          Ang pangalawang antas na tester ay nakatalaga sa mga komplikadong isyu at magagawang idiin ang buong sistema sa ilalim ng stress, upang tuklasan ang mga nakatagong problema.
+          </p>
+      graphic:
+        title: "Graphic designer"
+        description_html: |
+          <p>
+          Ang graphic designer ay gumuguhit ng mga user interface at ibinibigay ang kanilang mga draft sa grupong pag-unlad.
+          Pinapabuti niya ang kagamitan at komprehensibo ng mga teksto sa software (hal: mga gabay ng user...)
+          </p>
+      recruiter:
+        title: "Pangangalap"
+        description_html: |
+          <p>
+          Siya ay nakatalaga sa paghahanap ng mga bagong boluntaryo na handang tumulong sa proyektong ito, ang mga tester, ganun din ang mga grupong 
+          available na gamitin ang software 
+          para sa kanilang pangangailan.
+          Siya ay nakikihalubilo sa mga grupo ng taong hindi kinakatawan ng grupong pag-unlad (mga babae, taong may mababang kasanayan sa kaalaman, atbp...) upang ang software ay magiging mas kaakit-akit at una sa kanila, ibinabatay sa kanilang mga feedback 
+
+          </p>
+      communication:
+        title: "Tagapamahala ng komunikasyon"
+        description_html: |
+          <p>
+          Siya ay namamahala ng mga kontak sa press, nagtataguyod ng software na naghahanap ng mga bagong user, teknikal na mga aspeto gaya ng linkback at SEO (Search Engine Optimization),
+          sa pamamagitan ng marketing (hal: paggawa ng mga kawili-wiling panukala), mga video at dokumentasyong nagbibigay kaalaman.
+          Siya ay nag-a-update ng mga social network at media, kinakatawan ang external na referent-spokesman.
+          </p>
+      i18n:
+        title: "Internationalization"
+        description_html: |
+          <p>
+          Siya ang nakatalaga sa software ng pagsasalin. Nakikipag-ugnayan at nakikipagtulungan siya sa mga dayuhang tagasalin.<br/>
+          (P.S.: hindi kailangan na magkaroon ng anumang kasanayan sa programming)
+          </p>

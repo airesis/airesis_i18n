@@ -1,0 +1,8 @@
+nl-NL:
+  errors:
+    messages:
+      not_found: "niet gevonden"
+  devise:
+    mailer:
+      reset_password_instructions:
+        hi_user: "Hallo %{user}!"

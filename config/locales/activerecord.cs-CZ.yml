@@ -1,0 +1,134 @@
+cs-CZ:
+  activerecord:
+    models:
+      meeting: 'Schůzka'
+      places: 'Místo'
+    attributes:
+      blog_comment:
+        body: 'Komentář'
+        created_at: "AntiSpam"
+      event:
+        title: 'Název události'
+        description: 'Popis'
+        event_type_id: 'Typ události'
+        starttime: 'Datum zahájení'
+        endtime: 'Datum ukončení'
+        all_day: 'Celodenní'
+        period: 'Opakovat'
+        frequency: 'Opakovat každý'
+        private: 'Soukromý'
+      group:
+        facebook_page_url: 'adresa na Facebooku'
+        name: 'jméno'
+        title_bar: 'Záhlaví'
+        description: 'Popis'
+        accept_requests: 'Žádost o účast'
+        porta_id: 'Administrátor'
+        interest_border_tkn: 'Zeměpisné místo zájmu'
+        interest_border_id: 'Zeměpisné místo zájmu'
+        image_url: 'Adresu obrázku'
+        default_role_name: "Jaký je název pro nové uživatele?"
+        default_role_name_placeholder: "Např: Uživatelé, členové, aktivisté, piráti"
+        name_placeholder: "Zvolte název skupiny nebo umístění."
+        title_bar_placeholder: "Název stránky skupiny."
+        description_placeholder: "Tato zpráva bude na první stránce skupiny"
+        image_url_placeholder: "Adresa URL obrázku skupiny"
+        facebook_page_url_placeholder: "Stránka skupiny na Facebooku? Vložte odkaz zde."
+        admin_title: "Jak se říká administrátorům skupiny?"
+        private: "Soukromá skupina"
+        rule_book: "Kniha pravidel"
+        image: "Načíst obrázek"
+        admin_title_placeholder: "Název role skupiny administrátorů (výchozí: Administrátor)"
+      blog:
+        title: 'Název'
+      blog_post:
+        title: 'Název'
+        body: 'Text'
+        published: 'Stav'
+        published_true: 'Zveřejněno'
+        published_false: 'Koncept'
+      participation_role:
+        name: 'Jméno'
+        description: 'Stručný popis'
+      group_invitation:
+        emails_list: "E-mailové adresy"
+        testo: "Text zprávy"
+      place:
+        address: 'Adresa'
+      proposal:
+        group_area_id: "Pracovní oblast"
+        proposal_category_id: 'Kategorie'
+        title: 'Název'
+        subtitle: 'Podtitul'
+        problems: 'Problémy'
+        objectives: 'Cíle'
+        content: 'Text'
+        interest_borders_tkn: 'Zeměpisné místo zájmu'
+        tags_list: "Značky"
+        anonima: "Dočasná anonymita"
+        visible_outside: "Veřejně viditelný"
+        secret_vote: "Tajné hlasování"
+      proposal_comment:
+        content: 'Obsah'
+      quorum:
+        name: 'Název kvora'
+        name_title: 'Zadejte prosím krátký výstižný název'
+        description: 'Popis / stručné vysvětlení'
+        description_title: 'Popis pro porozumění účelu tohoto kvora'
+        minutes: Doba trvání diskuse
+        days_m: Dnů
+        hours_m: hodin
+        minutes_m: Minut
+        percentage_title: 'Minimální počet účastníků v diskusi jako procento počtu účastníků ve skupině'
+        good_score: 'Vyzrálost'
+        good_score_title: 'Hodnocení návrhu, které musí být dosaženo pro vstup do hlasovací fáze'
+        bad_score: 'Špatné kvorum (v procentech)'
+        condition: Podmínka
+        vote_minutes: 'Doba trvání hlasování'
+        vote_percentage: 'Kvorum (voliči)'
+        vote_good_score: 'Schválení'
+      search_participant:
+        role_id: 'Role'
+      user:
+        email: 'E-mailová adresa'
+        password: 'Heslo'
+        linkedinpageurl: 'Vaše stránka na LinkedIn'
+        facebookpageurl: 'Vaše stránka na Facebooku'
+        accept_conditions: 'Podmínky užívání'
+        receive_newsletter: 'Odebírat novinky e-maiem'
+        blocked: "Chyba"
+      group_area:
+        name: "jméno"
+        description: "Popis"
+        default_role_name: "Výchozí název role"
+    errors:
+      messages:
+        inclusion: 'není zahrnuto v seznamu'
+        exclusion: 'vyhrazeno'
+        invalid: 'neplatné'
+        confirmation: 'neshoduje se s potvrzením'
+        accepted: 'musí být přijato'
+        empty: 'nesmí být prázdné'
+        blank: 'musí být vyplněno'
+        too_long: 'Text je příliš dlouhý'
+        too_short: 'Text je příliš krátký'
+        wrong_length: 'musí mít %{count} znaků'
+        taken: 'je již obsazeno'
+        not_a_number: 'není číslo'
+        greater_than: 'musí být větší než %{count}'
+        greater_than_or_equal_to: 'musí být větší nebo rovno %{count}'
+        equal_to: 'musí být rovno %{count}'
+        less_than: 'musí být menší než %{count}'
+        less_than_or_equal_to: 'musí být menší nebo rovno %{count}'
+        odd: 'musí být sudé'
+        even: 'musí být liché'
+        record_invalid: 'Ověření se nepodařilo %{errors}'
+        not_found: 'nenalezeno.'
+        TOS: "Musíte přijmout Podmínky užívání"
+      full_messages:
+        format: "%{attribute} %{message}"
+      models:
+        user:
+          attributes:
+            email:
+              already_confirmed: 'Tato e-mailová adresa je již registrována'

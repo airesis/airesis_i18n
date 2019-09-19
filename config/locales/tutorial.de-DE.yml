@@ -1,9 +1,29 @@
 de-DE:
   tutorial:
     proposals_index:
-      welcome_group: 'Das ist die Liste mit Vorschlägen von der Gruppe <b>%{group_name}</b>. Hier findest du eine Liste von Vorschlägen, die von den Mitgliedern der Gruppe und dir. Du kannst sogar deine eigenen hinzufügen, angesichts der Tatsache, dass du berechtigt bist.'
-      category_icon: Die gewählte Kategorie
-      text_content: Die ersten Zeilen des Problems oder der Lösung
-      contributes: Die Anzahl der hunzugefügten Beiträge
+      welcome_group: "Das ist die Liste mit Vorschlägen von der Gruppe <b>%{group_name}</b>. Hier findest du eine Liste von Vorschlägen, die von den Mitgliedern der Gruppe und dir. Du kannst sogar deine eigenen hinzufügen, angesichts der Tatsache, dass du berechtigt bist."
+      new_proposal: "Im rechten seitlichen menü finden sie eine schaltfläche, um neue vorschläge zu erstellen..."
+      filters: "... und verschiedene filter, um die vorschläge zu finden, die sie interessieren"
+      model: "Die vorlage, für die erstellung des die angebots verwendet wurde"
+      category_icon: "Die gewählte Kategorie"
+      status: "Der status des angebots. Während der debatte, es ist das letzte mal, dass der text aktualisiert wurde"
+      maintitle: "Der titel des vorschlags, das ist das thema der diskussion"
+      text_content: "Die ersten Zeilen des Problems oder der Lösung"
+      timeline: "Eine leiste, die den status der debatte oder der abstimmung anzeigt"
+      timeleft: "Die zeit und / oder die evaluierungen, die benötigt werden, um die debatte zu beenden"
+      participants: "Die anzahl der personen, die mit ihren beiträgen und bewertungen an diesem vorschlag teilnehmen"
+      contributes: "Die Anzahl der hunzugefügten Beiträge"
     proposals_show:
-      solution_main: Dies ist eine Lösung. Sogar die Lösung besteht aus verschiedenen Paragraphen. Redakteure schreiben einer oder mehrere Lösungen zur Behebung des Problems
+      main: "Dies sind die paragraphen, aus denen die vorschläge stammen"
+      solution_main: "Dies ist eine Lösung. Sogar die Lösung besteht aus verschiedenen Paragraphen. Redakteure schreiben einer oder mehrere Lösungen zur Behebung des Problems"
+      contributeButton: "Mit diesen schaltflächen können sie die beiträge anderer benutzer anzeigen und eigene hinzufügen. Die beiträge werden immer auf den zbsatz verwiesen, in dem sie zugänglich sind"
+      menu_left: "In diesem linken menü finden sie alle informationen zum angebot"
+      status: "Der status des angebots. In diesem fall ist es in der debattesphase"
+      dates: "Datum der erstellung und letzten aktualisierung des vorschlags"
+      condition_left: "Bedingungen, um die debatte zu beenden"
+      socialnetwork: "Die schaltflächen, um die vorschläge in Ihren sozialen netzwerken zu teilen und Ihre freunde zur diskussion einzuladen"
+      authors: "Die tatsächlichen redakteure des vorschlags"
+    next: "Nächste"
+    back: "Zurück"
+    done_label: "Fertig"
+    skip_label: "X"

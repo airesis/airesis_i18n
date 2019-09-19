@@ -7,17 +7,17 @@ sr-CS:
       posts: Objavljene poruke
       posts_count:
         one: 1 objavljena poruka
-        few: '%{count} objavljenih poruka'
-        other: '%{count} objavljenih poruka'
+        few: "%{count} objavljenih poruka"
+        other: "%{count} objavljenih poruka"
       flagged_for_spam: Vaš nalog je označen za neželjenu poštu.
       cannot_create_topic: Ne možete kreirati novu temu u ovom trenutku.
       cannot_create_post: Ne možete kreirati novu poruku u ovom trenutku.
-    access_denied: Nije vam dozvoljeno da to uradite.
+    access_denied: "Nije vam dozvoljeno da to uradite."
     admin:
       area: Područje administratora
-      back_to_admin: Nazad na administratora
-      back_to_forums: Nazad na forume
-      back_to_groups: Nazad na grupe
+      back_to_admin: "Nazad na administratora"
+      back_to_forums: "Nazad na forume"
+      back_to_groups: "Nazad na grupe"
       forum:
         moderator_groups: Urednik grupa
         index: Upravljanje forumima
@@ -38,29 +38,29 @@ sr-CS:
           none: Nijedna
           moderators: Moderatori
           no_category: (Nema kategorije)
-        default_private: Privatni forum
-        default_public: Javni forum
-        default_private_description: Forum rezervisan za učesnike grupe
-        default_public_description: Forum vidljiv svim korisnicima Airesisa, kao i korisnicima koji nisu u grupi
+        default_private: "Privatni forum"
+        default_public: "Javni forum"
+        default_private_description: "Forum rezervisan za učesnike grupe"
+        default_public_description: "Forum vidljiv svim korisnicima Airesisa, kao i korisnicima koji nisu u grupi"
       mod:
         index: Upravljanje grupama
         new: Nova grupa
         created: Grupa uspešno kreirana
         not_created: Nije moguće kreirati grupu
         deleted: Izabrana grupa je izbrisana
-        members: 'Članovi u %{group}'
+        members: "Članovi u %{group}"
       mods:
         show:
           add_member: Dodajte
-          add_a_new_member: Dodajte novog člana
-          current_members: Trenutni članovi
+          add_a_new_member: "Dodajte novog člana"
+          current_members: "Trenutni članovi"
         edit: Uredite
         delete: Izbrišite
         name: Ime
       category:
         index: Upravljanje kategorijama foruma
         new: Kreiranje nove kategorije foruma
-        edit: 'Uređivanje %{title} kategorije'
+        edit: "Uređivanje %{title} kategorije"
         new_link: Nova kategorija foruma
         deleted: Izabrana kategorija foruma je izbrisana
         created: Ova kategorija foruma je kreirana
@@ -72,34 +72,34 @@ sr-CS:
         delete: Izbrišite
         category: Kategorija
         delete_confirm: Da li ste sigurni da želite da izbrišete ovu kategoriju foruma?
-        default_private: Privatni odeljak
-        default_public: Javni odeljak
+        default_private: "Privatni odeljak"
+        default_public: "Javni odeljak"
       group:
-        index: Upravljanje grupama moderatora
+        index: "Upravljanje grupama moderatora"
         show:
-          title: Upravljanje moderatorima
+          title: "Upravljanje moderatorima"
     common:
       pages: Strane
     errors:
       not_signed_in: Morate se prvo prijaviti
       access_denied: Pristup zabranjen.
     forum:
-      header: 'Prikazivanje %{title}'
+      header: "Prikazivanje %{title}"
       forums: Forumi
       new: Kreiranje novog foruma
-      edit: 'Uređivanje %{title} foruma'
+      edit: "Uređivanje %{title} foruma"
       topics_count:
         one: 1 tema
-        few: '%{count} tema'
-        other: '%{count} tema'
+        few: "%{count} tema"
+        other: "%{count} tema"
       posts_count:
         one: 1 objavljena poruka
-        few: '%{count} objavljenih poruka'
-        other: '%{count} objavljenih poruka'
-      moderator_tools: Alatke za moderaciju
-      topic_tools: Alatke za temu
-      admin_tools: Alatke za administraciju
-      title: Novi forum
+        few: "%{count} objavljenih poruka"
+        other: "%{count} objavljenih poruka"
+      moderator_tools: "Alatke za moderaciju"
+      topic_tools: "Alatke za temu"
+      admin_tools: "Alatke za administraciju"
+      title: "Novi forum"
     forums:
       index:
         title: Forum
@@ -137,14 +137,14 @@ sr-CS:
         edit: Uredite temu
       not_found: Tema koju tražite ne može biti nađena
       hidden:
-        "true": Ova tema je sada sakrivena
-        "false": Ova tema je sada vidljiva
+        'true': Ova tema je sada sakrivena
+        'false': Ova tema je sada vidljiva
       locked:
-        "true": Ova tema je sada zaključana
-        "false": Ova tema je sada otključana
+        'true': Ova tema je sada zaključana
+        'false': Ova tema je sada otključana
       pinned:
-        "true": Ova tema je sada prikačena
-        "false": Ova tema je sada uklonjena
+        'true': Ova tema je sada prikačena
+        'false': Ova tema je sada uklonjena
     topics:
       show:
         reply: Odgovorite
@@ -154,15 +154,15 @@ sr-CS:
         reply_to_topic: Odgovorite na temu
         pending_review: Ova tema trenutno čeka pregled. Samo korisnik koji je kreirao i moderatori je mogu videti.
         hide:
-          "true": Prikazivanje ove teme
-          "false": Sakrivanje ove teme
+          'true': Prikazivanje ove teme
+          'false': Sakrivanje ove teme
         lock:
-          "true": Otključavanje ove teme
-          "false": Zaključavanje ove teme
+          'true': Otključavanje ove teme
+          'false': Zaključavanje ove teme
         pin:
-          "true": Uklanjanje ove teme
-          "false": Prikačinjanje ove teme
-        related_proposals: Povezani predlozi
+          'true': Uklanjanje ove teme
+          'false': Prikačinjanje ove teme
+        related_proposals: "Povezani predlozi"
     post:
       buttons:
         reply: Odgovor
@@ -189,7 +189,7 @@ sr-CS:
         in_reply_to: kao odgovor na
     moderation:
       index:
-        title: 'Alatke za moderaciju za %{forum}'
+        title: "Alatke za moderaciju za %{forum}"
   helpers:
     submit:
       frm_forum:
@@ -225,15 +225,15 @@ sr-CS:
         text: Tekst
       frm_mod:
         name: Ime
-  time_ago_in_words: '%{time} pre'
-  ago: ' pre'
-  ago_by: ' pre'
+  time_ago_in_words: "%{time} pre"
+  ago: " pre"
+  ago_by: " pre"
   by: od
-  started_by: 'Započeto od '
+  started_by: "Započeto od "
   are_you_sure: Da li ste sigurni?
-  lst_post: Poslednja objavljena poruka
-  last_post: Poslednja tema
-  back_to_forums: Nazad na forum
+  lst_post: "Poslednja objavljena poruka"
+  last_post: "Poslednja tema"
+  back_to_forums: "Nazad na forum"
   pages:
     forum_groups:
       index:

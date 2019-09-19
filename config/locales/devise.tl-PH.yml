@@ -1,0 +1,84 @@
+tl-PH:
+  errors:
+    messages:
+      expired: "ay na-expired na, pakiusap na humiling ng isa pang bago"
+      not_found: "ang hindi nakita"
+      already_confirmed: "ay nakumpirma na, pakiusap subukang magsign-in"
+      not_locked: "ay hindi naka-lock"
+      not_saved:
+        one: "Ang 1 pinagbabawal na error ito %{resource} mula sa pagsa-save:"
+        other: "%{count} ang pinagbabawal na mga mali ito %{resource} mula sa pagsa-save:"
+  devise:
+    failure:
+      locked: 'Ang account mo ay naka-lock'
+      invalid: 'Ang Maling email o password'
+      invalid_token: 'Ang pagpapatunay ng token ay Imbalido'
+      timeout: 'Ang iyong session ay na-expire, pakiusap na magsign-in muli para magpatuloy'
+      inactive: 'Ang iyong account ay hindi pa na-activate'
+      already_authenticated: 'Rehistrado ka na'
+      unauthenticated: 'Kinakailangan maglog-in upang ma-access ang pahinang ito. Maaari lamang na maglog-in.'
+      unconfirmed: "Ang account ay hindi ma kumpirma"
+      user:
+        invalid: 'Mali ang username o password'
+        not_found_in_database: 'Mali ang username o password'
+    sessions:
+      signed_in: 'Tagumapay na nagsign-in'
+      signed_out: 'Tagumpay na nagsign-out'
+      user:
+        signed_out: 'Tagumpay na nakalog-out. Paalam'
+        signed_in: 'Ikaw ay naka-sign in. Maligayang pagdating!'
+        signed_up: 'Matagumpay mong na kompleto ang pagrehisto. Maligayang pagdating!'
+    passwords:
+      send_instructions: 'Ikaw ay makakatanggap ng emil na may kasama na mga tagubilin tungkol sa kung papaano i-reset ang iyong password sa mga kakaunting minuto'
+      updated: 'Ang iyong password ay matagumpay na nabago. Ikaw ngayon ay naka-sign in na'
+      updated_not_active: 'Ang iyong password ay matagumpay na nabago'
+      send_paranoid_instructions: "Kung ang email mo ay nag-exist sa iyong database, ikaw ay makakatanggap ng pagbawi sa iyong password na naka-link sa iyong inbox"
+    confirmations:
+      send_instructions: 'Makaktanggap ka ng email na may kasamang mga tagubilin kung papaano kumpermahin ang iyong account sa kakaunting minuto'
+      send_paranoid_instructions: 'Kung ang email mo ay umiiral sa iyong database. makakatanggap ka ng email na may kasamang mga tagubilin kung papaano kumpirmahin ang iyong account sa kakaunting minuto'
+      confirmed: 'Ang iyong account ay kumpirmadong tagumpay. Ikaw ay naka-signed in na'
+      user:
+        confirmed: 'Ang iyong registration ay matagumpay na nakumpleto'
+        send_instructions: 'Ang tagubilin ay naipadala na sa iyong itinalaga na email'
+    registrations:
+      signed_up: 'Maligayang Pagdating! Matagumpay ka na nakapag-sign up'
+      signed_up_but_unconfirmed: 'Ang mensahe na may kasamang kumpirmasyon na link ay naipadala na sa iyong email address. Pakiusap na buksan ang iyong aktibong link sa iyong account'
+      signed_up_but_inactive: 'Matagumpay ka na nakapag-sign up, Subalit, hindi ka namin ma-sign in sapagkat ang iyong account ay hindi pa na-activate'
+      signed_up_but_locked: 'Matagumpay ka na nakapag-sign up. Subalit, hindi ka namain ma-sign in sapagkat ang iyong account ay naka-locked.'
+      updated: 'Na-update mo ang iyong account ng matagumpay'
+      update_needs_confirmation: "Na-update mo ang iyong account ng matagumpay, ngunit kailangan namin na mapatunayan na bago ang iyong email address. Pakiusap na suriin ang iyong email at i-click ang kumpermisyon para matapos ang pag kumperma sa iyong bagong email address"
+      destroyed: 'Paalaman! Ang iyong account ay tagumpay na kanselado. Inaashan namin na makita ka ulit sa susunod'
+      user:
+        inactive_signed_up: 'Para makumpleto ang iyong pag rehistro pakiusap na pindutin ang link na nasa email na iyong natanggap'
+        signed_up_but_unconfirmed: 'Pindutin ang link na nasa iyong email para maipadala sa iyong email address para makumpleto ang proseso ng pag rehistro'
+    unlocks:
+      send_instructions: 'Makakatanggap ka ng email na may kasama n mga tagubilin kung papaano i-unlock ang iyong account sa mga kakaunti na minuto'
+      unlocked: 'Ang iyong account ay matagumpay na na-unlocked. Pakiusap na mag-sign in para magpatuloy'
+      send_paranoid_instructions: 'Kung ang iyong account ay nag-exists, ikaw ay makakatanggap ng email na may kasamang mga tagubilin kung papaano i-unlocked ito sa mga kakaunting minuto'
+    omniauth_callbacks:
+      success: 'Ang iyoong pag rehistro ay kumpleto na. Maligayang Pagdating!'
+      failure: 'Hindi ka awtorisado mula sa %{kind} dahil "%{reason}"'
+      creation_failure: "May mali habang nag-access sa pamamagitan ng %{provider}"
+      join_success: "Ang account ay matagumpay na pinagsama, Binabati kita, ngayon ay maaari ka ng mag-login sa pamamagitan %{provider}."
+      join_failure: "Isa pa %{provider} ang account ay umiiral. Sa hinaharap para sumali sa mga account ay magagamit na sa lalong madaling panahon."
+      certified_email_taken: "Ang panibagong account kasama ang iyong patunay na email ay umiiral."
+      already_certified: "Isa pa sa account ay patunay na kasama ang iyong paghihirap sa code."
+      account_not_verified: "Ang account %{provider} ay hindi na patunayan. Pakiusap na patunayan ang iyong account sa %{provider}."
+    mailer:
+      confirmation_instructions:
+        subject: 'Kumpirmahin ang mga tagubilin'
+        welcome: "Maligayang pagdating sa %{app_name} %{user}!"
+        follow_link: "Maaari mong kumpirmahin ang iyong e-mail address sa pamamagitan ng pagpindot sa sumusunod na link:"
+        confirm_account: "Kumpirmahin ang account"
+        follow_link_2: "o sa pamamagitan ng pag bisita sa sumusunod na url:"
+        access_by_email: "Pagkatapos ay maaari kang mag-log in %{app_name} kasama ang inilaan na e-mail at napili na password"
+        contact_assistance: "Kung ikaw ay may kahit anong problema sa pamamaraan ng kontak ng administrator: %{mail}"
+      reset_password_instructions:
+        subject: 'I-reset ang mga tagubilin ng password'
+        hi_user: "Kumusta %{user}!"
+        follow_link: "Maaari mong baguhin ang iyong password sa pamamagitan ng pag pindot sa sumusunod na link:"
+        change_password: "Ang password ay palitan"
+        ignore: "Kung hindi mo tatanungin ang pagbabago ng password, pakiusap na baliwalain ang e-mail na ito."
+        password_will_not_change: "Ang password mo ay hindi mababago hanggat napindot mo ang bukas sanakaraan na link."
+      unlock_instructions:
+        subject: 'I-unlock ang mga tagubilin'

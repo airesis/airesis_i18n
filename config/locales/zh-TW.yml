@@ -1,891 +1,1501 @@
 zh-TW:
   unauthorized:
-    default: 您沒有執行此操作所需的許可權
+    default: "您沒有執行此操作所需的許可權"
     create:
-      group: 一天最多只能增加一個群組
-  permissions_required: 你沒有相關的操作權限
-  test: 測試
-  open_space: Open Space
-  hello: Hello World!
+      group: "一天最多只能增加一個群組"
+  permissions_required: "你沒有相關的操作權限"
+  test: "測試"
+  open_space: 'Open Space'
+  hello: 'Hello World!'
   pages:
     top_panel:
-      login: 登入或註冊
-      facebook_login: 用 Facebook 帳號登入
-      google_login: 用 Google 帳號登入
-      twitter_login: 用 Twitter 帳號登入
-      meetup_login: 用 Meetup 帳號登入
-      linkedin_login: 用 Linkedin 帳號登入
-      openid_login: 用 OpenID 登入
-      find_groups: 搜尋群組
-      parma_login: 以 Parma 登入
+      login: '登入或註冊'
+      facebook_login: '用 Facebook 帳號登入'
+      google_login: '用 Google 帳號登入'
+      twitter_login: "用 Twitter 帳號登入"
+      meetup_login: "用 Meetup 帳號登入"
+      linkedin_login: "用 Linkedin 帳號登入"
+      openid_login: "用 OpenID 登入"
+      find_groups: '搜尋群組'
+      parma_login: "以 Parma 登入"
+      tecnologiedemocratiche_login: "登錄 Tecnologie Democratiche"
+      tecnologiedemocratiche: "Tecnologie Democratiche"
     user:
-      notifications: 提示與顯示通知
-      privacy: 帳號與隱私
+      notifications: '提示與顯示通知'
+      privacy: "帳號與隱私"
     users:
       index:
-        title: 使用者列表
+        title: '使用者列表'
       show:
-        groups_title: 你的群組
-        group_column: 群組
-        role_column: 角色
-        get_out_of_group_button: 離開這個群組
-        get_out_of_group_confermation: 確定嗎？
-        secret_vote: 秘密
-        votations_title: 你已參與的投票
-        proposal_column: 提案
-        votation_date_column: 日期
-        vote_column: 投票
-        profile_info: 個人資料
-        profile_info_unconfirmed: (email 未確認)
-        send_message_button: 寄發訊息
-        name_label: 名字
-        email_label: E-mail
-        edit_image: 修改圖片
-        to_be_confirmed: 等待確認
-        password_label: 密碼
-        facebook_url_label: Facebook 個人頁面
-        googleplus_url_label: Google+ 個人頁面
-        linkedin_url: Linkedin 個人頁面
-        username_label: 顯示名稱
-        registered_from: 已註冊，來自
-        load_image: 載入一張圖片
-        max_file_size: 檔案大小限制：2MB
-        what_can_i_do: 你可以 ...
-        what_i_cant_do: 你不可以 ...
-        certified_from: 已認證從
-        group_level_permission_title: 群組的等級權限
+        groups_title: "你的群組"
+        group_column: "群組"
+        role_column: "角色"
+        get_out_of_group_button: "離開這個群組"
+        get_out_of_group_confermation: "確定嗎？"
+        secret_vote: "秘密"
+        votations_title: "你已參與的投票"
+        proposal_column: "提案"
+        votation_date_column: "日期"
+        vote_column: "投票"
+        profile_info: "個人資料"
+        profile_info_unconfirmed: "(email 未確認)"
+        send_message_button: "寄發訊息"
+        name_label: "名字"
+        surname_label: "姓氏："
+        email_label: "E-mail"
+        edit_image: "修改圖片"
+        to_be_confirmed: "等待確認"
+        password_label: "密碼"
+        facebook_url_label: "Facebook 個人頁面"
+        googleplus_url_label: "Google+ 個人頁面"
+        linkedin_url: "Linkedin 個人頁面"
+        username_label: "顯示名稱"
+        registered_from: "已註冊，來自"
+        load_image: "載入一張圖片"
+        max_file_size: "檔案大小限制：2MB"
+        what_can_i_do: "你可以 ..."
+        what_i_cant_do: "你不可以 ..."
+        certified_from: "已認證從"
+        group_level_permission_title: "群組的等級權限"
+        admin_permissions: "您是此組的管理員, 您擁有所有權限"
+        certified_cannot_edit_info: "你是一個認證使用者: 你不能編輯你的名字, 姓氏和電子郵件"
+        twitter_url: "Twitter 網址"
+        meetup_url: "Meetup 網址"
       send_message:
-        subject_label: 標題
-        body_label: 內文
-        massive_email: 發送大量郵件
+        subject_label: "標題"
+        body_label: "內文"
+        massive_email: "發送大量郵件"
       left_panel:
-        general_info: 基本資訊
-        alarm_and_notifications: 提示與顯示通知
-        geographic_borders: 所在地區
-        account_and_privacy: 帳號與隱私
-        title: 喜好設定
+        general_info: "基本資訊"
+        alarm_and_notifications: "提示與顯示通知"
+        geographic_borders: "所在地區"
+        account_and_privacy: "帳號與隱私"
+        title: "喜好設定"
       alarm_preferences:
-        receive_on_address: '將更新通知與最新消息寄到 %{email}'
-        alerts: 通知
-        emails: 信件
+        receive_on_address: "將更新通知與最新消息寄到 %{email}"
+        alerts: "通知"
+        emails: "信件"
       privacy_preferences:
-        tooltips: 顯示操作提示
-        show_urls: 公開 Facebook, Google+ 和 Linkedin 的個人頁面位置
-        private_messages: 別的使用者可以寄發站內訊息給我
-        join_accounts: 連結其它帳號
-        joined_all: 你已加入所有可連結的社群帳號，感謝！
-        join_facebook: 連結你的 Facebook 帳號
-        join_google: 連結你的 Google 帳號
-        join_twitter: 連結你的 Twitter 帳號
-        join_linkedin: 連結你的 Linkedin 帳號
-        join_meetup: 連結你的 Meetup 帳號
-        providers_list: 可加入的社群服務提供者
-        options: 選項
-        rotp: 開啟安全碼
-        rotp_title: 安全碼
-        rotp_confirm_enable: 確定要開啟安全碼？
-        rotp_confirm_disable: 確定要關閉安全碼？
-        mail_language: 電子郵件的語言
-        time_zone: 時區
+        tooltips: "顯示操作提示"
+        show_urls: "公開 Facebook, Google+ 和 Linkedin 的個人頁面位置"
+        private_messages: "別的使用者可以寄發站內訊息給我"
+        join_accounts: "連結其它帳號"
+        join_accounts_description: "在%{app_short_name} 上, 你有能力將你的社交網路連接到一個帳戶。<br/> 選擇要連接的供應商, 您能夠從 Facebook、Google、Twitter 和更多的網站訪問相同的帳戶!"
+        joined_all: "你已加入所有可連結的社群帳號，感謝！"
+        join_facebook: "連結你的 Facebook 帳號"
+        join_google: "連結你的 Google 帳號"
+        join_twitter: "連結你的 Twitter 帳號"
+        join_linkedin: "連結你的 Linkedin 帳號"
+        join_meetup: "連結你的 Meetup 帳號"
+        providers_list: "可加入的社群服務提供者"
+        options: "選項"
+        rotp: "開啟安全碼"
+        rotp_title: "安全碼"
+        rotp_confirm_enable: "確定要開啟安全碼？"
+        rotp_confirm_disable: "確定要關閉安全碼？"
+        mail_language: "電子郵件的語言"
+        time_zone: "時區"
       border_preferences:
-        updating: 更新你的地區偏好，請稍候
-        your_borders: 你主要關心的地區
-      send_message_title: '送訊息給 %{name}'
+        updating: "更新你的地區偏好，請稍候"
+        your_borders: "你主要關心的地區"
+      send_message_title: "送訊息給 %{name}"
     groups:
       accept_requests:
-        unavailable_option: 這個選項還沒開放
+        portavoce: "管理員: 當使用者只想加入組時, 該組的管理員可以接受該請求。\n當管理員接受請求, 使用者實際上成為該組的成員。"
+        unavailable_option: "這個選項還沒開放"
       administration_panel:
-        title: 管理界面
-        info: 基本資訊
-        events: 活動與會議
-        permissions: 角色與權限
-        proposals: 門檻與提案
-        areas: 工作小組
-        forum: 論壇管理
-        users: 管理使用者
+        title: '管理界面'
+        info: '基本資訊'
+        events: '活動與會議'
+        permissions: '角色與權限'
+        proposals: '門檻與提案'
+        areas: "工作小組"
+        forum: "論壇管理"
+        users: "管理使用者"
       edit_events:
-        title: 管理群組的活動
+        title: '管理群組的活動'
       edit_permissions:
-        title: 管理角色與權限
-        new_role: 新增一個角色
-        edit_role_title: 編輯角色
-        new_role_title: 新角色
-        user_title: 使用者
-        role_title: 角色
-        no_users_yet: 你可以在這裡管理參與者可以扮演的角色種類
-        default_role: 群組預設的成員角色
-        confirm_role_deletion: 確定要刪除這個角色？
-        remove_user: '刪除使用者 '
-        confirm_role_change1: 使用者的角色
-        confirm_role_change2: 將更改從
-        confirm_role_change3: 到
-        confirm_role_change4: 確認？
-        confirm_delete_1: '這個操作可能需要幾分鐘的時間...確定要從群組中移除 %{計數} 使用者？'
-        confirm_delete_2: '此操作表示你所選擇的 %{計數} 個使用者會被移除，此操作不能還原！你真的確定要繼續嗎？'
+        title: '管理角色與權限'
+        new_role: "新增一個角色"
+        edit_role_title: "編輯角色"
+        new_role_title: "新角色"
+        user_title: "使用者"
+        role_title: "角色"
+        no_users_yet: "你可以在這裡管理參與者可以扮演的角色種類"
+        default_role: "群組預設的成員角色"
+        confirm_role_deletion: "確定要刪除這個角色？"
+        remove_user: "刪除使用者 "
+        confirm_role_change1: "使用者的角色"
+        confirm_role_change2: "將更改從"
+        confirm_role_change3: "到"
+        confirm_role_change4: "確認？"
+        confirm_delete_1: "這個操作可能需要幾分鐘的時間...確定要從群組中移除 %{計數} 使用者？"
+        confirm_delete_2: "此操作表示你所選擇的 %{計數} 個使用者會被移除，此操作不能還原！你真的確定要繼續嗎？"
       edit_proposals:
-        title: 管理門檻與提案
+        title: '管理門檻與提案'
       index:
-        title: 所有群組
-        open_space_button: 前往開放討論空間
-        create_group_button: 新增一個群組
-        find_group_label: 尋找一個你有興趣的群組加入吧！
-        find_title: 輸入群組名稱或描述
-        find_button: 搜尋
-        groups_list: 群組參與者
-        groups_registration: 群組註冊
-        groups_list_2: 群組列表
-        no_groups_yet: '你還沒加入任何 %{name}'
-        open_space_title: 公開活動
-        show_more: 顯示更多群組
-        search_mask: 搜尋工具
-        search_with_query: 使用個人化的查詢
-        search_with_place: 或地理邊界
-        search_description: 使用搜尋工具或按下一個標籤來查找您感興趣的群組
-        insert_query_or_place: 您必須鍵入至少三個字元或一個地名
-        tags: 標籤
-        proposals_number: 提案總數
-        events_number: 開啟活動
-        no_results: 找不到群組
-        limit_reached: 你每天最多建立一個群組
+        title: '所有群組'
+        open_space_button: "前往開放討論空間"
+        create_group_button: "新增一個群組"
+        find_group_label: "尋找一個你有興趣的群組加入吧！"
+        find_title: "輸入群組名稱或描述"
+        find_button: "搜尋"
+        groups_list: "群組參與者"
+        groups_registration: "群組註冊"
+        groups_list_2: "群組列表"
+        no_groups_yet: "你還沒加入任何 %{name}"
+        open_space_title: "公開活動"
+        show_more: "顯示更多群組"
+        search_mask: "搜尋工具"
+        search_with_query: "使用個人化的查詢"
+        search_with_place: "或地理邊界"
+        search_description: "使用搜尋工具或按下一個標籤來查找您感興趣的群組"
+        insert_query_or_place: "您必須鍵入至少三個字元或一個地名"
+        tags: "標籤"
+        participants_number: "參與人數"
+        proposals_number: "提案總數"
+        events_number: "開啟活動"
+        no_results: "找不到群組"
+        limit_reached: "你每天最多建立一個群組"
         switchButton:
-          exact_border: 精確搜尋：使用確切的地理位置搜尋群組
-          area_border: 地區搜尋： 搜尋這個地區內的所有群組
-          all_words: 搜尋包含所有關鍵字的群組
-          one_word: 搜尋至少擁有一個關鍵字的群組
+          exact_border: "精確搜尋：使用確切的地理位置搜尋群組"
+          area_border: "地區搜尋： 搜尋這個地區內的所有群組"
+          all_words: "搜尋包含所有關鍵字的群組"
+          one_word: "搜尋至少擁有一個關鍵字的群組"
       new:
-        title: 建立一個群組
-        new_group: 建立一個群組
-        create_button: 送出！
-        change_permissions_button: 你要確定修改標準的權限？
-        change_permissions_title: 修改加入群組時，新使用者預設的權限
-        change_permissions_description: 你想讓新加入你的群組的使用者擁有哪些權限呢？你可以隨時回來修改這些設定，或是建立不同的角色，給每種角色設定不同權限。
-        errors_title: 抱歉，這個文章無法發佈：
+        title: '建立一個群組'
+        new_group: "建立一個群組"
+        create_button: "送出！"
+        change_permissions_button: "你要確定修改標準的權限？"
+        change_permissions_title: "修改加入群組時，新使用者預設的權限"
+        change_permissions_description: "你想讓新加入你的群組的使用者擁有哪些權限呢？你可以隨時回來修改這些設定，或是建立不同的角色，給每種角色設定不同權限。"
+        errors_title: "抱歉，這個文章無法發佈："
         tags:
-          title: 標籤 (以空白區隔)
+          title: "標籤 (以空白區隔)"
       edit:
-        title: 編輯群組設定
-        change_permissions: 在「角色與權限」設定中，你可以隨時修改成員的權限。
-        remove_user_confirm: '確定要移除 %{name} 這個成員？'
-        modify_group: 修改群組
-        private_warning_html: '<b> 私人群組的提醒 < / b > <br/> 非群組成員依然可以瀏覽群組的公開議案。 <br/>你可以透過 <b>%{連結}</b> 來關閉「議案可公開瀏覽」選項。<br/> 在群組牆上公佈的議案，也將會在個人頁面中顯示。 <br/>而公開論壇始終是所有成員都可以瀏覽的。'
+        title: '編輯群組設定'
+        change_permissions: "在「角色與權限」設定中，你可以隨時修改成員的權限。"
+        remove_user_confirm: "確定要移除 %{name} 這個成員？"
+        modify_group: "修改群組"
+        private_warning_html: |
+          <b> 私人群組的提醒 < / b > <br/> 非群組成員依然可以瀏覽群組的公開議案。 <br/>你可以透過 <b>%{連結}</b> 來關閉「議案可公開瀏覽」選項。<br/> 在群組牆上公佈的議案，也將會在個人頁面中顯示。 <br/>而公開論壇始終是所有成員都可以瀏覽的。
       layout:
-        home_button: WALL
-        proposals_button: 提案
-        calendar: 日曆
+        home_button: "WALL"
+        proposals_button: "提案"
+        calendar: "日曆"
       show:
-        rules_button: 使用者條款
-        post_button: 發表在群組牆上
-        blog_button: 建立我的 Blog
-        participants_list: 參與者列表
-        invite_button: 邀請朋友加入！
-        participants_full_list: 完成群組成員列表
-        no_participants: 目前還沒有人參與這個群組。
-        no_blogs_yet: 這個群組目前還沒有任何文章，稍後再回來！
-        waiting_participation_requests: 參與者的申請正在等候審核
-        accept_request_button: 接受
-        reject_request_button: 婉拒
-        ask_participate_button: 申請加入群組
-        remove_post: 從群組看板中移除
-        destroy_button: 刪除
-        confirm_destroy: 你確定要刪除這個群組？一經確認將無法回覆，並移除所有資料。
+        rules_button: "使用者條款"
+        post_button: "發表在群組牆上"
+        blog_button: "建立我的 Blog"
+        participants_list: "參與者列表"
+        invite_button: "邀請朋友加入！"
+        show_all_participants: "顯示全部 %{count} 則 ..."
+        show_all_admins: "顯示全部 %{count} 則 ..."
+        show_all_requests: "顯示全部 %{count} 則 ..."
+        participants_full_list: "完成群組成員列表"
+        no_participants: "目前還沒有人參與這個群組。"
+        no_blogs_yet: "這個群組目前還沒有任何文章，稍後再回來！"
+        waiting_participation_requests: "參與者的申請正在等候審核"
+        accept_request_button: "接受"
+        reject_request_button: "婉拒"
+        ask_participate_button: "申請加入群組"
+        remove_post: "從群組看板中移除"
+        destroy_button: "刪除"
+        confirm_destroy: "你確定要刪除這個群組？一經確認將無法回覆，並移除所有資料。"
         list_permissions:
-          title: 你在這個群組中的操作權限是：
-          button: 權限列表
-        print_all_participants: 列印參加者列表
-        last_proposals: 最後觀看的議題
-        last_topics: 最新的主題
-        next_events: 下一個活動
-        short_url: 短網址
+          title: "你在這個群組中的操作權限是："
+          button: "權限列表"
+        print_all_participants: "列印參加者列表"
+        last_proposals: "最後觀看的議題"
+        last_topics: "最新的主題"
+        next_events: "下一個活動"
+        rule_book_html: |
+          可以在創建組時選擇規則. <br/><p> 所有使用者現在都可以創建組. </p><p> 
+          當您參與某個組時, 您的博客中的帖子可以顯示在組的牆上. </p>
+          <p> 組可以支援建議、創建新的方案、創建調查和使用角色和權限組織成員. </p><p> 
+          可以通過其 <b> 設置來更改此組的規則 </b>. </p>
+        short_url: "短網址"
+        featured_post:
+          'true': 取消釘住
+          'false': 置頂
+        permissions_title: "您和群組"
       header:
-        settings: 設定
-        documents: 文件
-        forums: 論壇
+        settings: "設定"
+        documents: "文件"
+        forums: "論壇"
+        alarm_settings: "設置"
       documents:
-        documents_archive: 封存的文件
-        storage_size: 佔用儲存空間
-        max_storage_size: 最大可用儲存空間
-        current_storage_usage: 已使用空間
-        not_authorized: 您沒有瀏覽此文件所需的權限，請聯絡群組管理員
+        documents_archive: "封存的文件"
+        storage_size: "佔用儲存空間"
+        max_storage_size: "最大可用儲存空間"
+        current_storage_usage: "已使用空間"
+        not_authorized: "您沒有瀏覽此文件所需的權限，請聯絡群組管理員"
       edit_quorums:
         new_quorum:
-          title: 新的門檻人數
-          simple: 簡單
-          advanced: 進階
-          advanced_percentage_description: '如果成熟度低於 %{bad_score} %，這項提案將被放棄。'
-          advanced_percentage_description3: 在達到投票階段或否決的門檻前，提案會一直開放討論。
-        active: 啟動
-        name: 名稱
-        participants: 參與者
-        condition: 條件
-        good_percentage: '% 成熟度'
-        bad_percentage: '% 撤銷'
-        confirm_deletion: 確定要刪除門檻？
-        edit_quorum: 修改門檻
-        configure_proposal_parameters: 調整提案的參數
-        default_anonymous_proposal: 開啟暫時匿名功能
-        default_private_proposal: 非群組成員也可以瀏覽此提案
-        default_secret_vote: 秘密投票
-        let_editor_change_settings: 編輯可以自由選擇上面的選項
-        time: 時間
-        edit_quorum_warning: 注意！門檻的修改不會套用在進行中的提案。
+          title: "新的門檻人數"
+          simple: "簡單"
+          advanced: "進階"
+          time_description: "辯論最後 %{days} %{hours} %{minutes}"
+          simple_percentage_description: "和成熟度相等或優於%{good_score}%。"
+          advanced_participation_description: "(%{current_number} %{total_number} 有權利)<b> (平均值: %{average}) </b>"
+          advanced_percentage_description: "如果成熟度低於 %{bad_score} %，這項提案將被放棄。"
+          advanced_percentage_description3: "在達到投票階段或否決的門檻前，提案會一直開放討論。"
+        active: "啟動"
+        name: "名稱"
+        participants: "參與者"
+        condition: "條件"
+        good_percentage: "% 成熟度"
+        bad_percentage: "% 撤銷"
+        confirm_deletion: "確定要刪除門檻？"
+        add_quorum: "創建新的仲裁"
+        edit_quorum: "修改門檻"
+        configure_proposal_parameters: "調整提案的參數"
+        default_anonymous_proposal: "開啟暫時匿名功能"
+        default_private_proposal: "非群組成員也可以瀏覽此提案"
+        default_secret_vote: "秘密投票"
+        let_editor_change_settings: "編輯可以自由選擇上面的選項"
+        time: "時間"
+        edit_quorum_warning: "注意！門檻的修改不會套用在進行中的提案。"
       edit_work_areas:
         index:
-          not_enabled: 工作小組沒有開放。
-          description2: 如此一來，你可以更方便管理所有參與成員與他們的角色權限。
-          description3: 但請注意這是進階功能，適合比較龐大的群組或熟悉操作的使用者進行設定。
-          description4: 在啟動工作小組前，確定你是否能夠直接管理群組成員的使用權限
+          not_enabled: "工作小組沒有開放。"
+          description: "%{app_short_name} 允許您管理組內的不同工作區域。"
+          description2: "如此一來，你可以更方便管理所有參與成員與他們的角色權限。"
+          description3: "但請注意這是進階功能，適合比較龐大的群組或熟悉操作的使用者進行設定。"
+          enable: "開啟工作小組！"
+          description4: "在啟動工作小組前，確定你是否能夠直接管理群組成員的使用權限"
         manage:
-          new_area: 建立一個工作小組
-          switch_area_participants: 切換到成員管理
-          list_title: 工作小組列表：為每個工作小組選擇成員，或點擊成員的姓名以編輯他在工作小組中的角色與適當權限。
-          title: 工作小組設定
-          list_participants: 小組的成員的清單。為他們每個人都選擇他所屬的工作小組。
-          switch_area_management: 切換到工作小組的管理
-          confirm_deletion: 確定要刪除此工作小組？
-        manage_group_areas: 管理工作小組內的成員
+          new_area: "建立一個工作小組"
+          switch_area_participants: "切換到成員管理"
+          list_title: "工作小組列表：為每個工作小組選擇成員，或點擊成員的姓名以編輯他在工作小組中的角色與適當權限。"
+          title: "工作小組設定"
+          list_participants: "小組的成員的清單。為他們每個人都選擇他所屬的工作小組。"
+          switch_area_management: "切換到工作小組的管理"
+          confirm_deletion: "確定要刪除此工作小組？"
+          manage_roles_in_area: "編輯工作區中的角色和許可權%{area}"
+        manage_group_areas: "管理工作小組內的成員"
         form:
-          title: 新工作小組
-      default_admin_title: 總管理者
+          title: "新工作小組"
+      default_admin_title: "總管理者"
       invite_your_friends:
-        type_email_addresses: 輸入 E-mail，並用空白分隔多個不同的位置
-        email_not_valid: 填寫的 E-mail 不正確。
-        text_to_send: 附加的訊息文字 (選填)
-        title: 邀請你的朋友加入這個群組！
+        type_email_addresses: "輸入 E-mail，並用空白分隔多個不同的位置"
+        email_not_valid: "填寫的 E-mail 不正確。"
+        text_to_send: "附加的訊息文字 (選填)"
+        title: "邀請你的朋友加入這個群組！"
       participations:
-        list_participations: 參加者名單
-        search: 搜尋
-        filter: 篩選
-        anything: 全部
-        operations_on_user: 使用者可用的操作
-        send_email: 傳送電子郵件
-        name: 名稱
-        role: 角色
-        member_since: 成員加入時間
+        list_participations: "參加者名單"
+        search: "搜尋"
+        filter: "篩選"
+        anything: "全部"
+        operations_on_user: "使用者可用的操作"
+        send_email: "傳送電子郵件"
+        surname: "姓氏"
+        name: "名稱"
+        role: "角色"
+        member_since: "成員加入時間"
         participants_html:
-          other: '<b>%{count}</b> 參與者'
-        added_by: 加入自
-        remove_all: 移除所有
+          other: <b>%{count}</b> 參與者
+        added_by: "加入自"
+        remove_all: "移除所有"
+      statistics:
+        title: "計算的平均值 (%{date} 上的最後更新)"
+      archives:
+        page_title: "存檔為 %{month}, %{year}"
     login:
-      title: 登入
+      title: '登入'
     confirmation:
-      title: 重新寄發帳號確認通知
-      submit: 將相關操作寄給我
+      title: '重新寄發帳號確認通知'
+      submit: '將相關操作寄給我'
     password:
-      title: 你忘記密碼了嗎？
-      submit: 寄給我重設密碼的相關操作
+      title: '你忘記密碼了嗎？'
+      submit: '寄給我重設密碼的相關操作'
       edit:
-        new_password: 新密碼
-        confirm_password: |2
-
-          		請確認新密碼
-
-        confirm_button: 更改我的密碼
+        new_password: "新密碼"
+        confirm_password: "\n		請確認新密碼\n	"
+        confirm_button: "更改我的密碼"
     registration:
-      title: 註冊
-      email_confirmed: 如果你用此 E-mail 註冊，我們不會要求你再次確認帳號。
-      choose_password: 選擇密碼
-      confirm_password: 再次確認密碼
-      register_button: 註冊
-      identity_provviders_title: 連結你常用的社群網站帳號直接登入！
+      title: '註冊'
+      email_confirmed: "如果你用此 E-mail 註冊，我們不會要求你再次確認帳號。"
+      choose_password: "選擇密碼"
+      confirm_password: "再次確認密碼"
+      accept_conditions: "接受服務條款"
+      register_button: "註冊"
+      identity_provviders_title: "連結你常用的社群網站帳號直接登入！"
+      accept_privacy: "接受隱私條款"
     proposals:
       index:
-        title: 提案列表
-        debate: 所有的提案審查正在進行討論
-        voting: 目前在等待表決或者在投票階段的所有提案
-        accepted: 完成投票階段的所有提案
-        revision: 沒有通過討論，可以重新放回討論的所有提案
-        last: 最新
-        most_popular: 熱門
-        most_valutated: 最多評價
-        continue_reading: (完整提案與討論)
-        debate_title: '討論中 %{count}'
-        voting_title: '投票中 %{count}'
-        accepted_title: '投票完 %{count}'
-        revision_title: '被放棄了 %{count}'
-        group_areas_title: 工作小組
-        no_group_areas: 沒有工作小組
-        all_areas: 所有工作小組
-        categories_title: 提案分類
-        all_categories: 所有分類
-        loading_proposals: 正在讀取提案, 請稍候
-        title_with_category: '%{category} 分類的提案'
-        all_categories_title: 所有分類下的提案
-        in_group_area_title: 在工作小組中
-        last_title: 最新(待辦)
-        most_popular_title: 熱門(待辦)
-        most_voted_title: 最佳 Rank (待辦)
-        show_more: 顯示更多提案...
-        loading_alt: 載入中
-        choose_model: 選擇一個提案範本
-        search_title: 在群組中搜尋提案
-        search_placeholder: 至少輸入兩個字
-        search_words: 任何字串
-        contributes_number: 貢獻
-        rank: 評價
-        voters: 投票者
-        date_range: '建立於 %{start} 到 %{end}'
-        proposal_types_title: 類型
-        all_proposal_types: 所有的類型
+        title: '提案列表'
+        debate: '所有的提案審查正在進行討論'
+        voting: '目前在等待表決或者在投票階段的所有提案'
+        accepted: '完成投票階段的所有提案'
+        revision: '沒有通過討論，可以重新放回討論的所有提案'
+        last: "最新"
+        most_popular: "熱門"
+        most_valutated: "最多評價"
+        continue_reading: '(完整提案與討論)'
+        debate_title: "討論中 %{count}"
+        voting_title: "投票中 %{count}"
+        accepted_title: "投票完 %{count}"
+        revision_title: "被放棄了 %{count}"
+        login_with: "登錄:"
+        group_areas_title: "工作小組"
+        no_group_areas: "沒有工作小組"
+        all_areas: "所有工作小組"
+        categories_title: "提案分類"
+        all_categories: "所有分類"
+        loading_proposals: "正在讀取提案, 請稍候"
+        title_with_category: "%{category} 分類的提案"
+        all_categories_title: "所有分類下的提案"
+        in_group_area_title: "在工作小組中"
+        last_title: "最新(待辦)"
+        most_popular_title: "熱門(待辦)"
+        most_voted_title: "最佳 Rank (待辦)"
+        show_more: "顯示更多提案..."
+        loading_alt: "載入中"
+        choose_model: "選擇一個提案範本"
+        search_title: "在群組中搜尋提案"
+        search_placeholder: "至少輸入兩個字"
+        search_words: "任何字串"
+        participants_number: "出席者"
+        contributes_number: "貢獻"
+        rank: "評價"
+        voters: "投票者"
+        date_range: "建立於 %{start} 到 %{end}"
+        proposal_types_title: "類型"
+        all_proposal_types: "所有的類型"
         with_text: "包含 '%{text}'"
-        last_24h: 在過去的 24 小時中建立
-        last_1h: 在最後一小時中建立
-        last_7d: 在過去一周中建立
-        last_1m: 在過去一個月中建立
-        last_1y: 在過去的一年中建立
+        last_24h: "在過去的 24 小時中建立"
+        last_1h: "在最後一小時中建立"
+        last_7d: "在過去一周中建立"
+        last_1m: "在過去一個月中建立"
+        last_1y: "在過去的一年中建立"
       show:
-        voteup: 我同意
-        votenil: 我不知道 / 我不明白
-        votedown: 我不同意
-        random_stack: 自動排序
-        most_recent: 最近
-        most_ranked: 最多人考慮
-        history_button: 歷史記錄
-        choose_votation_period: 選擇投票期間
-        choose_votation_period_alert: 確定投票時間嗎？確認後將無法更動！
-        choose_votation_period_button: 確定
-        no_periods_contact_group: 沒有設定投票日期，請聯絡總管理者
-        choose_new_votation_period_button: 請選擇一個新的投票日期
-        loading_contributions: 正在讀取編輯修訂，請稍候
-        previos_contributes: 先前的編輯修訂...
-        delete_contribute_confirmation: 確定要刪除這個編輯修訂？
-        delete_suggestion_confirmation: 確定要刪除這個建議？
-        offered_as_editor_message: 你被指派為這個提案的編輯之一。
-        offer_as_editor_button: 我想參與編輯此提案！
-        available_editors_button: 目前的編輯群
-        confirm_editors_button: 你想要成為此提案的編輯嗎？
-        editors_list_title: 這個提案目前的編輯
-        attached_documents: 附加文件
-        no_document_attached: 沒有附加任何文件
-        geographic_boundaries_title: 地理位置
-        tags_title: 標籤
-        similar_proposals_title: 相似的提案
-        category_title: 分類
-        edit_button: 編輯
-        delete_button: 刪除
-        delete_proposal_confirmation: 確定要刪除這個提案？
-        votation_message: '這個提案將從 %{from} 到 %{to} 進行投票'
-        editing_message_1: 感謝所有對此提案的討論與貢獻，提案人與編輯將會發展此提案。
-        editing_message_2: 進行投票前，排行必須先達到至少
-        editing_message_3: 最低的成熟度
-        votation_page_button: 前往投票頁面
-        vote_button: 投票
-        send_contribute_button: 送出
-        characters_left: 剩餘字數：
-        score: 評價
-        rank: 成熟度 RANK
-        created_at_html: '建立 %{time} 前： <br/> <b>%{date}</b>'
-        updated_at_html: '更新於 %{time} 前： <br/> <b>%{date}</b>'
-        votation_results: 投票結果
-        votation_results_title: 投票結果
-        in_votation_html: '投票從：<br/> <b>%{start}</b> <br/> 到 <br/> <b>%{end}</b>'
-        in_votation_now: 現在就投票！
-        in_votation_until_html: '投票結束於：<br/> <b>%{date}</b>'
-        anonimity_active: 開啟暫時匿名功能
-        your_nickname_is: 你的暱稱為
-        editors_title: 編輯者
-        supporting_group: 支持的群組
-        no_supporting_group: 尚未有其他群組支持此提案
-        support_proposal_button: 支持這個提案 ...
-        close_debate_button: 結束討論
-        close_debate_proposal_confirmation: 要關閉討論，並立刻進行下一個階段？
-        during_debate: 討論進行中
-        comment_inserted_by: '%{who} - %{when}'
+        voteup: '我同意'
+        votenil: "我不知道 / 我不明白"
+        votedown: '我不同意'
+        random_stack: '自動排序'
+        most_recent: '最近'
+        most_ranked: '最多人考慮'
+        history_button: "歷史記錄"
+        choose_votation_period: "選擇投票期間"
+        choose_votation_period_alert: "確定投票時間嗎？確認後將無法更動！"
+        choose_votation_period_button: "確定"
+        create_votation_period: "沒有設置投票日期, 請設置新日期"
+        no_periods_contact_group: "沒有設定投票日期，請聯絡總管理者"
+        choose_new_votation_period_button: "請選擇一個新的投票日期"
+        loading_contributions: "正在讀取編輯修訂，請稍候"
+        previos_contributes: "先前的編輯修訂..."
+        delete_contribute_confirmation: "確定要刪除這個編輯修訂？"
+        delete_suggestion_confirmation: "確定要刪除這個建議？"
+        offered_as_editor_message: "你被指派為這個提案的編輯之一。"
+        offer_as_editor_button: "我想參與編輯此提案！"
+        available_editors_button: "目前的編輯群"
+        confirm_editors_button: "你想要成為此提案的編輯嗎？"
+        editors_list_title: "這個提案目前的編輯"
+        attached_documents: "附加文件"
+        no_document_attached: "沒有附加任何文件"
+        geographic_boundaries_title: "地理位置"
+        tags_title: "標籤"
+        similar_proposals_title: "相似的提案"
+        category_title: "分類"
+        edit_button: "編輯"
+        delete_button: "刪除"
+        delete_proposal_confirmation: "確定要刪除這個提案？"
+        votation_message: "這個提案將從 %{from} 到 %{to} 進行投票"
+        editing_message_1: "感謝所有對此提案的討論與貢獻，提案人與編輯將會發展此提案。"
+        editing_message_2: "進行投票前，排行必須先達到至少"
+        editing_message_3: "最低的成熟度"
+        votation_page_button: "前往投票頁面"
+        vote_button: "投票"
+        send_contribute_button: "送出"
+        characters_left: "剩餘字數："
+        score: "評價"
+        rank: "成熟度 RANK"
+        created_at_html: "建立 %{time} 前： <br/> <b>%{date}</b>"
+        updated_at_html: "更新於 %{time} 前： <br/> <b>%{date}</b>"
+        votation_results: "投票結果"
+        votation_results_title: "投票結果"
+        in_votation_html: "投票從：<br/> <b>%{start}</b> <br/> 到 <br/> <b>%{end}</b>"
+        in_votation_now: "現在就投票！"
+        in_votation_until_html: "投票結束於：<br/> <b>%{date}</b>"
+        anonimity_active: "開啟暫時匿名功能"
+        your_nickname_is: "你的暱稱為"
+        editors_title: "編輯者"
+        supporting_group: "支持的群組"
+        no_supporting_group: "尚未有其他群組支持此提案"
+        support_proposal_button: "支持這個提案 ..."
+        close_debate_button: "結束討論"
+        close_debate_proposal_confirmation: "要關閉討論，並立刻進行下一個階段？"
+        during_debate: "討論進行中"
+        comment_inserted_by: "%{who} - %{when}"
+        comment_updated_by: "%{who}-更新%{when}"
         replies:
-          show_all: '顯示所有 %{count} 建議...'
-          delete: 刪除
-        reply_button: 回應
-        reply_placeholder: 提供你的建議
-        export_pdf: 列印 PDF
-        manage_noise_folder: '被移除的編輯修訂 (%{removable}/%{removed})'
-        noise_folder: 移除所有編輯修訂
-        what_nickname: 這是什麼？
-        give_contribute: 修改與顯示先前版本
-        no_contributes: 投票階段將不顯示編輯修訂
-        new_valutation_message: 此提案得到了新的評價
-        old_editors_title: 老編輯
-        back_debate_button: 返回討論階段
-        new_quorum_title: 選擇新的門檻
-        enable_alerts: 開啟通知
-        disable_alerts: 關閉通知
-        close_contribute: 關閉編輯修訂
+          show_all: "顯示所有 %{count} 建議..."
+          delete: "刪除"
+        reply_button: "回應"
+        reply_placeholder: "提供你的建議"
+        export_pdf: "列印 PDF"
+        manage_noise_folder: "被移除的編輯修訂 (%{removable}/%{removed})"
+        noise_folder: "移除所有編輯修訂"
+        what_nickname: "這是什麼？"
+        give_contribute: "修改與顯示先前版本"
+        no_contributes: "投票階段將不顯示編輯修訂"
+        new_valutation_message: "此提案得到了新的評價"
+        old_editors_title: "老編輯"
+        back_debate_button: "返回討論階段"
+        new_quorum_title: "選擇新的門檻"
+        enable_alerts: "開啟通知"
+        disable_alerts: "關閉通知"
+        close_contribute: "關閉編輯修訂"
         contributes_list: "顯示 '%{section}' 所有相關編輯修訂 "
-        add_comment: 留下意見
-        add_contribute: 參與，貢獻你的想法！無論是針對內容或用字遣詞上的建議，請幫助編輯讓這個提案更好。
-        login_to_comment: 登入並留下回應
-        regenerate_nickname: 重新產生暱稱
-        add_contribution_no_paragraph: 沒有特定的段落
-        debate_ends_html: 結束討論於
-        debate_ends_valutations_or: 或與
-        model_title: 範本
-        group_area: 工作小組
+        add_comment: "留下意見"
+        add_contribute: "參與，貢獻你的想法！無論是針對內容或用字遣詞上的建議，請幫助編輯讓這個提案更好。"
+        login_to_comment: "登入並留下回應"
+        regenerate_nickname: "重新產生暱稱"
+        add_contribution_no_paragraph: "沒有特定的段落"
+        debate_ends_html: "結束討論於"
+        debate_ends_valutations_or: "或與"
+        debate_ends_valutations_and: "並與"
+        debate_ends_valutations: "結束辯論"
+        error_loading_paragraph: "該段已被刪除。重新載入頁面以查看更新的方案"
+        generic_fake_content: "此部分尚未編譯。通過插入貢獻來幫助編輯！"
+        model_title: "範本"
+        created_events: "已創建的事件"
+        create_new_votation_period: "在辯論結束時創建新事件"
+        choose_later: "不，謝謝。我以後會選擇它"
+        choose_now: "我想現在就選擇"
+        group_area: "工作小組"
+        nickname_assigned: "我們給你指定了 \"%{nickname}\" 這個綽號。如果您不喜歡它, 您可以在10分鐘內從左側功能表中更改它"
+        cant_participate:
+          no_permissions: "您不能參與此方案, 因為您是該組的成員, 但您沒有參與許可權。"
+          ask_permissions: "向管理員請求許可權, 向他發送消息。"
+          request_pending: "您不能參與此方案, 因為您要求要成為該組的成員, 但您的請求尚未被接受。"
+          send_message: "是否要向該組的管理員發送消息？"
+          not_a_member: "您不能參與此方案, 因為您不是該組的成員。"
+          not_logged_in: "您不能參與此方案, 因為您不是該組的成員。"
+        read_contribute: "顯示貢獻"
+        security_token: "安全權杖"
+        you_can_choose_vote_dates: "這項建議一直在等待%{count} 天的投票日期, 所以你現在可以選擇一個。"
+        no_contributes_yet: "這裡還沒有捐款"
+        start_votation_proposal_confirmation: "您確定要立即開始 投票 嗎？"
+        abandoned_message: "撤案 (%{ago}"
       new:
-        quorum_prompt: 選擇門檻
-        quorum_help: 説明
-        step_similar: 相似的提案
-        step_3_title: 剛開始時，盡可能全面地描述目前想要嘗試解決的問題、面臨的挑戰或困難是什麼，以及這個提案希望達成的目標。
-        create_button: 提出新的提案
-        title: 新提案
-        title_group: '在 %{name} 群組中'
-        title_placeholder: '例如："攜帶腳踏車上火車"'
-        interest_borders_tkn_placeholder: 與這個提案有關的地區、城市或國家
-        tags_list_placeholder: 在你的提案中輸入些文字吧
-        category_prompt: 選鑿分類
+        quorum_prompt: "選擇門檻"
+        quorum_help: "説明"
+        step_classification: "分類"
+        step_similar: "相似的提案"
+        step_3: "問題/障礙"
+        step_dates: "辯論和 投票"
+        step_3_title: "剛開始時，盡可能全面地描述目前想要嘗試解決的問題、面臨的挑戰或困難是什麼，以及這個提案希望達成的目標。"
+        create_button: "提出新的提案"
+        title: "新提案"
+        title_group: "在 %{name} 群組中"
+        title_synthetic: "目標 (摘要)"
+        title_placeholder: "例如：\"攜帶腳踏車上火車\""
+        interest_borders_tkn_placeholder: "與這個提案有關的地區、城市或國家"
+        tags_list_placeholder: "在你的提案中輸入些文字吧"
+        step_1_title: "你可以提出一個問題來解決, 一個想法來改進, 一個主動組織。\n重要的是要有一個明確的目標: %{app_short_name} 將説明你在他人的説明下實現它, 通過一個共同解決問題的過程。"
+        step_2_title: "也許有些人已經發表了一些跟你相似的提案：\n請瀏覽下面的列表，停止建立新的提案以免重複。\n合作會讓你的想法更完善！\n點擊提案的標題會開啓提案內容於新分頁。"
+        step_4_title: "太好了！! 選擇您的選項, 然後按一下 \"創建建議\" 以完成指南。\n您的建議將包含在%{app_short_name} 中, 您可以隨時添加更多資訊以獲取更多資訊。"
+        step_4_footer_html: |
+          %{app_short_name} 將説明您通過共同解決問題實現您的目標: 使用者將建議對您的文本的修改和貢獻, 並 <b> 它是由您自己 </b> 集成最喜歡的. <br/>
+          如果你不這樣做, 你的建議就不會進入投票階段. <br/>
+          祝你好運, 不要害怕: 你可以在你的任務中得到別人的説明。
+        category_prompt: "選鑿分類"
+        tags_separated_by_comma: "(用逗號分隔)"
+        cannot_add_proposal_in_work_area: "您沒有在任何區域中添加建議所需的許可權"
+        no_work_area_selected: "無工作區"
+        solution1: "議程"
+        solution: "議程"
+        step_base_info: "初始資訊"
+        advanced_options: "進階選項"
+        wait: |
+          每兩分鐘只能創建一個方案, 請等待%{minutes} 分鐘和%{seconds} 秒。
       tabs:
-        last_inserted: 最後更新
-        most_urgent: 最緊急
+        last_inserted: "最後更新"
+        most_popular: "更高的等級"
+        most_valutated: "更多評價"
+        most_urgent: "最緊急"
       list:
-        no_votation: 尚未有任何得票
-        interest_borders: 地理位置
-        authors: 編輯群
-        support_group: 支持此提案的群組
-        no_proposals: 尚未有任何提案
-        time_left: 剩下的時間
-        vote: 投票
-      delete_comment: 刪除
+        last_update: "更新了 <br/>%{time_ago}"
+        waiting_date: "等待日期"
+        voting_from_to: "從%{from} 到%{to}"
+        voting_until: "直到 <br/>%{date}"
+        votation_finished: "已結束 <br/>%{time_ago}"
+        no_votation: "尚未有任何得票"
+        votation_finished_approved: "批准的 <br/> %{date}"
+        interest_borders: "地理位置"
+        authors: "編輯群"
+        support_group: "支持此提案的群組"
+        no_proposals: "尚未有任何提案"
+        condition_left: "結束辯論的條件"
+        time_left: "剩下的時間"
+        vote: "投票"
+      delete_comment: "刪除"
       results:
-        total: '總票數：%{count}'
-        vote_column: 投票
-        number_column: 總數
-        percentage_column: 比例
-        positive: 贊同
-        negative: 反對
-        neutral: 中立
-        date_time_column: 投票日期與時間
+        total: "總票數：%{count}"
+        vote_column: "投票"
+        number_column: "總數"
+        percentage_column: "比例"
+        positive: "贊同"
+        negative: "反對"
+        neutral: "中立"
+        name_surname_column: "名字和姓氏？"
+        date_time_column: "投票日期與時間"
       report_contribute:
-        mark_title: 標記這個編輯修訂
-        report_title: 回報這個編輯修訂
-        report_description: '您可以回報給網站管理者，這則編輯修改違反了法律或是使用者條款。<br/>，一經確認，這則編輯修訂會被移出討論，但請別濫用回報系統。'
+        mark_title: "標記這個編輯修訂"
+        mark_description: "您可以向建議的編輯指出, 此項貢獻不包含有關資訊, \n無法找到該提案的解決方案. <br/>如果貢獻標記為%{num} 倍, \n則建議的編輯器可以將其從討論中刪除, \n並將其放在 \"噪音\" 資料夾中. <br/>"
+        report_title: "回報這個編輯修訂"
+        report_description: "您可以回報給網站管理者，這則編輯修改違反了法律或是使用者條款。<br/>，一經確認，這則編輯修訂會被移出討論，但請別濫用回報系統。"
       vote_panel:
-        title: 投下你的一票！
-        secret_vote: 你的投票是匿名進行的，而且一經送出無法再修改。
-        clear_vote: 你的投票已經被記錄且可供驗證。
-        single_title: 在這個提案中只有一個方案，快說出你的意見吧！
-        results_time: '你在 %{when} 投票了'
-        hidden_vote: 投票是匿名進行的，所以無法顯示
-        preferences_order: 你的喜好排序為：
-        expressed_vote: '你送出了 %{vote} 票'
+        title: "投下你的一票！"
+        schulze_title: "這項建議有幾種解決辦法。<br> 根據您的喜好對它們進行排序。"
+        secret_vote: "你的投票是匿名進行的，而且一經送出無法再修改。"
+        clear_vote: "你的投票已經被記錄且可供驗證。"
+        single_title: "在這個提案中只有一個方案，快說出你的意見吧！"
+        results_time: "你在 %{when} 投票了"
+        hidden_vote: "投票是匿名進行的，所以無法顯示"
+        preferences_order: "你的喜好排序為："
+        expressed_vote: "你送出了 %{vote} 票"
       edit:
         title: "編輯提案 '%{title}'"
-        hurry_up: 時間要到了，動作快！
-        last_minutes: '你只能在 %{minutes} 分鐘以內編輯完這些欄位。'
-        no_participants: 你只能在沒有人參與之前編輯這些欄位。
-        remove_section: 移除段落
-        add_paragraph: 上傳一張圖片
-        remove_solution: 移除這個解決方案
-        press_to_compress: 點擊標題收合方案
-        add_paragraph_to_solution: 為解決方案增加一張照片
-        you_know_what_you_do: 你知道你該怎麼座嗎？
-        schulze_title: 一個或多個解決方案？
-        inserted_contributes: 整合這則編輯修訂到目前的版本
-        paragraph: 段落
-        show_contributes: 顯示所有編輯修訂
-        cancel_confirm: 確定取消你的編輯並檢視提案？
-        update_confirm: 你沒有完成任何編輯修訂，確定要繼續嗎？
+        hurry_up: "時間要到了，動作快！"
+        last_minutes: "你只能在 %{minutes} 分鐘以內編輯完這些欄位。"
+        no_participants: "你只能在沒有人參與之前編輯這些欄位。"
+        remove_section: "移除段落"
+        add_paragraph: "上傳一張圖片"
+        edit_proposal: "修改和更新建議的文本!"
+        remove_solution: "移除這個解決方案"
+        press_to_compress: "點擊標題收合方案"
+        add_paragraph_to_solution: "為解決方案增加一張照片"
+        you_know_what_you_do: "你知道你該怎麼座嗎？"
+        schulze_title: "一個或多個解決方案？"
+        inserted_contributes: "整合這則編輯修訂到目前的版本"
+        more_solutions_explained_html: |
+          <b> 為什麼我們問你, 如果你知道你在做什麼？ </b> <br/>%{app_short_name} 
+          允許您在方案中添加一個或多個解決方案. <br/>
+          如果只有一個解決辦法, 在投票階段, 參與者可以選擇批准或拒絕已草擬的案文. <br/>
+          如果將有更多的解決方案, 投票將是不同的, 
+          每個參與者將能夠投票使用舒爾茨方法. <br/>
+          如果您試圖草擬問題的摘要, 並且希望共用文本 <b> 
+          不創建替代解決方案 </b>! <br/>
+          相反, 如果您正在搜索一個輪詢, 
+          或者您希望在第一個解決方案中不是可積的替代項, 則繼續進行. <br/>
+          請記住, 在辯論結束之前, 您將能夠添加或刪除解決方案, 修改使用的投票方法。
+        paragraph: "段落"
+        confirm_paragraph_deletion: "確實要刪除此段落嗎？"
+        confirm_solution_deletion: "確實要刪除此解決方案嗎？"
+        press_to_expand: "按一下標題以展開此解決方案"
+        integrated: "綜合"
+        contribution_valuation: "他們怎麼想？"
+        navigator: "導航"
+        compress_solutions: "折疊解決方案"
+        hide_contributes: "隱藏捐款"
+        expand_solutions: "擴展解決方案"
+        show_contributes: "顯示所有編輯修訂"
+        cancel_confirm: "確定取消你的編輯並檢視提案？"
+        update_confirm: "你沒有完成任何編輯修訂，確定要繼續嗎？"
       manage_noise:
-        available: 這則編輯修訂符合移除標準
-        removed: 已經從討論中移除這則編輯修訂
-      contribution_valuation: 你覺得這個如何？
-      contribution_valuation_again: 改變主意嗎？
+        available: "這則編輯修訂符合移除標準"
+        removed: "已經從討論中移除這則編輯修訂"
+      contribution_valuation: "你覺得這個如何？"
+      contribution_valuation_again: "改變主意嗎？"
       new_rank_bar:
-        creation: '建立於：%{time_ago} <br/> %{date}'
-        end: '結束討論：<br/> %{date}'
+        creation: "建立於：%{time_ago} <br/> %{date}"
+        end: "結束討論：<br/> %{date}"
         valutations:
-          other: '%{count} 的評價'
-        good_score: '正面評價 %{score}%'
-        bad_score: '負面評價 %{score}%'
-        now: '剩下 %{left}'
+          other: "%{count} 的評價"
+        good_score: "正面評價 %{score}%"
+        bad_score: "負面評價 %{score}%"
+        now: "剩下 %{left}"
+      left_panel:
+        creation_date: "創建日期"
+        any_date: "任何日期"
+        choose_creation_date: "選擇時間間隔"
+        last_hour: "最後一小時"
+        last_24_hour: "最近24小時"
+        last_week: "上個星期"
+        last_month: "上個月"
+        last_year: "去年"
+        date_range: "時間間隔"
+      update_comment: "編輯"
     events:
       index:
-        title: 日曆
-        group_title: 活動日曆
+        title: '日曆'
+        group_title: "活動日曆"
+        choose_type: "選擇事件種類"
       new:
-        private_tooltip: 只有群組中的成員可以觀看、參與這個活動
-        title: 建立新活動
-        submit: 建立新活動
+        private_tooltip: "只有群組中的成員可以觀看、參與這個活動"
+        title: "建立新活動"
+        submit: "建立新活動"
+        type_for_town: "鍵入一些字元以搜索城鎮"
+        no_town_found: "找不到城鎮"
+        town_searching: "搜索中"
+        title_event: "新 投票 事件"
+        title_meeting: "新 見面 事件"
+        step_1: "活動類型"
+        step_2: "描述"
+        step_3: "時間"
+        step_4: "在哪裡："
+      show:
+        map: "地图"
+        event_place: "活動地點"
+        when_past: "什麼時候？"
+        when: "何時?"
+        where_past: "什麼時候？"
+        where: "在哪裡?"
+        show_on_map: "在地圖上顯示"
+        reply: "回覆!"
+        no_answer: "您尚未回復邀請"
+        yes_partecipated: "您參加了活動"
+        no_partecipated: "你沒有參加這次活動"
+        yes_partecipate: "您將參加活動"
+        no_partecipate: "您將會不參加活動"
+        with_guests: "%{field} 客人"
+        will_be_in: "你要參加這個活動嗎？"
+        participants: "誰參加？"
+        will_partecipate: "誰來參加？"
+        no_participants: "沒有人參加"
+        no_participants_yet: "仍然沒有參與者"
+        non_participants: "誰沒有出席？"
+        will_non_participants: "誰不會參加？"
+        voting_proposals: "在這些日子裡, 這些提案將被投票"
+        no_voting_proposals: "在這幾天沒有被投票的提案"
     votations:
       show:
-        vote_positive: 正面評價
-        vote_neutral: 中立評價
-        vote_negative: 負面評價
-        confirm_positive: '確認要投下「贊成」票到「% {name}」到提案？送出後的投票無法修改。'
-        confirm_neutral: '確認要投下「中立」票到提案「% {name}」？送出後的投票無法修改。'
-        confirm_negative: '確認要投下「反對」票到提案「% {name}」？送出後的投票無法修改。'
-        confirm_schulze: '確認你在提案「% {name}」上的投票正確？送出後的投票無法修改。'
+        vote_positive: '正面評價'
+        vote_neutral: '中立評價'
+        vote_negative: '負面評價'
+        confirm_positive: "確認要投下「贊成」票到「% {name}」到提案？送出後的投票無法修改。"
+        confirm_neutral: "確認要投下「中立」票到提案「% {name}」？送出後的投票無法修改。"
+        confirm_negative: "確認要投下「反對」票到提案「% {name}」？送出後的投票無法修改。"
+        confirm_schulze: "確認你在提案「% {name}」上的投票正確？送出後的投票無法修改。"
     blog_posts:
       new:
-        title: 新增文章
-        published_in_groups: 這則文章會被發佈在下列群組：
-      new_button: 新增一篇文章
-      drafts_button: 隱藏文章
-      edit_button: 修改
-      delete_button: 刪除
+        title: '新增文章'
+        published_in_groups: "這則文章會被發佈在下列群組："
+      new_button: "新增一篇文章"
+      drafts_button: "隱藏文章"
+      drafts:
+        title: "%{blog}-未發表的文章"
+      edit_button: "修改"
+      delete_button: "刪除"
       comment:
-        delete_button: 刪除
-        confirm_delete: 確定要刪除這篇文章？
+        delete_button: "刪除"
+        confirm_delete: "確定要刪除這篇文章？"
+        inserted_when: "添加%{when}"
       list_elements:
-        inserted: '%{name} 發表於 %{date}'
+        inserted: "%{name} 發表於 %{date}"
       show:
-        previous_comments: 先前的回應...
-        tags_title: '標籤:'
-        edit_button: 編輯
-        delete_button: 刪除
-        delete_button_confirm: 確定要刪除這篇文章？
-        comments_says: 說...
-      published_button: 發佈的文章
+        previous_comments: "先前的回應..."
+        tags_title: "標籤:"
+        edit_button: "編輯"
+        delete_button: "刪除"
+        delete_button_confirm: "確定要刪除這篇文章？"
+        draft: "草稿"
+        comments_says: "說..."
+        reserved: "儲備"
+      published_button: "發佈的文章"
       view:
-        comments: '共有 %{count} 則回應'
+        comments: "共有 %{count} 則回應"
+      index:
+        title: "%{app_short_name} 上的最後一個帖子"
+      edit:
+        title: "編輯帖子"
+      archives:
+        title: "存檔為 %{month}, %{year}"
     alerts:
       polling:
-        show_all: 顯示所有通知事項
+        show_all: "顯示所有通知事項"
       index:
-        new_not_read: 新的未讀通知
-        no_new: 沒有新的通知
-        old_not_read: 已讀過的通知
-        no_old: 沒有通知
+        new_not_read: "新的未讀通知"
+        no_new: "沒有新的通知"
+        old_not_read: "已讀過的通知"
+        no_old: "沒有通知"
     blog_comments:
       new:
-        insert_comment: 發表回應
+        insert_comment: "發表回應"
     header:
       groups:
-        events: 活動
-        proposals: 提案
+        events: "活動"
+        proposals: "提案"
+        forum: "論壇"
+      no_groups_yet: "你還沒有在任何組。"
       menu:
-        my_page: 我的首頁
-        my_blog: 我的 Blog
-        create_blog: 建立你的 Blog
-        preferences: 喜好設定
-        administration: 總管理者
-        logout: 登出
-        remember_me: 在這台電腦記住我
-        login_button: 登入
-        registration_button: 加入我們
-        resend_email_button: 沒有收到帳號確認信？
-        no_notifications: 沒有通知
-        sign_has_read: 閱
-        moderator: 審和界面
-      welcome: 歡迎
-      groups_title: 群組
-      login: 登入
-      groups_list: 你的群組
-      open_group: 建立一個群組
-      new_group: 尋找群組
-      support_us: 支持我們
-      no_alerts: 沒有提醒
+        my_page: "我的首頁"
+        my_blog: "我的 Blog"
+        create_blog: "建立你的 Blog"
+        preferences: "喜好設定"
+        administration: "總管理者"
+        logout: "登出"
+        remember_me: "在這台電腦記住我"
+        login_button: "登入"
+        registration_button: "加入我們"
+        forgot_password_button: "忘记了密码"
+        resend_email_button: "沒有收到帳號確認信？"
+        no_notifications: "沒有通知"
+        sign_has_read: "閱"
+        moderator: "審和界面"
+        profile: "配置"
+      welcome: "歡迎"
+      groups_title: "群組"
+      login: "登入"
+      login_placeholder: "電子郵件"
+      groups_list: "你的群組"
+      open_group: "建立一個群組"
+      new_group: "尋找群組"
+      support_us: "支持我們"
+      no_alerts: "沒有提醒"
+      read: "閱讀"
     blogs:
       show:
-        no_posts: 沒有文章
-        no_posts_long: 這個 Blog 目前還沒有任何文章，稍後再回來！
-        tag: 標籤
-        previous_posts: 先前的文章...
-        edit_button: 編輯 Blog
-        title: Blogs 列表
+        no_posts: "沒有文章"
+        no_posts_long: "這個 Blog 目前還沒有任何文章，稍後再回來！"
+        tag: "標籤"
+        previous_posts: "先前的文章..."
+        edit_button: "編輯 Blog"
+        title: "Blogs 列表"
+        no_unpublished_posts: "目前沒有未發表的帖子"
+        other_blogs: "更多博客"
       new:
-        title: 建立你的個人 Blog！
-        cancel_button: 不，謝了！
-        create_button: 建立
+        title: "建立你的個人 Blog！"
+        cancel_button: "不，謝了！"
+        create_button: "建立"
       edit:
-        title: 編輯 Blog
-        title_label: Blog 標題
-        back_to_blog: 返回我的 blog
+        title: "編輯 Blog"
+        title_label: "Blog 標題"
+        back_to_blog: "返回我的 blog"
+      index:
+        blog_subtitle: "%{posts} 帖子, %{comments} 評論"
+        find_blog_label: "尋找一個你有興趣的群組加入吧！"
+        search_description: "使用搜索工具 或點擊標籤來查您感興趣的博客"
+        search_with_query: "使用個人化查詢"
+        find_title: "搜索在博客標題或作者姓名中"
+        search_with_place: "或地區邊界"
     quorums:
       index:
-        title: 可選擇的門檻
+        title: "可選擇的門檻"
+        how_read: "法定人數是多少？"
+        debate_end: "辯論結束"
     home:
       index:
-        partecipate: 參與
-        videos: 影片教學
-        whowe: 關於我們
-        support: ♥ 支持我們
-        cloud_1: 建議
-        cloud_2: 協作
-        cloud_3: 線上民主
-        cloud_4: 回報
-        cloud_5: 討論
-        cloud_6: 辯論
-        cloud_7: 參與
-        cloud_8: 投票
-        cloud_9: 選擇
-        try_it: 試用
-        register: 註冊
-        login: 登入
-        forgot_password: 忘記密碼?
-        follw_on_twitter: 在推特上追蹤 @democracyo
+        whatis: "什麼"
+        partecipate: "參與"
+        videos: "影片教學"
+        whowe: "關於我們"
+        support: "♥ 支持我們"
+        cloud_1: "建議"
+        cloud_2: "協作"
+        cloud_3: "線上民主"
+        cloud_4: "回報"
+        cloud_5: "討論"
+        cloud_6: "辯論"
+        cloud_7: "參與"
+        cloud_8: "投票"
+        cloud_9: "選擇"
+        try_it: "試用"
+        register: "註冊"
+        login: "登入"
+        forgot_password: "忘記密碼?"
+        follw_on_twitter: "在推特上追蹤 @democracyo"
         field_1:
-          title: '<em>提出</em> 解決方案'
-          content: 這是動民主 Airesis v1.75
+          title: "<em>提出</em> 解決方案"
+          content: "這是動民主 Airesis v1.75"
         field_2:
-          title: '<em>現在就加入</em>'
-          content: 加入群組，選擇最能代表你和你有興趣參與的。人多力量大！
+          title: "<em>現在就加入</em>"
+          content: "加入群組，選擇最能代表你和你有興趣參與的。人多力量大！"
         field_3:
-          title: '<em>選擇</em> 你的未來'
-          content: 找出群體裡創新選擇的決策工具。簡單的投票系統，以實現流動式的直接民主。
+          title: "<em>選擇</em> 你的未來"
+          content: "找出群體裡創新選擇的決策工具。簡單的投票系統，以實現流動式的直接民主。"
         field_4:
-          title: '<em>協作</em>實現您的希望'
-          content: 分享你的經驗、讓別人的提案更好。認識更多志同道合的新朋友，共同實現你的想法！
-        keep_connected: 保持登入階段
-        feedback: 建議與回饋
-        guide: 教學
-        change_language: 更換語言
+          title: "<em>協作</em>實現您的希望"
+          content: "分享你的經驗、讓別人的提案更好。認識更多志同道合的新朋友，共同實現你的想法！"
+        keep_connected: "保持登入階段"
+        feedback: "建議與回饋"
+        FAQ: "常見問題"
+        guide: "教學"
+        change_language: "更換語言"
+        most_used_tags: "大多數使用的標籤"
+        show_tags: "顯示所有標籤..."
+        next_events: "下一個活動"
+        show_events: "顯示日曆"
+        most_active_groups: "大多數的活動組"
+        show_groups: "顯示所有的組"
+        last_proposals: "最後公開的建議"
+        from_blogs: "博客中最後的帖子"
+        features: "精選"
+        donations: "贊助"
+        volunteers: "志願者"
       show:
-        your_proposals: 你正在參與的提案
+        your_proposals: "你正在參與的提案"
         proposals:
-          title: 標題
-          last_edit: 最後編輯
-          notifications: 通知
+          title: "標題"
+          last_edit: "最後編輯"
+          authors: "編輯"
+          notifications: "通知"
         notifications:
-          title: 提示
-        your_contributes: 你最後一次的編輯修訂
-        your_territory: 你的地盤 (測試中)
+          title: "提示"
+        your_contributes: "你最後一次的編輯修訂"
+        your_territory: "你的地盤 (測試中)"
+        no_proposals_to_vote_now: "目前在投票階段沒有提議"
+        proposals_now_voting: "現在投票的提案"
     open_space:
       layout:
-        proposals_button: 提案
-        calendar_button: 日曆
-        map_button: 地圖
+        proposals_button: "提案"
+        calendar_button: "日曆"
+        map_button: "地圖"
+        groups_button: "群組"
+        blogs_button: "博客"
+        petitions_button: "請願"
+        tags_button: "標記"
     proposal_supports:
       new:
-        panel_title: 確認同意支持此提案
-        no_available_groups: 你無法代表任何群組來支持這個提案
-      confirm_button: 確認
+        panel_title: "確認同意支持此提案"
+        no_available_groups: "你無法代表任何群組來支持這個提案"
+      confirm_button: "確認"
     calendar:
-      create_event_button: 建立新的活動
+      create_event_button: "建立新的活動"
     sessions:
       new:
-        remember_me_label: 記住我
+        login_label: "電子郵件"
+        remember_me_label: "記住我"
       links:
-        register: 沒有帳號？現在就註冊一個！
-        forgot_password: 忘記密碼？
-        havent_received_email: 沒有收到帳號確認信？
+        register: "沒有帳號？現在就註冊一個！"
+        forgot_password: "忘記密碼？"
+        havent_received_email: "沒有收到帳號確認信？"
     steps:
-      next: 繼續
+      next: "繼續"
       interest_borders:
-        title: 開始參與
+        title: "開始參與"
+        description_html: |
+          設置您的地理利益邊界. <br/>
+           如果 Airesis 知道您感興趣的區域是什麼,
+          它就可以建議您的團隊遵循
+          並顯示與您的區域相關的有新建議. <br/>
+      rank_bar_explain:
+        title: "成熟度欄"
+        description_html: |
+          成熟度欄位於左側的橫向菜單。<br />
+          條形圖顯示參與者對提案的批准成熟度。<br />
+          您可以建議提案的文本是否完整，或使用欄下方的兩個按鈕。<br />
+          提案的編輯必鬚根據其他參與者的貢獻來撰寫文本。
+          當提案的文本發生變化時，您將有可能建議您是否喜歡新文本，並因此修改以前的評估。<br />
+          條形的顏色顯示提案是否準備進入投票階段，
+          而長度顯示討論結束之前還剩多少時間和/或評估。<br />
+        newdescription2: "該欄顯示了參與者之間建議的成熟程度, 以及在辯論結束前剩餘的時間"
+        newdescription3: "如果提案能夠進入投票階段，則會顯示顏色，而長度則顯示辯論結束之前還剩多少時間"
+        newdescription4: "當你認為辯論結束了, 編輯們整合了其他使用者的貢獻, 使用這個按鈕"
+        newdescription5: "如果您認為應 該繼續進行辯論, 請使用此按鈕"
+        newdescription6: "當建議文本更新時, 您將會能夠更改您的評估"
+      welcome:
+        title_html: <b> 歡迎使用 %{app_short_name}, %{user} </b> <br/>
+        description_html: |
+          這個簡短的教程將幫助你在平台內的第一選擇。<br/>
+          這是您的桌面：在這裡您可以找到所有需要與您的地區保持聯繫的信息。<br/>
+          您可以管理您的建議和團體，查看您周圍的事件並與其他公民聯繫。<br/>
+          通過向<a href="mailto:info@airesis.it"> info@airesis.it </a>發送反饋來改進Airesis。<br/> <br/>
+      choose_follow:
+        description_html: |
+          這裡你是最活躍的團體在你的利益邊界內的領土. <br/> 
+          選擇您想參與的專案, 這樣您就可以與他們取得聯繫並參與他們的活動和建議. <br/>
+          點擊一次選擇，再次點擊取消選擇。<br />
+      first_proposal:
+        title_html: 你最後一次的編輯修訂
+        description_html: |
+          وقت آن است که نظر خود را بیان کنید!<br />
+          پیشنهاد، ایده یا بازخورد از قلمرو را اضافه کنید. <br />
+          به بحث و گفتگو بپردازید و سایر کاربران به شما اطلاع دهند <br/>
+          پیشنهاد شما اضافه خواهد شد %{proposal} و ممکن است توسط گروه در قلمرو شما حمایت شود!
     proposal_histories:
       index:
-        title: '%{title} - 編輯修訂歷程'
-        back_to_proposal: 返回提案
+        title: "%{title} - 編輯修訂歷程"
+        back_to_proposal: "返回提案"
+      title: "編輯修訂歷程"
+      loading_revisions: "正在載入修訂。"
+      editor_name: "修訂版的作者:"
+      revision: "修訂"
+      date_and_time: "日期與時間"
+      present_life_cycle: "目前生命週期"
+      no_revision: "沒有修訂"
+      life_cycle: "生命週期"
+      life_cycle_number: "生命週期編號%{life}"
+      end_date: "結束日期:"
+      score_reached: "成熟達到:"
+      evaluation_reached: "評價數目:"
+      quorum_used: "使用的仲裁:"
+      editors_in_life_cycle: "此生命週期中的編輯器:"
+      solutions:
+        added: "新的解決方案"
+        removed: "刪除的解決方案"
+      sections:
+        added: "新段落"
+        removed: "刪除段落"
     tags:
       show:
-        related_title: 相關標籤
+        related_title: "相關標籤"
+        not_found: "未找到標記 \"%{tag}\""
+        title: "帶有標記 \"%{tag}\" 的元素清單"
+      list_proposals_with_tag: "提議"
+      no_proposals_with_tag: "目前還沒有這個標籤的建議"
+      list_posts_with_tag: "文章"
+      no_posts_with_tag: "沒有此標記的帖子"
+      list_groups_with_tags: "群組"
+      no_groups_with_tag: "目前還沒有這個標籤的建議"
+      proposals_tab: "提議"
+      posts_tab: "文章"
+      groups_tab: "群組"
+      not_found:
+        subtitle: "這些是最常用的關鍵字在 Airesis"
+      index:
+        title: "最常用標籤清單"
+    footer:
+      for_edemocracy: "民主"
+      go_to_main_site: "進入網站"
+      for_edemocracy_html: "民主的 <a href=\"Https://github.com/coorasse/Airesis\" target=\"_blank\"> 開放源碼 </a> 專案<a href=\"https://github.com/coorasse/Airesis\" target=\"_blank\">"
+    moderator_panel:
+      title: "主持人面板"
+      block_user: "阻止使用者"
+      blocked_user_list: "被阻止的使用者清單"
+      block: "解除封鎖"
+    feedback:
+      send_feedback: "意見回饋"
+      add_details: "添加詳細資訊"
+      view_preview: "預覽"
+      send_succes: "已成功發送回饋。謝謝！"
+      send_error: "我們很抱歉, 但在發送回饋時出錯"
+      describe_problem: "在這裡寫下您的留言:"
+      highlight_or_blackout: "強調顯示或中斷重要資訊"
+      blackout: "停電"
+      highlight: "強調"
+    passwords:
+      edit:
+        title: "更改您的密碼"
+    event_comments:
+      new:
+        insert_comment: "插入註解"
+    propsoals:
+      index:
+        type: "類型%{type}"
+    proposal_comments:
+      title: "貢獻歷史"
+      noise:
+        title: "吵鬧的貢獻名單"
+        no_contributes: "在這裡沒有貢獻"
+    available_authors:
+      index:
+        explain_html: |
+          選擇您希望幫助您制定提案摘要的用戶, 然後按一下 "保存". <br/>小心！這些使用者在您的建議的管理中將具有相同的許可權。
+    participation_roles:
+      edit:
+        title: "編輯參與角色"
+    group_participations:
+      index:
+        title: "參與者清單"
+    certifications:
+      index:
+        title: "已認證組"
   pl:
     comments:
-      other: '%{count} 回應'
+      other: "%{count} 回應"
+  models:
+    best_quorum:
+      good_score_condition: "如果該提案的成熟度大於該提案 <b>%{good_score}% </b> 和 %{participants}, 則該提案將轉到表決, 否則將被放棄"
+      good_score_condition_past: "如果該提案的成熟度大於該提案 <b>%{good_score}% </b> 和 %{participants}, 則該提案將轉到表決, 否則將被放棄"
+    quorum:
+      participants:
+        other: '他們參與了 <b>%{count} </b> 的人員'
+      participants_past:
+        other: '他們參與了 <b>%{count} </b> 的人員'
+      or_condition_1: "辯論將以%{time} 或%{participants_num} 結束。"
+      or_condition_1_past: "辯論持續了%{time} 或當%{participants_num}。"
+      and_condition_1: "辯論將以%{time} 結束, 但它將繼續下去, 除非%{participants_num}。"
+      and_condition_1_past: "辯論持續 %{time}, 但繼續進行, 除非%{participants_num}。"
+      time_condition_1: "辯論將以%{time} 結束"
+      time_condition_1_past: "辯論持續%{time}"
+      participants_condition_1: "辯論將持續到%{participants_num}。"
+      participants_condition_1_past: "辯論持續到%{participants_num}。"
+      good_score_condition: "如果該方案的到期日大於 <b>%{good_score}% </b>, 則該提案將轉到投票, 否則將被放棄"
+      good_score_condition_past: "如果該提案的成熟度大於該提案 <b>%{good_score}% </b> 和, \n則該提案將轉到表決, 否則將被放棄"
+      bad_score_explain: |
+        如果建議在 <b>%{good_score}% </b> 上獲得成熟度, 它將轉到投票階段。
+        但是, 如果它在 <b>%{bad_score}% </b> 
+        下面得到一個等級, 
+        它將被放棄. <br/>
+        如果這兩個閾值之間的等級保持不變, 
+        無論是時間還是評估次數, 辯論將繼續進行。
+      bad_score_explain_past: |
+        如果該方案在 <b>%{good_score}% </b> 
+        上獲得了成熟度, 則它進入了投票階段。
+        然而如果它得到了等級在 <b>%{bad_score}% </b> 之下,
+         它被摒棄了. <br/>
+        如果這兩個門檻之間的等級保持不變, 
+        無論是時間還是評價的次數, 辯論仍在繼續
+      until_date: "(直到 %{date})"
+      help_content:
+        description_html: |
+          <h3>什麼是仲裁？</h3><p> 
+          仲裁是確定提案的辯論結束和投票階段開始的參數. <br/> 
+          當您創建新方案時, 
+          您可以選擇在開放空間中可用的仲裁之一, 
+          或在組中可用的仲裁之一. <br/> 
+          在此開闊
+          您可以按一下不同的仲裁以查看其特徵:
+           您將找到所選參數的說明和清單. <br/> </p>
+        participants: "最低參與人數:"
+        not_specified: "未指定"
+        time_discussion: "討論期間:"
+        condition: "通行條件:"
+        at_least_one: "至少一个"
+        both: "兩個"
+        good_score: "成熟度:"
+        bad_score: "拒絕:"
   proposals:
-    create_button: 提出新的提案
+    create_button: "提出新的提案"
     show:
-      ready_for_vote: 準備好投票了！
-    regenerate_button: 返回討論階段
-  digit_tags: 輸入你想加入的標籤
+      ready_for_vote: "準備好投票了！"
+      keep_discuss: "繼續討論"
+    regenerate_button: "返回討論階段"
+    edit:
+      expand_all: "全部展開"
+      collapse_all: "全部折疊"
+    schulze_vote_results:
+      results: "結果"
+      votes: "投票"
+      solution: "解決"
+      points: "點"
+      random_ordered_votes: "隨機有序投票"
+      number_of_voters: "選民人數"
+      vote: "他們的投票"
+    authors_list_panel:
+      dont_want_to_be_an_author: "我不想成為一個作家了"
+    left_panel:
+      promote_proposal: "推廣建議"
+      share_with_friends: "分享給朋友"
+    show_proposal:
+      vote_here: "這項建議在表決階段。閱讀解決方案和%{link}。"
+  digit_tags: "輸入你想加入的標籤"
   buttons:
-    cancel: 取消
-    save: 儲存
-    report: 回報
-    update: 更新
-    send: 送出
-    create: 建立
-    delete: 刪除
-    search: 搜尋
-    edit: 編輯
+    cancel: "取消"
+    save: "儲存"
+    report: "回報"
+    update: "更新"
+    send: "送出"
+    create: "建立"
+    delete: "刪除"
+    search: "搜尋"
+    close: "關閉"
+    edit: "編輯"
+    next: "下一步"
+    go_back: "回前"
+    chosen: "我選擇了!"
+    ok: "好"
+    yes_word: '是的'
+    no_word: '不'
+    mark: "標示"
+    detach: "分離"
+    login: "登入"
+    show: "顯示"
+    preview: "預覽"
+    new_newsletter: "創建電子報"
+    unlock: "解鎖"
+    vote_here: "在這裡投票"
+    unintegrate: "返回討論階段"
+    join_accounts: "加入帳戶和登錄"
+    save_and_exit: "保存並退出"
   tooltips:
-    random_stack_1: '<strong>顯示的順序？</strong><br/>首先我們會挑出最新或您尚未給予評價的編輯修訂意見，接著依序照您認為的優劣來排序。<br/> <b>提醒你</b>: 您給予的評價會改變排序！'
-    random_stack_2: '<strong>顯示的順序？</strong><br/>編輯修訂會依照最近一則為順序來排列。'
-    random_stack_3: '<strong>顯示的順序？</strong><br/>編輯修訂會依照受歡迎的程度排序。<br/> <b>提醒你</b>: 你的評價也會影響排序。'
-    miglioricontributi: '<strong>如何貢獻？</strong> <br/>參與提案的討論不僅止於給予評價或投票，更重要的是針對文本的共同編輯與修訂：提出具體、有建設性的批評、替代或改進的建議，都將幫助這個提案者與編輯改進提案本身。<br /> <br/> <b>提醒你</b>: 最有價值的貢獻是提出想法，使得提案找到一個或多個可能的解決方案！'
-    voglioredigere: 我有意見：向編輯群提出申請編輯這些文字。
-    valutazioni: 提出評價的人數
-    gradimento: 正面評價的比例
-    nickname: '<strong>開啓匿名討論本提案</strong> <br />透過匿名討論，沒有人能知道彼此是誰，在這種方式下共同編輯或討論提案，可能可以讓焦點更集中於提案的內容本身。<br/> <b>提醒你</b>: 當討論結束，無論提案被通過或是撤銷後，所有參與者的顯示名稱會公開。'
-  group: 群組
-  saving: 儲存中...
-  sending: 傳送中...
-  updating: 更新中...
-  loading: 載入中...
+    random_stack_1: "<strong>顯示的順序？</strong><br/>首先我們會挑出最新或您尚未給予評價的編輯修訂意見，接著依序照您認為的優劣來排序。<br/> <b>提醒你</b>: 您給予的評價會改變排序！"
+    random_stack_2: "<strong>顯示的順序？</strong><br/>編輯修訂會依照最近一則為順序來排列。"
+    random_stack_3: "<strong>顯示的順序？</strong><br/>編輯修訂會依照受歡迎的程度排序。<br/> <b>提醒你</b>: 你的評價也會影響排序。"
+    miglioricontributi: "<strong>如何貢獻？</strong> <br/>參與提案的討論不僅止於給予評價或投票，更重要的是針對文本的共同編輯與修訂：提出具體、有建設性的批評、替代或改進的建議，都將幫助這個提案者與編輯改進提案本身。<br /> <br/> <b>提醒你</b>: 最有價值的貢獻是提出想法，使得提案找到一個或多個可能的解決方案！"
+    voglioredigere: "我有意見：向編輯群提出申請編輯這些文字。"
+    voteup: "建議已經足夠成熟, 可以進入投票階段 (您可以在建議文本更新時更改評估)"
+    votedown: "該提案的案文尚未成熟, 因為使用者的繳款必須集成 (您可以在建議文本更新時更改評估)"
+    valutazioni: "提出評價的人數"
+    gradimento: "正面評價的比例"
+    nickname: "<strong>開啓匿名討論本提案</strong> <br />透過匿名討論，沒有人能知道彼此是誰，在這種方式下共同編輯或討論提案，可能可以讓焦點更集中於提案的內容本身。<br/> <b>提醒你</b>: 當討論結束，無論提案被通過或是撤銷後，所有參與者的顯示名稱會公開。"
+    manage_noise: "<strong>管理沒什麼用的編輯修訂</ strong> <br />參與者會向你提出哪些意見、討論或編輯是沒有用的。你可以透過這個管理介面，將那些文字移出討論，收到「刪除」資料夾"
+    view_noise: "檢視 <strong>無用的編輯修訂</ strong> <br />在此處你可以看到所有被認為沒什麼無用、無關，且已經被移出移出這個提案討論的意見。"
+    quorum_minutes: "直到 <b>%{date}</b> %{time}"
+    quorum_valutations: "直到它將被評為 <b> 最少%{valutations} 人 </b>"
+    quorum_description: "這項建議將在辯論中%{conditions}。只有當其 <b> 成熟度 </b> 大於 <b>%{good_score}% </b> 時, 它才會轉到投票階段。"
+  group: "群組"
+  saving: "儲存中..."
+  sending: "傳送中..."
+  updating: "更新中..."
+  loading: "載入中..."
   error:
-    setting_preferences: 設定時出現錯誤
-    admin_required: 你必須是管理者才能瀏覽此頁面
-    permissions_required: 你的操作不被允許
-    portavoce_required: 你必須是這個群組的發言人，才能檢視此頁面
-    blog_required: 要進行這個操作前，你必須開啓一個你個人的 Blog
-    not_your_blog: 你不能在別人的 Blog 上面做這個操作
-    role_permission_change: 無法更改權限
-    event_answer: 傳送回應出現錯誤
-    event_already_answered: 你已經回應過這個活動
-    event_past: 本活動結束了
-    configuration_required: 模組尚未開啟
-    areas_required: 必須先開啟工作小組
+    setting_preferences: "設定時出現錯誤"
+    admin_required: "你必須是管理者才能瀏覽此頁面"
+    permissions_required: "你的操作不被允許"
+    portavoce_required: "你必須是這個群組的發言人，才能檢視此頁面"
+    blog_required: "要進行這個操作前，你必須開啓一個你個人的 Blog"
+    not_your_blog: "你不能在別人的 Blog 上面做這個操作"
+    role_permission_change: "無法更改權限"
+    event_answer: "傳送回應出現錯誤"
+    event_already_answered: "你已經回應過這個活動"
+    event_past: "本活動結束了"
+    configuration_required: "模組尚未開啟"
+    areas_required: "必須先開啟工作小組"
     quorums:
-      quorum_creation: 建立門檻時出現錯誤
-      quorum_modification: 更新門檻時出現錯誤
-      advanced_proposals_settings: 設定喜好設定時出現錯誤
+      quorum_creation: "建立門檻時出現錯誤"
+      quorum_modification: "更新門檻時出現錯誤"
+      advanced_proposals_settings: "設定喜好設定時出現錯誤"
     participation_roles:
-      role_updated: 更新角色時出現錯誤
-      role_created: 建立角色時出現錯誤
+      role_updated: "更新角色時出現錯誤"
+      role_created: "建立角色時出現錯誤"
     groups:
-      update: 更新群組時出現錯誤
+      update: "更新群組時出現錯誤"
       work_area:
-        area_created: 建立工作小組時出現錯誤
-      creation: 建立群組時出現錯誤
+        area_created: "建立工作小組時出現錯誤"
+      creation: "建立群組時出現錯誤"
+      post_removed: "從群組移除公告時出錯"
     proposals:
-      view_proposal: 你沒有適當的權限觀看此提案
-      participate: 你沒有適當的權限主動參與這個提案，請聯繫這個群組的管理者們。
-      modify_comments: 你無法編輯不屬於你的回應
-      insert_comment: 增加回應時出現錯誤
-      contribute_report: 回報這個編輯修訂出現錯誤
-      updating: 更新時出現錯誤
-      proposal_rank: 很抱歉，記錄你的評價時出錯了，請稍後再嘗試，謝謝！
-      proposal_not_waiting_date: 這個提案沒有在等待進行表决日
-      proposal_not_voted: 這個提案沒有完成投票階段，所以你無法進行這個操作
-      proposal_not_valuating: 這個提案並非投票階段，所以你無法進行這個操作
-      proposal_not_your: 你無法編輯不是屬於你的提案
+      view_proposal: "你沒有適當的權限觀看此提案"
+      participate: "你沒有適當的權限主動參與這個提案，請聯繫這個群組的管理者們。"
+      modify_comments: "你無法編輯不屬於你的回應"
+      insert_comment: "增加回應時出現錯誤"
+      contribute_report: "回報這個編輯修訂出現錯誤"
+      updating: "更新時出現錯誤"
+      proposal_rank: "很抱歉，記錄你的評價時出錯了，請稍後再嘗試，謝謝！"
+      proposal_not_waiting_date: "這個提案沒有在等待進行表决日"
+      proposal_not_voted: "這個提案沒有完成投票階段，所以你無法進行這個操作"
+      proposal_not_valuating: "這個提案並非投票階段，所以你無法進行這個操作"
+      proposal_already_ranked: "你已評價過這個提案一次，直到下次修改前，你無法再次給予評價。"
+      proposal_not_your: "你無法編輯不是屬於你的提案"
+      creation: "我們很抱歉, 但在創建建議時出現錯誤"
+      editors_added: "添加編輯時出錯"
+      close_debate: "關閉辯論時出錯"
+      vote_period_incorrect: "請選擇其他 投票 事件"
+      vote_period_soon: "投票活動必須在辯論結束後至少%{time} 分鐘開始"
+      vote_period_short: "投票活動必須至少持續10分鐘"
+      same_title: "有另一個具有相同名稱的佈局."
     registration:
-      recaptcha: 輸入圖形辨識錯誤，請再試試看
-      user_not_found: 沒有找到這個使用者
+      recaptcha: "輸入圖形辨識錯誤，請再試試看"
+      user_not_found: "沒有找到這個使用者"
     blog:
-      cannot_edit: 你無法編輯不屬於你的 Blog
-      already_have: 抱歉，你已經建立 Blog 了
-      comment_added: 建立回應時出現錯誤
+      cannot_edit: "你無法編輯不屬於你的 Blog"
+      already_have: "抱歉，你已經建立 Blog 了"
+      comment_added: "建立回應時出現錯誤"
     users:
-      join_accounts_password: 密碼錯誤
+      join_accounts: "開啟課程時發生錯誤"
+      join_accounts_password: "密碼錯誤"
+    group_participations:
+      destroy: "你不能離開一個組, 你是唯一的管理員"
+      already_member: "創建參與請求時出錯。你已經是這個組的成員了！"
+      request_not_registered: "您已經是此組的成員, 但您的參與請求尚未註冊。"
+      request_sent: "創建參與請求時出錯"
+      request_not_found: "未找到請求。操作錯誤"
+      error_saving: "過程中出現錯誤。無法繼續"
+    error_404:
+      proposals:
+        title: "此建議不存在"
+        description: "您正在查找的建議不存在或已被刪除"
+      blog_posts:
+        title: "此帖子不存在"
+        description: "您要查找的帖子不存在或已被刪除"
+      events:
+        title: "此事件不存在"
+        description: "您正在查找的事件不存在或已被刪除"
+      groups:
+        title: "該組不存在"
+        description: "您查找的組不存在或已被刪除"
+      title: "您要查找的頁面不存在"
+      description: "您的位址可能有錯誤, 或者此頁不再存在"
+    error_500:
+      title: "\n哎呀, 我們的錯誤"
+      description: "報告已發送, 問題將儘快解決。"
+    event:
+      comment_added: "輸入注釋時出錯"
+    participations_destroyed: "操作過程中出錯"
+    error_indexer:
+      title: "服務無法使用"
+      description: "我們正在經歷內部系統的問題。\n請幾分鐘後再試。"
+    error_302:
+      title: "未經授權的訪問"
+      description: "抱歉，您沒有權限查看此頁 ！"
+    area_participation:
+      create: "將使用者添加到該區域時\n出錯"
+    area:
+      update: "更新區域時出錯"
+    group_invitations:
+      code_expired: "邀請代碼已過期"
+      already_participant: "您已經是該組的參與者"
+      create: "沒有發送電子郵件"
   info:
-    setting_preferences: 成功更改設定
-    blog_created: 成功建立文章
+    setting_preferences: "成功更改設定"
+    blog_created: "成功建立文章"
     proposal:
-      can_change_valutation: 自從你上次評價過後，這個提案有最新的更新，你可以檢視並更改你的評價。
-      waiting_date: 這個提案已經完成了討論階段，正在等待投票日期設定
-      voting: 這個提案正在進行投票
-      ask_participation: 申請加入這個群組，以便評價或參與提案討論
-      public_visible: 這個提案是公開的
-      available_authors: 有新的編輯加入了這個提案
-      updated_comment: 你的回應已經成功的更新了
-      contribute_reported: 成功的回報這則編輯修訂
-      contribute_added: 成功增加編輯修訂
-      comment_added: 成功建立回應
-      contribute_added_right: '成功增加編輯修訂。<br/>要檢視請按下「%{section}」段落右上方的「修改與顯示先前版本」按鈕。'
-      proposal_created: 提案已經成功建立。請試著填妥其它欄位。
-      proposal_updated: 成功更新提案
-      proposal_deleted: 成功刪除提案
-      date_selected: 提案會在選擇的期間進行投票
-      rank_recorderd: 你的評價已經記錄
-      comment_already_ranked: 你已經評價了這則回應，目前無法更改這個評價。
-      comment_not_your: 你沒有適當的權限去刪除這則回應
-      login_to_contribute: 登入並新增你的編輯修訂
-    message_sent: 訊息成功送出
-    private_messages_active: 別的使用者可以送出私訊給你
-    private_messages_inactive: 別的使用者不能送出私訊給你
-    rotp_active: 已開啟安全碼
-    rotp_inactive: 已關閉安全碼
+      can_change_valutation: "自從你上次評價過後，這個提案有最新的更新，你可以檢視並更改你的評價。"
+      waiting_date: "這個提案已經完成了討論階段，正在等待投票日期設定"
+      voting: "這個提案正在進行投票"
+      ask_participation: "申請加入這個群組，以便評價或參與提案討論"
+      public_visible: "這個提案是公開的"
+      public_visible_short: "公開可見"
+      available_authors: "有新的編輯加入了這個提案"
+      updated_comment: "你的回應已經成功的更新了"
+      comment_deleted: "已經成功刪除注釋"
+      contribute_reported: "成功的回報這則編輯修訂"
+      contribute_added: "成功增加編輯修訂"
+      comment_added: "成功建立回應"
+      contribute_added_right: "成功增加編輯修訂。<br/>要檢視請按下「%{section}」段落右上方的「修改與顯示先前版本」按鈕。"
+      proposal_created: "提案已經成功建立。請試著填妥其它欄位。"
+      proposal_updated: "成功更新提案"
+      proposal_deleted: "成功刪除提案"
+      date_selected: "提案會在選擇的期間進行投票"
+      rank_recorderd: "你的評價已經記錄"
+      comment_already_ranked: "你已經評價了這則回應，目前無法更改這個評價。"
+      comment_not_your: "你沒有適當的權限去刪除這則回應"
+      login_to_contribute: "登入並新增你的編輯修訂"
+      back_in_debate: "這項建議現在又在辯論中。\n現在你是它的編輯"
+      editors_added: "新編輯器已\n成功添加!"
+      offered_editor: "你主動提出\n寫這個建議!"
+      authors_added: "新作者正\n已確添加"
+    message_sent: "訊息成功送出"
+    private_messages_active: "別的使用者可以送出私訊給你"
+    private_messages_inactive: "別的使用者不能送出私訊給你"
+    rotp_active: "已開啟安全碼"
+    rotp_inactive: "已關閉安全碼"
     quorums:
-      quorum_created: 成功建立門檻
-      quorum_updated: 成功更新門檻
-      quorum_deleted: 成功刪除門檻
-      quorum_activated: 門檻啟動
-      quorum_deactivated: 門檻關閉
-      can_modify_advanced_proposals_settings: 編輯可以修改進階設定
-      cannot_modify_advanced_proposals_settings: 編輯不可以修改進階設定
-      anonymous_proposals: 這個群組的提案預設是匿名討論的
-      non_anonymous_proposals: 這個群組的提案預設並非匿名討論
-      public_proposals: 這個群組的提案預設都是公開的
-      private_proposals: 這個群組的提案預設是非公開的
-      secret_vote: 這個群組的提案預設是進行秘密投票
-      non_secret_vote: 這個群組的提案預設是進行非秘密投票
+      quorum_created: "成功建立門檻"
+      quorum_updated: "成功更新門檻"
+      quorum_deleted: "成功刪除門檻"
+      quorum_activated: "門檻啟動"
+      quorum_deactivated: "門檻關閉"
+      can_modify_advanced_proposals_settings: "編輯可以修改進階設定"
+      cannot_modify_advanced_proposals_settings: "編輯不可以修改進階設定"
+      anonymous_proposals: "這個群組的提案預設是匿名討論的"
+      non_anonymous_proposals: "這個群組的提案預設並非匿名討論"
+      public_proposals: "這個群組的提案預設都是公開的"
+      private_proposals: "這個群組的提案預設是非公開的"
+      secret_vote: "這個群組的提案預設是進行秘密投票"
+      non_secret_vote: "這個群組的提案預設是進行非秘密投票"
     groups:
-      group_updated: 成功更新群組
+      group_updated: "成功更新群組"
       work_area:
-        area_created: 成功建立工作小組
-      group_deleted: 成功刪除群組
-      group_created: 成功建立群組
+        area_created: "成功建立工作小組"
+      group_deleted: "成功刪除群組"
+      group_created: "成功建立群組"
+      search_participants: "搜索已完成。\n搜尋結果已更新"
+      post_removed: "這帖子已從小組牆上刪除"
+      area_updated: "區域已更新"
+      post_featured:
+        'true': 這博客帖子固定在頂部
+        'false': 這博客帖子固定不在頂部
     participation_roles:
-      role_updated: 成功更新角色
-      role_created: 成功建立角色
-      role_changed: 成功修改角色
-      role_deleted: 成功刪除角色
+      role_updated: "成功更新角色"
+      permissions_updated: "成功修改權限"
+      role_created: "成功建立角色"
+      role_changed: "成功修改角色"
+      role_deleted: "成功刪除角色"
+      user_removed_from_group: "%{name} 成功地從群組移除"
     user:
-      click_to_change: 點擊你想要修改的資訊
-      info_updated: 成功更新資訊
-      account_joined: 成功連結帳號！
-      tooltips_enabled: 開啟提示
-      tooltips_disabled: 關閉提示
-      confirm_email: 你需要確認新的信箱位置
-      IP_disabled: 此帳號提供者已移除
-      time_zone_changed: 時區已儲存
+      click_to_change: "點擊你想要修改的資訊"
+      info_updated: "成功更新資訊"
+      account_joined: "成功連結帳號！"
+      tooltips_enabled: "開啟提示"
+      tooltips_disabled: "關閉提示"
+      url_shown: "Url 可見"
+      url_hidden: "隱藏的 url"
+      update_border: "成功更新了關心的地區"
+      confirm_email: "你需要確認新的信箱位置"
+      IP_disabled: "此帳號提供者已移除"
+      time_zone_changed: "時區已儲存"
     blog:
-      blog_created: 成功建立 Blog
-      title_updated: 成功更新 Blog 標題
+      blog_created: "成功建立 Blog"
+      title_updated: "成功更新 Blog 標題"
+      comment_added: "成功更新回應"
+      destroyed: "博客成功銷毀"
     events:
-      event_deleted: 成功刪除活動
-      event_updated: 成功更新活動
+      event_deleted: "成功刪除活動"
+      event_updated: "成功更新活動"
     moderator_panel:
-      account_blocked: 被封鎖的帳號
-      account_unblocked: 解除封鎖帳號
-    locale_changed: 已成功更新語系在地化
-    blog_post_updated: 你的文章已成功被更新
-    blog_post_deleted: 你的文章已成功被刪除
+      account_blocked: "被封鎖的帳號"
+      account_unblocked: "解除封鎖帳號"
+    locale_changed: "已成功更新語系在地化"
+    blog_post_updated: "你的文章已成功被更新"
+    blog_post_deleted: "你的文章已成功被刪除"
     participation_request:
       multiple_request:
-        other: '你申請參加了 %{count} 新群組'
+        other: "你申請參加了 %{count} 新群組"
+    group_participations:
+      destroy_ok_1: "你已離開群組，你可以隨時再次要求加入。"
+      request_sent: "參與請求成功發送"
+      request_alredy_sent: "您已經發送了該組的參與請求"
+      status_accepted: "參與請求已被接受"
+      status_voting: "參與請求現在可以被投票"
+      status_declined: "參與請求被拒絕"
     event:
-      comment_added: 增加了一個新的意見
+      comment_added: "增加了一個新的意見"
     topic:
-      hidden: 這個主題目前是隱藏
-    participations_destroyed: 使用者已刪除，請重新整理此頁面
+      hidden: "這個主題目前是隱藏"
+    participations_destroyed: "使用者已刪除，請重新整理此頁面"
+    area_participation:
+      create: "使用者添加到該區域"
+      destroy: "使用者從區域中刪除"
+    group_invitations:
+      create:
+        other: "%{count} 邀請正確發送到%{email_addresses}"
+      accept: "邀請接受! 您現在是該組的成員。"
+      reject: "邀請被拒絕。"
+      anymore: "邀請被拒絕。您將不會收到其他邀請。"
+    blog_comment:
+      destroyed: "注釋已被刪除"
+    user_sensitive:
+      updated: "使用者敏感度已成功更新。"
+      created: "已成功創建使用者敏感度。"
   interest_borders:
-    hint: 請多輸入點字
-    no_place_found: 找不到地方
-    searching: 搜尋中，請稍後...
-    region: '%{name}  (地區)'
-    province: '%{name} (省)'
-    town: '%{name}  (鎮)'
-    country: '%{name}  (國家)'
-    continent: '%{name} (大陸)'
+    hint: "請多輸入點字"
+    no_place_found: "找不到地方"
+    searching: "搜尋中，請稍後..."
+    region: "%{name}  (地區)"
+    province: "%{name} (省)"
+    town: "%{name}  (鎮)"
+    country: "%{name}  (國家)"
+    continent: "%{name} (大陸)"
   mailer:
     default:
-      follow_twitter: 在 Twitter 跟隨我們
-      follow_facebook: 訂閱 Facebook 粉絲團
-      follow_google: 關注我們的 Google+
+      follow_twitter: "在 Twitter 跟隨我們"
+      follow_facebook: "訂閱 Facebook 粉絲團"
+      follow_google: "關注我們的 Google+"
       footer:
-        registered_at: '您收到這封電子郵件，是因為您在 %{url} 上註冊帳號。'
-      click_here: 點擊此處
-      terms: ""
-      privacy: ""
+        registered_at: "您收到這封電子郵件，是因為您在 %{url} 上註冊帳號。"
+        connect_with_us: "與我們聯繫:"
+        contact_info: "聯絡資訊"
+        email_label: "電子郵件:"
+      edit_preferences: "偏好設定"
+      click_here: "點擊此處"
     new_contribute:
-      title: '%{user} 增加了一個新的編輯修訂 %{comment} 到這個提案'
-      view_proposal: '%{click_here} 檢視此提案'
+      title: "%{user} 增加了一個新的編輯修訂 %{comment} 到這個提案"
+      view_proposal: "%{click_here} 檢視此提案"
     text_update:
-      integrated_contributes: 恭喜！你提出的下列編輯修訂，已經被編輯群整合到提案中了：
-      view_proposal_2: '%{click_here} 並驗證新的提案內文包含了你的建議。<br/>若你不滿意，你可以隨時從歷史記錄中將你的編輯修訂開放回討論狀態。'
-      connect: '登入 %{name}'
+      view_proposal:
+        other: "建議 <b>%{proposal} </b> 已更新%{count} 次。"
+      integrated_contributes: "恭喜！你提出的下列編輯修訂，已經被編輯群整合到提案中了："
+      view_proposal_2: "%{click_here} 並驗證新的提案內文包含了你的建議。<br/>若你不滿意，你可以隨時從歷史記錄中將你的編輯修訂開放回討論狀態。"
+      connect: "登入 %{name}"
     unintegrated_contribute:
-      view_proposal: '一個已經被整合到提案的編輯修訂，被其作者要求重新討論。<b>%{click_here}</b> '
-      view_proposal_2: '%{click_here}，了解為何作者不同意這個編輯修訂有適當的被整合？'
-      verify: 檢查
+      view_proposal: "一個已經被整合到提案的編輯修訂，被其作者要求重新討論。<b>%{click_here}</b> "
+      view_proposal_2: "%{click_here}，了解為何作者不同意這個編輯修訂有適當的被整合？"
+      verify: "檢查"
     user_message:
-      hi_user: 'Hi %{user},'
-      user_sent_message: '%{user} 寄送給你下列訊息：'
-      reply_to_user: '你可以透過 email 回應 %{user}'
+      hi_user: "Hi %{user},"
+      user_sent_message: "%{user} 寄送給你下列訊息："
+      reply_to_user: "你可以透過 email 回應 %{user}"
     blocked:
-      hi_user: 'Hi %{user},'
-      deleted_correctly: 通知您，您的帳戶已從 Airesis 中被刪除。
-      greetings: '你好, <br/> Airesis Team'
+      hi_user: "Hi %{user},"
+      deleted_correctly: "通知您，您的帳戶已從 Airesis 中被刪除。"
+      greetings: "你好, <br/> Airesis Team"
     new_blog_comment:
-      title: '%{user} 回應了你的文章 %{post}.'
-      click_here: 點擊此處
-      view_post: '%{click_here}，閱讀這篇文章。'
+      title: "%{user} 回應了你的文章 %{post}."
+      click_here: "點擊此處"
+      view_post: "%{click_here}，閱讀這篇文章。"
     invite:
-      hi_user: 您好 ！
-      invitation: '%{user} 邀請你參加這個群組 <b>%{group}</b> - %{app_name}。這是一個線上民主平台，為了促進直接與參與式民主。'
-      message_intro: 這是他發送給你的訊息：
-      accept_or_reject: 若你願意接受邀請，請點擊「接受」，否則請按「拒絕」
-      no_more: '若你不想再收到任何 %{app_name} 的邀請，請點擊「不再接受邀請」'
-      accept: 接受
-      reject: 拒絕
-      greetings: 你好！
-      no_more_button: 不再接受邀請
-      subject: '你被邀請加入 %{group_name} '
+      hi_user: "您好 ！"
+      invitation: "%{user} 邀請你參加這個群組 <b>%{group}</b> - %{app_name}。這是一個線上民主平台，為了促進直接與參與式民主。"
+      message_intro: "這是他發送給你的訊息："
+      accept_or_reject: "若你願意接受邀請，請點擊「接受」，否則請按「拒絕」"
+      no_more: "若你不想再收到任何 %{app_name} 的邀請，請點擊「不再接受邀請」"
+      accept: "接受"
+      reject: "拒絕"
+      greetings: "你好！"
+      no_more_button: "不再接受邀請"
+      subject: "你被邀請加入 %{group_name} "
+    update_contribute:
+      title: "%{user} 改變了他的貢獻"
+      view_proposal: "%{click_here} 查看貢獻並更改您的評估"
+    new_forum_topic:
+      view: "查看有關%{app_short_name} 的主題。"
   words:
-    contribute: 編輯修訂
-    comment: 評論
-    or: 或
-    and: 和
-    terms_of_service: 服務條款
-    guide: 常見問題
-    privacy_policy: ""
-    contribution: ""
+    contribute: "編輯修訂"
+    comment: "評論"
+    or: "或"
+    and: "和"
+    terms_of_service: "服務條款"
+    privacy_policy: "隱私權"
+    guide: "常見問題"
+  terms_of_service: "條款"
+  privacy_policy: "隱私"
+  controllers:
+    searches:
+      index:
+        groups_divider: "群組"
+  tags:
+    index:
+      tag_title: "%{proposals} 提案-%{blog_posts} 博客文章-%{groups} 集團"
+  blog_posts:
+    form:
+      published_title: "您的帖子將發佈在網上, 每個人都可以看到, 分享和評論"
+      reserved_title: "您的帖子將只對屬於您發佈的組的使用者可見"
+      draft_title: "你的帖子只你可見"
+  confirm_delete: "確定嗎？"
+  you: "您"
+  twitter:
+    share:
+      blog_post: "看看這個 #%{app} 的帖子!%{tags}"
+      event: "#%{app} 有一個新的事件"
+  home:
+    portlets:
+      last_proposals:
+        proceed_to_proposals: "繼續提出建議"
+      from_blogs:
+        proceed_to_blogs: "進入博客"
+      topics:
+        title: "您所遵循的主題"
+  confirm_detach: "是否確實要刪除此身份提供程式？將來您將無法使用它。"
+  alert_detach: "您必須提供有效的電子郵件地址才能刪除此身份提供程式"
+  users:
+    confirm_credentials:
+      title: "確認您的憑據"
+      instructions_html: |
+        Airesis 上已經有另一個使用者使用相同的電子郵件地址. <br/> 
+        在 Airesis 上插入您的密碼以加入這兩個帳戶. <br/>
+         如果您不記得密碼, 請繼續執行 "恢復密碼" 頁。
+    statistics:
+      title: "使用者統計"
+      last_login: "上次登錄"
+      integrated_count: "綜合捐款編號"
+      spam_count: "垃圾郵件捐款號碼"
+      noisy_count: "吵鬧的貢獻數位"
+      total_count: "綜合捐款編號"
+      total_comments_count: "評論總數"
+      proposals_editor: "已編輯的建議數"
+      proposals_voted: "已投票的的建議"
+      average_rank_voted_proposals: "已投票建議的\n平均等級"
+      proposals_accepted_count: "已接受投票的的建議"
+      proposals_abandonend_count: "已放棄投票的的建議"
+      good_writer: "好貢獻\n的作家"
+      good_proposals_writer: "好建議的\n作家"
+  proposal_comments:
+    manage_noise:
+      title: "管理無用的貢獻"
+      help: "拖放你認為無用的貢獻的討論"
+  votations:
+    create:
+      confirm: "正確地登記投票。謝謝！"
+  errors:
+    messages:
+      invalid_token: "安全權杖無效"
+      votation: "抱歉， 在投你的票時出了差錯。請稍後再試。"
+    votation:
+      already_voted: "你已經投票\n贊成這個提議"
+    proposal:
+      authors_added: "添加新作者時出錯"
+  draft_tooltip: "這帖子僅由您查看"
+  reserved_tooltip: "這帖子僅由組參與者可見"
+  placeholder:
+    find: "查找內容"
+  keep_reading: "繼續閱讀"
+  feedback_subject: "%{time}-新回饋"
+  delete_event_confirm: "您是否確實要刪除此注釋？"
+  groups:
+    group:
+      delete_group_warning_html: "您可以刪除此組。\n通過刪除此組, 您將刪除與之相關的所有論壇、建議和文檔. \n<br/>\n數據無法恢復. <br/>小心！"
+  confirm:
+    unintegrate: "你將把你的貢獻放回討論中。是否確定？"
+  cookie_policy: "餅乾"
+  blog:
+    delete:
+      confirm_message: "您是否確實要刪除您的博客？%{count} 的帖子也將被刪除。"
+  click_here_to_view: "點擊這裡查看%{app_short_name}。"
+  unsubscribe_from_topic: "要取消訂閱此主題, %{click_here}"
+  select_debate_duration: "選擇第一個辯論持續時間"

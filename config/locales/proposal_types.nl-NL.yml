@@ -1,0 +1,103 @@
+nl-NL:
+  pages:
+    proposals:
+      edit:
+        add_solution:
+          standard: "Voeg een andere oplossing toe"
+          poll: "Voeg een andere optie toe"
+          rule_book: "Voeg een andere oplossing toe"
+          press: "Voeg een andere oplossing toe"
+          event: "Voeg een andere oplossing toe"
+          estimate: "Voeg een andere oplossing toe"
+          agenda: "Voeg een ander punt toe"
+          candidates: "Voeg een andere kandidaat toe"
+          simple: "Voeg een andere oplossing toe"
+        solution_title:
+          standard: "Oplossing"
+          poll: "Antwoordmogelijkheid"
+          rule_book: "Oplossing"
+          press: "Oplossing"
+          event: "Oplossing"
+          estimate: "Oplossing"
+          agenda: "Punt"
+          candidates: "Kandidaat"
+          simple: "Oplossing"
+        insert_title:
+          standard: "Een titel invoegen"
+          poll: "Een titel invoegen"
+          rule_book: "Een titel invoegen"
+          press: "Een titel invoegen"
+          event: "Een titel invoegen"
+          estimate: "Een titel invoegen"
+          agenda: "Een titel invoegen"
+          candidates: "Een naam en achternaam invoegen"
+          simple: "Voeg een titel in"
+        new_solution_title:
+          standard: "Oplossing <span class=\"num\">%{num}</span>:"
+          poll: "Optie <span class=\"num\">%{num}</span>:"
+          rule_book: "Oplossing <span class=\"num\">%{num}</span>:"
+          press: "Oplossing <span class=\"num\">%{num}</span>:"
+          event: "Oplossing <span class=\"num\">%{num}</span>:"
+          estimate: "Oplossing <span class=\"num\">%{num}</span>:"
+          agenda: "<span class=\"num\">%{num}</span> punt:"
+          candidates: "Kandidaat-<span class=\"num\">%{num}</span>:"
+          simple: "Oplossing <span class=\"num\">%{num}</span>:"
+      new:
+        standard:
+          problems_title: "Problemen"
+          problems_question: "Wat is het probleem dat moet opgelost worden en/of wat zijn de obstakels die men moet overkomen om het doel te bereiken?"
+          problems_title_label: "Wat is het probleem dat moet opgelost worden en/of wat zijn de obstakels die men moet overkomen om het doel te bereiken?"
+          objectives_title: "Doelstellingen"
+          step_4_title: "U kan een tekst van het voorstel invoeren of schrijf het later gebaseerd op de ontvangen input"
+          solution:
+            description: "Beschrijving van de oplossing"
+            time: "Keer"
+            subject: "Opzichter"
+            resources: "Nodige middelen en hoe ze op te halen"
+            aspects: "Ethische, ecologische, sociale aspecten"
+            documents: "Documentatie"
+            pros: "Voordelen"
+            cons: "Nadelen"
+            title: "Oplossing 1"
+          suggestion_html: |
+            <div><b>Voorbeeld:</b></div>
+            <div>Verminder het gebruik van drinkwater voor irrigatie.</div>
+            <div>Drinkwater gebruiken om openbare parken en privétuinen te bewateren is een verspilling en heeft relevante kosten. Bovendien is de aquifer dat het aquaduct bewaterd aan het leeglopen</div>
+          paragraph:
+            similar: "Soortgelijke ervaringen"
+            stakeholders: "Belanghebbenden"
+            requirements: "Oplossingseisen"
+          question:
+            paragraph:
+              similar: "Zijn er ervaringen te inspireren om het doel te bereiken? Onder de mogelijke oplossingen / initiatieven reeds in gebruik, welke hebben de beste resultaten bereikt en welke hebben de ergste bereikt? Waarom?"
+              stakeholders: "Wie zal de voordelen en nadelen ontvangen van de verwezenlijking van de doelstelling en de voorgestelde oplossingen? Waren deze personen betrokken in de discussie van dit voorstel? Op welke manier?"
+        rule_book:
+          problems_title: "Problemen"
+        press:
+          solution:
+            title: "Oplossing 1"
+            maintitle: "Titel"
+        estimate:
+          problems_title: "Problemen"
+          solution:
+            title: "Oplossing 1"
+            cost: "Hoeveelheid"
+            dumentation: "Documentatie"
+          paragraph:
+            budget: "Maximumbudget"
+        agenda:
+          solution:
+            description: "Beschrijving"
+          paragraph:
+            date_time: "Datum en tijd"
+        event:
+          solution:
+            maintitle: "Titel"
+        candidates:
+          solution:
+            data: "Persoonlijke gegevens"
+        simple:
+          problems_title: "Probleem"
+          solution:
+            description: "Beschrijving"
+            title: "Oplossing 1"

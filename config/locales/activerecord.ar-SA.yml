@@ -1,0 +1,165 @@
+ar-SA:
+  activerecord:
+    models:
+      meeting: 'إجتماع'
+      places: 'المكان'
+    attributes:
+      blog_comment:
+        body: 'تعليق'
+        created_at: "مكافحة البريد التطفلي"
+      event:
+        title: 'عنوان الحدث'
+        description: 'الوصف'
+        event_type_id: 'نوع الحدث'
+        starttime: 'تاريخ البداية'
+        endtime: 'تاريخ الانتهاء'
+        all_day: 'كل يوم'
+        period: 'إعادة'
+        frequency: 'كرّر كل'
+        private: 'شخصي'
+      group:
+        facebook_page_url: 'عنوان صفحة ألفيس بوك'
+        name: 'الاسم'
+        title_bar: 'شريط العنوان'
+        description: 'الوصف'
+        accept_requests: 'طلب للمشاركة'
+        porta_id: 'مدير البرنامج'
+        interest_border_tkn: 'المكان الجغرافي للفائدة'
+        interest_border_id: 'المكان الجغرافي للفائدة'
+        image_url: 'عنوان الصورة'
+        default_role_name: "ما هو الاسم للمستخدمين الجدد؟"
+        default_role_name_placeholder: "على سبيل المثال: المستخدمين، أعضاء، نشطاء، القراصنة"
+        name_placeholder: "اختر اسماً متصلا بهوية المجموعة و/أو الموقع."
+        title_bar_placeholder: "عنوان صفحة المجموعة."
+        description_placeholder: "سوف تكون هذه الرسالة على الصفحة الأولى للمجموعة"
+        image_url_placeholder: "عنوان URL لصورة المجموعة"
+        facebook_page_url_placeholder: "صفحة فيسبوك المجموعة؟ إدراج وصلة هنا."
+        admin_title: "ما اسم مسؤولي المجموعة ؟"
+        private: "مجموعة خاصة"
+        rule_book: "كتاب القواعد"
+        image: "تحميل الصورة"
+        admin_title_placeholder: "اسم دور مسؤولي المجموعة (إفتراضي: المسؤول)"
+      blog:
+        title: 'العنوان'
+      blog_post:
+        title: 'العنوان'
+        body: 'نص'
+        published: 'الحالة'
+        published_true: 'منشور'
+        published_false: 'المسودة'
+        published_reserved: "محجوز"
+        group_ids: منشور في المجموعات التالية
+        published_at: منشور في
+      participation_role:
+        name: 'الإسم'
+        description: 'وصف مختصر'
+      group_invitation:
+        emails_list: "عناوين البريد الإلكتروني"
+        testo: "نص الرسالة"
+      place:
+        address: 'عنوان'
+        municipality_id: 'المدينة'
+        latitude_original: خط العرض
+        longitude_original: خط الطول
+      proposal:
+        group_area_id: "مجال العمل"
+        proposal_category_id: 'الفئة'
+        title: 'العنوان'
+        subtitle: 'العنوان الفرعي'
+        problems: 'مشاكل؟'
+        objectives: 'أهداف'
+        content: 'نص'
+        interest_borders_tkn: 'المكان الجغرافي للفائدة'
+        tags_list: "العلامات"
+        quorum_id: "مدة المناقشة"
+        anonima: "إخفاء الاسم مؤقت"
+        visible_outside: "ظاهر علانية"
+        secret_vote: "التصويت السري"
+        vote_starts_at: "يبدأ التصويت في"
+        vote_ends_at: "ينتهي التصويت في"
+        debate_starts_at: "تبدأ المناقشة في"
+        debate_ends_at: "ينتهي النقاش في"
+      proposal_comment:
+        content: 'المحتوى'
+      quorum:
+        name: 'اسم النصاب القانوني'
+        name_title: 'الرجاء إدخال عنوان قصير وتفسيرية'
+        description: 'الوصف/شرح مختصر'
+        description_title: 'وصف لفهم هدف هذا النصاب القانوني'
+        minutes: مدة المناقشة
+        days_m: أيام
+        hours_m: ساعات
+        minutes_m: دقائق
+        percentage_title: 'الحد الأدنى لعدد المشاركين في المناقشة كنسبة مئوية من عدد المشاركين في الفريق'
+        good_score: 'النضج'
+        good_score_title: 'التصنيف الواجب تحقيقه لتقديم الاقتراح في مرحلة التصويت'
+        bad_score: 'نصاب سيئ (النسبة المئوية)'
+        bad_score_title: 'تصنيف الذي تحته سيتم رفض الاقتراح. تسمح لك مواصلة المناقشة إذا لم تتحقق الشروط الزمنية أو شروط المشاركين'
+        condition: شرط
+        condition_title: 'يجب أن تكون كلا ظروف الوقت والمشاركين متغلب عليها أو مجرد واحدة منهن؟'
+        vote_minutes: 'مدة التصويت'
+        vote_percentage: 'النصاب القانوني (الناخبون)'
+        vote_good_score: 'الموافقة'
+      search_participant:
+        role_id: 'الدور'
+        keywords: 'الاسم الشخصي أو العائلي'
+      user:
+        name: 'الاسم الشخصي'
+        email: 'عنوان البريد الإلكتروني'
+        surname: 'الاسم العائلي'
+        password: 'كلمة السر'
+        linkedinpageurl: 'الصفحة الخاصة بك في LinkedIn'
+        facebookpageurl: 'صفحتك على ألفيس بوك'
+        accept_conditions: 'شروط الاستخدام'
+        receive_newsletter: 'رسالة إخبارية عن طريق البريد الإلكتروني'
+        blocked: "خطأ"
+      user_sensitive:
+        name: 'الاسم الشخصي'
+      group_area:
+        name: "الاسم"
+        description: "الوصف"
+        default_role_name: "اسم الدور الافتراضي"
+    errors:
+      template:
+        header:
+          zero: '%{count} هناك أخطاء لم تسمح لهذا %{model} من أن يتم حفظه'
+          one: 'هناك خطأ ما لم يسمح لهذا %{model} من أن يتم حفظه'
+          two: '%{count} هناك أخطاء لم تسمح لهذا %{model} من أن يتم حفظه'
+          few: '%{count} هناك أخطاء لم تسمح لهذا %{model} من أن يتم حفظه'
+          many: '%{count} هناك أخطاء لم تسمح لهذا %{model} من أن يتم حفظه'
+          other: '%{count} هناك أخطاء لم تسمح لهذا %{model} من أن يتم حفظه'
+        body: 'هناك مشاكل مع المواضع التالية'
+      messages:
+        inclusion: 'لم يتم التضمين في قائمة'
+        exclusion: 'محجوز'
+        invalid: 'غير صالح'
+        confirmation: 'لا تتطابق مع تأكيد'
+        accepted: 'يجب أن تكون مقبولة'
+        empty: 'لا يمكن أن يكون فارغاً'
+        blank: 'يجب أن يتم ملأه'
+        too_long: 'النص طويل جداً'
+        too_short: 'النص قصير جداً'
+        wrong_length: 'يجب أن يحتوي على %{count} حرف'
+        taken: 'قد تم اخذه'
+        not_a_number: 'ليس رقماً'
+        not_an_email: 'عنوان البريد الإلكتروني ليس صحيحا'
+        greater_than: 'يجب أن تكون أكبر من %{count}'
+        greater_than_or_equal_to: 'يجب أن يكون أكبر من أو يساوي %{count}'
+        equal_to: 'يجب أن يساوي % {عد}'
+        less_than: 'يجب أن تكون أقل من % {عد}'
+        less_than_or_equal_to: 'يجب أن يكون أقل من أو يساوي % {عد}'
+        odd: 'يجب أن يساوي'
+        even: 'يجب أن يكون غريب'
+        record_invalid: 'فشل التحقق من صحة %{errors}'
+        not_found: '''لا يوجد.'
+        TOS: "المطلوب قبول TOS"
+        certified_cannot_edit: 'لا يمكن التحرير إذا كنت مستخدم معتمد'
+        forum_visibility: "لا يمكن أن يكون منتدى ظاهرا خارج المجموعة إذا كانت الفئة الخاصة"
+      models:
+        user:
+          attributes:
+            email:
+              already_confirmed: 'عنوان البريد الإلكتروني هذا مسجل بالفعل'
+        group:
+          portavoce:
+            required: 'يجب عليك اختيار المسؤول'

@@ -1,0 +1,32 @@
+ar-SA:
+  countdowns:
+    labelsPlural:
+      - سنوات
+      - أشهر
+      - أسابيع
+      - أيام
+      - ساعات
+      - دقائق
+      - ثواني
+    labelsSingular:
+      - سنة
+      - شهر
+      - أسبوع
+      - يوم
+      - ساعة
+      - دقيقة
+      - ثانية
+  calendar:
+    monthNames:
+      - كانون الثاني / يناير
+      - شباط / فبراير
+      - آذار/مارس
+      - April
+      - May
+      - June
+      - July
+      - August
+      - September
+      - October
+      - November
+      - December

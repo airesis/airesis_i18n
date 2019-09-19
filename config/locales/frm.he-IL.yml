@@ -1,0 +1,55 @@
+he-IL:
+  frm:
+    general:
+      forum: פורום
+      posts: פוסטים
+      flagged_for_spam: המשתמש שלך נחשב לספאם.
+      cannot_create_topic: אינך יכול לפתוח נושא חדש בזמן הזה.
+    access_denied: "אינך מורשה לבצע פעולה זו."
+    admin:
+      area: אזור המנהל
+      back_to_admin: "חזור למנהל"
+      back_to_forums: "חזור לפורומים"
+      back_to_groups: "חזור לקבוצות"
+      forum:
+        moderator_groups: קבוצת צוותים
+        index: ניהול פורומים
+        new: בניית פורום חדש
+        new_link: פורום חדש
+        deleted: בחירת הפורום נמחקה
+        created: הפורום הנ"ל נוצר.
+        not_created: הפורום הזה לא יכול להתקיים
+        updated: הפורום הזה התעדכן.
+        not_updated: הפורום הזה לא יכול להתעדכן
+      forums:
+        edit: ערוך
+        delete: מחק
+        category: קטגוריה
+        delete_confirm: האם אתה בטוח שאתה רוצה למחוק את הפורום הזה?
+        index:
+          last_post: פוסט אחרון
+          none: ללא
+          moderators: מנהלים
+          no_category: אין קטגוריה
+        default_private: "פורום פרטי"
+        default_public: "פורום ציבורי"
+      mod:
+        new: קבוצה חדשה
+        created: הקבוצה נוצרה בהצלחה
+        not_created: הקבוצה הזאת לא יכולה להתקיים
+      mods:
+        show:
+          add_member: הוסף
+          add_a_new_member: "הוסף משתמש חדש"
+          current_members: "כמות המשתמשים כעת"
+        edit: ערוך
+        delete: מחק
+        name: שם
+      category:
+        index: ניהול קטגוריות
+        edit: "ערוך %{title} קטגוריה"
+        new_link: קטגוריה חדשה
+    topic:
+      reply: השב
+      quote: צטט
+      delete: מחק

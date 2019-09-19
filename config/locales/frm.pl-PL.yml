@@ -1,0 +1,235 @@
+pl-PL:
+  frm:
+    general:
+      forum: Forum
+      topics: Tematy
+      topic: Temat
+      posts: Posty
+      flagged_for_spam: Twoje konto zostało oznaczone jako spam.
+      cannot_create_topic: Nie możesz zrobić nowego tematu w tej chwili.
+      cannot_create_post: Nie możesz zrobić nowego posta w tej chwili.
+    access_denied: "Nie możesz tego zrobić."
+    admin:
+      area: Admin Area
+      back_to_admin: "Powrót do administracji"
+      back_to_forums: "Powrót do forum"
+      back_to_groups: "Powrót do grupy"
+      forum:
+        moderator_groups: Moderator grupy
+        index: Zarządzanie forum
+        new: Tworzenie nowego forum
+        new_link: Nowe Forum
+        deleted: Wybrane forum zostało usunięte
+        created: To forum zostało utworzone.
+        not_created: To forum nie może zostać stworzone
+        updated: To forum zostało zaktualizowane.
+        not_updated: To forum nie może zostać zaktualizowane
+      forums:
+        edit: Edytuj
+        delete: Usuń
+        category: Kategoria
+        delete_confirm: Czy na pewno chcesz usunąć to forum?
+        index:
+          last_post: Ostatni post
+          none: Brak
+          moderators: Moderatorzy
+          no_category: (Brak kategorii)
+        default_private: "Prywatne Forum"
+        default_public: "Publiczne Forum"
+        default_private_description: "Forum zarezerwowane dla uczestników grup"
+        default_public_description: "Forum widoczne dla wszystkich użytkowników Airesis. Również dla użytkowników, którzy nie są w grupie"
+      mod:
+        index: Zarządzaj grupami
+        new: Nowa Grupa
+        created: Grupa została pomyślnie utworzona
+        not_created: Grupa nie może zostać stworzona
+        deleted: Wybrana grupa została usunięta
+        members: "Członkowie w %{group}"
+      mods:
+        show:
+          add_member: Dodaj
+          add_a_new_member: "Dodaj nowego członka"
+          current_members: "Aktualni członkowie"
+        edit: Edytuj
+        delete: Usuń
+        name: Nazwa
+      category:
+        index: Zarządzaj kategoriami Forum
+        new: Tworzenie nowej kategorii forum
+        edit: "Edytowanie kategorii %{title}"
+        new_link: Nowa kategoria forum
+        deleted: Wybrana kategoria forum została usunięta
+        created: Ta kategoria forum została stworzona
+        not_created: Ta kategoria forum nie może zostać stworzona
+        updated: Ta kategoria forum została zaktualizowana
+        not_updated: Ta kategoria forum nie może zostać zaktualizowana
+      categories:
+        edit: Edytuj
+        delete: Usuń
+        category: Kategoria
+        delete_confirm: Czy na pewno chcesz usunąć tę kategorię forum?
+        default_private: "Sekcja prywatna"
+        default_public: "Sekcja publiczna"
+      group:
+        index: "Zarządzaj grupami modertatorów"
+        show:
+          title: "Zarządzaj moderatorami"
+        new: "Nowi moderatorzy grup"
+        created: "Pomyślnie utworzono grupę moderatorów"
+        not_created: "Podczas tworzenia grupy moderatorów wystąpił błąd"
+        deleted: "Pomyślnie usunięto grupę moderatorów"
+    common:
+      pages: Strony
+    errors:
+      not_signed_in: Musisz najpierw to podpisać
+      access_denied: Odmowa dostępu.
+    forum:
+      header: "Wyświetlane %{title}"
+      forums: Fora
+      new: Tworzenie nowego forum
+      edit: "Edytowanie kategorii %{title}"
+      moderator_tools: "Narzędzia do moderacji"
+      topic_tools: "Narzędzia tematu"
+      admin_tools: "Narzędzia administracyjne"
+      title: "Nowe forum"
+    forums:
+      index:
+        title: Forum
+        forum: Forum
+        views: Wyświetlenia
+        last_post: 'Ostatni post:'
+        none: Brak
+    topic:
+      headings:
+        topic: Temat
+        latest: Najnowsze
+        posts: Posty
+        views: Wyświetlenia
+      moderation:
+        success: Wybrany temat został zmoderowany
+        no_option_selected: Żadna opcja moderacji nie została wybrana
+      received_reply: Temat który zasubskrybowałeś otrzymał odpowiedź
+      reply: Odpowiedz
+      quote: Cztat
+      delete: Usuń
+      created: Ten temat został stworzony
+      new: Tworzenie nowego tematu
+      edit: Edytowanie tematu
+      not_created: Ten temat nie mógł zostać stworzony
+      deleted: Twój temat został usunięty
+      cannot_delete: Nie możesz usunąć tematu który nie nalezy do Ciebie
+      updated: Ten temat został zaktualizowany
+      not_updated: Ten temat nie mógł być zaktualizowany
+      subscribed: Zasubskrybowałeś ten temat
+      unsubscribed: Odsubskrybowałeś ten temat
+      none: Obecnie nie ma żadnych tematów na tym forum
+      links:
+        new: Nowy temat
+        back_to_topics: Powrót do tematów
+        edit: Edytuj temat
+      not_found: Temat którego szukasz nie został znaleziony
+      hidden:
+        'true': Ten temat jest teraz ukryty
+        'false': Ten temat jest teraz widoczny
+      locked:
+        'true': Ten temat jest teraz zablokowany
+        'false': Ten temat jest teraz odblokowany
+      pinned:
+        'true': Ten temat jest teraz przypięty
+        'false': Ten temat jest teraz odpięty
+    topics:
+      show:
+        reply: Odpowiedy
+        delete: Usuń
+        subscribe: Zapisz się
+        unsubscribe: Odsubskrybuj
+        reply_to_topic: Odpowiedz na temat
+        pending_review: Ten temat oczekuje na zatwierdzenie. Tylko użytkownik który go stworzył oraz moderatorzy mogą go zobaczyć.
+        hide:
+          'true': Pokaż ten temat
+          'false': Ukryj ten temat
+        lock:
+          'true': Odblokuj ten temat
+          'false': Zablokuj ten temat
+        pin:
+          'true': Odepnij ten temat
+          'false': Przypnij ten temat
+        related_proposals: "Powiązane propozycje"
+    post:
+      buttons:
+        reply: Odpowiedz
+        edit: Edytuj
+      created: Twoja odpowiedź została wysłana
+      new: W odpowiedzi na
+      edit: Edytuj
+      not_created: Twoja odpowiedź nie mogła zostać wysłana
+      not_created_topic_locked: Nie możesz odpowiedzieć w zamkniętym temacie
+      edited: Twój post został edytowany
+      not_edited: Twój post nie mógł być edytowany
+      deleted: Twój post został usunięty
+      deleted_with_topic: Ostatnij post w temacie został usunięty. Cały temat został również usunięty
+      cannot_delete: Nie możesz usunąć postu który nie należy do Ciebie
+      cannot_quote_deleted_post: Post który próbowałeś zacytować już nie istnieje.
+    posts:
+      moderation:
+        moderate: Edytuj
+        approve: Zatwierdź
+        spam: Spam
+        success: Wybrane posty zostały zmoderowane
+      post:
+        pending_review: Ten post czeka na zatwierdzenie. Tylko użytkownik który go stworzył oraz moderatorzy mogą go zobaczyć.
+        in_reply_to: w odpowiedzi na
+    moderation:
+      index:
+        title: "Narzędzia moderacyjne dla %{forum}"
+  helpers:
+    submit:
+      frm_forum:
+        create: Stwórz Forum
+        update: Zaktualizuj forum
+      topic:
+        create: Stwórz temat
+        update: Zaktualizuj Temat
+      frm_mod:
+        create: Utwórz grupę
+      frm_category:
+        create: Stwórz kategorię
+        update: Aktualizuj kategorię
+  simple_form:
+    labels:
+      frm_forum:
+        category: Kategoria
+        title: Tytuł
+        name: Tytuł
+        description: Opis
+        moderators: Moderatorzy
+        visible_outside: Widoczne poza grupą
+      topic:
+        subject: Podmiot
+        locked: Zablokowane
+        pinned: Przypięte
+        hidden: Ukryte
+        posts:
+          text: Tekst
+      frm_category:
+        name: Nazwa
+      post:
+        text: Tekst
+      frm_mod:
+        name: Imię
+  time_ago_in_words: "%{time} temu"
+  ago: " temu"
+  ago_by: " temu przez"
+  by: przez
+  started_by: "Zaczęty przez "
+  are_you_sure: Czy na pewno?
+  lst_post: "Ostatni post"
+  last_post: "Ostatni temat"
+  back_to_forums: "Powrót do forum"
+  pages:
+    forum_groups:
+      index:
+        create_first: Nie istnieją tutaj żadne grupy moderatorskie. Stwórz pierwszą!
+  info:
+    members:
+      ok_message: Użytkownik pomyślnie dodany do grupy

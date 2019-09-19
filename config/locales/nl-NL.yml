@@ -1,0 +1,291 @@
+nl-NL:
+  test: "Test"
+  pages:
+    top_panel:
+      google_login: 'Aanmelden met Google'
+      twitter_login: "Log in met Twitter"
+      meetup_login: "Log in met Meetup"
+      linkedin_login: "Log in met LinkedIn"
+      openid_login: "Log in met OpenID"
+      find_groups: 'Zoek naar Groepen'
+      parma_login: "Aanmelden met Parma"
+      tecnologiedemocratiche_login: "Log in met Tecnologie Democratiche"
+    user:
+      notifications: 'Alarmeringen en Notificaties'
+      privacy: "Account en privacy"
+    users:
+      index:
+        title: 'Gebruikerslijst'
+      show:
+        groups_title: "Mijn groepen"
+        group_column: "Groep"
+        get_out_of_group_button: "Verlaat deze groep"
+        get_out_of_group_confermation: "Weet je het zeker?"
+        secret_vote: "Geheim"
+        proposal_column: "Voorstel"
+        votation_date_column: "Datum"
+        vote_column: "Stem"
+        profile_info: "Profiel informatie"
+        profile_info_unconfirmed: "(niet-bevestigde gebruiker)"
+        send_message_button: "Stuur privé-bericht"
+        name_label: "Naam"
+        email_label: "E-mail"
+        to_be_confirmed: "te worden bevestigd"
+        password_label: "Wachtwoord"
+        facebook_url_label: "Facebook URL"
+        googleplus_url_label: "Google+ URL"
+        linkedin_url: "LinkedIn-URL"
+        username_label: "Gebruikersnaam"
+        load_image: "Laad een afbeelding"
+        max_file_size: "Maximum grootte: 2MB"
+        what_can_i_do: "Wat kan ik doen?"
+        what_i_cant_do: "Wat kan ik niet doent?"
+        certified_from: "Gecertificeerd door"
+      send_message:
+        subject_label: "Onderwerp"
+        body_label: "Inhoud"
+      left_panel:
+        general_info: "Algemene informatie"
+        geographic_borders: "Geografische grenzen"
+        account_and_privacy: "Account en privacy"
+        title: "INSTELLINGEN EN VOORKEUREN"
+      alarm_preferences:
+        alerts: "Waarschuwingen"
+        emails: "E-mails"
+      privacy_preferences:
+        tooltips: "Toon tooltips"
+        show_urls: "Toon Facebook, Google+ en LinkedIn URLs aan gebruikers"
+        time_zone: "Tijdzone"
+    groups:
+      administration_panel:
+        info: 'Basisinformatie'
+        users: "Gebruikers beheren"
+      edit_permissions:
+        user_title: "Gebruiker"
+        remove_user: "Gebruiker verwijderen"
+        confirm_role_change3: "tot"
+        confirm_role_change4: "Bevestigen?"
+      index:
+        title: 'Alle groepen'
+        find_button: "Zoeken"
+        search_with_place: "of geografische grens"
+        participants_number: "Aantal deelnemers"
+      new:
+        new_group: "Nieuwe groep"
+      layout:
+        calendar: "KALENDER"
+      show:
+        rules_button: "Regels"
+        accept_request_button: "Aanvaarden"
+        reject_request_button: "Weigeren"
+        destroy_button: "Verwijderen"
+      header:
+        documents: "DOCUMENTEN"
+        forums: "FORUM"
+      edit_quorums:
+        new_quorum:
+          simple: "Eenvoudig"
+          advanced: "Uitgebreid"
+        active: "Actief"
+        name: "Naam"
+        participants: "Deelnemers"
+        time: "Tijd"
+      default_admin_title: "Beheerder"
+      participations:
+        search: "Zoeken"
+        filter: "Filteren"
+        anything: "Alle"
+        send_email: "E-mail verzenden"
+        name: "Naam"
+    login:
+      title: 'Aanmelden'
+    password:
+      edit:
+        new_password: "Nieuw wachtwoord"
+    registration:
+      choose_password: "Kies een wachtwoord"
+      confirm_password: "Wachtwoord bevestigen"
+      accept_conditions: "De gebruiksvoorwaarden aanvaarden"
+      register_button: "Registreren"
+    proposals:
+      index:
+        all_categories: "Alle categorieën"
+        loading_alt: "Bezig met laden"
+      show:
+        voteup: 'Ik ga akkoord'
+        votedown: 'Ik ga niet akkoord'
+        history_button: "Geschiedenis"
+        category_title: "Categorie"
+        edit_button: "Bewerken"
+        delete_button: "Verwijderen"
+        send_contribute_button: "Verzenden"
+        votation_results: "Uitslagen"
+        comment_inserted_by: "%{who} - %{when}"
+        replies:
+          delete: "Verwijderen"
+        reply_button: "Beantwoorden"
+        export_pdf: "PDF printen"
+        debate_ends_valutations_or: "of met"
+        debate_ends_valutations_and: "en met"
+        model_title: "Sjabloon"
+      new:
+        quorum_help: "Hulp"
+        title_group: "%{name}:"
+        solution1: "Agendapunt"
+        solution: "Agendapunt"
+        advanced_options: "Geavanceerde opties"
+      list:
+        voting_from_to: "Van %{from} tot %{to}"
+        voting_until: "Tot <br/>%{date}"
+      delete_comment: "Verwijderen"
+      results:
+        percentage_column: "Percentage"
+      edit:
+        remove_section: "Alinea verwijderen"
+        paragraph: "Alinea"
+      left_panel:
+        creation_date: "Aanmaakdatum"
+        last_week: "Vorige week"
+        last_month: "Vorige maand"
+        last_year: "Vorig jaar"
+      update_comment: "Bewerken"
+    events:
+      index:
+        title: 'Kalender'
+      new:
+        title: "Nieuwe gebeurtenis"
+        town_searching: "Bezig met zoeken"
+        step_2: "Beschrijving"
+        step_3: "Wanneer"
+        step_4: "Waar"
+      show:
+        map: "Kaart"
+        when: "Wanneer?"
+        where: "Waar?"
+        show_on_map: "Op kaart weergeven"
+    blog_posts:
+      edit_button: "Aanpassen"
+      delete_button: "Verwijderen"
+      comment:
+        delete_button: "Verwijderen"
+        confirm_delete: "Weet je zeker dat je dit bericht wil verwijderen?"
+    header:
+      groups:
+        forum: "FORUM"
+      menu:
+        login_button: "Aanmelden"
+        forgot_password_button: "Wachtwoord vergeten?"
+      welcome: "Welkom"
+      groups_title: "GROEPEN"
+      login: "AANMELDEN"
+    home:
+      index:
+        cloud_3: "E-DEMOCRATIE"
+        login: "Aanmelden"
+        forgot_password: "Wachtwoord vergeten?"
+        FAQ: "VEELGESTELDE VRAGEN"
+        change_language: "Taal wijzigen"
+        show_events: "Kalender tonen"
+      show:
+        proposals:
+          title: "Titel"
+    proposal_supports:
+      confirm_button: "Bevestigen"
+    sessions:
+      new:
+        remember_me_label: "Mijn gegevens onthouden"
+      links:
+        forgot_password: "Wachtwoord vergeten?"
+    steps:
+      next: "Doorgaan"
+    proposal_histories:
+      date_and_time: "Datum en tijd"
+    tags:
+      list_groups_with_tags: "Groepen"
+      proposals_tab: "Voorstellen"
+      groups_tab: "Groepen"
+    footer:
+      for_edemocracy: "voor e-democratie"
+      go_to_main_site: "Naar de hoofdsite"
+    moderator_panel:
+      block_user: "Gebruiker blokkeren"
+      blocked_user_list: "Lijst met geblokkeerde gebruikers"
+      block: "Deblokkeren"
+    feedback:
+      add_details: "Details toevoegen"
+      view_preview: "Voorvertoning"
+    passwords:
+      edit:
+        title: "Je wachtwoord wijzigen"
+  models:
+    quorum:
+      until_date: "(tot %{date})"
+      help_content:
+        not_specified: "Niet bepaald"
+        both: "Beide"
+  proposals:
+    schulze_vote_results:
+      votes: "Stemmen"
+      solution: "Oplossing"
+      points: "Punten"
+  buttons:
+    cancel: "Annuleren"
+    save: "Opslaan"
+    report: "Rapport"
+    update: "Bijwerken"
+    send: "Verzenden"
+    next: "Volgende"
+    go_back: "Terug"
+    ok: "OK"
+    yes_word: 'JA'
+    no_word: 'NEE'
+  group: "groep"
+  sending: "Bezig met verzenden..."
+  loading: "Bezig met laden..."
+  error:
+    proposals:
+      updating: "Fout bij het bijwerken"
+      close_debate: "Fout bij het afsluiten van het debat"
+    registration:
+      user_not_found: "Gebruiker niet gevonden"
+    users:
+      join_accounts_password: "Fout wachtwoord"
+  info:
+    setting_preferences: "Instellingen met succes aangepast"
+    message_sent: "Bericht met succes verzonden"
+    user:
+      url_shown: "URLs zichtbaar"
+      url_hidden: "URLs verborgen"
+  interest_borders:
+    town: "%{name}  (Stad)"
+  mailer:
+    default:
+      follow_twitter: "volg ons op Twitter"
+      follow_facebook: "volg ons op Facebook"
+      follow_google: "volg ons op Google+"
+      edit_preferences: "Voorkeuren"
+      click_here: "Hier klikken"
+    user_message:
+      hi_user: "Hallo %{user},"
+    blocked:
+      hi_user: "Hallo %{user},"
+    new_blog_comment:
+      click_here: "Hier klikken"
+    invite:
+      hi_user: "Hallo!"
+      accept: "Aanvaarden"
+      reject: "Weigeren"
+  words:
+    comment: "opmerking"
+    or: "of"
+    and: "en"
+    terms_of_service: "Gebruiksvoorwaarden"
+    privacy_policy: "Privacy"
+    guide: "VEELGESTELDE VRAGEN"
+  terms_of_service: "Voorwaarden"
+  privacy_policy: "Privacy"
+  controllers:
+    searches:
+      index:
+        groups_divider: "Groepen"
+  you: "Jij"
