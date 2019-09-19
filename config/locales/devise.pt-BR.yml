@@ -1,58 +1,84 @@
 pt-BR:
   errors:
     messages:
-      expired: expirou, por favor solicite uma nova
-      not_found: não encontrado
-      already_confirmed: foi já confirmado, por favor, tente entrar
-      not_locked: não foi bloqueado
+      expired: "expirou, por favor solicite uma nova"
+      not_found: "não encontrado"
+      already_confirmed: "foi já confirmado, por favor, tente entrar"
+      not_locked: "não foi bloqueado"
       not_saved:
-        one: '1 erro impediu de salvar esse %{resource}:'
-        other: '%{count} erros impediram de salvar este %{resource}:'
+        one: "1 erro impediu de salvar esse %{resource}:"
+        other: "%{count} erros impediram de salvar este %{resource}:"
   devise:
     failure:
-      locked: Sua conta está bloqueada
-      invalid: E-mail ou senha inválidos
-      invalid_token: Token de autenticação inválido
-      timeout: Sua sessão expirou, por favor entre novamente para continuar
-      inactive: Sua conta ainda não foi ativada
+      locked: 'Sua conta está bloqueada'
+      invalid: 'E-mail ou senha inválidos'
+      invalid_token: 'Token de autenticação inválido'
+      timeout: 'Sua sessão expirou, por favor entre novamente para continuar'
+      inactive: 'Sua conta ainda não foi ativada'
+      already_authenticated: 'Você já está registrado'
+      unauthenticated: 'Autorização necessária para visualizar esta página. Por favor, entre.'
+      unconfirmed: "A sua conta ainda não foi confirmada"
+      user:
+        invalid: 'Nome de usuário ou senha inválidos'
+        not_found_in_database: 'Nome de usuário ou senha inválidos'
     sessions:
-      signed_in: Logado com sucesso
-      signed_out: Saiu com sucesso
+      signed_in: 'Logado com sucesso'
+      signed_out: 'Saiu com sucesso'
+      user:
+        signed_out: 'Você se desconectou com sucesso.  Tchau'
+        signed_in: 'Cadastrou-se. Bem-vindo!'
+        signed_up: 'Preencheu com êxito o seu processo de cadastramento. Bem-vindo!'
     passwords:
-      send_instructions: Você receberá um email com instruções sobre como redefinir sua senha em alguns minutos
-      updated: Sua senha foi alterada com sucesso. Você está agora conectado
-      updated_not_active: Sua senha foi alterada com sucesso
-      send_paranoid_instructions: Se seu e-mail existe no nosso banco de dados, você receberá um link de recuperação de senha na sua caixa de entrada
+      send_instructions: 'Você receberá um email com instruções sobre como redefinir sua senha em alguns minutos'
+      updated: 'Sua senha foi alterada com sucesso. Você está agora conectado'
+      updated_not_active: 'Sua senha foi alterada com sucesso'
+      send_paranoid_instructions: "Se seu e-mail existe no nosso banco de dados, você receberá um link de recuperação de senha na sua caixa de entrada"
     confirmations:
-      send_instructions: Daqui a poucos minutos você receberá um email com instruções sobre como confirmar sua conta
-      send_paranoid_instructions: Se seu email existe no nosso banco de dados, daqui a poucos minutos você receberá um e-mail com instruções sobre como confirmar sua conta
-      confirmed: Sua conta foi confirmada com sucesso. Você está agora conectado
+      send_instructions: 'Daqui a poucos minutos você receberá um email com instruções sobre como confirmar sua conta'
+      send_paranoid_instructions: 'Se seu email existe no nosso banco de dados, daqui a poucos minutos você receberá um e-mail com instruções sobre como confirmar sua conta'
+      confirmed: 'Sua conta foi confirmada com sucesso. Você está agora conectado'
+      user:
+        confirmed: 'Sua inscrição foi concluída com sucesso'
+        send_instructions: 'As instruções foram enviadas para o email indicado'
     registrations:
-      signed_up: Bem-vindo! Você se inscreveu com sucesso
-      signed_up_but_unconfirmed: Uma mensagem com um link de confirmação foi enviada para seu endereço de email. Por favor, abra o link para ativar sua conta
-      signed_up_but_inactive: Você se inscreveu com sucesso. No entanto, nós não podemos conectá-lo porque sua conta ainda não foi ativada
-      signed_up_but_locked: Você se inscreveu com sucesso. No entanto, nós não podemos conectá-lo porque sua conta está bloqueada.
-      updated: Você atualizou sua conta com sucesso
-      update_needs_confirmation: Você atualizou sua conta com sucesso, mas precisamos verificar seu novo endereço de email. Por favor verifique a sua caixa de entrada e clique no link de confirmação para finalizar a atualização do seu endereço de email
-      destroyed: Tchau! Sua conta foi cancelada com sucesso. Esperamos vê-lo novamente em breve
+      signed_up: 'Bem-vindo! Você se inscreveu com sucesso'
+      signed_up_but_unconfirmed: 'Uma mensagem com um link de confirmação foi enviada para seu endereço de email. Por favor, abra o link para ativar sua conta'
+      signed_up_but_inactive: 'Você se inscreveu com sucesso. No entanto, nós não podemos conectá-lo porque sua conta ainda não foi ativada'
+      signed_up_but_locked: 'Você se inscreveu com sucesso. No entanto, nós não podemos conectá-lo porque sua conta está bloqueada.'
+      updated: 'Você atualizou sua conta com sucesso'
+      update_needs_confirmation: "Você atualizou sua conta com sucesso, mas precisamos verificar seu novo endereço de email. Por favor verifique a sua caixa de entrada e clique no link de confirmação para finalizar a atualização do seu endereço de email"
+      destroyed: 'Tchau! Sua conta foi cancelada com sucesso. Esperamos vê-lo novamente em breve'
+      user:
+        inactive_signed_up: 'Para completar a sua inscrição gentileza clique no link do email recebido'
+        signed_up_but_unconfirmed: 'Clique no link do email enviado ao seu endereço para concluir o processo de inscrição'
     unlocks:
-      unlocked: Sua conta foi desbloqueada com sucesso. Entre para continuar
-      send_paranoid_instructions: Se sua conta existir, você receberá um e-mail em poucos minutos com instruções sobre como desbloqueá-la
+      send_instructions: 'Você receberá um e-mail com instruções sobre como confirmar a sua conta dentro de alguns minutos'
+      unlocked: 'Sua conta foi desbloqueada com sucesso. Entre para continuar'
+      send_paranoid_instructions: 'Se sua conta existir, você receberá um e-mail em poucos minutos com instruções sobre como desbloqueá-la'
     omniauth_callbacks:
+      success: 'Sua inscrição foi completada. Bem-vindo!'
       failure: 'Não foi possível autorizá-lo de %{kind} porque "%{reason}"'
+      creation_failure: "Erro ao acessar através de %{provider}"
+      join_success: "As contas foram ligadas com sucesso. Parabéns, agora você pode acessar através de %{provider}."
+      join_failure: "Existe outra conta de %{provider}. O recurso para ligar as contas estará disponível em breve."
+      certified_email_taken: "Existe outra conta com seu e-mail certificada."
+      already_certified: "Outra conta foi certificada com o seu código de imposto."
+      account_not_verified: "Conta %{provider} não verificada. Por favor, Gentileza verificar a sua conta em %{provider}."
     mailer:
       confirmation_instructions:
-        subject: Instruções de confirmação
-        welcome: 'Bem-vindo a %{app_name}, %{user}!'
-        follow_link: 'Você pode confirmar o seu endereço de e-mail clicando no link a seguir:'
-        confirm_account: Confirmar conta
-        follow_link_2: 'ou visitando o seguinte link:'
-        access_by_email: 'Em seguida você pode acessar %{app_name} com o e-mail e a senha usados na registração'
-        contact_assistance: 'Se encontrar qualquer problema com o procedimento entre em contato com o administrador: %{mail}'
+        subject: 'Instruções de confirmação'
+        welcome: "Bem-vindo a %{app_name}, %{user}!"
+        follow_link: "Você pode confirmar o seu endereço de e-mail clicando no link a seguir:"
+        confirm_account: "Confirmar conta"
+        follow_link_2: "ou visitando o seguinte link:"
+        access_by_email: "Em seguida você pode acessar %{app_name} com o e-mail e a senha usados na registração"
+        contact_assistance: "Se encontrar qualquer problema com o procedimento entre em contato com o administrador: %{mail}"
       reset_password_instructions:
-        subject: Instruções para redefinir sua senha
-        hi_user: 'Olá %{user}!'
-        change_password: Alterar senha
-        password_will_not_change: Sua senha não mudará até você clicar no link anterior.
+        subject: 'Instruções para redefinir sua senha'
+        hi_user: "Olá %{user}!"
+        follow_link: "Pode mudar a sua senha clicando no seguinte link:"
+        change_password: "Alterar senha"
+        ignore: "Se não pediu para mudar a sua senha, gentileza, ignorar este email."
+        password_will_not_change: "Sua senha não mudará até você clicar no link anterior."
       unlock_instructions:
-        subject: Instruções de desbloqueio
+        subject: 'Instruções de desbloqueio'
