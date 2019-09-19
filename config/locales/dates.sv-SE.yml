@@ -1,0 +1,163 @@
+sv-SE:
+  countdowns:
+    labelsPlural:
+      - År
+      - Månader
+      - Veckor
+      - Dagar
+      - Timmar
+      - Minuter
+      - Sekunder
+    labelsSingular:
+      - År
+      - Månad
+      - Vecka
+      - Dag
+      - Timme
+      - Minut
+      - Sekund
+    compactLabelsPlural:
+      - 'å'
+      - 'm'
+      - 'v'
+      - 'd'
+    compactLabelsSingular:
+      - 'å'
+      - 'm'
+      - 'v'
+      - 'd'
+  calendar:
+    monthNames:
+      - Januari
+      - Februari
+      - Mars
+      - April
+      - Maj
+      - Juni
+      - Juli
+      - Augusti
+      - September
+      - Oktober
+      - November
+      - December
+    monthNamesShort:
+      - Jan
+      - Feb
+      - Mar
+      - Apr
+      - Maj
+      - Jun
+      - Jul
+      - Aug
+      - Sep
+      - Okt
+      - Nov
+      - Dec
+    dayNames:
+      - Söndag
+      - Måndag
+      - Tisdag
+      - Onsdag
+      - Torsdag
+      - Fredag
+      - Lördag
+    dayNamesShort:
+      - Sön
+      - Mån
+      - Tis
+      - Ons
+      - Tors
+      - Fre
+      - Lör
+    today: 'idag'
+    month: 'månad'
+    week: 'vecka'
+    day: 'dag'
+    firstDay: 0
+    timeFormat: 'h:mm TT{ - [ddd] [dd] h:mm TT}'
+    changed: 'Ändrad!'
+    eventsFormat: 'h(:mm)t'
+  date:
+    formats:
+      short: "%b %d"
+      long: "%d %B %Y"
+  time:
+    formats:
+      default: "%d %b %Y kl. %I:%M %p"
+      long: "%A %d %B %Y kl. %I:%M %p"
+      long_date: "%A %d %B %Y"
+      long_date_time: "%A %d %B %Y kl. %I:%M %p"
+      from_long_date_time: "Från %A %d %B %Y kl. %I:%M %p"
+      until_long_date_time: "Till %A %d %B %Y kl. %I:%M %p"
+      from_long_date: "Från %A %d %B %Y"
+      until_long_date: "Till %A %d %B %Y"
+      short: "%d %b %Y"
+      two_rows: "%d %b %Y <br/> %I:%M %p"
+      weekday: "%a kl. %I:%M %p"
+      month: "%B"
+      dayandmonth: "%d/%m"
+      hour: "%I:%M %p"
+      yesterday_at: "idag kl. %I:%M %p"
+      textfield: "%d/%m/%Y %I:%M %p"
+      datepicker: "%Y-%m-%d"
+      datetimepicker: "%Y-%m-%d %H:%M"
+    am: "f.m."
+    pm: "e.m."
+    left:
+      seconds:
+        one: "1 sekund"
+        other: "%{count} sekunder"
+      minutes:
+        one: "1 minut"
+        other: "%{count} minuter"
+      hours:
+        one: "1 timme"
+        other: "%{count} timmar"
+      days:
+        one: "1 dag"
+        other: "%{count} dagar"
+      months:
+        one: "1 månad"
+        other: "%{count} månader"
+  datetime:
+    added_on: "den %{date}"
+    distance_in_words:
+      about_x_hours:
+        one: ca 1 timme sedan
+        other: ca %{count} timmar sedan
+      about_x_months:
+        one: ca 1 månad sedan
+        other: ca %{count} månader sedan
+      about_x_years:
+        one: ca 1 år sedan
+        other: ca %{count} år sedan
+      almost_x_years:
+        one: nästan 1 år sedan
+        other: nästan %{count} år sedan
+      half_a_minute: en halv minut sedan
+      less_than_x_minutes:
+        one: mindre än 1 minut sedan
+        other: mindre än %{count} minuter sedan
+      less_than_x_seconds:
+        one: mindre än 1 sekund sedan
+        other: mindre än %{count} sekunder sedan
+      over_x_years:
+        one: mer än 1 år sedan
+        other: mer än %{count} år sedan
+      x_days:
+        one: 1 dag sedan
+        other: ! '%{count} dagar sedan'
+      x_minutes:
+        one: 1 minut sedan
+        other: ! '%{count} minuter sedan'
+      x_months:
+        one: 1 månad sedan
+        other: ! '%{count} månader sedan'
+      x_seconds:
+        one: "1 sekund sedan"
+        other: ! '%{count} sekunder sedan'
+  label:
+    from: "från"
+    to: "till"
+  countdown: "{m<}{mn} {ml} sedan{m>} {s<}alldeles nyss{s>}"
+  countdown2: "{y<}{yn} {yl}{y>} {o<}{on} {ol}{o>} {d<}{dn} {dl}{d>} {h<}{hn} {hl}{h>} {m<}{mn} {ml}{m>} {s<}par sekunder{s>}"
