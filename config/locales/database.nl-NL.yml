@@ -1,0 +1,44 @@
+nl-NL:
+  db:
+    sys_locales:
+      es-ES:
+        description: Spaans
+      it-IT:
+        description: Italiaans
+      pt-BR:
+        description: Portugees (Brazilië)
+    proposal_types:
+      STANDARD:
+        description: Standaard voorstel
+      POLL:
+        description: Poll
+      RULE_BOOK:
+        description: Regelement
+      PRESS:
+        description: Persbericht
+      EVENT:
+        description: Evenementenorganisatie
+      ESTIMATE:
+        description: Kostprijsraming
+      AGENDA:
+        description: Agenda
+      PETITION:
+        description: Petitie
+    event_types:
+      meeting:
+        description: vergadering
+      vote:
+        description: stem
+      meeting2:
+        description: vergadering
+      election:
+        description: verkiezing
+    notification_categories:
+      GROUPS:
+        description: Groepen
+    proposal_categories:
+      energy:
+        description: Energie , klimaat
+    vote_types:
+      neutral:
+        description: Neutraal
