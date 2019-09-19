@@ -17,15 +17,15 @@ id-ID:
       - Menit
       - Detik
     compactLabelsPlural:
-      - t
-      - b
-      - m
-      - h
+      - 't'
+      - 'b'
+      - 'm'
+      - 'h'
     compactLabelsSingular:
-      - t
-      - b
-      - m
-      - h
+      - 't'
+      - 'b'
+      - 'm'
+      - 'h'
   calendar:
     monthNames:
       - Januari
@@ -69,63 +69,69 @@ id-ID:
       - Kam
       - Jum
       - Sab
-    today: hari ini
-    month: bulan
-    week: minggu
-    day: hari
+    today: 'hari ini'
+    month: 'bulan'
+    week: 'minggu'
+    day: 'hari'
     firstDay: 0
     timeFormat: 'h:mm TT{ - [ddd] [dd] h:mm TT}'
+    changed: 'Berubah!'
+    eventsFormat: 'h(:mm)t'
   date:
     formats:
-      short: '%b %d'
-      long: '%d %B %Y'
+      short: "%b %d"
+      long: "%d %B %Y"
   time:
     formats:
-      default: '%d %b %Y pada %I:%M %p'
-      long: '%A %d %B %Y pada %I:%M %p'
-      long_date: '%A %d %B %Y'
-      long_date_time: '%A %d %B %Y pada %I:%M %p'
-      from_long_date_time: 'Dari %A %d %B %Y pada %I:%M %p'
-      until_long_date_time: 'Hingga %A %d %B %Y pada %I:%M %p'
-      short: '%d %b %Y'
-      two_rows: '%d %b %Y <br/> %I:%M %p'
-      weekday: '%a pada %I:%M %p'
-      month: '%B'
-      dayandmonth: '%d/%m'
-      hour: '%I:%M %p'
-      yesterday_at: 'kemarin pada %I:%M %p'
-      textfield: '%d/%m/%Y %I:%M %p'
-      datepicker: '%Y-%m-%d'
-      datetimepicker: '%Y-%m-%d %H:%M'
+      default: "%d %b %Y pada %I:%M %p"
+      long: "%A %d %B %Y pada %I:%M %p"
+      long_date: "%A %d %B %Y"
+      long_date_time: "%A %d %B %Y pada %I:%M %p"
+      from_long_date_time: "Dari %A %d %B %Y pada %I:%M %p"
+      until_long_date_time: "Hingga %A %d %B %Y pada %I:%M %p"
+      from_long_date: "Untuk %A %d %B %Y"
+      until_long_date: "Pada %A %d %B %Y"
+      short: "%d %b %Y"
+      two_rows: "%d %b %Y <br/> %I:%M %p"
+      weekday: "%a pada %I:%M %p"
+      month: "%B"
+      dayandmonth: "%d/%m"
+      hour: "%I:%M %p"
+      yesterday_at: "kemarin pada %I:%M %p"
+      textfield: "%d/%m/%Y %I:%M %p"
+      datepicker: "%Y-%m-%d"
+      datetimepicker: "%Y-%m-%d %H:%M"
+    am: "am"
+    pm: "pm"
     left:
       seconds:
-        other: '%{count} detik'
+        other: "%{count} detik"
       minutes:
-        other: '%{count} menit'
+        other: "%{count} menit"
       hours:
-        other: '%{count} jam'
+        other: "%{count} jam"
       days:
-        other: '%{count} hari'
+        other: "%{count} hari"
       months:
-        other: '%{count} bulan'
+        other: "%{count} bulan"
   datetime:
-    added_on: 'pada tanggal %{date}'
+    added_on: "pada tanggal %{date}"
     distance_in_words:
       about_x_hours:
-        other: 'sekitar %{count} jam yang lalu'
+        other: sekitar %{count} jam yang lalu
       about_x_months:
-        other: 'sekitar %{count} bulan yang lalu'
+        other: sekitar %{count} bulan yang lalu
       about_x_years:
-        other: 'sekitar %{count} tahun yang lalu'
+        other: sekitar %{count} tahun yang lalu
       almost_x_years:
-        other: 'hampir %{count} tahun yang lalu'
+        other: hampir %{count} tahun yang lalu
       half_a_minute: setengah menit yang lalu
       less_than_x_minutes:
-        other: 'kurang dari %{count} menit yang lalu'
+        other: kurang dari %{count} menit yang lalu
       less_than_x_seconds:
-        other: 'kurang dari %{count} detik yang lalu'
+        other: kurang dari %{count} detik yang lalu
       over_x_years:
-        other: 'lebih dari %{count} tahun yang lalu'
+        other: lebih dari %{count} tahun yang lalu
       x_days:
         other: ! '%{count} hari yang lalu'
       x_minutes:
@@ -135,7 +141,7 @@ id-ID:
       x_seconds:
         other: ! '%{count} detik yang lalu'
   label:
-    from: dari
-    to: sampai
-  countdown: '{m<}{mn} {ml} yang lalu {m>} {s<}baru saja{s>}'
-  countdown2: '{y<}{yn} {yl}{y>} {o<}{on} {ol}{o>} {d<}{dn} {dl}{d>} {h<}{hn} {hl}{h>} {m<}{mn} {ml}{m>} {s<}beberapa detik{s>}'
+    from: "dari"
+    to: "sampai"
+  countdown: "{m<}{mn} {ml} yang lalu {m>} {s<}baru saja{s>}"
+  countdown2: "{y<}{yn} {yl}{y>} {o<}{on} {ol}{o>} {d<}{dn} {dl}{d>} {h<}{hn} {hl}{h>} {m<}{mn} {ml}{m>} {s<}beberapa detik{s>}"
