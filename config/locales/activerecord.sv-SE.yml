@@ -1,0 +1,161 @@
+sv-SE:
+  activerecord:
+    models:
+      meeting: 'Möte'
+      places: 'Plats'
+    attributes:
+      blog_comment:
+        body: 'Kommentar'
+        created_at: "Skräppostsskydd"
+      event:
+        title: 'Evenemangsnamn'
+        description: 'Beskrivning'
+        event_type_id: 'Evenemangstyp'
+        starttime: 'Startdatum'
+        endtime: 'Slutdatum'
+        all_day: 'Hela dagen'
+        period: 'Upprepa'
+        frequency: 'Upprepa varje'
+        private: 'Privat'
+      group:
+        facebook_page_url: 'Facebook-sidans adress'
+        name: 'Namn'
+        title_bar: 'Namnlist'
+        description: 'Beskrivning'
+        accept_requests: 'Begäran om medverkan'
+        porta_id: 'Administratör'
+        interest_border_tkn: 'Geografisk plats av intresse'
+        interest_border_id: 'Geografisk plats av intresse'
+        image_url: 'Bildadress'
+        default_role_name: "Vad är namnet på nya användare?"
+        default_role_name_placeholder: "T.ex.: Användare, medlemmar, aktivister, pirater"
+        name_placeholder: "Välj ett namn med anknytning till gruppens identitet och/eller läge."
+        title_bar_placeholder: "Gruppsidans namn."
+        description_placeholder: "Detta meddelande kommer att vara på gruppens första sida"
+        image_url_placeholder: "Gruppbildens URL"
+        facebook_page_url_placeholder: "Har gruppen en Facebook-sida? Klistra in en länk här."
+        admin_title: "Vad kallas gruppens administratörer?"
+        private: "Privat grupp"
+        rule_book: "Regelbok"
+        image: "Ladda bild"
+        admin_title_placeholder: "Gruppadministratörernas rollnamn (standard: Administratör)"
+      blog:
+        title: 'Namn'
+      blog_post:
+        title: 'Namn'
+        body: 'Text'
+        published: 'Tillstånd'
+        published_true: 'Publicerat'
+        published_false: 'Utkast'
+        published_reserved: "Reserverat"
+        group_ids: Publicerat i följande grupper
+        published_at: Publicerat kl.
+      participation_role:
+        name: 'Namn'
+        description: 'Kort beskrivning'
+      group_invitation:
+        emails_list: "E-postadresser"
+        testo: "Meddelandetext"
+      place:
+        address: 'Adress'
+        municipality_id: 'Ort'
+        latitude_original: Breddgrad
+        longitude_original: Längdgrad
+      proposal:
+        group_area_id: "Arbetsområde"
+        proposal_category_id: 'Kategori'
+        title: 'Namn'
+        subtitle: 'Underrubrik'
+        problems: 'Problem'
+        objectives: 'Mål'
+        content: 'Text'
+        interest_borders_tkn: 'Geografiska platser av intresse'
+        tags_list: "Taggar"
+        quorum_id: "Debattens längd"
+        anonima: "Tillfällig anonymitet"
+        visible_outside: "Offentligt synligt"
+        secret_vote: "Sluten omröstning"
+        vote_starts_at: "Omröstningen startar kl."
+        vote_ends_at: "Omröstningen avslutas kl."
+        debate_starts_at: "Debatten börjar kl."
+        debate_ends_at: "Debatten slutar kl."
+      proposal_comment:
+        content: 'Innehåll'
+      quorum:
+        name: 'Kvorumets namn'
+        name_title: 'Skriv in ett kort, förklarande namn'
+        description: 'Beskrivning/kort förklaring'
+        description_title: 'En beskrivning för att förstå syftet med detta kvorum'
+        minutes: Debattens längd
+        days_m: Dagar
+        hours_m: timmar
+        minutes_m: Minuter
+        percentage_title: 'Minsta antal deltagare i diskussionen som en procentandel av antalet deltagare i gruppen'
+        good_score: 'Mognad'
+        good_score_title: 'Poäng som ska uppnås för att förslaget ska nå omröstningsfasen'
+        bad_score: 'Dåligt kvorum (procent)'
+        bad_score_title: 'Poänggräns under vilket förslaget avvisas. Du kan fortsätta diskussionen om inte villkoren Tid eller Deltagare har uppfyllts'
+        condition: Villkor
+        condition_title: 'Måste båda villkoren Tid och Deltagare ha uppfyllts eller bara ett av dem?'
+        vote_minutes: 'Omröstningens längd'
+        vote_percentage: 'Kvorum (väljare)'
+        vote_good_score: 'Godkännande'
+      search_participant:
+        role_id: 'Roll'
+        keywords: 'För- eller efternamn'
+      user:
+        name: 'Förnamn'
+        email: 'E-postadress'
+        surname: 'Efternamn'
+        password: 'Lösenord'
+        linkedinpageurl: 'Din sida på LinkedIn'
+        facebookpageurl: 'Din sida på Facebook'
+        accept_conditions: 'Användarvillkor'
+        receive_newsletter: 'Nyhetsbrev via e-post'
+        blocked: "Fel"
+      user_sensitive:
+        name: 'Förnamn'
+      group_area:
+        name: "Namn"
+        description: "Beskrivning"
+        default_role_name: "Standardrollnamn"
+    errors:
+      template:
+        header:
+          one: 'ett fel gjorde att denna %{model} inte kunde sparas'
+          other: '%{count} fel gjorde att denna %{model} inte kunde sparas'
+        body: 'Det uppstod problem med följande fält'
+      messages:
+        inclusion: 'ingår inte i listan'
+        exclusion: 'är reserverat'
+        invalid: 'är ogiltigt'
+        confirmation: 'överensstämmer inte med bekräftelse'
+        accepted: 'måste godkännas'
+        empty: 'kan inte vara tomt'
+        blank: 'måste fyllas i'
+        too_long: 'Texten är för lång'
+        too_short: 'Texten är för kort'
+        wrong_length: 'bör vara %{count} tecken'
+        taken: 'har redan tagits'
+        not_a_number: 'är inte ett tal'
+        not_an_email: 'är inte en giltig e-postadress'
+        greater_than: 'måste vara större än %{count}'
+        greater_than_or_equal_to: 'måste vara större än eller lika med %{count}'
+        equal_to: 'måste vara lika med %{count}'
+        less_than: 'måste vara mindre än %{count}'
+        less_than_or_equal_to: 'måste vara mindre än eller lika med %{count}'
+        odd: 'måste vara jämnt'
+        even: 'måste vara udda'
+        record_invalid: 'Verifiering misslyckades %{errors}'
+        not_found: 'hittades inte.'
+        TOS: "Användarvillkor måste godkännas"
+        certified_cannot_edit: 'kan inte redigeras om du är en certifierad användare'
+        forum_visibility: "Ett forum syns inte utanför gruppen om kategorin är privat"
+      models:
+        user:
+          attributes:
+            email:
+              already_confirmed: 'Den här e-postadressen har redan registrerats'
+        group:
+          portavoce:
+            required: 'Du måste välja en administratör'
