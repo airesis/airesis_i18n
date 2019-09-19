@@ -1,0 +1,84 @@
+tr-TR:
+  errors:
+    messages:
+      expired: "süresi dolmuş, lütfen yeni bir tane isteyin"
+      not_found: "bulunamadı"
+      already_confirmed: "zaten onaylandı, lütfen tekrar giriş yapmayı deneyin"
+      not_locked: "kilitli değildi"
+      not_saved:
+        one: "1 hata, %{resource} kaynak dosyasının kaydedilmesine izin vermedi:"
+        other: "%{count} hata, %{resource} kaynak dosyasının kaydedilmesine izin vermedi:"
+  devise:
+    failure:
+      locked: 'Hesabınız kilitlendi'
+      invalid: 'Geçersiz e-posta veya parola'
+      invalid_token: 'Gerçersiz kimlik doğrulama anahtarı'
+      timeout: 'Oturumunuzun süresi doldu, devam etmek için lütfen giriş yapınız'
+      inactive: 'Hesabınız henüz aktifleştirilmemiş'
+      already_authenticated: 'Zaten kayıtlısınız'
+      unauthenticated: 'Bu sayfaya erişmek için giriş yapmanız gereklidir. Lütfen giriş yapın.'
+      unconfirmed: "Hesabınız henüz doğrulanmadı"
+      user:
+        invalid: 'Gerçersiz kullanıcı adı veya parola'
+        not_found_in_database: 'Gerçersiz kullanıcı adı veya parola'
+    sessions:
+      signed_in: 'Başarılı bir şekilde oturum açıldı'
+      signed_out: 'Başarılı bir şekilde oturum sonlandırıldı'
+      user:
+        signed_out: 'Başarılı bir şekilde çıkış yaptınız. Güle güle'
+        signed_in: 'Giriş yaptınız. Hoşgeldiniz!'
+        signed_up: 'Kayıt işlemini başarıyla tamamladınız. Hoşgeldiniz!'
+    passwords:
+      send_instructions: 'Birkaç dakika içinde parolanızı nasıl sıfırlayacağınız hakkında talimatlar içeren bir e-posta alacaksınız'
+      updated: 'Parolanız başarıyla değiştirildi. Şimdi oturum açınız'
+      updated_not_active: 'Parolanız başarılı bir şekilde değiştirildi'
+      send_paranoid_instructions: "Eğer e-posta adresiniz veritabanımızda kayıtlı ise, e-posta kutunuza bir parola kurtarma e-postası alacaksınız"
+    confirmations:
+      send_instructions: 'Birkaç dakika içinde hesabınızı onaylamanız hakkında talimatlar içeren bir e-posta alacaksınız'
+      send_paranoid_instructions: 'Eğer e-posta adresiniz veritabanımızda kayıtlı ise, birkaç dakika içinde e-posta kutunuza bir hesap onaylama hakkında talimatlar içeren bir e-postası alacaksınız'
+      confirmed: 'Hesabınız başarılı bir şekilde doğrulandı. Şimdi oturum açınız'
+      user:
+        confirmed: 'Kayıt işleminiz başarıyla tamamlandı'
+        send_instructions: 'Talimatlar belirlediğiniz e-posta adresine gönderildi'
+    registrations:
+      signed_up: 'Hoşgeldiniz! Başarılı bir şekilde oturum açtınız'
+      signed_up_but_unconfirmed: 'E-posta adresinize onay bağlantısı içeren bir mesaj gönderildi. Hesabınızı etkinleştirmek için lütfen bağlantıyı açın'
+      signed_up_but_inactive: 'Başarılı bir şekilde kayıt oldunuz. Fakat, hesabınız aktif olmadığı için giriş yapamıyorsunuz'
+      signed_up_but_locked: 'Başarılı bir şekilde kayıt oldunuz. Fakat, hesabınız kilitli olduğu için giriş yapamıyorsunuz.'
+      updated: 'Hesabınızı başarılı bir şekilde güncellediniz'
+      update_needs_confirmation: "Hesabınızı başarılı bir şekilde güncellediniz, fakat yeni e-posta adresinizi doğrulamamız gerekmekte. Lütfen e-postanızı kontrol edin ve yeni e-posta adresinizi onaylamak için onay bağlantısına tıklayın"
+      destroyed: 'Güle güle! Hesabınız başarılı bir şekilde iptal edildi. Umarız sizi yakın zamanda tekrar görürüz'
+      user:
+        inactive_signed_up: 'Kayıt işleminizi tamamlamak için, aldığınız e-postadaki bağlantıyı tıklayın'
+        signed_up_but_unconfirmed: 'Kayıt işleminizi tamamlamak için e-posta adresinize gönderilen bağlantıya tıklayın'
+    unlocks:
+      send_instructions: 'Birkaç dakika içinde, hesabınızın kilidini nasıl açacağınıza dair talimatlar içeren bir e-posta alacaksınız'
+      unlocked: 'Hesabınızın kilidi başarıyla açıldı. Devam etmek için lütfen giriş yapınız'
+      send_paranoid_instructions: 'Eğer hesabınız varsa, birkaç dakika içinde kilidini açmak ile ilgili talimatlar içeren bir e-posta alacaksınız'
+    omniauth_callbacks:
+      success: 'Kayıt işleminiz başarıyla tamamlandı. Hoşgeldiniz!'
+      failure: '"%{reason}" nedeniyle %{kind} tarafından doğrulanamazsınız'
+      creation_failure: "%{provider} ile erişirken hata oluştu"
+      join_success: "Hesaplar başarıyla birleştirildi. Tebrikler, şimdi %{provider} ile giriş yapabilirsiniz."
+      join_failure: "Diğer %{provider} hesabı mevcut. Hesaplara katılma özelliği yakında sunulacak."
+      certified_email_taken: "Onaylı e-postanızla birlikte başka bir hesap var."
+      already_certified: "Başka bir hesap vergi kodunuzla onaylandı."
+      account_not_verified: "%{provider} hesabı doğrulanmadı. Lütfen hesabınızı %{provider} üzerinde doğrulayın."
+    mailer:
+      confirmation_instructions:
+        subject: 'Onaylama talimatları'
+        welcome: "%{app_name}'e hoşgeldin %{user}!"
+        follow_link: "Aşağıdaki bağlantıya tıklayarak e-posta adresini doğrulayabilrisiniz:"
+        confirm_account: "Hesabı onayla"
+        follow_link_2: "veya aşağıdaki bağlantıyı ziyaret ederek:"
+        access_by_email: "Ardından belirlenen e-posta ve parola ile %{app_name} üzerinde oturum açabilirsiniz"
+        contact_assistance: "İşlem ile ilgili bir sorunuz varsa, bir yöneticiye başvurun: %{mail}"
+      reset_password_instructions:
+        subject: 'Parola sıfırlama talimatları'
+        hi_user: "Merhaba %{user}!"
+        follow_link: "Aşağıdaki bağlantıya tıklayarak parolanızı değiştirebilirsiniz:"
+        change_password: "Parolayı değiştir"
+        ignore: "Şifrenizi değiştirmek istemiyorsanız, bu e-postayı yok sayabilirsiniz."
+        password_will_not_change: "Önceki bağlantıya tıklayana kadar parolanız değişmeyecektir."
+      unlock_instructions:
+        subject: 'Talimatların kilidini aç'
