@@ -1,0 +1,196 @@
+fil-PH:
+  db:
+    sys_locales:
+      bs-BA:
+        description: Bosnian
+      de-DE:
+        description: Aleman
+      el-GR:
+        description: Griyego
+      en-AU:
+        description: Ingles (Australia)
+      en-EU:
+        description: Ingles (Europa)
+      en-GB:
+        description: Ingles (UK)
+      en-IE:
+        description: Ingles (Ireland)
+      en-NZ:
+        description: Ingles (New Zealand)
+      en-US:
+        description: Ingles (USA)
+      en-ZA:
+        description: Ingles (Timog Aprika)
+      es-AR:
+        description: Espanyol (Argentina)
+      es-CL:
+        description: Espanyol (Chile)
+      es-EC:
+        description: Espanyol (Ecuador)
+      es-ES:
+        description: Espanyol
+      fr-FR:
+        description: Pranses
+      hu-HU:
+        description: Hungarian
+      id-ID:
+        description: Indonesian
+      it-IT:
+        description: Italyano
+      jp-JP:
+        description: Hapon
+      me-ME:
+        description: Montenegrin
+      nl-NL:
+        description: Netherlands
+      pt-BR:
+        description: Portuges (Brazil)
+      pt-PT:
+        description: Portuges (Portugal)
+      ro-RO:
+        description: Romanian
+      ru-RU:
+        description: Ruso
+      sh-HR:
+        description: Serbo-Croatian
+      sr-CS:
+        description: Serbia (Latin)
+      sr-SP:
+        description: Serbia (Cyrillic)
+      zh-TW:
+        description: Chinese
+    proposal_types:
+      STANDARD:
+        description: Pamantayan na panukala
+      POLL:
+        description: Poll
+      RULE_BOOK:
+        description: Aklat ng panuntunan
+      PRESS:
+        description: Press Release
+      EVENT:
+        description: Organisasyon ng mga kaganapan
+      ESTIMATE:
+        description: Pagtatantya ng gastos
+      AGENDA:
+        description: Adyenda
+      CANDIDATES:
+        description: Pagpili ng isang kandidato
+      SIMPLE:
+        description: Simpleng panukala
+      PETITION:
+        description: Petisyon
+    event_types:
+      meeting:
+        description: pagpupulong
+      vote:
+        description: boto
+      meeting2:
+        description: pagpupulong
+      election:
+        description: halalan
+    notification_categories:
+      MYPROP:
+        description: Ang mga panukala na isulat ko
+      PROP:
+        description: Ang mga panukala na nilahukan ko
+      NEWPROP:
+        description: Mga bagong panukala
+      NEWEVENT:
+        description: Mga bagong pangyayari
+      GROUPS:
+        description: Mga grupo
+    notification_types:
+      new_public_events:
+        description: Pampublikong mga kaganapan
+        email_subject: "Bagong pampublikong kaganapan: %{event}"
+        message: "Bagong pampublikong kaganapan: <b>%{event}</b>"
+      new_events:
+        description: Mga bagong kaganapan na nilahukan ko
+        email_subject: "Bagong kaganapan: %{event}"
+        message: "Bagong kaganapan <b>%{event}</b> sa grupo <b>%{group}</b>"
+      new_posts_user_follow:
+        description: Mga bagong post mula sa gumagamit na sinusundan ko
+        email_subject: Mayroong isang bagong post
+        message: "%{user} ay nagdagdag ng isang bagong post sa kanyang blog <b>%{blog}</b>"
+      new_valutation_mine:
+        description: Bagong pagsusuri para sa aking panukala
+        email_subject:
+          one: "%{title} ay may bagong pagsusuri"
+          other: "%{title} ay mayroong %{count} bagong mga pagsusuri"
+        message:
+          one: "Ang iyong panukala <b>%{title}</b> ay nakatanggap ng bagong pagsusuri"
+          other: "Ang iyong panukala<b>%{title}</b> ay nakatanggap ng %{count} bagong mga pagsusuri"
+      new_valutation:
+        description: Bagong pagsusuri para sa panukala na aking nilahukan
+        email_subject:
+          one: "%{title} ay may bagong pagsusuri"
+          other: "%{title} ay mayroong %{count} bagong pagsusuri"
+        message:
+          one: "Ang panukala <b>%{title}</b> ay nakatanggap ng bagong pagsusuri"
+          other: "Ang panukala <b>%{title}</b> ay nakatanggap ng %{count} bagong pagsusuri"
+      available_author:
+        description: Gumagamit na available para maging isang patnugot ng isang panukala
+        email_subject:
+          one: "%{title} - Isang bagong patnugot ay available"
+          other: "%{title} - %{count} bagong mga patnugot ay available"
+        message:
+          one: "%{user} ay available upang maging patnugot ng panukala <b>%{title}</b>"
+          other: "%{count} mga gumagamit na available upang maging patnugot ng panukala <b>%{title}</b>"
+      author_accepted:
+        description: Pagtanggap bilang patnugot ng panukala
+        email_subject: "%{title} - Ikaw na ngayon ang patnugot nito!"
+        message: "Ikaw na ngayon ang patnugot ng panukala<b>%{title}</b>.<br/> Tandaan na bilang isang patnugot, ikaw ay kinakailangang makinig sa mga kontribusyon ng ibang mga gumagamit at pagbutihin ang teksto ayon sa kanila<br/>"
+      new_authors:
+        description: Mga bagong patnugot ng mga panukala
+        email_subject: "%{title} - Mga bagong patnugot"
+        message: "<b>%{user}</b> ay isang patnugot ng panukala <b>%{title}</b>"
+      unintegrated_contribute:
+        description: Ang mga kontribusyon ay ibinalik sa debate
+        email_subject: "%{proposal} - Ang kontribusyon ay bumalik sa debate"
+        message: "Ang kontribusyon na naisama mo sa panukala <b>%{proposal}</b> ay naibalik sa debate"
+      new_contributes:
+        description: "Mga bagong kontribusyon sa mga panukala na ako ay kalahok"
+        email_subject:
+          one: "%{title} - Isang bagong kontribusyon ay naipasok"
+          other: "%{title} - Mayroong mga %{count} bagong kontribusyon"
+        message:
+          one: "<b>%{name}</b> ay nagdagdag ng bagong kontribusyon sa panukala <b>%{title}</b>"
+          other: "Mayroong mga <b>%{count}</b> bagong kontribusyon sa panukala <b>%{title}</b>"
+      text_update:
+        description: "Update sa teksto ng panukala na aking nilahukan"
+        email_subject:
+          one: "%{title} ay nai-update na"
+          other: "%{title} ay nai-update na ng %{count} beses"
+        message:
+          one: "Ang panukala<b>%{title}</b> ay nai-update na"
+          other: "Ang panukala <b>%{title}</b> ay na-update na ng %{count} beses"
+      new_contributes_mine:
+        description: "Mga bagong kontribusyon sa aking mga panukala"
+        email_subject:
+          one: "%{title} Isang bagong kontribusyon ay naipasok"
+          other: "%{title} - Mayroong mga %{count} bagong kontribusyon"
+        message:
+          zero: "<b>%{name}</b> ay nagdagdag ng bagong kontribusyon sa iyong panukala <b>%{title}</b>"
+          one: "<b>%{name}</b> ay nagdagdag ng bagong kontribusyon sa iyong panukala <b>%{title}</b>"
+          other: "Mayroong mga <b>%{count}</b> bagong kontribusyon sa iyong panukala <b>%{title}</b>"
+      change_status:
+        description: "Pagbabago sa katayuan ng panukala na nilahukan ko"
+        email_subject:
+          wait: "%{title} - Piliin ang petsa ng pagboto"
+          waiting_date: "%{title} - Ang petsa ng pagboto ay napili na"
+          in_vote: "%{title} - PUMUNTA AT BUMOTO!"
+          abandoned: "%{title} hindi nakalusot sa debate"
+      new_public_proposals:
+        description: Mga bagong panukala na nai-dagdag sa Open Space
+        email_subject: "%{proposal}"
+        message: "Bagong panukala <b>%{proposal}</b> na naidagdag sa Open Space"
+      new_proposals:
+        description: Mga bagong panukala sa loob ng grupo
+        email_subject: "%{proposal}"
+        message: "Bagong panukala <b>%{proposal}</b> na nilikha sa grupo <b>%{group}</b>"
+      new_participation_request:
+        description: Bagong kahilingan sa paglahok
+        email_subject:
+          one: "Mayroong bagong kahilingan sa paglahok"
+          other: "Mayroong mga %{count} bagong kahilingan sa paglahok"
