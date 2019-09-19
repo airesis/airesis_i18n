@@ -6,16 +6,16 @@ zh-TW:
       topic: 主題
       posts: 文章
       posts_count:
-        other: '%{count} 篇文章'
+        other: "%{count} 篇文章"
       flagged_for_spam: 您的帳號已被標記為垃圾攻擊
       cannot_create_topic: 你目前不能增加一個新的主題
       cannot_create_post: 你目前不能增加一個新的文章
-    access_denied: 您不允許這樣做。
+    access_denied: "您不允許這樣做。"
     admin:
       area: 管理頁面
-      back_to_admin: 回到管理頁面
-      back_to_forums: 回到論壇
-      back_to_groups: 回到群組
+      back_to_admin: "回到管理頁面"
+      back_to_forums: "回到論壇"
+      back_to_groups: "回到群組"
       forum:
         moderator_groups: 版主群
         index: 管理論壇
@@ -36,10 +36,29 @@ zh-TW:
           none: 無
           moderators: 版主
           no_category: (沒有類別)
+        default_private: "私人論壇"
+        default_public: "公眾論壇"
+        default_private_description: "論壇保留給團體參與者"
+        default_public_description: "論壇對所有 Airesis 使用者可見。論壇也不在組中的使用者可見"
+      mod:
+        index: 管理群組
+        new: 新群組
+        created: 已成功建立新的群組
+        not_created: 無法建立群組
+        deleted: 選定的組已被刪除
+        members: "成員在%{group} 組"
+      mods:
+        show:
+          add_member: 新增
+          add_a_new_member: "添加新成員"
+          current_members: "當前成員"
+        edit: 編輯
+        delete: 刪除
+        name: 名稱
       category:
         index: 管理論壇分類
         new: 建立一個新的論壇分類
-        edit: '編輯 %{title} 分類'
+        edit: "編輯 %{title} 分類"
         new_link: 新的論壇分類
         deleted: 選取的論壇類分類已被刪除
         created: 已建立這個論壇分類
@@ -51,28 +70,40 @@ zh-TW:
         delete: 刪除
         category: 分類
         delete_confirm: 確定要刪除這個論壇分類？
+        default_private: "私有部分"
+        default_public: "公共部分"
+      group:
+        index: "管理版主組"
+        show:
+          title: "管理版主"
+        new: "新版主組"
+        created: "成功創建版主組"
+        not_created: "創建版主組時出錯"
+        deleted: "成功刪除的版主組"
     common:
       pages: 頁面
     errors:
       not_signed_in: 你必須先登入
       access_denied: 權限被拒
     forum:
-      header: '檢視 %{title}'
+      header: "檢視 %{title}"
       forums: 論壇
       new: 建立一個新的論壇
-      edit: '編輯 %{title} 論壇'
+      edit: "編輯 %{title} 論壇"
       topics_count:
-        other: '%{count} 個主題'
+        other: "%{count} 個主題"
       posts_count:
-        other: '%{count} 篇文章'
-      moderator_tools: 版主工具
-      topic_tools: 主題工具
-      admin_tools: 管理者工具
+        other: "%{count} 篇文章"
+      moderator_tools: "版主工具"
+      topic_tools: "主題工具"
+      admin_tools: "管理者工具"
+      title: "新論壇"
     forums:
       index:
+        title: 論壇
         forum: 論壇
         views: 檢視
-        last_post: 最新發表：
+        last_post: '最新發表：'
         none: 無
     topic:
       headings:
@@ -104,14 +135,14 @@ zh-TW:
         edit: 編輯主題
       not_found: 找不到你要找的主題
       hidden:
-        "true": 這個主題現在已隱藏
-        "false": 這個主題現在可以公開檢視
+        'true': 這個主題現在已隱藏
+        'false': 這個主題現在可以公開檢視
       locked:
-        "true": 這個主題已鎖定
-        "false": 本主題目前解鎖
+        'true': 這個主題已鎖定
+        'false': 本主題目前解鎖
       pinned:
-        "true": 這個主題現在是置頂
-        "false": 這個主題取消置頂了
+        'true': 這個主題現在是置頂
+        'false': 這個主題取消置頂了
     topics:
       show:
         reply: 回覆
@@ -121,14 +152,15 @@ zh-TW:
         reply_to_topic: 回覆主題
         pending_review: 本主題正在等待審查。只有建立者和版主可以檢視。
         hide:
-          "true": 顯示本主題
-          "false": 隱藏此主題
+          'true': 顯示本主題
+          'false': 隱藏此主題
         lock:
-          "true": 解鎖此主題
-          "false": 鎖定此主題
+          'true': 解鎖此主題
+          'false': 鎖定此主題
         pin:
-          "true": 取消置頂
-          "false": 置頂
+          'true': 取消置頂
+          'false': 置頂
+        related_proposals: "相關建議"
     post:
       buttons:
         reply: 文章回覆
@@ -141,7 +173,9 @@ zh-TW:
       edited: 你已編輯你的文章
       not_edited: 無法編輯你的文章
       deleted: 您的文章已被刪除
+      deleted_with_topic: 主題中的最後一個帖子已被刪除。整個主題也被刪除
       cannot_delete: 你不能刪除不屬於你的文章
+      cannot_quote_deleted_post: 您嘗試引用的帖子不再存在。
     posts:
       moderation:
         moderate: 管理
@@ -153,7 +187,7 @@ zh-TW:
         in_reply_to: 在答覆
     moderation:
       index:
-        title: '%{forum} 的管理工具'
+        title: "%{forum} 的管理工具"
   helpers:
     submit:
       frm_forum:
@@ -162,13 +196,17 @@ zh-TW:
       topic:
         create: 建立主題
         update: 更新主題
+      frm_mod:
+        create: 建立群組
       frm_category:
         create: 建立分類
+        update: 更新類別
   simple_form:
     labels:
       frm_forum:
         category: 分類
         title: 標題
+        name: 標題
         description: 描述
         moderators: 版主群
         visible_outside: 公開檢視
@@ -183,15 +221,17 @@ zh-TW:
         name: 名稱
       post:
         text: 內文
-  time_ago_in_words: '%{time} 前'
-  ago: 前
-  ago_by: 前由
+      frm_mod:
+        name: 名稱：
+  time_ago_in_words: "%{time} 前"
+  ago: "前"
+  ago_by: "前由"
   by: 由
-  started_by: 開始於
+  started_by: "開始於"
   are_you_sure: 確定嗎？
-  lst_post: 最新文章
-  last_post: 最新主題
-  back_to_forums: 回論壇
+  lst_post: "最新文章"
+  last_post: "最新主題"
+  back_to_forums: "回論壇"
   pages:
     forum_groups:
       index:
