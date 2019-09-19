@@ -1,9 +1,9 @@
 bs-BA:
   tutorial:
     proposals_index:
-      category_icon: Odabrana kategorija
+      category_icon: "Odabrana kategorija"
     proposals_show:
-      authors: Stvarni urednici prijedloga
-      category: Kategorija ovog prijedloga
-    next: Sljedeće
-    back: Nazad
+      authors: "Stvarni urednici prijedloga"
+      category: "Kategorija ovog prijedloga"
+    next: "Sljedeće"
+    back: "Nazad"
