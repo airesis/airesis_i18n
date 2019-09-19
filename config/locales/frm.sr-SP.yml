@@ -7,17 +7,17 @@ sr-SP:
       posts: Објављене поруке
       posts_count:
         one: 1 објављена порука
-        few: '%{count} објављених порука'
-        other: '%{count} објављених порука'
+        few: "%{count} објављених порука"
+        other: "%{count} објављених порука"
       flagged_for_spam: Ваш налог је означен за нежељену пошту.
       cannot_create_topic: Не можете креирати нову тему у овом тренутку.
       cannot_create_post: Не можете креирати нову поруку у овом тренутку.
-    access_denied: Није вам дозвољено да то урадите.
+    access_denied: "Није вам дозвољено да то урадите."
     admin:
       area: Подручје администратора
-      back_to_admin: Назад на администратора
-      back_to_forums: Назад на форуме
-      back_to_groups: Назад на групе
+      back_to_admin: "Назад на администратора"
+      back_to_forums: "Назад на форуме"
+      back_to_groups: "Назад на групе"
       forum:
         moderator_groups: Уредник група
         index: Управљање форумима
@@ -38,29 +38,29 @@ sr-SP:
           none: Ниједна
           moderators: Модератори
           no_category: (Нема категорије)
-        default_private: Приватни форум
-        default_public: Јавни форум
-        default_private_description: Форум резервисан за учеснике групе
-        default_public_description: Форум видљив свим корисницима Airesis-а, као и корисницима који нису у групи
+        default_private: "Приватни форум"
+        default_public: "Јавни форум"
+        default_private_description: "Форум резервисан за учеснике групе"
+        default_public_description: "Форум видљив свим корисницима Airesis-а, као и корисницима који нису у групи"
       mod:
         index: Управљање групама
         new: Нова група
         created: Група успешно креирана
         not_created: Није могуће креирати групу
         deleted: Изабрана група је избрисана
-        members: 'Чланови у %{group}'
+        members: "Чланови у %{group}"
       mods:
         show:
           add_member: Додајте
-          add_a_new_member: Додајте новог члана
-          current_members: Тренутни чланови
+          add_a_new_member: "Додајте новог члана"
+          current_members: "Тренутни чланови"
         edit: Уредите
         delete: Избришите
         name: Име
       category:
         index: Управљање категоријама форума
         new: Креирање нове категорије форума
-        edit: 'Уређивање %{title} категорије'
+        edit: "Уређивање %{title} категорије"
         new_link: Нова категорија форума
         deleted: Изабрана категорија форума је избрисана
         created: Ова категорија форума је креирана
@@ -72,34 +72,34 @@ sr-SP:
         delete: Избришите
         category: Категорија
         delete_confirm: Да ли сте сигурни да желите да избришете ову категорију форума?
-        default_private: Приватни одељак
-        default_public: Јавни одељак
+        default_private: "Приватни одељак"
+        default_public: "Јавни одељак"
       group:
-        index: Управљање групама модератора
+        index: "Управљање групама модератора"
         show:
-          title: Управљање модераторима
+          title: "Управљање модераторима"
     common:
       pages: Стране
     errors:
       not_signed_in: Морате се прво пријавити
       access_denied: Приступ забрањен.
     forum:
-      header: 'Приказивање %{title}'
+      header: "Приказивање %{title}"
       forums: Форуми
       new: Креирање новог форума
-      edit: 'Уређивање %{title} форума'
+      edit: "Уређивање %{title} форума"
       topics_count:
         one: 1 тема
-        few: '%{count} тема'
-        other: '%{count} тема'
+        few: "%{count} тема"
+        other: "%{count} тема"
       posts_count:
         one: 1 објављена порука
-        few: '%{count} објављених порука'
-        other: '%{count} објављених порука'
-      moderator_tools: Алатке за модерацију
-      topic_tools: Алатке за тему
-      admin_tools: Алатке за администрацију
-      title: Нови форум
+        few: "%{count} објављених порука"
+        other: "%{count} објављених порука"
+      moderator_tools: "Алатке за модерацију"
+      topic_tools: "Алатке за тему"
+      admin_tools: "Алатке за администрацију"
+      title: "Нови форум"
     forums:
       index:
         title: Форум
@@ -137,14 +137,14 @@ sr-SP:
         edit: Уредите тему
       not_found: Тема коју тражите не може бити нађена
       hidden:
-        "true": Ова тема је сада сакривена
-        "false": Ова тема је сада видљива
+        'true': Ова тема је сада сакривена
+        'false': Ова тема је сада видљива
       locked:
-        "true": Ова тема је сада закључана
-        "false": Ова тема је сада откључана
+        'true': Ова тема је сада закључана
+        'false': Ова тема је сада откључана
       pinned:
-        "true": Ова тема је сада прикачена
-        "false": Ова тема је сада уклоњена
+        'true': Ова тема је сада прикачена
+        'false': Ова тема је сада уклоњена
     topics:
       show:
         reply: Одговорите
@@ -154,15 +154,15 @@ sr-SP:
         reply_to_topic: Одговорите на тему
         pending_review: Ова тема тренутно чека преглед. Само корисник који је креирао и модератори је могу видети.
         hide:
-          "true": Приказивање ове теме
-          "false": Сакривање ове теме
+          'true': Приказивање ове теме
+          'false': Сакривање ове теме
         lock:
-          "true": Откључавање ове теме
-          "false": Закључавање ове теме
+          'true': Откључавање ове теме
+          'false': Закључавање ове теме
         pin:
-          "true": Уклањање ове теме
-          "false": Прикачињање ове теме
-        related_proposals: Повезани предлози
+          'true': Уклањање ове теме
+          'false': Прикачињање ове теме
+        related_proposals: "Повезани предлози"
     post:
       buttons:
         reply: Одговор
@@ -189,7 +189,7 @@ sr-SP:
         in_reply_to: као одговор на
     moderation:
       index:
-        title: 'Алатке за модерацију за %{forum}'
+        title: "Алатке за модерацију за %{forum}"
   helpers:
     submit:
       frm_forum:
@@ -208,6 +208,7 @@ sr-SP:
       frm_forum:
         category: Категорија
         title: Наслов
+        name: Наслов
         description: Опис
         moderators: Модератори
         visible_outside: Видљиво изван групе
@@ -224,15 +225,15 @@ sr-SP:
         text: Текст
       frm_mod:
         name: Име
-  time_ago_in_words: '%{time} пре'
-  ago: ' пре'
-  ago_by: ' пре'
+  time_ago_in_words: "%{time} пре"
+  ago: " пре"
+  ago_by: " пре"
   by: од
-  started_by: 'Започето од '
+  started_by: "Започето од "
   are_you_sure: Да ли сте сигурни?
-  lst_post: Последња објављена порука
-  last_post: Последња тема
-  back_to_forums: Назад на форум
+  lst_post: "Последња објављена порука"
+  last_post: "Последња тема"
+  back_to_forums: "Назад на форум"
   pages:
     forum_groups:
       index:
