@@ -1,0 +1,214 @@
+tl-PH:
+  pages:
+    proposals:
+      edit:
+        add_solution:
+          standard: "Magdagdag ng ibang solusyon"
+          poll: "Magdagdag ng ibang pagpipilian"
+          rule_book: "Magdagdag ng ibang solusyon"
+          press: "Magdagdag ng ibang solusyon"
+          event: "Magdagdag ng ibang solusyon"
+          estimate: "Magdagdag ng ibang solusyon"
+          agenda: "Magdagdag ng ibang puntos"
+          candidates: "Magdagdag ng ibang kandidato"
+          simple: "Magdagdag ng ibang solusyon"
+        solution_title:
+          standard: "Solusyon"
+          poll: "Opsyon"
+          rule_book: "Solusyon"
+          press: "Solusyon"
+          event: "Solusyon"
+          estimate: "Solusyon"
+          agenda: "Puntos"
+          candidates: "Kandidato"
+          simple: "Solusyon"
+        insert_title:
+          standard: "Maglagay ng pamagat"
+          poll: "Maglagay ng pamagat"
+          rule_book: "Maglagay ng pamagat"
+          press: "Maglagay ng pamagat"
+          event: "Maglagay ng pamagat"
+          estimate: "Maglagay ng pamagat"
+          agenda: "Maglagay ng pamagat"
+          candidates: "Maglagay ng pangalan at apelyido"
+          simple: "Maglagay ng pamagat"
+        new_solution_title:
+          standard: "Solusyon <span class=\"num\">%{num}</span>:"
+          poll: "Opsyon <span class=\"num\">%{num}</span>:"
+          rule_book: "Solusyon <span class=\"num\">%{num}</span>:"
+          press: "Solusyon <span class=\"num\">%{num}</span>:"
+          event: "Solusyon <span class=\"num\">%{num}</span>:"
+          estimate: "Solusyon <span class=\"num\">%{num}</span>:"
+          agenda: "<span class=\"num\">%{num}</span> punto:"
+          candidates: "Kandidato <span class=\"num\">%{num}</span>:"
+          simple: "Solusyon <span class=\"num\">%{num}</span>:"
+      new:
+        standard:
+          problems_title: "Mga problema"
+          problems_question: "Ano ang problema ang dapat sulbarin at/o ano ang mga balakid upang matagumpayan na makabot ang layunin?"
+          problems_title_label: "Ano ang problema na dapat sulbarin at/o ano ang mga balakid upang mapatagumpayan na makabot ang layunin?"
+          objectives_title: "Mga Layunin"
+          step_4_title: "Maaring mong ipasok ang isang panukala o isulat itong maiigi na nakabase sa iyong input na natanggap"
+          solution:
+            description: "Paglalarawan ng solusyon"
+            time: "Mga oras"
+            subject: "Supervisor"
+            resources: "Mga kinakailangang pagkukunan at paano kunin ang mga iyon"
+            aspects: "Ethical, environmenta, mga social aspect"
+            documents: "Dokumentasyon"
+            pros: "Pros"
+            cons: "Cons"
+            title: "Solusyon 1"
+          suggestion_html: |
+            <div><b>Halimbawa:</b></div>
+            <div>Bawasan ang paggamit ng tubig na maiinom para sa patubig.</div>
+            <div>Paggagamit ng tubig na maiinom sa tubig ng mga publikong parke at pribadong hardin ay isang madumi at mayroong naguugnay ng mga gastos. Bukod dito ang aquifer na nagbibigay ng aqueduct ay tumatakbo ng mabagal</div>
+          paragraph:
+            similar: "Mga kaparehong karanasan"
+            stakeholders: "Mga stakeholder"
+            requirements: "Mga kinakailangang solusyon"
+          question:
+            paragraph:
+              similar: "Mayroon bang mga karanasan upang pukawin na kabutin ang layunin? Kabilang sa mga posibleng solusyon/inisyatibo ay nasa lugar na, alin sa mga ito ay naabot na ang mga pinakamahusay na resulta at alin sa mga ito ay masama? Bakit?"
+              stakeholders: "Sino ang makatanggap sa benepisyo st mga drawback mula sa pagkamit ng layunin at ang mga imungkahing solusyon? Ito ba ay mga paksang kasangkot sa mga diskusyon sa panukalang ito? Sa anong pamaraan?"
+              requirements: "Anong ang mga katangain na dapat respetuhin ang perpektong solusyon? Na maaring tinutukoy ang dalawang teknikal ng mga kinakailangan na halaga at ang mga prinsipyo na dapat maoberbahan."
+            solution:
+              description: "Ilarawan ang solusyon na, sa pagsasagawa, ay inimungkahi na gawin, upang abutin ang layunin."
+              time: "Kailan ba ang solusyon na ito ay maisakatuparan? Kilalanin ang mga posible yugto ng pagpapatupad."
+              subject: "Sino ba ang magpapatupad o ayusin sa pagpapatupad ng solusyon? Sa kasong ng pagpapatupad, paano ba subaybayan at alamin ang mga kalalabasan ng solusyon?"
+              resources: "Mga pondo, mga boluntaryo, mga kagamitan at mga kasanayan na kinakailangan upang maipatupad ang solusyong ito? Listahin at i-quantify sila. Paano ba matagpuan ang mga pinagkukunang ito?"
+              aspects: "Ito bang solusyon ay nakatugon sa mga ethical na kinakailangan ng grupo kommunidad na kung saan ito ay naka-address? Ano ang epekto sa sociat at enivironment na ito?"
+              documents: "Ang dokumwntasyon ba ay magagamit sa solusyon?"
+              pros: "Ilista at ibuod ang mga pangunahing advantage at strength ng solusyong ito. Ipahiwatig ang mha stakeholder ng mga strength."
+              cons: "Ilista at ibuod ang mga pangunahing problema at mga disadvantage sa solusyong ito. Ipahiwatig ang mga stakeholder ng mga disadvantage."
+        rule_book:
+          problems_title: "Mga problema"
+          problems_title_label: "Ano ang mga problema na dapat sulbarin ng aplikasyon sa regulasyon na ito? Ano ang mga isyu na dapat i-regulate? Bakit?"
+          problems_question: "Ano ang mga problema na dapat sulbarin ng apliskayon sa regulasyon ito? Ani ang mga isyu na dapat i-regulate? Bakit?"
+          suggestion_html: |
+            <div><b>Halimba:</b></div>
+            <div>Pununtunang Libro upang i-reserba ang St. Peter's hall</div>
+            <div>Ang lungsod  ng Silverham ay mayroong lugar sa pagpupulong na sa kasalukuyan ito ay ginagamit lamang sa mga tauhan ng Mayor. Panahon ng pumili ng isang paraan ng walang pakundangan upang bigyang hiling  ang mamamayan at lahat ng mga publikong asosasyon anb karapatang na magamit ang mga silid para sa publikong kaganapan.</div>
+          solution:
+            title: "Solusyon 1"
+            article: "Artikulo %{num}"
+            pros: "Pros"
+            cons: "Cons"
+          paragraph:
+            inspire: "Regulasyon upang pukawin mula sa"
+            requirements: "Mga kinakailangan na dapat makuha"
+            stakeholders: "Mga stakeholder (kasali sa mga tao)"
+          question:
+            paragraph:
+              inspire: "Mayroon bang mga kaparehong regulasyon mula saan kumuha ng inspirasyon? Kabila sa mga karanasan ng mga kaparehong panuntunan, kung saan ang isa ay nakabot ang pinakamahusay na resulta at kung saan sa mga ito ang pinakamahina? Bakit?"
+              requirements: "Ano ang mga pangunahing contstraints na ang regulasyon ay dapat kunin sa akwant? Ano ang mga halaga at ang mga prinsipyo na dapat obserbahan? Ano ang magiging gastos sa aplikasyon ng regulasyon? Ano ang mga paksa na maititro na maipasok ito?"
+              stakeholders: "Sino ang mga pinaka apektado sa aplikasyon ng regulasyon? Sino ang magdurusa sa mga kahihinatnan? Ito bang mga paksa ay kasama sa usapan ng panukalang ito? Paano?"
+            solution:
+              article: "Ipasok ang tekston sa unang artkulo, sinusigurado na ang interpretasyong ito ay lilitaw ng natatangi. Isingit ang kahulugan ng panuntunin o expression ng mga paksa sa hindi pagkakaunawaan."
+              pros: "Ilista at ibuod ang mga pangunahing advantage at lakas ng solusyong ito. Ipahiwatig ang mga stakeholder ng mga advantage."
+              cons: "Ilista at ibuod ang pangunahing problema at ang mga disadvantage sa solusyong ito. Ipahiwatig ang mga stakeholder ng disadvantage."
+        press:
+          problems_title_label: "Ano ang menshae na gustong mong ihatid? Ano ang mga inaasahang hadlang sa tamang pagkaunawa nito at mga stream? Mayroong mga artikulo o pinakamabagong bakita na gusto mong i-replicate osaan mong gusto mong magbigay ng pagsasaayos?"
+          problems_title: "Mensahe para i-transmit"
+          problems_question: "Ano ang mensahe na gusto mong sabihin ipahatid? Anong mga hadlang ang inaasahan para sa tamang pag-iintindi at sa mga stream? May mga artikulo o kamakailan lang na mga balita na gusto mong i-replika o sa kung aning gusto mong magbigay ng pagsasaayos?"
+          suggestion_html: |
+            <div><b>Example:</b></div> 
+            <div>Mag-advertise sa pagpapalaya ng bersyon na 3.5 sa Airesis.</div> 
+            <div>Kailangan nating mag-advertise sa pagpapalaya ng bersyon na 3.5 ng Airesis, na nagdadala ng importanteng mga tampok na para sa pampublikong administrasyon. Ito ay kinakailangang ipaliwanag kung ano ang Airesis at makuha ang atensyon ng press, ibinigay ang kamakailan lang na mga bali-balita tungkol sa paggamit ng Airesis sa White House.</div>
+          solution:
+            title: "Solusyon 1"
+            maintitle: "Pamagat"
+            subtitle: "Subtitle"
+            incipit: "Incipit"
+            body: "Katawan"
+            conclusion: "Mga katapusan"
+            deep: "Mga pananaw"
+          paragraph:
+            target: "Mga tatanggap/target"
+          question:
+            paragraph:
+              target: "Sinu-sino ang mga target ng artikulo/paglaya ng press? Anu-anong mga aspeto sa mensahe ang gusto mong ihatid kung saan ito ang pinaka interesado para sa kanila?"
+            solution:
+              maintitle: "Paano mo ibuod sa loob ng ilang mga salita ng mensahe sa isang artitkulo/press release?"
+              subtitle: "Ipahiwatig doon sa nutshell, isang susi sa konsepto ng artikulo o karagdagang impormasyon na nakapaloob doon sa titulo."
+              incipit: "Ipahiwatig sa ilang bawat na salita sino ang gumawa ano, Kaikan niya ito ginawa, saan at bakit, pag-highlight ng katotohanan ay tunay na may kaugnay."
+              body: "Ilalarawan sa higit panv detalye, ngunit gawa ng tao, ang katotohanan. Magsulat ng maikli at importansyang pangungusap."
+              conclusion: "Ito bang mga panukala ay ginawa sa mga mambabas? Ano ba ang mga posibleng pagpapaulad ng katotothanan o mga implikasyong ito?"
+              deep: "Maglagay ng mga link, kontak, o karagdagang impormasyon para sa mga taong ninais oalawakin ang mga balita."
+        estimate:
+          problems_title_label: "Anong mga kalakal o serbisyo na ninais mong bilhin? Upang sulbarin kung aling mga problema?"
+          problems_title: "Mga problema"
+          problems_question: "Anong mga kalakal o serbisyo na ninanais mong bilhin? Upang malutas ang aling mga problema?"
+          suggestion_html: |
+            <div><b>Halimbawa:</b></div> 
+            <div>Kapalit ng plantang thermal sa headquarter ng pagsasamahan.</div>
+             <div>Dahil ang pagkakamali ng lumang boiler, ang ating quarter ay hindi praktikal sa panahon ng taglamig. Kung ganoon na hindi posible na maayos ito, kailangan nating ipalit ang lumang plantang thermal sa bago, na may mababang enerhiyang pagkonsumo.</div>
+          solution:
+            title: "Solusyon 1"
+            cost: "Halaga"
+            problems: "Respetuhin ang mga contraint at problema"
+            dumentation: "Dokumentasyon"
+          paragraph:
+            technical_constrains: "Mga teknikal na constraint"
+            temporal_constrains: "Mga temporal constrain"
+            other_constrains: "Kapaligiran, etikal, mga regulatory constrain"
+            budget: "Pinakamalaking budget"
+            recipient_budget: "Ang mga tatanggal ng hiling para sa qutasyon"
+        agenda:
+          problems_title: "Uri ng pagpupulong"
+          suggestion_html: |
+            <div><b>Halimbawa:</b></div>
+            <div>Pumili ng agenda para sa ating pagpupulong.</div>
+            <div>Ordinaryong co-ordinasyon pagpupulong upang pagpalitin ang mga karanasan kasama ang mga referants ng lokal comittee para sa biyolohokal na agrikultura ng Italy.</div>
+          solution:
+            title: "Aytem"
+            priorities: "Aytem prioridad"
+            links: "Mga link ng pananaw"
+            description: "Deskripsyon"
+            estimated_time: "Kinakailangang oras ng usapan"
+          paragraph:
+            date_time: "Petsa at oras"
+            place: "Lugar"
+        event:
+          problems_title: "Saklaw ng kaganapan"
+          problems_title_label: "Bakit gusto mong mamuno ss isang kaganapan? Ano ang mga hinahangad mo?"
+          problems_question: "Bakit gusto mong mamuno ss isang kaganapan? Ano ang mga hinahangad mo?"
+          suggestion_html: |
+            <div><b>Halimbawa:</b></div>
+            <div>Mag-organize ng maliit na gastos para sa koncert</div>
+            <div>Sa ating bayan mayroong mga maraming batang banda na maipakita at mapabuti ang kanilang talento dahil sa kakulanga ng espasyo. Sa karagdagang ito, mayroong kaunting kaganapan na-promote ng aming Munisipyo para sa susunod na summer/tag-init, dahil sa kakulangan ng pagkukunan.</div>
+          solution:
+            title: "Solusyon 1"
+            maintitle: "Pamagat"
+            description: "Paglalarawan ng solusyon"
+            program: "Petss, oras at plano"
+            body: "lugar"
+            place: "Lugar"
+            organization: "Organisasyong kaganapan"
+            resources: "Mga kinakailangang pagkukunan at paano ibalik ang nga iyon"
+            pros: "Pros"
+            cons: "Cons"
+          paragraph:
+            similar_experiences: "Mga kaparehong karanasan"
+            stakeholders: "Mga stakeholder (kasama ang mga tao)"
+            desired_characteristics: "Ninanais ng mga katangian"
+        candidates:
+          solution:
+            name: "Pangalan ng kandidato at Apelyido"
+            data: "Personal Data"
+            curriculum: "Kurikulum"
+          paragraph:
+            election_type: "Paglalarawan ng uri ng elektron:"
+        simple:
+          problems_title: "Problema"
+          problems_title_label: "Ano ang problema na dapat sulbarin at/o ano ang mga hadlang upang mapatagumpayan na makabot ang layunin?"
+          problems_question: "Ano ang problema na dapat sulbaron at/o ano ang mga hadlang na mapatagumpayan uoanv makabot ang layunin?"
+          solution:
+            description: "Deskripsyon"
+            title: "Solusyon 1"
+        petition:
+          paragraph:
+            text: "Tekstong petisyon"
+          question:
+            paragraph:
+              text: "Tesktong petisyon"
