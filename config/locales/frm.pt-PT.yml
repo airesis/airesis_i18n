@@ -7,16 +7,16 @@ pt-PT:
       posts: Submissões
       posts_count:
         one: 1 post
-        other: '%{count} posts'
+        other: "%{count} posts"
       flagged_for_spam: A sua conta foi sinalizada como origem de spam.
       cannot_create_topic: Não é possível criar um novo tópico neste momento.
       cannot_create_post: Não é possível criar um novo tópico neste momento.
-    access_denied: Não pode fazer isso.
+    access_denied: "Não pode fazer isso."
     admin:
       area: Área do administrador
-      back_to_admin: Volta para Admin
-      back_to_forums: Para fóruns
-      back_to_groups: Voltar para grupos
+      back_to_admin: "Volta para Admin"
+      back_to_forums: "Para fóruns"
+      back_to_groups: "Voltar para grupos"
       forum:
         moderator_groups: Grupos de moderação
         index: Gerir fóruns
@@ -37,14 +37,14 @@ pt-PT:
           none: Nenhum
           moderators: Moderadores
           no_category: (Sem categoria)
-        default_private: Fórum privado
-        default_public: Fórum público
-        default_private_description: Fórum reservado para os participantes do grupo
-        default_public_description: Fórum visível para todos os usuários de Airesis. Também os utilizadores que não estão no grupo
+        default_private: "Fórum privado"
+        default_public: "Fórum público"
+        default_private_description: "Fórum reservado para os participantes do grupo"
+        default_public_description: "Fórum visível para todos os usuários de Airesis. Também os utilizadores que não estão no grupo"
       category:
         index: Gerir categorias de fórum
         new: Criando uma nova categoria do fórum
-        edit: 'Edição da categoria %{title}'
+        edit: "Edição da categoria %{title}"
         new_link: Nova categoria do fórum
         deleted: A categoria de Fórum selecionada foi excluída
         created: Esta categoria de fórum foi criada
@@ -56,27 +56,27 @@ pt-PT:
         delete: Excluir
         category: Categoria
         delete_confirm: Tem a certeza que deseja excluir esta categoria do fórum?
-        default_private: Secção privada
-        default_public: Secção pública
+        default_private: "Secção privada"
+        default_public: "Secção pública"
     common:
       pages: Páginas
     errors:
       not_signed_in: Antes, deve fazer o login
       access_denied: Acesso não permitido.
     forum:
-      header: 'Visualizando %{title}'
+      header: "Visualizando %{title}"
       forums: Fórums
       new: Criando um novo fórum
-      edit: 'Edição do fórum %{title}'
+      edit: "Edição do fórum %{title}"
       topics_count:
         one: 1 tópico
-        other: '%{count} tópicos'
+        other: "%{count} tópicos"
       posts_count:
         one: 1 post
-        other: '%{count} posts'
-      moderator_tools: Ferramentas de moderação
-      topic_tools: Ferramentas do tópico
-      admin_tools: Ferramentas de administração
+        other: "%{count} posts"
+      moderator_tools: "Ferramentas de moderação"
+      topic_tools: "Ferramentas do tópico"
+      admin_tools: "Ferramentas de administração"
     forums:
       index:
         title: Fórum
@@ -114,14 +114,14 @@ pt-PT:
         edit: Editar tópico
       not_found: O tópico que você está procurando não pôde ser encontrado
       hidden:
-        "true": Este tópico está agora escondido
-        "false": Este tópico é agora visível
+        'true': Este tópico está agora escondido
+        'false': Este tópico é agora visível
       locked:
-        "true": Este tópico está agora bloqueado
-        "false": Este tópico está agora desbloqueado
+        'true': Este tópico está agora bloqueado
+        'false': Este tópico está agora desbloqueado
       pinned:
-        "true": Este tópico está agora fixo
-        "false": Este tópico está agora desfixado
+        'true': Este tópico está agora fixo
+        'false': Este tópico está agora desfixado
     topics:
       show:
         reply: Responder
@@ -131,15 +131,15 @@ pt-PT:
         reply_to_topic: Responder no Tópico
         pending_review: Este tópico está atualmente pendente de revisão. Somente o utilizador que o criou e moderadores podem visualizá-lo.
         hide:
-          "true": Mostrar este tópico
-          "false": Esconder este tópico
+          'true': Mostrar este tópico
+          'false': Esconder este tópico
         lock:
-          "true": Desbloquear este tópico
-          "false": Bloquear este tópico
+          'true': Desbloquear este tópico
+          'false': Bloquear este tópico
         pin:
-          "true": Desafixar este tópico
-          "false": Fixar este tópico
-        related_proposals: Propostas relacionadas
+          'true': Desafixar este tópico
+          'false': Fixar este tópico
+        related_proposals: "Propostas relacionadas"
     post:
       buttons:
         reply: Postar resposta
@@ -164,7 +164,7 @@ pt-PT:
         in_reply_to: em resposta a
     moderation:
       index:
-        title: 'Ferramentas de moderação para %{forum}'
+        title: "Ferramentas de moderação para %{forum}"
   helpers:
     submit:
       frm_forum:
@@ -194,15 +194,15 @@ pt-PT:
         name: Nome
       post:
         text: Texto
-  time_ago_in_words: '%{time} atrás'
-  ago: ' Há'
-  ago_by: ' Há por'
+  time_ago_in_words: "%{time} atrás"
+  ago: " Há"
+  ago_by: " Há por"
   by: por
-  started_by: 'Iniciado por '
+  started_by: "Iniciado por "
   are_you_sure: Tem a certeza?
-  lst_post: Último post
-  last_post: Último tópico
-  back_to_forums: Voltar para Fórum
+  lst_post: "Último post"
+  last_post: "Último tópico"
+  back_to_forums: "Voltar para Fórum"
   pages:
     forum_groups:
       index:
