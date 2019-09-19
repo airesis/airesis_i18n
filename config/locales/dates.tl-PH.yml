@@ -1,0 +1,163 @@
+tl-PH:
+  countdowns:
+    labelsPlural:
+      - Ang taon
+      - Ang mga buwan
+      - Ang Mga linggo
+      - Ang mga araw
+      - Ang mga oras
+      - Ang mga minuto
+      - Ang mga segundo
+    labelsSingular:
+      - Ang Taon
+      - Ang Buwan
+      - Ang Linggo
+      - Ang Araw
+      - Ang Oras
+      - Ang Minuto
+      - Ang Segundo
+    compactLabelsPlural:
+      - 't'
+      - 'b'
+      - 'l'
+      - 'a'
+    compactLabelsSingular:
+      - 't'
+      - 'b'
+      - 'l'
+      - 'a'
+  calendar:
+    monthNames:
+      - Enero
+      - Pebrero
+      - Marso
+      - Abril
+      - Mayo
+      - Hunyo
+      - Hulyo
+      - Agosto
+      - Septyembre
+      - Oktubre
+      - Nobyembre
+      - Disyembre
+    monthNamesShort:
+      - Jan
+      - Feb
+      - Mar
+      - Apr
+      - Mayo
+      - Jun
+      - Jul
+      - Aug
+      - Sep
+      - Oct
+      - Nov
+      - Dec
+    dayNames:
+      - Linggo
+      - Lunes
+      - Martes
+      - Miyerkules
+      - Huwebes
+      - Biyernes
+      - Sabado
+    dayNamesShort:
+      - Sun
+      - Mon
+      - Tue
+      - Wed
+      - Thu
+      - Fri
+      - Sat
+    today: 'ngayong araw'
+    month: 'buwan'
+    week: 'linggo'
+    day: 'araw'
+    firstDay: 0
+    timeFormat: 'h:mm TT{ - [ddd][dd] h:mm TT}'
+    changed: 'Nabago!'
+    eventsFormat: 'h(:mm)t'
+  date:
+    formats:
+      short: "%b %d"
+      long: "%d %B %Y"
+  time:
+    formats:
+      default: "%d %b %Y at %I:%M %p"
+      long: "%A %d %B %Y sa %I:%M %p"
+      long_date: "%A %d %B %Y"
+      long_date_time: "%A %d %B %Y sa %I:%M %p"
+      from_long_date_time: "Mula %A %d %B %Y at %I:%M %p"
+      until_long_date_time: "Para %A %d %B %Y at %I:%M %p"
+      from_long_date: "Mula %A %d %B %Y"
+      until_long_date: "Para %A %d %B %Y"
+      short: "%d %b %Y"
+      two_rows: "%d %b %Y <br/> %I:%M %p"
+      weekday: "%a at %I:%M %p"
+      month: "%B"
+      dayandmonth: "%d/%m"
+      hour: "%I:%M %p"
+      yesterday_at: "kahapon sa %I:%M %p"
+      textfield: "%d/%m/%Y %I:%M %p"
+      datepicker: "%Y-%m-%d"
+      datetimepicker: "%Y-%m-%d %H:%M"
+    am: "am"
+    pm: "pm"
+    left:
+      seconds:
+        one: "Ang 1 segundo"
+        other: "%{count} mga segundo"
+      minutes:
+        one: "1 minuto"
+        other: "%{count} mga minuto"
+      hours:
+        one: "1 oras"
+        other: "%{count} mga oras"
+      days:
+        one: "1 araw"
+        other: "%{count} mga araw"
+      months:
+        one: "1 buwan"
+        other: "%{count} mga buwan"
+  datetime:
+    added_on: "sa %{date}"
+    distance_in_words:
+      about_x_hours:
+        one: mga 1 oras ang nakalipas
+        other: mga %{count} oras na nakalipas
+      about_x_months:
+        one: mga 1 buwang ang nakalipas
+        other: mga %{count} buwan na nakalipas
+      about_x_years:
+        one: mga 1 taon ang nakalipas
+        other: mga %{count} mga taon na lumipas
+      almost_x_years:
+        one: halos 1 taon ang lumpisa
+        other: halos %{count} mga tapon na lumipas
+      half_a_minute: kalahating minuto ang nakalipas
+      less_than_x_minutes:
+        one: mababa sa 1 minuto ang nakalipas
+        other: mababa sa %{count} minuto ang nakalipas
+      less_than_x_seconds:
+        one: mababa sa 1 segundo ang nakalipas
+        other: mababa sa %{count} segundo ang nakalipas
+      over_x_years:
+        one: higit sa 1 taong ang lumpisa
+        other: higit sa %{count} taon ang lumpisa
+      x_days:
+        one: 1 araw na nakalipas
+        other: ! '%{count} mga araw na lumipas'
+      x_minutes:
+        one: 1 minuto ang lumpis
+        other: ! '%{count} mga minuto na lumipas'
+      x_months:
+        one: 1 buwan ang lumipas
+        other: ! '%{count} mga buwan na lumipas'
+      x_seconds:
+        one: "1 segundo ang lumipas"
+        other: ! '%{count} mga sigundo na lumipas'
+  label:
+    from: "galing kay"
+    to: "para"
+  countdown: "{m<}{mn} {ml} nakalipas{m>}ngayon lang{s>}"
+  countdown2: "{y<}{yn} {yl}{y>} {o<}{on} {ol}{o>} {d<}{dn} {dl}{d>} {h<}{hn} {hl}{h>} {m<}{mn} {ml}{m>} {s<}mga ilang segundo{s>}"
