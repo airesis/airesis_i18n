@@ -1,0 +1,214 @@
+tr-TR:
+  pages:
+    proposals:
+      edit:
+        add_solution:
+          standard: "Başka bir çözüm ekle"
+          poll: "Başka bir seçenek ekle"
+          rule_book: "Başka bir çözüm ekle"
+          press: "Başka bir çözüm ekle"
+          event: "Başka bir çözüm ekle"
+          estimate: "Başka bir çözüm ekle"
+          agenda: "Başka bir seçenek ekle"
+          candidates: "Başka bir aday ekle"
+          simple: "Başka bir çözüm ekle"
+        solution_title:
+          standard: "Çözüm"
+          poll: "Seçenek"
+          rule_book: "Çözüm"
+          press: "Çözüm"
+          event: "Çözüm"
+          estimate: "Çözüm"
+          agenda: "Nokta"
+          candidates: "Aday"
+          simple: "Çözüm"
+        insert_title:
+          standard: "Başlık ekle"
+          poll: "Başlık ekle"
+          rule_book: "Başlık ekle"
+          press: "Başlık ekle"
+          event: "Başlık ekle"
+          estimate: "Başlık ekle"
+          agenda: "Başlık ekle"
+          candidates: "Ad ve soyad ekle"
+          simple: "Başlık ekle"
+        new_solution_title:
+          standard: "Çözüm<span class=\"num\">%{num}</span>"
+          poll: "Seçenek<span class=\"num\">%{num}</span>"
+          rule_book: "Çözüm<span class=\"num\">%{num}</span>"
+          press: "Çözüm<span class=\"num\">%{num}</span>"
+          event: "Çözüm<span class=\"num\">%{num}</span>"
+          estimate: "Çözüm<span class=\"num\">%{num}</span>"
+          agenda: "<span class=\"num\">%{num}</span>Nokta"
+          candidates: "Aday<span class=\"num\">%{num}</span>"
+          simple: "Çözüm<span class=\"num\">%{num}</span>"
+      new:
+        standard:
+          problems_title: "Sorunlar"
+          problems_question: "Hedefe ulaşmak için çözülmesi gereken sorunlar veya aşılması gereken engeller nelerdir?"
+          problems_title_label: "Hedefe ulaşmak için çözülmesi gereken sorunlar veya aşılması gereken engeller nelerdir?"
+          objectives_title: "Hedefler"
+          step_4_title: "Teklifin bir metin girin ya da daha sonra yazmak girişine dayalı can aldı "
+          solution:
+            description: "Çözümün açıklaması"
+            time: "Vakitler"
+            subject: "Gözetmen"
+            resources: "Gerekli kaynak ve onları almak için nasıl "
+            aspects: "Etik, çevre, sosyal yönleri"
+            documents: "Belgeleme"
+            pros: "Artılar"
+            cons: "Eksiler"
+            title: "Çözüm 1"
+          suggestion_html: |
+            <div> <b> Örnek: </b> </div>
+            <div> Sulamada içme suyunun kullanımını azaltın. </div>
+            <div> Kamu parklarını ve özel bahçeleri sulamak için içme suyunun kullanılması israftır ve bazı ilgili masraflara sahiptir. Bunun dışında su kemeri sağlayan akifer zarar görmektedir</div>
+          paragraph:
+            similar: "Benzer deneyimler"
+            stakeholders: "Hissedar paydaş"
+            requirements: "Çözüm gereksinimleri"
+          question:
+            paragraph:
+              similar: " \nHedefi kazanmak için ilham verecek deneyimler var mı?\nHalihazırda uygulanan olası çözümler / girişimler arasında hangilerinin en iyi sonucu aldığı hangilerinin en kötü sonuçlara vardı? Niye ya ?\n"
+              stakeholders: "Hedef ve önerilen çözümlerin elde edilmesinden sağlanan fayda ve dezavantajları kim elde eder? Bu konularda bu önerinin tartışması yerinde midir? Ne gibi?"
+              requirements: "Ne ideal çözüm saygı gereken özellikleri nelerdir? Hem teknik gereksinimleri için ifade edilebilir değerler ve ilkeler olmak "
+            solution:
+              description: "Uygulamada, hedefe ulaşmak için atılması önerilen çözüm hakkında bilgi verin."
+              time: "Bu çözüm ne zaman uygulanacak? Uygulamanın olası aşamalarını belirleyin."
+              subject: "Çözümü kim uygulayacak veya ayarlayacak? Uygulama halinde, çözümün sonuçları nasıl izlenip doğrulanabilir?"
+              resources: "Bu çözümü uygulamak için fonlar, gönüllüler, araçlar ve becerilere ihtiyaç var mı? Onları listeleyin ve ölçün. Bu kaynaklar nasıl bulunacak?"
+              aspects: "Bu çözüm, ele alınan grubun veya topluluğun etik gereksinimlerini karşılıyor mu? Sosyal ve çevresel etkisi nedir?"
+              documents: "Çözüm için dokümantasyon var mı?"
+              pros: "Bu çözümün başlıca avantajlarını ve güçlü yönlerini listeleyin ve özetleyin. Avantajların menfaat sahiplerini belirtin."
+              cons: "Bu çözümün temel sorunlarını ve dezavantajlarını listeleyip özetleyin. Dezavantajların paydaşlarını belirtin."
+        rule_book:
+          problems_title: "Sorunlar"
+          problems_title_label: "Bu yönetmeliğin uygulanması ile çözülmesi gereken sorunlar nelerdir? Düzenlenecek konular nelerdir? Neden?"
+          problems_question: "Bu yönetmeliğin uygulanması ile çözülmesi gereken sorunlar nelerdir? Düzenlenecek konular nelerdir? Neden?"
+          suggestion_html: |
+            <div><b> Örnek: </b> </div>
+            <div> Aziz Peter'in koridorunu rezerve etmek için kural kitabı </div>
+            <div> Günümüzde, Silverham kasabasında sadece Belediye Başkanı'nın öğrencileri tarafından kullanılan bir konferans odası bulunmaktadır. Halka açık etkinlikler için tüm vatandaşlara ve kamu kuruluşlarına oda ayırma hakkı vermek üzere tarafsız bir prosedür seçmenin zamanı geldi. </div>
+          solution:
+            title: "Çözüm 1"
+            article: "Makale%{num}"
+            pros: "Artılar"
+            cons: "Eksiler"
+          paragraph:
+            inspire: "Ilham kaynağı olacak tüzük"
+            requirements: "Karşılanması gereken şartlar"
+            stakeholders: "Paydaş"
+          question:
+            paragraph:
+              inspire: "İlham aldığı benzer düzenlemeler var mı? Benzer kuralların deneyimlerinden hangileri en iyi sonuçlara ulaşmış, hangileri en kötü sonuçlara varmış? Neden?"
+              requirements: "Yönetmeliğin dikkate alınması gereken başlıca kısıtlamaları nelerdir? Gözlemlenecek değerler ve ilkeler nelerdir? Yönetmeliğin uygulanmasının maliyeti ne olacak? Bunu yapmak için hangi konular öğretilecek?"
+              stakeholders: "Yönetmeliğin uygulanmasından en çok kim etkilenir? Sonuçlardan kim kötü etkilenecek? Bu konular teklifin tartışmasında geçti mi? Nasıl?"
+            solution:
+              article: "İlk yazının metnini, yorumunun benzersiz görünmesini sağlayarak girin. Yanlış anlamaya müsait terimlerin veya ifadelerin bir tanımlarını ekleyin."
+              pros: "Bu çözümün başlıca avantajlarını ve güçlü yönlerini listeleyin ve özetleyin. Avantajların menfaat sahiplerini belirtin."
+              cons: "Bu çözümün temel sorunlarını ve dezavantajlarını listeleyip özetleyin. Dezavantajların paydaşlarını belirtin."
+        press:
+          problems_title_label: "İletmek istediğiniz mesaj nedir? Düzgün anlaşılması ve akışı için beklenen engeller neler? Kopyalamak istediğiniz veya ayarlama yapmak istediğiniz son haberler var mı?"
+          problems_title: "İletilecek mesaj"
+          problems_question: "İletmek istediğiniz mesaj nedir? Düzgün anlaşılması ve akışı için beklenen engeller neler? Kopyalamak istediğiniz veya ayarlama yapmak istediğiniz son haberler var mı?"
+          suggestion_html: |
+            <div><b>Örnek:</b></div>
+            <div>Airesis'in 3.5 sürümünün reklamını duyurun.</div>
+            <div>Kamu İdareleri için önemli özellikler getiren Airesis'in 3.5 sürümünün reklamını yayınlamamız gerekiyor. Airesis'in Beyaz Saray'da kullanımıyla ilgili söylentileri göz önüne alındığında, Airesis'in ne olduğunu açıklamak ve basının ilgisini çekici hale getirmek gerekiyor.</div>
+          solution:
+            title: "Çözüm 1"
+            maintitle: "Başlık"
+            subtitle: "Alt Yazı"
+            incipit: "Başlıyor"
+            body: "Gövde"
+            conclusion: "Sonuçlar"
+            deep: "Görüşler"
+          paragraph:
+            target: "Alıcılar / Hedef"
+          question:
+            paragraph:
+              target: "Makale / basın bülteninin hedefleri kimlerdir? İletinin hangi yönlerini kendileri için en ilginç olan iletmek istiyorsunuz?"
+            solution:
+              maintitle: "Makale / basın bülteninin mesajını birkaç kelimeyle nasıl özetleyebilirsiniz?"
+              subtitle: "Özetle, makaledeki kilit kavramı veya başlıkta yer alan ek bilgileri belirtiniz."
+              incipit: "Kimin neyi, ne zaman, nerede ve niçin yaptığını bir kaç kelime ile belirtin, bu durumun ne ile alakalı olduğunu vurgulayın."
+              body: "Gerçeği daha detaylı fakat sentetik şekilde açıklayın. Kısa ve anlamlı cümleler yazın."
+              conclusion: "Okuyucuya öneriler sunmak için teklifler var mı? Olgunun olası gelişimleri veya etkileri ne olabilir?"
+              deep: "Haberleri derinleştirmek isteyenler için bağlantıları, kişileri veya ek bilgileri ekleyin."
+        estimate:
+          problems_title_label: "Hangi mal veya hizmetleri satın almak istiyorsunuz? Hangi problemleri çözmek için kullanacaksınız?"
+          problems_title: "Sorunlar"
+          problems_question: "Hangi mal veya hizmetleri satın almak istiyorsunuz? Hangi problemleri çözmek için kullanacaksınız?"
+          suggestion_html: |
+            <div><b>Örnek:</b></div>
+            <div>Birliğin merkezindeki termik santralin değiştirilmesi.</div>
+            <div>Eski kazanın bozulması nedeniyle bizim mahallemiz kış aylarında verimini kaybediyor. Kazanı tamir etmenin mümkün olmadığını göz önüne alındığında eski termih santrali daha az enerji harcayan yenisiyle değiştiremiz gerekiyor.</div>
+          solution:
+            title: "Çözüm 1"
+            cost: "Miktar"
+            problems: "Kısıtlamaların ve sorunların dikkate alınması"
+            dumentation: "Dökümanlar"
+          paragraph:
+            technical_constrains: "Teknik kısıtlamalar"
+            temporal_constrains: "Geçici kısıtlamalar"
+            other_constrains: "Çevresel, etik ve düzenleyici kısıtlamalar"
+            budget: "Maksimum bütçe"
+            recipient_budget: "Teklif talebinin alıcıları"
+        agenda:
+          problems_title: "Toplantı türü"
+          suggestion_html: |
+            <div><b>Örnek:</b></div>
+            <div>Toplantımız için bir gündem seç.</div>
+            <div>Olağan bir işbirliği toplantısı, Italyanın biyolojik ziraati için yerel komütelerle tecrübe paylaşımı için toplandı.</div>
+          solution:
+            title: "Öğe"
+            priorities: "Öğe önceliği"
+            links: "Görüş bağlantıları"
+            description: "Açıklama"
+            estimated_time: "Gerekli tartışma süresi"
+          paragraph:
+            date_time: "Tarih ve zaman"
+            place: "Yer"
+        event:
+          problems_title: "Etkinlik kapsamı"
+          problems_title_label: "Neden bir etkinlik düzenlemek istiyorsun? Amaçlanan nedir?"
+          problems_question: "Neden bir etkinlik düzenlemek istiyorsun? Amaçlanan nedir?"
+          suggestion_html: |
+            <div> <b> Örnek: </b> </div>
+            <div> Düşük maliyetli bir rock konseri düzenleyin. </div>
+            <div> Kasabamızda, alan eksikliği yüzünden kendini göstermek isteyen ve yeteneklerini geliştiren pek çok genç grup var. Buna ek olarak, kaynak yetersizliğinden dolayı önümüzdeki yaz için Belediyemiz tarafından teşvik edilen olaylar da az. </div>
+          solution:
+            title: "Çözüm 1"
+            maintitle: "Başlık"
+            description: "Çözümün açıklaması"
+            program: "Tarih, zaman ve plan"
+            body: "yer"
+            place: "Yer"
+            organization: "Etkinlik organizasyonu"
+            resources: "Gerekli kaynaklar ve olnları almak için gerekenler"
+            pros: "Artıları"
+            cons: "Eksileri"
+          paragraph:
+            similar_experiences: "Benzer deneyimler"
+            stakeholders: "Paydaşlar (katılımcı insanlar)"
+            desired_characteristics: "İstenen özellikler"
+        candidates:
+          solution:
+            name: "Aday Adı ve Soyadı"
+            data: "Kişisel veri"
+            curriculum: "Müfredat"
+          paragraph:
+            election_type: "Seçim türünün açıklaması:"
+        simple:
+          problems_title: "Sorun"
+          problems_title_label: "Çözülmesi gereken problem ve/veya hedefe ulaşmak için üstesinden gelinmesi gereken engeller nelerdir?"
+          problems_question: "Çözülmesi gereken problem ve/veya hedefe ulaşmak için üstesinden gelinmesi gereken engeller nelerdir?"
+          solution:
+            description: "Açıklama"
+            title: "Çözüm 1"
+        petition:
+          paragraph:
+            text: "Dilekçe metni"
+          question:
+            paragraph:
+              text: "Dilekçenin metni"
