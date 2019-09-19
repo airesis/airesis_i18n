@@ -1,5 +1,7 @@
 files:
   - source: /config/locales/*.en-EU.yml
     translation: /config/locales/%file_name%.%locale%.yml
+    translation_replace:
+      ".en-EU": ""
   - source: /config/locales/en-EU.yml
     translation: /config/locales/%locale%.yml
