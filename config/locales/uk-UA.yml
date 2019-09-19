@@ -1,0 +1,12 @@
+uk-UA:
+  unauthorized:
+    default: "У Вас немає необхідного дозволу це зробити"
+    create:
+      group: "Ви не можете створити більше однієї групи на день"
+  permissions_required: "Ви не маєте права виконати цю дію"
+  pages:
+    top_panel:
+      facebook_login: 'Увійти через Facebook'
+    header:
+      groups_title: "ГРУПИ"
+      support_us: "ПІДТРИМАЙТЕ НАС"
