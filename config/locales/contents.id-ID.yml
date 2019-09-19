@@ -1,10 +1,10 @@
 id-ID:
   home:
     intro:
-      title: Jejaring sosial pertama untuk Demokrasi Virtual di dunia
-      description: Alat demokrasi langsung yang dibuat untuk memutuskan dan mengambil tindakan secara kolektif atas proposal dan ide yang dihasilkan di mana pun untuk tema apa pun.
+      title: "Jejaring sosial pertama untuk Demokrasi Virtual di dunia"
+      description: "Alat demokrasi langsung yang dibuat untuk memutuskan dan mengambil tindakan secara kolektif atas proposal dan ide yang dihasilkan di mana pun untuk tema apa pun."
       paragraph_1:
-        title: Jejaring Sosial untuk Demokrasi Virtual
+        title: "Jejaring Sosial untuk Demokrasi Virtual"
         content_html: |
           <p>Airesis adalah <a href="http://en.wikipedia.org/wiki/Free_software">platform perangkat lunak gratis</a>, yang dibuat oleh satu tim pengembang dari Italia dan kontributor, untuk memungkinkan masyarakat dan grup untuk mengatur diri mereka dengan cara yang produktif menurut prinsip partisipasi dan <a href="http://en.wikipedia.org/wiki/Direct_democracy" target="_blank">demokrasi langsung</a>.</p>
 
@@ -16,7 +16,7 @@ id-ID:
           Pengembangan filsafatnya fokus pada peningkatan berkesinambungan, semacam proses evolusioner yang berdasarkan atas masukan pengguna.
           Tim pengembang tersedia untuk memenuhi kebutuhan masyarakat yang ingin menggunakan perangkat lunak ini sesuai dengan semangat demokrasi langsung.</p>
       paragraph_3:
-        title: Prinsip-prinsip dan nilai-nilai dasar
+        title: "Prinsip-prinsip dan nilai-nilai dasar"
         content_html: |
           <p>Airesis adalah perangkat pembuat keputusan sumber terbuka untuk demokrasi virtual, sangat berorientasi kepada penyelesaian masalah dan dirancang untuk memaksimalkan kekuatan evolusioner yang sangat besar dari <a heref="http://en.wikipedia.org/wiki/Collective_intelligence" target="_blank">kecerdasan kolektif</a>.</p>
           <p>Seluruhnya dikembangkan oleh relawan dengan prinsip nirlaba, Airesis dibuat untuk mengambil keputusan yang lebih cepat, berwawasan, bersama, dan partisipatif.<br/>
@@ -42,7 +42,7 @@ id-ID:
           <li><strong>Fleksibilitas</strong><br/>
           Setiap kelompok memiliki kebutuhan sendiri, setiap proposal berbeda dari yang lain, setiap pengguna memiliki kebutuhan sendiri.</li>
       paragraph_4:
-        title: 'Tujuan kami: demokrasi langsung dan partisipatif'
+        title: "Tujuan kami: demokrasi langsung dan partisipatif"
         content_html: |
           <p>Dibuat sebagai jejaring sosial, Airesis memungkinkan pengguna untuk mengajak orang lain berdasarkan minat mereka dan memanfaatkan kualitas masing-masing untuk memusyawarahkan jenis proposal apa pun.
           Arsitektur dan nilai-nilai dasarnya memungkinkan platform ini untuk mencapai tujuan sosial dan debat membangun tentang masalah-masalah yang mungkin melibatkan wilayah, promosi sosial, kebijakan sektor, dan alhasil, memunculkan ide-ide terbaik.</p>
@@ -59,7 +59,7 @@ id-ID:
           </ul>
           </p>
       paragraph_5:
-        title: Karakteristik dan fitur
+        title: "Karakteristik dan fitur"
         content_html: |
           <p>Tim pengembangan Airesis membuat semua fungsi dan perangkat <strong>sesuai dengan kebutuhan grup</strong> yang mengambil manfaat dari platform ini.
           Grup pengembang yang sama ada di Airesis dan memutuskan implementasi yang akan diterapkan <strong>secara mufakat</strong>.</p>
@@ -67,7 +67,7 @@ id-ID:
           Baik di dalam grup mau pun di tempat terbuka, Anda dapat mempublikasikan inisiatif/proposal, <strong>mengevaluasi mereka</strong>, menyunting <strong>ikhtisari</strong> bersama, kemudian <strong>melakukan voting</strong>. Dalam konteks yang sama, Anda dapat membuat kegiatan mengenai <strong>rapat</strong> dan <strong>voting</strong>.
           </p>
       paragraph_6:
-        title: Fitur-fitur dasar
+        title: "Fitur-fitur dasar"
         content_html: |
           <ul>
           <li><strong>Mendaftar dan login</strong> <br>
@@ -94,7 +94,7 @@ id-ID:
           <li><strong>Aplikasi Ponsel</strong></li>
           </ul>
       paragraph_7:
-        title: Perangkat debat dan proposal
+        title: "Perangkat debat dan proposal"
         content_html: |
           <p>Inti perangkat lunak ini fokus kepada <strong>perangkat musyawarah</strong> yang memungkinkan Anda untuk berpartisipasi dalam membuat draf proposal, membuat tujuan bersama, berkontribusi untuk mencari solusi alternatif dan membawa hasilnya untuk voting agar proposal tersebut dapat menerima mufakat terbaik dan solusi paling bersama dapat dihasilkan.</p>
           <p>Prosesnya melibatkan tiga langkah:</p>
@@ -130,7 +130,7 @@ id-ID:
           <li>menggunakan <strong>label gratis</strong> yang dapat dimasukkan ke teks proposal.</li>
           </ul>
       paragraph_8:
-        title: Metode voting Schulze dan Demokrasi Langsung
+        title: "Metode voting Schulze dan Demokrasi Langsung"
         content_html: |
           <p>Ketika periode waktu yang ditetapkan untuk debat berakhir dan jumlah orang menyetujui maturitas proposal sudah cukup (kondisi-kondisi ini beragam, tergantung pada kuorum debat), proposal masuk ke <strong>tahap voting</strong>.</p>
           <p>Saat ini, proposal itu <strong>dibekukan</strong> dan penyunting harus <strong>memilih jangka waktu</strong> bagi grup untuk memberi voting terhadap proposal itu.
@@ -138,7 +138,7 @@ id-ID:
           <p>Pada waktu voting, notifikasi baru dikirim yang menampilkan proposal yang harus diberi voting dan halaman tempat voting terjadi. Saat ini, setiap peserta, setelah membaca proposal dan daftar kemungkinan solusinya, dapat memberi pilihannya <strong>yang mengurutkan</strong> solusi-solusi ini dari yang paling disukai ke yang paling tidak disukai, sehingga memungkinkan proses <a href="http://it.wikipedia.org/wiki/Metodo_Schulze" target="blank">Metode Schulze</a> untuk mengetahui solusi yang dipilih grup.</p>
           <p>Di akhir voting, proposal itu beralih ke status <strong>"telah divoting"</strong>, yang memungkinkan untuk memeriksa hasil voting itu kapan saja.</p>
       paragraph_9:
-        title: Promosi Demokrasi Partisipatoris dan proposal bersama
+        title: "Promosi Demokrasi Partisipatoris dan proposal bersama"
         content_html: |
           <p>Airesis dikembangkan untuk berbagi ide-ide dan pendapat-pendapat dalam masyarakat. Untuk mencapainya, platform ini menawarkan berbagai perangkat:</p>
           <ul>
@@ -163,7 +163,7 @@ id-ID:
           </li>
           </ul>
       paragraph_10:
-        title: Anonimitas temporer, pemungutan suara rahasia, dan voting yang dapat diaudit
+        title: "Anonimitas temporer, pemungutan suara rahasia, dan voting yang dapat diaudit"
         content_html: |
           <p>Salah satu keunikan Airesis adalah <strong>grup dapat memilih apakah debat bersifat anonim atau tidak</strong>.</p>
 
@@ -178,15 +178,52 @@ id-ID:
           Ini dapat dilakukan melalui sistem voting yang dapat diaudit yang diterapkan oleh Airesis .
           </p>
       paragraph_11:
-        title: Grup pengelola dan peran pengguna
+        title: "Grup pengelola dan peran pengguna"
+        content_html: |
+          <p> Airesis menerapkan sistem yang fleksibel untuk mengelola <strong> perizinan </strong> yang dapat dilakukan anggota manapun
+          ada di dalam grup sehingga kami dapat mengalokasikan <strong> peran </strong> berikut: </p>
+          <ul>
+          <li> Lihat proposal pribadi </ li>
+          <li> Berkontribusi pada proposal </li>
+          <li> Masukkan proposal baru dalam grup </li>
+          <li> Terbitkan di Laman Utama grup </li>
+          <li> Buat acara dan suara </li>
+          <li> Proposal pendukung atas nama grup </li>
+          <li> Tambahkan peserta dalam grup </li>
+          <li> Nominasi anggota untuk pemilihan </li>
+          </ul>
+          <p> Airesis memungkinkan kelompok yang menggunakannya untuk memilih
+          <strong> setelan yang paling sesuai dengan kebutuhan </strong> dan peraturan internal mereka. ini
+          Mungkin, misalnya, memungkinkan akses ke fungsi tertentu saja
+          <strong> pengguna aktif dan / atau sertifikat </strong>, atau mereka yang memiliki <strong> peran tertentu </strong>.
+          Ada juga banyak kebebasan mengenai persyaratan manajemen yang harus dipenuhi oleh proposal untuk mengakses pemungutan suara.
+          </p>
+          <p> Fitur penting lainnya adalah pembagian <strong> ke dalam area / kelompok kerja </strong> yang membuatnya
+          mungkin membuat area di dalam kelompok dan berhak memegang setiap area peserta yang akan
+          diskusikan proposal mengenai wilayah tersebut. Setiap peserta akan ditugaskan
+          <strong> peran khusus untuk setiap area </strong> agar alat lebih fleksibel lagi. </p>
+           
+      paragraph_12:
+        title: "Grup"
+        content_html: |
+          Akses ke "Grup" dapat dilakukan dengan menekan 'cari grup' pada menu bagian atas atau kolom kiri dari halaman utama staff.
+          <p>Klik nama grup, buka beranda (presentasi, berita / blog). Di area proposal ditampilkan kelompok yang telah memutuskan untuk membuat publik, dan dapat dilihat internal (proposal dan acara pribadi, Anda harus meminta ke administrator lokal untuk masuk ke grup. </p>
+          <p>Area diusulkan menjadi empat tab ("Dalam Debat","Dalam Vote", "Vote","Tertinggal"), adalah daftar usulan sesuai dengan status mereka. Klik pada judul proposal. Terbuka, tampilah teks dan area kontribusi. Proposal dapat disaring dengan memilih kategori atau tag, untuk hanya menampilkan topik proposal yang Anda minati.</p>
+          <p>Setiap anggota komunitas dapat mempromosikan proposal baru: hanya dengan menekan tombol "Buat proposal baru", dan akan muncul formulir untuk diisi.</p>
+          <p>Dengan mengakses proposal dalam diskusi, anggota komunitas dapat berinteraksi sesuai dengan ketrampilan, keahlian dan pendapat mereka.</p>
+          <h3 id="Spazio_comune">Ruang Terbuka</h3>
+          <p>Klik di "Ruang Terbuka" untuk mengakses area dimaksudkan untuk mengelola proposal yang mungkin untuk kepentingan bersama.</p>
+          <p>Area proposal dari kelompok terlihat mirip dengan kelompok; Hal ini juga tampil "kalender pribadi" yang menampilkan semua acara publik, orang-orang yang paling pribadi yang berkaitan dengan kelompok.</p>
+          <p> Di Ruang Terbuka juga menampilkan tab "kalender", yang menyoroti peristiwa seluruh komunitas (tanda acara, pertemuan, pemungutan suara). Dengan menekan catatan, terbuka sebuah halaman acara dan tergantung pada jenis, Anda dapat berinteraksi dengan itu (contohnya. dengan berpartisipasi di sebuah pemungutan suara atau menandai sinyal kesediaan menghadiri pertemuan).</p>
     whatis:
-      title: Jejaring Sosial Pertama untuk Demokrasi Virtual di Dunia
-      description: Alat demokrasi langsung yang dibuat untuk memutuskan dan mengambil tindakan secara kolektif atas proposal dan ide yang dihasilkan di mana pun untuk tema apa pun.
+      title: "Jejaring Sosial Pertama untuk Demokrasi Virtual di Dunia"
+      description: "Alat demokrasi langsung yang dibuat untuk memutuskan dan mengambil tindakan secara kolektif atas proposal dan ide yang dihasilkan di mana pun untuk tema apa pun."
       paragraph_1:
-        title: Jejaring Sosial untuk Demokrasi Virtual
-        content_html: '<p>Airesis adalah <a href="http://en.wikipedia.org/wiki/Free_software">platform perangkat lunak gratis</a>, yang dibuat oleh satu tim pengembang dari Italia dan kontributor, untuk memungkinkan masyarakat dan grup untuk mengatur diri mereka dengan cara yang produktif menurut prinsip partisipasi dan <a href="http://en.wikipedia.org/wiki/Direct_democracy" target="_blank">demokrasi langsung</a>.</p>'
+        title: "Jejaring Sosial untuk Demokrasi Virtual"
+        content_html: |
+          <p>Airesis adalah <a href="http://en.wikipedia.org/wiki/Free_software">platform perangkat lunak gratis</a>, yang dibuat oleh satu tim pengembang dari Italia dan kontributor, untuk memungkinkan masyarakat dan grup untuk mengatur diri mereka dengan cara yang produktif menurut prinsip partisipasi dan <a href="http://en.wikipedia.org/wiki/Direct_democracy" target="_blank">demokrasi langsung</a>.</p>
       paragraph_2:
-        title: Membuat grup Anda
+        title: "Membuat grup Anda"
         content_html: |
           <p>
           Jika Anda adalah asosiasi, perusahaan, sekolah atau partai, Airesis tentu cocok untuk Anda!<br/>
@@ -195,14 +232,14 @@ id-ID:
           Bacalah dokumen-dokumen kami tentang kebijakan untuk mengetahui cara mengaturnya lebih baik dan dapati betapa mudahnya untuk mengatur grup Anda dengan Airesis dan menyediakan perangkat demokrasi virtual!
           </p>
       paragraph_3:
-        title: Mengatur peserta
+        title: "Mengatur peserta"
         content_html: |
           <p>
           Mekanisme hebat untuk mengatur <strong>peran dan izin</strong> akan memungkinkan Anda memberi bentuk yang Anda pilih untuk grup Anda: mungkin Anda memiliki pengguna yang memiliki izin lebih banyak atau lebih sedikit berdasarkan peran mereka, mengatur peserta secara hierarkis atau memberi hak dan kewajiban yang sama kepada semuanya. </br>
           Inilah sebabnya Airesis sangat cocok untuk kebutuhan <strong>Perusahaan</strong>, serta <strong>Gerakan Demokratis</strong> atau <strong>Asosiasi </strong>.
           </p>
       paragraph_4:
-        title: Mengajukan proposal dan bermusyawarah
+        title: "Mengajukan proposal dan bermusyawarah"
         content_html: |
           <p>
           Inti Airesis adalah proposal: Anda akan memiliki beberapa templat untuk mengajak orang masuk ke grup dan mendengar pendapat mereka. <br/>
@@ -211,7 +248,7 @@ id-ID:
           Saat ini, %{users} pengguna sedang mendiskusikan %{proposals} proposal.
           </p>
       paragraph_5:
-        title: Mengatur kegiatan Anda, meningkatkan partisipasi
+        title: "Mengatur kegiatan Anda, meningkatkan partisipasi"
         content_html: |
           <p>
           Sistem lengkap untuk penjadwalan kegiatan memungkinkan Anda mengatur kegiatan grup Anda dengan lebih baik. <br/>
@@ -219,7 +256,7 @@ id-ID:
           Setiap peserta kemudian dapat menentukan apakah akan berpartisipasi atau tidak, memungkinkan penyelenggara untuk mengatur kegiatan dengan lebih baik.
           </p>
       paragraph_6:
-        title: Arsip dokumen bersama
+        title: "Arsip dokumen bersama"
         content_html: |
           <p>
           Grup Anda akan mendapat Arsip Dokumen yang sangat berguna dan lengkap yang dapat diatur dalam folder dan subfolder untuk menyediakan semua materi yang dibutuhkan kepada semua peserta. <br/>
@@ -227,7 +264,7 @@ id-ID:
           Pengunggahan akan selesai dalam beberapa detik saja! Silakan tanya tim kami tentang cara menambah ruang penyimpanan yang dapat digunakan dan unggah dokumen hingga 1 GB.
           </p>
       paragraph_7:
-        title: Ruang untuk berdiskusi
+        title: "Ruang untuk berdiskusi"
         content_html: |
           <p>
           Ide-ide terbaik datang dari dialog: itulah sebabnya Airesis memutuskan untuk menyediakan forum untuk setiap grup tempat para pengguna dapat bertukar ide, saran atau mengobrol dengan bebas.<br/>
@@ -237,19 +274,19 @@ id-ID:
           Saat ini, sudah ada %{topics} diskusi aktif di Airesis!
           </p>
       paragraph_8:
-        title: Dan lebih banyak lagi
+        title: "Dan lebih banyak lagi"
         content_html: |
           <p>
           Fitur-fitur Airesis bukan hanya ini! <br/>
           Tonton %{intro_page} kami untuk menemukan banyak perangkat dan pilihan yang tersedia untuk grup Anda. <br/>
           Temukan banyak fitur yang akan membantu Anda mengatur grup dan memungkinkan Anda mengaturnya sebaik mungkin: jika ada yang Anda butuhkan, Airesis tentu akan memungkinkan Anda untuk mendapatkannya!
           </p>
-        link: Halaman pengantar
+        link: 'Halaman pengantar'
     press:
-      title: Siaran Pers
+      title: "Siaran Pers"
     roadmap:
       paragraph1:
-        title: 'Tujuan: demokrasi langsung'
+        title: "Tujuan: demokrasi langsung"
         content_html: |
           <p>Airesis terlahir dari penggabungan dua proyek yang dimulai lebih dari dua tahun lalu karena kebutuhan untuk dapat menggunakan platform perangkat lunak yang dapat menggabungkan fitur-fitur utama jejaring sosial, manajemen kegiatan, dan sistem pengambilan keputusan massal.</p>
           <p>Pada bulan Maret 2012, dalam pertemuan "Cittadini a cinque stelle" (Five Stars Citizen) yang diselenggarakan di Rimini, Alessandro Rodi dengan proyek Airesis-nya mengenal Nicola Giulietti dan proyek Agora 2.0: pada satu sisi, merupakan perangkat lunak yang bagus, pada sisi lain, analisis hebat dari fitur-fitur yang seharusnya dimiliki portal untuk demokrasi langsung.</p>
@@ -258,63 +295,54 @@ id-ID:
           <p>Berkat tekad kami, yang awalnya tampak seperti impian akan kebebasan mendapat dukungan banyak orang dan bantuan pemrogram, analis, ahli matematika, desainer grafis, dan warga yang bertanggung jawab.</p>
           <p>Saat ini, peluncuran perangkat lunak dipublikasikan setiap bulan atau setiap dua bulan untuk memenuhi permintaan dan kebutuhan pengguna, untuk menerapkan proses peningkatan yang berkesinambungan.</p>
       paragraph2:
-        title: Evolusi Airesis
+        title: "Evolusi Airesis"
         content_html: |
           <p>Daftar di bawah ini menunjukkan perubahan Airesis selama evolusinya.
           Anda juga dapat menemukan inovasi penting yang direncanakan untuk versi mendatang.
           Sering kunjungi halaman ini jika Anda tertarik untuk mengetahui fitur mana yang sedang dikembangkan dan kembalilah untuk mengunjungi kami!</p>
-      title: Evolusi Airesis
-      description: Perjalanan kami untuk mewujudkan perangkat lunak baru, sebuah ide yang mampu mengembangkan demokrasi yang terwujud di web.
+      title: "Evolusi Airesis"
+      description: "Perjalanan kami untuk mewujudkan perangkat lunak baru, sebuah ide yang mampu mengembangkan demokrasi yang terwujud di web."
     helpus:
-      title: Bantu kami sesuka Anda, siapa pun dapat berkontribusi
-      description: Berkontribusi untuk mewujudkan perangkat yang mampu mengembangkan demokrasi virtual
       paragraph1:
-        title: Kenapa kami meminta Anda mendukung Airesis?
+        title: "Kenapa kami meminta Anda mendukung Airesis?"
         content_html: |
           <p>
           Relawan yang mengerjakan proyek ini menghabiskan banyak waktu untuk menghadirkan perangkat lunak yang berguna untuk masyarakat kita.
           Namun, kerja sukarela dan kerja keras saja tidaklah cukup: uang diperlukan untuk membuat server tetap tersedia untuk umum dan perangkat lunak terbarui, serta eksperimen dengan fitur-fitur baru dan peningkatan yang kami kembangkan. Selain itu, pekerjaan berbayar dibutuhkan untuk perawatan server dan layanan bantuan pengguna.
           </p>
-      paragraph3:
-        title: Cara menyumbang
-        content_html: |
-          <p>Asosiasi untuk Promosi Sosial yang bernama
-          <a href="https://www.facebook.com/tecnologiedemocratiche" target="_blank">Tecnologie Democratiche</a> dibuat untuk mendukung pengembangan Airesis dan kelangsungan proyek ini.
-          Sumbangan Anda akan seluruhnya ditujukan untuk pengembangan dan hosting platform ini.
-          Dukung kami secara finansial untuk mempekerjakan pemrogram senior yang berpengalaman dan untuk perawatan server tempat aplikasi kami:
-          </p>
-          <center>
-          <p>Dengan sumbangan melalui Paypal:</p>
-          </center>
       paragraph4:
-        content_html: '<p><a href="mailto:%{mail}">Hubungi kami</a> untuk informasi lebih lanjut.</p>'
+        content_html: |
+          <p><a href="mailto:%{mail}">Hubungi kami</a> untuk informasi lebih lanjut.</p>
       paragraph5:
-        title: Sebarkan berita tentang proyek ini
+        title: "Sebarkan berita tentang proyek ini"
+      title: "Bantu kami sesuka Anda, siapa pun dapat berkontribusi"
+      description: "Berkontribusi untuk mewujudkan perangkat yang mampu mengembangkan demokrasi virtual"
     linkback:
       paragraph1:
-        title: Bantu kami menyebarkan berita tentang alat demokrasi virtual ini
+        title: "Bantu kami menyebarkan berita tentang alat demokrasi virtual ini"
         content_html: |
           <p>Proyek kami harus diketahui oleh mereka yang peduli tentang masa depan demokrasi.
           Bantu kami menyebarkan beritanya di blog dan forum, Facebook, jejaring sosial, dan di mana pun yang memiliki minta terhadap demokrasi.</p>
           <p>Anda dapat menggunakan tautan atau banner kami di situs milik Anda, teman Anda, asosiasi atau organisasi yang memiliki tujuan yang sama dengan proyek ini.
           Untuk menampilkan banner atau tautan ini di situs Anda, salin kode yang ada di bawah ini dan sisipkan ke halaman kode situs Anda di tempat Anda ingin menampilkannya:</p>
       paragraph2:
-        title: Banner
+        title: "Banner"
       paragraph3:
-        title: Tautan teks
-        content_html: '<p>Jika Anda memilih untuk mempublikasikan banner Anda, itu akan sangat membantu proyek ini. Terima kasih.</p>'
+        title: "Tautan teks"
+        content_html: |
+          <p>Jika Anda memilih untuk mempublikasikan banner Anda, itu akan sangat membantu proyek ini. Terima kasih.</p>
     tags:
-      title: 'Airesis - Buat Keputusan'
-      description: 'Perangkat pembuat keputusan untuk demokrasi langsung dan pemerintah elektronik: berpartisipasi dalam diskusi, membawa ide Anda, mengusulkan solusi, dan voting online'
+      title: "Airesis - Buat Keputusan"
+      description: "Perangkat pembuat keputusan untuk demokrasi langsung dan pemerintah elektronik: berpartisipasi dalam diskusi, membawa ide Anda, mengusulkan solusi, dan voting online"
     engage:
-      title: Berpartisipasi dalam proyek untuk demokrasi baru
-      description: Berkontribusi dalam proyek ini dengan pengalaman Anda, bantu kami membangun demokrasi baru yang lebih transparan dan bersama
+      title: "Berpartisipasi dalam proyek untuk demokrasi baru"
+      description: "Berkontribusi dalam proyek ini dengan pengalaman Anda, bantu kami membangun demokrasi baru yang lebih transparan dan bersama"
       nav:
-        opensource: Sumber Terbuka
-        participate: Berpartisipasi
-        banner: Banner
+        opensource: "Sumber Terbuka"
+        participate: "Berpartisipasi"
+        banner: "Banner"
       paragraph1:
-        title: Airesis terbuka untuk siapa saja
+        title: "Airesis terbuka untuk siapa saja"
         description_html: |
           <p>Airesis adalah sebuah proyek yang berdasarkan pada sebuah perangkat lunak sumber terbuka dan gratis. Anda dapat berkontribusi pada pengembangannya:</p>
           <ul>
@@ -332,14 +360,14 @@ id-ID:
           <li><a href="https://github.com/coorasse/Airesis" target="_blank">Kode sumber</a></li>
           </ul>
       paragraph2:
-        title: Cara berkontribusi
+        title: "Cara berkontribusi"
         description_html: |
           <p>Siapa pun dapat membantu proyek sumber terbuka Airesis: Anda tidak perlu menjadi seorang pemrogram, karena ada banyak kegiatan yang dapat dilakukan.
           Dalam proyek ini, <a href=%{chisiamo}>kami semua adalah relawan yang tidak dibayar</a>, berbagi keinginan untuk membantu warga mengatur dengan transparan dan berpartisipasi dalam pembuatan demokrasi yang terhebat.</p>
           <p>Untuk memberi tahu ketersediaan Anda, isilah <a href="%{form}" target="_blank"><strong>formulir ini</strong></a>, atau hubungi <strong>Nicola Giulietti</strong>&nbsp;- %{email} - nomor ponsel: %{cell} jika ada keraguan atau Anda menginginkan informasi lebih lanjut.</p>
           <p>Inilah daftar relawan yang kami butuhkan:</p>
       developer:
-        title: Pengembang
+        title: "Pengembang"
         description_html: |
           <p>
           Pengembang adalah orang yang menulis kode Airesis. <br/>
@@ -348,7 +376,7 @@ id-ID:
           Pendaftar baru akan dibantu dan dipandu oleh <a href="%{chisiamo}" target="_blank">kepala pemrogram</a> dalam langkah-langkah pertama mereka untuk memulai pekerjaan mereka dengan mudah.
           </p>
       analyst:
-        title: Analis
+        title: "Analis"
         description_html: |
           <p>
           Penghubung antara pengguna dan tim pengembangan. <br/>
@@ -356,7 +384,7 @@ id-ID:
           Memerinci algoritma, serta pro dan kontra dari setiap fitur, dan kemungkinan penggunaannya yang tidak layak.
           </p>
       first_lev_tester:
-        title: Penguji tingkat pertama
+        title: "Penguji tingkat pertama"
         description_html: |
           <p>
           Penguji tingkat pertama adalah orang yang menguji sistem tanpa perlu memberi masukan teknis tentang kode.
@@ -364,34 +392,34 @@ id-ID:
           Masukan dari penguji tingkat pertama adalah tentang kejadian tidak terduga dari sistem dan bug.
           </p>
       sec_lev_tester:
-        title: Penguji tingkat dua
+        title: "Penguji tingkat dua"
         description_html: |
           <p>
           Pengetahuan yang baik tentang pemrograman dibutuhkan untuk menjadi penguji tingkat dua. Penguji tingkat dua diminta melakukan pengujian yang lebih ketat dan mendetail daripada penguji tingkat pertama. Penguji tingkat dua menangani masalah-masalah kompleks dan mampu memaksa seluruh sistem berada di bawah tekanan untuk menemukan masalah-masalah tersembunyi.
           </p>
       graphic:
-        title: Desainer Grafis
+        title: "Desainer Grafis"
         description_html: |
           <p>
           Desainer grafis menggambar antarmuka pengguna dan memberi draf mereka ke grup pengembangan.
           Meningkatkan kegunaan dan kelengkapan teks dalam perangkat lunak (misalnya, panduan pengguna).
           </p>
       recruiter:
-        title: Perekrutan
+        title: "Perekrutan"
         description_html: |
           <p>
           Bertanggung jawab mencari relawan baru yang bersedia membantu proyek ini, penguji, serta kelompok-kelompok yang ada untuk menggunakan perangkat lunak ini untuk kebutuhan mereka.
           Mengajak kelompok-kelompok yang tidak terwakili oleh kelompok pengembangan (wanita, orang-orang yang memiliki kemampuan Informatika yang rendah, dan sebagainya) agar perangkat lunak ini menarik bahkan dan terutama bagi mereka, berdasarkan masukan-masukan mereka.
           </p>
       communication:
-        title: Manajer komunikasi
+        title: "Manajer komunikasi"
         description_html: |
           <p>
           Mengatur kontak pers, mempromosikan perangkat lunak ini, mencari pengguna baru, aspek-aspek teknis, seperti tautan balik dan SEO (Optimasi Mesin Pencari), pemasaran viral (misalnya, membuat proposal yang menarik), video, dan dokumentasi yang informatif.
           Memperbarui jejaring sosial dan media, mewakili juru bicara eksternal.
           </p>
       i18n:
-        title: Internasionalisasi
+        title: "Internasionalisasi"
         description_html: |
           <p>
           Bertanggung jawab atas terjemahan perangkat lunak ini. Menghubungi dan mengoordinasi penerjemah asing.<br/>
