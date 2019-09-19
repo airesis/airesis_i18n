@@ -1,0 +1,210 @@
+pl-PL:
+  pages:
+    proposals:
+      edit:
+        add_solution:
+          standard: "Dodaj inne rozwiązanie"
+          poll: "Dodaj inną opcję"
+          rule_book: "Dodaj inne rozwiązanie"
+          press: "Dodaj inne rozwiązanie"
+          event: "Dodaj inne rozwiązanie"
+          estimate: "Dodaj inne rozwiązanie"
+          agenda: "Dodaj inny punkt"
+          candidates: "Dodaj kolejnego kandydata"
+          simple: "Dodaj inne rozwiązanie"
+        solution_title:
+          standard: "Rozwiązanie"
+          poll: "Opcja"
+          rule_book: "Rozwiązanie"
+          press: "Rozwiązanie"
+          event: "Rozwiązanie"
+          estimate: "Rozwiązanie"
+          agenda: "Puntk"
+          candidates: "Kandydat"
+          simple: "Rozwiązanie"
+        insert_title:
+          standard: "Wstaw tytuł"
+          poll: "Wstaw tytuł"
+          rule_book: "Wstaw tytuł"
+          press: "Wstaw tytuł"
+          event: "Wstaw tytuł"
+          estimate: "Wstaw tytuł"
+          agenda: "Wstaw tytuł"
+          candidates: "Wstaw imię i nazwisko"
+          simple: "Wstaw tytuł"
+        new_solution_title:
+          standard: "Rozwiązanie <span class=\"num\">%{num}</span>:"
+          poll: "Opcja <span class=\"num\">%{num}</span>:"
+          rule_book: "Rozwiązanie <span class=\"num\">%{num}</span>:"
+          press: "Rozwiązanie <span class=\"num\">%{num}</span>:"
+          event: "Rozwiązanie <span class=\"num\">%{num}</span>:"
+          estimate: "Rozwiązanie <span class=\"num\">%{num}</span>:"
+          agenda: "<span class=\"num\">%{num}</span> punkt:"
+          candidates: "Kandydat <span class=\"num\">%{num}</span>:"
+          simple: "Rozwiązanie <span class=\"num\">%{num}</span>:"
+      new:
+        standard:
+          problems_title: "Problemy"
+          problems_question: "Co jest problemem i/lub jakie są przeciwności w osiągnięciu celu?"
+          problems_title_label: "Co jest problemem i/lub jakie są przeciwności w osiągnięciu celu?"
+          objectives_title: "Cele"
+          step_4_title: "Możesz wejść w tekst propozycji lub napisać go później bazując na otrzymanych wynikach"
+          solution:
+            description: "Opis rozwiązania"
+            time: "Czas"
+            subject: "Nadzorca"
+            resources: "Potrzebne środki i jak je otrzymać"
+            aspects: "Etyczne, środowiskowe, aspekty socjalne"
+            documents: "Dokumentacja"
+            pros: "Zalety"
+            cons: "Wady"
+            title: "Rozwiązanie 1"
+          suggestion_html: |
+            <div>Przykład:</b></div>
+            <div>Zmniejszyć zużycie wody pitnej dla nawadniania.</div>
+            <div>Użycie pitnej wody by podlewać publiczne parki i prywatne ogrody to marnotrawstwo i ma duże koszty. Ponadto zmniejsza się warstwa wodonośna, która zasila akwedukt</div>
+          paragraph:
+            similar: "Podobne doświadczenia"
+            stakeholders: "Udziałowcy"
+            requirements: "Wymagania rozwiązania"
+          question:
+            paragraph:
+              similar: "Czy istnieją doświadczenia mogące zainspirować do osiągnięcia celu? Wśród możliwych rozwiązań / inicjatyw, które z nich miały najlepsze wyniki, a które najgorsze? Dlaczego?"
+              stakeholders: "Kto otrzyma korzyści i minusy z osiągnięcia celu i proponowanych rozwiązań? Czy brali oni udział w dyskusji na temat tej propozycji? W jaki sposób?"
+              requirements: "Jakie są cechy, które powinny szanować idealne rozwiązanie? Mogą być określone zarówno wymagania techniczne, których wartości i zasad należy przestrzegać."
+            solution:
+              description: "Opisz rozwiązanie, które w praktyce proponowane jest, aby osiągnąć cel."
+              time: "Kiedy to rozwiązanie będzie realizowane? Zidentyfikuj możliwe etapy realizacji."
+              subject: "Kto będzie implementować lub organizować wdrążanie rozwiązania? W przypadku realizacji jak monitorować i sprawdzić wyjścia rozwiązania?"
+              resources: "Czy fundusze, wolontariusze, narzędzia i umiejętności będą wymagane do wdrożenia tego rozwiązania? Wymień i wylicz je. Jak można znaleźć te zasoby?"
+              aspects: "Czy to rozwiązanie spełnia etyczne wymagania grupy lub społeczności, do których jest skierowana? Jaki jest jego wpływ na społeczeństwo i środowisko?"
+              documents: "Czy dokumentacja jest dostępna dla rozwiązania?"
+              pros: "Wypisz i podsumuj główne korzyści i zalety tego rozwiązania. Wskaż udziałowców zalet."
+              cons: "Wypisz i podsumuj główne problemy i wady tego rozwiązania. Wskaż udziałowców wad."
+        rule_book:
+          problems_title: "Problemy"
+          problems_title_label: "Jakie są problemy do rozwiązania z zastosowaniem niniejszego rozporządzenia? Jakie problemy są do uregulowania? Dlaczego?"
+          problems_question: "Jakie są problemy do rozwiązania z zastosowaniem niniejszego rozporządzenia? Jakie problemy są do uregulowania? Dlaczego?"
+          suggestion_html: |
+            <div><b>Przykład:</b></div> <div>Pociągów do rezerwy St. Peter's hall</div> <div>Miasto Silverham dysponuje salą konferencyjną, który obecnie jest używany tylko przez burmistrza "ludziki". Nadszedł czas, by wybrać bezstronnej procedury udzielenia wszystkich obywateli i stowarzyszeń publicznych prawo do rezerwacji pokoju w wydarzenia publiczne.</div>
+          solution:
+            title: "Rozwiązanie 1"
+            article: "Artykuł %{num}"
+            pros: "Zalety"
+            cons: "Wady"
+          paragraph:
+            inspire: "Rozporządzenia do czerpania inspiracji"
+            requirements: "Wymagania do spełnienia"
+            stakeholders: "Udziałowcy (ludzie zaangażowani)"
+          question:
+            paragraph:
+              inspire: "Istnieją podobne regulacje, z których czerpie inspirację? Wśród doświadczeń podobnych zasad te, które osiągnęły najlepsze wyniki, i które z nich mają najgorsze? Dlaczego?"
+              requirements: "Jakie są główne ograniczenia, które rozporządzenie należy wziąć pod uwagę? Jakie są wartości i zasad należy przestrzegać? Jaki będzie koszt stosowania rozporządzenia? Jakie tematy zostaną pouczeni, aby je egzekwować?"
+              stakeholders: "Kto jest najbardziej zagrożony stosowaniem rozporządzenia? Kto będzie ponosić konsekwencje? Czy te tematy brały udział w dyskusji na temat tego wniosku? Jak?"
+            solution:
+              article: "Wprowadź tekst pierwszego artykułu, zapewniając, że jego interpretacja jest wyjątkowa. Wstawianie defnicji terminów lub wyrażen jest przedmiotem nieporozumienia."
+              pros: "Wypisz i podsumuj główne korzyści i zalety jego rozwiązania. Wskaż udziałowców zalet."
+              cons: "Wypisz i podsumuj główne problemy i wady tego rozwiązania. Wskaż udziałowców wad."
+        press:
+          problems_title_label: "Czym jest wiadomość, którą chcesz przekazać? Jakie przeszkody oczekuje się od właściwego zrozumienia i strumieni? Są artykuły lub najnowsze wiadomości, które chcesz replikować lub do którego chcesz zapewnić korektę?"
+          problems_title: "Wiadomość do przesłania"
+          problems_question: "Czym jest wiadomość, którą chcesz przekazać? Jakie przeszkody oczekuje się od właściwego zrozumienia i strumieni? Są artykuły lub najnowsze wiadomości, które chcesz replikować lub do którego chcesz zapewnić korektę?"
+          suggestion_html: |
+            <div><b>Przykład:</b></div> <div>Reklamować wydaniu wersji 3.5 Airesis.</div> <div>Mamy reklamować wydaniu wersji 3.5 z Airesis, który przynosi ważne funkcje w administracji publicznej. Należy koniecznie wyjaśnić co to jest Airesis i przykuwać uwagę prasy, biorąc pod uwagę ostatnie plotki o korzystaniu z Airesis w białym domu.</div>
+          solution:
+            title: "Rozwiązanie 1"
+            maintitle: "Tytuł"
+            subtitle: "Napisy"
+            incipit: "Incipit"
+            body: "Treść"
+            conclusion: "Wnioski"
+            deep: "Spostrzeżenia"
+          paragraph:
+            target: "Odbiorcy/cele"
+          question:
+            paragraph:
+              target: "Kim są cele tego artykułu/ informacji prasowej? Które aspekty wiadomości, którą chcesz przekazać są dla nich najbardziej interesująće?"
+            solution:
+              maintitle: "Jak możesz podsumować przesłanie artykułu w kilku słowach?"
+              subtitle: "Wskaż w pigułce kluczowy koncept artykułu lub dodatkowe informacje zawarte w tytule."
+              incipit: "Wskaż w kilku słowach kto to zrobił, kiedy, gdzie i dlaczego, podkreślając dlaczego jest to bardzo istotne."
+              body: "Opisz fakt bardziej szczegółowo, ale syntetycznie. Napisz krótkie i znaczące zdania."
+              conclusion: "Są propozycje do czytelnika? Jakie mogą być możliwe zmiany faktu lub jego skutki?"
+              deep: "Wstaw linki, kontakty, lub dodatkowe informacje dla tych, którzy pragną wiedzieć więcej."
+        estimate:
+          problems_title_label: "Jakie produkty lub usługi chciałbyś zakupić? Jakie problemy chcesz rozwiązać?"
+          problems_title: "Problemy"
+          problems_question: "Jakie produkty lub usługi chciałbyś zakupić? Jakie problemy chcesz rozwiązać?"
+          suggestion_html: |
+            <div><b>Przykład:</b></div>
+            <div>Wymiana termicznych roślin w siedzibie stowarzyszenia.</div>
+            <div>Z powodu awarii starego kotła, nasza kwatera jest niepraktyczna podczas zim. Biorąc pod uwagę fakt, że nie można tego naprawić, musimy zastąpić stare rośliny termiczne nowymi, z niskim użyciem energi.</div>
+          solution:
+            title: "Rozwiązanie 1"
+            cost: "Ilość"
+            problems: "Szacunek dla ograniczeń i problemów"
+            dumentation: "Dokumentacja"
+          paragraph:
+            technical_constrains: "Techniczne ograniczenia"
+            temporal_constrains: "Czasowe ograniczenia"
+            other_constrains: "Środowiskowe, etyczne, regulacyjne ograniczenia"
+            budget: "Maksymalny budżet"
+            recipient_budget: "Odbiorcy prośby o zacytowanie"
+        agenda:
+          problems_title: "Typ spotkania"
+          suggestion_html: |
+            <div><b>Przykład:</b></div>
+            <div>Wybierz program naszego spotkania.</div>
+            <div>Zwykłe koordynacyjne spotkanie do wymiany doświadczeń z odpowiednikami lokalnych komittetów dla rolnictwa biologicznego Włoszech
+          solution:
+            title: "Przedmiot"
+            priorities: "Pierwszeństwo przedmiotów"
+            links: "Linki ze spostrzeżeniami"
+            description: "Opis"
+            estimated_time: "Wymagany czas dyskusji"
+          paragraph:
+            date_time: "Data i czas"
+            place: "Miejsce"
+        event:
+          problems_title: "Możliwość wydarzenia"
+          problems_title_label: "Czemu chcesz zorganizować wydarzenie? Jaki jest cel?"
+          problems_question: "Czemu chcesz zorganizować wydarzenie? Jaki jest cel?"
+          suggestion_html: |
+            <div><b>Przykład:</b></div>
+            <div>Organizuj nisko budżetowy koncert rockowy.</div>
+            <div> W twoim mieście jest wiele młodych zespołów które nie mogą się pokazać i ulepszać swoich talentów, z powodu braku miejsca. Oprócz tego, jest kilka wydarzeń promowanych przez nasze gminy na następne lato, z powodu braku zasobów.</div>
+          solution:
+            title: "Rozwiązanie 1"
+            maintitle: "Tytuł"
+            description: "Opis rozwiązania"
+            program: "Data, czas i plan"
+            body: "miejsce"
+            place: "Miejsce"
+            organization: "Organizacja wydarzeń"
+            resources: "Niezbędne zasoby i jak je pobierać"
+            pros: "Zalety"
+            cons: "Wady"
+          paragraph:
+            similar_experiences: "Podobne doświadczenia"
+            stakeholders: "Udziałowcy (ludzie zaangażowani)"
+            desired_characteristics: "Pożądane cechy"
+        candidates:
+          solution:
+            name: "Imię i nazwisko kandydata"
+            data: "Dane osobowe"
+            curriculum: "Program nauczania"
+          paragraph:
+            election_type: "Opis rodzaju wyborów:"
+        simple:
+          problems_title: "Problem"
+          problems_title_label: "Co jest problemem i/lub jakie są przeciwności w osiągnięciu celu?"
+          problems_question: "Co jest problemem i/lub jakie są przeciwności w osiągnięciu celu?"
+          solution:
+            description: "Opis"
+            title: "Rozwiązanie 1"
+        petition:
+          paragraph:
+            text: "Tekst petycji"
+          question:
+            paragraph:
+              text: "Tekst petycji"
