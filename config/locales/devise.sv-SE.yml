@@ -1,0 +1,84 @@
+sv-SE:
+  errors:
+    messages:
+      expired: "har gått ut, begär ett nytt"
+      not_found: "kunde inte hittas"
+      already_confirmed: "har redan bekräftats, försök logga in"
+      not_locked: "var inte låst"
+      not_saved:
+        one: "1 fel gjorde att denna %{resource} inte kunde sparas:"
+        other: "%{count} fel gjorde att denna %{resource} inte kunde sparas:"
+  devise:
+    failure:
+      locked: 'Ditt konto är låst'
+      invalid: 'Ogiltig(t) e-postadress eller lösenord'
+      invalid_token: 'Ogiltig autentiseringstoken'
+      timeout: 'Din session har gått ut, logga in igen om du vill fortsätta'
+      inactive: 'Ditt konto har inte aktiverats än'
+      already_authenticated: 'Du har redan registrerats'
+      unauthenticated: 'Det krävs inloggning för åtkomst till denna sida.  Logga in.'
+      unconfirmed: "Kontot har inte bekräftats än"
+      user:
+        invalid: 'Ogiltigt användarnamn eller lösenord'
+        not_found_in_database: 'Ogiltigt användarnamn eller lösenord'
+    sessions:
+      signed_in: 'Inloggad'
+      signed_out: 'Utloggad'
+      user:
+        signed_out: 'Du har loggat ut. Hej då!'
+        signed_in: 'Du har loggat in. Välkommen!'
+        signed_up: 'Du har slutfört din registrering. Välkommen!'
+    passwords:
+      send_instructions: 'Inom ett par minuter får du ett e-postmeddelande med instruktioner angående hur du gör för att återställa ditt lösenord'
+      updated: 'Ditt lösenord ändrades. Du är nu inloggad'
+      updated_not_active: 'Ditt lösenord ändrades'
+      send_paranoid_instructions: "Om din e-postadress finns i vår databas får du en länk för lösenordsåterställning till din inkorg"
+    confirmations:
+      send_instructions: 'Inom några minuter får du ett e-postmeddelande med instruktioner för hur du bekräftar ditt konto'
+      send_paranoid_instructions: 'Om din e-postadress finns i vår databas får du inom ett par minuter ett e-postmeddelande med instruktioner för hur du bekräftar ditt konto'
+      confirmed: 'Ditt konto bekräftades. Du är nu inloggad'
+      user:
+        confirmed: 'Din registrering är klar'
+        send_instructions: 'Instruktioner har skickats till din angivna e-postadress'
+    registrations:
+      signed_up: 'Välkommen! Du har registrerats'
+      signed_up_but_unconfirmed: 'Ett meddelande med en bekräftelselänk har skickats till din e-postadress. Aktivera ditt konto genom att klicka på den länken'
+      signed_up_but_inactive: 'Du har registrerats. Vi kunde dock inte logga in dig eftersom ditt konto inte har aktiverats än'
+      signed_up_but_locked: 'Du har registrerats. Vi kunde dock inte logga in dig eftersom ditt konto är låst.'
+      updated: 'Du uppdaterade ditt konto'
+      update_needs_confirmation: "Du uppdaterade ditt konto, men vi måste verifiera din nya e-postadress. Kontrollera din e-post och klicka på bekräftelselänken för att slutföra bekräftandet av din nya e-postadress"
+      destroyed: 'Hej då! Ditt konto har annullerats. Vi hoppas att vi snart ses igen'
+      user:
+        inactive_signed_up: 'Slutför din registrering genom att klicka på länken i e-postmeddelandet som du fick'
+        signed_up_but_unconfirmed: 'Klicka på länken i e-postmeddelandet som skickats till din adress för att slutföra registreringen'
+    unlocks:
+      send_instructions: 'Inom några minuter får du ett e-postmeddelande med instruktioner för hur du låser upp ditt konto'
+      unlocked: 'Ditt konto har låsts upp. Logga in om du vill fortsätta'
+      send_paranoid_instructions: 'Om ditt konto finns får du inom några minuter ett e-postmeddelande med instruktioner för hur du låser upp det'
+    omniauth_callbacks:
+      success: 'Din registrering är klar. Välkommen!'
+      failure: 'Kunde inte godkänna dig från %{kind} eftersom "%{reason}"'
+      creation_failure: "Fel vid åtkomst genom %{provider}"
+      join_success: "Konton har slagits ihop. Grattis, nu kan du logga in via %{provider}."
+      join_failure: "Det finns ett annat %{provider}-konto. Funktionen för att slå ihop konton blir snart tillgänglig."
+      certified_email_taken: "Det finns ett annat konto med din certifierade e-postadress."
+      already_certified: "Det har certifierats ett annat konto med din skattekod."
+      account_not_verified: "Kontot %{provider} är inte verifierat. Verifiera ditt konto på %{provider}."
+    mailer:
+      confirmation_instructions:
+        subject: 'Bekräftelseinstruktioner'
+        welcome: "Välkommen till %{app_name}, %{user}!"
+        follow_link: "Du kan bekräfta din e-postadress genom att klicka på följande länk:"
+        confirm_account: "Bekräfta konto"
+        follow_link_2: "eller genom att gå till följande webbadress:"
+        access_by_email: "Sedan kan du logga in i %{app_name} med angiven e-postadress och valt lösenord"
+        contact_assistance: "Om du får problem med detta, kontakta en administratör på %{mail}"
+      reset_password_instructions:
+        subject: 'Instruktioner för lösenordsåterställning'
+        hi_user: "Hej %{user}!"
+        follow_link: "Du kan ändra ditt lösenord genom att klicka på följande länk:"
+        change_password: "Ändra lösenord"
+        ignore: "Om du inte ville ändra ditt lösenord, kan du bara bortse från detta e-postmeddelande."
+        password_will_not_change: "Ditt lösenord ändras inte förrän du klickar på föregående länk."
+      unlock_instructions:
+        subject: 'Instruktioner för upplåsning'
