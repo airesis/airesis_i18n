@@ -1,0 +1,94 @@
+en-US:
+  home:
+    intro:
+      title: "The first social network for E-Democracy in the world"
+      description: "A tool of direct democracy born to decide and act collectively on proposals and ideas generated anywhere for any theme."
+      paragraph_1:
+        title: "The Social Network for E-Democracy"
+      paragraph_3:
+        title: "Principles and core values"
+        content_html: |
+          <p>Airesis is an open source decision-making tool for e-democracy, strongly oriented to problem-solving and designed to maximize the immense evolutionary power of <a heref="http://en.wikipedia.org/wiki/Collective_intelligence" target="_blank">collective intelligence</a>.</p> <p>Entirely developed by volunteers according to non-profit principles, Airesis was created to take faster, informed, shared and participated decisions.<br/> It is based on the following principles:</p> <ul> <li><strong>Participation</strong> <br/> Involving citizens means having more energy and points of view available. Only through direct participation it is possible to investigate the problems and understand what people really want. Participation is the essence of democratic decisions. </li> <li><strong>Transparency and Security</strong><br/> Without transparency, rules can be easily circumvented and democracy can quickly degenerate. Transparency also means openness, ability to receive: for this reasons Airesis also allows unregistered users to view the contents of the site. The source code of the software is also "transparent", being it entirely open source.</li> <li><strong>Constructive dialogue</strong><br/> No one owns all the right answers. Using appropriate tools, elaborating ideas proposed by many people can be more productive than doing it yourself.</li> <li><strong>Equal opportunities</strong><br/> To be intended as how effective equality, in terms of offered possibilities, can be pursued by the system. </li> <li><strong>Flexibility</strong><br/> Each group has its own needs, each proposal is different from the others, each user has their own needs.</li>
+      paragraph_4:
+        title: "Our goal: direct and participative democracy"
+      paragraph_5:
+        title: "Characteristics and features"
+      paragraph_6:
+        title: "Basic features"
+      paragraph_7:
+        title: "Proposal and debate tool"
+      paragraph_8:
+        title: "Schulze voting method and Direct Democracy"
+      paragraph_9:
+        title: "Eteygyysgysgstgdydgd6TD*\nEdydydr7EYUZE7TZUYEEZUR\n"
+      paragraph_11:
+        title: "Managing groups and user roles"
+      paragraph_12:
+        title: "Groups"
+    whatis:
+      title: "The first Social network for e-democracy in the world"
+      paragraph_1:
+        title: "The Social Network for E-Democracy"
+      paragraph_2:
+        title: "Build your group"
+      paragraph_3:
+        title: "Organize participants"
+      paragraph_4:
+        title: "Propose and deliberate"
+      paragraph_5:
+        title: "Organize your events, increase participation"
+      paragraph_6:
+        title: "A shared documents archive"
+      paragraph_7:
+        title: "A space to discuss"
+      paragraph_8:
+        title: "Much, much more"
+        link: 'introduction page'
+    press:
+      title: "Press Release"
+    roadmap:
+      paragraph1:
+        title: "Destination: direct democracy"
+      paragraph2:
+        title: "The evolution of Airesis"
+      title: "The evolution of Airesis"
+      description: "Our road to realize a new software, an idea capable of evolving democracy that came to life in the web."
+    helpus:
+      paragraph1:
+        title: "Why are we asking you to support Airesis?"
+      paragraph5:
+        title: "Spread the word about this project"
+      title: "Help us as you want, anyone can contribute"
+    linkback:
+      paragraph1:
+        title: "Help us spread the word about this e-democracy tool"
+      paragraph2:
+        title: "Banners"
+      paragraph3:
+        title: "Text link"
+    engage:
+      title: "Participate in the project for a new democracy"
+      nav:
+        opensource: "Open Source"
+        participate: "Participate"
+        banner: "Banner"
+      paragraph1:
+        title: "Airesis is open to everyone"
+      paragraph2:
+        title: "How to contribute"
+      developer:
+        title: "Developer"
+      analyst:
+        title: "Analyst"
+      first_lev_tester:
+        title: "First-level tester"
+      sec_lev_tester:
+        title: "Second-level tester"
+      graphic:
+        title: "Graphic designer"
+      recruiter:
+        title: "Recruitment"
+      communication:
+        title: "Communication manager"
+      i18n:
+        title: "Internazionalization"
