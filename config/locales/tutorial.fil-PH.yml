@@ -1,0 +1,9 @@
+fil-PH:
+  tutorial:
+    proposals_index:
+      welcome_group: "Ito ang listahan ng mga panukala ng grupong <b>%{group_name}</b>. Dito mahahanap mo ang isang listahan ng mga panukala na dinagdag ng mga miyembro ng grupo at pwede ka ring magdagdag ng iyang pansarili na ibinigay na ikaw ay pinapayagan"
+      new_proposal: "Sa kanang lateral ng menu mahahanap mo ang isang pindutan para maglikha ng mga bagong panukala..."
+      filters: "... at ang mga iba't-ibang filter para mahanap ang mga panukala na ikaw ay interesado"
+      tabs: "Mga panukala sa Airesis ay sumusunod sa isang tinukoy na landas na inilikha sa apat na pangunahing mga estado. Tayo na't tuklasin natin sila!"
+      tab_debate: "Mga bagong panukala ay nagsisimula sa yugto ng debate at lahat ng mga gumagamit o mga miyembro ng isang grupo ay pwedeng sumali sa pagdedebate at pagdadagdag ng mga paliwanag sa panukala, upang makagawa ng matanda na para bumoto"
+      tab_vote: "Kapag ang debate ay nagtapos, ang mga panukala ay lilipat sa Voting na tab, kung saan ang bawat gumagamit ay makakaboto ng mga solusyon na lumabas sa panahon ng debate"
