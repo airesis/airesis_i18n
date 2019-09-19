@@ -1,0 +1,114 @@
+pl-PL:
+  countdowns:
+    labelsPlural:
+      - Lata
+      - Miesiące
+      - Tygodnie
+      - Dni
+      - Godziny
+      - Minuty
+      - Sekundy
+    labelsSingular:
+      - Rok
+      - Miesiąc
+      - Tydzień
+      - Dzień
+      - Godzina
+      - Minuta
+      - Sekunda
+    compactLabelsPlural:
+      - 'r'
+      - 'm'
+      - 'w'
+      - 'd'
+    compactLabelsSingular:
+      - 'r'
+      - 'm'
+      - 't'
+      - 'd'
+  calendar:
+    monthNames:
+      - Styczeń
+      - Luty
+      - Marzec
+      - Kwiecień
+      - Maj
+      - Czerwiec
+      - Lipiec
+      - Sierpień
+      - Wrzesień
+      - Październik
+      - Listopad
+      - Grudzień
+    monthNamesShort:
+      - Sty
+      - Lut
+      - Mar
+      - Kwi
+      - Maj
+      - Cze
+      - Lip
+      - Sie
+      - Wrz
+      - Paź
+      - Lis
+      - Gru
+    dayNames:
+      - Niedziela
+      - Poniedziałek
+      - Wtorek
+      - Środa
+      - Czwartek
+      - Piątek
+      - Sobota
+    dayNamesShort:
+      - Nd
+      - Pon
+      - Wt
+      - Śr
+      - Czw
+      - Pt
+      - Sob
+    today: 'dziś'
+    month: 'miesiąc'
+    week: 'tydzień'
+    day: 'dzień'
+    firstDay: 0
+    timeFormat: 'h:mm TT{ - [ddd] [dd] h:mm TT}'
+    changed: 'Zmieniono!'
+    eventsFormat: 'h(:mm)t'
+  date:
+    formats:
+      short: "%b%d"
+      long: "%d %B %Y"
+  time:
+    formats:
+      default: "%d %b %Y at %I:%M %p"
+      long: "%A %d %B %Y at %I:%M %p"
+      long_date: "%A %d %B %Y"
+      long_date_time: "%A %d %B %Y at %I:%M %p"
+      from_long_date_time: "Z %A %d %B %Y o %I:%M %p"
+      until_long_date_time: "Z %A%d%B%Y o %I:%M %p"
+      from_long_date: "Z %A %d %B %Y"
+      until_long_date: "Do %A%d%B%Y"
+      short: "%d %b %Y"
+      two_rows: "%d%b%Y <br/> %I:%M%I:%M %p"
+      weekday: "%a o %I:%M%p"
+      month: "%B"
+      dayandmonth: "%d/%m"
+      hour: "%I:%M%I:%M %p"
+      yesterday_at: "wczoraj o %I:%M %p"
+      textfield: "%d/%m/%Y %I:%M %p"
+      datepicker: "%Y-%m-%d"
+      datetimepicker: "%Y-%m-%d%H:%M"
+    am: "przed południem"
+    pm: "po południu"
+  datetime:
+    added_on: "na %{date}"
+    distance_in_words:
+      half_a_minute: pół minuty temu
+  label:
+    from: "od"
+    to: "do"
+  countdown: "{m<}{mn} {ml} temu {m>} {s<} właśnie teraz {s>}"
+  countdown2: "{y<}{yn} {yl}{y>} {o<}{on} {ol}{o>} {d<}{dn} {dl}{d>} {h<}{hn} {hl}{h>} {m<}{mn} {ml}{m>} {s<} kilka sekund {s>}"
