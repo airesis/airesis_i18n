@@ -1,0 +1,244 @@
+fil-PH:
+  frm:
+    general:
+      forum: Pagtitipon
+      topics: Mga paksa
+      topic: Paksa
+      posts: Mga Post
+      posts_count:
+        one: 1 post
+        other: "%{count} mga post"
+      flagged_for_spam: Ang iyong account ay na-flag sa spam.
+      cannot_create_topic: Hindi ka maaring gumawa ng bagong paksa sa oras na ito.
+      cannot_create_post: Hindi ka maaring lumikha ng bagong post sa oras na ito.
+    access_denied: "Hindi ka pinapayagang gawin iyan."
+    admin:
+      area: Lugar ng Admin
+      back_to_admin: "Bumallik sa Admin"
+      back_to_forums: "Bumalik sa mga pagtitipon"
+      back_to_groups: "Bumalik sa mga grupo"
+      forum:
+        moderator_groups: Tagapamagitan na mga grupo
+        index: Pangasiwaan ang mga Pagtitipon
+        new: Lumilikha ng bagong pagtitipon
+        new_link: Bagong Pagtitipon
+        deleted: Ang napiling pagtitipon ay nabura na
+        created: Ang pagtitipon na ito ay nalikha.
+        not_created: Ang pagtitipon na ito ay hindi maaring malikha
+        updated: Ang pagtitipon na ito ay na-update.
+        not_updated: Ang pagtitipon na ito ay hindi maaring i-update
+      forums:
+        edit: Baguhin
+        delete: Burahin
+        category: Kategorya
+        delete_confirm: Sigurado ka bang gusto mong burahin ang pagtitipon na ito?
+        index:
+          last_post: Huling post
+          none: Wala
+          moderators: Mga Tagapamagitan
+          no_category: (Walang Kategorya)
+        default_private: "Pribado na Pagtitipon"
+        default_public: "Publiko na Pagtitipon"
+        default_private_description: "Ang Pagtitipon ay nakareserba sa mga kalahok ng grupo"
+        default_public_description: "Ang pagtitipon ay makikita sa lahat ng mga gumagamit ng Airesis. Pati din ang mga gumagamit na wala sa grupo"
+      mod:
+        index: Pangasiwaan ang mga Grupo
+        new: Bagong Grupo
+        created: Ang grupo ay matagumpay na nalikha
+        not_created: Ang Grupo ay hindi maaring likhain
+        deleted: Ang napiling grupo ay nabura na
+        members: "Mga Miyembro sa %{group}"
+      mods:
+        show:
+          add_member: Magdagdag
+          add_a_new_member: "Magdagdag ng bagong miyembro"
+          current_members: "Kasalukuyang mga Miyembro"
+        edit: Baguhin
+        delete: Burahin
+        name: Pangalan
+      category:
+        index: Pangasiwaan ang mga Kategorya ng Pagtitipon
+        new: Lumilikha ng bagong Kategorya ng Pagtitipon
+        edit: "Nag-eedit ng %{title} na kategorya"
+        new_link: Bagong Katergorya ng Pagtitipon
+        deleted: Ang napiling kategorya ng pagtitipon ay nabura na
+        created: Ang kategorya ng pagtitipon na ito nay nalikha na
+        not_created: Ang kategorya ng pagtitipon na ito ay hindi mailikha
+        updated: Ang kategorya ng pagtitipon na ito ay na-update na
+        not_updated: Ang kategorya ng pagtitipon na ito ay hindi mai-update
+      categories:
+        edit: Bahugin
+        delete: Burahin
+        category: Kategorya
+        delete_confirm: Sigurado ka ba na gusto mong burahin and kategorya ng pagtitipon na ito?
+        default_private: "Pribado na Seksyon"
+        default_public: "Publiko na Seksyon"
+      group:
+        index: "Pangasiwaan ang mga grupo ng tagapamagitan"
+        show:
+          title: "Pangasiwaan ang mga tagapamagitan"
+        new: "Bagong Tagapamagitan na Grupo"
+        created: "Matagumpay na nalikha ang grupo ng mga tagapamagitan"
+        not_created: "Pagkakamali habang lumilikha ng grupo ng mga Tagapamagitan"
+        deleted: "Matagumpay na nabura ang grupo ng mga Tagapamagitan"
+    common:
+      pages: Mga Pahina
+    errors:
+      not_signed_in: Kailangan mong magsign-in muna
+      access_denied: Ang pag-access ay tinanggihan.
+    forum:
+      header: "Tinitingnan %{title}"
+      forums: Mga Pagtitipon
+      new: Lumilikha ng bagong pagtitipon
+      edit: "Nag-eedit ng %{title} na pagtitipon"
+      topics_count:
+        one: 1 paksa
+        other: "%{count} mga paksa"
+      posts_count:
+        one: 1 post
+        other: "%{count} mga post"
+      moderator_tools: "Moderasyon na mga kagamitan"
+      topic_tools: "Mga kagamitan ng Paksa"
+      admin_tools: "Mga kagamitan ng Tagapangasiwa"
+      title: "Bagong Pagtitipon"
+    forums:
+      index:
+        title: Pagtitipon
+        forum: Pagtitipon
+        views: Mga tanawin
+        last_post: 'Huling Post:'
+        none: Wala
+    topic:
+      headings:
+        topic: Paksa
+        latest: Pinakabago
+        posts: Mga post
+        views: Mga tanawin
+      moderation:
+        success: Ang napiling paksa ay na-moderate na
+        no_option_selected: Walang moderasyon na opsiyon ang napili
+      received_reply: Ang paksa na iyong na-subcribe ay kailangan makatanggap ng tugon
+      reply: Tumugon
+      quote: Panipi
+      delete: Burahin
+      created: Ang paksa na ito ay nalikha
+      new: Lumilikha ng bagong paksa
+      edit: Nag-i-edit ng paksa
+      not_created: Ang paksa na ito ay hindi mailikha
+      deleted: Ang iyong paksa ay natanggal
+      cannot_delete: Hindi mo maaring tanggaling ang isang paksa na hindi mo pag-aari
+      updated: Ang paksa na ito ay na-update na
+      not_updated: Ang paksa na ito ay hindi ma-update
+      subscribed: Ikaw ay nakasuskribe sa paksa na ito
+      unsubscribed: Ikaw ay hindi na nakasuskibre mula sa paksa na ito
+      none: Walang mga paksa sa forum na ito sa kasalukuyan
+      links:
+        new: Bagong paksa
+        back_to_topics: Bumalik sa mga paksa
+        edit: I-edit ang paksa
+      not_found: Ang paksa na iyong hinahanap ay hindi matagpuan
+      hidden:
+        'true': Ang paksa na ito ay nakatago
+        'false': Ang paksa na ito ay makikita na
+      locked:
+        'true': Ang paksa na ito ay naka-lock na
+        'false': Ang paksa na ito ay naka-unlock na
+      pinned:
+        'true': Ang paksa na ito ay na-pin na
+        'false': Ang paksa na ito ay na-unpin na
+    topics:
+      show:
+        reply: Tumugon
+        delete: Burahin
+        subscribe: Mag-subscribe
+        unsubscribe: Mag-unsubscribe
+        reply_to_topic: Tumugon sa paksa
+        pending_review: Ang paksa na ito ay kasalukuyang nakabinbin ang pagsusuri. Ang gumagamit lamang na lumikha nito at ang mga tagapamagitan and makakakita nito.
+        hide:
+          'true': Ipakita ang paksa na ito
+          'false': Itago ang paksa na ito
+        lock:
+          'true': I-unlock ang paksa na ito
+          'false': I-lock ang paksa na ito
+        pin:
+          'true': I-unpin ang paksa na ito
+          'false': I-pin ang paksa na ito
+        related_proposals: "Kaugnay na mga panukala"
+    post:
+      buttons:
+        reply: I-post ang Tugon
+        edit: Baguhin
+      created: Ang iyong tugon ay na-post na
+      new: I-post ang tugon sa
+      edit: Baguhin
+      not_created: Ang iyong tugon ay hindi na i-post
+      not_created_topic_locked: Hindi ka maaring tumugon sa naka-lock na paksa
+      edited: Ang iyong post ay na-edit na
+      not_edited: Ang iyong post ay hindi ma-edit
+      deleted: Ang iyong post ay nabura na
+      deleted_with_topic: Ang huling post sa paksa ay nabura na. Ang buong Paksa ay nabura na din
+      cannot_delete: Hindi mo maaring burahin ang post na hindi mo pag-aari
+      cannot_quote_deleted_post: Ang post na sibukan mong i-quote ay hindi na umiiral.
+    posts:
+      moderation:
+        moderate: Katamtaman
+        approve: Aprubado
+        spam: Spam
+        success: Ang napili na mga post ay na-moderate na
+      post:
+        pending_review: Ang post na ito ay kasalukuyang nakabinbin ang pagsusuri. Ang gumagamit lamang na nagpost nito at ang mga tagapamagitan ang makakakita nito.
+        in_reply_to: ang tugon sa
+    moderation:
+      index:
+        title: "Moderasyon na mga kagamitan para sa %{forum}"
+  helpers:
+    submit:
+      frm_forum:
+        create: Lumikha ng Pagtitipon
+        update: I-update ang Pagtitipon
+      topic:
+        create: Lumikha ng Paksa
+        update: I-update ang Paksa
+      frm_mod:
+        create: Lumikha ng Grupo
+      frm_category:
+        create: Lumikha ng Kategorya
+        update: I-update ang kategorya
+  simple_form:
+    labels:
+      frm_forum:
+        category: Kategorya
+        title: Pamagat
+        name: Pamagat
+        description: Paglalarawan
+        moderators: Mga Tagapamagitan
+        visible_outside: Makikita sa labas ng grupo
+      topic:
+        subject: Paksa
+        locked: Na-lock
+        pinned: Na-pin
+        hidden: Nakatago
+        posts:
+          text: Teksto
+      frm_category:
+        name: Pangalan
+      post:
+        text: Teksto
+      frm_mod:
+        name: Pangalan
+  time_ago_in_words: "%{time} nakaraan"
+  ago: " nakaraan"
+  ago_by: " nakaraan na"
+  by: ni
+  started_by: "Sinimulan ni "
+  are_you_sure: Sigurado ka ba?
+  lst_post: "Huling post"
+  last_post: "Huling paksa"
+  back_to_forums: "Bumalik sa pagtitipon"
+  pages:
+    forum_groups:
+      index:
+        create_first: Walang pang mga grupo o mga tagapamagitan. Lumikha ng isa!
+  info:
+    members:
+      ok_message: Ang gumagamit ay matagumpay na naidagdag sa grupo
