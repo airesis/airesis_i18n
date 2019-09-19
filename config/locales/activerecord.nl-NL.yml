@@ -1,0 +1,65 @@
+nl-NL:
+  activerecord:
+    models:
+      meeting: 'Vergadering'
+      places: 'Plaats'
+    attributes:
+      blog_comment:
+        body: 'Commentaar'
+        created_at: "AntiSpam"
+      event:
+        title: 'Gebeurtenis titel'
+        description: 'Beschrijving'
+        event_type_id: 'Taak Type'
+        starttime: 'Begindatum'
+        endtime: 'Einddatum'
+        all_day: 'Elke dag'
+        period: 'Herhalen'
+        frequency: 'Herhalen om de'
+        private: 'Afgeschermen'
+      group:
+        facebook_page_url: 'Facebook pagina-adres'
+        name: 'Naam'
+        title_bar: 'Titelbalk'
+        description: 'Beschrijving'
+        accept_requests: 'Verzoek tot deelname'
+        porta_id: 'Beheerder'
+        interest_border_tkn: 'Geografische plaats van belang'
+        image: "Afbeelding laden"
+      blog:
+        title: 'Titel'
+      blog_post:
+        title: 'Titel'
+        body: 'Tekst'
+      group_invitation:
+        emails_list: "E-mailadressen"
+      place:
+        address: 'Adres'
+      proposal:
+        proposal_category_id: 'Categorie'
+        title: 'Titel'
+        problems: 'Problemen'
+        objectives: 'Doelstellingen'
+        content: 'Tekst'
+      quorum:
+        days_m: Dagen
+        hours_m: uren
+        minutes_m: Minuten
+        vote_good_score: 'Goedkeuring'
+      user:
+        email: 'E-mailadres'
+        password: 'Wachtwoord'
+        accept_conditions: 'Gebruiksvoorwaarden'
+        blocked: "Fout"
+      group_area:
+        name: "Naam"
+        description: "Beschrijving"
+    errors:
+      messages:
+        exclusion: 'is gereserveerd'
+        invalid: 'is ongeldig'
+        too_long: 'De tekst is te lang'
+        too_short: 'De tekst is te kort'
+        odd: 'moet even zijn'
+        even: 'moet oneven zijn'
+        not_found: 'niet gevonden.'
