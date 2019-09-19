@@ -1,0 +1,244 @@
+sv-SE:
+  frm:
+    general:
+      forum: Forum
+      topics: Trådar
+      topic: Tråd
+      posts: Inlägg
+      posts_count:
+        one: 1 inlägg
+        other: "%{count} inlägg"
+      flagged_for_spam: Ditt konto har flaggats för skräppost.
+      cannot_create_topic: Du kan inte skapa en ny tråd just nu.
+      cannot_create_post: Du kan inte skapa en ny post just nu.
+    access_denied: "Du har inte tillstånd för att göra det."
+    admin:
+      area: Administratörsområde
+      back_to_admin: "Tillbaka till admin."
+      back_to_forums: "Tillbaka till forum"
+      back_to_groups: "Tillbaka till grupper"
+      forum:
+        moderator_groups: Moderatorgrupper
+        index: Hantera forum
+        new: Skapa ett nytt forum
+        new_link: Nytt forum
+        deleted: Valt forum har tagits bort
+        created: Detta forum har skapats.
+        not_created: Detta forum kunde inte skapas
+        updated: Detta forum har uppdaterats.
+        not_updated: Detta forum kunde inte uppdateras
+      forums:
+        edit: Redigera
+        delete: Ta bort
+        category: Kategori
+        delete_confirm: Är du säker på att du vill ta bort detta forum?
+        index:
+          last_post: Senaste inlägg
+          none: Inget
+          moderators: Moderatorer
+          no_category: (Ingen kategori)
+        default_private: "Privat forum"
+        default_public: "Offentligt forum"
+        default_private_description: "Forum som reserverats för gruppdeltagare"
+        default_public_description: "Forumet visas för alla Airesis-användare. Även användare utanför gruppen"
+      mod:
+        index: Hantera grupper
+        new: Ny grupp
+        created: Gruppen skapades
+        not_created: Grupp kunde inte skapas
+        deleted: Vald grupp har tagits bort
+        members: "Medlemmar i %{group}"
+      mods:
+        show:
+          add_member: Lägg till
+          add_a_new_member: "Lägg till en ny medlem"
+          current_members: "Nuvarande medlemmar"
+        edit: Redigera
+        delete: Ta bort
+        name: Namn
+      category:
+        index: Hantera forumkategorier
+        new: Skapa en ny forumkategori
+        edit: "Redigera kategorin %{title}"
+        new_link: Ny forumkategori
+        deleted: Vald forumkategori har tagits bort
+        created: Denna forumkategori har skapats
+        not_created: Denna forumkategori kunde inte skapas
+        updated: Denna forumkategori har uppdaterats
+        not_updated: Denna forumkategori kunde inte uppdateras
+      categories:
+        edit: Redigera
+        delete: Ta bort
+        category: Kategori
+        delete_confirm: Är du säker på att du vill ta bort denna forumkategori?
+        default_private: "Privat del"
+        default_public: "Offentlig del"
+      group:
+        index: "Hantera moderatorgrupper"
+        show:
+          title: "Hantera moderatorer"
+        new: "Ny moderatorgrupp"
+        created: "Skapade moderatorgrupp"
+        not_created: "Fel vid skapande av moderatorgruppen"
+        deleted: "Tog bort moderatorgrupp"
+    common:
+      pages: Sidor
+    errors:
+      not_signed_in: Du måste logga in först
+      access_denied: Nekad åtkomst.
+    forum:
+      header: "Visar %{title}"
+      forums: Forum
+      new: Skapa ett nytt forum
+      edit: "Redigera forumet %{title}"
+      topics_count:
+        one: 1 tråd
+        other: "%{count} trådar"
+      posts_count:
+        one: 1 inlägg
+        other: "%{count} inlägg"
+      moderator_tools: "Moderatorverktyg"
+      topic_tools: "Trådverktyg"
+      admin_tools: "Administrationsverktyg"
+      title: "Ny forum"
+    forums:
+      index:
+        title: Forum
+        forum: Forum
+        views: Visningar
+        last_post: 'Senaste inlägg:'
+        none: Inget
+    topic:
+      headings:
+        topic: Tråd
+        latest: Senaste
+        posts: Inlägg
+        views: Visningar
+      moderation:
+        success: Vald tråd har modererats
+        no_option_selected: Inget moderatoralternativ valdes
+      received_reply: En tråd som du prenumererar på har fått ett svar
+      reply: Svara
+      quote: Citera
+      delete: Ta bort
+      created: Denna tråd har skapats
+      new: Skapa en ny tråd
+      edit: Redigera tråd
+      not_created: Denna tråd kunde inte skapas
+      deleted: Din tråd har tagits bort
+      cannot_delete: Du kan inte ta bort en tråd som du inte äger
+      updated: Denna tråd har uppdaterats
+      not_updated: Denna tråd kunde inte uppdateras
+      subscribed: Du har prenumererat på denna tråd
+      unsubscribed: Du har avprenumererat från denna tråd
+      none: Det finns inga trådar i detta forum just nu
+      links:
+        new: Ny tråd
+        back_to_topics: Tillbaka till trådarna
+        edit: Redigera tråd
+      not_found: Tråden du söker efter kunde inte hittas
+      hidden:
+        'true': Denna tråd döljs nu
+        'false': Denna tråd syns nu
+      locked:
+        'true': Denna tråd är nu låst
+        'false': Denna tråd är nu upplåst
+      pinned:
+        'true': Denna tråd är nu fäst
+        'false': Denna tråd har nu lossats
+    topics:
+      show:
+        reply: Svara
+        delete: Ta bort
+        subscribe: Prenumerera
+        unsubscribe: Avprenumerera
+        reply_to_topic: Svara på tråd
+        pending_review: Denna tråd väntar just nu på granskning. Endast användaren som skapade den och moderatorer kan se den.
+        hide:
+          'true': Visa denna tråd
+          'false': Dölj denna tråd
+        lock:
+          'true': Lås upp denna tråd
+          'false': Lås denna tråd
+        pin:
+          'true': Lossa denna tråd
+          'false': Fäst denna tråd
+        related_proposals: "Relaterade förslag"
+    post:
+      buttons:
+        reply: Lägg in svar
+        edit: Redigera
+      created: Ditt svar har lagts in
+      new: Lägg in svar till
+      edit: Redigera
+      not_created: Ditt svar kunde inte läggas in
+      not_created_topic_locked: Du kan inte besvara en låst tråd
+      edited: Ditt inlägg har redigerats
+      not_edited: Ditt inlägg kunde inte redigeras
+      deleted: Ditt inlägg har tagits bort
+      deleted_with_topic: Det senaste inlägget i tråden har tagits bort. Hela tråden har också tagits bort
+      cannot_delete: Du kan inte ta bort ett ämne som du inte äger
+      cannot_quote_deleted_post: Inlägget som du försökte citera finns inte längre.
+    posts:
+      moderation:
+        moderate: Moderera
+        approve: Godkänn
+        spam: Skräppost
+        success: Valda inlägg har modererats
+      post:
+        pending_review: Detta inlägg väntar just nu på granskning. Endast användaren som gjorde inlägget och moderatorer kan se det.
+        in_reply_to: som svar på
+    moderation:
+      index:
+        title: "Moderatorverktyg för %{forum}"
+  helpers:
+    submit:
+      frm_forum:
+        create: Skapa forum
+        update: Uppdatera forum
+      topic:
+        create: Skapa tråd
+        update: Uppdatera tråd
+      frm_mod:
+        create: Skapa grupp
+      frm_category:
+        create: Skapa kategori
+        update: Uppdatera kategori
+  simple_form:
+    labels:
+      frm_forum:
+        category: Kategori
+        title: Namn
+        name: Namn
+        description: Beskrivning
+        moderators: Moderatorer
+        visible_outside: Synliga utanför gruppen
+      topic:
+        subject: Ämne
+        locked: Låst
+        pinned: Fäst
+        hidden: Dolt
+        posts:
+          text: Text
+      frm_category:
+        name: Namn
+      post:
+        text: Text
+      frm_mod:
+        name: Namn
+  time_ago_in_words: "%{time} sedan"
+  ago: " sedan"
+  ago_by: " sedan av"
+  by: av
+  started_by: "Startat av "
+  are_you_sure: Är du säker?
+  lst_post: "Senaste inlägg"
+  last_post: "Senaste tråd"
+  back_to_forums: "Tillbaka till forum"
+  pages:
+    forum_groups:
+      index:
+        create_first: Det finns inga moderatorgrupper än. Var först med att skapa en!
+  info:
+    members:
+      ok_message: Användaren har lagts till i gruppen
