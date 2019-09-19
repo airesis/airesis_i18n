@@ -1,0 +1,214 @@
+ja-JP:
+  unauthorized:
+    default: "このアクションを実行するために必要な権限がありません"
+    create:
+      group: "1日に複数のグループを作成することはできません"
+  permissions_required: "この操作を許可されていません"
+  test: "テスト"
+  open_space: 'オープンスペース'
+  hello: 'こんにちは世界'
+  pages:
+    top_panel:
+      login: 'ログインまたはサインアップ'
+      facebook_login: 'Facebookでログイン'
+      google_login: 'Googleでログイン'
+      twitter_login: "Twitterでログイン"
+      meetup_login: "ミートアップによるログイン"
+      linkedin_login: "LinkedInでログイン"
+      openid_login: "OpenIDでログインする"
+      find_groups: 'グループの検索'
+      parma_login: "パルマとのログイン"
+      tecnologiedemocratiche_login: "Tecnologie Democraticheとのログイン"
+      tecnologiedemocratiche: "テクニカル・デモクラシー"
+    user:
+      notifications: 'アラームと通知'
+      privacy: "アカウントとプライバシー"
+    users:
+      index:
+        title: 'ユーザーリスト'
+      show:
+        groups_title: "私のグループ"
+        group_column: "グループ"
+        role_column: "役割"
+        get_out_of_group_button: "このグループを離れる"
+        get_out_of_group_confermation: "本気ですか？"
+        secret_vote: "秘密"
+        votations_title: "あなたが参加した投票"
+        proposal_column: "提案"
+        votation_date_column: "日付"
+        vote_column: "投票"
+        profile_info: "プロフィールの情報"
+        profile_info_unconfirmed: "(未確認ユーザー)"
+        send_message_button: "プライベートメッセージを送信する"
+        name_label: "名"
+        surname_label: "苗字"
+        email_label: "Eメール"
+        edit_image: "画像の編集"
+        to_be_confirmed: "確認する"
+        password_label: "パスワード"
+        facebook_url_label: "FacebookのURL"
+        googleplus_url_label: "Google+のURL"
+        linkedin_url: "LinkedIn URL"
+        username_label: "ユーザー名"
+        registered_from: "登録者"
+        load_image: "画像を読み込む"
+        max_file_size: "最大サイズ：2MB"
+        what_can_i_do: "私に何ができる？"
+        what_i_cant_do: "何ができないのですか？"
+        certified_from: "からの認定"
+        group_level_permission_title: "グループレベルのアクセス許可"
+        admin_permissions: "あなたはこのグループの管理者であり、すべての権限を持っています"
+        certified_cannot_edit_info: "あなたは認定されたユーザーです：名前、名字、メールアドレスは編集できません"
+        twitter_url: "TwitterのURL"
+        meetup_url: "ミートアップURL"
+      send_message:
+        subject_label: "件名"
+        body_label: "体"
+        massive_email: "大量のメールを送信する"
+      left_panel:
+        general_info: "一般情報"
+        alarm_and_notifications: "アラームと通知"
+        geographic_borders: "地理的な境界線"
+        account_and_privacy: "アカウントとプライバシー"
+        title: "設定と趣味"
+      alarm_preferences:
+        alerts: "アラート"
+        emails: "メール"
+      privacy_preferences:
+        tooltips: "ツールチップを表示"
+        show_urls: "Facebook、Google+、LinkedIn URLをユーザーに表示する"
+        private_messages: "他のユーザーからプライベートメッセージを受信する"
+        join_accounts: "別のアカウントに参加する"
+        join_accounts_description: "上の %{app_short_name} あなたは、単一のアカウントにすべてのあなたの社会的ネットワークを接続する機能を持っています。<br/>接続するプロバイダを選択すると、Facebook、Google、Twitterなどから常に同じアカウントにアクセスできます。"
+        joined_all: "利用可能なすべてのプロバイダにすでに参加しています。ありがとうございました！"
+        join_facebook: "あなたのFacebookアカウントに参加する"
+        join_google: "Googleアカウントに参加する"
+        join_twitter: "あなたのTwitterアカウントに参加する"
+        join_linkedin: "あなたのLinkedInアカウントに参加する"
+        join_meetup: "Meetupアカウントに参加する"
+        providers_list: "アクティブ化されたプロバイダのリスト"
+        options: "オプション"
+        rotp: "セキュリティトークンを有効にする"
+        rotp_title: "セキュリティトークン"
+        rotp_confirm_enable: "セキュリティトークンを有効にしてもよろしいですか？"
+        rotp_confirm_disable: "セキュリティトークンを無効にしてもよろしいですか？"
+        mail_language: "電子メールの言語"
+        time_zone: "タイムゾーン"
+      border_preferences:
+        updating: "ボーダーの設定に合わせて設定を更新してお待ちください"
+        your_borders: "関心のあるあなたの地理的境界"
+      send_message_title: "%{name} メッセージを送信する"
+    groups:
+      accept_requests:
+        portavoce: "管理者：ユーザーがグループに参加する場合、グループの管理者のみが要求を受け入れることができます。管理者が要求を受け入れると、ユーザーは実際にグループのメンバーになります。"
+        unavailable_option: "まだ利用できないオプション"
+      administration_panel:
+        title: '管理パネル'
+        info: '基本情報'
+        events: 'イベントとミーティング'
+        permissions: '役割と権限'
+        proposals: 'クォーラムと提案'
+        areas: "作業エリア"
+        forum: "フォーラム管理"
+        users: "ユーザーを管理する"
+      new:
+        change_permissions_title: "新しいユーザーの標準的なアクセス許可を変更する"
+        change_permissions_description: "これらは、新規ユーザーがグループ内で実行できるアクションです。常に変更して新しいロールを作成できることを覚えておいてください！"
+        errors_title: "申し訳ありませんが、投稿は挿入できません："
+        tags:
+          title: "タグ(カンマ区切り)"
+      edit:
+        title: 'グループ設定の編集'
+        change_permissions: "役割と権限の設定では、メンバー権限をいつでも変更できます。"
+        modify_group: "グループを変更する"
+      layout:
+        home_button: "壁"
+        proposals_button: "提案"
+        calendar: "カレンダー"
+      show:
+        rules_button: "ルール"
+        post_button: "グループの壁に投稿する"
+        blog_button: "私のブログを作成する"
+        participants_list: "参加者リスト "
+        invite_button: "あなたの友人を招待してください！"
+        participants_full_list: "グループメンバーの完全なリスト"
+        no_participants: "このグループにまだ参加しているユーザーはいません。"
+        no_blogs_yet: "このグループのブログ投稿はまだありません。すぐに復帰します。"
+        waiting_participation_requests: "回答を待っている参加要求"
+        accept_request_button: "同意する"
+        reject_request_button: "拒否"
+        ask_participate_button: "グループに参加するよう依頼する"
+        remove_post: "グループボードから削除"
+        destroy_button: "削除"
+        confirm_destroy: "あなたはグループを削除しています！あなたはそれをしたいと思いますか？"
+        list_permissions:
+          title: "グループ内のアクセス許可の一覧"
+          button: "権限リスト"
+        print_all_participants: "参加者リストを印刷する"
+        last_proposals: "最近追加された提案"
+        last_topics: "最後に作成されたトピック"
+        next_events: "次のイベント"
+        rule_book_html: |
+          グループを作成するときにルールを選択できます。<br/> 
+          <p>すべてのユーザーは現在、グループを作成できます。</p> 
+          <p>グループに参加すると、ブログの投稿をグループの壁に表示することができます。</p> 
+          <p>グループは、提案を支持したり、新しいものを作成したり、アンケートを作成したり、役割と権限を使ってメンバーを編成することができます。</p> 
+          <p>このグループのルールは<b>設定</b>で変更できます。</p>
+        short_url: "短いURL"
+        featured_post:
+          'true': 固定解除する
+          'false': 上のピン
+        permissions_title: "あなたとグループ"
+      header:
+        settings: "設定"
+        documents: "ドキュメント"
+        forums: "フォーラム"
+        alarm_settings: "設定"
+      documents:
+        documents_archive: "ドキュメントアーカイブ"
+        storage_size: "占有されたストレージのサイズ"
+        max_storage_size: "利用可能な最大ストレージサイズ"
+        current_storage_usage: "ストレージサイズの使用"
+        not_authorized: "文書を表示するために必要な権限がありません。グループ管理者に連絡してください"
+      participations:
+        list_participations: "参加者のリスト"
+        search: "サーチ"
+        filter: "フィルタ"
+        anything: "すべて"
+        operations_on_user: "ユーザーが利用できる操作"
+        send_email: "メールを送る"
+        surname: "苗字"
+        name: "名"
+        role: "役割"
+        member_since: "メンバーは以来"
+        added_by: "によって追加"
+        remove_all: "すべて削除する"
+    login:
+      title: 'ログイン'
+    confirmation:
+      title: '確認の指示を再送する'
+      submit: '私に指示を送ってください'
+    password:
+      title: 'パスワードを忘れましたか？'
+      submit: 'パスワードをリセットする手順を私に送ってください'
+      edit:
+        new_password: "新しいパスワード"
+        confirm_password: "新しいパスワードを確認する"
+        confirm_button: "パスワードを変更する"
+    registration:
+      title: '登録'
+      email_confirmed: "そのメールアドレスに登録すると、あなたのメールアドレスを確認するよう求められません。"
+      choose_password: "パスワードを決めて下さい"
+      confirm_password: "パスワードを認証する"
+      accept_conditions: "利用規約に同意する"
+      register_button: "登録"
+      identity_provviders_title: "お気に入りのアカウントですぐにお入りください"
+      accept_privacy: "プライバシー規約に同意する"
+    proposals:
+      index:
+        title: 'プロポーザル一覧'
+        debate: 'レビュー中のすべての提案が議論されている'
+        voting: 'すべての提案は現在投票待ちまたは投票段階にあります'
+        accepted: '投票段階を完了したすべての提案'
+        revision: '議論に合格せず、議論に戻すことができるすべての提案'
+        last: "最後に追加された"
