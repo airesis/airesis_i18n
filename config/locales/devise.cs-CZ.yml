@@ -1,0 +1,14 @@
+cs-CZ:
+  errors:
+    messages:
+      expired: "vypršela platnost, zažádejte prosím o nový"
+      not_found: "nebylo nalezeno"
+      already_confirmed: "již byl potvrzen, pokuste se prosím o přihlášení"
+      not_locked: "nebylo uzamčeno"
+      not_saved:
+        one: "1 chyba znemožnila uložení %{resource}:"
+        other: "%{count} chyb znemožnilo uložení %{resource}:"
+  devise:
+    failure:
+      locked: 'Váš účet je uzamčen'
+      invalid: 'Neplatný e-mail nebo heslo'
