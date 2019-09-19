@@ -1,0 +1,57 @@
+af-ZA:
+  pages:
+    users:
+      show:
+        get_out_of_group_button: "Csoport elhagyása"
+        get_out_of_group_confermation: "Biztos vagy benne?"
+        what_can_i_do: "Mihez van jogom?"
+        what_i_cant_do: "Mihez nincs jogom?"
+    groups:
+      layout:
+        home_button: "Űzenő fal"
+        proposals_button: "Javaslatok"
+        calendar: "Naptár"
+      show:
+        rules_button: "Szabályok"
+        blog_button: "Új blog létrehozása"
+        participants_list: "Résztvevők listája"
+        invite_button: "Meghívó küldése"
+        waiting_participation_requests: "Jóváhagyásra váró jelentkezők"
+        list_permissions:
+          button: "Jogosultságok"
+        last_proposals: "Legújabb javaslatok"
+        last_topics: "Legfrissebb bejegyzések"
+        next_events: "Közelgő események"
+        short_url: "Rövid WEB cím"
+      header:
+        forums: "Fórum"
+      invite_your_friends:
+        title: "Ismerős meghívása ebbe a csoportba!"
+    proposals:
+      index:
+        title: 'Javaslatok listája'
+        debate_title: "Vita alatt %{count}"
+        voting_title: "Szavazás folyik %{count}"
+        accepted_title: "Szavazás lezárult %{count}"
+        revision_title: "Megszakitott %{count}"
+        categories_title: "Kategóriák"
+        loading_proposals: "Javaslatok betöltése . . ."
+        loading_alt: "Betöltés"
+        choose_model: "Válassz javaslat modellt"
+        proposal_types_title: "Modellek"
+        all_proposal_types: "Minden modell"
+      list:
+        no_proposals: "Nincs javaslat"
+      left_panel:
+        creation_date: "Létrehozás időpontja"
+        any_date: "Minden időpont"
+    header:
+      groups_title: "Csoportok"
+    home:
+      index:
+        support: "Támogatás"
+  buttons:
+    cancel: "Mágsem"
+    send: "Küldés"
+    go_back: "Vissza"
+  loading: "Jogosultságok"
