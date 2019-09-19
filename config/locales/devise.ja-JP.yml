@@ -1,0 +1,9 @@
+ja-JP:
+  errors:
+    messages:
+      not_found: "見つけてませんでした"
+      not_locked: "ロックされてませんでした"
+  devise:
+    failure:
+      locked: 'あなたのアカウントがロックされていました。'
+      invalid: 'メイルまたはパスワードが正しくがありません'
