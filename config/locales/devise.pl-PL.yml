@@ -1,0 +1,84 @@
+pl-PL:
+  errors:
+    messages:
+      expired: "wygasło, poproś o nowy"
+      not_found: "nie znaleziono"
+      already_confirmed: "zostało już potwierdzone, spróbuj się zalogować"
+      not_locked: "nie było zablokowane"
+      not_saved:
+        one: "1 Błąd uniemożliwił zapisanie %{resource}:"
+        other: "%{count} błędów uniemożliwiło zapisanie %{resource}:"
+  devise:
+    failure:
+      locked: 'Twoje konto jest zablokowane'
+      invalid: 'Nieprawidłowy adres e-mail lub hasło'
+      invalid_token: 'Nieprawidłowy token uwierzytelniania'
+      timeout: 'Twoja sesja wygasła, proszę zaloguj się ponownie aby kontynuować'
+      inactive: 'Twoje konto nie zostało jeszcze aktywowane'
+      already_authenticated: 'Jesteś już zarejestrowany'
+      unauthenticated: 'Dostęp do tej strony wymaga logowania. Proszę, zaloguj się.'
+      unconfirmed: "Konto nie zostało jeszcze potwierdzone"
+      user:
+        invalid: 'Nieprawidłowa nazwa użytkownika lub hasło'
+        not_found_in_database: 'Nieprawidłowa nazwa użytkownika lub hasło'
+    sessions:
+      signed_in: 'Zalogowano pomyślnie'
+      signed_out: 'Wylogowano pomyślnie'
+      user:
+        signed_out: 'Wylogowałeś się pomyślnie. Do widzenia'
+        signed_in: 'Zalogowałeś się. Zapraszamy!'
+        signed_up: 'Pomyślnie zakończyłeś rejestracje. Witamy!'
+    passwords:
+      send_instructions: 'Za chwilę otrzymasz email z instrukcjami na temat resetu twojego hasła'
+      updated: 'Twoje hasło zostało zmienione pomyślnie. Jesteś teraz zalogowany'
+      updated_not_active: 'Twoje hasło zostało zmienione pomyślnie'
+      send_paranoid_instructions: "Jeśli twój adres e-mail istnieje w naszej bazie danych, wyślemy Ci link do odzyskania hasła"
+    confirmations:
+      send_instructions: 'Za chwilę otrzymasz email z instrukcjami jak potwierdzić twoje konto'
+      send_paranoid_instructions: 'Jeśli twój email jest w naszej bazie danych, w ciągu kilku minut dostaniesz email z instrukcjami jak potwierdzić swoje konto'
+      confirmed: 'Twoje konto zostało potwierdzone pomyślnie. Jesteś teraz zalogowany'
+      user:
+        confirmed: 'Twoja rejestracja została zakończona sukcesem'
+        send_instructions: 'Instrukcje zostały wysłane na wyznaczony email'
+    registrations:
+      signed_up: 'Witaj! Zalogowałeś się pomyślnie'
+      signed_up_but_unconfirmed: 'Wiadomość z linkiem potwierdzającym została wysłana na twój adres email. Proszę otworzyć link aby aktywować konto'
+      signed_up_but_inactive: 'Zarejestrowałeś się pomyślnie. Jednak nie mogliśmy Cię zalogować, ponieważ Twoje konto nie zostało jeszcze aktywowane'
+      signed_up_but_locked: 'Zarejestrowałeś się pomyślnie. Jednak nie mogliśmy Cię zalogować ponieważ twoje konto jest zablokowane.'
+      updated: 'Pomyślnie zaktualizowałeś swoje konto'
+      update_needs_confirmation: "Zaktualizowałeś swoje konto pomyślnie, ale musimy zweryfikować twój adres email. Proszę sprawdź swoją skrzynkę i kliknij w link, aby zakończyć potwierdzanie swojego nowego adresu email"
+      destroyed: 'Do zobaczenia! Twoje konto zostało pomyślnie anulowane. Mamy nadzieję zobaczyć Cię ponownie wkrótce'
+      user:
+        inactive_signed_up: 'Aby zakończyć twoją rejestrację kliknij odnośnik w otrzymanej wiadomości email'
+        signed_up_but_unconfirmed: 'Kliknij na link w wiadomości e-mail wysłane na Twój adres, aby dokończyć proces rejestracji'
+    unlocks:
+      send_instructions: 'W ciągu kilku minut otrzymasz e-mail z instrukcjami jak odblokować swoje konto'
+      unlocked: 'Twoje konto zostało pomyślnie odblokowane. Zaloguj się, aby kontynuować'
+      send_paranoid_instructions: 'Jeśli twoje konto istnieje, otrzymasz e-mail z instrukcjami jak je odblokować'
+    omniauth_callbacks:
+      success: 'Twoja rejestracja została zakończona. Zapraszamy!'
+      failure: 'Nie można uwierzytelnić Cię z %{kind} z powodu "%{reason}"'
+      creation_failure: "Wystąpił błąd podczas uzyskiwania dostępu do poprzez %{provider}"
+      join_success: "Konta scalone pomyślnie. Gratulacje teraz możesz zalogować się za pośrednictwem %{provider}."
+      join_failure: "Istnieje inny %{provider} konto. Funkcję, aby dołączyć do konta będą dostępne wkrótce."
+      certified_email_taken: "Istnieje inne konto z takim adresem email."
+      already_certified: "Inne konto posiada ten sam kod podatku."
+      account_not_verified: "Konto %{provider} nie jest zweryfikowane. Prosimy o zweryfikowanie konta na %{provider}."
+    mailer:
+      confirmation_instructions:
+        subject: 'Instrukcje potwierdzenia konta'
+        welcome: "Witaj na %{app_name} %{user}!"
+        follow_link: "Możesz potwierdzić swój e-mail, klikając na poniższy link:"
+        confirm_account: "Potwierdź konto"
+        follow_link_2: "lub poprzez odwiedzenie następującego adresu url:"
+        access_by_email: "Następnie możesz zalogować się %{app_name} z podanym e-mail i wybranym hasłem"
+        contact_assistance: "Jeśli masz jakikolwiek problem z procedurą skontaktuj się z administratorem %{mail}"
+      reset_password_instructions:
+        subject: 'Instrukcje resetowania hasła'
+        hi_user: "Witaj %{user}!"
+        follow_link: "Aby zmienić hasło, kliknij na poniższy link:"
+        change_password: "Zmiana hasła"
+        ignore: "Jeżeli to nie Ty prosiłeś o zresetowanie hasła, po prostu zignoruj tę wiadomość."
+        password_will_not_change: "Twoje hasło nie zmieni się, dopóki nie klikniesz na poprzedni link."
+      unlock_instructions:
+        subject: 'Odblokuj instrukcję'
