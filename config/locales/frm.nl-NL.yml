@@ -1,0 +1,103 @@
+nl-NL:
+  frm:
+    general:
+      forum: Forum
+      topics: Onderwerpen
+      topic: Onderwerp
+      posts: Berichten
+      posts_count:
+        one: 1 bericht
+        other: "%{count} berichten"
+      flagged_for_spam: Je account is gemarkeerd voor spam.
+    admin:
+      area: Administrators gebied
+      back_to_admin: "Terug naar Admin"
+      back_to_forums: "Terug naar forums"
+      back_to_groups: "Terug naar groepen"
+      forum:
+        new: Maak een nieuw forum
+        new_link: Forum toevoegen
+      forums:
+        edit: Bewerken
+        delete: Verwijderen
+        category: Categorie
+        index:
+          last_post: Laatste bericht
+          none: Geen
+          moderators: Moderatoren
+          no_category: (Geen Categorie)
+        default_private: "Privé Forum"
+        default_public: "Openbaar Forum"
+      mod:
+        new: Nieuwe groep
+      mods:
+        show:
+          add_member: Voeg toe
+          add_a_new_member: "Voeg een nieuw lid toe"
+          current_members: "Huidige leden"
+        edit: Bewerken
+        delete: Verwijderen
+        name: Naam
+      categories:
+        edit: Bewerken
+        delete: Verwijderen
+        category: Categorie
+        default_private: "Privésectie"
+    forum:
+      forums: Forums
+    forums:
+      index:
+        title: Forum
+        forum: Forum
+        last_post: 'Laatste bericht:'
+        none: Geen
+    topic:
+      headings:
+        topic: Onderwerp
+        latest: Meest recente
+        posts: Berichten
+        views: Weergaves
+      reply: Reageren
+      quote: Citaat
+      delete: Verwijderen
+      links:
+        new: Nieuw onderwerp
+    topics:
+      show:
+        reply: Beantwoorden
+        delete: Verwijderen
+        subscribe: Abonneren
+        unsubscribe: Opzeggen
+        reply_to_topic: Reageren op onderwerp
+    post:
+      buttons:
+        edit: Bewerken
+      edit: Bewerken
+    posts:
+      moderation:
+        approve: Goedkeuren
+        spam: Spam
+  helpers:
+    submit:
+      frm_category:
+        create: Categorie aanmaken
+  simple_form:
+    labels:
+      frm_forum:
+        category: Categorie
+        title: Titel
+        description: Beschrijving
+      topic:
+        subject: Onderwerp
+        locked: Geblokkeerd
+        hidden: Verborgen
+        posts:
+          text: Tekst
+      frm_category:
+        name: Naam
+      post:
+        text: Tekst
+  time_ago_in_words: "%{time} geleden"
+  ago: " geleden"
+  by: door
+  are_you_sure: Weet je het zeker?
