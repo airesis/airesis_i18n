@@ -225,6 +225,7 @@ sr-SP:
         text: Текст
       frm_mod:
         name: Име
+  #General stuff
   time_ago_in_words: "%{time} пре"
   ago: " пре"
   ago_by: " пре"
