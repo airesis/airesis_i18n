@@ -1,0 +1,150 @@
+en-US:
+  pages:
+    proposals:
+      edit:
+        add_solution:
+          standard: "Add another solution"
+          poll: "Add another option"
+          rule_book: "Add another solution"
+          press: "Add another solution"
+          event: "Add another solution"
+          estimate: "Add another solution"
+          agenda: "Add another point"
+          candidates: "Add another candidate"
+          simple: "Add another solution"
+        solution_title:
+          standard: "Solution"
+          poll: "Option"
+          rule_book: "Solution"
+          press: "Solution"
+          event: "Solution"
+          estimate: "Solution"
+          agenda: "Point"
+          candidates: "Candidate"
+          simple: "Solution"
+        insert_title:
+          standard: "Insert a title"
+          poll: "Insert a title"
+          rule_book: "Insert a title"
+          press: "Insert a title"
+          event: "Insert a title"
+          estimate: "Insert a title"
+          agenda: "Insert a title"
+          candidates: "Insert name and surname"
+          simple: "Insert a title"
+        new_solution_title:
+          standard: "Solution <span class=\"num\">%{num}</span>:"
+          poll: "Option <span class=\"num\">%{num}</span>:"
+          rule_book: "Solution <span class=\"num\">%{num}</span>:"
+          press: "Solution <span class=\"num\">%{num}</span>:"
+          event: "Solution <span class=\"num\">%{num}</span>:"
+          estimate: "Solution <span class=\"num\">%{num}</span>:"
+          agenda: "<span class=\"num\">%{num}</span> point:"
+          candidates: "Candidate <span class=\"num\">%{num}</span>:"
+          simple: "Solution <span class=\"num\">%{num}</span>:"
+      new:
+        standard:
+          problems_title: "Problems"
+          problems_question: "What is the problem to be solved and/or what are the obstacles to overcome in order to achieve the goal?"
+          problems_title_label: "What is the problem to be solved and/or what are the obstacles to overcome in order to achieve the goal?"
+          objectives_title: "Objectives"
+          step_4_title: "You can enter a text of the proposal or write it later based on the input received"
+          solution:
+            description: "Description of the solution"
+            time: "Times"
+            subject: "Supervisor"
+            resources: "Necessary resources and how to retrieve them"
+            aspects: "Ethical, environmental, social aspects"
+            documents: "Documentation"
+            pros: "Pros"
+            cons: "Cons"
+            title: "Solution 1"
+          paragraph:
+            similar: "Similar experiences"
+            stakeholders: "Stakeholders"
+            requirements: "Solution requirements"
+          question:
+            paragraph:
+              similar: "Are there experiences to inspire to achieve the goal? Among the possible solutions / initiatives already in place, which ones have achieved the best results and which ones have the worst? Why?"
+            solution:
+              time: "When will this solution be implemented? Identify possible stages of implementation."
+              documents: "Is documentation available for the solution?"
+        rule_book:
+          problems_title: "Problems"
+          problems_question: "What are the problems to be solved with the application of this regulation? What are the issues to be regulated? Why?"
+          solution:
+            title: "Solution 1"
+            article: "Article %{num}"
+            pros: "Pros"
+            cons: "Cons"
+          paragraph:
+            inspire: "Regulation to inspire from"
+            requirements: "Requirements to meet"
+            stakeholders: "Stakeholders (involved people)"
+        press:
+          problems_title: "Message to transmit"
+          solution:
+            title: "Solution 1"
+            maintitle: "Title"
+            subtitle: "Subtitle"
+            incipit: "Incipit"
+            body: "Body"
+            conclusion: "Conclusions"
+            deep: "Insights"
+          paragraph:
+            target: "Recipients/Target"
+        estimate:
+          problems_title: "Problems"
+          solution:
+            title: "Solution 1"
+            cost: "Amount"
+            problems: "Respect of constraints and problems"
+            dumentation: "Documentation"
+          paragraph:
+            technical_constrains: "Technical  constrains"
+            temporal_constrains: "Temporal constrains"
+            budget: "Maximum budget"
+        agenda:
+          problems_title: "Type of meeting"
+          solution:
+            title: "Item"
+            priorities: "Item priority"
+            links: "Insights links"
+            description: "Description"
+            estimated_time: "Required discussion time"
+          paragraph:
+            date_time: "Date and time"
+            place: "Place"
+        event:
+          problems_title: "Event scope"
+          solution:
+            title: "Title"
+            maintitle: "Title"
+            description: "Description of the solution"
+            program: "Date, time and plan"
+            body: "place"
+            place: "Place"
+            organization: "Event organization"
+            resources: "Necessary resources and how to retrieve them"
+            pros: "Pros"
+            cons: "Cons"
+          paragraph:
+            similar_experiences: "Similar experiences"
+            stakeholders: "Stakeholders (involved people)"
+            desired_characteristics: "Desired characteristics"
+        candidates:
+          solution:
+            name: "Candidate Name and Surname"
+            data: "Personal data"
+            curriculum: "Curriculum"
+          paragraph:
+            election_type: "Description of the type of election:"
+        simple:
+          problems_title: "Problem"
+          problems_title_label: "What is the problem to be solved and/or what are the obstacles to overcome in order to achieve the goal?"
+          solution:
+            description: "Description"
+            title: "Solution 1"
+        petition:
+          paragraph:
+            text: "Petition text"
