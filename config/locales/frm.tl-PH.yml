@@ -226,6 +226,7 @@ tl-PH:
         text: Ang Teksto
       frm_mod:
         name: Ang Pangalan
+  #General stuff
   time_ago_in_words: "%{time} nakaraan"
   ago: " nakaraan"
   ago_by: " ang nakaraaan ng"
