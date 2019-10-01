@@ -226,6 +226,7 @@ it-IT:
         text: Testo
       frm_mod:
         name: Nome
+  #General stuff
   time_ago_in_words: "%{time} fa"
   ago: " fa"
   ago_by: " fa da"
