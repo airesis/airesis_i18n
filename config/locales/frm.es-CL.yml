@@ -221,6 +221,7 @@ es-CL:
         text: Texto
       frm_mod:
         name: Nombre
+  #General stuff
   time_ago_in_words: "hace %{time} antes"
   ago: " hace"
   ago_by: " hace por"
