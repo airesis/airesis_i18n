@@ -212,6 +212,7 @@ ru-RU:
         text: Текст
       frm_mod:
         name: Имя
+  #General stuff
   time_ago_in_words: "%{time} назад"
   ago: " назад"
   ago_by: " назад от"
