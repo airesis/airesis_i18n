@@ -225,6 +225,7 @@ sr-CS:
         text: Tekst
       frm_mod:
         name: Ime
+  #General stuff
   time_ago_in_words: "%{time} pre"
   ago: " pre"
   ago_by: " pre"
