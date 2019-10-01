@@ -226,6 +226,7 @@ es-ES:
         text: Texto
       frm_mod:
         name: Nombre
+  #General stuff
   time_ago_in_words: "%{time} atrás"
   ago: " atrás"
   ago_by: " atrás por"
