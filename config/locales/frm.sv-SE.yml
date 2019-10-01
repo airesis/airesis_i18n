@@ -226,6 +226,7 @@ sv-SE:
         text: Text
       frm_mod:
         name: Namn
+  #General stuff
   time_ago_in_words: "%{time} sedan"
   ago: " sedan"
   ago_by: " sedan av"
