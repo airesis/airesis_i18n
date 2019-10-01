@@ -226,6 +226,7 @@ fr-FR:
         text: Texte
       frm_mod:
         name: Nom
+  #General stuff
   time_ago_in_words: "il y a %{time}"
   ago: " déjà"
   ago_by: " déjà par"
