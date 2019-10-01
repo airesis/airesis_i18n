@@ -226,6 +226,7 @@ tr-TR:
         text: Yazı
       frm_mod:
         name: İsim
+  #General stuff
   time_ago_in_words: "%{time} önce"
   ago: " önce"
   ago_by: " önce"
