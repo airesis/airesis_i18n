@@ -178,6 +178,7 @@ pt-BR:
         name: Nome
       post:
         text: Texto
+  #General stuff
   time_ago_in_words: "% {time} atrás"
   ago: " Há"
   by: por
