@@ -223,6 +223,7 @@ id-ID:
         text: Teks
       frm_mod:
         name: Nama
+  #General stuff
   time_ago_in_words: "%{time} yang lalu"
   ago: " yang lalu"
   ago_by: " yang lalu oleh"
