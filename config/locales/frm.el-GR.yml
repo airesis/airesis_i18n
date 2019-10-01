@@ -216,6 +216,7 @@ el-GR:
         text: Κείμενο
       frm_mod:
         name: Όνομα
+  #General stuff
   time_ago_in_words: "πριν από %{time}"
   ago: " πριν"
   ago_by: " πριν από"
