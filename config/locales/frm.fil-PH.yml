@@ -226,6 +226,7 @@ fil-PH:
         text: Teksto
       frm_mod:
         name: Pangalan
+  #General stuff
   time_ago_in_words: "%{time} nakaraan"
   ago: " nakaraan"
   ago_by: " nakaraan na"
