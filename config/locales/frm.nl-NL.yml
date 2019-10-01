@@ -97,6 +97,7 @@ nl-NL:
         name: Naam
       post:
         text: Tekst
+  #General stuff
   time_ago_in_words: "%{time} geleden"
   ago: " geleden"
   by: door
