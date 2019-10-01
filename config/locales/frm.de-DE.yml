@@ -220,6 +220,7 @@ de-DE:
         text: Text
       frm_mod:
         name: Name
+  #General stuff
   time_ago_in_words: "vor %{time}"
   ago: " vor"
   ago_by: " von"
