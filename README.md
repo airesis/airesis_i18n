@@ -38,6 +38,9 @@ push git commits and tags, and push the `.gem` file to [rubygems.org](https://ru
 
 The translations are uploaded on Crowdin. You can request access to Crowdin to help translating.
 
+You can fetch the latest airesis translations with `bin/rails airesis_i18n:update`.
+This will download the latest english files from the main branch of airesis.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/airesis/airesis_i18n. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
