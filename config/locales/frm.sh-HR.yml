@@ -227,6 +227,7 @@ sh-HR:
         text: Tekst
       frm_mod:
         name: Ime
+  #General stuff
   time_ago_in_words: "%{time} prije"
   ago: " prije"
   ago_by: " prije"
