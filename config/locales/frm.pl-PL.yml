@@ -217,6 +217,7 @@ pl-PL:
         text: Tekst
       frm_mod:
         name: Imię
+  #General stuff
   time_ago_in_words: "%{time} temu"
   ago: " temu"
   ago_by: " temu przez"
