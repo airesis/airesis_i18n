@@ -194,6 +194,7 @@ pt-PT:
         name: Nome
       post:
         text: Texto
+  #General stuff
   time_ago_in_words: "%{time} atrás"
   ago: " Há"
   ago_by: " Há por"
