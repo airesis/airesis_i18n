@@ -1,64 +1,10 @@
-tl-PH:
+tl:
   db:
     sys_locales:
-      bs-BA:
-        description: Ang Bosnian
-      de-DE:
-        description: Ang Aleman
-      el-GR:
-        description: Ang Griyego
-      en-AU:
-        description: Ang Ingles (Australya)
-      en-EU:
-        description: Ang Ingles (Europa)
-      en-GB:
-        description: Ang Ingles (UK)
-      en-IE:
-        description: Ang Ingles (Ireland)
-      en-NZ:
-        description: Ang Ingles (New Zeland)
-      en-US:
-        description: Ang Ingles (USA)
-      en-ZA:
-        description: Ang Ingles (Timog Africa)
-      es-AR:
-        description: Ang Espanyol (Argentina)
-      es-CL:
-        description: Ang Espanyol (Chile)
-      es-EC:
-        description: Ang Espanyol (Ekwador)
-      es-ES:
-        description: Ang Ispanyol
-      fr-FR:
-        description: Ang Pranses
-      hu-HU:
-        description: Ang Unggaro
-      id-ID:
-        description: Ang Indonesian
-      it-IT:
-        description: Ang Italyano
-      jp-JP:
-        description: Ang Hapon
-      me-ME:
-        description: Ang Montenegrin
-      nl-NL:
-        description: Ang Netherland
-      pt-BR:
-        description: Ang Portuges (Brazil)
-      pt-PT:
-        description: Ang Portuges (Portugal)
-      ro-RO:
-        description: Ang Romano
-      ru-RU:
-        description: Ang Ruso
-      sh-HR:
-        description: Ang Serbo-Croatian
       sr-CS:
         description: Ang Serbiyo (Latino)
       sr-SP:
         description: Ang Serbiyo (Cyrillic)
-      zh-TW:
-        description: Ang Tsino
     proposal_types:
       STANDARD:
         description: Ang Pamantayang Panukala
