@@ -1,12 +1,5 @@
-pt-PT:
+pt:
   db:
-    sys_locales:
-      es-ES:
-        description: Espanhol
-      it-IT:
-        description: Italiano
-      pt-BR:
-        description: Português (Brasil)
     proposal_types:
       STANDARD:
         description: Proposta padrão
