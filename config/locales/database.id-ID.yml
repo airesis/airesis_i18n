@@ -1,64 +1,10 @@
-id-ID:
+id:
   db:
     sys_locales:
-      bs-BA:
-        description: Bosnia
-      de-DE:
-        description: Jerman
-      el-GR:
-        description: Yunani
-      en-AU:
-        description: Inggris (Australia)
-      en-EU:
-        description: Inggris (Eropa)
-      en-GB:
-        description: Inggris (UK)
-      en-IE:
-        description: Inggris (Irlandia)
-      en-NZ:
-        description: Inggris (Selandia Baru)
-      en-US:
-        description: Inggris (AS)
-      en-ZA:
-        description: Inggris (Afrika Selatan)
-      es-AR:
-        description: Spanyol (Argentina)
-      es-CL:
-        description: Spanyol (Chile)
-      es-EC:
-        description: Spanyol (Ekuador)
-      es-ES:
-        description: Spanyol
-      fr-FR:
-        description: Prancis
-      hu-HU:
-        description: Hungaria
-      id-ID:
-        description: Indonesia
-      it-IT:
-        description: Italia
-      jp-JP:
-        description: Jepang
-      me-ME:
-        description: Montenegro
-      nl-NL:
-        description: Belanda
-      pt-BR:
-        description: Portugis (Brasil)
-      pt-PT:
-        description: Portugis (Portugal)
-      ro-RO:
-        description: Rumania
-      ru-RU:
-        description: Rusia
-      sh-HR:
-        description: Serbo-Kroasia
       sr-CS:
         description: Serbia (Latin)
       sr-SP:
         description: Serbia (Cyrillic)
-      zh-TW:
-        description: Tionghoa
     proposal_types:
       STANDARD:
         description: Proposal Standar
