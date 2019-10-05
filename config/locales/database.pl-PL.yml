@@ -1,64 +1,10 @@
-pl-PL:
+pl:
   db:
     sys_locales:
-      bs-BA:
-        description: Bośniacki
-      de-DE:
-        description: Niemiecki
-      el-GR:
-        description: Grecki
-      en-AU:
-        description: Angielski (Australia)
-      en-EU:
-        description: Angielski (Europa)
-      en-GB:
-        description: Angielski (Wielka Brytania)
-      en-IE:
-        description: Angielski (Irlandia)
-      en-NZ:
-        description: Angielski (Nowa Zelandia)
-      en-US:
-        description: Angielski (USA)
-      en-ZA:
-        description: Angielski (Rep. Południowej Afryki)
-      es-AR:
-        description: Hiszpański (Argentyna)
-      es-CL:
-        description: Hiszpański (Chile)
-      es-EC:
-        description: Hiszpański (Ekwador)
-      es-ES:
-        description: Hiszpański
-      fr-FR:
-        description: Francuski
-      hu-HU:
-        description: Węgierski
-      id-ID:
-        description: Indonezyjski
-      it-IT:
-        description: Włoski
-      jp-JP:
-        description: Japoński
-      me-ME:
-        description: Czarnogórski
-      nl-NL:
-        description: Holandia
-      pt-BR:
-        description: Portugalski (Brazylia)
-      pt-PT:
-        description: Portugalski (Portugalia)
-      ro-RO:
-        description: Rumuński
-      ru-RU:
-        description: Rosyjski
-      sh-HR:
-        description: Serbsko-chorwacki
       sr-CS:
         description: Serbski (Łacina)
       sr-SP:
         description: Serbski (Cyrylica)
-      zh-TW:
-        description: Chiński
     proposal_types:
       STANDARD:
         description: Standardowy wniosek
