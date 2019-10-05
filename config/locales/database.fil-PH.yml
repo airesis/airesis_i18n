@@ -1,64 +1,10 @@
-fil-PH:
+fil:
   db:
     sys_locales:
-      bs-BA:
-        description: Bosnian
-      de-DE:
-        description: Aleman
-      el-GR:
-        description: Griyego
-      en-AU:
-        description: Ingles (Australia)
-      en-EU:
-        description: Ingles (Europa)
-      en-GB:
-        description: Ingles (UK)
-      en-IE:
-        description: Ingles (Ireland)
-      en-NZ:
-        description: Ingles (New Zealand)
-      en-US:
-        description: Ingles (USA)
-      en-ZA:
-        description: Ingles (Timog Aprika)
-      es-AR:
-        description: Espanyol (Argentina)
-      es-CL:
-        description: Espanyol (Chile)
-      es-EC:
-        description: Espanyol (Ecuador)
-      es-ES:
-        description: Espanyol
-      fr-FR:
-        description: Pranses
-      hu-HU:
-        description: Hungarian
-      id-ID:
-        description: Indonesian
-      it-IT:
-        description: Italyano
-      jp-JP:
-        description: Hapon
-      me-ME:
-        description: Montenegrin
-      nl-NL:
-        description: Netherlands
-      pt-BR:
-        description: Portuges (Brazil)
-      pt-PT:
-        description: Portuges (Portugal)
-      ro-RO:
-        description: Romanian
-      ru-RU:
-        description: Ruso
-      sh-HR:
-        description: Serbo-Croatian
       sr-CS:
         description: Serbia (Latin)
       sr-SP:
         description: Serbia (Cyrillic)
-      zh-TW:
-        description: Chinese
     proposal_types:
       STANDARD:
         description: Pamantayan na panukala
