@@ -1,12 +1,5 @@
-ro-RO:
+ro:
   db:
-    sys_locales:
-      es-ES:
-        description: Spaniolă
-      it-IT:
-        description: Italiană
-      pt-BR:
-        description: Portugheză (Brazilia)
     proposal_types:
       STANDARD:
         description: Propunere standard
