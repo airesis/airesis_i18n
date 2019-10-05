@@ -3,11 +3,11 @@ sr-SP:
     sys_locales:
       bs-BA:
         description: Босански
-      de-DE:
+      de:
         description: Немачки
-      el-GR:
+      el:
         description: Грчки
-      es-ES:
+      es:
         description: Шпански
       fr-FR:
         description: Француски
@@ -15,19 +15,19 @@ sr-SP:
         description: Мађарски
       id-ID:
         description: Индонежански
-      it-IT:
+      it:
         description: Италијански
       jp-JP:
         description: Јапански
-      me-ME:
+      me:
         description: Црногорски
       pt-BR:
         description: Португалски (Бразил)
-      ro-RO:
+      ro:
         description: Румунски
-      ru-RU:
+      ru:
         description: Руски
-      zh-TW:
+      zh:
         description: Кинески
     proposal_types:
       STANDARD:

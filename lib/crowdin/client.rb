@@ -17,18 +17,6 @@ module Crowdin
                                   account_key: ENV['CROWDIN_ACCOUNT_KEY'])
     end
 
-    def upload_sources
-      source_files_path = Dir['config/locales/**/*.en-EU.yml']
-      files = []
-      source_files_path.each do |path|
-        files << { dest: "/#{File.basename(path).gsub('en-EU', 'en')}",
-                   source: path,
-                   export_pattern: '/' + path.gsub('en-EU.yml', '%locale%.yml') }
-      end
-      puts "uploading #{source_files_path}"
-      @crowdin.add_file(files, type: 'yaml')
-    end
-
     def upload_translations
       transl_files_path = Dir['config/locales/**/*.it-IT.yml']
       files = []
