@@ -1,12 +1,5 @@
-nl-NL:
+nl:
   db:
-    sys_locales:
-      es-ES:
-        description: Spaans
-      it-IT:
-        description: Italiaans
-      pt-BR:
-        description: Portugees (Brazilië)
     proposal_types:
       STANDARD:
         description: Standaard voorstel
