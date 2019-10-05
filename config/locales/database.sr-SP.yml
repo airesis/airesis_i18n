@@ -1,64 +1,10 @@
-sr-SP:
+sr:
   db:
     sys_locales:
-      bs-BA:
-        description: Босански
-      de-DE:
-        description: Немачки
-      el-GR:
-        description: Грчки
-      en-AU:
-        description: Енглески (Аустралија)
-      en-EU:
-        description: Енглески (Европа)
-      en-GB:
-        description: Енглески (УК)
-      en-IE:
-        description: Енглески (Ирска)
-      en-NZ:
-        description: Енглески (Нови Зеланд)
-      en-US:
-        description: Енглески (САД)
-      en-ZA:
-        description: Енглески (Јужна Африка)
-      es-AR:
-        description: Шпански (Аргентина)
-      es-CL:
-        description: Шпански (Чиле)
-      es-EC:
-        description: Шпански (Еквадор)
-      es-ES:
-        description: Шпански
-      fr-FR:
-        description: Француски
-      hu-HU:
-        description: Мађарски
-      id-ID:
-        description: Индонежански
-      it-IT:
-        description: Италијански
-      jp-JP:
-        description: Јапански
-      me-ME:
-        description: Црногорски
-      nl-NL:
-        description: Холандија
-      pt-BR:
-        description: Португалски (Бразил)
-      pt-PT:
-        description: Португалски (Португалија)
-      ro-RO:
-        description: Румунски
-      ru-RU:
-        description: Руски
-      sh-HR:
-        description: Српско-хрватски
       sr-CS:
         description: Српски (латиница)
       sr-SP:
         description: Српски (ћирилица)
-      zh-TW:
-        description: Кинески
     proposal_types:
       STANDARD:
         description: Стандардни предлог
