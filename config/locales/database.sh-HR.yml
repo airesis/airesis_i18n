@@ -1,12 +1,5 @@
-sh-HR:
+sh:
   db:
-    sys_locales:
-      es-ES:
-        description: Španjolski
-      it-IT:
-        description: Talijanski
-      pt-BR:
-        description: Portugalski (Brazil)
     proposal_types:
       STANDARD:
         description: Standardni prijedlog
