@@ -1,34 +1,5 @@
 pt-BR:
   db:
-    sys_locales:
-      bs-BA:
-        description: Bósnio
-      de-DE:
-        description: Alemão
-      el-GR:
-        description: Grego
-      en-AU:
-        description: Inglês (Austrália)
-      en-EU:
-        description: Inglês (Europa)
-      en-GB:
-        description: Inglês (Reino Unido)
-      en-IE:
-        description: Inglês (Irlanda)
-      en-NZ:
-        description: Inglês (Nova Zelândia)
-      en-US:
-        description: Inglês (EUA)
-      en-ZA:
-        description: Inglês (África do Sul)
-      es-ES:
-        description: Espanhol
-      fr-FR:
-        description: Francês
-      it-IT:
-        description: Italiano
-      pt-BR:
-        description: Português (Brasil)
     proposal_types:
       STANDARD:
         description: Proposta Padrão
