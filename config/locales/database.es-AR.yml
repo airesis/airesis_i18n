@@ -1,64 +1,10 @@
 es-AR:
   db:
     sys_locales:
-      bs-BA:
-        description: Bosnia
-      de-DE:
-        description: Alemán
-      el-GR:
-        description: Griego
-      en-AU:
-        description: Inglés (Australia)
-      en-EU:
-        description: Inglés (Europa)
-      en-GB:
-        description: Inglés (Reino Unido)
-      en-IE:
-        description: Inglés (Irlanda)
-      en-NZ:
-        description: Inglés (Nueva Zelanda)
-      en-US:
-        description: Inglés (Estados Unidos)
-      en-ZA:
-        description: Inglés (Sudáfrica)
-      es-AR:
-        description: Español (Argentina)
-      es-CL:
-        description: Español (Chile)
-      es-EC:
-        description: Español (Ecuador)
-      es-ES:
-        description: Español
-      fr-FR:
-        description: Francés
-      hu-HU:
-        description: Húngaro
-      id-ID:
-        description: Indonesio
-      it-IT:
-        description: italiano
-      jp-JP:
-        description: Japonés
-      me-ME:
-        description: Montenegro
-      nl-NL:
-        description: Holanda
-      pt-BR:
-        description: Portugués (Brasil)
-      pt-PT:
-        description: Portugués (Portugal)
-      ro-RO:
-        description: Rumano
-      ru-RU:
-        description: Ruso
-      sh-HR:
-        description: Serbocroata
       sr-CS:
         description: Serbia (Latín)
       sr-SP:
         description: Serbia (cirílico)
-      zh-TW:
-        description: Chino
     proposal_types:
       STANDARD:
         description: Propuesta estándar
