@@ -1,12 +1,5 @@
-bs-BA:
+bs:
   db:
-    sys_locales:
-      es-ES:
-        description: Španski
-      it-IT:
-        description: Talijanski
-      pt-BR:
-        description: Portugalski (Brazil)
     proposal_types:
       STANDARD:
         description: Standardni prijedlog
