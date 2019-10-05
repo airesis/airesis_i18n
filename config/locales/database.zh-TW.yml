@@ -1,64 +1,10 @@
 zh-TW:
   db:
     sys_locales:
-      bs-BA:
-        description: 波斯尼亚文
-      de-DE:
-        description: 德文
-      el-GR:
-        description: 希臘文
-      en-AU:
-        description: 英語（澳大利亞）
-      en-EU:
-        description: 英語 (歐洲)
-      en-GB:
-        description: 英語 (英國)
-      en-IE:
-        description: 英語（愛爾蘭）
-      en-NZ:
-        description: 英語（紐西蘭）
-      en-US:
-        description: 英語 （美國）
-      en-ZA:
-        description: 英語（南非）
-      es-AR:
-        description: 西班牙語（阿根廷）
-      es-CL:
-        description: 西班牙語（智利）
-      es-EC:
-        description: 西班牙語（厄瓜多）
-      es-ES:
-        description: 西班牙文
-      fr-FR:
-        description: 法文
-      hu-HU:
-        description: 匈牙利語
-      id-ID:
-        description: 印尼文
-      it-IT:
-        description: 義大利文
-      jp-JP:
-        description: 日文
-      me-ME:
-        description: 黑山
-      nl-NL:
-        description: 荷蘭
-      pt-BR:
-        description: 葡萄牙文 （巴西）
-      pt-PT:
-        description: 葡萄牙語（葡萄牙）
-      ro-RO:
-        description: 羅馬尼亞語
-      ru-RU:
-        description: 俄文
-      sh-HR:
-        description: 塞尔维亚-克罗地亚文
       sr-CS:
         description: 塞爾維亞語 (拉丁字母)
       sr-SP:
         description: 塞爾維亞語 (西里爾字母)
-      zh-TW:
-        description: 中文
     proposal_types:
       STANDARD:
         description: 標準的議案
