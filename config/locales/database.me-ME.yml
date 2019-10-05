@@ -1,12 +1,5 @@
-me-ME:
+me:
   db:
-    sys_locales:
-      es-ES:
-        description: Španski
-      it-IT:
-        description: Italijanski
-      pt-BR:
-        description: Portugalski (Brazil)
     proposal_types:
       STANDARD:
         description: Standardni prijedlog
