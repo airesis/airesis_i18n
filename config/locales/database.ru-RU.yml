@@ -1,12 +1,5 @@
-ru-RU:
+ru:
   db:
-    sys_locales:
-      es-ES:
-        description: испанский
-      it-IT:
-        description: итальянский
-      pt-BR:
-        description: Португальский (Бразилия)
     proposal_types:
       STANDARD:
         description: Стандартное предложение
