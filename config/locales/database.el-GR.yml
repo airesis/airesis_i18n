@@ -1,12 +1,5 @@
-el-GR:
+el:
   db:
-    sys_locales:
-      es-ES:
-        description: Ισπανικά
-      it-IT:
-        description: Ιταλικά
-      pt-BR:
-        description: Πορτογαλικά (Βραζιλίας)
     proposal_types:
       STANDARD:
         description: Τυπική πρόταση
