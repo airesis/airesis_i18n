@@ -1,64 +1,10 @@
-tr-TR:
+tr:
   db:
     sys_locales:
-      bs-BA:
-        description: Boşnakça
-      de-DE:
-        description: Almanca
-      el-GR:
-        description: Yunan
-      en-AU:
-        description: İngilizce (Avustralya)
-      en-EU:
-        description: İngilizce (Avrupa)
-      en-GB:
-        description: İngilizce (UK)
-      en-IE:
-        description: İngilizce (İrlanda)
-      en-NZ:
-        description: İngilizce (Yeni Zelanda)
-      en-US:
-        description: İngilizce (ABD)
-      en-ZA:
-        description: İngilizce (Güney Afrika)
-      es-AR:
-        description: İspanyolca (Arjantin)
-      es-CL:
-        description: İspanyolca (Şili)
-      es-EC:
-        description: İspanyolca (Ekvador)
-      es-ES:
-        description: İspanyolca
-      fr-FR:
-        description: Fransızca
-      hu-HU:
-        description: Macarca
-      id-ID:
-        description: Endonezya
-      it-IT:
-        description: İtalyan
-      jp-JP:
-        description: Japonca
-      me-ME:
-        description: Karadağca
-      nl-NL:
-        description: Hollanda
-      pt-BR:
-        description: Portekizce (Brezilya)
-      pt-PT:
-        description: Portekizce (Portekiz)
-      ro-RO:
-        description: Romence
-      ru-RU:
-        description: Rusça
-      sh-HR:
-        description: Sırpça-Hırvatça
       sr-CS:
         description: Srpça (Latin)
       sr-SP:
         description: Sırpça (Kiril)
-      zh-TW:
-        description: Çince
     proposal_types:
       STANDARD:
         description: Normal Teklif
