@@ -373,6 +373,7 @@ es-EC:
         content_html: |
           <p>Si eliges publicar su banner, sera de gran ayuda al proyecto. Gracias.</p>
     tags:
+      title: "Airesis - La Red Social para la Democracia Digital"
       description: "Una herramienta de toma de decisiones para una democracia directa y gobierno digital: participa en discusiones, aporta tus ideas, sugiere soluciones y vota en línea"
     engage:
       title: "Participa en el proyecto para una nueva democracia"
@@ -383,6 +384,22 @@ es-EC:
         banner: "Publicidad"
       paragraph1:
         title: "Airesis está abierto a todos"
+        description_html: |
+          <p>Airesis es un proyecto basado en un software libre y de código abierto. Puede contribuir a su desarrollo:</p>
+          <ul>
+          <li>Utilizando la plataforma y haciendo control de fallas</li>
+          <li>Dando comentarios y sugerencias sobre el uso y la interfaz de usuario de la plataforma</li>
+          <li>Programando la interfaz de usuario de la plataforma (Requerido: conocimiento de de HTML, CSS o Javascript)</li>
+          <li>Programando el lugar del servidor de la plataforma (Requerido: conocimiento de Ruby y/o Lenduaje C++, o con voluntad de aprenderlo con la ayuda de otros voluntarios)</li>
+          <li>Apoyandonos con<a href=%{donations_path}>donaciones</a> o recausando fondos</li>
+          <li><a href="#linkback">Definiendo la palabra</a> sobre el proyecto y manejando sus comunicaciones</li>
+          </ul>
+          <p>Para ayudarnos acoordinar nuestras actividades podemos utilizar estas herramientas. Puede empezar por aqui:</p>
+          <ul>
+          <li><a href="https://groups.google.com/forum/?fromgroups=#!forum/agora-20" target="_blank">Grupos de Desarrollo sobre Grupos de Google</a></li>
+          <li><a href="https://www.facebook.com/groups/airesis/" target="_blank">Grupos de Desarrollo sobre Facebook</a></li>
+          <li><a href="https://github.com/coorasse/Airesis" target="_blank">Código fuente</a></li>
+          </ul>
       paragraph2:
         title: "Cómo contribuir"
         description_html: |
