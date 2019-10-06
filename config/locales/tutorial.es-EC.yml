@@ -1,6 +1,7 @@
 es-EC:
   tutorial:
     proposals_index:
+      welcome_open_space: "¡Bienvenido al espacio abierto de Airesis! Este grupo es un espacio particular en donde todos los usuarios participan. Puedes encontrar una lista de propuestas añadidas libremente por los usuarios de la aplicación y también puedes añadir las tuyas."
       welcome_group: "Esta es la lista de propuestas del grupo <b>%{group_name}</b>. Aquí encontrarás una lista de propuestas añadida por los miembros del grupo e incluso puede añadir las suyas"
       new_proposal: "En el menú lateral derecho encontrarás un botón para crear nuevas propuestas..."
       filters: "... y diferentes filtros para encontrar las propuestas en las que estás interesado"
@@ -23,9 +24,12 @@ es-EC:
       end: "Esta es la estructura de la lista de propuestas. Es la misma en cada grupo en el que participas y te ayudará a orientarte en las discusiones del grupo"
     proposals_show:
       welcome: "Bienvenido a esta propuesta, en debate sobre Airesis. Este tutorial explicara en detalle las diferentes partes que la componen"
+      title: "El título de la propuesta, que es el tema de la discusión"
+      status_description: "Esto demuestra las condiciones para terminar el debate"
       main: "Estos son los párrafos de los que están hechas las propuestas"
       solution_main: "Esta es una solución. Incluso la solución esta hecha por diferentes párrafos. Los editores escriben una o más soluciones para resolver el problema que se encontró"
       contributeButton: "Utilizando estos botones puede ver la contribución de otros usuarios y agregar la suya. Las contribuciones siempre se refieren al párrafo al cual ellos acceden"
+      newComment: "Utilice este campo para añadir una contribución que no se refiera a un párrafo específico"
       menu_left: "En este menú de la izquierda puede encontrar toda la información sobre la propuesta"
       evaluations: "El numero de evaluaciones expresadas por los participantes, que ha indicado si la propuesta esta lista para el voto o el debate debería continuar"
       status: "Los estados de la propuesta. En este caso esta en la fase de debate"
