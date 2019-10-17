@@ -1,6 +1,28 @@
 it:
   db:
     sys_locales:
+      bs:
+        description: Bosniaco
+      de:
+        description: Tedesco
+      el:
+        description: Greco
+      en:
+        description: Inglese
+      es:
+        description: Spagnolo
+      fr:
+        description: Francese
+      hu:
+        description: Ungherese
+      id:
+        description: Indonesiano
+      it:
+        description: Italiano
+      jp:
+        description: Giapponese
+      me:
+        description: Montenegrino
       sr-CS:
         description: Serbo Latino
       sr-SP:
