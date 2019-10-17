@@ -23,10 +23,22 @@ it:
         description: Giapponese
       me:
         description: Montenegrino
+      nl:
+        description: Olandese
+      pt:
+        description: Portoghese
+      ro:
+        description: Romeno
+      ru:
+        description: Russo
+      sh:
+        description: Serbo-Croato
       sr-CS:
         description: Serbo Latino
       sr-SP:
         description: Serbo Cirillico
+      zh:
+        description: Cinese
     proposal_types:
       STANDARD:
         description: Proposta standard
