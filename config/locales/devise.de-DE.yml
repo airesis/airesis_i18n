@@ -27,6 +27,7 @@ de-DE:
       user:
         signed_out: 'Sie haben sich erfolgreich ausgeloggt. Auf Wiedersehen'
         signed_in: 'Sie haben sich angemeldet. Herzlich Willkommen!'
+        signed_up: 'Du hast die Registrierung korrekt abgeschlossen. Willkommen!'
     passwords:
       send_instructions: 'In wenigen Minuten werden Sie eine Email mit Anweisungen erhalten, wie Sie Ihr Passwort zurücksetzen können'
       updated: 'Ihr Passwort wurde erfolgreich geändert. Sie sind jetzt angemeldet'
