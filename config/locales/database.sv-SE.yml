@@ -1,1 +1,67 @@
 sv:
+  db:
+    sys_locales:
+      bs:
+        description: Bosniska
+      de:
+        description: Tyska
+      el:
+        description: Grekiska
+      en:
+        description: Engelska
+      es:
+        description: Spanska
+      fr:
+        description: Franska
+      hu:
+        description: Ungerska
+      id:
+        description: Indonesiska
+      it:
+        description: Italienska
+      jp:
+        description: Japanska
+      me:
+        description: Montenegrinska
+      nl:
+        description: Nederländska
+      pt:
+        description: Portugisiska
+      ro:
+        description: Rumänska
+      ru:
+        description: Ryska
+      sh:
+        description: Serbokroatiska
+      sr-CS:
+        description: Serbiska (Latin)
+      sr-SP:
+        description: Serbiska (Kyrillisk)
+      zh:
+        description: Kinesiska
+    proposal_types:
+      RULE_BOOK:
+        description: Regelbok
+      PRESS:
+        description: Pressmeddelande
+      EVENT:
+        description: Event-organisation
+      AGENDA:
+        description: Agenda
+    event_types:
+      meeting:
+        description: möte
+      vote:
+        description: rösta
+      meeting2:
+        description: möte
+      election:
+        description: val
+    group_actions:
+      view_documents:
+        description: Visa dokument
+      manage_documents:
+        description: Hantera dokument
+    notification_categories:
+      GROUPS:
+        description: Grupper
