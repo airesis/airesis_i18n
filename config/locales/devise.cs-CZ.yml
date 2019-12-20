@@ -12,3 +12,4 @@ cs-CZ:
     failure:
       locked: 'Váš účet je uzamčen'
       invalid: 'Neplatný e-mail nebo heslo'
+      already_authenticated: 'Již jste registrován'
