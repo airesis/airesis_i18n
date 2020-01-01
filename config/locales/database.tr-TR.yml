@@ -1,6 +1,24 @@
 tr:
   db:
     sys_locales:
+      bs:
+        description: Boşnak
+      de:
+        description: Alman
+      el:
+        description: Yunan
+      en:
+        description: İngilizce
+      es:
+        description: İspanyol
+      fr:
+        description: Fransız
+      hu:
+        description: Macar
+      id:
+        description: Endonez
+      it:
+        description: İtalyan
       sr-CS:
         description: Srpça (Latin)
       sr-SP:
