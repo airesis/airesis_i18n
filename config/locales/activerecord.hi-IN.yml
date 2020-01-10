@@ -1,1 +1,4 @@
 hi-IN:
+  activerecord:
+    models:
+      meeting: 'बैठकों'
