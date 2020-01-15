@@ -56,6 +56,10 @@ pt-BR:
         what_i_cant_do: "O que não posso fazer?"
         certified_from: "Fórum certificado"
         group_level_permission_title: "Permissões de nível de grupo"
+        admin_permissions: "Você é administrador deste grupo e você tem todas as permissões"
+        certified_cannot_edit_info: "Usuário certificado: você não pode editar seu nome, sobrenome e e-mail"
+        twitter_url: "Twitter URL"
+        meetup_url: "URL da Reunião"
       send_message:
         subject_label: "Assunto"
         body_label: "Corpo"
@@ -92,8 +96,10 @@ pt-BR:
       border_preferences:
         updating: "Por favor aguarde enquanto atualizamos as suas preferências de acordo com seus dados"
         your_borders: "Suas fronteiras geográficas de interesse"
+      send_message_title: "Enviar uma mensagem para %{name}"
     groups:
       accept_requests:
+        portavoce: "Administrador: quando um usuário quer se juntar ao grupo, apenas os administradores do grupo podem aceitar a solicitação. Uma vez que a solicitação foi aceita, o usuário fará parte dos membros do grupo."
         unavailable_option: "Opção ainda não disponível"
       administration_panel:
         title: 'Painel de Administração'
@@ -144,6 +150,7 @@ pt-BR:
         search_description: "Use a ferramenta de busca ou clique em um tag para encontrar grupos de seu interesse"
         insert_query_or_place: "Você deve inserir pelo menos três caracteres ou uma fronteira geográfica"
         tags: "Tags"
+        participants_number: "Número de participantes"
         proposals_number: "Número de propostas"
         events_number: "Número de eventos"
         no_results: "Nenhum grupo encontrado"
