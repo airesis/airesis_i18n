@@ -32,3 +32,13 @@ da-DK:
       send_instructions: 'Du vil i løbet af få minutter modtage en e-mail indeholdende instruktioner om, hvorledes du nulstiller din adgangskode'
       updated: 'Det lykkedes at skifte din adgangskode. Du er nu logget ind'
       updated_not_active: 'Din adgangskode er blevet ændret'
+      send_paranoid_instructions: "Hvis din email allerede eksisterer i vores database, vil du modtage et link til at nulstille din adgangskode via email"
+    confirmations:
+      send_instructions: 'Du vil om få minutter modtage en email med instruktion til, hvordan du bekræfter din konto'
+      send_paranoid_instructions: 'Hvis din emailadresse allerede findes i vores database, vil du om få minutter modtage en email om, hvordan du bekræfter din konto'
+      confirmed: 'Din konto er godkendt. Du er nu logget ind'
+      user:
+        confirmed: 'Din registrering lykkedes'
+        send_instructions: 'Instruktioner er blevet sendt til din email'
+    registrations:
+      signed_up: 'Velkommen! Din registrering lykkedes'
