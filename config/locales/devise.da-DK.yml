@@ -1,1 +1,34 @@
 da-DK:
+  errors:
+    messages:
+      expired: "er udløbet, anmod venligst om en ny"
+      not_found: "ikke fundet"
+      already_confirmed: "er allerede bekræftet, prøv venligst at logge ind"
+      not_locked: "blev ikke låst"
+      not_saved:
+        one: "1 fejl forhindrede denne %{resource} i at blive gemt:"
+        other: "%{count} fejl forhindrede denne %{resource} i at blive gemt:"
+  devise:
+    failure:
+      locked: 'Din konto er låst'
+      invalid: 'Ugyldig email eller adgangskode'
+      invalid_token: 'Ugyldigt bekræftelsesnøgle'
+      timeout: 'Din session er udløbet, log venligst ind igen for at fortsætte'
+      inactive: 'Din konto er ikke blevet aktiveret endnu'
+      already_authenticated: 'Du er allerede registreret'
+      unauthenticated: 'Log ind kræves for at tilgå denne side. Log venligst ind.'
+      unconfirmed: "Konto er ikke blevet bekræftet endnu"
+      user:
+        invalid: 'Ugyldigt brugernavn eller adgangskode'
+        not_found_in_database: 'Ugyldigt brugernavn eller adgangskode'
+    sessions:
+      signed_in: 'Du er nu logget ind'
+      signed_out: 'Du er nu logget ud'
+      user:
+        signed_out: 'Du er nu logget ud. Farvel'
+        signed_in: 'Du er logget ind. Velkommen!'
+        signed_up: 'Du har gennemført registreringen. Velkommen!'
+    passwords:
+      send_instructions: 'Du vil i løbet af få minutter modtage en e-mail indeholdende instruktioner om, hvorledes du nulstiller din adgangskode'
+      updated: 'Det lykkedes at skifte din adgangskode. Du er nu logget ind'
+      updated_not_active: 'Din adgangskode er blevet ændret'
