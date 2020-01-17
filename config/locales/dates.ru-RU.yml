@@ -76,6 +76,7 @@ ru-RU:
     firstDay: 0
     timeFormat: 'h:mm TT{ - [ddd] [dd] h:mm TT}'
     changed: 'Изменено!'
+    eventsFormat: 'ч(:мм)в'
   date:
     formats:
       short: "%b %d"
