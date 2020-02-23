@@ -28,6 +28,7 @@ uk-UA:
         interest_border_id: 'Сфера інтересів'
         default_role_name: "Яке нове ім'я користувача?"
         image_url_placeholder: "Посилання на зображення групи"
+        private: "Приватна група"
         image: "Завантажити зображення"
       blog:
         title: 'Заголовок'
@@ -38,6 +39,8 @@ uk-UA:
         published_true: 'Опубліковане'
         published_false: 'Чернетка'
         published_reserved: "Зарезервовано"
+        group_ids: Опубліковано у наступних групах
+        published_at: Опубліковано
       participation_role:
         name: 'Назва'
         description: 'Короткий опис'
@@ -47,6 +50,34 @@ uk-UA:
       place:
         address: 'Адреса'
         municipality_id: 'Місто'
+        latitude_original: Широта
+        longitude_original: Довгота
       proposal:
+        group_area_id: "Робоча зона"
         proposal_category_id: 'Категорія'
+        title: 'Заголовок'
+        subtitle: 'Підзаголовок'
+        problems: 'Проблеми'
+        content: 'Текст'
+        tags_list: "Теги"
+        anonima: "Тимчасова анонімність"
         visible_outside: "Публічний доступ"
+        secret_vote: "Таємне голосування"
+        vote_starts_at: "Голосування розпочинається о"
+        vote_ends_at: "Голосування закінчується о"
+      proposal_comment:
+        content: 'Контент'
+      quorum:
+        minutes: Тривалість дебатів
+        minutes_m: Хвилин
+      search_participant:
+        role_id: 'Роль'
+      user:
+        name: 'Ім''я'
+        email: 'Адреса електронної пошти'
+        surname: 'Прізвище'
+        password: 'Пароль'
+        linkedinpageurl: 'Ваша сторінка на LinkedIn'
+        facebookpageurl: 'Ваша сторінка на Facebook'
+        accept_conditions: 'Умови використання'
+        blocked: "Помилка"
