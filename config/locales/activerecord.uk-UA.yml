@@ -27,11 +27,16 @@ uk-UA:
         interest_border_tkn: 'Сфера інтересів'
         interest_border_id: 'Сфера інтересів'
         default_role_name: "Яке нове ім'я користувача?"
+        image_url_placeholder: "Посилання на зображення групи"
         image: "Завантажити зображення"
       blog:
         title: 'Заголовок'
       blog_post:
+        title: 'Заголовок'
+        body: 'Текст'
+        published: 'Стан'
         published_true: 'Опубліковане'
+        published_false: 'Чернетка'
         published_reserved: "Зарезервовано"
       participation_role:
         name: 'Назва'
@@ -43,4 +48,5 @@ uk-UA:
         address: 'Адреса'
         municipality_id: 'Місто'
       proposal:
+        proposal_category_id: 'Категорія'
         visible_outside: "Публічний доступ"
