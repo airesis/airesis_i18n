@@ -19,6 +19,14 @@ tr:
         description: Endonez
       it:
         description: İtalyan
+      jp:
+        description: Japonca
+      me:
+        description: Karadağca
+      nl:
+        description: Hollanda
+      pt:
+        description: Portekiz
       sr-CS:
         description: Srpça (Latin)
       sr-SP:
