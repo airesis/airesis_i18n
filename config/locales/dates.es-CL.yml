@@ -1,4 +1,31 @@
 es-CL:
+  countdowns:
+    labelsPlural:
+      - Años
+      - Meses
+      - Semanas
+      - Días
+      - Hora
+      - Minutos
+      - Segundos
+    labelsSingular:
+      - Año
+      - Mes
+      - Semana
+      - Día
+      - Hora
+      - Minuto
+      - Segundo
+    compactLabelsPlural:
+      - 'y'
+      - 'm'
+      - 'w'
+      - 'd'
+    compactLabelsSingular:
+      - 'y'
+      - 'm'
+      - 'w'
+      - 'd'
   calendar:
     monthNames:
       - Enero
@@ -48,6 +75,8 @@ es-CL:
     day: 'día'
     firstDay: 0
     timeFormat: 'h:mm TT{ - [ddd] [dd] h:mm TT}'
+    changed: 'Cambiado!'
+    eventsFormat: 'h(:mm)t'
   date:
     formats:
       short: "%b %d"
@@ -60,6 +89,8 @@ es-CL:
       long_date_time: "%A %d %B %Y at %I:%M %p"
       from_long_date_time: "From %A %d %B %Y at %I:%M %p"
       until_long_date_time: "To %A %d %B %Y a %I:%M %p"
+      from_long_date: "De %A %d %B %Y"
+      until_long_date: "A %A %d %B %Y"
       short: "%d %b %Y"
       two_rows: "%d %b %Y <br/> %I:%M %p"
       weekday: "%a en %I: %M %p"
