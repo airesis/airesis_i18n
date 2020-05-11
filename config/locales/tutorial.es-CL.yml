@@ -53,6 +53,8 @@ es-CL:
       alerts: "Usted puede elegir qué alertas para recibir en Airesis..."
       emails: ".. .por correo electrónico, o ambos."
       no_emails: "Recuerde: Si deshabilita una alerta sobre Airesis, usted no recibirá lo en Airesis tampoco."
+      desktop: "Éste es tu <b>Escritorio</b>:<br/> aquí puedes administrar <b>tus propuestas</b> y<b>Grupos</b>, ver los<b>Eventos</b> y contactarte con otros ciudadanos. Tu escritorio tiene varios paneles con contenido para mantenerte actualizado sobre tus actividades en Airesis"
+      proposals_portlet: "En este cuadro ves todas las propuestas en debate y puedes ojear su progreso."
     users_border_preferences:
       intro: "Si no lo has hecho aún, establecer las fronteras geográficas de interés. AIRESIS pronto los usará para mostrar contenidos específicos."
     welcome:
