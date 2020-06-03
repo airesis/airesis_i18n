@@ -2,3 +2,7 @@ hi-IN:
   activerecord:
     models:
       meeting: 'बैठकों'
+      places: 'Star trek nemesis'
+    attributes:
+      blog_comment:
+        body: 'Star trek nemesis '
