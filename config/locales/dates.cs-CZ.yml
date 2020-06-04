@@ -1,4 +1,31 @@
 cs-CZ:
+  countdowns:
+    labelsPlural:
+      - Roky
+      - Měsíce
+      - Týdny
+      - Dny
+      - Hodiny
+      - Minuty
+      - Sekundy
+    labelsSingular:
+      - Rok
+      - Měsíc
+      - Týden
+      - Den
+      - Hodina
+      - Minuta
+      - Sekunda
+    compactLabelsPlural:
+      - 'r.'
+      - 'měs.'
+      - 'týd.'
+      - 'd.'
+    compactLabelsSingular:
+      - 'r.'
+      - 'měs.'
+      - 'týd.'
+      - 'd.'
   calendar:
     monthNames:
       - Leden
@@ -56,9 +83,24 @@ cs-CZ:
       long: "%d %B %Y"
   time:
     formats:
+      default: "%d %b %Y v %I:%M %p"
+      long: "%A %d %B %Y v %I:%M %p"
       long_date: "%A %d %B %Y"
+      long_date_time: "%A %d %B %Y v %I:%M %p"
+      from_long_date_time: "Od %A %d %B %Y v %I:%M %p"
+      until_long_date_time: "Do %A %d %B %Y v %I:%M %p"
       from_long_date: "Od %A %d %B %Y"
       until_long_date: "Do %A %d %B %Y"
+      short: "%d %b %Y"
+      two_rows: "%d %b %Y <br/> %I:%M %p"
+      weekday: "%a v %I:%M %p"
+      month: "%B"
+      dayandmonth: "%d/%m"
+      hour: "%I:%M %p"
+      yesterday_at: "včera v %I:%M %p"
+      textfield: "%d/%m/%Y %I:%M %p"
+      datepicker: "%Y-%m-%d"
+      datetimepicker: "%Y-%m-%d %H:%M"
     am: "dop."
     pm: "odp."
     left:
@@ -77,8 +119,35 @@ cs-CZ:
         few: "%{count} hodiny"
         many: "%{count} hodin"
         other: "%{count} hodin"
+      days:
+        one: "1 den"
+        few: "%{count} dny"
+        many: "%{count} dnů"
+        other: "%{count} dnů"
+      months:
+        one: "1 měsíc"
+        few: "%{count} měsíce"
+        many: "%{count} měsíců"
+        other: "%{count} měsíců"
   datetime:
+    added_on: "dne %{date}"
     distance_in_words:
+      about_x_hours:
+        one: asi před 1 hodinou
+        few: asi před %{count} hodinami
+        many: asi před %{count} hodinami
+        other: asi před %{count} hodinami
+      about_x_months:
+        one: asi před měsícem
+        few: asi před %{count} měsíci
+        many: asi před %{count} měsíci
+        other: asi před %{count} měsíci
+      about_x_years:
+        one: asi před rokem
+        few: asi před %{count} roky
+        many: asi před %{count} lety
+        other: asi před %{count} lety
+      half_a_minute: před půl minutou
       less_than_x_minutes:
         one: Před méně než 1 minutou
         few: Před méně než %{count} minutami
@@ -105,7 +174,7 @@ cs-CZ:
         many: ! 'Před %{count} minutami'
         other: ! 'Před %{count} minutami'
       x_months:
-        one: Před 1 měsícem
+        one: Před měsícem
         few: ! 'Před %{count} měsíci'
         many: ! 'Před %{count} měsíci'
         other: ! 'Před %{count} měsíci'
