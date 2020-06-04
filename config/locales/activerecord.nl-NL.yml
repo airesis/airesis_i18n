@@ -69,25 +69,94 @@ nl-NL:
         problems: 'Problemen'
         objectives: 'Doelstellingen'
         content: 'Tekst'
+        interest_borders_tkn: 'Geografische bezienswaardigheid'
+        tags_list: "Tags"
+        quorum_id: "Duur van debat"
+        anonima: "Tijdelijke anonimiteit"
+        visible_outside: "Openbaar zichtbaar"
+        secret_vote: "Geheime stem"
+        vote_starts_at: "Stem begint om"
+        vote_ends_at: "Stem eindigt op"
+        debate_starts_at: "Debat begint om"
+        debate_ends_at: "Debat eindigt op"
+      proposal_comment:
+        content: 'Inhoud'
       quorum:
+        name: 'Naam van het quorum'
+        name_title: 'Voer een korte, verklarende titel in'
+        description: 'Beschrijving / korte uitleg'
+        description_title: 'Een beschrijving om het doel van dit quorum te begrijpen'
+        minutes: Duur van debat
         days_m: Dagen
         hours_m: uren
         minutes_m: Minuten
+        percentage: 'Minimum aantal deelnemers'
+        percentage_title: 'Minimum aantal deelnemers aan de discussie als percentage van het aantal deelnemers in de groep'
+        good_score: 'Aflooptijd'
+        good_score_title: 'Waardering moet worden bereikt om het voorstel in de stemmingsfase te brengen'
+        bad_score: 'Slecht Quorum (percentage)'
+        bad_score_title: 'Waardering waaronder het voorstel wordt afgewezen. Hiermee kunt u de discussie voortzetten als niet aan de voorwaarden van de tijd of de deelnemers is voldaan'
+        condition: Conditie
+        condition_title: 'De voorwaarden voor de tijd en de deelnemers moeten worden overwonnen of slechts één daarvan zijn?'
+        vote_minutes: 'Duur stemmen'
+        vote_percentage: 'Quorum (kiezers)'
         vote_good_score: 'Goedkeuring'
+      search_participant:
+        role_id: 'Functie'
+        keywords: 'Voor- of achternaam'
       user:
+        name: 'Voornaam'
         email: 'E-mailadres'
+        surname: 'Achternaam'
         password: 'Wachtwoord'
+        linkedinpageurl: 'Uw pagina op LinkedIn'
+        facebookpageurl: 'Uw pagina op Facebook'
         accept_conditions: 'Gebruiksvoorwaarden'
+        receive_newsletter: 'Nieuwsbrief via e-mail'
         blocked: "Fout"
+      user_sensitive:
+        name: 'Voornaam'
       group_area:
         name: "Naam"
         description: "Beschrijving"
+        default_role_name: "Standaard rolnaam"
     errors:
+      template:
+        header:
+          one: 'een fout heeft niet toegestaan dat deze %{model} wordt opgeslagen'
+          other: '%{count} fouten staan niet toe dat deze %{model} wordt opgeslagen'
+        body: 'Er waren problemen met de volgende velden'
       messages:
+        inclusion: 'staat niet in de lijst'
         exclusion: 'is gereserveerd'
         invalid: 'is ongeldig'
+        confirmation: 'komt niet overeen met de bevestiging'
+        accepted: 'moet geaccepteerd worden'
+        empty: 'mag niet leeg zijn'
+        blank: 'moet ingevuld zijn'
         too_long: 'De tekst is te lang'
         too_short: 'De tekst is te kort'
+        wrong_length: 'moet %{count} tekens lang zijn'
+        taken: 'is al in gebruik'
+        not_a_number: 'is niet een getal'
+        not_an_email: 'Is geen geldig e-mailadres'
+        greater_than: 'moet groter zijn dan %{count}'
+        greater_than_or_equal_to: 'moet groter dan of gelijk zijn aan %{count}'
+        equal_to: 'moet gelijk zijn aan %{count}'
+        less_than: 'moet minder dan %{count}'
+        less_than_or_equal_to: 'moet kleiner dan of gelijk zijn aan %{count}'
         odd: 'moet even zijn'
         even: 'moet oneven zijn'
+        record_invalid: 'Validatie is mislukt: %{errors}'
         not_found: 'niet gevonden.'
+        TOS: "Het is vereist om de TOS te accepteren"
+        certified_cannot_edit: 'kan niet bewerkt worden als u een gecertificeerde gebruiker bent'
+        forum_visibility: "Een forum kan niet zichtbaar zijn buiten de groep als de categorie privé is"
+      models:
+        user:
+          attributes:
+            email:
+              already_confirmed: 'Dit e-mailadres is al geregistreerd'
+        group:
+          portavoce:
+            required: 'U moet een beheerder kiezen'
