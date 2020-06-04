@@ -25,19 +25,47 @@ nl-NL:
         accept_requests: 'Verzoek tot deelname'
         porta_id: 'Beheerder'
         interest_border_tkn: 'Geografische plaats van belang'
+        interest_border_id: 'Geografische bezienswaardigheid'
+        image_url: 'Afbeelding adres'
+        default_role_name: "Wat is de naam van nieuwe gebruikers?"
+        default_role_name_placeholder: "Bijvoorbeeld: Gebruikers, leden, Activisten, Piraten"
+        name_placeholder: "Kies een naam gerelateerd aan de groepsidentiteit en/of locatie."
+        title_bar_placeholder: "Groep pagina titel."
+        description_placeholder: "Dit bericht verschijnt op de eerste pagina van de groep"
+        image_url_placeholder: "Groepsafbeelding URL"
+        facebook_page_url_placeholder: "Groepspagina Facebook? Voer hier een link in."
+        admin_title: "Hoe worden de beheerders van de groep genoemd"
+        private: "Privé groep"
+        rule_book: "Regel boek"
         image: "Afbeelding laden"
+        admin_title_placeholder: "Rol naam van de groep beheerders (standaard: Beheerder)"
       blog:
         title: 'Titel'
       blog_post:
         title: 'Titel'
         body: 'Tekst'
+        published: 'Status'
+        published_true: 'Gepubliceerd'
+        published_false: 'Ontwerp'
+        published_reserved: "Voorbehouden"
+        group_ids: Gepubliceerd in de volgende groepen
+        published_at: Gepubliceerd in
+      participation_role:
+        name: 'Naam'
+        description: 'Korte beschrijving'
       group_invitation:
         emails_list: "E-mailadressen"
+        testo: "Bericht tekst"
       place:
         address: 'Adres'
+        municipality_id: 'Stad'
+        latitude_original: Breedtegraad
+        longitude_original: Lengtegraad
       proposal:
+        group_area_id: "Werkruimte"
         proposal_category_id: 'Categorie'
         title: 'Titel'
+        subtitle: 'Ondertitel'
         problems: 'Problemen'
         objectives: 'Doelstellingen'
         content: 'Tekst'
