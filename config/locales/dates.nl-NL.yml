@@ -1,4 +1,31 @@
 nl-NL:
+  countdowns:
+    labelsPlural:
+      - Jaren
+      - Maanden
+      - Weken
+      - Dagen
+      - Uren
+      - Minuten
+      - 'Seconden:'
+    labelsSingular:
+      - Jaar
+      - Maand
+      - Week
+      - Dag
+      - Uur
+      - Minuut
+      - Seconde
+    compactLabelsPlural:
+      - 'y'
+      - 'm'
+      - 'w'
+      - 'd'
+    compactLabelsSingular:
+      - 'y'
+      - 'm'
+      - 'w'
+      - 'd'
   calendar:
     monthNames:
       - Januari
@@ -48,6 +75,8 @@ nl-NL:
     day: 'dag'
     firstDay: 0
     timeFormat: 'h:mm TT{ - [ddd] [dd] h:mm TT}'
+    changed: 'Veranderd!'
+    eventsFormat: 'u(:mm)t'
   date:
     formats:
       short: "%b %d"
@@ -60,6 +89,8 @@ nl-NL:
       long_date_time: "%A %d %B %Y om %I:%M %p"
       from_long_date_time: "Vanaf %A %d %B %Y om %I:%M %p"
       until_long_date_time: "Tot %A %d %B %Y om %I:%M %p"
+      from_long_date: "Van %A %d %B %Y"
+      until_long_date: "Naar %A %d %B %Y"
       short: "%d %b %Y"
       two_rows: "%d %b %Y <br/> %I:%M %p"
       weekday: "%a om %I:%M %p"
@@ -91,13 +122,40 @@ nl-NL:
   datetime:
     added_on: "op %{date}"
     distance_in_words:
+      about_x_hours:
+        one: ongeveer 1 uur geleden
+        other: ongeveer %{count} uur geleden
+      about_x_months:
+        one: ongeveer 1 maand geleden
+        other: ongeveer %{count} maanden geleden
+      about_x_years:
+        one: ongeveer 1 jaar geleden
+        other: ongeveer %{count} jaar geleden
+      almost_x_years:
+        one: bijna 1 jaar geleden
+        other: bijna %{count} jaar geleden
       half_a_minute: een halve minuut geleden
+      less_than_x_minutes:
+        one: minder dan 1 minuut geleden
+        other: minder dan %{count} minuten geleden
       less_than_x_seconds:
         one: minder dan 1 seconde geleden
         other: minder dan %{count} seconden geleden
       over_x_years:
         one: meer dan 1 jaar geleden
         other: meer dan %{count}  jaren geleden
+      x_days:
+        one: 1 dag geleden
+        other: ! '%{count} dagen geleden'
+      x_minutes:
+        one: 1 minuut geleden
+        other: ! '%{count} minuten geleden'
+      x_months:
+        one: 1 maand geleden
+        other: ! '%{count} maanden geleden'
+      x_seconds:
+        one: "1 seconde geleden"
+        other: ! '%{count} seconden geleden'
   label:
     from: "van"
     to: "tot"
