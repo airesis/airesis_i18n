@@ -147,6 +147,11 @@ cs-CZ:
         few: asi před %{count} roky
         many: asi před %{count} lety
         other: asi před %{count} lety
+      almost_x_years:
+        one: skoro před rokem
+        few: skoro před %{count} roky
+        many: skoro před %{count} lety
+        other: skoro před %{count} lety
       half_a_minute: před půl minutou
       less_than_x_minutes:
         one: Před méně než 1 minutou
