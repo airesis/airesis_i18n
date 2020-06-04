@@ -35,10 +35,85 @@ cs-CZ:
       - Pátek
       - Sobota
     dayNamesShort:
-      - Neděle
+      - Ne
       - Po
       - Út
       - Stř
       - Čt
       - Pá
       - So
+    today: 'dnes'
+    month: 'měsíc'
+    week: 'týden'
+    day: 'den'
+    firstDay: 0
+    timeFormat: 'h:mm TT{ - [ddd] [dd] h:mm TT}'
+    changed: 'Změněno!'
+    eventsFormat: 'h(:mm)t'
+  date:
+    formats:
+      short: "%b %d"
+      long: "%d %B %Y"
+  time:
+    formats:
+      long_date: "%A %d %B %Y"
+      from_long_date: "Od %A %d %B %Y"
+      until_long_date: "Do %A %d %B %Y"
+    am: "dop."
+    pm: "odp."
+    left:
+      seconds:
+        one: "1 sekunda"
+        few: "%{count} sekundy"
+        many: "%{count} sekund"
+        other: "%{count} sekund"
+      minutes:
+        one: "1 minuta"
+        few: "%{count} minuty"
+        many: "%{count} minut"
+        other: "%{count} minut"
+      hours:
+        one: "1 hodina"
+        few: "%{count} hodiny"
+        many: "%{count} hodin"
+        other: "%{count} hodin"
+  datetime:
+    distance_in_words:
+      less_than_x_minutes:
+        one: Před méně než 1 minutou
+        few: Před méně než %{count} minutami
+        many: Před méně než %{count} minutami
+        other: Před méně než %{count} minutami
+      less_than_x_seconds:
+        one: Před méně než 1 sekundou
+        few: Před méně než %{count} sekundami
+        many: Před méně než %{count} sekundami
+        other: Před méně než %{count} sekundami
+      over_x_years:
+        one: před více než 1 rokem
+        few: před více než %{count} roky
+        many: před více než %{count} lety
+        other: před více než %{count} lety
+      x_days:
+        one: Před 1 dnem
+        few: ! 'Před %{count} dny'
+        many: ! 'Před %{count} dny'
+        other: ! 'Před %{count} dny'
+      x_minutes:
+        one: Před 1 minutou
+        few: ! 'Před %{count} minutami'
+        many: ! 'Před %{count} minutami'
+        other: ! 'Před %{count} minutami'
+      x_months:
+        one: Před 1 měsícem
+        few: ! 'Před %{count} měsíci'
+        many: ! 'Před %{count} měsíci'
+        other: ! 'Před %{count} měsíci'
+      x_seconds:
+        one: "Před 1 sekundou"
+        few: ! 'Před %{count} sekundami'
+        many: ! 'Před %{count} sekundami'
+        other: ! 'Před %{count} sekundami'
+  label:
+    from: "od"
+    to: "do"
