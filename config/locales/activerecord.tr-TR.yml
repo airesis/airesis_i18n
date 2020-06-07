@@ -90,6 +90,7 @@ tr-TR:
         days_m: Gün
         hours_m: saat
         minutes_m: Dakika
+        percentage: 'Minimum katılımcı'
         percentage_title: 'Gruptaki katılımcı sayısının bir yüzdesi olarak tartışmadaki asgari katılımcı sayısı'
         good_score: 'Olgunluk'
         good_score_title: 'Teklifin oylama aşamasına getirilmesi için aldığı değerlendirme'
