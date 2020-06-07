@@ -334,6 +334,7 @@ tr-TR:
         content_html: |
           <p>Afişinizi yayınlamayı seçerseniz, projeye büyük yardımcı olacaktır. Teşekkür ederim.</p>
     tags:
+      title: "Airesis - E-Demokrasi için Sosyal Ağ"
       description: "Direkt demokrasi ve e-devlet karar verme aracı: tartışmalara katılın, fikirlerinizi öne sürün, çözüm önerin ve online oy verin"
     engage:
       title: "Yeni demokrasi projesine katılın"
