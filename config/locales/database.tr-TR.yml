@@ -2,23 +2,23 @@ tr:
   db:
     sys_locales:
       bs:
-        description: Boşnak
+        description: Boşnakça
       de:
-        description: Alman
+        description: Almanca
       el:
-        description: Yunan
+        description: Yunanca
       en:
         description: İngilizce
       es:
-        description: İspanyol
+        description: İspanyolca
       fr:
-        description: Fransız
+        description: Fransızca
       hu:
-        description: Macar
+        description: Macarca
       id:
-        description: Endonez
+        description: Endonezyaca
       it:
-        description: İtalyan
+        description: İtalyanca
       jp:
         description: Japonca
       me:
@@ -72,6 +72,14 @@ tr:
     group_actions:
       write_to_wall:
         description: Grubun Duvarına gönder
+      view_documents:
+        description: Belgeleri görüntüle
+      manage_documents:
+        description: Belgeleri yönet
+      vote_proposals:
+        description: Önerileri oyla
+      choose_date_proposals:
+        description: Oy etkinlikleri oluştur
     notification_categories:
       MYPROP:
         description: Yazdığım teklifler
