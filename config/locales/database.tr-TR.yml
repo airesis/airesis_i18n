@@ -26,7 +26,7 @@ tr:
       nl:
         description: Hollanda
       pt:
-        description: Portekiz
+        description: Portekizce
       ro:
         description: "Romence\n"
       ru:
@@ -34,26 +34,26 @@ tr:
       sh:
         description: Sırp-Hırvatçası
       sr-CS:
-        description: Srpça (Latin)
+        description: Sırpça (Latin)
       sr-SP:
         description: Sırpça (Kiril)
       zh:
         description: Çince
     proposal_types:
       STANDARD:
-        description: Normal Teklif
+        description: Normal Öneri
       POLL:
         description: Anket
       RULE_BOOK:
-        description: Kural kitabı
+        description: Kural Kitabı
       PRESS:
         description: Basın açıklamaları
       EVENT:
-        description: Etkinlik organizasyonu
+        description: Etkinlik Organizasyonu
       ESTIMATE:
-        description: Maliyet tahmini
+        description: Maliyet Tahmini
       AGENDA:
-        description: Gündem
+        description: Ajanda
       CANDIDATES:
         description: Bir adayın seçimi
       SIMPLE:
@@ -72,6 +72,18 @@ tr:
     group_actions:
       write_to_wall:
         description: Grubun Duvarına gönder
+      create_events:
+        description: Buluşma etkinlikleri oluştur
+      support_proposals:
+        description: Grubun çıkarına gelen önerileri destekle
+      accept_participation_requests:
+        description: Gruba yeni üyeler ekle
+      view_proposals:
+        description: Özel önerileri görüntüle
+      participate_proposals:
+        description: Önerilere katkıda bulun
+      insert_proposals:
+        description: Gruba yeni öneri ekle
       view_documents:
         description: Belgeleri görüntüle
       manage_documents:
@@ -82,9 +94,9 @@ tr:
         description: Oy etkinlikleri oluştur
     notification_categories:
       MYPROP:
-        description: Yazdığım teklifler
+        description: Yazdığım öneriler
       PROP:
-        description: Katılmak istediğim teklifler
+        description: Katıldığım öneriler
       NEWPROP:
         description: Yeni öneriler
       NEWEVENT:
