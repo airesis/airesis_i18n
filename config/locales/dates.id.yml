@@ -98,42 +98,26 @@ id-ID:
       datepicker: '%Y-%m-%d'
       datetimepicker: '%Y-%m-%d %H:%M'
     left:
-      seconds:
-        other: '%{count} detik'
-      minutes:
-        other: '%{count} menit'
-      hours:
-        other: '%{count} jam'
-      days:
-        other: '%{count} hari'
-      months:
-        other: '%{count} bulan'
+      seconds: '%{count} detik'
+      minutes: '%{count} menit'
+      hours: '%{count} jam'
+      days: '%{count} hari'
+      months: '%{count} bulan'
   datetime:
     added_on: 'pada tanggal %{date}'
     distance_in_words:
-      about_x_hours:
-        other: 'sekitar %{count} jam yang lalu'
-      about_x_months:
-        other: 'sekitar %{count} bulan yang lalu'
-      about_x_years:
-        other: 'sekitar %{count} tahun yang lalu'
-      almost_x_years:
-        other: 'hampir %{count} tahun yang lalu'
+      about_x_hours: 'sekitar %{count} jam yang lalu'
+      about_x_months: 'sekitar %{count} bulan yang lalu'
+      about_x_years: 'sekitar %{count} tahun yang lalu'
+      almost_x_years: 'hampir %{count} tahun yang lalu'
       half_a_minute: setengah menit yang lalu
-      less_than_x_minutes:
-        other: 'kurang dari %{count} menit yang lalu'
-      less_than_x_seconds:
-        other: 'kurang dari %{count} detik yang lalu'
-      over_x_years:
-        other: 'lebih dari %{count} tahun yang lalu'
-      x_days:
-        other: ! '%{count} hari yang lalu'
-      x_minutes:
-        other: ! '%{count} menit yang lalu'
-      x_months:
-        other: ! '%{count} bulan yang lalu'
-      x_seconds:
-        other: ! '%{count} detik yang lalu'
+      less_than_x_minutes: 'kurang dari %{count} menit yang lalu'
+      less_than_x_seconds: 'kurang dari %{count} detik yang lalu'
+      over_x_years: 'lebih dari %{count} tahun yang lalu'
+      x_days: ! '%{count} hari yang lalu'
+      x_minutes: ! '%{count} menit yang lalu'
+      x_months: ! '%{count} bulan yang lalu'
+      x_seconds: ! '%{count} detik yang lalu'
   label:
     from: dari
     to: sampai
