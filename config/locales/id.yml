@@ -577,8 +577,7 @@ id-ID:
       new_rank_bar:
         creation: 'PEMBUATAN: %{time_ago}<br/>%{date}'
         end: 'AKHIRI DEBAT:<br/> %{date}'
-        valutations:
-          other: '%{count} EVALUASI'
+        valutations: '%{count} EVALUASI'
         good_score: 'KUORUM POSITIF %{score}%'
         bad_score: 'KUORUM NEGATIF %{score}%'
         now: 'TERSISA %{left}'
