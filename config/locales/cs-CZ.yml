@@ -1,1 +1,12 @@
 cs-CZ:
+  pages:
+    confirmation:
+      submit: 'Pošlete mi pokyny'
+    password:
+      edit:
+        confirm_button: "Změnit mé heslo"
+    proposals:
+      show:
+        delete_contribute_confirmation: "Jste si jisti, že chcete smazat tento příspěvek?"
+        delete_suggestion_confirmation: "Jste si jisti, že chcete smazat tento komentář?"
+  confirm_delete: "Jste si jisti?"
