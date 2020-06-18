@@ -26,6 +26,15 @@ cs-CZ:
       user:
         signed_out: 'Byli jste úspěšně odhlášeni. Na shledanou'
         signed_in: 'Byli jste přihlášeni. Vítejte!'
+        signed_up: 'Úspěšně jste dokončili svoji registraci. Vítejte!'
+    passwords:
+      send_instructions: 'Během několika minut obdržíte email s pokyny pro obnovení hesla'
+      updated: 'Vaše heslo bylo úspěšně změněno. Nyní jste přihlášeni'
+      updated_not_active: 'Vaše heslo bylo úspěšně změněno'
+      send_paranoid_instructions: "Pokud vaše emailová adresa existuje v naší databázi, obdržíte ve své schránce odkaz pro obnovení hesla"
+    confirmations:
+      send_instructions: 'Během několika minut obdržíte email s pokyny pro ověření účtu'
+      send_paranoid_instructions: 'Pokud vaše emailová adresa existuje v naší databázi, obdržíte během několika minut email s pokyny pro potvrzení vašeho účtu'
     mailer:
       confirmation_instructions:
         subject: 'Pokyny pro potvrzení'
