@@ -23,3 +23,31 @@ cs:
         description: Japonština
       me:
         description: Černohorština
+      nl:
+        description: Holandština
+      pt:
+        description: Portugalština
+      ro:
+        description: Rumunština
+      ru:
+        description: Ruština
+      sh:
+        description: Srbochorvatština
+      sr-CS:
+        description: Srbština (latinka)
+      sr-SP:
+        description: Srbština (cyrilika)
+      zh:
+        description: Čínština
+    proposal_types:
+      POLL:
+        description: Anketa
+      RULE_BOOK:
+        description: Kniha pravidel
+      EVENT:
+        description: Organizace události
+    group_actions:
+      accept_participation_requests:
+        description: Přidat do skupiny nové členy
+      view_documents:
+        description: Prohlížení dokumentů
