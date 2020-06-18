@@ -26,3 +26,16 @@ cs-CZ:
       user:
         signed_out: 'Byli jste úspěšně odhlášeni. Na shledanou'
         signed_in: 'Byli jste přihlášeni. Vítejte!'
+    mailer:
+      confirmation_instructions:
+        subject: 'Pokyny pro potvrzení'
+        confirm_account: "Potvrdit účet"
+      reset_password_instructions:
+        subject: 'Pokyny pro obnovu hesla'
+        hi_user: "Dobrý den, %{user}!"
+        follow_link: "Heslo si můžete změnit kliknutím na následující odkaz:"
+        change_password: "Změnit heslo"
+        ignore: "Pokud jste nežádali o změnu hesla, prosím ignorujte tento e-mail."
+        password_will_not_change: "Vaše heslo se nezmění, dokud nekliknete na předchozí odkaz."
+      unlock_instructions:
+        subject: 'Pokyny pro odemknutí'
