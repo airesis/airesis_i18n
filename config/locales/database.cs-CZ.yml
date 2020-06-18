@@ -1,1 +1,25 @@
 cs:
+  db:
+    sys_locales:
+      bs:
+        description: Bosenština
+      de:
+        description: Němčina
+      el:
+        description: Řečtina
+      en:
+        description: Angličtina
+      es:
+        description: Španělština
+      fr:
+        description: Francouzština
+      hu:
+        description: Maďarština
+      id:
+        description: Indonéština
+      it:
+        description: Italština
+      jp:
+        description: Japonština
+      me:
+        description: Černohorština
