@@ -12,4 +12,17 @@ cs-CZ:
     failure:
       locked: 'Váš účet je uzamčen'
       invalid: 'Neplatný e-mail nebo heslo'
+      timeout: 'Vaše relace vypršela, pro pokračování se prosím znovu přihlaste'
+      inactive: 'Váš účet ještě nebyl aktivován'
       already_authenticated: 'Již jste registrován'
+      unauthenticated: 'Pro přístup na tuto stránku musíte být přihlášeni. Prosím přihlaste se.'
+      unconfirmed: "Účet ještě nebyl ověřen"
+      user:
+        invalid: 'Neplatné jméno nebo heslo'
+        not_found_in_database: 'Neplatné jméno nebo heslo'
+    sessions:
+      signed_in: 'Přihlášení proběhlo úspěšně'
+      signed_out: 'Odhlášení proběhlo úspěšně'
+      user:
+        signed_out: 'Byli jste úspěšně odhlášeni. Na shledanou'
+        signed_in: 'Byli jste přihlášeni. Vítejte!'
