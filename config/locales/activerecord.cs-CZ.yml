@@ -68,6 +68,10 @@ cs-CZ:
         anonima: "Dočasná anonymita"
         visible_outside: "Veřejně viditelný"
         secret_vote: "Tajné hlasování"
+        vote_starts_at: "Hlasování začíná v"
+        vote_ends_at: "Hlasování končí v"
+        debate_starts_at: "Diskuze začíná v"
+        debate_ends_at: "Diskuze končí v"
       proposal_comment:
         content: 'Obsah'
       quorum:
@@ -79,6 +83,7 @@ cs-CZ:
         days_m: Dnů
         hours_m: hodin
         minutes_m: Minut
+        percentage: 'Minimum účastníků'
         percentage_title: 'Minimální počet účastníků v diskusi jako procento počtu účastníků ve skupině'
         good_score: 'Vyzrálost'
         good_score_title: 'Hodnocení návrhu, které musí být dosaženo pro vstup do hlasovací fáze'
