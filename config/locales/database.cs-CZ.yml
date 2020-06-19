@@ -51,3 +51,18 @@ cs:
         description: Přidat do skupiny nové členy
       view_documents:
         description: Prohlížení dokumentů
+    notification_categories:
+      GROUPS:
+        description: Skupiny
+    notification_types:
+      new_public_events:
+        description: Nové veřejné události
+        email_subject: "Nová veřejná událost: %{event}"
+        message: "Nová veřejná událost: <b>%{event}</b>"
+      new_events:
+        description: Nové události ve skupinách, kterých jsem součástí
+        email_subject: "Nová událost: %{event}"
+        message: "Nová událost <b>%{event}</b> ve skupině <b>%{group}</b>"
+      new_posts_user_follow:
+        description: Nové příspěvky od uživatele, kterého sleduji
+        email_subject: Objevil se nový příspěvek
