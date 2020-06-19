@@ -108,3 +108,11 @@ cs:
         description: Svět, migrace
       culture:
         description: Umění a kultura
+      agricolture:
+        description: Voda, jídlo, zemědělství
+      energy:
+        description: Energie, klima
+      industry:
+        description: Průmysl, materiály a odpad
+      democracy:
+        description: Demokracie, instituce
