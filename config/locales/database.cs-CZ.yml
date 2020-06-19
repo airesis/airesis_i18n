@@ -52,6 +52,8 @@ cs:
       view_documents:
         description: Prohlížení dokumentů
     notification_categories:
+      NEWEVENT:
+        description: Nové události
       GROUPS:
         description: Skupiny
     notification_types:
@@ -65,4 +67,44 @@ cs:
         message: "Nová událost <b>%{event}</b> ve skupině <b>%{group}</b>"
       new_posts_user_follow:
         description: Nové příspěvky od uživatele, kterého sleduji
-        email_subject: Objevil se nový příspěvek
+        email_subject: Někdo přidal nový příspěvek
+        message: "Uživatel %{user} přidal nový příspěvek na svůj blog <b>%{blog}</b>"
+      change_status:
+        email_subject:
+          1_hour: "Diskuze na téma %{title} končí za hodinu!"
+          24_hours_vote: "Hlasování o %{title} končí zítra!"
+          1_hour_vote: "Hlasování o %{title} končí za hodinu!"
+        message:
+          voted: "%{title} - Hlasování skončilo"
+          24_hours: "Diskuze na téma <b>%{title}</b> končí zítra!"
+          1_hour: "Diskuze na téma <b>%{title}</b> končí za hodinu!"
+          24_hours_vote: "Hlasování o <b>%{title}</b> končí zítra!"
+          1_hour_vote: "Hlasování o <b>%{title}</b> končí za hodinu!"
+      change_status_mine:
+        email_subject:
+          wait: "%{title} - Vyberte datum hlasování"
+          waiting_date: "%{title} - Datum hlasování bylo vybráno"
+          in_vote: "%{title} - PŘIJĎTE A HLASUJTE!"
+      new_posts_group_follow:
+        email_subject: Nový příspěvek
+      new_posts_group:
+        email_subject: Nový příspěvek
+      new_public_proposals:
+        email_subject: "%{proposal}"
+      new_forum_topic:
+        description: Nová témata na fórech
+      new_comments:
+        email_subject: "%{title} - Nový komentář"
+    proposal_categories:
+      no_category:
+        description: Nezařazeno
+      health:
+        description: Zdraví, hygiena
+      information:
+        description: Informace, komunikace
+      work:
+        description: Práce a seberealizace
+      world:
+        description: Svět, migrace
+      culture:
+        description: Umění a kultura
