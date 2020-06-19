@@ -1,1 +1,23 @@
 cs-CZ:
+  frm:
+    admin:
+      forums:
+        index:
+          no_category: (Bez kategorie)
+        default_private: "Soukromé fórum"
+        default_public: "Veřejné fórum"
+      mod:
+        index: Spravovat skupiny
+        new: Nová skupina
+        created: Skupina byla úspěšně vytvořena
+        not_created: Skupinu nelze vytvořit
+        deleted: Vybraná skupina byla smazána
+        members: "Členové skupiny %{group}"
+      mods:
+        show:
+          add_member: Přidat
+          add_a_new_member: "Přidat nového člena"
+          current_members: "Aktuální členové"
+        edit: Upravit
+        delete: Odstranit
+        name: Název
