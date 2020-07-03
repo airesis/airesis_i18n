@@ -1,5 +1,44 @@
 ru:
   db:
+    sys_locales:
+      bs:
+        description: Боснийский
+      de:
+        description: Немецкий
+      el:
+        description: Греческий
+      en:
+        description: Английский
+      es:
+        description: Испанский
+      fr:
+        description: Французский
+      hu:
+        description: Венгерский
+      id:
+        description: Индонезийский
+      it:
+        description: Итальянский
+      jp:
+        description: Японский
+      me:
+        description: Черногорский
+      nl:
+        description: Нидерланды
+      pt:
+        description: Португальский
+      ro:
+        description: Румынский
+      ru:
+        description: Русский
+      sh:
+        description: Сербо-хорватский
+      sr-CS:
+        description: Сербский (Латиница)
+      sr-SP:
+        description: Сербский (Кириллица)
+      zh:
+        description: Китайский
     proposal_types:
       STANDARD:
         description: Стандартное предложение
@@ -79,6 +118,9 @@ ru:
         message: "%{user} добавил новое сообщение в своем блоге <b>%{blog}</b>"
       new_valutation_mine:
         description: Новые оценки моих предложений
+        email_subject:
+          one: "%{title} - имеет новую оценку"
+          other: "%{title} имеет %{count} новых оценок"
       new_valutation:
         description: Новые голоса по преложению, в ктором я принимаю участие
       available_author:
