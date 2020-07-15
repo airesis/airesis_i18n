@@ -61,7 +61,7 @@ fr-FR:
       creation_failure: "Erreur lors de l'accès par %{provider}"
       join_success: "Comptes fusionnés avec succès. Félicitations, vous pouvez maintenant vous connecter par le biais de %{provider}."
       join_failure: "Il existe un autre compte de %{provider}. La fonction de fusion des comptes sera bientôt disponible."
-      certified_email_taken: "Il existe un autre compte avec votre email vérifié."
+      certified_email_taken: "Il existe un autre compte avec votre courriel vérifié."
       already_certified: "Un autre compte a été certifié avec votre code des impôts."
       account_not_verified: "Compte %{provider} non vérifié. S'il vous plaît vérifier votre compte sur %{provider}."
     mailer:
