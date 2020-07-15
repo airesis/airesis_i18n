@@ -18,6 +18,7 @@ de-DE:
       openid_login: "Login mit OpenID"
       find_groups: 'Suche Gruppen'
       parma_login: "Login mit Parma"
+      tecnologiedemocratiche_login: "Mit Tecnologie Democratiche anmelden"
     user:
       notifications: 'Alarme und Benachrichtigungen'
       privacy: "Konto und Privatspäre"
@@ -56,10 +57,11 @@ de-DE:
         certified_from: "Zertifiziert durch"
         group_level_permission_title: "Gruppen Ebenen Berechtigungen"
         admin_permissions: "Du bist Administrator dieser Gruppe und du besitzt alle Berechtigungen"
+        certified_cannot_edit_info: "Sie sind ein zertifizierter Benutzer: Sie können Ihren Vornamen, Ihren Nachnamen und Ihre E-Mail nicht bearbeiten"
       send_message:
         subject_label: "Betreff"
         body_label: "Inhalt"
-        massive_email: "Massen-eMail versenden"
+        massive_email: "Massen-E-Mail versenden"
       left_panel:
         general_info: "Allgemeine Informationen"
         alarm_and_notifications: "Hinweise und Benachrichtigungen"
@@ -87,7 +89,7 @@ de-DE:
         rotp_title: "Security-Token"
         rotp_confirm_enable: "Bist Du sicher das Security-Token aktivieren zu wollen?"
         rotp_confirm_disable: "Bist Du sicher das Security-Token deaktivieren zu wollen?"
-        mail_language: "Sprache der e-Mails"
+        mail_language: "Sprache der E-Mails"
         time_zone: "Zeitzone"
       border_preferences:
         updating: "Bitte warte während wir deine Favoriten gemäß deiner Voreinstellungen aktualisieren"
@@ -302,7 +304,7 @@ de-DE:
         confirm_button: "Mein Passwort ändern"
     registration:
       title: 'Registrieren'
-      email_confirmed: "Wenn Du Dich mit dieser e-Mail-Adresse registrierst, wirst Du nicht aufgefordert, Deine e-Mail-Adresse zu bestätigen."
+      email_confirmed: "Wenn Sie sich mit dieser E-Mail-Adresse registrierst, werden Sie nicht aufgefordert, Ihre E-Mail-Adresse zu bestätigen."
       choose_password: "Passwort auswählen"
       confirm_password: "Passwort bestätigen"
       accept_conditions: "Nutzungsbedingungen akzeptieren"
@@ -668,7 +670,7 @@ de-DE:
         login_button: "Einloggen"
         registration_button: "SCHLIEßEN SIE SICH UNS AN"
         forgot_password_button: "Passwort vergessen?"
-        resend_email_button: "Hast Du keine Bestätigungs-eMail erhalten?"
+        resend_email_button: "Haben Sie keine Bestätigungs-E-Mail erhalten?"
         no_notifications: "Keine Benachrichtigung"
         sign_has_read: "Als gelesen markieren"
         moderator: "MODERATOR-PANEL"
@@ -778,11 +780,12 @@ de-DE:
       create_event_button: "Neues Ereignis erstellen"
     sessions:
       new:
+        login_label: "E-Mail"
         remember_me_label: "Auf diesem Computer speichern"
       links:
         register: "Noch nicht registriert? Anmelden!"
         forgot_password: "Passwort vergessen?"
-        havent_received_email: "Haben Sie keine Bestätigungs-Email bekommen?"
+        havent_received_email: "Haben Sie keine Bestätigungs-E-Mail bekommen?"
     steps:
       next: "Weiter"
       interest_borders:
@@ -1128,7 +1131,7 @@ de-DE:
       url_shown: "URLs sichtbar"
       url_hidden: "URLs versteckt"
       update_border: "Geographische Interessensgrenzen korrekt aktualisiert"
-      confirm_email: "Sie müssen die neue e-Mail-Adresse bestätigen"
+      confirm_email: "Sie müssen die neue E-Mail-Adresse bestätigen"
       IP_disabled: "Identitätsprovider entfernt"
       time_zone_changed: "Zeitzone gespeichert"
     blog:
@@ -1165,6 +1168,9 @@ de-DE:
       create: "Der Nutzer wurde dem Bereich hinzugefügt"
       destroy: "Der Nutzer wurde aus dem Bereich entfernt"
     group_invitations:
+      create:
+        one: "Einladung korrekt gesendet an %{email_addresses}"
+        other: "%{count} Einladungen korrekt an %{email_addresses} gesendet"
       accept: "Einladung akzeptiert! Du bist nun Mitglied dieser Gruppe."
       reject: "Einladung zurückgewiesen."
       anymore: "Einladung zurückgewiesen. Du erhältst keine weiteren Einladungen."
@@ -1185,7 +1191,7 @@ de-DE:
       follow_facebook: "Folgen Sie uns auf Facebook"
       follow_google: "Folgen Sie uns auf Google +"
       footer:
-        registered_at: "Du erhälst diese e-Mail, weil Sie auf %{url} registriert bist."
+        registered_at: "Sie erhalten diese E-Mail, weil Sie auf %{url} registriert sind."
         connect_with_us: "Verbinde dich mit uns:"
         contact_info: "Kontaktinformationen:"
         email_label: "E-Mail:"
@@ -1197,7 +1203,7 @@ de-DE:
     text_update:
       integrated_contributes: "Herzlichen Glückwunsch! Die folgenden Beiträge, die Du eingefügt hattest, wurden von den Bearbeitern integriert:"
       view_proposal_2: "%{click_here} und stell sicher, dass der neue Text Deine Anregungen enthält. <br/> Wenn Du nicht zufrieden bist, kannst Du Deine Beiträge immer zurück in die Debatte setzen, indem Du sie aus der Geschichte ziehst."
-      connect: "Einloggen %{name}"
+      connect: "Anmelden %{name}"
     unintegrated_contribute:
       view_proposal: "Ein Beitrag, der zum Vorschlag <b>%{click_here}</b>  hinzugefügt wurde, wurde vom Autor wieder in die Debatte zurück genommen."
       view_proposal_2: "%{click_here}, warum der Autor nicht erwägt hat, dass sein Beitrag vollständig integriert wurde."
@@ -1205,7 +1211,7 @@ de-DE:
     user_message:
       hi_user: "Hallo %{user},"
       user_sent_message: "%{user} haben Dir folgende Meldung gesendet:"
-      reply_to_user: "Du kannst %{user} einfach antworten, indem Du auf diese Mail beantwortest."
+      reply_to_user: "Sie können %{user} einfach antworten, indem Sie auf diese E-Mail beantworten."
     blocked:
       hi_user: "Hallo %{user},"
       deleted_correctly: "Wir informieren Dich, dass Dein Konto erfolgreich aus Airesis gelöscht wurde."
@@ -1217,14 +1223,14 @@ de-DE:
     invite:
       hi_user: "Hallo!"
       invitation: "%{user} hat Dich zur Teilnahme an der Gruppe <b>%{group}</b> auf %{app_name}, the e-democracy platform for the direct and participatory democracy eingeladen."
-      message_intro: "Hier ist die Nachricht die er Dir geschickt hat:"
-      accept_or_reject: "Wenn Sie die Einladung annimmst, klicke auf 'Akzeptieren', ansonsten auf 'Ablehnen'."
-      no_more: "Wenn Du keine weiteren Einladungen von %{app_name} möchtest, klicke auf 'Keine weiteren Einladungen'."
+      message_intro: "Hier ist die Nachricht, die er Ihnen geschickt hat:"
+      accept_or_reject: "Wenn Sie die Einladung annimmst, klicke auf „Akzeptieren“, ansonsten auf „Ablehnen“."
+      no_more: "Wenn Sie keine weiteren Einladungen von %{app_name} möchten, klicken Sie auf „Keine weiteren Einladungen“."
       accept: "Akzeptieren"
       reject: "Ablehnen"
       greetings: "Viele Grüße!"
       no_more_button: "Keine weiteren Einladungen"
-      subject: "Du bist zu %{group_name} eingeladen"
+      subject: "Sie sind zu %{group_name} eingeladen"
   words:
     contribute: "Beitrag"
     comment: "Kommentar"
@@ -1233,6 +1239,13 @@ de-DE:
     terms_of_service: "Nutzungsbedingungen"
     privacy_policy: "Datenschutz"
     guide: "Häufig gestellte Fragen"
+  alert_detach: "Sie müssen eine gültige E-Mail-Adresse angeben, um diesen Identitätsanbieter zu entfernen"
+  users:
+    confirm_credentials:
+      instructions_html: |
+        Es gibt bereits einen anderen Benutzer auf Airesis mit der gleichen E-Mail-Adresse.<br />
+        Geben Sie Ihr Passwort ein, um den beiden Konten beizutreten.<br />
+        Wenn Sie sich nicht an das Passwort erinnern, gehen Sie zur Seite „Passwort wiederherstellen“.
   placeholder:
     find: "Suche"
   keep_reading: "weiterlesen"
