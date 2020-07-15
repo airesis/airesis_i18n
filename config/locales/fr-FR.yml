@@ -58,7 +58,7 @@ fr-FR:
         certified_from: "Certifié de"
         group_level_permission_title: "Niveau d'autorisations du groupe"
         admin_permissions: "Vous êtes administrateur de ce groupe et avez toutes les autorisations"
-        certified_cannot_edit_info: "Vous êtes un utilisateur certifié : vous ne pouvez pas modifier votre Nom, Prénom et Email"
+        certified_cannot_edit_info: "Vous êtes un utilisateur certifié : vous ne pouvez pas modifier votre nom, prénom et courriel"
         twitter_url: "URL Twitter"
         meetup_url: "URL du rendez-vous"
       send_message:
@@ -738,7 +738,7 @@ fr-FR:
       welcome: "Bienvenue"
       groups_title: "GROUPES"
       login: "CONNEXION"
-      login_placeholder: "E-mail"
+      login_placeholder: "Courriel"
       groups_list: "Groupes auxquels vous participez"
       open_group: "Démarrer un nouveau groupe"
       new_group: "Trouver des groupes"
@@ -855,7 +855,7 @@ fr-FR:
       create_event_button: "Créer un nouvel événement"
     sessions:
       new:
-        login_label: "E-mail"
+        login_label: "Courriel"
         remember_me_label: "Se souvenir de moi"
       links:
         register: "Pas encore enregistré ? Inscrivez-vous !"
@@ -1194,7 +1194,7 @@ fr-FR:
     group_invitations:
       code_expired: "Le Code d'Invitation a expiré"
       already_participant: "Vous participez déjà à ce groupe"
-      create: "Aucun email envoyé"
+      create: "Aucun courriel envoyé"
   info:
     setting_preferences: "Réglages modifiés avec succès"
     blog_created: "Message créé avec succès"
@@ -1335,9 +1335,9 @@ fr-FR:
       follow_google: "suivez-nous sur Google+"
       footer:
         registered_at: "Vous recevez ce courriel car vous êtes inscrit sur %{url}."
-        connect_with_us: "Connecte-toi avec nous:"
-        contact_info: "Infos de Contact:"
-        email_label: "E-mail:"
+        connect_with_us: "Connecte-toi avec nous :"
+        contact_info: "Infos de contact :"
+        email_label: "Courriel :"
       edit_preferences: "Préférences"
       click_here: "Cliquez ici"
     new_contribute:
@@ -1419,12 +1419,12 @@ fr-FR:
       topics:
         title: "Topics que vous suivez"
   confirm_detach: "Êtes-vous sûr de supprimer ce fournisseur d’identité ? Vous ne pourrez plus l’utiliser à l’avenir."
-  alert_detach: "Vous devez fournir une adresse email valide afin d'éliminer ce fournisseur d'identité"
+  alert_detach: "Vous devez fournir une adresse courriel valide afin d'éliminer ce fournisseur d'identité"
   users:
     confirm_credentials:
       title: "Confirmez vos informations d’identification"
       instructions_html: |
-        Il y a déjà un autre utilisateur sur Airesis avec la même adresse email. < br / > Insérer votre mot de passe sur Airesis pour fusionner les deux comptes. <br /> Si vous ne vous souvenez pas de votre mot de passe, accédez à la page « Récupérer le mot de passe ».
+        Il y a déjà un autre utilisateur sur Airesis avec la même adresse courriel. < br / > Insérer votre mot de passe sur Airesis pour fusionner les deux comptes. <br /> Si vous ne vous souvenez pas de votre mot de passe, accédez à la page « Récupérer le mot de passe ».
     statistics:
       title: "Statistiques d'utilisateur"
       last_login: "Dernière connexion"
