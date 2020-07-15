@@ -76,7 +76,7 @@ de-DE:
     firstDay: 0
     timeFormat: 'h:mm TT{ - [ddd] [dd] h:mm TT}'
     changed: 'Geändert!'
-    eventsFormat: 'h(:mm)t'
+    eventsFormat: 'H(:mm)'
   date:
     formats:
       short: "%b %d"
