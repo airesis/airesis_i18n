@@ -1,10 +1,44 @@
 de:
   db:
     sys_locales:
+      bs:
+        description: Bosnisch
+      de:
+        description: Deutsch
+      el:
+        description: Griechisch
+      en:
+        description: Englisch
+      es:
+        description: Spanisch
+      fr:
+        description: Französisch
+      hu:
+        description: Ungarisch
+      id:
+        description: Indonesisch
+      it:
+        description: Italienisch
+      jp:
+        description: Japanisch
+      me:
+        description: Montenegrinisch
+      nl:
+        description: Niederländisch
+      pt:
+        description: Portugiesisch
+      ro:
+        description: Rumänisch
+      ru:
+        description: Russisch
+      sh:
+        description: Serbokroatisch
       sr-CS:
         description: Serbisch (Latein)
       sr-SP:
         description: Serbisch (Kyrillisch)
+      zh:
+        description: Chinesisch
     proposal_types:
       STANDARD:
         description: Standardvorschläge
@@ -46,6 +80,8 @@ de:
         description: Fügen Sie der Gruppe neue Mitglieder hinzu
       view_proposals:
         description: Private Vorschläge anzeigen
+      participate_proposals:
+        description: Zu den Vorschlägen beitragen
       insert_proposals:
         description: Neue Vorschläge in die Gruppe eintragen
       view_documents:
@@ -189,6 +225,11 @@ de:
         message: "Neuer Vorschlag <b>%{proposal}</b> in der Gruppe <b>%{group}</b> erstellt"
       new_blog_comment:
         description: Neuer Kommentar in meinem Blog
+        email_subject:
+          one: "Neuer Kommentar in Ihrem Blogbeitrag"
+          other: "%{count} neue Kommentare in Ihrem Blogbeitrag"
+      new_forum_topic:
+        description: Neue Themen in Foren
       new_comments_mine:
         description: Neue Kommentare in meinen Vorschlägen
         email_subject: Neuer Kommentar in meinem Vorschlag
