@@ -1,10 +1,44 @@
 fr:
   db:
     sys_locales:
+      bs:
+        description: bosnien
+      de:
+        description: allemand
+      el:
+        description: grec
+      en:
+        description: anglais
+      es:
+        description: espagnol
+      fr:
+        description: français
+      hu:
+        description: hongrois
+      id:
+        description: indonésien
+      it:
+        description: italien
+      jp:
+        description: japonais
+      me:
+        description: monténégrin
+      nl:
+        description: néerlandais
+      pt:
+        description: portugais
+      ro:
+        description: roumain
+      ru:
+        description: russe
+      sh:
+        description: serbo-croate
       sr-CS:
         description: Serbie (Latin)
       sr-SP:
         description: Serbie (cyrillique)
+      zh:
+        description: chinois
     proposal_types:
       STANDARD:
         description: Proposition standard
@@ -228,7 +262,7 @@ fr:
       new_blog_comment:
         description: Nouveau commentaire dans mon blog
         email_subject:
-          one: "Un nouveau commentaire dans votre blog"
+          one: "Un nouveau commentaire sur votre billet de blog"
           other: "%{count} nouveaux commentaires dans votre blog"
         message:
           one: "<b>%{user}</b> a commenté votre message <b>%{title}</b>"
