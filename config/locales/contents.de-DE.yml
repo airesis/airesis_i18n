@@ -92,6 +92,10 @@ de-DE:
     roadmap:
       paragraph1:
         title: "Ziel: Direkte Demokratie"
+    helpus:
+      paragraph4:
+        content_html: |
+          <p><a href="mailto:%{mail}">Kontaktieren Sie uns</a> für weitere Informationen.</p>
     engage:
       nav:
         opensource: "Open-Source"
