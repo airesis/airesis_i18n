@@ -11,7 +11,7 @@ de-DE:
   devise:
     failure:
       locked: 'Ihr Account ist gesperrt'
-      invalid: 'Email oder Passwort ungültig'
+      invalid: 'E-Mail-Adresse oder Passwort ungültig'
       invalid_token: 'Identifizierungscode ungültig'
       timeout: 'Ihre Sitzung ist abgelaufen. Zum Fortfahren bitte erneut einloggen'
       inactive: 'Ihr Account wurde noch nicht aktiviert'
@@ -29,40 +29,49 @@ de-DE:
         signed_in: 'Sie haben sich angemeldet. Herzlich Willkommen!'
         signed_up: 'Du hast die Registrierung korrekt abgeschlossen. Willkommen!'
     passwords:
-      send_instructions: 'In wenigen Minuten werden Sie eine Email mit Anweisungen erhalten, wie Sie Ihr Passwort zurücksetzen können'
+      send_instructions: 'In wenigen Minuten werden Sie eine E-Mail mit Anweisungen erhalten, wie Sie Ihr Passwort zurücksetzen können'
       updated: 'Ihr Passwort wurde erfolgreich geändert. Sie sind jetzt angemeldet'
       updated_not_active: 'Dein Passwort wurde erfolgreich geändert'
-      send_paranoid_instructions: "Wenn Ihre e-Mail-Adresse in unserer Datenbank existiert, erhalten Sie einen Link um Ihr Passwort wiederherzustellen"
+      send_paranoid_instructions: "Wenn Ihre E-Mail-Adresse in unserer Datenbank existiert, erhalten Sie einen Link um Ihr Passwort wiederherzustellen"
     confirmations:
-      send_instructions: 'In wenigen Minuten wirst Du eine Email mit den Anweisungen um deinen Account zu bestätigen, erhalten'
-      send_paranoid_instructions: 'Wenn Ihre Emailadresse in unserer Datenbank existiert, werden Sie in wenigen Minuten eine e-Mail mit Anweisungen erhalten um Ihren Account zu bestätigen,'
+      send_instructions: 'In wenigen Minuten werden Sie eine E-Mail mit den Anweisungen um dein Konto zu bestätigen, erhalten'
+      send_paranoid_instructions: 'Wenn Ihre E-Mail-Adresse in unserer Datenbank existiert, werden Sie in wenigen Minuten eine E-Mail mit Anweisungen erhalten um Ihr Konto zu bestätigen'
       confirmed: 'Ihr Account wurde erfolgreich bestätigt. Sie sind jetzt registriert'
+      user:
+        send_instructions: 'Die Anweisungen wurden an die angegebene E-Mail-Adresse gesendet'
     registrations:
       signed_up: 'Du hast Dich erfolgreich registriert. Herzlich Willkommen!'
-      signed_up_but_unconfirmed: 'Eine Nachricht mit einem Bestätigungslink wurde an Ihre e-Mail-Adresse gesendet. Öffnen Sie bitte den Link, um Ihr Konto zu aktivieren'
+      signed_up_but_unconfirmed: 'Eine Nachricht mit einem Bestätigungslink wurde an Ihre E-Mail-Adresse gesendet. Öffnen Sie bitte den Link, um Ihr Konto zu aktivieren'
       signed_up_but_inactive: 'Sie haben sich erfolgreich registriert. Sie können sich jedoch noch nicht anmelden da Ihr Account noch nicht aktiviert wurde'
       signed_up_but_locked: 'Du hast Dich erfolgreich angemeldet. Du kannst Dich jedoch nich anmelden da Dein Account gesperrt ist.'
       updated: 'Sie haben Ihren Account erfolgreich aktualisiert'
-      update_needs_confirmation: "Du hast Dein Account erfolgreich aktualisiert. Wir müssen allerdings Deine neue Emailadresse verifizieren. Bitte überprüfe deine Email und clicke auf den Bestätigungslink um die Bestätigung deiner Emailadresse abzuschließen"
+      update_needs_confirmation: "Sie haben Ihr Konto erfolgreich aktualisiert. Wir müssen allerdings Ihre neue E-Mail-Adresse verifizieren. Bitte überprüfen Sie Ihre E-Mail und klicken Sie auf den Bestätigungslink, um die Bestätigung deiner E-Mail-Adresse abzuschließen"
       destroyed: 'Ihr Account wurde erfolgreich gelöscht. Wir hoffen Sie bald wiederzusehen'
+      user:
+        inactive_signed_up: 'Um die Registrierung abzuschließen, klicken Sie bitte auf den in der E-Mail angegebenen Link'
+        signed_up_but_unconfirmed: 'Klicken Sie auf den Link in der E-Mail, um den Registrierungsprozess abzuschließen'
     unlocks:
+      send_instructions: 'Sie erhalten in wenigen Minuten eine E-Mail mit Anweisungen zum Entsperren Ihres Kontos'
       unlocked: 'Ihr Konto wurde erfolgreich entsperrt. Um Fortzufahren, loggen Sie sich bitte ein'
-      send_paranoid_instructions: 'Wenn Ihr Konto existiert, erhalten Sie in wenigen Minuten eine e-Mmail mit Anweisungen, um es zu entsperren'
+      send_paranoid_instructions: 'Wenn Ihr Konto existiert, erhalten Sie in wenigen Minuten eine E-Mail mit Anweisungen, um es zu entsperren'
     omniauth_callbacks:
       failure: 'Es war nicht möglich, Sie vom %{kind} zu autorisieren, weil "%{reason}"'
+      certified_email_taken: "Ein anderes Konto mit Ihrer zertifizierten E-Mail existiert bereits."
     mailer:
       confirmation_instructions:
         subject: 'Bestätigungsanweisungen'
         welcome: "Willkommen bei %{app_name} %{user}!"
-        follow_link: "Sie können Ihre E-mail-Adresse bestätigen, indem Sie auf den folgenden Link klicken:"
+        follow_link: "Sie können Ihre E-Mail-Adresse bestätigen, indem Sie auf den folgenden Link klicken:"
         confirm_account: "Konto bestätigen"
         follow_link_2: "oder besuchen Sie die folgende Webseite:"
-        access_by_email: "Dann können Sie bei %{app_name} mit der bereitgestellten e-Mail und dem gewählten Passwort anmelden"
+        access_by_email: "Dann können Sie bei %{app_name} mit der bereitgestellten E-Mail und dem gewählten Passwort anmelden"
         contact_assistance: "Wenn Sie ein Problem mit dem Vorgehen haben, wenden Sie sich an den Administrator: %{mail}"
       reset_password_instructions:
         subject: 'Passwort-Anweisungen zurücksetzen'
         hi_user: "Hallo %{user}!"
+        follow_link: "Sie können Ihr Passwort ändern, indem Sie auf den folgenden Link klicken:"
         change_password: "Passwort ändern"
+        ignore: "Wenn Sie nicht Ihr Passwort ändern möchten, bitte ignorieren Sie diese E-Mail."
         password_will_not_change: "Ihr Passwort wird erst geändert, wenn Sie auf den vorherigen Link klicken."
       unlock_instructions:
         subject: 'Anweisungen zum Entsperren'
