@@ -139,7 +139,7 @@ de-DE:
         wrong_length: 'sollte %{count} Zeichen sein'
         taken: 'ist bereits vergeben'
         not_a_number: 'ist keine Zahl'
-        not_an_email: 'ist keine gültige E-Mail Adresse'
+        not_an_email: 'ist keine gültige E-Mail-Adresse'
         greater_than: 'muss größer als %{count} sein'
         greater_than_or_equal_to: 'muss größer oder gleich %{count} sein'
         equal_to: 'muss gleich %{count} sein'
