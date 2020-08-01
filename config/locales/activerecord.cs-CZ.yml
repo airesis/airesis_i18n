@@ -55,6 +55,7 @@ cs-CZ:
         testo: "Text zprávy"
       place:
         address: 'Adresa'
+        municipality_id: 'Město'
       proposal:
         group_area_id: "Pracovní oblast"
         proposal_category_id: 'Kategorie'
@@ -95,13 +96,17 @@ cs-CZ:
       search_participant:
         role_id: 'Role'
       user:
+        name: 'Jméno'
         email: 'E-mailová adresa'
+        surname: 'Příjmení'
         password: 'Heslo'
         linkedinpageurl: 'Vaše stránka na LinkedIn'
         facebookpageurl: 'Vaše stránka na Facebooku'
         accept_conditions: 'Podmínky užívání'
         receive_newsletter: 'Odebírat novinky e-maiem'
         blocked: "Chyba"
+      user_sensitive:
+        name: 'Jméno'
       group_area:
         name: "jméno"
         description: "Popis"
@@ -120,6 +125,7 @@ cs-CZ:
         wrong_length: 'musí mít %{count} znaků'
         taken: 'je již obsazeno'
         not_a_number: 'není číslo'
+        not_an_email: 'není platná e-mailová adresa'
         greater_than: 'musí být větší než %{count}'
         greater_than_or_equal_to: 'musí být větší nebo rovno %{count}'
         equal_to: 'musí být rovno %{count}'
