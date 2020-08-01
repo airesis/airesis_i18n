@@ -35,6 +35,8 @@ cs-CZ:
     confirmations:
       send_instructions: 'Během několika minut obdržíte email s pokyny pro ověření účtu'
       send_paranoid_instructions: 'Pokud vaše emailová adresa existuje v naší databázi, obdržíte během několika minut email s pokyny pro potvrzení vašeho účtu'
+    registrations:
+      signed_up: 'Vítejte! Úspěšně jste se zaregistrovali'
     mailer:
       confirmation_instructions:
         subject: 'Pokyny pro potvrzení'
