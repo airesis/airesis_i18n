@@ -34,9 +34,9 @@ fr:
       sh:
         description: serbo-croate
       sr-CS:
-        description: Serbie (Latin)
+        description: serbe (latin)
       sr-SP:
-        description: Serbie (cyrillique)
+        description: serbe (cyrillique)
       zh:
         description: chinois
     proposal_types:
