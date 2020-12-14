@@ -42,3 +42,28 @@ uk:
         description: Опитування
       AGENDA:
         description: Розклад
+    group_actions:
+      accept_participation_requests:
+        description: Додати учасників в групу
+      view_proposals:
+        description: Переглянути приватні пропозиції
+      participate_proposals:
+        description: Допоможіть платформі!
+      view_documents:
+        description: Перегляд документів
+      manage_documents:
+        description: Керування документами
+      vote_proposals:
+        description: Переглянути пропозицію
+    notification_categories:
+      PROP:
+        description: Пропозиції, в яких я беру участь
+      NEWPROP:
+        description: Нова пропозиція
+      NEWEVENT:
+        description: Нова подія
+      GROUPS:
+        description: Групи
+    notification_types:
+      new_public_events:
+        description: Нові публічні події
