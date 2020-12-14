@@ -26,7 +26,9 @@ uk-UA:
         porta_id: 'Адміністратор'
         interest_border_tkn: 'Сфера інтересів'
         interest_border_id: 'Сфера інтересів'
+        image_url: 'Веб-адреса зображення'
         default_role_name: "Яке нове ім'я користувача?"
+        title_bar_placeholder: "Групувати за назвою"
         image_url_placeholder: "Посилання на зображення групи"
         private: "Приватна група"
         image: "Завантажити зображення"
@@ -58,20 +60,32 @@ uk-UA:
         title: 'Заголовок'
         subtitle: 'Підзаголовок'
         problems: 'Проблеми'
+        objectives: 'Завдання'
         content: 'Текст'
         tags_list: "Теги"
+        quorum_id: "Тривалість дебатів"
         anonima: "Тимчасова анонімність"
         visible_outside: "Публічний доступ"
         secret_vote: "Таємне голосування"
         vote_starts_at: "Голосування розпочинається о"
         vote_ends_at: "Голосування закінчується о"
+        debate_starts_at: "Голосування розпочинається о"
+        debate_ends_at: "Голосування закінчується о"
       proposal_comment:
         content: 'Контент'
       quorum:
+        description: 'Опис / Коротке пояснення'
         minutes: Тривалість дебатів
+        days_m: Дні
+        hours_m: години
         minutes_m: Хвилин
+        percentage: 'Мінімум учасників'
+        vote_minutes: 'Тривалість дебатів'
+        vote_percentage: 'Кворум (виборці)'
+        vote_good_score: 'Затвердження'
       search_participant:
         role_id: 'Роль'
+        keywords: 'Ім''я чи прізвище'
       user:
         name: 'Ім''я'
         email: 'Адреса електронної пошти'
@@ -80,7 +94,29 @@ uk-UA:
         linkedinpageurl: 'Ваша сторінка на LinkedIn'
         facebookpageurl: 'Ваша сторінка на Facebook'
         accept_conditions: 'Умови використання'
+        receive_newsletter: 'Розсилка листів електронною поштою'
         blocked: "Помилка"
+      user_sensitive:
+        name: 'Ім''я'
+      group_area:
+        name: "Назва"
+        description: "Опис"
     errors:
       messages:
+        inclusion: 'немає в списку'
+        exclusion: 'зарезервовано'
+        invalid: 'зазначено невірно'
+        accepted: 'необхідно прийняти'
+        empty: 'не може бути незаповненим'
+        blank: 'обов''язково для заповнення.'
         too_long: 'Текст є задовгим.'
+        too_short: 'Надто короткий текст'
+        taken: '  Вже зайнято.'
+      models:
+        user:
+          attributes:
+            email:
+              already_confirmed: 'Ця електронна адреса вже зареєстрована'
+        group:
+          portavoce:
+            required: 'Ви повинні вибрати адміністратора'
