@@ -81,3 +81,6 @@ uk-UA:
         facebookpageurl: 'Ваша сторінка на Facebook'
         accept_conditions: 'Умови використання'
         blocked: "Помилка"
+    errors:
+      messages:
+        too_long: 'Текст є задовгим.'
