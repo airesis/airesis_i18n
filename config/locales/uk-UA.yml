@@ -25,6 +25,64 @@ uk-UA:
         join_twitter: "Під'єднайте свій профіль на Твіттері"
         rotp: "Невірний ключ безпеки"
         rotp_title: "Ключ безпеки"
+    groups:
+      administration_panel:
+        events: 'Події та зустрічі'
+        users: "Керувати користувачами"
+      edit_events:
+        title: 'Керувати подіями групи'
+      edit_permissions:
+        title: 'Управління користувачами та дозволами'
+        user_title: "Користувач"
+        confirm_role_change4: "Підтвердити?"
+      index:
+        show_more: "Показати більше груп"
+        tags: "Мітки"
+        participants_number: "Кількість учасників"
+        proposals_number: "Кількість пропозицій"
+        events_number: "Кількість подій"
+        no_results: "Групу не знайдено"
+        limit_reached: "Можна створювати тільки одну групу на добу"
+      new:
+        title: 'Створити нову групу'
+        new_group: "Нова група"
+        create_button: "Створити групу"
+      layout:
+        calendar: "КАЛЕНДАР"
+      show:
+        featured_post:
+          'false': Закріпити!
+      header:
+        settings: "НАЛАШТУВАННЯ"
+        documents: "ДОКУМЕНТИ"
+        forums: "ФОРУМ"
+        alarm_settings: "Налаштування"
+      participations:
+        surname: "Прізвище"
+        name: "Ім'я"
+        remove_all: "Видалити все"
+    login:
+      title: 'Увійти'
+    password:
+      edit:
+        new_password: "Новий пароль"
+        confirm_button: "Змінити пароль"
+    registration:
+      choose_password: "Вибрати пароль"
+      register_button: "Зареєструватися"
+    proposals:
+      index:
+        most_popular: "Найпопулярніші"
+        loading_alt: "Завантаження"
+        last_24h: "створено за добу"
+        last_1h: "створено за останню годину"
+        last_7d: "створено за останній тиждень"
+        last_1m: "створено за останній рік"
+        last_1y: "створено за останній рік"
+      show:
+        voteup: 'Погоджуюся'
+        votenil: "Я не знаю / я не розумію"
+        votedown: 'Не погоджуюся '
     header:
       groups_title: "ГРУПИ"
       support_us: "ПІДТРИМАЙТЕ НАС"
