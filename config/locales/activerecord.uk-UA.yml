@@ -112,6 +112,15 @@ uk-UA:
         too_long: 'Текст є задовгим.'
         too_short: 'Надто короткий текст'
         taken: '  Вже зайнято.'
+        not_an_email: 'не дійсна адреса електронної пошти'
+        greater_than: 'має бути більше ніж %{count}'
+        greater_than_or_equal_to: 'має бути більше ніж або дорівнювати %{count}'
+        equal_to: 'має дорівнювати %{count}'
+        less_than: 'має бути менше, ніж %{count}'
+        less_than_or_equal_to: 'має бути менше ніж або дорівнювати %{count}'
+        odd: 'може мати тільки парне значення'
+        even: 'може мати тільки непарне значення'
+        not_found: 'не знайдено.'
       models:
         user:
           attributes:
