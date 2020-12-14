@@ -1,1 +1,30 @@
 uk-UA:
+  frm:
+    admin:
+      forum:
+        new: Створення нового форуму
+        new_link: Новий форум
+      mod:
+        index: Керувати групами
+        new: Нова Група
+      mods:
+        show:
+          add_member: Додати
+        edit: Редагувати
+        delete: Видалити
+        name: Ім'я
+    common:
+      pages: Сторінки
+    errors:
+      not_signed_in: Ви повинні авторизуватись
+      access_denied: Доступ заборонено.
+    topic:
+      reply: Відповісти
+      locked:
+        'true': Допис закритий.
+    topics:
+      show:
+        reply: Відповісти
+        delete: Видалити
+        subscribe: Підписатись
+        unsubscribe: Відписатися
