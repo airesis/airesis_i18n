@@ -73,6 +73,11 @@ uk-UA:
     month: 'місяць'
     week: 'тиждень'
     day: 'день'
+    firstDay: 1
+    changed: 'Змінено'
   time:
     am: "ранку"
     pm: "вечора"
+  datetime:
+    distance_in_words:
+      half_a_minute: пів хвилини тому
