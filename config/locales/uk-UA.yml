@@ -83,6 +83,10 @@ uk-UA:
         voteup: 'Погоджуюся'
         votenil: "Я не знаю / я не розумію"
         votedown: 'Не погоджуюся '
+        reply_placeholder: "Додати свій коментар"
+        export_pdf: "Друк PDF"
+      new:
+        step_similar: "Подібні пропозиції"
     header:
       groups_title: "ГРУПИ"
       support_us: "ПІДТРИМАЙТЕ НАС"
