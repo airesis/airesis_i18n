@@ -1,1 +1,44 @@
 uk:
+  db:
+    sys_locales:
+      bs:
+        description: Боснійська
+      de:
+        description: Німецька
+      el:
+        description: грецька
+      en:
+        description: Англійська
+      es:
+        description: Іспанська
+      fr:
+        description: Французька
+      hu:
+        description: Угорська
+      id:
+        description: Індонезійська
+      it:
+        description: Італійська
+      jp:
+        description: Японська
+      me:
+        description: Чорногорська
+      pt:
+        description: Португальська
+      ro:
+        description: Румунська
+      ru:
+        description: Російська
+      sh:
+        description: Сербсько-хорватська
+      sr-CS:
+        description: Сербська (латиниця)
+      sr-SP:
+        description: Сербська (кирилиця)
+      zh:
+        description: Китайська
+    proposal_types:
+      POLL:
+        description: Опитування
+      AGENDA:
+        description: Розклад
