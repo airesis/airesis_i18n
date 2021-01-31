@@ -12,6 +12,7 @@ cs-CZ:
     failure:
       locked: 'Váš účet je uzamčen'
       invalid: 'Neplatný e-mail nebo heslo'
+      invalid_token: 'Neplatný ověřovací token'
       timeout: 'Vaše relace vypršela, pro pokračování se prosím znovu přihlaste'
       inactive: 'Váš účet ještě nebyl aktivován'
       already_authenticated: 'Již jste registrován'
@@ -35,6 +36,9 @@ cs-CZ:
     confirmations:
       send_instructions: 'Během několika minut obdržíte email s pokyny pro ověření účtu'
       send_paranoid_instructions: 'Pokud vaše emailová adresa existuje v naší databázi, obdržíte během několika minut email s pokyny pro potvrzení vašeho účtu'
+      confirmed: 'Váš účet byl úspěšně potvrzen. Nyní jste přihlášeni'
+      user:
+        confirmed: 'Vaše registrace byla úspěšně dokončena'
     registrations:
       signed_up: 'Vítejte! Úspěšně jste se zaregistrovali'
     mailer:
