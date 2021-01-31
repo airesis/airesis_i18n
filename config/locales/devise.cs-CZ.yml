@@ -43,6 +43,7 @@ cs-CZ:
     registrations:
       signed_up: 'Vítejte! Úspěšně jste se zaregistrovali'
       signed_up_but_unconfirmed: 'Zpráva s potvrzovacím odkazem byla odeslána na vaši e-mailovou adresu. Otevřete prosím odkaz pro aktivaci vašeho účtu'
+      signed_up_but_inactive: 'Úspěšně jste se zaregistrovali. Nicméně, nemohli jsme se přihlásit, protože Váš účet ještě není aktivován'
     mailer:
       confirmation_instructions:
         subject: 'Pokyny pro potvrzení'
