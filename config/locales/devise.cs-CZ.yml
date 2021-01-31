@@ -39,8 +39,10 @@ cs-CZ:
       confirmed: 'Váš účet byl úspěšně potvrzen. Nyní jste přihlášeni'
       user:
         confirmed: 'Vaše registrace byla úspěšně dokončena'
+        send_instructions: 'Instrukce byly odeslány na váš určený e-mail'
     registrations:
       signed_up: 'Vítejte! Úspěšně jste se zaregistrovali'
+      signed_up_but_unconfirmed: 'Zpráva s potvrzovacím odkazem byla odeslána na vaši e-mailovou adresu. Otevřete prosím odkaz pro aktivaci vašeho účtu'
     mailer:
       confirmation_instructions:
         subject: 'Pokyny pro potvrzení'
