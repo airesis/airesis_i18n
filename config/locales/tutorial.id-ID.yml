@@ -54,6 +54,10 @@ id-ID:
       emails: "...dengan surel, atau keduanya."
       no_emails: "Ingat: jika Anda menonaktifkan peringatan di Airesis, Anda tidak akan menerimanya di Airesis juga."
       desktop: "Ini adalah <b> Desk </b>: <br/> di sini Anda dapat mengelola <b> proposal Anda </b> dan <b> Grup </b>, lihat <b> Acara </b> dan berhubungan dengan warga lain Desktop Anda berisi beberapa panel yang akan mengisi konten mereka agar Anda terus memperbarui aktivitas Anda di dalam Airesis"
+      proposals_portlet: "Dalam kotak ini Anda melihat semua proposal dalam debat dan Anda dapat mengawasi kemajuan mereka."
+      vote_portlet: "Dalam kotak ini Anda akan menemukan semua proposal yang dapat Anda pilih suarah dan di mana Anda belum memberikan suara Anda"
+      topics: "Disini Anda melihat status dari semua topik yang Anda ikuti dan Anda dapat langsung melihat apakah ada pesan baru apapun"
+      explore: "Jelajahi Airesis dan mulai berpartisipasi! Anda akan melihat halaman beranda Anda diisi dengan konten dan informasi baru"
       click_logo: "Klik pada logo Airesis untuk kembali selalu ke halaman ini"
       click_groups: "Klik pada ikon menu Grup untuk akses cepat ke area publik, grup tempat Anda berpartisipasi, atau untuk membuka grup baru"
     users_border_preferences:
