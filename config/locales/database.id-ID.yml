@@ -1,10 +1,44 @@
 id:
   db:
     sys_locales:
+      bs:
+        description: Bosnia
+      de:
+        description: Jerman
+      el:
+        description: Yunani
+      en:
+        description: Inggris
+      es:
+        description: Spanyol
+      fr:
+        description: Perancis
+      hu:
+        description: Hungaria
+      id:
+        description: Indonesia
+      it:
+        description: Italia
+      jp:
+        description: Jepang
+      me:
+        description: Montenegro
+      nl:
+        description: Belanda
+      pt:
+        description: Portugis
+      ro:
+        description: Rumania
+      ru:
+        description: Rusia
+      sh:
+        description: Serbo-Kroasia
       sr-CS:
         description: Serbia (Latin)
       sr-SP:
         description: Serbia (Cyrillic)
+      zh:
+        description: Cina
     proposal_types:
       STANDARD:
         description: Proposal Standar
