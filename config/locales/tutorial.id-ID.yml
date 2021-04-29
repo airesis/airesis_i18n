@@ -60,6 +60,8 @@ id-ID:
       explore: "Jelajahi Airesis dan mulai berpartisipasi! Anda akan melihat halaman beranda Anda diisi dengan konten dan informasi baru"
       click_logo: "Klik pada logo Airesis untuk kembali selalu ke halaman ini"
       click_groups: "Klik pada ikon menu Grup untuk akses cepat ke area publik, grup tempat Anda berpartisipasi, atau untuk membuka grup baru"
+      click_personal: "Melalui ikon ini, Anda dapat mengakses Halaman Beranda, Blog atau Pengaturan Pribadi Anda"
+      click_info: "Di sini Anda akan menemukan panduan untuk menggunakan Airesis dan banyak informasi bermanfaat lainnya"
     users_border_preferences:
       intro: "Jika Anda belum melakukannya, tentukan batas geografis yang diminati. Airesis akan segera menggunakan mereka untuk menunjukkan konten-konten tertentu."
     welcome:
