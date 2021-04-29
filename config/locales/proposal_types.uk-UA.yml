@@ -1,1 +1,42 @@
 uk-UA:
+  pages:
+    proposals:
+      edit:
+        add_solution:
+          standard: "Додайте інший розв'язок"
+          poll: "Додайте інший параметр"
+          rule_book: "Додайте інший розв'язок"
+          press: "Додайте інший розв'язок"
+          event: "Додайте інший розв'язок"
+          estimate: "Додайте інший розв'язок"
+          agenda: "Додайте інший аспект"
+          candidates: "Додайте іншого кандидата"
+          simple: "Додайте інший розв'язок"
+        solution_title:
+          standard: "Розв'язок "
+          poll: "Параметр"
+          rule_book: "Розв'язок "
+          press: "Розв'язок "
+          event: "Розв'язок "
+          estimate: "Розв'язок "
+          agenda: "Аспект"
+          candidates: "Кандидат"
+          simple: "Розв'язок "
+        insert_title:
+          standard: "Вставте заголовок"
+          poll: "Вставте заголовок"
+          rule_book: "Вставте заголовок"
+          press: "Вставте заголовок"
+          event: "Встановіть заголовок"
+          estimate: "Вставте заголовок"
+          agenda: "Вставте заголовок"
+          candidates: "Вставте ім'я та прізвище"
+          simple: "Вставте заголовок"
+        new_solution_title:
+          standard: "Розв'язок <span class=\"num\">%{num}</span>:"
+          poll: "Параметр <span class=\"num\">%{num}</span>:"
+          rule_book: "Розв'язок <span class=\"num\">%{num}</span>:"
+          press: "Розв'язок <span class=\"num\">%{num}</span>:"
+          event: "Розв'язок <span class=\"num\">%{num}</span>:"
+          estimate: "Розв'язок <span class=\"num\">%{num}</span>:"
+          agenda: "<span class=\"num\">%{num}</span> крапка:"
