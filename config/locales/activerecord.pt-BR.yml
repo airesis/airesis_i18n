@@ -90,6 +90,7 @@ pt-BR:
         days_m: Dias
         hours_m: horas
         minutes_m: Minutos
+        percentage: 'Mínimo de participantes'
         percentage_title: 'Número mínimo de participantes na discussão como uma percentagem do número de participantes no grupo'
         good_score: 'Maturidade'
         good_score_title: 'Avaliação necessaria para que a proposta passe a fase de votação'
