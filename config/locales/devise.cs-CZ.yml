@@ -44,6 +44,10 @@ cs-CZ:
       signed_up: 'Vítejte! Úspěšně jste se zaregistrovali'
       signed_up_but_unconfirmed: 'Zpráva s potvrzovacím odkazem byla odeslána na vaši e-mailovou adresu. Otevřete prosím odkaz pro aktivaci vašeho účtu'
       signed_up_but_inactive: 'Úspěšně jste se zaregistrovali. Nicméně, nemohli jsme se přihlásit, protože Váš účet ještě není aktivován'
+      signed_up_but_locked: 'Registrace proběhla úspěšně. Nemohli jsme vás ale přihlásit, protože váš účet je zamčený.'
+      updated: 'Účet byl úspěšně aktualizován.'
+      update_needs_confirmation: "Váš účet byl úspěšně aktualizován, ale musíme ověřit Vaši novou e-mailovou adresu. Zkontrolujte prosím svůj e-mail a klikněte na odkaz pro dokončení potvrzení Vaší nové e-mailové adresy"
+      destroyed: 'Na shledanou! Váš účet byl úspěšně zrušen. Doufáme, že se brzy opět uvidíme.'
     mailer:
       confirmation_instructions:
         subject: 'Pokyny pro potvrzení'
