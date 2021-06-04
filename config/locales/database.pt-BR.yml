@@ -56,6 +56,8 @@ pt:
         description: Escolha de um candidato
       SIMPLE:
         description: Proposta simples
+      PETITION:
+        description: Petição
     event_types:
       meeting:
         description: encontro
@@ -76,6 +78,8 @@ pt:
         description: Adicionar novos membros ao grupo
       view_proposals:
         description: Ver propostas privadas
+      participate_proposals:
+        description: Contribuir às propostas
       insert_proposals:
         description: Inserir novas propostas no grupo
       view_documents:
@@ -112,8 +116,18 @@ pt:
         message: "%{user} adicionou uma nova mensagem no blog <b>%{blog}</b>"
       new_valutation_mine:
         description: Nova avaliação para uma proposta minha
+        email_subject:
+          one: "%{title} tem uma nova avaliação"
+          other: "%{title} tem uma %{count} nova avaliação"
+        message:
+          one: "Sua proposta <b>%{title}</b> recebeu uma nova avaliação"
       new_valutation:
         description: Nova avaliação para uma proposta que participo
+        email_subject:
+          one: "%{title} tem uma nova avaliação"
+          other: "%{title} tem uma %{count} nova avaliação"
+        message:
+          one: "A proposta <b>%{title}</b> recebeu uma nova avaliação"
       available_author:
         description: Usuário disponível para se tornar editor de uma proposta
       author_accepted:
