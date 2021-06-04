@@ -132,6 +132,11 @@ pt:
           other: "A proposta <b>%{title}</b> recebeu %{count} uma nova avaliação"
       available_author:
         description: Usuário disponível para se tornar editor de uma proposta
+        email_subject:
+          one: "%{title} -Um novo editor está disponível"
+          other: "%{title} - %{count} novos editores estão disponíveis "
+        message:
+          one: "%{user} é disponível para se tornar editor da proposta <b>%{title}</b>"
       author_accepted:
         description: Aceitação como editor de uma proposta
         email_subject: "%{title} - Você agora é um editor!"
