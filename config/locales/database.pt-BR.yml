@@ -1,5 +1,42 @@
 pt:
   db:
+    sys_locales:
+      de:
+        description: Alemão
+      el:
+        description: Grego
+      en:
+        description: Inglês
+      es:
+        description: Espanhol
+      fr:
+        description: Francês
+      hu:
+        description: Húngaro
+      id:
+        description: Indonésio
+      it:
+        description: Italiano
+      jp:
+        description: Japonês
+      me:
+        description: Montenegrino
+      nl:
+        description: Holanda
+      pt:
+        description: Português
+      ro:
+        description: Romeno
+      ru:
+        description: Russo
+      sh:
+        description: Servo-Croata
+      sr-CS:
+        description: Sérvio (latino)
+      sr-SP:
+        description: Sérvio (cirílico)
+      zh:
+        description: Chinês
     proposal_types:
       STANDARD:
         description: Proposta Padrão
