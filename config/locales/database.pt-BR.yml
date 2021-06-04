@@ -165,8 +165,16 @@ pt:
           other: "%{title} foi atualizado %{count} vezes"
         message:
           one: "A proposta <b>%{title}</b> foi atualizada"
+          other: "A prosta %{title}foi atualizada%{count} vezes"
       new_contributes_mine:
         description: "Novas contribuições em minhas propostas"
+        email_subject:
+          one: "%{title} -Uma nova contribuição foi inserida"
+          other: "%{title} - Há %{count} novas contribuições"
+        message:
+          zero: "<b>%{name}</b> adicionou uma nova contribuição na sua proposta <b>%{title}</b>"
+          one: "<b>%{name}</b> adicionou uma nova contribuição na sua  proposta <b>%{title}</b>"
+          other: "Há <b>%{count}</b> novas contribuições em sua proposta  <b>%{title}</b>"
       change_status:
         description: "Alteração no estado de uma proposta que participo"
         email_subject:
@@ -214,6 +222,11 @@ pt:
           1_hour: "O debate sobre <b>%{title}</b> termina em uma hora!"
           24_hours_vote: "O debate sobre <b>%{title}</b> termina amanhã!"
           1_hour_vote: "O debate sobre <b>%{title}</b> termina em uma hora!"
+      proposal_phase_ending:
+        description: "Está prestes a terminar um debate ou uma votação sobre propostas"
+        email_subject:
+          24_hours: "O debate sobre %{title} termina amanhã!"
+          1_hour: "O debate sobre %{title} termina em uma hora!"
       new_posts_group_follow:
         description: Novas mensagens nos Murais dos grupos que sigo
         email_subject: Nova mensagem
