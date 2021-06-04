@@ -14,7 +14,7 @@ es-AR:
           Puesto que el objetivo de Airesis es estimular la participación, se ha trabajado mucho con el fin de maximizar la intuición de la plataforma entera. La filosofía de desarrollo se centra en la mejora continua, una especie de proceso evolutivo basado en los comentarios de los usuarios. El equipo de desarrollo está disponible para satisfacer las necesidades de las comunidades que desean utilizar el software de acuerdo con el espíritu de democracia directa.</p>
       paragraph_3:
         title: "Principios y valores fundamentales"
-        content_html: |
+        content_html: |2
           <p>Airesis es una herramienta de toma de decisiones de open source de e-democracia,
           fuertemente orientado a la resolución de problemas y diseñados para maximizar el inmenso poder evolutivo
            de <a heref="http://en.wikipedia.org/wiki/Collective_intelligence" target="_blank"> la inteligencia colectiva</a>.</p>
@@ -43,7 +43,7 @@ es-AR:
           Cada grupo tiene sus propias necesidades, cada propuesta es diferente a los demás, cada usuario tiene sus propias necesidades.</li>
       paragraph_4:
         title: "Nuestro objetivo: la democracia directa y participativa"
-        content_html: |
+        content_html: |2
           <p>Estructurado como una red social, Airesis permite a los usuarios a participar a otras personas según sus intereses y a explotar las cualidades de cada uno para deliberar consensualmente cualquier tipo de propuesta. La arquitectura y sus valores básicos permiten la plataforma lograr objetivos de debate social y constructivo sobre los temas que pueden implicar el territorio, la promoción social, las políticas del sector y por lo tanto para sacar las mejores ideas.</p> 
           <p>Airesis proporciona herramientas para: 
           <ul>
@@ -132,7 +132,7 @@ es-AR:
           </p>
       paragraph_8:
         title: "Mucho, mucho más"
-        content_html: |
+        content_html: |2
           <p>
           Las características de Airesis no son sólo éstos! <br/> 
           Ver nuestra %{intro_page} para descubrir las decenas de herramientas y opciones disponibles para su grupo. <br/>
