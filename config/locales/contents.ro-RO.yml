@@ -45,7 +45,7 @@ ro-RO:
           Fiecare grup are propriile nevoi, fiecare propunere este diferita de celelalte, fiecare utilizator are nevoile sale.</li>
       paragraph_4:
         title: "Scopul urmarit: democratie directa, participativa"
-        content_html: |
+        content_html: |2
           <p>Structurata ca o retea sociala (social network), Airesis permite utilizatorilor sa implice in dezbateri orice stakeholder, in functie de obiectivele urmarite, pentru a pune in valoare abilitatile si cunostintele fiecaruia si a stabili solutii consensuale pentru orice tip de propunere. Valorile fundamentale ale constructiei si arhitectura platformei permit utilizarea acesteia pentru atingerea unor obiective constructive de dezbatere sociala ce pot include elemente teritoriale, de promovare sociala, politici sectoriale etc., in special prin catalizarea si promovarea celor mai bune idei si solutii.</p>
           <p>Airesis asigura instrumentele necesare pentru:
           <ul>
@@ -67,7 +67,7 @@ ro-RO:
           <p>Structura curenta permite utilizatorului inregistrat sa faca parte dintr-un <strong>open space</strong>, sa se inscrie intr-unul dintre <strong>grupurile</strong> deja existente, sau sa creeze un grup nou. Atat in grupuri cat si in open space este posibila publicarea de initiative/propuneri, <strong>evaluarea lor</strong>, editarea unui <strong>sumar</strong> partajat si apoi <strong>votarea</strong> versiunii finale. In acelasi cadru se pot crea evenimente asociate <strong>intalnirilor</strong> si proceselor de <strong>vot</strong>.</p>
       paragraph_6:
         title: "Facilitati de baza"
-        content_html: |
+        content_html: |2
           <ul>
             <li><strong>Creare de cont de utilizator si acces la cont</strong> <br>
               din orice pagina sau chiar dupa adaugarea unui comentariu sau a unei contributii. Este posibil, de asemenea, accesul prin intermediul conturilor de Facebook, Google+, Meetup, Twitter sau LinkedIn.
@@ -92,7 +92,7 @@ ro-RO:
           </ul>
       paragraph_7:
         title: "Instrument pentru propuneri si dezbateri"
-        content_html: |
+        content_html: |2
           <p>Aplicatia se concentreaza in jurul <strong>instrumentului deliberativ</strong> care permite participarea individuala la procesul de formulare a unei propuneri, la stabilirea de obiective comune, la identificarea de solutii alternative si la votul asupra propunerii - totul pentru ca propunerea sa intruneasca un grad de consens cat mai ridicat, iar rezultatul final sa fie solutia cu gradul cel mai inalt de acceptare si internalizare</p>
           <p>Procesul implica 3 pasi:</p>
           <ul>
@@ -134,7 +134,7 @@ ro-RO:
           <p>La finalul votului propunerea primeste status-ul <strong>"votat"</strong>, care permite vizualizarea rezultatului votului in orice moment.</p>
       paragraph_9:
         title: "Promovarea propunerilor comune si Democratia Participativa"
-        content_html: |
+        content_html: |2
           <p>Airesis a fost dezvoltat pentru a promova impartasirea de idei si opinii in cadrul comunitatii. In acest sens platforma ofera mai multe instrumente:</p>
           <ul>
             <li><strong>propunerea - devine publica odata cu lansarea ei</strong>;
