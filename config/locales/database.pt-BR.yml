@@ -137,6 +137,7 @@ pt:
           other: "%{title} - %{count} novos editores estão disponíveis "
         message:
           one: "%{user} é disponível para se tornar editor da proposta <b>%{title}</b>"
+          other: "%{count}usuários estão disponíveis para se tornar editor para proposta <b>%{title}</b>"
       author_accepted:
         description: Aceitação como editor de uma proposta
         email_subject: "%{title} - Você agora é um editor!"
@@ -149,8 +150,21 @@ pt:
         description: As contribuições retornaram ao debate
         email_subject: "%{proposal} - contribuição retornada em debate"
         message: "Uma sua contribuição na proposta <b>%{proposal}</b> voltou ao debate"
+      new_contributes:
+        description: "Novas contribuições nas propostas que eu participo "
+        email_subject:
+          one: "%{title} -Uma nova contribuição foi inserida"
+          other: "%{title} - Há %{count} novas contribuições"
+        message:
+          one: "<b>%{name}</b> adicionou uma nova contribuição na proposta <b>%{title}</b>"
+          other: "Há<b>%{count}</b> novas contribuições na proposta <b>%{title}</b>"
       text_update:
         description: "Atualização do texto de uma proposta que participo"
+        email_subject:
+          one: "%{title}foi atualizado"
+          other: "%{title} foi atualizado %{count} vezes"
+        message:
+          one: "A proposta <b>%{title}</b> foi atualizada"
       new_contributes_mine:
         description: "Novas contribuições em minhas propostas"
       change_status:
