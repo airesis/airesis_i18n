@@ -49,7 +49,7 @@ it-IT:
           Ogni gruppo ha le proprie necessità, ogni proposta è diversa dalle altre, ogni utente ha le proprie esigenze.</li>
       paragraph_4:
         title: "Il nostro obiettivo: la democrazia diretta e partecipativa"
-        content_html: |
+        content_html: |2
           <p>Strutturato come un social network, permette di coinvolgere le persone in base ai propri interessi e di sfruttare
           le doti di ciascuno per deliberare in modo consensuale su qualsiasi tipo di proposta.
           L'architettura e i suoi valori fondanti consentono alla piattaforma di perseguire obiettivi di aggregazione sociale e dibattito costruttivo
@@ -68,7 +68,7 @@ it-IT:
           </p>
       paragraph_5:
         title: "Caratteristiche e funzioni"
-        content_html: |
+        content_html: |2
           <p> Il team di sviluppo di Airesis realizza le funzioni e gli strumenti
             <strong>in base alle esigenze dei gruppi</strong> che fruiscono della piattaforma. Lo stesso gruppo di sviluppo è
             presente su Airesis e decide <strong>consensualmente</strong> le future implementazioni</p>
@@ -80,7 +80,7 @@ it-IT:
           </p>
       paragraph_6:
         title: "Funzioni di base"
-        content_html: |
+        content_html: |2
           <ul>
                       <li><strong>Iscrizione e accesso alla piattaforma</strong> <br>
                         da qualsiasi pagina o anche a seguito all'inserimento di un commento o di un contributo. E' possibile accedere con Facebook, Google +, Meetup, Twitter o Linkedin
@@ -108,7 +108,7 @@ it-IT:
                     </ul>
       paragraph_7:
         title: "Strumento proposte e dibattito"
-        content_html: |
+        content_html: |2
           <p>Il cuore del software sta nello <b>strumento deliberativo</b> che consente di partecipare alla stesura di una proposta,
           di fissare un obiettivo comune, di contribuire alla ricerca di soluzioni alternative e di portare in votazione il risultato di questo lavoro in modo
           che la proposta possa ricevere quanto più consenso possibile e possa emergere la soluzione migliore e più condivisa.</p>
@@ -153,7 +153,7 @@ it-IT:
           </ul>
       paragraph_8:
         title: "Votazione con metodo Schulze e Democrazia Diretta"
-        content_html: |
+        content_html: |2
           <p>Quando il tempo fissato per il dibattito scade e un numero sufficiente di persone concordano sulla maturità della proposta (queste condizioni variano in base al quorum di dibattito), la proposta passa alla <b>fase di votazione</b>.</p>
           <p>A questo punto la proposta viene <strong>congelata</strong> ed il redattore deve <strong>scegliere un periodo</strong> in cui il gruppo potrà votare la proposta.
           L'evento votazione viene registrato sul calendario del gruppo e viene <strong>notificato</strong> a tutti gli iscritti al gruppo.</p>
@@ -164,7 +164,7 @@ it-IT:
           <p> Al termine della votazione la proposta si sposta nello stato di <strong>'votata'</strong>, dove è possibile visionare il risultato della votazione in ogni momento.</p>
       paragraph_9:
         title: "Promozione di proposte condivise e Democrazia Partecipata"
-        content_html: |
+        content_html: |2
           <p>Airesis è stato sviluppato per promuovere la condivisione delle idee e delle opinioni all'interno della comunità. Per ottenere questo la piattaforma mette a disposizione vari strumenti:</p>
           <ul>
             <li>la <strong>proposta è pubblica di default</strong>
@@ -248,7 +248,7 @@ it-IT:
           </p>
       paragraph_2:
         title: "Crea il tuo gruppo"
-        content_html: |
+        content_html: |2
           <p>
             Che siate un'associazione, un'azienda, una scuola o un partito, Airesis è lo strumento che fa per voi!<br/>
             Create in pochi minuti il vostro gruppo e iniziate subito a provare gli strumenti che avrete a disposizione.<br/>
@@ -258,7 +258,7 @@ it-IT:
           </p>
       paragraph_3:
         title: "Organizza i partecipanti"
-        content_html: |
+        content_html: |2
           <p>
             Un potente meccanismo di gestione dei <b>ruoli e dei permessi</b> vi consentirà di dare al vostro gruppo la forma che preferite:
             potrete avere utenti con più o meno permessi a seconda del loro ruolo, organizzare gerarchicamente i partecipanti
@@ -267,7 +267,7 @@ it-IT:
           </p>
       paragraph_4:
         title: "Proponi e delibera"
-        content_html: |
+        content_html: |2
           <p>
             Il cuore pulsante di Airesis sono le proposte: avrete a disposizione diversi modelli con cui coinvolgere le persone nel gruppo e sentire la loro opinione.<br/>
             Potrete dibattere su singoli argomenti, costruire un Ordine del Giorno in maniera condivisa e votare dei candidati in maniera democratica.<br/>
@@ -276,7 +276,7 @@ it-IT:
           </p>
       paragraph_5:
         title: "Organizza i tuoi eventi, aumenta la partecipazione"
-        content_html: |
+        content_html: |2
           <p>
             Un sistema completo di calendarizzazione degli eventi vi permette di organizzare al meglio le attività del vostro gruppo.<br/>
             I partecipanti al gruppo saranno avvisati dei prossimi eventi organizzati e potranno sincronizzare il proprio calendario con quello del gruppo.<br/>
@@ -284,7 +284,7 @@ it-IT:
           </p>
       paragraph_6:
         title: "Un archivio documenti condiviso"
-        content_html: |
+        content_html: |2
           <p>
             Il vostro gruppo avrà a disposizione un utilissimo e completo Archivio Documenti che potrà organizzare in
             cartelle e sottocartelle per mettere a disposizione dei partecipanti
@@ -296,7 +296,7 @@ it-IT:
           </p>
       paragraph_7:
         title: "Uno spazio per dialogare"
-        content_html: |
+        content_html: |2
           <p>
             Le idee migliori nascono dal dialogo: è per questo che Airesis ha deciso di mettere a disposizione un forum per
             ciascun gruppo dove gli utenti possano scambiarsi idee, suggerimenti o semplicemente fare quattro chiacchiere in
@@ -310,7 +310,7 @@ it-IT:
           </p>
       paragraph_8:
         title: "Molto, molto altro ancora"
-        content_html: |
+        content_html: |2
           <p>
             Le funzioni di Airesis non si esauriscono qui!<br/>
             Guarda la nostra %{intro_page} per scoprire le decine di
@@ -324,7 +324,7 @@ it-IT:
     roadmap:
       paragraph1:
         title: "Destinazione: la democrazia diretta"
-        content_html: |
+        content_html: |2
           <p>Airesis nasce dall'incontro e dalla fusione di due progetti avviati oltre due anni fa a seguito della necessità di
            usufruire di uno strumento informatico che potesse integrare le funzioni principali di social network, gestione di
            eventi e sistema deliberativo di massa.</p>
@@ -366,7 +366,7 @@ it-IT:
     linkback:
       paragraph1:
         title: "Aiutaci a far conoscere questo strumento di democrazia partecipativa"
-        content_html: |
+        content_html: |2
           <p>Il nostro progetto ha bisogno di essere conosciuto da tutti coloro che hanno a cuore l'avvenire della nostra
             democrazia. Aiutaci a divulgarlo nei blog, nei forum, su facebook, sui social network e ovunque ci sia voglia di
             democrazia.</p>
@@ -428,7 +428,7 @@ it-IT:
           </p>
       analyst:
         title: "Analista"
-        description_html: |
+        description_html: |2
           <p>
             E' l'anello di congiunzione tra gli utenti ed il gruppo di sviluppo. <br/>
             Raccoglie le necessità dei gruppi e dei cittadini e fornisce al gruppo di sviluppo la documentazione necessaria e dettagliata per lo sviluppo di nuove funzionalità o il miglioramento di quelle esistenti.<br/>
@@ -453,14 +453,14 @@ it-IT:
           </p>
       graphic:
         title: "Grafico"
-        description_html: |
+        description_html: |2
           <p>
             Disegna le interfacce utente e fornisce le bozze al gruppo di sviluppo.
             Cura l'accessibilità e la comprensibilità/leggibilità dei testi presenti nel software (guide per gli utenti...)
           </p>
       recruiter:
         title: "Reclutatore"
-        description_html: |
+        description_html: |2
           <p>
             Si occupa della ricerca di nuovi volontari disposti a portare avanti il progetto, di testers,
             nonchè di gruppi disponibili ad utilizzare il software per le loro attività.
@@ -468,7 +468,7 @@ it-IT:
           </p>
       communication:
         title: "Addetto alla comunicazione"
-        description_html: |
+        description_html: |2
           <p>
             Si occupa di gestire contatti con la stampa, promuovere il software per cercare possibili utenze, aspetti tecnici come linkback e SEO (ottimizzazione motori di ricerca),
             marketing virale (es. creazione di proposte particolarmente interessanti), video e documenti promozionali e divulgativi.
@@ -476,7 +476,7 @@ it-IT:
           </p>
       i18n:
         title: "Internazionalizzazione"
-        description_html: |
+        description_html: |2
           <p>
             Si occupa della traduzione del software. Prende contatti e coordina i traduttori stranieri.<br/>
             (N.B.: non è necessaria alcuna conoscenza di programmazione)
