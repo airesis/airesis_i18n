@@ -867,7 +867,7 @@ zh-TW:
       next: "繼續"
       interest_borders:
         title: "開始參與"
-        description_html: |
+        description_html: |2
           設置您的地理利益邊界. <br/>
            如果 Airesis 知道您感興趣的區域是什麼,
           它就可以建議您的團隊遵循
@@ -1023,7 +1023,7 @@ zh-TW:
         它將被放棄. <br/>
         如果這兩個閾值之間的等級保持不變, 
         無論是時間還是評估次數, 辯論將繼續進行。
-      bad_score_explain_past: |
+      bad_score_explain_past: |2
         如果該方案在 <b>%{good_score}% </b> 
         上獲得了成熟度, 則它進入了投票階段。
         然而如果它得到了等級在 <b>%{bad_score}% </b> 之下,
