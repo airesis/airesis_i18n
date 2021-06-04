@@ -5,7 +5,7 @@ zh-TW:
       description: "一個直接民主的工具, 由它來決定並集體地對任何主題產生的提案和想法進行決策和行動。"
       paragraph_1:
         title: "電子民主的社會網路"
-        content_html: |
+        content_html: |2
           <p> Airesis 是一個 <a href="Http://en.wikipedia.org/wiki/Free_software"> 
           自由軟體平臺 </a>, 
           由義大利開發人員和參與者組成的團隊構建, 使社區和團體能夠根據<a href="Http://en.wikipedia.org/wiki/Direct_democracy" target="_blank"> 直接民主 </a>
@@ -29,7 +29,7 @@ zh-TW:
           這一制度的目標是如何在所提供的可能性方面有效地實現平等。</li> <li> <strong> 靈活性 </strong> <br/> 每個組都有自己的需要, 每個方案都不同于其他的, 每個使用者都有自己的需求. </li>
       paragraph_4:
         title: "我們的目標: 直接和參與性民主"
-        content_html: |
+        content_html: |2
           <p> 結構化作為一個社交網路, Airesis 允許使用者根據自己的興趣與他人進行接洽, 
           並利用各自的特性來一致蓄意的任何類型的建議。
           該體系結構及其核心價值使該平臺能夠就可能涉及領土、
@@ -52,7 +52,7 @@ zh-TW:
           編輯共用的 <strong> 摘要 </strong>, 然後 <strong> 投票 </strong>。在同一上下文中, 您可以創建有關 <strong> 會議 </strong> 和 <strong> 投票 </strong> 的事件。</p>
       paragraph_6:
         title: "基本功能"
-        content_html: |
+        content_html: |2
           <ul> <li> <strong> 在每頁上註冊和登錄 </strong> <br>, 
           甚至在添加注釋或貢獻之後。它甚至可以登錄使用 Facebook, 谷歌 +, Meetup, Twitter 或 Linkedin </li> <li> <strong>
            公共區域或私人區域的組 </strong> (<a href="Http://youtu.be/n_ZruAcNkVk" target="blank"> 
@@ -64,7 +64,7 @@ zh-TW:
           <strong> 事件/日曆管理 </strong> <br> 可以安排有關會議、投票、組內或在開放空間中的候選人選舉的事件. </li><li> <strong> 電子報 </strong> 有關平臺的事件和新聞 </li><li> <strong> 郵件服務 </strong> 和 <strong> 電子郵件通知 </strong> (使用者可自訂) </li><li> <strong> 上載和管理文檔的 </strong> 和建議的附件 (當前禁用的功能) </li><li> <strong> 輪詢 </strong> 內部和外部使用舒爾茨投票方法. </li><li> <strong> 移動應用程式 </strong> </li> </ul>
       paragraph_7:
         title: "提案和辯論工具"
-        content_html: |
+        content_html: |2
           <p> 軟體的核心集中在 <strong> 協商工具 </strong> 上, 
           它允許您參與草擬一個提案, 設定一個共同的目標, 為尋找替代解決方案作出貢獻, 
           並將這項工作的結果付諸表決, 以便, 該提案可以得到最可能的協商一致意見, 
@@ -115,7 +115,7 @@ zh-TW:
           申請成為提案共同的機會; </li><li> 通過經認證的成員的表決, 對提案的決議. </li></ul>
       paragraph_10:
         title: "臨時匿名、無記名投票和可審核投票"
-        content_html: |
+        content_html: |2
           <p> Airesis 的特點之一是 <strong> 組可以選擇是否將提案辯論為匿名或非 </strong>. </p>
            <p> 如果啟用了匿名, 則建議的作者和評論員用假名表示。此功能允許您僅根據其內容對建議、
           批評和建議進行評估, 不偏不倚, 
@@ -170,7 +170,7 @@ zh-TW:
           請閱讀我們的政策檔, 瞭解如何更好地組織它, 併發現如何輕鬆地組織您的團隊與 Airesis 和提供民主工具!</p>
       paragraph_3:
         title: "組織參與者"
-        content_html: |
+        content_html: |2
           <p> 用於處理 <strong> 角色和許可權的功能強大的機制 </strong>
            將允許您為您的組提供您喜歡的形狀:
            您可能有或多或少的許可權 depeding 他們的角色的使用者, 
@@ -284,7 +284,7 @@ zh-TW:
         title: "Airesis 對每個人都開放"
       paragraph2:
         title: "如何貢獻"
-        description_html: |
+        description_html: |2
           <p> 任何人都可以在開源專案中提供説明 Airesis: 
           你不需要成為一個程式師, 因為有很多活動要做。
           在專案 <a href=%{chisiamo}> 中,
