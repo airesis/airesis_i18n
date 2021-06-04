@@ -121,6 +121,7 @@ pt:
           other: "%{title} tem uma %{count} nova avaliação"
         message:
           one: "Sua proposta <b>%{title}</b> recebeu uma nova avaliação"
+          other: "Sua proposta <b>%{title}</b> recebeu %{count} uma nova avaliação"
       new_valutation:
         description: Nova avaliação para uma proposta que participo
         email_subject:
@@ -128,6 +129,7 @@ pt:
           other: "%{title} tem uma %{count} nova avaliação"
         message:
           one: "A proposta <b>%{title}</b> recebeu uma nova avaliação"
+          other: "A proposta <b>%{title}</b> recebeu %{count} uma nova avaliação"
       available_author:
         description: Usuário disponível para se tornar editor de uma proposta
       author_accepted:
