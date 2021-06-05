@@ -21,6 +21,28 @@ ar-SA:
     user:
       notifications: 'إنذارات وإخطارات'
     users:
+      show:
+        groups_title: "مجموعاتي"
+        group_column: "مجموعة"
+        role_column: "دور"
+        get_out_of_group_button: "مغادرة هذه المجموعة"
+        get_out_of_group_confermation: "هل أنت متأكد؟"
+        secret_vote: "سري"
+        votations_title: "الأصوات التي شاركت فيها"
+        proposal_column: "شخصي"
+        votation_date_column: "تاريخ"
+        vote_column: "تصويت"
+        profile_info: "معلومات الملف الشخصي"
+        profile_info_unconfirmed: "(مستخدم غير مؤكد)"
+        send_message_button: "أرسل رسالة خاصة"
+        name_label: "إسم"
+        surname_label: "الاسم العائلي"
+        email_label: "البريد الإلكتروني"
+        edit_image: "تَعديل الصورة"
+        to_be_confirmed: "ليتم تأكيده"
+        password_label: "كلمة المرور"
+        facebook_url_label: "رابط الفيسبوك"
+        googleplus_url_label: "رابط جوجل +"
       privacy_preferences:
         join_google: "الانضمام إلى حساب Google الخاص بك"
         join_twitter: "الانضمام إلى حسابك في تويتر"
