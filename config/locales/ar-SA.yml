@@ -18,9 +18,14 @@ ar-SA:
       openid_login: "تسجيل الدخول من حساب OpenID"
       find_groups: 'البحث في المجموعات'
       parma_login: "تسجيل الدخول من حساب Parma"
+      tecnologiedemocratiche_login: "تسجيل الدخول باستخدام Tecnologie Democratiche"
+      tecnologiedemocratiche: "ديموقراطية اللهجة"
     user:
       notifications: 'إنذارات وإخطارات'
+      privacy: "الحساب والخصوصية"
     users:
+      index:
+        title: 'قائمة'
       show:
         groups_title: "مجموعاتي"
         group_column: "مجموعة"
@@ -43,6 +48,18 @@ ar-SA:
         password_label: "كلمة المرور"
         facebook_url_label: "رابط الفيسبوك"
         googleplus_url_label: "رابط جوجل +"
+        linkedin_url: "رابط لينكد ان"
+        username_label: "إسم المستخدم"
+        registered_from: "مسجل من"
+        load_image: "تحميل الصورة"
+        max_file_size: "الحجم الأقصى: 2MB"
+        what_can_i_do: "ماذا يمكنني أن أفعل؟"
+        what_i_cant_do: "ماذا يمكنني أن أفعل؟"
+        certified_from: "مصادق عليه من"
+        group_level_permission_title: "أذونات مستوى المجموعة"
+        admin_permissions: "أنت مسؤول هذه المجموعة ولديك جميع الصلاحيات"
+        certified_cannot_edit_info: "أنت مستخدم معتمد: لا يمكنك تعديل اسمك واسم العائلة والبريد الإلكتروني"
+        twitter_url: "رابط تويتر"
       privacy_preferences:
         join_google: "الانضمام إلى حساب Google الخاص بك"
         join_twitter: "الانضمام إلى حسابك في تويتر"
