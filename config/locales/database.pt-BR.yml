@@ -1,6 +1,8 @@
 pt:
   db:
     sys_locales:
+      bs:
+        description: Bósnio
       de:
         description: Alemão
       el:
@@ -227,6 +229,13 @@ pt:
         email_subject:
           24_hours: "O debate sobre %{title} termina amanhã!"
           1_hour: "O debate sobre %{title} termina em uma hora!"
+          24_hours_vote: "O voto em %{title} termina amanhã!"
+          1_hour_vote: "O voto em %{title} termina em uma hora!"
+        message:
+          24_hours: "O debate sobre <b>%{title}</b> finaliza amanhã!"
+          1_hour: "O debate sobre <b>%{title}</b> termina em uma hora!"
+          24_hours_vote: "O debate sobre <b>%{title}</b> termina amanhã!"
+          1_hour_vote: "O debate sobre <b>%{title}</b> termina em uma hora!"
       new_posts_group_follow:
         description: Novas mensagens nos Murais dos grupos que sigo
         email_subject: Nova mensagem
@@ -242,6 +251,13 @@ pt:
         description: Novas propostas dentro do grupo
         email_subject: "%{proposal}"
         message: "Nova proposta <b>%{proposal}</b> criada no grupo <b>%{group}</b>"
+      new_participation_request:
+        description: Novo pedido de participação
+        email_subject:
+          one: "Há uma nova solicitação de participação"
+          other: "Existem %{count} novos pedidos de participação"
+        message:
+          one: "<b>%{user}</b> pediu para participar do grupo <b>%{group}</b>"
       new_blog_comment:
         description: Novo comentário no meu blog
       new_comments_mine:
