@@ -258,8 +258,21 @@ pt:
           other: "Existem %{count} novos pedidos de participação"
         message:
           one: "<b>%{user}</b> pediu para participar do grupo <b>%{group}</b>"
+          other: "<b>%{count} pediu</b> para participar do grupo <b>%{group}</b>"
       new_blog_comment:
         description: Novo comentário no meu blog
+        email_subject:
+          one: "Novo comentário na postagem do seu blog"
+          other: "%{count} Novo comentário na postagem do seu blog"
+        message:
+          one: "<b>%{user}</b> comentou sua mensagem <b>%{title}</b>"
+          other: "Existem <b>%{count}</b> novas contribuições em seu poste <b>%{title}</b>"
+      new_forum_topic:
+        message:
+          one: "Um tópico '%{topic_subject}' foi criado em <b>%{group_name}</b>"
+          other: "%{count} tópicos foram criados em <b>%{group_name}</b>"
+        description: Novos tópicos nos fóruns
+        email_subject: "Um tópico '%{topic_subject}' foi criado em %{group_name}"
       new_comments_mine:
         description: Novos comentários em minhas propostas
         email_subject: Novo comentário em minha proposta
@@ -268,6 +281,10 @@ pt:
         description: Novos comentários nas discussões que participo
         email_subject: "%{title} - Novo comentário"
         message: "<b>%{name}</b> adicionou um comentário em uma discussão que você participa na proposta <b>%{title}</b>"
+      contribute_update:
+        description: Atualização do texto de uma contribuição já avaliada
+        email_subject: "%{title} - Uma contribuição que você avaliou anteriormente foi alterada"
+        message: "<b>%{name}</b> mudou uma contribuição em <b>%{title}</b> que você avaliou anteriormente. Verifique se você deseja mudar de opinião."
     proposal_categories:
       no_category:
         description: Sem categoria
