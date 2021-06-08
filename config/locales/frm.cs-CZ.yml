@@ -1,5 +1,11 @@
 cs-CZ:
   frm:
+    general:
+      forum: Fórum
+      topics: Témata
+      topic: Témá
+      posts: Příspěvky
+      flagged_for_spam: Váš účet byl označen jako spam.
     admin:
       forums:
         index:
