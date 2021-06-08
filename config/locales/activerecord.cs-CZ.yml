@@ -56,6 +56,8 @@ cs-CZ:
       place:
         address: 'Adresa'
         municipality_id: 'Město'
+        latitude_original: Zeměpisná šířka
+        longitude_original: Zeměpisná délka
       proposal:
         group_area_id: "Pracovní oblast"
         proposal_category_id: 'Kategorie'
@@ -66,6 +68,7 @@ cs-CZ:
         content: 'Text'
         interest_borders_tkn: 'Zeměpisné místo zájmu'
         tags_list: "Značky"
+        quorum_id: "Doba trvání diskuse"
         anonima: "Dočasná anonymita"
         visible_outside: "Veřejně viditelný"
         secret_vote: "Tajné hlasování"
