@@ -42,6 +42,8 @@ pt-BR:
       history: "O histórico da proposta, na qual você pode ver as suas modificações e a sua evolução"
     groups_edit:
       welcome: "Este é o painel de administrador para grupos. Explicaremos cada uma das secções..."
+      group_info: "Aqui você pode mudar todas as informações sobre o grupo e imagem dele. Por favor, preencher com as palavras-chave, se ainda não fez o preenchimento ainda. Elas são importantes para que o seu grupo seja encontrado."
+      group_roles: "Aqui você pode gerenciar as funções disponíveis no grupo. Pode ainda gerenciar as suas permissões e a editar as que já existem."
       group_users: "Aqui pode gerar os participantes no seu grupo. Pode atribuir-lhes com as funções e enviar-lhes e-mails."
       group_proposals: "Esta é a página onde pode você mudar tudo o que esteja relacionado com as propostas: quóruns e configurações."
       group_areas: "As Áreas estão disponíveis se desejar activá-las. Elas irão permitir você poder dividir o seu grupo em grupos menores"
@@ -52,6 +54,9 @@ pt-BR:
       emails: "... por email ou ambos."
       no_emails: "Lembre-se: se você desativar uma alerta na Airesis, também não a receberá na Airesis."
       desktop: "Esta é o seu <b>Escritório</b>:<br/> aqui você pode gerenciar <b>as suas propostas</b> e <b>Grupos</b>, Visualizar os <b>Eventos</b> e entrar em contato com outros cidadãos. Sua área de trabalho contém vários painéis que irão preencher o seu conteúdo para mantê-lo atualizado sobre suas atividades dentro da Airesis"
+      proposals_portlet: "Nesta caixa que você poderá ver todas as propostas em debate, e você pode ficar de olho no progresso delas. "
+      vote_portlet: "Nesta caixa você encontrará todas as propostas que você pode votar e onde você não expressou seu voto ainda"
+      topics: "Aqui você vê o status de todos os tópicos dos quais você participou e você pode ver imediatamente se há novas mensagens"
       click_logo: "Clique sobre o logotipo da Airesis para sempre retornar a esta página"
       click_groups: "Clique no ícone do menu de grupos para ter acesso rápido a área pública, os grupos em que você participa, ou abrir um novo grupo"
     users_border_preferences:
