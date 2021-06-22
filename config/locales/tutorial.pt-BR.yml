@@ -57,10 +57,15 @@ pt-BR:
       proposals_portlet: "Nesta caixa que você poderá ver todas as propostas em debate, e você pode ficar de olho no progresso delas. "
       vote_portlet: "Nesta caixa você encontrará todas as propostas que você pode votar e onde você não expressou seu voto ainda"
       topics: "Aqui você vê o status de todos os tópicos dos quais você participou e você pode ver imediatamente se há novas mensagens"
+      explore: "Explorar a Airesis e começa a participar! Você verá sua página inicial preenchida com novas informações e conteúdos"
       click_logo: "Clique sobre o logotipo da Airesis para sempre retornar a esta página"
       click_groups: "Clique no ícone do menu de grupos para ter acesso rápido a área pública, os grupos em que você participa, ou abrir um novo grupo"
+      click_personal: "Através de seu ícone, você pode acessar sua Página Inicial, o seu Blog ou suas Configurações Pessoais"
+      click_info: "Aqui você vai encontrará um guia para o uso da Airesis e muitas outras informações úteis"
     users_border_preferences:
       intro: "Se ainda não o tiver feito, defina as suas fronteiras de interesse geográfico. A Airesis irá utilizá-las em breve para lhe mostrar conteúdos específicos."
+    welcome:
+      intro: "Bem-vindo a Airesis %{name}. Estes tutoriais irão guiar você através da aplicação e lhe explicar como usar-la e onde encontrar as informações que você precisa."
     next: "Próxima"
     back: "Voltar"
     done_label: "Feito"
