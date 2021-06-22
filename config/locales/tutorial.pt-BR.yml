@@ -24,11 +24,15 @@ pt-BR:
       end: "Esta é a estrutura da lista de propostas. É a mesma em cada grupo que você participa e ajudará você a orientar-se nas discussões do grupo"
     proposals_show:
       welcome: "Bem-vindo na presente proposta, no debate sobre Aires. Este tutorial irá explicar em detalhes as diferentes partes que é composto por"
+      title: "Este é o título da proposta, ou seja, o tópico de discussão "
+      status_description: "Isto mostra as condições para acabar o debate"
       main: "Estes são os paragrafos que compoem esta proposta"
       solution_main: "Esta é uma solução. A solução é composta por diferentes parágrafos. Os editores vão escrever uma ou mais soluções para resolver o problema encontrado"
       contributeButton: "Usando estes botões pode visualizar as contribuições de outros utilizadores e adicionar as suas próprias. As contribuições são sempre referidas no parágrafo em que estão acessíveis"
+      newComment: "Use este campo para adicionar um contribuição que não se refere a um parágrafo específico"
       menu_left: "Neste menu à esquerda pode encontrar toda a informação sobre a proposta"
       evaluations: "O número de avaliações expressadas pelos participantes, que indica se a proposta está pronta para a votação ou se o debate deve continuar"
+      ranking: "A maturidade da proposta,ou seja,  a percentagem de participantes que acham que a proposta está pronta para votação"
       status: "O status da proposta. Neste caso, encontra-se na fase de debate"
       dates: "Data da criação e da última atualização da proposta"
       condition_left: "Condições para a termnação do debate"
@@ -37,6 +41,7 @@ pt-BR:
       category: "A categoria desta proposta"
       history: "O histórico da proposta, na qual você pode ver as suas modificações e a sua evolução"
     groups_edit:
+      welcome: "Este é o painel de administrador para grupos. Explicaremos cada uma das secções..."
       group_users: "Aqui pode gerar os participantes no seu grupo. Pode atribuir-lhes com as funções e enviar-lhes e-mails."
       group_proposals: "Esta é a página onde pode você mudar tudo o que esteja relacionado com as propostas: quóruns e configurações."
       group_areas: "As Áreas estão disponíveis se desejar activá-las. Elas irão permitir você poder dividir o seu grupo em grupos menores"
