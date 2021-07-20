@@ -353,6 +353,8 @@ pt-BR:
         banner: "Anúncio"
       paragraph1:
         title: "Airesis é aberto para todos"
+        description_html: |
+          Airesis é um projeto 
       paragraph2:
         title: "Como contribuir"
         description_html: |
