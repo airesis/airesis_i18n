@@ -353,8 +353,21 @@ pt-BR:
         banner: "Anúncio"
       paragraph1:
         title: "Airesis é aberto para todos"
-        description_html: |
-          Airesis é um projeto 
+        description_html: |2
+          <p>A Airesis é um projeto baseado em software livre e Código Aberto. Pode contribuir para seu desenvolvimento:</p> 
+          <ul>
+          <li>Utilizando a plataforma e fazer a verificação de bugs</li>
+           <li>Dando comentários e sugestões sobre  usabilidade e plataforma UI</li> 
+          <li>Programação da plataforma da interface do usuário (REQUERIMENTOS: conhecimento de HTML, CSS ou Javascript)</li> 
+          <li>Programação do plataforma do lado do servidor (REQUERIMENTOS: conhecimento da linguagem Ruby e/ou C++ linguagem, ou vontade de aprendê-lo com a ajuda de outros voluntários)</li> 
+          <li>apoiando-nos com uma  doação ou arrecadando fundos</li>
+          <li><a href="#linkback"> Espalhar a divulagaçãp</a> sobre o projeto e gerirenciar a sua comunicação</li>
+          </ul> 
+          <p>Para nós ajudar a coordenar as nossas atividades usamos essas ferramentas. Você pode começar a partir daqui:</p> <ul>
+          <li><a href="https://groups.google.com/forum/?fromgroups=#!forum/agora-20" target="_blank">Grupo de desenvolvimento em Grupos de Google</a>
+          </li> 
+          <li><a href="https://www.facebook.com/groups/airesis/" target="_blank">Grupo de desenvolvimento no Faceook</a></li> <li><a href="https://github.com/coorasse/Airesis" target="_blank"> código-fonte</a></li>
+          </ul>
       paragraph2:
         title: "Como contribuir"
         description_html: |
