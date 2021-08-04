@@ -94,3 +94,22 @@ cs-CZ:
         subscribe: Odebírat
         unsubscribe: Zrušit odběr
         reply_to_topic: Odpovědět na téma
+    posts:
+      moderation:
+        approve: Schválit
+        spam: Spam
+  simple_form:
+    labels:
+      topic:
+        posts:
+          text: Text
+      frm_category:
+        name: Název
+      post:
+        text: Text
+      frm_mod:
+        name: Název
+  #General stuff
+  time_ago_in_words: "před %{time}"
+  ago: " před"
+  by: od
