@@ -47,6 +47,9 @@ cs-CZ:
         published: 'Stav'
         published_true: 'Zveřejněno'
         published_false: 'Koncept'
+        published_reserved: "Rezervováno"
+        group_ids: Zveřejněno v následujících skupinách
+        published_at: Zveřejněno
       participation_role:
         name: 'Jméno'
         description: 'Stručný popis'
