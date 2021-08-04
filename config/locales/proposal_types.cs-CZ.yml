@@ -1,1 +1,15 @@
 cs-CZ:
+  pages:
+    proposals:
+      new:
+        agenda:
+          paragraph:
+            place: "Místo"
+        event:
+          problems_title: "Rozsah události"
+          solution:
+            pros: "Plusy"
+            cons: "Mínusy"
+        candidates:
+          solution:
+            data: "Osobní údaje"
