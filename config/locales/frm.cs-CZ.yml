@@ -13,9 +13,14 @@ cs-CZ:
         category: Kategorie
         delete_confirm: Opravdu chcete odstranit toto fórum?
         index:
+          last_post: Poslední příspěvek
+          none: Žádný
+          moderators: Moderátoři
           no_category: (Bez kategorie)
         default_private: "Soukromé fórum"
         default_public: "Veřejné fórum"
+        default_private_description: "Fórum vyhrazeno pro účastníky skupiny"
+        default_public_description: "Fórum viditelné pro všechny uživatele Airesis. Také uživatelé, kteří nejsou ve skupině"
       mod:
         index: Spravovat skupiny
         new: Nová skupina
@@ -31,3 +36,6 @@ cs-CZ:
         edit: Upravit
         delete: Odstranit
         name: Název
+      category:
+        index: Správa kategorií fóra
+        new: Vytváření nové kategorie fóra
