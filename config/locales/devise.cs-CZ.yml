@@ -48,6 +48,13 @@ cs-CZ:
       updated: 'Účet byl úspěšně aktualizován.'
       update_needs_confirmation: "Váš účet byl úspěšně aktualizován, ale musíme ověřit Vaši novou e-mailovou adresu. Zkontrolujte prosím svůj e-mail a klikněte na odkaz pro dokončení potvrzení Vaší nové e-mailové adresy"
       destroyed: 'Na shledanou! Váš účet byl úspěšně zrušen. Doufáme, že se brzy opět uvidíme.'
+      user:
+        inactive_signed_up: 'Chcete-li dokončit registraci, klikněte na odkaz v e-mailu, který jste obdrželi'
+        signed_up_but_unconfirmed: 'Pro dokončení procesu registrace klikněte na odkaz v e-mailu odeslaném na vaši adresu'
+    unlocks:
+      send_instructions: 'Za pár minut obdržíte e-mail s instrukcemi, jak odemknout váš účet'
+      unlocked: 'Váš účet byl úspěšně odemčen. Pro pokračování se přihlaste'
+      send_paranoid_instructions: 'Pokud váš účet existuje, za pár minut obdržíte e-mail s pokyny, jak jej odemknout'
     mailer:
       confirmation_instructions:
         subject: 'Pokyny pro potvrzení'
