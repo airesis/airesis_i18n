@@ -8,6 +8,10 @@ cs-CZ:
       flagged_for_spam: Váš účet byl označen jako spam.
     admin:
       forums:
+        edit: Upravit
+        delete: Odstranit
+        category: Kategorie
+        delete_confirm: Opravdu chcete odstranit toto fórum?
         index:
           no_category: (Bez kategorie)
         default_private: "Soukromé fórum"
