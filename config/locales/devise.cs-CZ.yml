@@ -55,6 +55,9 @@ cs-CZ:
       send_instructions: 'Za pár minut obdržíte e-mail s instrukcemi, jak odemknout váš účet'
       unlocked: 'Váš účet byl úspěšně odemčen. Pro pokračování se přihlaste'
       send_paranoid_instructions: 'Pokud váš účet existuje, za pár minut obdržíte e-mail s pokyny, jak jej odemknout'
+    omniauth_callbacks:
+      success: 'Vaše registrace byla dokončena. Vítejte!'
+      failure: 'Nelze vás autorizovat z %{kind} , z tohoto důvodu "%{reason}"'
     mailer:
       confirmation_instructions:
         subject: 'Pokyny pro potvrzení'
