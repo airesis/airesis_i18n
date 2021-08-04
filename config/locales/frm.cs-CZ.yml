@@ -7,6 +7,11 @@ cs-CZ:
       posts: Příspěvky
       flagged_for_spam: Váš účet byl označen jako spam.
     admin:
+      back_to_admin: "Zpět na Admin"
+      back_to_forums: "Zpět na fóra"
+      back_to_groups: "Zpět do skupin"
+      forum:
+        moderator_groups: Moderátorské skupiny
       forums:
         edit: Upravit
         delete: Odstranit
@@ -39,3 +44,53 @@ cs-CZ:
       category:
         index: Správa kategorií fóra
         new: Vytváření nové kategorie fóra
+      categories:
+        edit: Upravit
+        delete: Odstranit
+        category: Kategorie
+        delete_confirm: Opravdu chcete tuto kategorii fóra odstranit?
+        default_private: "Soukromá sekce"
+        default_public: "Veřejná sekce"
+      group:
+        index: "Spravovat skupiny moderátorů"
+        show:
+          title: "Správa moderátorů"
+        new: "Nová skupina Moderátorů"
+        created: "Skupina moderátorů úspěšně vytvořena"
+    common:
+      pages: Stránky
+    errors:
+      not_signed_in: Nejprve se musíte přihlásit
+      access_denied: Přístup zamítnut.
+    forum:
+      forums: Fóra
+      new: Vytváření nového fóra
+      admin_tools: "Administrativní nástroje"
+      title: "Nové fórum"
+    forums:
+      index:
+        title: Fórum
+        forum: Fórum
+        views: Zobrazení
+        last_post: 'Poslední příspěvek:'
+        none: Žádný
+    topic:
+      headings:
+        topic: Téma
+        latest: Nejnovější
+        posts: Příspěvky
+        views: Zobrazení
+      reply: Odpověď
+      delete: Odstranit
+      created: Toto téma bylo vytvořeno
+      new: Vytváření nového tématu
+      edit: Upravit téma
+      not_created: Toto téma nelze vytvořit
+      deleted: Vaše téma bylo odstraněno
+    topics:
+      show:
+        reply: Odpovědět
+        delete: Odstranit
+        subscribe: Odebírat
+        unsubscribe: Zrušit odběr
+        reply_to_topic: Odpovědět na téma
