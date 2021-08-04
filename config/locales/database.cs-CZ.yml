@@ -112,6 +112,8 @@ cs:
         message: "Uživatel %{user} přidal nový příspěvek na svůj blog <b>%{blog}</b>"
       new_valutation_mine:
         description: Nové hodnocení návrhu
+      text_update:
+        description: "Aktualizace textu návrhu, kterého se účastním"
       change_status:
         email_subject:
           1_hour: "Diskuze na téma %{title} končí za hodinu!"
@@ -159,3 +161,6 @@ cs:
         description: Průmysl, materiály a odpad
       democracy:
         description: Demokracie, instituce
+    vote_types:
+      neutral:
+        description: Neutrální
