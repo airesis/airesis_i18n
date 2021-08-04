@@ -40,18 +40,59 @@ cs:
       zh:
         description: Čínština
     proposal_types:
+      STANDARD:
+        description: Standardní návrh
       POLL:
         description: Anketa
       RULE_BOOK:
         description: Kniha pravidel
+      PRESS:
+        description: Tisková zpráva
       EVENT:
         description: Organizace události
+      ESTIMATE:
+        description: Odhad nákladů
+      AGENDA:
+        description: Pořad jednání
+      CANDIDATES:
+        description: Volba kandidáta
+      SIMPLE:
+        description: Jednoduchý návrh
+      PETITION:
+        description: Petice
+    event_types:
+      meeting:
+        description: schůzka
+      vote:
+        description: hlasovat
+      meeting2:
+        description: schůzka
+      election:
+        description: volby
     group_actions:
+      write_to_wall:
+        description: Zveřejnit na zeď skupiny
+      create_events:
+        description: Vytvořit události schůzky
       accept_participation_requests:
         description: Přidat do skupiny nové členy
+      view_proposals:
+        description: Zobrazit soukromé návrhy
       view_documents:
         description: Prohlížení dokumentů
+      manage_documents:
+        description: Spravovat dokumenty
+      vote_proposals:
+        description: Hlasovací návrhy
+      choose_date_proposals:
+        description: Vytvořit hlasovací události
     notification_categories:
+      MYPROP:
+        description: Návrhy, které píšu
+      PROP:
+        description: Návrhy, jichž se účastním
+      NEWPROP:
+        description: Nové návrhy
       NEWEVENT:
         description: Nové události
       GROUPS:
@@ -69,6 +110,8 @@ cs:
         description: Nové příspěvky od uživatele, kterého sleduji
         email_subject: Někdo přidal nový příspěvek
         message: "Uživatel %{user} přidal nový příspěvek na svůj blog <b>%{blog}</b>"
+      new_valutation_mine:
+        description: Nové hodnocení návrhu
       change_status:
         email_subject:
           1_hour: "Diskuze na téma %{title} končí za hodinu!"
