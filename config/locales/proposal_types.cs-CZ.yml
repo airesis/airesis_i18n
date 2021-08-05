@@ -1,7 +1,32 @@
 cs-CZ:
   pages:
     proposals:
+      edit:
+        add_solution:
+          standard: "Přidat další řešení"
+          poll: "Přidat další možnost"
+          rule_book: "Přidat další řešení"
+          press: "Přidat další řešení"
+          event: "Přidat další řešení"
+          estimate: "Přidat další řešení"
+          agenda: "Přidat další bod"
+          candidates: "Přidat dalšího uchazeče"
+          simple: "Přidat další řešení"
+        solution_title:
+          standard: "Řešení"
+        insert_title:
+          agenda: "Vložit název"
+          candidates: "Vložit jméno a příjmení"
+          simple: "Vložit název"
       new:
+        standard:
+          problems_title: "Problémy"
+          problems_question: "Jaký problém má být vyřešen nebo jaké překážky je třeba překonat, aby bylo cíle dosaženo?"
+          objectives_title: "Cíle"
+          solution:
+            pros: "Plusy"
+            cons: "Mínusy"
+            title: "Řešení 1"
         agenda:
           paragraph:
             place: "Místo"
