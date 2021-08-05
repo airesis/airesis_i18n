@@ -2,3 +2,7 @@ cs-CZ:
   tutorial:
     proposals_index:
       category_icon: "Vybraná kategorie"
+    next: "Další"
+    back: "Zpět"
+    done_label: "Hotovo"
+    skip_label: "X"
