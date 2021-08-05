@@ -94,10 +94,25 @@ cs-CZ:
         subscribe: Odebírat
         unsubscribe: Zrušit odběr
         reply_to_topic: Odpovědět na téma
+    post:
+      new: Odeslat odpověď na
+      edit: Upravit
+      not_created: Vaše odpověď nemohla být odeslána
+      not_created_topic_locked: Nemůžete odpovědět na uzamčené téma
+      edited: Váš příspěvek byl upraven
+      not_edited: Váš příspěvek nemohl být upraven
+      deleted: Váš příspěvek byl smazán
+      deleted_with_topic: Poslední příspěvek v tématu byl odstraněn. Celé téma bylo také smazáno
+      cannot_delete: Nemůžete odstranit příspěvek, který nevlastníte
+      cannot_quote_deleted_post: Příspěvek, který jste se pokusili citovat, již neexistuje.
     posts:
       moderation:
+        moderate: Moderovat
         approve: Schválit
         spam: Spam
+        success: Vybrané příspěvky byly upraveny
+      post:
+        pending_review: Tento příspěvek momentálně čeká na kontrolu. Pouze uživatel, který jej zveřejnil a moderátoři jej mohou zobrazit.
   simple_form:
     labels:
       topic:
