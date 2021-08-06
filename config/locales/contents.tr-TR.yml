@@ -345,6 +345,21 @@ tr-TR:
         banner: "Afiş"
       paragraph1:
         title: "Airesis herkese açık"
+        description_html: |
+          <p>Airesis, ücretsiz ve açık kaynaklı bir yazılıma dayalı bir projedir. Geliştirilmesine katkıda bulunabilirsiniz:</p>
+          <ul>
+          <li>Platformu kullanma ve hata denetimi yapma</li>
+          <li>Kullanılabilirlik ve platform kullanıcı arayüzü hakkında yorum ve önerilerde bulunmak</li>
+          <li>Platform kullanıcı arayüzünün programlanması (GEREKLİ: HTML, CSS veya Javascript bilgisi)</li>
+          <li>Platformun sunucu tarafını programlamak (GEREKLİ: Ruby ve/veya C++ dili bilgisi veya bunu diğer gönüllülerin yardımıyla öğrenme isteği)</li>
+          <li>Bağış yaparak veya vakıf kurarak bizi desteklemek</li>
+          <li><a href="#linkback">Projeyi yaymak</a> ve iletişimini yönetmek</li>
+          </ul>
+          <p>Etkinliklerimizi koordine etmemize yardımcı olması için bu araçları kullanıyoruz. Buradan başlayabilirsiniz:</p>
+          <ul>
+          <li><a href="https://groups.google.com/forum/?fromgroups=#!forum/agora-20" target="_blank">Google Grupları'ndaki geliştirme grubu</a></li>
+          <li><a href="https://www.facebook.com/groups/airesis/" target="_blank">Faceook'ta geliştirme grubu</a></li>
+          <li><a href="https://github.com/coorasse/Airesis" target="_blank">Kaynak kodu</a></li>
       paragraph2:
         title: "Nasıl katkıda bulunulur"
         description_html: |
