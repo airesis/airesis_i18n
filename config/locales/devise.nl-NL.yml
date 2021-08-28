@@ -1,8 +1,33 @@
 nl-NL:
   errors:
     messages:
+      expired: "is verlopen, vraag een nieuwe aan"
       not_found: "niet gevonden"
+      already_confirmed: "was al bevestigd, probeer u aan te melden"
+      not_locked: "was niet vergrendeld"
+      not_saved:
+        one: "Door 1 fout kon %{resource}: niet worden opgeslagen"
+        other: "door %{count} fouten kon %{resource} niet worden opgeslagen"
   devise:
+    failure:
+      locked: 'Uw account is vergrendeld.'
+      invalid: 'Ongeldig e-mailadres of wachtwoord'
+      invalid_token: 'Ongeldig authenticatie-token'
+      timeout: 'Uw sessie is verlopen, meld u opnieuw aan om verder te gaan'
+      inactive: 'Uw account is nog niet geactiveerd'
+      already_authenticated: 'U bent al geregistreerd'
+      unauthenticated: 'Inloggen vereist voor toegang tot deze pagina. Log alstublieft in'
+      unconfirmed: "Account is nog niet bevestigd"
+      user:
+        invalid: 'Ongeldige gebruikersnaam of wachtwoord'
+        not_found_in_database: 'Ongeldige gebruikersnaam of wachtwoord'
+    sessions:
+      signed_in: 'Succesvol aangemeld'
+      signed_out: 'Succesvol afgemeld.'
+      user:
+        signed_out: 'Je bent succesvol uitgelogd. Tot ziens'
+        signed_in: 'U bent aangemeld. Welkom!'
+        signed_up: 'U hebt uw registratie succesvol afgerond. Welkom!'
     mailer:
       reset_password_instructions:
         hi_user: "Hallo %{user}!"
