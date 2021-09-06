@@ -58,10 +58,18 @@ cs-CZ:
     omniauth_callbacks:
       success: 'Vaše registrace byla dokončena. Vítejte!'
       failure: 'Nelze vás autorizovat z %{kind} , z tohoto důvodu "%{reason}"'
+      certified_email_taken: "Existuje jiný účet s vaším certifikovaným e-mailem."
+      already_certified: "Jiný účet byl certifikován s vaším daňovým identifikačním číslem."
+      account_not_verified: "Účet %{provider} nebyl ověřen. Ověřte prosím svůj účet na %{provider}."
     mailer:
       confirmation_instructions:
         subject: 'Pokyny pro potvrzení'
+        welcome: "Vítejte na %{app_name},  %{user}!"
+        follow_link: "E-mailovou adresu můžete potvrdit kliknutím na následující odkaz:"
         confirm_account: "Potvrdit účet"
+        follow_link_2: "nebo navštívením tohoto odkazu:"
+        access_by_email: "Pak se můžete přihlásit  do %{app_name} zadaným e-mailem a zvoleným heslem"
+        contact_assistance: "Pokud máte problém s postupem, kontaktujte správce: %{mail}"
       reset_password_instructions:
         subject: 'Pokyny pro obnovu hesla'
         hi_user: "Dobrý den, %{user}!"
