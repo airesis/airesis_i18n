@@ -74,10 +74,16 @@ cs:
         description: Zveřejnit na zeď skupiny
       create_events:
         description: Vytvořit události schůzky
+      support_proposals:
+        description: Podpořte návrhy jménem skupiny
       accept_participation_requests:
         description: Přidat do skupiny nové členy
       view_proposals:
         description: Zobrazit soukromé návrhy
+      participate_proposals:
+        description: Přispějte k návrhům
+      insert_proposals:
+        description: Vložte nové návrhy do skupiny
       view_documents:
         description: Prohlížení dokumentů
       manage_documents:
@@ -112,6 +118,17 @@ cs:
         message: "Uživatel %{user} přidal nový příspěvek na svůj blog <b>%{blog}</b>"
       new_valutation_mine:
         description: Nové hodnocení návrhu
+        email_subject:
+          one: "%{title} má nové hodnocení"
+          other: "%{title} má %{count} nových hodnocení"
+        message:
+          one: "Váš návrh <b>%{title}</b> obdržel nové hodnocení"
+          other: "Váš návrh <b>%{title}</b> obdržel %{count} nových hodnocení"
+      new_valutation:
+        description: Nové hodnocení návrhu, kterého se účastním
+        email_subject:
+          one: "%{title} má nové hodnocení"
+          other: "%{title} má %{count} nových hodnocení"
       text_update:
         description: "Aktualizace textu návrhu, kterého se účastním"
       change_status:
