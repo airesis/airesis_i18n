@@ -58,6 +58,7 @@ cs-CZ:
     omniauth_callbacks:
       success: 'Vaše registrace byla dokončena. Vítejte!'
       failure: 'Nelze vás autorizovat z %{kind} , z tohoto důvodu "%{reason}"'
+      join_failure: "Existuje jiný %{provider} účet. Funkce pro připojení k účtům bude brzy k dispozici."
       certified_email_taken: "Existuje jiný účet s vaším certifikovaným e-mailem."
       already_certified: "Jiný účet byl certifikován s vaším daňovým identifikačním číslem."
       account_not_verified: "Účet %{provider} nebyl ověřen. Ověřte prosím svůj účet na %{provider}."
