@@ -69,6 +69,9 @@ nl:
         description: vergadering
       election:
         description: verkiezing
+    group_actions:
+      write_to_wall:
+        description: Publiceer op de collectieve muur
     notification_categories:
       GROUPS:
         description: Groepen
