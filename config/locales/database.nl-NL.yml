@@ -54,6 +54,10 @@ nl:
         description: Kostprijsraming
       AGENDA:
         description: Agenda
+      CANDIDATES:
+        description: Kiezen van een kandidaat
+      SIMPLE:
+        description: Eenvoudig voorstel
       PETITION:
         description: Petitie
     event_types:
