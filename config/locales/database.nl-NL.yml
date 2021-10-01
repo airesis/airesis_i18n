@@ -3,6 +3,34 @@ nl:
     sys_locales:
       bs:
         description: Bosnisch
+      de:
+        description: Duits
+      el:
+        description: Grieks
+      en:
+        description: Engels
+      es:
+        description: Spaans
+      fr:
+        description: Frans
+      hu:
+        description: Hongaars
+      id:
+        description: Indonesisch
+      it:
+        description: Italiaans
+      jp:
+        description: Japans
+      me:
+        description: Montenegrijns
+      nl:
+        description: Nederland
+      pt:
+        description: Portugees
+      ro:
+        description: Romeens
+      ru:
+        description: Russisch
     proposal_types:
       STANDARD:
         description: Standaard voorstel
