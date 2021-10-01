@@ -31,6 +31,14 @@ nl:
         description: Romeens
       ru:
         description: Russisch
+      sh:
+        description: Servo-Kroatisch
+      sr-CS:
+        description: Servië (Latijn)
+      sr-SP:
+        description: Servië (Cyrillisch)
+      zh:
+        description: Chinees
     proposal_types:
       STANDARD:
         description: Standaard voorstel
