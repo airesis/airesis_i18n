@@ -1,5 +1,8 @@
 nl:
   db:
+    sys_locales:
+      bs:
+        description: Bosnisch
     proposal_types:
       STANDARD:
         description: Standaard voorstel
