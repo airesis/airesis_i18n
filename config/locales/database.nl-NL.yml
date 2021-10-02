@@ -74,6 +74,10 @@ nl:
         description: Publiceer op de collectieve muur
       create_events:
         description: Maak ontmoetingsevenementen aan
+      support_proposals:
+        description: Steun voorstellen namens de groep
+      accept_participation_requests:
+        description: Voeg nieuwe leden toe aan de groep
     notification_categories:
       GROUPS:
         description: Groepen
