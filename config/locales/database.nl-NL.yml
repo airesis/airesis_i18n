@@ -90,7 +90,13 @@ nl:
         description: Beheer documenten
       vote_proposals:
         description: Stem op voorstellen
+      choose_date_proposals:
+        description: Maak stemsessies aan
     notification_categories:
+      MYPROP:
+        description: Voorstellen die ik schrijf
+      PROP:
+        description: Voorstellen waaraan ik deelneem
       GROUPS:
         description: Groepen
     proposal_categories:
