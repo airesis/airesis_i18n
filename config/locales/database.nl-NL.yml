@@ -78,6 +78,10 @@ nl:
         description: Steun voorstellen namens de groep
       accept_participation_requests:
         description: Voeg nieuwe leden toe aan de groep
+      view_proposals:
+        description: Bekijk privévoorstellen
+      participate_proposals:
+        description: Draag bij aan de voorstellen
     notification_categories:
       GROUPS:
         description: Groepen
