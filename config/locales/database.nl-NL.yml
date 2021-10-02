@@ -88,6 +88,8 @@ nl:
         description: Bekijk documenten
       manage_documents:
         description: Beheer documenten
+      vote_proposals:
+        description: Stem op voorstellen
     notification_categories:
       GROUPS:
         description: Groepen
