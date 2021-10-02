@@ -97,6 +97,8 @@ nl:
         description: Voorstellen die ik schrijf
       PROP:
         description: Voorstellen waaraan ik deelneem
+      NEWPROP:
+        description: Nieuwe voorstellen
       GROUPS:
         description: Groepen
     proposal_categories:
