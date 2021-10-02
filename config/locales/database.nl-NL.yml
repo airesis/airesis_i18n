@@ -72,6 +72,8 @@ nl:
     group_actions:
       write_to_wall:
         description: Publiceer op de collectieve muur
+      create_events:
+        description: Maak ontmoetingsevenementen aan
     notification_categories:
       GROUPS:
         description: Groepen
