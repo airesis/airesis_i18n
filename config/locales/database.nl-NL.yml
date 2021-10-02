@@ -82,6 +82,12 @@ nl:
         description: Bekijk privévoorstellen
       participate_proposals:
         description: Draag bij aan de voorstellen
+      insert_proposals:
+        description: Plaats nieuwe voorstellen in de groep
+      view_documents:
+        description: Bekijk documenten
+      manage_documents:
+        description: Beheer documenten
     notification_categories:
       GROUPS:
         description: Groepen
