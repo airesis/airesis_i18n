@@ -156,10 +156,17 @@ cs:
           one: "%{title} - Byl vložen nový příspěvek"
       text_update:
         description: "Aktualizace textu návrhu, kterého se účastním"
+        email_subject:
+          one: "%{title} byl aktualizován"
+          other: "%{title} byl aktualizován %{count} krát"
+        message:
+          one: "Návrh <b>%{title}</b> byl aktualizován"
+          other: "Návrh <b>%{title}</b> byl aktualizován %{count} krát"
       new_contributes_mine:
         description: "Nové příspěvky v mých návrzích"
         email_subject:
           one: "%{title} - Byl vložen nový příspěvek"
+          other: "%{title} - Existuje %{count} nových příspěvků"
       change_status:
         email_subject:
           wait: "%{title} - Vyberte datum hlasování"
