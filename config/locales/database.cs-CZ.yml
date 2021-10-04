@@ -236,8 +236,14 @@ cs:
         description: Umění a kultura
       entertainment:
         description: Sociální, sport, zábava
+      organization:
+        description: Vnitřní organizace
       agricolture:
         description: Voda, jídlo, zemědělství
+      territory:
+        description: Území, příroda, zvířata
+      mobility:
+        description: Urbanismus, mobilita, stavebnictví
       energy:
         description: Energie, klima
       industry:
@@ -245,5 +251,7 @@ cs:
       democracy:
         description: Demokracie, instituce
     vote_types:
+      favorable:
+        description: Příznivé
       neutral:
         description: Neutrální
