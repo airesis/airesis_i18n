@@ -119,7 +119,21 @@ cs-CZ:
         unsubscribe: Zrušit odběr
         reply_to_topic: Odpovědět na téma
         pending_review: Toto téma momentálně čeká na recenzi. Pouze uživatel, který jej vytvořil a moderátoři jej mohou zobrazit.
+        hide:
+          'true': Zobrazit toto téma
+          'false': Skrýt toto téma
+        lock:
+          'true': Odemknout toto téma
+          'false': Zamknout toto téma
+        pin:
+          'true': Odepnout toto téma
+          'false': Připnout toto téma
+        related_proposals: "Související návrhy"
     post:
+      buttons:
+        reply: Přidat odpověď
+        edit: Upravit
+      created: Vaše odpověď byla odeslána
       new: Odeslat odpověď na
       edit: Upravit
       not_created: Vaše odpověď nemohla být odeslána
@@ -138,9 +152,34 @@ cs-CZ:
         success: Vybrané příspěvky byly upraveny
       post:
         pending_review: Tento příspěvek momentálně čeká na kontrolu. Pouze uživatel, který jej zveřejnil a moderátoři jej mohou zobrazit.
+        in_reply_to: v odpovědi na
+  helpers:
+    submit:
+      frm_forum:
+        create: Vytvořit fórum
+        update: Aktualizovat fórum
+      topic:
+        create: Vytvořit téma
+        update: Aktualizovat téma
+      frm_mod:
+        create: Vytvořit skupinu
+      frm_category:
+        create: Vytvořit kategorii
+        update: Aktualizovat kategorii
   simple_form:
     labels:
+      frm_forum:
+        category: Kategorie
+        title: Název
+        name: Název
+        description: Popis
+        moderators: Moderátoři
+        visible_outside: Viditelné mimo skupinu
       topic:
+        subject: Předmět
+        locked: Uzamčeno
+        pinned: Připnuto
+        hidden: Skryté
         posts:
           text: Text
       frm_category:
@@ -152,4 +191,10 @@ cs-CZ:
   #General stuff
   time_ago_in_words: "před %{time}"
   ago: " před"
+  ago_by: " před chvílí"
   by: od
+  started_by: "Založil "
+  are_you_sure: Jste si jistý?
+  lst_post: "Poslední příspěvek"
+  last_post: "Poslední téma"
+  back_to_forums: "Zpět na fórum"
