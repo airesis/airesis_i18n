@@ -71,6 +71,8 @@ cs-CZ:
     forum:
       forums: Fóra
       new: Vytváření nového fóra
+      moderator_tools: "Moderační nástroje"
+      topic_tools: "Nástroje témat"
       admin_tools: "Administrativní nástroje"
       title: "Nové fórum"
     forums:
@@ -86,13 +88,17 @@ cs-CZ:
         latest: Nejnovější
         posts: Příspěvky
         views: Zobrazení
+      moderation:
+        success: Vybrané téma bylo moderováno
       reply: Odpověď
+      quote: Citace
       delete: Odstranit
       created: Toto téma bylo vytvořeno
       new: Vytváření nového tématu
       edit: Upravit téma
       not_created: Toto téma nelze vytvořit
       deleted: Vaše téma bylo odstraněno
+      cannot_delete: Nemůžete odstranit téma, které nevlastníte
       not_updated: Toto téma nelze aktualizovat
       subscribed: Jste přihlášeni k odběru tohoto tématu
       unsubscribed: Odhlásili jste se z tohoto tématu
