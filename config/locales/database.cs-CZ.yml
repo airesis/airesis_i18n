@@ -193,23 +193,49 @@ cs:
         email_subject: Nový příspěvek
       new_public_proposals:
         email_subject: "%{proposal}"
+      new_participation_request:
+        description: Nová žádost o účast
+        email_subject:
+          one: "Je tu nový požadavek na účast"
+      new_blog_comment:
+        description: Nový komentář v mém blogu
+        email_subject:
+          one: "Nový komentář ve vašem blogu"
       new_forum_topic:
         description: Nová témata na fórech
+      new_comments_mine:
+        description: Nové komentáře v mých návrzích
+        email_subject: Nový komentář v mém návrhu
       new_comments:
+        description: Nové komentáře v diskusích, kterých se účastním
         email_subject: "%{title} - Nový komentář"
     proposal_categories:
       no_category:
         description: Nezařazeno
+      education:
+        description: Vzdělávání, výzkum
       health:
         description: Zdraví, hygiena
       information:
         description: Informace, komunikace
+      commerce:
+        description: Obchod, finance, daně
       work:
         description: Práce a seberealizace
+      security:
+        description: Bezpečnost a spravedlnost
       world:
         description: Svět, migrace
+      minorities:
+        description: Menšiny, znevýhodnění
+      ethics:
+        description: Etika, Solidarita, duchovnost
+      sexuality:
+        description: Sexualita, rodina, děti
       culture:
         description: Umění a kultura
+      entertainment:
+        description: Sociální, sport, zábava
       agricolture:
         description: Voda, jídlo, zemědělství
       energy:
