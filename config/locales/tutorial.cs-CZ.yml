@@ -2,6 +2,8 @@ cs-CZ:
   tutorial:
     proposals_index:
       category_icon: "Vybraná kategorie"
+    users_alarm_preferences:
+      no_emails: "Pamatujte: Pokud vypnete upozornění na Airesis, nebudete ho dostávat ani na Airesis."
     next: "Další"
     back: "Zpět"
     done_label: "Hotovo"
