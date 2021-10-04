@@ -6,12 +6,18 @@ cs-CZ:
       topic: Témá
       posts: Příspěvky
       flagged_for_spam: Váš účet byl označen jako spam.
+      cannot_create_topic: Momentálně nelze vytvořit nové téma.
+      cannot_create_post: Momentálně nelze vytvořit nový příspěvek.
+    access_denied: "K tomu nemáte oprávnění."
     admin:
+      area: Admin oblast
       back_to_admin: "Zpět na Admin"
       back_to_forums: "Zpět na fóra"
       back_to_groups: "Zpět do skupin"
       forum:
         moderator_groups: Moderátorské skupiny
+        index: Správa fóra
+        new: Vytvoření nového fóra
       forums:
         edit: Upravit
         delete: Odstranit
@@ -87,6 +93,24 @@ cs-CZ:
       edit: Upravit téma
       not_created: Toto téma nelze vytvořit
       deleted: Vaše téma bylo odstraněno
+      not_updated: Toto téma nelze aktualizovat
+      subscribed: Jste přihlášeni k odběru tohoto tématu
+      unsubscribed: Odhlásili jste se z tohoto tématu
+      none: V tomto fóru momentálně nejsou žádná témata
+      links:
+        new: Nové téma
+        back_to_topics: Zpět na témata
+        edit: Upravit téma
+      not_found: Témata, která hledáte, nebyla nalezena
+      hidden:
+        'true': Toto téma je nyní skryté
+        'false': Toto téma je nyní viditelné
+      locked:
+        'true': Toto téma je nyní uzamčeno
+        'false': Toto téma je nyní odemčeno
+      pinned:
+        'true': Toto téma je nyní připnuto
+        'false': Toto téma je nyní odepnuto
     topics:
       show:
         reply: Odpovědět
@@ -94,6 +118,7 @@ cs-CZ:
         subscribe: Odebírat
         unsubscribe: Zrušit odběr
         reply_to_topic: Odpovědět na téma
+        pending_review: Toto téma momentálně čeká na recenzi. Pouze uživatel, který jej vytvořil a moderátoři jej mohou zobrazit.
     post:
       new: Odeslat odpověď na
       edit: Upravit
