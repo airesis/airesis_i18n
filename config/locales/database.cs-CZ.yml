@@ -136,10 +136,36 @@ cs:
         description: Uživatel, který je k dispozici stát se editorem návrhu
         email_subject:
           one: "%{title} - Je k dispozici nový editor"
+          other: "%{title} - %{count} nových editorů je k dispozici"
+        message:
+          one: "%{user} je k dispozici jako editor návrhu <b>%{title}</b>"
+          other: "%{count} uživatelů je k dispozici, aby se stali editorem návrhu <b>%{title}</b>"
+      author_accepted:
+        description: Přijetí jako editora návrhu
+        email_subject: "%{title} - Nyní jste jeho editor!"
+        message: "Nyní jste editorem návrhu <b>%{title}</b>.<br/>Nezapomeňte, že jako editor byste měli naslouchat příspěvkům ostatních uživatelů a podle nich vylepšit text<br/>"
+      new_authors:
+        description: Noví editoři návrhů
+        email_subject: "%{title} - Noví editoři"
+      unintegrated_contribute:
+        email_subject: "%{proposal} - Přispějte zpět do rozpravy"
+        message: "Příspěvek, který jste začlenili do návrhu <b>%{proposal}</b> , byl vrácen zpět do rozpravy"
+      new_contributes:
+        description: "Nové příspěvky do návrhů, jichž se účastním"
+        email_subject:
+          one: "%{title} - Byl vložen nový příspěvek"
       text_update:
         description: "Aktualizace textu návrhu, kterého se účastním"
+      new_contributes_mine:
+        description: "Nové příspěvky v mých návrzích"
+        email_subject:
+          one: "%{title} - Byl vložen nový příspěvek"
       change_status:
         email_subject:
+          wait: "%{title} - Vyberte datum hlasování"
+          waiting_date: "%{title} - Datum hlasování bylo vybráno"
+          in_vote: "%{title} - PŘIJĎTE A HLASUJTE!"
+          abandoned: "%{title} neprošel rozpravou"
           1_hour: "Diskuze na téma %{title} končí za hodinu!"
           24_hours_vote: "Hlasování o %{title} končí zítra!"
           1_hour_vote: "Hlasování o %{title} končí za hodinu!"
