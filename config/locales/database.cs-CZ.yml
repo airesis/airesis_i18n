@@ -129,6 +129,13 @@ cs:
         email_subject:
           one: "%{title} má nové hodnocení"
           other: "%{title} má %{count} nových hodnocení"
+        message:
+          one: "Návrh <b>%{title}</b> obdržel nové hodnocení"
+          other: "Návrh <b>%{title}</b> obdržel %{count} nových hodnocení"
+      available_author:
+        description: Uživatel, který je k dispozici stát se editorem návrhu
+        email_subject:
+          one: "%{title} - Je k dispozici nový editor"
       text_update:
         description: "Aktualizace textu návrhu, kterého se účastním"
       change_status:
