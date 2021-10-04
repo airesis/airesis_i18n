@@ -1,5 +1,11 @@
 cs-CZ:
   pages:
+    groups:
+      show:
+        destroy_button: "Vymazat"
+        list_permissions:
+          button: "Seznam oprávnění"
+        print_all_participants: "Tisk seznamu účastníků"
     confirmation:
       submit: 'Pošlete mi pokyny'
     password:
