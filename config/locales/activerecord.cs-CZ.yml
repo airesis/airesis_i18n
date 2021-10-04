@@ -101,6 +101,7 @@ cs-CZ:
         vote_good_score: 'Schválení'
       search_participant:
         role_id: 'Role'
+        keywords: 'Křestní jméno nebo příjmení'
       user:
         name: 'Jméno'
         email: 'E-mailová adresa'
@@ -142,6 +143,7 @@ cs-CZ:
         record_invalid: 'Ověření se nepodařilo %{errors}'
         not_found: 'nenalezeno.'
         TOS: "Musíte přijmout Podmínky užívání"
+        forum_visibility: "Fórum nemůže být viditelné mimo skupinu, pokud je kategorie soukromá"
       full_messages:
         format: "%{attribute} %{message}"
       models:
@@ -149,3 +151,6 @@ cs-CZ:
           attributes:
             email:
               already_confirmed: 'Tato e-mailová adresa je již registrována'
+        group:
+          portavoce:
+            required: 'Musíte vybrat správce'
