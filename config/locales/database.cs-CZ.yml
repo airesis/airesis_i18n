@@ -147,6 +147,7 @@ cs:
       new_authors:
         description: Noví editoři návrhů
         email_subject: "%{title} - Noví editoři"
+        message: "<b>%{user}</b> je editor návrhu <b>%{title}</b>"
       unintegrated_contribute:
         email_subject: "%{proposal} - Přispějte zpět do rozpravy"
         message: "Příspěvek, který jste začlenili do návrhu <b>%{proposal}</b> , byl vrácen zpět do rozpravy"
@@ -192,6 +193,8 @@ cs:
       new_posts_group:
         email_subject: Nový příspěvek
       new_public_proposals:
+        email_subject: "%{proposal}"
+      new_proposals:
         email_subject: "%{proposal}"
       new_participation_request:
         description: Nová žádost o účast
