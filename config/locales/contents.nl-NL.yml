@@ -13,6 +13,31 @@ nl-NL:
           <p>Onder de <strong>sociale instrumenten</strong> heeft Airesis blogs te bieden en een systeem voor promotie van gebeurtenissen en ontmoetingen met bijbehorende planning. Onder de <strong>overleginstrumenten</strong> bevinden zich omgevingen voor de verzameling en besprekingen van voorstellen en initiatieven, en een verkiezingssysteem bedoeld om op kandidaten te stemmen. Op het platform kun je ook groepen vormen met de mogelijkheid om het beleid en autorisaties naar wens in te stellen. Omdat het stimuleren van deelname het is doel van Airesis, is er veel aandacht besteed aan maximalisatie van het gebruiksgemak op het hele platform. De ontwikkelingsfilosofie is gericht op voortdurende verbetering, een soort evolutionair proces gebaseerd op terugkoppeling van gebruikers. Het ontwikkelteam staat klaar om tegemoet te komen aan de behoeftes van de gemeenschappen die de software willen gebruiken in de geest van directe democratie.</p>
       paragraph_3:
         title: "Uitgangspunten en kernwaarden"
+        content_html: |
+          <p>Airesis is een open source besluitvormingsinstrument voor e-democratie, sterk gericht op probleemoplossing en ontworpen voor maximalisatie van de immense, evolutionaire kracht die de <a heref="http://en.wikipedia.org/wiki/Collective_intelligence" target="_blank">intelligentie van de massa</a> heeft.</p>
+          <p>Volledig ontwikkeld door vrijwilligers op basis van non-profit principes, is Airesis gemaakt om sneller, weloverwogen, gedeeld en gezamenlijk beslissingen te nemen.<br/>
+          Het is gebaseerd op de volgende uitgangspunten:</p>
+          <ul>
+          <li><strong>Participatie</strong> <br/>
+          Burgers erbij betrekken betekent dat er meer energie en zienswijzen beschikbaar zijn.
+          Alleen bij directe participatie is het mogelijk om problemen te onderzoeken en om te begrijpen wat de mensen echt willen. Participatie is de essentie van democratische beslissingen.
+          </li>
+
+          <li><strong>Transparantie en veiligheid</strong><br/>
+          Zonder transparantie kunnen regels gemakkelijk omzeild worden en kan de democratie snel in verval raken.
+          Transparantie betekent ook openheid, vermogen tot verwelkomen: om die reden staat Airesis toe dat ook ongeregistreerde gebruikers de inhoud van de site zien.
+          De broncode van de software is ook "transparant"; het is volledig open source.</li>
+
+          <li><strong>Constructieve dialoog</strong><br/>
+          Niemand heeft alle correcte antwoorden in pacht. Gebruikmaking van geschikte instrumenten en de uitwerking van ideeën die door veel mensen ingebracht zijn, kan productiever zijn dan alles zelf doen.
+          </li>
+
+          <li><strong>Gelijke kansen</strong><br/>
+          Bereidheid om effectieve gelijkheid, in de zin van geboden kansen, door het systeem te laten voortbrengen.
+          </li>
+
+          <li><strong>Flexibiliteit</strong><br/>
+          Elke groep heeft eigen behoeften, elk voorstel is anders dan andere, elke gebruiker heeft eigen behoeftes.</li>
     engage:
       nav:
         participate: "Deelnemen"
