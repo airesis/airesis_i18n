@@ -202,7 +202,25 @@ cs:
           1_hour_vote: "Hlasování o %{title} končí za hodinu!"
         message:
           wait: "Váš návrh <b>%{title}</b> prošel fází diskuze a nyní čeká na zvolení, kdy jej budete hlasovat."
+          voted: "<b>%{title}</b> - Hlasování skončilo"
+          24_hours: "Rozprava o <b>%{title}</b> končí zítra!"
+          1_hour: "Rozprava o <b>%{title}</b> končí za hodinu!"
+          24_hours_vote: "Hlasování o <b>%{title}</b> končí zítra!"
+          1_hour_vote: "Hlasování o <b>%{title}</b> končí za hodinu!"
+      proposal_phase_ending:
+        description: "Diskuse o návrhu nebo hlasování brzy skončí"
+        email_subject:
+          24_hours: "Rozprava o %{title} končí zítra!"
+          1_hour: "Rozprava o %{title} končí za hodinu!"
+          24_hours_vote: "Hlasování o %{title} končí zítra!"
+          1_hour_vote: "Hlasování o %{title} končí za hodinu!"
+        message:
+          24_hours: "Rozprava o <b>%{title}</b> končí zítra!"
+          1_hour: "Rozprava o <b>%{title}</b> končí za hodinu!"
+          24_hours_vote: "Hlasování o <b>%{title}</b> končí zítra!"
+          1_hour_vote: "Hlasování o <b>%{title}</b> končí za hodinu!"
       new_posts_group_follow:
+        description: Nové příspěvky ve zdi skupin, které sleduji
         email_subject: Nový příspěvek
       new_posts_group:
         email_subject: Nový příspěvek
