@@ -63,14 +63,17 @@ cs-CZ:
           title: "Správa moderátorů"
         new: "Nová skupina Moderátorů"
         created: "Skupina moderátorů úspěšně vytvořena"
+        deleted: "Skupina Moderátorů byla úspěšně odstraněna"
     common:
       pages: Stránky
     errors:
       not_signed_in: Nejprve se musíte přihlásit
       access_denied: Přístup zamítnut.
     forum:
+      header: "Zobrazení %{title}"
       forums: Fóra
       new: Vytváření nového fóra
+      edit: "Úprava fóra %{title}"
       moderator_tools: "Moderační nástroje"
       topic_tools: "Nástroje témat"
       admin_tools: "Administrativní nástroje"
@@ -90,6 +93,7 @@ cs-CZ:
         views: Zobrazení
       moderation:
         success: Vybrané téma bylo moderováno
+        no_option_selected: Nebyla vybrána žádná možnost moderování
       reply: Odpověď
       quote: Citace
       delete: Odstranit
@@ -99,6 +103,7 @@ cs-CZ:
       not_created: Toto téma nelze vytvořit
       deleted: Vaše téma bylo odstraněno
       cannot_delete: Nemůžete odstranit téma, které nevlastníte
+      updated: Toto téma bylo aktualizováno
       not_updated: Toto téma nelze aktualizovat
       subscribed: Jste přihlášeni k odběru tohoto tématu
       unsubscribed: Odhlásili jste se z tohoto tématu
@@ -159,6 +164,9 @@ cs-CZ:
       post:
         pending_review: Tento příspěvek momentálně čeká na kontrolu. Pouze uživatel, který jej zveřejnil a moderátoři jej mohou zobrazit.
         in_reply_to: v odpovědi na
+    moderation:
+      index:
+        title: "Moderační nástroje pro %{forum}"
   helpers:
     submit:
       frm_forum:
@@ -204,3 +212,10 @@ cs-CZ:
   lst_post: "Poslední příspěvek"
   last_post: "Poslední téma"
   back_to_forums: "Zpět na fórum"
+  pages:
+    forum_groups:
+      index:
+        create_first: Zatím nejsou žádné skupiny moderátorů. Vytvořte si první!
+  info:
+    members:
+      ok_message: Uživatel byl úspěšně přidán do skupiny
