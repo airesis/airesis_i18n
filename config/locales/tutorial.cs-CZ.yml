@@ -14,6 +14,7 @@ cs-CZ:
       category_icon: "Vybraná kategorie"
       participants: "Počet lidí, kteří se účastní tohoto návrhu se svými příspěvky a hodnoceními"
       contributes: "Počet přidaných příspěvků"
+      end: "To je struktura seznamu návrhů. To je stejné v každé skupině, ve které se účastníte, a pomůže vám to orientovat se při diskusích skupiny"
     users_alarm_preferences:
       no_emails: "Pamatujte: Pokud vypnete upozornění na Airesis, nebudete ho dostávat ani na Airesis."
     next: "Další"
