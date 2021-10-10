@@ -50,6 +50,7 @@ cs-CZ:
       category:
         index: Správa kategorií fóra
         new: Vytváření nové kategorie fóra
+        not_updated: Tuto kategorii fóra nelze aktualizovat
       categories:
         edit: Upravit
         delete: Odstranit
@@ -63,6 +64,7 @@ cs-CZ:
           title: "Správa moderátorů"
         new: "Nová skupina Moderátorů"
         created: "Skupina moderátorů úspěšně vytvořena"
+        not_created: "Chyba při vytváření skupiny Moderátorů"
         deleted: "Skupina Moderátorů byla úspěšně odstraněna"
     common:
       pages: Stránky
