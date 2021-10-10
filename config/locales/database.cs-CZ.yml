@@ -223,15 +223,22 @@ cs:
         description: Nové příspěvky ve zdi skupin, které sleduji
         email_subject: Nový příspěvek
       new_posts_group:
+        description: Nové příspěvky ve zdi skupin, kterých se účastním
         email_subject: Nový příspěvek
+        message: "<b>%{user}</b> přidal nový příspěvek ve skupině <b>%{group}</b>"
       new_public_proposals:
+        description: Nové návrhy přidány do otevřeného prostoru
         email_subject: "%{proposal}"
+        message: "Nový návrh <b>%{proposal}</b> přidán do otevřeného prostoru"
       new_proposals:
+        description: Nové návrhy ve skupině
         email_subject: "%{proposal}"
+        message: "Nový návrh <b>%{proposal}</b> vytvořen ve skupině <b>%{group}</b>"
       new_participation_request:
         description: Nová žádost o účast
         email_subject:
           one: "Je tu nový požadavek na účast"
+          other: "Je tu %{count} nových žádostí o účast"
       new_blog_comment:
         description: Nový komentář v mém blogu
         email_subject:
