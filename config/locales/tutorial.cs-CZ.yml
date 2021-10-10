@@ -1,7 +1,19 @@
 cs-CZ:
   tutorial:
     proposals_index:
+      welcome_open_space: "Vítejte v otevřeném prostoru Airesis! Otevřený prostor je velmi konkrétní skupina, jíž se každý uživatel účastní. Zde najdete seznam návrhů volně přidaných uživateli aplikace a můžete dokonce přidat vlastní návrhy."
+      welcome_group: "Toto je seznam návrhů skupiny <b>%{group_name}</b>. Zde najdete seznam návrhů přidaných členy skupiny a můžete přidat i ty vlastní, za předpokladu, že jste k tomu oprávněni"
+      new_proposal: "V pravém bočním menu najdete tlačítko pro vytvoření nových návrhů..."
+      filters: "... a různé filtry pro nalezení návrhů, o které máte zájem"
+      tabs: "Návrhy v Airesis postupují podle definované cesty, která je vyrobena ze čtyř hlavních stavů. Pojďme je objevit!"
+      tab_debate: "Nové návrhy jsou zahájeny ve fázi rozpravy a zúčastnění se mohou zúčastnit všichni uživatelé nebo členové skupiny, projednávání a rozpracování návrhu s cílem zajistit, aby byl zralý k hlasování"
+      tab_vote: "Když rozprava skončí, návrhy se přesouvají na hlasovací kartu, kde každý uživatel může hlasovat o řešeních, která se objevila během rozpravy"
+      tab_voted: "Po hlasování všechny hlasované návrhy přecházejí na hlasovací lístek, pokud je možné přezkoumat výsledek celého životního cyklu návrhu"
+      abandoned: "Všechny návrhy, které neprošly rozpravou, se přesunuly na záložku, z nichž mohou být znovu do rozpravy zařazeni, aby pokračovali v diskusi"
+      proposal_list: "Každý návrh je zobrazen v rámečku, jako je tento, kde jsou v rozpravě všechny informace o jeho stavu."
       category_icon: "Vybraná kategorie"
+      participants: "Počet lidí, kteří se účastní tohoto návrhu se svými příspěvky a hodnoceními"
+      contributes: "Počet přidaných příspěvků"
     users_alarm_preferences:
       no_emails: "Pamatujte: Pokud vypnete upozornění na Airesis, nebudete ho dostávat ani na Airesis."
     next: "Další"
