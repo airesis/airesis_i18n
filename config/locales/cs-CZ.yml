@@ -30,6 +30,17 @@ cs-CZ:
         active: "Aktivní"
         name: "Název"
         participants: "Účastníci"
+        condition: "Podmínka"
+        confirm_deletion: "Jste si jisti, že chcete odstranit usnášeníschopný počet %{quorum}?"
+        add_quorum: "Vytvořit novou usnášeníschopnost"
+        edit_quorum: "Upravit usnášeníschopnost"
+        configure_proposal_parameters: "Konfigurovat parametry návrhů"
+        default_anonymous_proposal: "Dočasná anonymita je aktivní"
+        default_private_proposal: "Návrhy viditelné mimo skupinu"
+        default_secret_vote: "Tajné hlasování"
+        let_editor_change_settings: "Editoři si mohou svobodně vybrat výše uvedené možnosti"
+        time: "Čas"
+        edit_quorum_warning: "Varování! Úpravy tohoto usnášeníschopného počtu nebudou mít vliv na návrhy, které jej již používají!"
     confirmation:
       submit: 'Pošlete mi pokyny'
     password:
