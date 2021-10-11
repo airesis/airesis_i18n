@@ -41,12 +41,42 @@ cs-CZ:
         let_editor_change_settings: "Editoři si mohou svobodně vybrat výše uvedené možnosti"
         time: "Čas"
         edit_quorum_warning: "Varování! Úpravy tohoto usnášeníschopného počtu nebudou mít vliv na návrhy, které jej již používají!"
+      edit_work_areas:
+        manage:
+          new_area: "Vytvořit pracovní prostor"
+          list_title: "Seznam pracovních oblastí. Pro každého z nich vyberte účastníky nebo klikněte na jméno pro správu rolí a oprávnění v této pracovní oblasti"
+          title: "Nastavení pracovního prostoru"
     confirmation:
       submit: 'Pošlete mi pokyny'
     password:
       edit:
         confirm_button: "Změnit mé heslo"
+    registration:
+      email_confirmed: "Pokud se zaregistrujete s touto e-mailovou adresou, nebudete požádáni o potvrzení Vaší e-mailové adresy."
+      choose_password: "Zvolte heslo"
+      confirm_password: "Potvrdit heslo"
+      accept_conditions: "Přijmout smluvní podmínky"
+      register_button: "Registrovat se"
+      accept_privacy: "Přijmout podmínky ochrany osobních údajů"
     proposals:
+      index:
+        title: 'Seznam návrhů'
+        last: "Naposledy přidané"
+        most_popular: "Nejoblíbenější"
+        most_valutated: "Nejvíce hodnocené"
+        continue_reading: 'Pokračovat ve čtení návrhu'
+        debate_title: "V rozpravě %{count}"
+        voting_title: "Hlasování - %{count}"
+        accepted_title: "Hlasováno - %{count}"
+        revision_title: "Opuštěno - %{count}"
+        login_with: "Přihlásit se:"
+        group_areas_title: "Pracovní prostory"
+        no_group_areas: "Žádný prostor"
+        all_areas: "Všechny prostory"
+        categories_title: "KATEGORIE"
+        all_categories: "Všechny kategorie"
+        loading_proposals: "Načítání návrhů, čekejte prosím..."
+        title_with_category: "Návrhy v kategorii %{category}"
       show:
         delete_contribute_confirmation: "Jste si jisti, že chcete smazat tento příspěvek?"
         delete_suggestion_confirmation: "Jste si jisti, že chcete smazat tento komentář?"
