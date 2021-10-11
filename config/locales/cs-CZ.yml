@@ -6,6 +6,30 @@ cs-CZ:
         list_permissions:
           button: "Seznam oprávnění"
         print_all_participants: "Tisk seznamu účastníků"
+        short_url: "Krátká adresa URL"
+        featured_post:
+          'true': Odepnout
+          'false': Připnout nahoru
+        permissions_title: "Vy a skupina"
+      header:
+        settings: "NASTAVENÍ"
+        documents: "DOKUMENTY"
+        forums: "FÓRUM"
+        alarm_settings: "Nastavení"
+      documents:
+        documents_archive: "Archiv dokumentů"
+        max_storage_size: "Maximální dostupná velikost úložiště"
+        current_storage_usage: "Využití úložiště"
+        not_authorized: "Nemáte dostatečná oprávnění k zobrazení dokumentů. Obraťte se na správce skupiny"
+      edit_quorums:
+        new_quorum:
+          title: "Nová usnášeníschopnost"
+          simple: "Jednoduchý"
+          advanced: "Pokročilý"
+          time_description: "Poslední rozprava %{days} %{hours} %{minutes}"
+        active: "Aktivní"
+        name: "Název"
+        participants: "Účastníci"
     confirmation:
       submit: 'Pošlete mi pokyny'
     password:
