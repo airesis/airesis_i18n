@@ -139,4 +139,22 @@ cs-CZ:
         model_title: "Šablona"
         create_new_votation_period: "Vytvořit novou událost na konci rozpravy"
         choose_later: "Nic děkuji. Vyberu to později"
+      tabs:
+        most_urgent: "Nejnaléhavější"
+      list:
+        last_update: "Aktualizováno před %{time_ago}"
+        voting_from_to: "Od %{from} do %{to}"
+        votation_finished: "Ukončeno<br/>%{time_ago}"
+        no_votation: "Neproběhlo žádné hlasování"
+        votation_finished_approved: "Schváleno<br/> %{date}"
+        interest_borders: "Zeměpisné hranice"
+        no_proposals: "Zatím žádné návrhy"
+        condition_left: "Podmínka ukončení rozpravy"
+        time_left: "Zbývající čas"
+      delete_comment: "Vymazat"
+      results:
+        number_column: "Číslo"
+        percentage_column: "Procento"
+        positive: "Příznivé"
+        neutral: "Neutrální"
   confirm_delete: "Jste si jisti?"
