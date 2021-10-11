@@ -33,8 +33,33 @@ cs-CZ:
         event:
           problems_title: "Rozsah události"
           solution:
+            title: "Řešení 1"
+            maintitle: "Nadpis"
+            description: "Popis řešení"
+            program: "Datum, čas a plán"
+            body: "místo"
+            place: "Místo"
+            organization: "Organizace události"
+            resources: "Nezbytné zdroje a jak je získat"
             pros: "Plusy"
             cons: "Mínusy"
+          paragraph:
+            desired_characteristics: "Požadované vlastnosti"
         candidates:
           solution:
+            name: "Jméno a příjmení kandidáta"
             data: "Osobní údaje"
+            curriculum: "Životopis"
+          paragraph:
+            election_type: "Popis druhu volby:"
+        simple:
+          problems_title: "Problém"
+          solution:
+            description: "Popis"
+            title: "Řešení 1"
+        petition:
+          paragraph:
+            text: "Text petice:"
+          question:
+            paragraph:
+              text: "Text petice"
