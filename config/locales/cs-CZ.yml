@@ -104,4 +104,6 @@ cs-CZ:
         votation_results_title: "Výsledky hlasování"
         in_votation_now: "Hlasování právě teď!"
         in_votation_until_html: "Konec hlasování v:<br/><b>%{date}</b>"
+        your_nickname_is: "Vaše přezdívka je"
+        supporting_group: "Podporované skupiny"
   confirm_delete: "Jste si jisti?"
