@@ -156,5 +156,11 @@ cs-CZ:
         number_column: "Číslo"
         percentage_column: "Procento"
         positive: "Příznivé"
+        negative: "Nepříznivé"
         neutral: "Neutrální"
+        name_surname_column: "Jméno a příjmení"
+        date_time_column: "Datum a čas hlasování"
+      report_contribute:
+        mark_title: "Označit příspěvek"
+        report_title: "Nahlásit příspěvek"
   confirm_delete: "Jste si jisti?"
