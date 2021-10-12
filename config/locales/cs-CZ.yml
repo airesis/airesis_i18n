@@ -647,4 +647,39 @@ cs-CZ:
       anymore: "Pozvánka byla zamítnuta. Další pozvánky nebudete dostávat."
     blog_comment:
       destroyed: "Komentář byl smazán"
+    user_sensitive:
+      updated: "Citlivý uživatel byl úspěšně aktualizován."
+      created: "Citlivý uživatel byl úspěšně vytvořen."
+  interest_borders:
+    hint: "Zadejte několik znaků pro vyhledání místa"
+    no_place_found: "Nebylo nalezeno žádné místo"
+    searching: "Vyhledávání, čekejte prosím..."
+    region: "%{name}  (Region)"
+    province: "%{name} (kraj)"
+    town: "%{name}  (město)"
+    country: "%{name}  (Země)"
+    continent: "%{name} (kontinent)"
+  mailer:
+    default:
+      follow_twitter: "sledujte nás na Twitteru"
+      follow_facebook: "sledovat nás na Facebooku"
+      follow_google: "sledujte nás na Google+"
+      footer:
+        registered_at: "Obdrželi jste tento e-mail, protože jste zaregistrováni na %{url}."
+        connect_with_us: "Spojte se s námi:"
+        contact_info: "Kontaktní informace:"
+        email_label: "E-mail:"
   confirm_delete: "Jste si jisti?"
+  twitter:
+    share:
+      blog_post: "Podívejte se na tento příspěvek na #%{app}! %{tags}"
+      event: "Nová událost je na #%{app}"
+  home:
+    portlets:
+      last_proposals:
+        proceed_to_proposals: "Pokračovat v návrzích"
+      from_blogs:
+        proceed_to_blogs: "Pokračovat na blogy"
+      topics:
+        title: "Témata, která sledujete"
+  confirm_detach: "Opravdu chcete odstranit tohoto poskytovatele identity? Nebudete jej moci v budoucnu používat."
