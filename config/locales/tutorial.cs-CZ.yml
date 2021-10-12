@@ -15,6 +15,10 @@ cs-CZ:
       participants: "Počet lidí, kteří se účastní tohoto návrhu se svými příspěvky a hodnoceními"
       contributes: "Počet přidaných příspěvků"
       end: "To je struktura seznamu návrhů. To je stejné v každé skupině, ve které se účastníte, a pomůže vám to orientovat se při diskusích skupiny"
+    proposals_show:
+      main: "Toto jsou odstavce, ze kterých jsou návrhy předkládány"
+      solution_main: "Toto je řešení. I řešení je vytvořeno z různých odstavců. Editoři napíší jedno nebo více řešení pro vyřešení nalezeného problému"
+      contributeButton: "Pomocí těchto tlačítek můžete zobrazit příspěvky ostatních uživatelů a přidat své vlastní. Příspěvky jsou vždy uvedeny v odstavci, ve kterém jsou dostupné"
     users_alarm_preferences:
       no_emails: "Pamatujte: Pokud vypnete upozornění na Airesis, nebudete ho dostávat ani na Airesis."
     next: "Další"
