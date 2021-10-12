@@ -546,4 +546,69 @@ cs-CZ:
     event_answer: "Chyba při odesílání odpovědi"
     event_already_answered: "Na tuto událost jste již odpověděli"
     event_past: "Událost skončila"
+    group_participations:
+      error_saving: "Chyba v postupu. Nelze pokračovat"
+    error_404:
+      proposals:
+        title: "Tento návrh neexistuje"
+        description: "Návrh, který hledáte, neexistuje nebo byl odstraněn"
+      blog_posts:
+        title: "Tento příspěvek neexistuje"
+        description: "Příspěvek, který hledáte, neexistuje nebo byl smazán"
+      events:
+        title: "Tato událost neexistuje"
+        description: "Událost, kterou hledáte, neexistuje nebo byla smazána"
+      groups:
+        title: "Tato skupina neexistuje"
+        description: "Skupina, kterou hledáte, neexistuje nebo byla smazána"
+      title: "Stránka, kterou hledáte, neexistuje"
+      description: "Vaše adresa může být špatná nebo tato stránka již neexistuje"
+    error_500:
+      title: "Oops... naše chyba"
+      description: "Byla odeslána zpráva a tento problém bude co nejdříve opraven."
+    event:
+      comment_added: "Chyba při zadávání komentáře"
+    participations_destroyed: "Chyba během zpracování"
+    error_indexer:
+      title: "Služba není k dispozici"
+      description: "Máme problémy s interními systémy. Zkuste to znovu za pár minut."
+    error_302:
+      title: "Neoprávněný přístup"
+      description: "Omlouváme se. Nemáte oprávnění k přístupu k tomuto zdroji."
+    area_participation:
+      create: "Chyba při přidávání uživatele do oblasti"
+    area:
+      update: "Chyba při aktualizaci oblasti"
+    group_invitations:
+      code_expired: "Platnost kódu pozvánky vypršela"
+      already_participant: "Již jste účastníkem této skupiny"
+      create: "Nebyl odeslán žádný e-mail"
+  info:
+    setting_preferences: "Nastavení úspěšně změněno"
+    blog_created: "Příspěvek byl úspěšně vytvořen"
+    proposal:
+      can_change_valutation: "Návrh byl upraven od doby, kdy jste jej hodnotil. Pokud chcete, můžete změnit své hodnocení!"
+      waiting_date: "Návrh prošel fází diskuse a nyní čeká na datum hlasování"
+      voting: "Návrh se nachází ve fázi hlasování."
+      ask_participation: "Požádejte o členství ve skupině, aby posoudila a přispěla k tomuto návrhu"
+      public_visible: "Tento návrh je veřejně viditelný"
+      public_visible_short: "Veřejně viditelné"
+      available_authors: "Pro návrh jsou k dispozici noví editoři"
+      updated_comment: "Váš komentář byl úspěšně aktualizován"
+      comment_deleted: "Komentář byl úspěšně odstraněn"
+      contribute_reported: "Příspěvek byl úspěšně nahlášen"
+      contribute_added: "Příspěvek byl úspěšně přidán"
+      comment_added: "Komentář byl úspěšně přidán"
+      contribute_added_right: "Příspěvek byl úspěšně přidán.<br/>Pro zobrazení klikněte na 'Zapsat a zobrazit příspěvek' vedle odstavce '%{section}'"
+      proposal_created: "Návrh byl úspěšně vytvořen. Pokračujte v vypracování vyplňování zbývajících formulářů"
+      proposal_updated: "Návrh byl úspěšně aktualizován"
+      proposal_deleted: "Návrh byl úspěšně odstraněn"
+      date_selected: "O návrhu se bude hlasovat ve zvoleném období"
+      rank_recorderd: "Vaše hodnocení bylo zaregistrováno"
+      comment_already_ranked: "Tento komentář jste již vyhodnotili. Není možné ještě upravit hodnocení komentáře"
+    user:
+      url_hidden: "URL skryté"
+      update_border: "Hranice zeměpisného zájmu byly správně aktualizovány"
+      confirm_email: "Musíte potvrdit novou e-mailovou adresu"
+      IP_disabled: "Poskytovatel identity odstraněn"
   confirm_delete: "Jste si jisti?"
