@@ -149,12 +149,17 @@ cs:
         email_subject: "%{title} - Noví editoři"
         message: "<b>%{user}</b> je editor návrhu <b>%{title}</b>"
       unintegrated_contribute:
+        description: Příspěvky jsou vráceny zpět do rozpravy
         email_subject: "%{proposal} - Přispějte zpět do rozpravy"
         message: "Příspěvek, který jste začlenili do návrhu <b>%{proposal}</b> , byl vrácen zpět do rozpravy"
       new_contributes:
         description: "Nové příspěvky do návrhů, jichž se účastním"
         email_subject:
           one: "%{title} - Byl vložen nový příspěvek"
+          other: "%{title} - Existuje %{count} nových příspěvků"
+        message:
+          one: "<b>%{name}</b> přidal nový příspěvek do návrhu <b>%{title}</b>"
+          other: "V návrhu <b>%{title}</b> je <b>%{count}</b> nových příspěvků "
       text_update:
         description: "Aktualizace textu návrhu, kterého se účastním"
         email_subject:
