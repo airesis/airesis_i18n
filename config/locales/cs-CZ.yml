@@ -306,4 +306,7 @@ cs-CZ:
         removed: "Příspěvky odstraněny z diskuze"
       contribution_valuation: "Co si myslíte?"
       contribution_valuation_again: "Změnil jste názor?"
+      new_rank_bar:
+        creation: "VYTVOŘENO: %{time_ago}<br/>%{date}"
+        end: "KONEC ROZPRAVY:<br/> %{date}"
   confirm_delete: "Jste si jisti?"
