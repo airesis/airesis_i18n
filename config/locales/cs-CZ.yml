@@ -353,4 +353,61 @@ cs-CZ:
         show_all: "Zobrazit všechna oznámení"
       index:
         new_not_read: "Nová nepřečtená oznámení"
+        no_new: "Žádné nové oznámení"
+        old_not_read: "Stará oznámení již přečtena"
+        no_old: "Žádné oznámení"
+    blog_comments:
+      new:
+        insert_comment: "Vložit komentář"
+    header:
+      groups:
+        events: "UDÁLOSTI"
+        proposals: "NÁVRHY"
+        forum: "FÓRUM"
+      no_groups_yet: "Zatím nejste v žádné skupině."
+      menu:
+        my_page: "MOJE HOMEPAGE"
+        my_blog: "MŮJ BLOG"
+        create_blog: "VYTVOŘIT SI BLOG"
+        preferences: "PŘEDVOLBY"
+        administration: "SPRÁVA"
+        logout: "ODHLÁŠENÍ"
+    home:
+      index:
+        partecipate: "ZAPOJIT SE"
+        videos: "VIDEO NÁVODY"
+        whowe: "O NÁS"
+        support: "♥ PODPORA"
+        cloud_1: "NAVRHUJTE"
+        cloud_2: "SPOLUPRACUJTE"
+        cloud_3: "E-DEMOKRACIE"
+        cloud_4: "ZPRÁVA"
+        cloud_5: "DISKUSE"
+        cloud_6: "ROZPRAVY"
+        cloud_7: "ZAPOJENO"
+        cloud_8: "HLASOVAT"
+        cloud_9: "VYBRAT"
+        try_it: "Vyzkoušejte"
+        register: "Registrovat se"
+        login: "Přihlášení"
+        forgot_password: "Zapomenuté heslo?"
+        follw_on_twitter: "Sledujte @demokraciyo na Twitteru"
+        field_1:
+          title: "<em>Navrhnout</em> řešení"
+        field_2:
+          content: "Připojte se ke skupinám, vyberte si, kdo vás zastupuje a zapojte se do akcí podle vašich zájmů. Společně jsme silnější."
+        field_3:
+          content: "Nástroj pro rozhodování o inovativních rozhodnutích ve skupinách. Jednoduchý hlasovací systém, který realizuje přímou a likvidní demokracii."
+        field_4:
+          title: "<em>Pracujte</em> ve vašem nejlepším zájmu"
+          content: "Podělte se o své zkušenosti, zlepšujte návrhy ostatních. Objevte nové přátele, kteří přemýšlí jako vy. Realizujte své nápady s ostatními."
+        keep_connected: "Zachovat relaci"
+        feedback: "ODESLAT ZPĚTNOU VAZBU"
+        FAQ: "Časté dotazy"
+        guide: "POKYNY"
+        change_language: "Změnit jazyk"
+        most_used_tags: "Nejčastěji používané štítky"
+        show_tags: "Zobrazit všechny štítky"
+        next_events: "Další události"
+        show_events: "Zobrazit kalendář"
   confirm_delete: "Jste si jisti?"
