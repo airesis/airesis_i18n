@@ -300,4 +300,10 @@ cs-CZ:
         expand_solutions: "Rozbalit řešení"
         show_contributes: "Zobrazit příspěvky"
         cancel_confirm: "Zrušit své operace a zobrazit návrh?"
+        update_confirm: "Neintegrovali jste žádný příspěvek. Opravdu chcete pokračovat?"
+      manage_noise:
+        available: "Příspěvky způsobilé ke smazání"
+        removed: "Příspěvky odstraněny z diskuze"
+      contribution_valuation: "Co si myslíte?"
+      contribution_valuation_again: "Změnil jste názor?"
   confirm_delete: "Jste si jisti?"
