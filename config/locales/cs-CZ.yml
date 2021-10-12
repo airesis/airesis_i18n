@@ -506,6 +506,26 @@ cs-CZ:
     best_quorum:
       good_score_condition: "Návrh se bude hlasovat, pokud má vyspělost větší než <b>%{good_score}%</b> a %{participants}, jinak bude opuštěn"
       good_score_condition_past: "Návrh se bude hlasovat, pokud má vyspělost větší než <b>%{good_score}%</b> a %{participants}, jinak bude opuštěn"
+    quorum:
+      help_content:
+        at_least_one: "Alespoň jeden"
+        both: "Oba"
+        good_score: "Vyspělost:"
+        bad_score: "Odmítnutí:"
+  proposals:
+    create_button: "Vytvořit návrh"
+    show:
+      ready_for_vote: "Připraveno k hlasování"
+      keep_discuss: "Pokračovat v diskusi"
+    regenerate_button: "Vložit zpět do rozpravy"
+    edit:
+      expand_all: "Rozbalit vše"
+      collapse_all: "Skrýt vše"
+    schulze_vote_results:
+      results: "Výsledky"
+      votes: "Hlasy"
+      solution: "Řešení"
+      points: "Body"
   buttons:
     search: "Hledat"
     close: "Zavřít"
