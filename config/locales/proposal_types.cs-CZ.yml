@@ -24,6 +24,9 @@ cs-CZ:
           problems_question: "Jaký problém má být vyřešen nebo jaké překážky je třeba překonat, aby bylo cíle dosaženo?"
           objectives_title: "Cíle"
           solution:
+            subject: "Dozor"
+            resources: "Nezbytné zdroje a jak je získat"
+            documents: "Dokumentace"
             pros: "Plusy"
             cons: "Mínusy"
             title: "Řešení 1"
