@@ -309,4 +309,48 @@ cs-CZ:
       new_rank_bar:
         creation: "VYTVOŘENO: %{time_ago}<br/>%{date}"
         end: "KONEC ROZPRAVY:<br/> %{date}"
+    votations:
+      show:
+        vote_positive: 'Pozitivní hodnocení'
+        vote_neutral: 'Neutrální hodnocení'
+        vote_negative: 'Negativní hodnocení'
+    blog_posts:
+      new:
+        title: 'Přidat nový příspěvek'
+        published_in_groups: "Příspěvek bude zveřejněn v těchto skupinách:"
+      new_button: "Přidat nový příspěvek"
+      drafts_button: "Nepublikované příspěvky"
+      drafts:
+        title: "%{blog} - nepublikované příspěvky"
+      edit_button: "Upravit"
+      delete_button: "Odstranit"
+      comment:
+        delete_button: "Odstranit"
+        confirm_delete: "Jste si jisti, že chcete odstranit tento příspěvek?"
+        inserted_when: "Přidáno %{when}"
+      list_elements:
+        inserted: "Přidáno uživatelem %{name} dne %{date}"
+      show:
+        previous_comments: "Předchozí komentáře..."
+        tags_title: "Štítky:"
+        edit_button: "Upravit"
+        delete_button: "Odstranit"
+        delete_button_confirm: "Opravdu chcete odstranit tento příspěvek?"
+        draft: "Koncept"
+        comments_says: "říká..."
+        reserved: "rezervováno"
+      published_button: "Publikované příspěvky"
+      view:
+        comments: "Komentáře (%{count})"
+      index:
+        title: "Poslední příspěvky na %{app_short_name}"
+      edit:
+        title: "Upravit příspěvek"
+      archives:
+        title: "Archivovat na %{month}, %{year}"
+    alerts:
+      polling:
+        show_all: "Zobrazit všechna oznámení"
+      index:
+        new_not_read: "Nová nepřečtená oznámení"
   confirm_delete: "Jste si jisti?"
