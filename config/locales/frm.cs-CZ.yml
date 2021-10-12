@@ -18,6 +18,12 @@ cs-CZ:
         moderator_groups: Moderátorské skupiny
         index: Správa fóra
         new: Vytvoření nového fóra
+        new_link: Nové fórum
+        deleted: Vybrané fórum bylo odstraněno
+        created: Toto fórum bylo vytvořeno.
+        not_created: Toto fórum nelze vytvořit
+        updated: Toto fórum bylo aktualizováno.
+        not_updated: Toto fórum nelze aktualizovat
       forums:
         edit: Upravit
         delete: Odstranit
@@ -50,6 +56,9 @@ cs-CZ:
       category:
         index: Správa kategorií fóra
         new: Vytváření nové kategorie fóra
+        edit: "Úprava kategorie %{title}"
+        new_link: Nová kategorie fóra
+        deleted: Vybraná kategorie fóra byla odstraněna
         not_updated: Tuto kategorii fóra nelze aktualizovat
       categories:
         edit: Upravit
@@ -96,6 +105,7 @@ cs-CZ:
       moderation:
         success: Vybrané téma bylo moderováno
         no_option_selected: Nebyla vybrána žádná možnost moderování
+      received_reply: Téma, které jste si přihlásili k odběru odpovědi
       reply: Odpověď
       quote: Citace
       delete: Odstranit
