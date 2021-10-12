@@ -277,4 +277,10 @@ cs-CZ:
       edit:
         title: "Upravte návrh '%{title}'"
         hurry_up: "Pospěšte si!"
+        last_minutes: "Toto pole můžete upravovat pouze na %{minutes} minut."
+        no_participants: "Máte povoleno upravit tato pole pouze v případě, že se jich nikdo neúčastnil!"
+        remove_section: "Odstranit odstavec"
+        add_paragraph: "Přidat nový odstavec"
+        edit_proposal: "Upravte a aktualizujte text návrhu!"
+        remove_solution: "Odstranit řešení"
   confirm_delete: "Jste si jisti?"
