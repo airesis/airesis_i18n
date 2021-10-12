@@ -14,16 +14,33 @@ cs-CZ:
           simple: "Přidat další řešení"
         solution_title:
           standard: "Řešení"
+          poll: "Možnost"
+          rule_book: "Řešení"
+          press: "Řešení"
+          event: "Řešení"
+          estimate: "Řešení"
+          agenda: "Bod"
+          candidates: "Kandidát"
+          simple: "Řešení"
         insert_title:
+          standard: "Vložit název"
+          poll: "Vložit název"
+          rule_book: "Vložit název"
+          press: "Vložit název"
+          event: "Vložit název"
+          estimate: "Vložit název"
           agenda: "Vložit název"
           candidates: "Vložit jméno a příjmení"
           simple: "Vložit název"
+        new_solution_title:
+          standard: "Řešení <span class=\"num\">%{num}</span>:"
       new:
         standard:
           problems_title: "Problémy"
           problems_question: "Jaký problém má být vyřešen nebo jaké překážky je třeba překonat, aby bylo cíle dosaženo?"
           objectives_title: "Cíle"
           solution:
+            description: "Popis řešení"
             subject: "Dozor"
             resources: "Nezbytné zdroje a jak je získat"
             aspects: "Etický, ekologický a společenský aspekt"
@@ -50,8 +67,14 @@ cs-CZ:
             title: "Řešení 1"
             maintitle: "Název"
             subtitle: "Podtitulek"
+            conclusion: "Závěry"
+          paragraph:
+            target: "Příjemci/cíl"
         estimate:
+          problems_title: "Problémy"
+          problems_question: "Jaké zboží nebo služby si přejete koupit? K vyřešení těchto problémů?"
           solution:
+            title: "Řešení 1"
             cost: "Částka"
             problems: "Dodržování omezení a problémů"
             dumentation: "Dokumentace"
