@@ -652,6 +652,8 @@ cs-CZ:
       date_selected: "O návrhu se bude hlasovat ve zvoleném období"
       rank_recorderd: "Vaše hodnocení bylo zaregistrováno"
       comment_already_ranked: "Tento komentář jste již vyhodnotili. Není možné ještě upravit hodnocení komentáře"
+      login_to_contribute: "Přihlaste se pro přidání vašeho příspěvku"
+      back_in_debate: "Návrh je nyní opět předmětem rozpravy. Nyní jste jeho editor."
       editors_added: "Noví editoři úspěšně přidáni!"
       offered_editor: "Nabídli jste se k sepsání tohoto návrhu!"
       authors_added: "Noví autoři byli správně přidáni"
@@ -669,6 +671,8 @@ cs-CZ:
       can_modify_advanced_proposals_settings: "Editoři mohou změnit rozšířené nastavení"
       cannot_modify_advanced_proposals_settings: "Editoři nemohou upravovat rozšířené nastavení"
       anonymous_proposals: "Návrhy skupiny budou automaticky anonymní"
+    groups:
+      area_updated: "Oblast byla aktualizována"
     user:
       url_hidden: "URL skryté"
       update_border: "Hranice zeměpisného zájmu byly správně aktualizovány"
