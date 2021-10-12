@@ -259,6 +259,8 @@ cs-CZ:
       description: "Nástroj přímé demokracie narodil se rozhodovat a jednat kolektivně na návrhy a nápady vytvořené kdekoli pro jakékoliv téma."
       paragraph_1:
         title: "Sociální síť pro E-demokracie"
+      paragraph_3:
+        title: "Uspořádat účastníky"
       paragraph_7:
         title: "Prostor k diskuzi"
       paragraph_8:
@@ -282,3 +284,5 @@ cs-CZ:
     engage:
       developer:
         title: "Vývojář"
+      i18n:
+        title: "Internacionalizace"
