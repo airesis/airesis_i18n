@@ -173,18 +173,25 @@ cs:
         email_subject:
           one: "%{title} - Byl vložen nový příspěvek"
           other: "%{title} - Existuje %{count} nových příspěvků"
+        message:
+          zero: "<b>%{name}</b> přidal nový příspěvek do vašeho návrhu <b>%{title}</b>"
+          one: "<b>%{name}</b> přidal nový příspěvek do vašeho návrhu <b>%{title}</b>"
+          other: "V návrhu <b>%{title}</b> je <b>%{count}</b> nových příspěvků "
       change_status:
+        description: "Změna statusu návrhu, kterého se účastním"
         email_subject:
           wait: "%{title} - Vyberte datum hlasování"
           waiting_date: "%{title} - Datum hlasování bylo vybráno"
           in_vote: "%{title} - PŘIJĎTE A HLASUJTE!"
           abandoned: "%{title} neprošel rozpravou"
           rejected: "%{title} byl odmítnut"
+          voted: "%{title} - Hlasování bylo ukončeno"
           24_hours: "Rozprava o %{title} končí zítra!"
           1_hour: "Diskuze na téma %{title} končí za hodinu!"
           24_hours_vote: "Hlasování o %{title} končí zítra!"
           1_hour_vote: "Hlasování o %{title} končí za hodinu!"
         message:
+          waiting_date: "%{name} si vybral datum hlasování pro návrh <b>%{title}</b>"
           in_vote: "Návrh <b>%{title}</b> se právě hlasuje!"
           abandoned: "Návrh <b>%{title}</b> neprošel rozpravou a byl opuštěn"
           rejected: "Návrh <b>%{title}</b> byl účastníky odmítnut"
@@ -201,12 +208,17 @@ cs:
           in_vote: "%{title} - PŘIJĎTE A HLASUJTE!"
           abandoned: "%{title} neprošel rozpravou"
           rejected: "%{title} byl odmítnut"
+          voted: "%{title} - Hlasování skončilo"
           24_hours: "Rozprava o %{title} končí zítra!"
           1_hour: "Rozprava o %{title} končí za hodinu!"
           24_hours_vote: "Hlasování o %{title} končí zítra!"
           1_hour_vote: "Hlasování o %{title} končí za hodinu!"
         message:
           wait: "Váš návrh <b>%{title}</b> prošel fází diskuze a nyní čeká na zvolení, kdy jej budete hlasovat."
+          waiting_date: "%{name} si vybral datum hlasování pro návrh <b>%{title}</b>"
+          in_vote: "Váš návrh <b>%{title}</b> je nyní hlasován!"
+          abandoned: "Váš návrh <b>%{title}</b> neprošel rozpravou a byl zrušen, je nám líto"
+          rejected: "Váš návrh <b>%{title}</b> byl účastníky odmítnut, je nám líto"
           voted: "<b>%{title}</b> - Hlasování skončilo"
           24_hours: "Rozprava o <b>%{title}</b> končí zítra!"
           1_hour: "Rozprava o <b>%{title}</b> končí za hodinu!"
@@ -244,6 +256,8 @@ cs:
         email_subject:
           one: "Je tu nový požadavek na účast"
           other: "Je tu %{count} nových žádostí o účast"
+        message:
+          one: "<b>%{user}</b> požádal o účast ve skupině <b>%{group}</b>"
       new_blog_comment:
         description: Nový komentář v mém blogu
         email_subject:
