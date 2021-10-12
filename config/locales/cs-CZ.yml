@@ -611,4 +611,40 @@ cs-CZ:
       update_border: "Hranice zeměpisného zájmu byly správně aktualizovány"
       confirm_email: "Musíte potvrdit novou e-mailovou adresu"
       IP_disabled: "Poskytovatel identity odstraněn"
+      time_zone_changed: "Časové pásmo uloženo"
+    blog:
+      blog_created: "Blog byl úspěšně vytvořen"
+      title_updated: "Název blogu byl úspěšně aktualizován"
+      comment_added: "Komentář byl úspěšně vytvořen"
+      destroyed: "Blog úspěšně zničen"
+    events:
+      event_deleted: "Událost byla úspěšně odstraněna"
+      event_updated: "Událost úspěšně aktualizována"
+    moderator_panel:
+      account_blocked: "Účet zablokován"
+      account_unblocked: "Účet odblokován"
+    locale_changed: "Lokalizace byla úspěšně změněna"
+    blog_post_updated: "Váš příspěvek byl úspěšně aktualizován"
+    blog_post_deleted: "Váš příspěvek byl úspěšně odstraněn"
+    group_participations:
+      destroy_ok_1: "Opustili jste skupinu. V budoucnu můžete požádat o další účast"
+      request_sent: "Žádost o účast byla úspěšně odeslána"
+      request_alredy_sent: "Již jste odeslali žádost o účast pro tuto skupinu"
+      status_accepted: "Žádost o účast byla přijata"
+      status_voting: "Žádost o účast může být nyní hlasována"
+      status_declined: "Žádost o účast byla zamítnuta"
+    event:
+      comment_added: "Komentář byl úspěšně vložen"
+    topic:
+      hidden: "Toto téma je skryté"
+    participations_destroyed: "Uživatelé smazáni. Obnovte stránku."
+    area_participation:
+      create: "Uživatel přidán do oblasti"
+      destroy: "Uživatel odebrán z oblasti"
+    group_invitations:
+      accept: "Pozvánka přijata! Nyní jste členem této skupiny."
+      reject: "Pozvánka zamítnuta."
+      anymore: "Pozvánka byla zamítnuta. Další pozvánky nebudete dostávat."
+    blog_comment:
+      destroyed: "Komentář byl smazán"
   confirm_delete: "Jste si jisti?"
