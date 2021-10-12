@@ -19,7 +19,14 @@ cs-CZ:
       main: "Toto jsou odstavce, ze kterých jsou návrhy předkládány"
       solution_main: "Toto je řešení. I řešení je vytvořeno z různých odstavců. Editoři napíší jedno nebo více řešení pro vyřešení nalezeného problému"
       contributeButton: "Pomocí těchto tlačítek můžete zobrazit příspěvky ostatních uživatelů a přidat své vlastní. Příspěvky jsou vždy uvedeny v odstavci, ve kterém jsou dostupné"
+      condition_left: "Podmínky ukončení rozpravy"
+      socialnetwork: "Tlačítka pro sdílení návrhů na vašich sociálních sítích a pozvání přátel do diskuze"
+      category: "Kategorie tohoto návrhu"
+      history: "Historie návrhu, ve které můžete vidět jeho změny a vývoj"
+    groups_edit:
+      welcome: "To je panel administrátorů pro skupiny. Budeme vysvětlovat každou sekci..."
     users_alarm_preferences:
+      emails: "...e-mailem, nebo obojí."
       no_emails: "Pamatujte: Pokud vypnete upozornění na Airesis, nebudete ho dostávat ani na Airesis."
     next: "Další"
     back: "Zpět"
