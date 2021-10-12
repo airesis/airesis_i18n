@@ -410,4 +410,106 @@ cs-CZ:
         show_tags: "Zobrazit všechny štítky"
         next_events: "Další události"
         show_events: "Zobrazit kalendář"
+        most_active_groups: "Nejaktivnější skupiny"
+        show_groups: "Zobrazit všechny skupiny"
+        last_proposals: "Poslední veřejné návrhy"
+        from_blogs: "Poslední příspěvky z blogů"
+        features: "Vlastnosti"
+        donations: "Dary"
+        volunteers: "Dobrovolníci"
+      show:
+        your_proposals: "Návrhy, kterých se účastníte"
+        proposals:
+          title: "Název"
+          last_edit: "Poslední úprava"
+          authors: "Editoři"
+          notifications: "Oznámení"
+        notifications:
+          title: "Výstrahy"
+        your_contributes: "Vaše poslední příspěvky"
+        your_territory: "Vaše území (test)"
+    proposal_histories:
+      quorum_used: "Použitá usnášeníschopnost:"
+      editors_in_life_cycle: "Editoři v tomto životním cyklu:"
+      solutions:
+        added: "NOVÉ ŘEŠENÍ"
+        removed: "ODSTRANĚNÝ ŘEŠENÍ"
+      sections:
+        added: "NOVÝ ODSTAVEC"
+        removed: "ODSTRANĚNÝ ODSTAVEC"
+    tags:
+      show:
+        related_title: "Související štítky"
+        not_found: "Štítek '%{tag}' nebyl nalezen"
+        title: "Seznam prvků se štítkem '%{tag}'"
+      list_proposals_with_tag: "Návrhy"
+      no_proposals_with_tag: "S tímto štítkem zatím nejsou žádné návrhy"
+      list_posts_with_tag: "Příspěvky"
+      no_posts_with_tag: "Nebyly nalezeny žádné příspěvky s tímto štítkem"
+      list_groups_with_tags: "Skupiny"
+      no_groups_with_tag: "Neexistují žádné skupiny s tímto štítkem"
+      proposals_tab: "Návrhy"
+      posts_tab: "Příspěvky"
+      groups_tab: "Skupiny"
+      not_found:
+        subtitle: "Toto jsou nejpoužívanější klíčová slova na Airesis"
+      index:
+        title: "Seznam nejpoužívanějších štítků"
+    footer:
+      for_edemocracy: "pro e-demokracii"
+      go_to_main_site: "Přejít na hlavní stránku"
+      for_edemocracy_html: "<a href=\"https://github.com/coorasse/Airesis\" target=\"_blank\">Open Source</a> projekt pro e-demokracii"
+    moderator_panel:
+      title: "Moderátorský panel"
+      block_user: "Blokovat uživatele"
+      blocked_user_list: "Seznam blokovaných uživatelů"
+      block: "Odblokovat"
+    feedback:
+      send_feedback: "Zpětná vazba"
+      add_details: "Přidat podrobnosti"
+      view_preview: "Náhled"
+      send_succes: "Zpětná vazba byla úspěšně odeslána. Děkujeme!"
+      send_error: "Je nám líto, ale došlo k chybě při odesílání zpětné vazby"
+      describe_problem: "Napište sem svou zprávu:"
+      highlight_or_blackout: "Zvýraznit nebo vypnout důležité informace"
+      blackout: "Vypnout"
+      highlight: "Zvýraznit"
+    passwords:
+      edit:
+        title: "Změňte své heslo"
+    event_comments:
+      new:
+        insert_comment: "Vložit komentář"
+    propsoals:
+      index:
+        type: "typu %{type}"
+    proposal_comments:
+      title: "Historie příspěvků"
+      noise:
+        title: "Seznam chaotických příspěvků"
+        no_contributes: "Nejsou zde žádné příspěvky"
+    available_authors:
+      index:
+        explain_html: |
+          Vyberte uživatele, kterým chcete pomoci sestavit shrnutí návrhu a klikněte na 'Uložit'.<br/>
+          Pozor! Tito uživatelé budou mít stejná oprávnění ve správě vašeho návrhu.
+    participation_roles:
+      edit:
+        title: "Upravit roli účasti"
+    group_participations:
+      index:
+        title: "Seznam účastníků"
+    certifications:
+      index:
+        title: "Certifikované skupiny"
+  models:
+    best_quorum:
+      good_score_condition: "Návrh se bude hlasovat, pokud má vyspělost větší než <b>%{good_score}%</b> a %{participants}, jinak bude opuštěn"
+      good_score_condition_past: "Návrh se bude hlasovat, pokud má vyspělost větší než <b>%{good_score}%</b> a %{participants}, jinak bude opuštěn"
+  buttons:
+    search: "Hledat"
+    close: "Zavřít"
+    edit: "Upravit"
+    next: "Další"
+    go_back: "Zpět"
   confirm_delete: "Jste si jisti?"
