@@ -673,7 +673,23 @@ cs-CZ:
       anonymous_proposals: "Návrhy skupiny budou automaticky anonymní"
     groups:
       area_updated: "Oblast byla aktualizována"
+      post_featured:
+        'true': Příspěvek připnut nahoru
+        'false': Příspěvek odepnut
+    participation_roles:
+      role_updated: "Role úspěšně aktualizována"
+      permissions_updated: "Oprávnění byla aktualizována"
+      role_created: "Role úspěšně vytvořena"
+      role_changed: "Role úspěšně změněna"
+      role_deleted: "Role byla úspěšně odstraněna"
+      user_removed_from_group: "%{name} byl úspěšně odebrán ze skupiny"
     user:
+      click_to_change: "Klikněte na informace, které chcete změnit"
+      info_updated: "Informace byly úspěšně aktualizovány"
+      account_joined: "Účty se úspěšně připojily!"
+      tooltips_enabled: "Tipy nástrojů povoleny"
+      tooltips_disabled: "Tipy nástrojů zakázány"
+      url_shown: "URL viditelné"
       url_hidden: "URL skryté"
       update_border: "Hranice zeměpisného zájmu byly správně aktualizovány"
       confirm_email: "Musíte potvrdit novou e-mailovou adresu"
@@ -736,6 +752,16 @@ cs-CZ:
         connect_with_us: "Spojte se s námi:"
         contact_info: "Kontaktní informace:"
         email_label: "E-mail:"
+      edit_preferences: "Předvolby"
+      click_here: "Klikněte zde"
+    text_update:
+      connect: "Přihlásit se k %{name}"
+    unintegrated_contribute:
+      view_proposal: "Příspěvek, který byl začleněn do návrhu <b>%{click_here}</b> , byl jeho autorem vrácen k opětovnému projednání."
+      verify: "Zkontrolovat"
+    user_message:
+      hi_user: "Ahoj %{user},"
+      user_sent_message: "%{user} vám poslal následující zprávu:"
   confirm_delete: "Jste si jisti?"
   twitter:
     share:
