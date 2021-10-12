@@ -526,7 +526,25 @@ cs-CZ:
       votes: "Hlasy"
       solution: "Řešení"
       points: "Body"
+      random_ordered_votes: "Náhodně seřazené hlasy"
+      number_of_voters: "Počet voličů"
+      vote: "Jejich hlasování"
+    authors_list_panel:
+      dont_want_to_be_an_author: "Už nechci být autorem"
+    left_panel:
+      promote_proposal: "Propagovat návrh"
+      share_with_friends: "Sdílet s přáteli"
+    show_proposal:
+      vote_here: "Tento návrh je ve fázi hlasování. Přečtěte si řešení a %{link}."
+  digit_tags: "Zadejte štítky, které chcete přidat"
   buttons:
+    cancel: "Zrušit"
+    save: "Uložit"
+    report: "Nahlásit"
+    update: "Aktualizovat"
+    send: "Odeslat"
+    create: "Vytvořit"
+    delete: "Odstranit"
     search: "Hledat"
     close: "Zavřít"
     edit: "Upravit"
@@ -548,6 +566,9 @@ cs-CZ:
     join_accounts: "Připojit se k účtům a přihlásit se"
     save_and_exit: "Uložit a ukončit"
   tooltips:
+    voglioredigere: "Požádejte editory, aby vám umožnili upravovat text návrhu na základě příspěvků uživatelů."
+    voteup: "Návrh je dostatečně vyspělý a může jít do hlasovací fáze (můžete změnit své hodnocení, když je text návrhu aktualizován)"
+    votedown: "Text návrhu ještě není zralý, protože příspěvky uživatelů musí být integrovány (můžete změnit své hodnocení, až bude text návrhu aktualizován)"
     valutazioni: "celkový počet obdržených hodnocení"
     gradimento: "procento pozitivních hodnocení z celkového počtu"
   group: "skupina"
@@ -566,7 +587,12 @@ cs-CZ:
     event_answer: "Chyba při odesílání odpovědi"
     event_already_answered: "Na tuto událost jste již odpověděli"
     event_past: "Událost skončila"
+    configuration_required: "Modul není povolen"
+    areas_required: "Je nezbytné umožnit pracovní prostory"
+    quorums:
+      quorum_creation: "Chyba při vytváření usnášeníschopnosti"
     group_participations:
+      already_member: "Chyba při vytváření žádosti o účast. Již jste členem této skupiny!"
       error_saving: "Chyba v postupu. Nelze pokračovat"
     error_404:
       proposals:
@@ -626,6 +652,23 @@ cs-CZ:
       date_selected: "O návrhu se bude hlasovat ve zvoleném období"
       rank_recorderd: "Vaše hodnocení bylo zaregistrováno"
       comment_already_ranked: "Tento komentář jste již vyhodnotili. Není možné ještě upravit hodnocení komentáře"
+      editors_added: "Noví editoři úspěšně přidáni!"
+      offered_editor: "Nabídli jste se k sepsání tohoto návrhu!"
+      authors_added: "Noví autoři byli správně přidáni"
+    message_sent: "Zpráva byla úspěšně odeslána"
+    private_messages_active: "Ostatní uživatelé vám mohou posílat soukromé zprávy"
+    private_messages_inactive: "Ostatní uživatelé vám nemohou posílat soukromé zprávy"
+    rotp_active: "Bezpečnostní token povolen"
+    rotp_inactive: "Bezpečnostní token zakázán"
+    quorums:
+      quorum_created: "Usnášeníschopnost byla úspěšně vytvořena"
+      quorum_updated: "Usnášeníschopnost byla úspěšně aktualizována"
+      quorum_deleted: "Usnášeníschopnost byla úspěšně odstraněna"
+      quorum_activated: "Usnášeníschopnost povolena"
+      quorum_deactivated: "Usnášeníschopnost zakázána"
+      can_modify_advanced_proposals_settings: "Editoři mohou změnit rozšířené nastavení"
+      cannot_modify_advanced_proposals_settings: "Editoři nemohou upravovat rozšířené nastavení"
+      anonymous_proposals: "Návrhy skupiny budou automaticky anonymní"
     user:
       url_hidden: "URL skryté"
       update_border: "Hranice zeměpisného zájmu byly správně aktualizovány"
