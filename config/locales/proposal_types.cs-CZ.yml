@@ -26,15 +26,60 @@ cs-CZ:
           solution:
             subject: "Dozor"
             resources: "Nezbytné zdroje a jak je získat"
+            aspects: "Etický, ekologický a společenský aspekt"
             documents: "Dokumentace"
             pros: "Plusy"
             cons: "Mínusy"
             title: "Řešení 1"
-        agenda:
           paragraph:
+            similar: "Podobné zkušenosti"
+            stakeholders: "Zúčastněné strany"
+            requirements: "Požadavky na řešení"
+        rule_book:
+          solution:
+            title: "Řešení 1"
+            article: "Článek %{num}"
+            pros: "Plusy"
+            cons: "Mínusy"
+          paragraph:
+            inspire: "Regulace k inspiraci od"
+            requirements: "Požadavky na splnění"
+            stakeholders: "Zúčastněné strany (zapojení lidé)"
+        press:
+          solution:
+            title: "Řešení 1"
+            maintitle: "Název"
+            subtitle: "Podtitulek"
+        estimate:
+          solution:
+            cost: "Částka"
+            problems: "Dodržování omezení a problémů"
+            dumentation: "Dokumentace"
+          paragraph:
+            technical_constrains: "Technická omezení"
+            temporal_constrains: "Dočasná omezení"
+            other_constrains: "Environmentální, etická a regulační omezení"
+            budget: "Maximální rozpočet"
+            recipient_budget: "Příjemci žádosti o kotaci"
+        agenda:
+          problems_title: "Typ schůzky"
+          suggestion_html: |
+            <div><b>Příklad:</b></div>
+            <div>Vyberte program pro naši schůzku.</div>
+            <div>Běžná koordinační schůzka za účelem výměny zkušeností s referenty místních výborů pro biologické zemědělství v Itálii.</div>
+          solution:
+            title: "Položka"
+            priorities: "Priorita položky"
+            links: "Odkazy na pozorovatele"
+            description: "Popis"
+            estimated_time: "Požadovaný čas diskuze"
+          paragraph:
+            date_time: "Datum a čas"
             place: "Místo"
         event:
           problems_title: "Rozsah události"
+          problems_title_label: "Proč chcete uspořádat událost? Jaké jsou cíle?"
+          problems_question: "Proč chcete uspořádat událost? Jaké jsou cíle?"
           solution:
             title: "Řešení 1"
             maintitle: "Nadpis"
@@ -47,6 +92,8 @@ cs-CZ:
             pros: "Plusy"
             cons: "Mínusy"
           paragraph:
+            similar_experiences: "Podobné zkušenosti"
+            stakeholders: "Zúčastněné strany (zapojení lidé)"
             desired_characteristics: "Požadované vlastnosti"
         candidates:
           solution:
@@ -57,6 +104,7 @@ cs-CZ:
             election_type: "Popis druhu volby:"
         simple:
           problems_title: "Problém"
+          problems_title_label: "Jaký problém má být vyřešen nebo jaké překážky je třeba překonat, aby bylo cíle dosaženo?"
           solution:
             description: "Popis"
             title: "Řešení 1"
