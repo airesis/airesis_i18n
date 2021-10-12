@@ -1,11 +1,41 @@
 cs-CZ:
   pages:
     groups:
+      edit:
+        title: 'Upravit nastavení skupiny'
+        change_permissions: "V nastavení rolí a oprávnění můžete vždy změnit oprávnění členů."
+        remove_user_confirm: "Opravdu chcete odstranit %{name} ze skupiny?"
+        modify_group: "Upravit skupinu"
+      layout:
+        home_button: "ZEĎ"
+        proposals_button: "NÁVRHY"
+        calendar: "KALENDÁŘ"
       show:
+        rules_button: "Pravidla"
+        post_button: "Zveřejnit na zeď skupiny"
+        blog_button: "Vytvořit můj blog"
+        participants_list: "Seznam účastníků "
+        invite_button: "Pozvěte své přátele!"
+        show_all_participants: "Zobrazit všech %{count}..."
+        show_all_admins: "Zobrazit všech %{count}..."
+        show_all_requests: "Zobrazit všech %{count}..."
+        participants_full_list: "Dokončit seznam členů skupiny"
+        no_participants: "Zatím žádní uživatelé, kteří se této skupiny účastní."
+        no_blogs_yet: "V této skupině zatím nejsou žádné příspěvky, vraťte se brzy."
+        waiting_participation_requests: "Žádosti o účast čekající na odpověď"
+        accept_request_button: "Přijmout"
+        reject_request_button: "Odmítnout"
+        ask_participate_button: "Zeptat se na to, aby byl součástí skupiny"
+        remove_post: "Odstranit ze skupinového panelu"
         destroy_button: "Vymazat"
+        confirm_destroy: "ODSTRAŇUJETE SKUPINU!!! Opravdu to chcete udělat?"
         list_permissions:
+          title: "Seznam vašich oprávnění ve skupině"
           button: "Seznam oprávnění"
         print_all_participants: "Tisk seznamu účastníků"
+        last_proposals: "Nedávno přidané návrhy"
+        last_topics: "Poslední téma bylo vytvořeno"
+        next_events: "Další události"
         short_url: "Krátká adresa URL"
         featured_post:
           'true': Odepnout
@@ -18,6 +48,7 @@ cs-CZ:
         alarm_settings: "Nastavení"
       documents:
         documents_archive: "Archiv dokumentů"
+        storage_size: "Velikost obsazeného úložiště"
         max_storage_size: "Maximální dostupná velikost úložiště"
         current_storage_usage: "Využití úložiště"
         not_authorized: "Nemáte dostatečná oprávnění k zobrazení dokumentů. Obraťte se na správce skupiny"
@@ -27,10 +58,15 @@ cs-CZ:
           simple: "Jednoduchý"
           advanced: "Pokročilý"
           time_description: "Poslední rozprava %{days} %{hours} %{minutes}"
+          simple_percentage_description: "a vyspělost rovnající se, nebo vyšší než %{good_score}%."
+          advanced_participation_description: "(%{current_number} z %{total_number} , které mají práva) <b>(průměrná hodnota: %{average})</b>"
+          advanced_percentage_description: "Pokud je však vyspělost nižší než %{bad_score}%, je od návrhu upuštěno."
         active: "Aktivní"
         name: "Název"
         participants: "Účastníci"
         condition: "Podmínka"
+        good_percentage: "% Vyspělost"
+        bad_percentage: "% Odmítnutí"
         confirm_deletion: "Jste si jisti, že chcete odstranit usnášeníschopný počet %{quorum}?"
         add_quorum: "Vytvořit novou usnášeníschopnost"
         edit_quorum: "Upravit usnášeníschopnost"
@@ -42,6 +78,9 @@ cs-CZ:
         time: "Čas"
         edit_quorum_warning: "Varování! Úpravy tohoto usnášeníschopného počtu nebudou mít vliv na návrhy, které jej již používají!"
       edit_work_areas:
+        index:
+          not_enabled: "Pracovní oblasti nejsou povoleny"
+          description: "%{app_short_name} umožňuje spravovat různé pracovní oblasti ve skupině."
         manage:
           new_area: "Vytvořit pracovní prostor"
           list_title: "Seznam pracovních oblastí. Pro každého z nich vyberte účastníky nebo klikněte na jméno pro správu rolí a oprávnění v této pracovní oblasti"
