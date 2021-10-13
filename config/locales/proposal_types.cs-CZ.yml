@@ -67,6 +67,7 @@ cs-CZ:
             title: "Řešení 1"
             maintitle: "Název"
             subtitle: "Podtitulek"
+            body: "Tělo"
             conclusion: "Závěry"
           paragraph:
             target: "Příjemci/cíl"
@@ -74,6 +75,7 @@ cs-CZ:
             solution:
               conclusion: "Existují návrhy na předložení čtenářům? Jaký by mohl být možný vývoj skutečností nebo jejich důsledků?"
         estimate:
+          problems_title_label: "Jaké zboží nebo služby si přejete koupit? K vyřešení těchto problémů?"
           problems_title: "Problémy"
           problems_question: "Jaké zboží nebo služby si přejete koupit? K vyřešení těchto problémů?"
           solution:
