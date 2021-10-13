@@ -528,6 +528,7 @@ cs-CZ:
         login_button: "Přihlásit se"
         registration_button: "PŘIPOJIT SE"
         forgot_password_button: "Zapomenuté heslo?"
+        resend_email_button: "Neobdrželi jste potvrzovací e-mail?"
     home:
       index:
         partecipate: "ZAPOJIT SE"
