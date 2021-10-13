@@ -613,7 +613,25 @@ cs-CZ:
         description_html: |
           Nastavte hranice svého zeměpisného zájmu.<br />
           Pokud Airesis ví, na kterých území máte zájem, může vám doporučit, abyste sledovali a zobrazovali nové návrhy související s vaším územím.<br />
+      rank_bar_explain:
+        title: "Ukazatel vyspělosti"
+      first_proposal:
+        title_html: Váš první příspěvek
     proposal_histories:
+      index:
+        back_to_proposal: "Zpět na návrh"
+      title: "Historie revizí"
+      loading_revisions: "Načítání revizí..."
+      editor_name: "Autor revize:"
+      revision: "Revize"
+      date_and_time: "Datum a čas"
+      present_life_cycle: "Současný životní cyklus"
+      no_revision: "Bez revize"
+      life_cycle: "Životní cyklus"
+      life_cycle_number: "Číslo životního cyklu %{life}"
+      end_date: "Datum ukončení:"
+      score_reached: "Dosažená vyspělost:"
+      evaluation_reached: "Počet hodnocení:"
       quorum_used: "Použitá usnášeníschopnost:"
       editors_in_life_cycle: "Editoři v tomto životním cyklu:"
       solutions:
@@ -687,11 +705,19 @@ cs-CZ:
     certifications:
       index:
         title: "Certifikované skupiny"
+  pl:
+    comments:
+      one: "jeden komentář"
+      few: "%{count} komentáře"
+      many: "%{count} komentářů"
+      other: "%{count} komentáře"
   models:
     best_quorum:
       good_score_condition: "Návrh se bude hlasovat, pokud má vyspělost větší než <b>%{good_score}%</b> a %{participants}, jinak bude opuštěn"
       good_score_condition_past: "Návrh se bude hlasovat, pokud má vyspělost větší než <b>%{good_score}%</b> a %{participants}, jinak bude opuštěn"
     quorum:
+      time_condition_1: "Rozprava skončí v %{time}"
+      time_condition_1_past: "Rozprava trvala %{time}"
       help_content:
         at_least_one: "Alespoň jeden"
         both: "Oba"
