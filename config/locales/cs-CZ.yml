@@ -427,6 +427,41 @@ cs-CZ:
       new_rank_bar:
         creation: "VYTVOŘENO: %{time_ago}<br/>%{date}"
         end: "KONEC ROZPRAVY:<br/> %{date}"
+    events:
+      new:
+        title: "Nová událost"
+        submit: "Vytvořit událost"
+        type_for_town: "Zadejte nějaké znaky pro vyhledání města"
+        no_town_found: "Nebylo nalezeno žádné město"
+        town_searching: "Vyhledávání"
+        step_1: "Typ události"
+        step_2: "Popis"
+        step_3: "Kdy"
+        step_4: "Kde"
+      show:
+        map: "Mapa"
+        event_place: "Místo události"
+        when_past: "Kdy to bylo?"
+        when: "Kdy?"
+        where_past: "Kde to bylo?"
+        where: "Kde?"
+        show_on_map: "Zobrazit na mapě"
+        reply: "Odpovědět!"
+        no_answer: "Neodpověděli jste na pozvánku"
+        yes_partecipated: "Účastnili jste se události"
+        no_partecipated: "Neúčastnili jste se události"
+        yes_partecipate: "Účastníte se události"
+        no_partecipate: "Nebudete se účastnit události"
+        with_guests: "s %{field} hosty"
+        will_be_in: "Účastníte se této akce?"
+        participants: "Kdo se účastní?"
+        will_partecipate: "Kdo se zúčastní?"
+        no_participants: "Nikdo se neúčastnil"
+        no_participants_yet: "Zatím žádní účastníci"
+        non_participants: "Kdo se neúčastnil?"
+        will_non_participants: "Kdo se nezúčastní?"
+        voting_proposals: "Během těchto dnů se bude hlasovat o těchto návrzích"
+        no_voting_proposals: "V těchto dnech se nehlasuje o žádném návrhu"
     votations:
       show:
         vote_positive: 'Pozitivní hodnocení'
@@ -490,6 +525,9 @@ cs-CZ:
         preferences: "PŘEDVOLBY"
         administration: "SPRÁVA"
         logout: "ODHLÁŠENÍ"
+        login_button: "Přihlásit se"
+        registration_button: "PŘIPOJIT SE"
+        forgot_password_button: "Zapomenuté heslo?"
     home:
       index:
         partecipate: "ZAPOJIT SE"
