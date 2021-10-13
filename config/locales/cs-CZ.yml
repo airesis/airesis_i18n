@@ -48,6 +48,10 @@ cs-CZ:
         registered_from: "Registrováno od"
         load_image: "Načíst obrázek"
         max_file_size: "Maximální velikost: 2 MB"
+        what_can_i_do: "Co mohu dělat?"
+        what_i_cant_do: "Co nemohu dělat?"
+        certified_from: "Certifikováno od"
+        group_level_permission_title: "Oprávnění na úrovni skupiny"
         twitter_url: "URL Twitteru"
         meetup_url: "URL Meetup"
       send_message:
@@ -79,7 +83,16 @@ cs-CZ:
         rotp: "Povolit bezpečnostní token"
         rotp_title: "Bezpečnostní token"
         rotp_confirm_enable: "Jste si jisti, že chcete povolit bezpečnostní token?"
+        mail_language: "Jazyk e-mailů"
+        time_zone: "Časové pásmo"
+      border_preferences:
+        updating: "Počkejte prosím, než aktualizujeme vaše předvolby podle vašich předvoleb hranic"
+        your_borders: "Vaše zeměpisné hranice zájmu"
+      send_message_title: "Poslat zprávu uživateli %{name}"
     groups:
+      accept_requests:
+        portavoce: "Administrátor: pokud se chce uživatel připojit ke skupině, pouze správce skupiny může přijmout požadavek. Když správce žádost přijme, uživatel se ve skutečnosti stane členem skupiny."
+        unavailable_option: "Možnost ještě není k dispozici"
       administration_panel:
         title: 'Panel administrace'
         info: 'Základní informace'
@@ -127,6 +140,7 @@ cs-CZ:
         search_with_query: "pomocí individualizovaného dotazu"
         search_with_place: "nebo zeměpisná hranice"
         search_description: "Použijte vyhledávací nástroj nebo klikněte na štítek pro nalezení skupin vašeho zájmu"
+        insert_query_or_place: "Musíte zadat alespoň tři znaky nebo zeměpisné hranice"
         tags: "Štítky"
         participants_number: "Počet účastníků"
         proposals_number: "Počet návrhů"
@@ -142,6 +156,10 @@ cs-CZ:
         title: 'Vytvořit novou skupinu'
         new_group: "Nová skupina"
         create_button: "Vytvořte skupinu!"
+        change_permissions_button: "Chcete změnit standardní oprávnění?"
+        errors_title: "Omlouváme se, ale příspěvek nelze vložit"
+        tags:
+          title: "Štítky (oddělené čárkou)"
       edit:
         title: 'Upravit nastavení skupiny'
         change_permissions: "V nastavení rolí a oprávnění můžete vždy změnit oprávnění členů."
@@ -231,7 +249,16 @@ cs-CZ:
           switch_area_participants: "Přepnout na správu uživatelů"
           list_title: "Seznam pracovních oblastí. Pro každého z nich vyberte účastníky nebo klikněte na jméno pro správu rolí a oprávnění v této pracovní oblasti"
           title: "Nastavení pracovního prostoru"
+        form:
+          title: "Nový pracovní prostor"
+      default_admin_title: "Administrátor"
+      invite_your_friends:
+        type_email_addresses: "Zadejte e-mailové adresy oddělené čárkou"
+        email_not_valid: "E-mailová adresa je neplatná"
+        text_to_send: "Text k odeslání (nepovinné)"
+        title: "Pozvěte své přátele, aby se připojili ke skupině!"
       participations:
+        list_participations: "Seznam účastníků"
         search: "Hledat"
         filter: "Filtr"
         anything: "Vše"
@@ -243,6 +270,10 @@ cs-CZ:
         member_since: "Členem od"
         added_by: "Přidal"
         remove_all: "Odstranit vše"
+      statistics:
+        title: "Průměrné vypočtené hodnoty (poslední aktualizace %{date})"
+      archives:
+        page_title: "Archivovat na %{month}, %{year}"
     login:
       title: 'Přihlásit se'
     confirmation:
@@ -423,6 +454,7 @@ cs-CZ:
         abandoned_message: "Opuštěno - %{ago}"
       new:
         quorum_prompt: "Vybrat usnášeníschopnost"
+        quorum_help: "Nápověda"
       tabs:
         most_urgent: "Nejnaléhavější"
       list:
