@@ -70,6 +70,15 @@ cs-CZ:
         private_messages: "Přijímat soukromé zprávy od ostatních uživatelů"
         join_accounts: "Připojit se k jinému účtu"
         join_facebook: "Připojte se k vašemu účtu na Facebooku"
+        join_google: "Připojte se ke svému účtu Google"
+        join_twitter: "Připojte se k vašemu Twitter účtu"
+        join_linkedin: "Připojte se ke svému účtu LinkedIn"
+        join_meetup: "Připojte se ke svému Meetup účtu"
+        providers_list: "Seznam aktivovaných poskytovatelů"
+        options: "Možnosti"
+        rotp: "Povolit bezpečnostní token"
+        rotp_title: "Bezpečnostní token"
+        rotp_confirm_enable: "Jste si jisti, že chcete povolit bezpečnostní token?"
     groups:
       administration_panel:
         title: 'Panel administrace'
