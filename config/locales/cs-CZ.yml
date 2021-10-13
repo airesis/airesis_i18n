@@ -1061,4 +1061,7 @@ cs-CZ:
   keep_reading: "pokračovat ve čtení"
   feedback_subject: "%{time} - Nová zpětná vazba"
   delete_event_confirm: "Opravdu chcete odstranit tento komentář?"
+  groups:
+    group:
+      delete_group_warning_html: "Máte oprávnění odstranit tuto skupinu. Smazáním této skupiny odstraníte všechna fóra, návrhy a dokumenty spojené s ní.<br/>Data nelze obnovit.<br/>Buďte opatrní!"
   select_debate_duration: "Vyberte dobu trvání první rozpravy"
