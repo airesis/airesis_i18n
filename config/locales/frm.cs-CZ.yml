@@ -59,6 +59,9 @@ cs-CZ:
         edit: "Úprava kategorie %{title}"
         new_link: Nová kategorie fóra
         deleted: Vybraná kategorie fóra byla odstraněna
+        created: Tato kategorie fóra byla vytvořena
+        not_created: Tuto kategorii fóra nelze vytvořit
+        updated: Tato kategorie fóra byla aktualizována
         not_updated: Tuto kategorii fóra nelze aktualizovat
       categories:
         edit: Upravit
