@@ -34,10 +34,19 @@ cs-CZ:
           simple: "Vložit název"
         new_solution_title:
           standard: "Řešení <span class=\"num\">%{num}</span>:"
+          poll: "Možnost <span class=\"num\">%{num}</span>:"
+          rule_book: "Řešení <span class=\"num\">%{num}</span>:"
+          press: "Řešení <span class=\"num\">%{num}</span>:"
+          event: "Řešení <span class=\"num\">%{num}</span>:"
+          estimate: "Řešení <span class=\"num\">%{num}</span>:"
+          agenda: "<span class=\"num\">%{num}</span> bod:"
+          candidates: "Kandidát <span class=\"num\">%{num}</span>:"
+          simple: "Řešení <span class=\"num\">%{num}</span>:"
       new:
         standard:
           problems_title: "Problémy"
           problems_question: "Jaký problém má být vyřešen nebo jaké překážky je třeba překonat, aby bylo cíle dosaženo?"
+          problems_title_label: "Jaký problém má být vyřešen nebo jaké překážky je třeba překonat, aby bylo cíle dosaženo?"
           objectives_title: "Cíle"
           solution:
             description: "Popis řešení"
