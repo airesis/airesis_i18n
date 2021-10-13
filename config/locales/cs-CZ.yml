@@ -1,7 +1,61 @@
 cs-CZ:
+  test: "Test"
+  open_space: 'Otevřený prostor'
+  hello: 'Ahoj světe!'
   pages:
+    top_panel:
+      login: 'Přihlaste se nebo se zaregistrujte'
+      facebook_login: 'Přihlásit se přes Facebook'
+      google_login: 'Přihlásit se pomocí Google'
+      twitter_login: "Přihlásit se přes Twitter"
+      meetup_login: "Přihlásit se přes Meetup"
+      linkedin_login: "Přihlásit se přes Linkedin"
+      openid_login: "Přihlásit se pomocí OpenID"
+      find_groups: 'Hledat skupiny'
+      parma_login: "Přihlásit se pomocí Parma"
+      tecnologiedemocratiche_login: "Přihlásit se pomocí Tecnologie Democratiche"
+      tecnologiedemocratiche: "Tecnologie demokratiche"
+    user:
+      notifications: 'Budíky a oznámení'
+      privacy: "Účet a soukromí"
+    users:
+      index:
+        title: 'Seznam uživatelů'
+      show:
+        groups_title: "Moje skupiny"
+        group_column: "Skupina"
+        role_column: "Role"
+        get_out_of_group_button: "Opustit tuto skupinu"
+        get_out_of_group_confermation: "Opravdu?"
+        secret_vote: "Tajný klíč"
+        votations_title: "Hlasy, kterými jste se zúčastnili"
+        proposal_column: "Návrh"
+        votation_date_column: "Datum"
+        vote_column: "Hlasovat"
+        profile_info: "Profilové informace"
+        profile_info_unconfirmed: "(nepotvrzený uživatel)"
+        send_message_button: "Odeslat soukromou zprávu"
+        name_label: "Jméno"
+        surname_label: "Příjmení"
+        email_label: "E-mail"
+        edit_image: "Upravit obrázek"
+        to_be_confirmed: "má být potvrzeno"
+        password_label: "Heslo"
+        facebook_url_label: "Facebook URL"
+        googleplus_url_label: "Google+ URL:"
+        linkedin_url: "LinkedIn URL"
+        username_label: "Uživatelské jméno"
+        registered_from: "Registrováno od"
+        load_image: "Načíst obrázek"
+        max_file_size: "Maximální velikost: 2 MB"
     groups:
       administration_panel:
+        title: 'Panel administrace'
+        info: 'Základní informace'
+        events: 'Události a setkání'
+        permissions: 'Role a oprávnění'
+        proposals: 'Usnášeníschopnost a návrhy'
+        areas: "Pracovní prostory"
         forum: "Správa fóra"
         users: "Správa uživatelů"
       edit_events:
@@ -35,16 +89,28 @@ cs-CZ:
         groups_list: "Skupiny, kterých se účastníte"
         groups_registration: "Registrace skupiny"
         groups_list_2: "Seznam skupin"
+        no_groups_yet: "Zatím se neúčastníte na žádné %{name}"
         open_space_title: "Veřejné události"
         show_more: "Zobrazit více skupin"
         search_mask: "Vyhledávací nástroj"
         search_with_query: "pomocí individualizovaného dotazu"
+        search_with_place: "nebo zeměpisná hranice"
+        search_description: "Použijte vyhledávací nástroj nebo klikněte na štítek pro nalezení skupin vašeho zájmu"
         tags: "Štítky"
         participants_number: "Počet účastníků"
         proposals_number: "Počet návrhů"
         events_number: "Počet událostí"
         no_results: "Nebyly nalezeny žádné skupiny"
         limit_reached: "Můžete vytvořit nanejvýš jednu skupinu denně"
+        switchButton:
+          exact_border: "Přesné vyhledávání: vyhledat všechny skupiny, které používají tuto přesnou geografickou hranici"
+          area_border: "Vyhledávání oblastí: vyhledat všechny skupiny uvnitř tohoto zeměpisného ohraničení"
+          all_words: "Prohledat všechny skupiny, které mají všechna tato slova"
+          one_word: "Prohledat všechny skupiny, které mají alespoň jedno z těchto slov"
+      new:
+        title: 'Vytvořit novou skupinu'
+        new_group: "Nová skupina"
+        create_button: "Vytvořte skupinu!"
       edit:
         title: 'Upravit nastavení skupiny'
         change_permissions: "V nastavení rolí a oprávnění můžete vždy změnit oprávnění členů."
@@ -178,6 +244,9 @@ cs-CZ:
         search_words: "Jakákoliv slova"
         participants_number: "ÚČASTNÍCI"
         contributes_number: "PŘÍSPĚVKY"
+        rank: "VYSPĚLOST"
+        voters: "HLASUJÍCÍ"
+        date_range: "vytvořeno mezi %{start} a %{end}"
         proposal_types_title: "MODELY"
         all_proposal_types: "Všechny modely"
         with_text: "obsahující '%{text}'"
@@ -266,7 +335,9 @@ cs-CZ:
         close_contribute: "PŘÍSPĚVKY K UZAVŘENÍ"
         contributes_list: "Seznam příspěvků v '%{section}'"
         add_comment: "Přidat komentář"
+        add_contribute: "Nabídněte své nápady! Navrhněte změny textu a pomozte editoru vylepšit návrh"
         login_to_comment: "Přihlaste se pro přidání komentáře"
+        regenerate_nickname: "Vygenerovat přezdívku"
         add_contribution_no_paragraph: "Žádný odstavec není specifikován"
         debate_ends_html: "Konec rozpravy v"
         debate_ends_valutations_or: "nebo s"
@@ -275,8 +346,11 @@ cs-CZ:
         error_loading_paragraph: "Tento odstavec byl odstraněn. Znovu načtěte stránku pro zobrazení aktualizovaného návrhu"
         generic_fake_content: "Tato sekce ještě nebyla zkompilována. Pomozte editoru vložením příspěvku!"
         model_title: "Šablona"
+        created_events: "Již vytvořené události"
         create_new_votation_period: "Vytvořit novou událost na konci rozpravy"
         choose_later: "Nic děkuji. Vyberu to později"
+        choose_now: "Chci si to nyní vybrat"
+        group_area: "Pracovní prostor"
       tabs:
         most_urgent: "Nejnaléhavější"
       list:
@@ -806,7 +880,27 @@ cs-CZ:
     user_message:
       hi_user: "Ahoj %{user},"
       user_sent_message: "%{user} vám poslal následující zprávu:"
+  words:
+    contribute: "příspěvek"
+    comment: "komentář"
+    or: "nebo"
+    and: "a"
+    terms_of_service: "Smluvní podmínky"
+    privacy_policy: "Soukromí"
+    guide: "Nejčastější dotazy"
+  terms_of_service: "Podmínky"
+  privacy_policy: "Soukromí"
+  controllers:
+    searches:
+      index:
+        groups_divider: "Skupiny"
+  blog_posts:
+    form:
+      published_title: "Váš příspěvek bude zveřejněn na webu a každý jej bude moci vidět, sdílet a komentovat"
+      reserved_title: "Váš příspěvek bude viditelný pouze pro uživatele, kteří patří do skupin, ve kterých publikujete"
+      draft_title: "Váš příspěvek je viditelný pouze pro vás"
   confirm_delete: "Jste si jisti?"
+  you: "Vy"
   twitter:
     share:
       blog_post: "Podívejte se na tento příspěvek na #%{app}! %{tags}"
@@ -820,3 +914,9 @@ cs-CZ:
       topics:
         title: "Témata, která sledujete"
   confirm_detach: "Opravdu chcete odstranit tohoto poskytovatele identity? Nebudete jej moci v budoucnu používat."
+  alert_detach: "Musíte zadat platnou e-mailovou adresu, abyste mohli odstranit tohoto poskytovatele identity"
+  users:
+    confirm_credentials:
+      title: "Potvrďte vaše přihlašovací údaje"
+    statistics:
+      title: "Statistiky uživatelů"
