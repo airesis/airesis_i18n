@@ -48,6 +48,28 @@ cs-CZ:
         registered_from: "Registrováno od"
         load_image: "Načíst obrázek"
         max_file_size: "Maximální velikost: 2 MB"
+        twitter_url: "URL Twitteru"
+        meetup_url: "URL Meetup"
+      send_message:
+        subject_label: "Předmět"
+        body_label: "Tělo"
+        massive_email: "Odesílání hromadné pošty"
+      left_panel:
+        general_info: "Obecné informace"
+        alarm_and_notifications: "Upozornění a oznámení"
+        geographic_borders: "Zeměpisné hranice"
+        account_and_privacy: "Účet a soukromí"
+        title: "NASTAVENÍ A PŘEDVOLBY"
+      alarm_preferences:
+        receive_on_address: "Dostávat zpravodaj na %{email}"
+        alerts: "Výstrahy"
+        emails: "E-maily"
+      privacy_preferences:
+        tooltips: "Zobrazit popisky"
+        show_urls: "Zobrazit uživatelům Facebook, Google+ a LinkedIn URL"
+        private_messages: "Přijímat soukromé zprávy od ostatních uživatelů"
+        join_accounts: "Připojit se k jinému účtu"
+        join_facebook: "Připojte se k vašemu účtu na Facebooku"
     groups:
       administration_panel:
         title: 'Panel administrace'
@@ -200,21 +222,46 @@ cs-CZ:
           switch_area_participants: "Přepnout na správu uživatelů"
           list_title: "Seznam pracovních oblastí. Pro každého z nich vyberte účastníky nebo klikněte na jméno pro správu rolí a oprávnění v této pracovní oblasti"
           title: "Nastavení pracovního prostoru"
+      participations:
+        search: "Hledat"
+        filter: "Filtr"
+        anything: "Vše"
+        operations_on_user: "Operace dostupné pro uživatele"
+        send_email: "Poslat e-mail"
+        surname: "Příjmení"
+        name: "Jméno"
+        role: "Role"
+        member_since: "Členem od"
+        added_by: "Přidal"
+        remove_all: "Odstranit vše"
+    login:
+      title: 'Přihlásit se'
     confirmation:
+      title: 'Znovu odeslat potvrzovací instrukce'
       submit: 'Pošlete mi pokyny'
     password:
+      title: 'Zapomněli jste své heslo?'
+      submit: 'Zašlete mi prosím pokyny pro obnovení hesla'
       edit:
+        new_password: "Nové heslo"
+        confirm_password: "Potvrdit nové heslo"
         confirm_button: "Změnit mé heslo"
     registration:
+      title: 'Registrovat se'
       email_confirmed: "Pokud se zaregistrujete s touto e-mailovou adresou, nebudete požádáni o potvrzení Vaší e-mailové adresy."
       choose_password: "Zvolte heslo"
       confirm_password: "Potvrdit heslo"
       accept_conditions: "Přijmout smluvní podmínky"
       register_button: "Registrovat se"
+      identity_provviders_title: "Získejte okamžitě s Vaším oblíbeným účtem"
       accept_privacy: "Přijmout podmínky ochrany osobních údajů"
     proposals:
       index:
         title: 'Seznam návrhů'
+        debate: 'Všechny návrhy, o nichž se diskutuje'
+        voting: 'Všechny návrhy, které se v současné době projednávají v hlasování nebo ve fázi hlasování'
+        accepted: 'Všechny návrhy, které ukončily hlasovací fázi'
+        revision: 'Všechny návrhy, které neprošly rozpravou a mohou být znovu předloženy do rozpravy.'
         last: "Naposledy přidané"
         most_popular: "Nejoblíbenější"
         most_valutated: "Nejvíce hodnocené"
@@ -351,6 +398,22 @@ cs-CZ:
         choose_later: "Nic děkuji. Vyberu to později"
         choose_now: "Chci si to nyní vybrat"
         group_area: "Pracovní prostor"
+        nickname_assigned: "Přidělili jsme vám přezdívku '%{nickname}'. Pokud se vám nelíbí, můžete ji změnit z levého menu do 10 minut"
+        cant_participate:
+          no_permissions: "Nemůžete se zúčastnit tohoto návrhu, protože jste členem skupiny, ale nemáte oprávnění k účasti."
+          ask_permissions: "Požádejte správce o oprávnění a pošlete mu zprávu."
+          request_pending: "Nemůžete se zúčastnit tohoto návrhu, protože jste požádali o členství v této skupině, ale váš požadavek nebyl dosud přijat."
+          send_message: "Chcete odeslat zprávu správci skupiny?"
+          not_a_member: "Nemůžete se zúčastnit tohoto návrhu, protože nejste členem této skupiny."
+          not_logged_in: "Nemůžete se zúčastnit tohoto návrhu, protože nejste aktuálně přihlášeni. "
+        read_contribute: "ZOBRAZIT PŘÍSPĚVKY"
+        security_token: "Bezpečnostní token"
+        you_can_choose_vote_dates: "Tento návrh čeká %{count} dní na datum hlasování, takže máte nyní možnost si jej vybrat."
+        no_contributes_yet: "Zatím zde žádné příspěvky"
+        start_votation_proposal_confirmation: "Jste si jisti, že chcete okamžitě zahájit hlasování?"
+        abandoned_message: "Opuštěno - %{ago}"
+      new:
+        quorum_prompt: "Vybrat usnášeníschopnost"
       tabs:
         most_urgent: "Nejnaléhavější"
       list:
@@ -427,8 +490,22 @@ cs-CZ:
       new_rank_bar:
         creation: "VYTVOŘENO: %{time_ago}<br/>%{date}"
         end: "KONEC ROZPRAVY:<br/> %{date}"
+      left_panel:
+        any_date: "Jakékoliv datum"
+        choose_creation_date: "Zvolte časový interval"
+        last_hour: "Poslední hodina"
+        last_24_hour: "Posledních 24 hodin"
+        last_week: "Poslední týden"
+        last_month: "Poslední měsíc"
+        last_year: "Poslední rok"
+        date_range: "Časový interval"
+      update_comment: "Upravit"
     events:
+      index:
+        title: 'Kalendář'
+        group_title: "Kalendář událostí"
       new:
+        private_tooltip: "Pouze členové skupiny se mohou na události podívat a účastnit se"
         title: "Nová událost"
         submit: "Vytvořit událost"
         type_for_town: "Zadejte nějaké znaky pro vyhledání města"
