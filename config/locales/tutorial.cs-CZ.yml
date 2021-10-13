@@ -64,6 +64,8 @@ cs-CZ:
       click_info: "Zde najdete návod k používání Airesis a mnoho dalších užitečných informací"
     users_border_preferences:
       intro: "Pokud jste tak dosud neučinili, nastavte své zeměpisné hranice. Airesis je brzy využije k zobrazení konkrétního obsahu."
+    welcome:
+      intro: "Vítejte v Airesis, %{name}. Tyto výukové kurzy vás provedou pomocí aplikace a vysvětlí, jak ji používat a kde najít potřebné informace."
     next: "Další"
     back: "Zpět"
     done_label: "Hotovo"
