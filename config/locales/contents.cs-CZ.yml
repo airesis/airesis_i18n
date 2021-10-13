@@ -268,8 +268,11 @@ cs-CZ:
       paragraph_8:
         title: "Mnohem, mnohem více"
         link: 'uvítací stránka'
+    press:
+      title: "Tisková zpráva"
     roadmap:
       paragraph1:
+        title: "Cíl: přímá demokracie"
         content_html: |
           <p> Airesis se narodil z fúze dvou projektů zahájených před více než dvěma lety v důsledku nutnosti
           softwarová platforma, která by mohla integrovat hlavní rysy sociálních sítí, správu událostí a masový rozhodovací systém. </ p>
@@ -283,9 +286,37 @@ cs-CZ:
           analytiků, matematiků, grafických designérů a odpovědných občanů. </ p>
           <p> Aktuálně vydané softwarové verze jsou vydávány měsíčně nebo dvakrát měsíčně, aby vyhovovaly požadavkům a potřebám uživatelů,
           za účelem uplatnění procesu neustálého zlepšování. </ p>
+      paragraph2:
+        title: "Vývoj Airesis"
+      title: "Vývoj Airesis"
+      description: "Naše cesta k realizaci nového softwaru, myšlenka schopná rozvíjet demokracii, která přišla do života na webu."
+    helpus:
+      paragraph1:
+        title: "Proč vás žádáme, abyste podpořili Airesis?"
+    linkback:
+      paragraph2:
+        title: "Bannery"
+      paragraph3:
+        title: "Textový odkaz"
+        content_html: |
+          <p>Pokud se rozhodnete zveřejnit banner, bude to skvělá pomoc projektu. Děkuji.</p>
+    tags:
+      title: "Airesis - Sociální síť pro E-demokracii"
     engage:
       title: "Účast na projektu nové demokracie"
+      nav:
+        opensource: "Open Source"
+        participate: "Účastnit se"
+        banner: "Banner"
+      paragraph1:
+        title: "Airesis je otevřen všem"
+      paragraph2:
+        title: "Jak přispět"
       developer:
         title: "Vývojář"
+      analyst:
+        title: "Analytik"
+      graphic:
+        title: "Grafický návrhář"
       i18n:
         title: "Internacionalizace"
