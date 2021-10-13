@@ -1,6 +1,50 @@
 cs-CZ:
   pages:
     groups:
+      administration_panel:
+        forum: "Správa fóra"
+        users: "Správa uživatelů"
+      edit_events:
+        title: 'Správa skupinových událostí'
+      edit_permissions:
+        title: 'Správa rolí a oprávnění'
+        new_role: "Přidat novou roli"
+        edit_role_title: "Upravit roli"
+        new_role_title: "Nová role"
+        user_title: "Uživatel"
+        role_title: "Role"
+        no_users_yet: "Zde budete moci spravovat role účastníků, když tu budou nějaké."
+        default_role: "Výchozí role ve skupině"
+        confirm_role_deletion: "Jste si jisti, že chcete odstranit tuto roli?"
+        remove_user: "Odebrat uživatele"
+        confirm_role_change1: "Role uživatele"
+        confirm_role_change2: "změní se z"
+        confirm_role_change3: "na"
+        confirm_role_change4: "Potvrdit?"
+        confirm_delete_1: "Operace může vyžadovat několik minut. Opravdu chcete odebrat uživatele  %{count} ze skupiny?"
+        confirm_delete_2: "Tato operace předpokládá odstranění všech %{count} vybraných uživatelů a nelze ji vrátit zpět! Opravdu chcete pokračovat?"
+      edit_proposals:
+        title: 'Spravovat usnášeníschopnost a návrhy'
+      index:
+        title: 'Všechny skupiny'
+        open_space_button: "Přejít na otevřený prostor"
+        create_group_button: "Vytvořit novou skupinu"
+        find_group_label: "Najděte skupinu, která by vás mohla zajímat"
+        find_title: "Hledat v názvu nebo popisu skupiny"
+        find_button: "Hledat"
+        groups_list: "Skupiny, kterých se účastníte"
+        groups_registration: "Registrace skupiny"
+        groups_list_2: "Seznam skupin"
+        open_space_title: "Veřejné události"
+        show_more: "Zobrazit více skupin"
+        search_mask: "Vyhledávací nástroj"
+        search_with_query: "pomocí individualizovaného dotazu"
+        tags: "Štítky"
+        participants_number: "Počet účastníků"
+        proposals_number: "Počet návrhů"
+        events_number: "Počet událostí"
+        no_results: "Nebyly nalezeny žádné skupiny"
+        limit_reached: "Můžete vytvořit nanejvýš jednu skupinu denně"
       edit:
         title: 'Upravit nastavení skupiny'
         change_permissions: "V nastavení rolí a oprávnění můžete vždy změnit oprávnění členů."
