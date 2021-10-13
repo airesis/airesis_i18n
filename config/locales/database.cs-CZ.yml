@@ -263,6 +263,10 @@ cs:
         description: Nový komentář v mém blogu
         email_subject:
           one: "Nový komentář ve vašem blogu"
+          other: "%{count} nových komentářů ve vašem blogu"
+        message:
+          one: "<b>%{user}</b> okomentoval váš příspěvek <b>%{title}</b>"
+          other: "V příspěvku <b>%{title}</b> je <b>%{count}</b> nových komentářů"
       new_forum_topic:
         description: Nová témata na fórech
       new_comments_mine:
