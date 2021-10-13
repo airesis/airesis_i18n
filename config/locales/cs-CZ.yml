@@ -529,6 +529,12 @@ cs-CZ:
         registration_button: "PŘIPOJIT SE"
         forgot_password_button: "Zapomenuté heslo?"
         resend_email_button: "Neobdrželi jste potvrzovací e-mail?"
+        no_notifications: "Žádné oznámení"
+        sign_has_read: "Označit jako přečtené"
+        profile: "PROFIL"
+      welcome: "Vítejte"
+      groups_title: "SKUPINY"
+      login: "PŘIHLÁŠENÍ"
     home:
       index:
         partecipate: "ZAPOJIT SE"
