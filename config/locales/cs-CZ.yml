@@ -921,6 +921,13 @@ cs-CZ:
       secret_vote: "Návrhy skupiny budou ve výchozím nastavení používat tajné hlasování"
       non_secret_vote: "Návrhy skupiny nebudou ve výchozím nastavení používat tajné hlasování"
     groups:
+      group_updated: "Skupina byla úspěšně aktualizována"
+      work_area:
+        area_created: "Pracovní oblast byla úspěšně vytvořena"
+      group_deleted: "Skupina byla úspěšně smazána"
+      group_created: "Skupina byla správně vytvořena"
+      search_participants: "Hledání dokončeno. Výsledky hledání byly aktualizovány"
+      post_removed: "Příspěvek byl odstraněn ze stěny skupiny"
       area_updated: "Oblast byla aktualizována"
       post_featured:
         'true': Příspěvek připnut nahoru
@@ -1051,3 +1058,7 @@ cs-CZ:
       title: "Potvrďte vaše přihlašovací údaje"
     statistics:
       title: "Statistiky uživatelů"
+  keep_reading: "pokračovat ve čtení"
+  feedback_subject: "%{time} - Nová zpětná vazba"
+  delete_event_confirm: "Opravdu chcete odstranit tento komentář?"
+  select_debate_duration: "Vyberte dobu trvání první rozpravy"
