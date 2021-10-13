@@ -258,6 +258,7 @@ cs:
           other: "Je tu %{count} nových žádostí o účast"
         message:
           one: "<b>%{user}</b> požádal o účast ve skupině <b>%{group}</b>"
+          other: "<b>%{count} uživatelů</b> požádalo o účast ve skupině <b>%{group}</b>"
       new_blog_comment:
         description: Nový komentář v mém blogu
         email_subject:
