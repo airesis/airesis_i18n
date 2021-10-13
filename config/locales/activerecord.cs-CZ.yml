@@ -147,6 +147,7 @@ cs-CZ:
         record_invalid: 'Ověření se nepodařilo %{errors}'
         not_found: 'nenalezeno.'
         TOS: "Musíte přijmout Podmínky užívání"
+        certified_cannot_edit: 'nelze upravit, pokud jste certifikovaný uživatel'
         forum_visibility: "Fórum nemůže být viditelné mimo skupinu, pokud je kategorie soukromá"
       full_messages:
         format: "%{attribute} %{message}"
