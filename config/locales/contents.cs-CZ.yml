@@ -284,6 +284,7 @@ cs-CZ:
           <p> Aktuálně vydané softwarové verze jsou vydávány měsíčně nebo dvakrát měsíčně, aby vyhovovaly požadavkům a potřebám uživatelů,
           za účelem uplatnění procesu neustálého zlepšování. </ p>
     engage:
+      title: "Účast na projektu nové demokracie"
       developer:
         title: "Vývojář"
       i18n:
