@@ -191,3 +191,5 @@ cs-CZ:
   label:
     from: "od"
     to: "do"
+  countdown: "{m<}{mn} {ml} před{m>} {s<}právě teď{s>}"
+  countdown2: "{y<}{yn} {yl}{y>} {o<}{on} {ol}{o>} {d<}{dn} {dl}{d>} {h<}{hn} {hl}{h>} {m<}{mn} {ml}{m>} {s<}pár sekundami{s>}"
