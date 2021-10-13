@@ -591,6 +591,28 @@ cs-CZ:
           title: "Výstrahy"
         your_contributes: "Vaše poslední příspěvky"
         your_territory: "Vaše území (test)"
+    proposal_supports:
+      new:
+        panel_title: "Potvrdit podporu návrhu"
+        no_available_groups: "Nemáte oprávnění podpořit tento návrh jménem žádné skupiny"
+      confirm_button: "Potvrdit"
+    calendar:
+      create_event_button: "Vytvořit novou událost"
+    sessions:
+      new:
+        login_label: "E-mail"
+        remember_me_label: "Zapamatovat si mě"
+      links:
+        register: "Ještě nejste registrováni? Zaregistrujte se!"
+        forgot_password: "Zapomněli jste heslo?"
+        havent_received_email: "Neobdrželi jste potvrzovací e-mail?"
+    steps:
+      next: "Pokračovat"
+      interest_borders:
+        title: "Začít se účastnit"
+        description_html: |
+          Nastavte hranice svého zeměpisného zájmu.<br />
+          Pokud Airesis ví, na kterých území máte zájem, může vám doporučit, abyste sledovali a zobrazovali nové návrhy související s vaším územím.<br />
     proposal_histories:
       quorum_used: "Použitá usnášeníschopnost:"
       editors_in_life_cycle: "Editoři v tomto životním cyklu:"
