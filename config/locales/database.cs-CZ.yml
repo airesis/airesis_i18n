@@ -268,13 +268,23 @@ cs:
           one: "<b>%{user}</b> okomentoval váš příspěvek <b>%{title}</b>"
           other: "V příspěvku <b>%{title}</b> je <b>%{count}</b> nových komentářů"
       new_forum_topic:
+        message:
+          one: "V <b>%{group_name}</b> bylo vytvořeno téma '%{topic_subject}' "
+          other: "%{count} témat bylo vytvořeno v <b>%{group_name}</b>"
         description: Nová témata na fórech
+        email_subject: "V %{group_name} bylo vytvořeno téma '%{topic_subject}' "
       new_comments_mine:
         description: Nové komentáře v mých návrzích
         email_subject: Nový komentář v mém návrhu
+        message: "<b>%{name}</b> přidal komentář do diskuze ve vašem návrhu <b>%{title}</b>"
       new_comments:
         description: Nové komentáře v diskusích, kterých se účastním
         email_subject: "%{title} - Nový komentář"
+        message: "<b>%{name}</b> přidal komentář do diskuze, kterou se účastníte návrhu <b>%{title}</b>"
+      contribute_update:
+        description: Aktualizace textu již vyhodnoceného příspěvku
+        email_subject: "%{title} - příspěvek, který jste dříve hodnotili, se změnil"
+        message: "<b>%{name}</b> změnil příspěvek v <b>%{title}</b> , který jste již vyhodnotili. Zkontrolujte, zda chcete změnit svůj názor."
     proposal_categories:
       no_category:
         description: Nezařazeno
