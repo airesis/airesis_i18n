@@ -31,6 +31,13 @@ cs-CZ:
       alerts: "Můžete si vybrat, která upozornění obdržíte na Airesis..."
       emails: "...e-mailem, nebo obojí."
       no_emails: "Pamatujte: Pokud vypnete upozornění na Airesis, nebudete ho dostávat ani na Airesis."
+      explore: "Prozkoumejte Airesis a začněte se zapojovat! Uvidíte domovskou stránku naplněnou novým obsahem a informacemi"
+      click_logo: "Klikněte na logo Airesis pro vrácení vždy na tuto stránku"
+      click_groups: "Klikněte na ikonu menu Skupiny pro rychlý přístup do veřejné oblasti, skupin, kterých se účastníte, nebo otevření nové skupiny"
+      click_personal: "Prostřednictvím této ikony můžete přistupovat k domovské stránce, k vašemu blogu nebo vašemu osobnímu nastavení"
+      click_info: "Zde najdete návod k používání Airesis a mnoho dalších užitečných informací"
+    users_border_preferences:
+      intro: "Pokud jste tak dosud neučinili, nastavte své zeměpisné hranice. Airesis je brzy využije k zobrazení konkrétního obsahu."
     next: "Další"
     back: "Zpět"
     done_label: "Hotovo"
