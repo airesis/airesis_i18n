@@ -25,7 +25,10 @@ cs-CZ:
       history: "Historie návrhu, ve které můžete vidět jeho změny a vývoj"
     groups_edit:
       welcome: "To je panel administrátorů pro skupiny. Budeme vysvětlovat každou sekci..."
+      group_forum: "A konečně zde máte všechna nastavení pro fórum."
     users_alarm_preferences:
+      intro: "Na této stránce můžete upravit všechna nastavení upozornění a oznámení."
+      alerts: "Můžete si vybrat, která upozornění obdržíte na Airesis..."
       emails: "...e-mailem, nebo obojí."
       no_emails: "Pamatujte: Pokud vypnete upozornění na Airesis, nebudete ho dostávat ani na Airesis."
     next: "Další"
