@@ -718,6 +718,8 @@ cs-CZ:
     quorum:
       time_condition_1: "Rozprava skončí v %{time}"
       time_condition_1_past: "Rozprava trvala %{time}"
+      participants_condition_1: "Rozprava bude pokračovat do %{participants_num}."
+      participants_condition_1_past: "Rozprava pokračovala až do %{participants_num}."
       help_content:
         at_least_one: "Alespoň jeden"
         both: "Oba"
@@ -802,8 +804,38 @@ cs-CZ:
     areas_required: "Je nezbytné umožnit pracovní prostory"
     quorums:
       quorum_creation: "Chyba při vytváření usnášeníschopnosti"
+    proposals:
+      contribute_report: "Chyba při hlášení příspěvku"
+      updating: "Chyba při aktualizaci"
+      proposal_rank: "Chyba při nahrávání vašeho hodnocení. Omlouváme se za nepříjemnosti. Opakujte akci později. Děkujeme"
+      proposal_not_waiting_date: "Tento návrh nečeká na datum, o kterém se bude hlasovat"
+      proposal_not_voted: "Tento návrh nedokončil fázi hlasování, takže již tuto akci nemůžete udělat"
+      proposal_not_valuating: "Tento návrh není ve fázi hlasování, takže již tuto akci nemůžete udělat"
+      proposal_already_ranked: "Tento návrh jste již jednou hodnotili. Návrh nebyl od vašeho posledního hodnocení upraven."
+      proposal_not_your: "Nemůžete upravovat návrhy, které jste nevytvořili"
+      creation: "Je nám líto, ale při vytváření návrhu došlo k chybě"
+      editors_added: "Chyba při přidávání editorů"
+      close_debate: "Chyba při zavření rozpravy"
+      vote_period_incorrect: "Vyberte prosím jinou událost hlasování"
+      vote_period_soon: "Hlasovací událost musí začít alespoň %{time} minut po skončení rozpravy"
+      vote_period_short: "Hlasovací událost musí trvat nejméně 10 minut"
+      same_title: "Existuje další návrh se stejným názvem."
+    registration:
+      recaptcha: "Chyba při ověřování captchy. Zadejte ji prosím znovu"
+      user_not_found: "Uživatel nenalezen"
+    blog:
+      cannot_edit: "Nemůžete upravovat blog, který není váš"
+      already_have: "Omlouváme se. Již máte blog"
+      comment_added: "Chyba při přidávání komentáře"
+    users:
+      join_accounts: "Při připojení k účtům došlo k chybě."
+      join_accounts_password: "Chybné heslo"
     group_participations:
+      destroy: "Nemůžete opustit skupinu, ze které jste jediným správcem"
       already_member: "Chyba při vytváření žádosti o účast. Již jste členem této skupiny!"
+      request_not_registered: "Jste již členem této skupiny, ale Vaše žádost o účast nebyla zaregistrována."
+      request_sent: "Chyba při vytváření žádosti o účast"
+      request_not_found: "Požadavek nebyl nalezen. Chyba operace"
       error_saving: "Chyba v postupu. Nelze pokračovat"
     error_404:
       proposals:
@@ -863,6 +895,7 @@ cs-CZ:
       date_selected: "O návrhu se bude hlasovat ve zvoleném období"
       rank_recorderd: "Vaše hodnocení bylo zaregistrováno"
       comment_already_ranked: "Tento komentář jste již vyhodnotili. Není možné ještě upravit hodnocení komentáře"
+      comment_not_your: "Nemáte dostatečná práva k odstranění komentáře"
       login_to_contribute: "Přihlaste se pro přidání vašeho příspěvku"
       back_in_debate: "Návrh je nyní opět předmětem rozpravy. Nyní jste jeho editor."
       editors_added: "Noví editoři úspěšně přidáni!"
@@ -882,6 +915,11 @@ cs-CZ:
       can_modify_advanced_proposals_settings: "Editoři mohou změnit rozšířené nastavení"
       cannot_modify_advanced_proposals_settings: "Editoři nemohou upravovat rozšířené nastavení"
       anonymous_proposals: "Návrhy skupiny budou automaticky anonymní"
+      non_anonymous_proposals: "Návrhy skupiny nebudou automaticky anonymní"
+      public_proposals: "Návrhy skupiny budou automaticky veřejně viditelné"
+      private_proposals: "Návrhy skupiny nebudou ve výchozím stavu veřejně viditelné"
+      secret_vote: "Návrhy skupiny budou ve výchozím nastavení používat tajné hlasování"
+      non_secret_vote: "Návrhy skupiny nebudou ve výchozím nastavení používat tajné hlasování"
     groups:
       area_updated: "Oblast byla aktualizována"
       post_featured:
