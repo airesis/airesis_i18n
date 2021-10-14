@@ -1,6 +1,9 @@
 cs-CZ:
   unauthorized:
     default: "Nemáte dostatečná oprávnění k provedení této akce"
+    create:
+      group: "Nemůžete vytvořit více než jednu skupinu za den"
+  permissions_required: "Nemáte oprávnění k provedení této operace"
   test: "Test"
   open_space: 'Otevřený prostor'
   hello: 'Ahoj světe!'
