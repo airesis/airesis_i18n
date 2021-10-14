@@ -754,6 +754,7 @@ cs-CZ:
           title: "<em>Zapojte se</em> do e-demokracie"
           content: "Připojte se ke skupinám, vyberte si, kdo vás zastupuje a zapojte se do akcí podle vašich zájmů. Společně jsme silnější."
         field_3:
+          title: "<em>Vyberte</em> vaši budoucnost"
           content: "Nástroj pro rozhodování o inovativních rozhodnutích ve skupinách. Jednoduchý hlasovací systém, který realizuje přímou a likvidní demokracii."
         field_4:
           title: "<em>Pracujte</em> ve vašem nejlepším zájmu"
@@ -785,6 +786,17 @@ cs-CZ:
           title: "Výstrahy"
         your_contributes: "Vaše poslední příspěvky"
         your_territory: "Vaše území (test)"
+        no_proposals_to_vote_now: "Žádné návrhy v této fázi hlasování"
+        proposals_now_voting: "Návrhy na hlasování nyní"
+    open_space:
+      layout:
+        proposals_button: "NÁVRHY"
+        calendar_button: "KALENDÁŘ"
+        map_button: "MAPA"
+        groups_button: "SKUPINY"
+        blogs_button: "BLOGY"
+        petitions_button: "PETICE"
+        tags_button: "ŠTÍTKY"
     proposal_supports:
       new:
         panel_title: "Potvrdit podporu návrhu"
@@ -813,6 +825,7 @@ cs-CZ:
         title_html: Váš první příspěvek
     proposal_histories:
       index:
+        title: "%{title} - Historie revizí"
         back_to_proposal: "Zpět na návrh"
       title: "Historie revizí"
       loading_revisions: "Načítání revizí..."
@@ -914,7 +927,12 @@ cs-CZ:
       time_condition_1_past: "Rozprava trvala %{time}"
       participants_condition_1: "Rozprava bude pokračovat do %{participants_num}."
       participants_condition_1_past: "Rozprava pokračovala až do %{participants_num}."
+      until_date: "(do %{date})"
       help_content:
+        participants: "Minimální počet účastníků:"
+        not_specified: "Nespecifikováno"
+        time_discussion: "Doba diskuse:"
+        condition: "Stav průběhu:"
         at_least_one: "Alespoň jeden"
         both: "Oba"
         good_score: "Vyspělost:"
@@ -973,6 +991,8 @@ cs-CZ:
     join_accounts: "Připojit se k účtům a přihlásit se"
     save_and_exit: "Uložit a ukončit"
   tooltips:
+    random_stack_1: "<strong>Jak to funguje?</strong><br/>Nejprve se zobrazí nové příspěvky nebo příspěvky, které jste ještě nehodnotili, a poté příspěvky, které jste již hodnotili, v pořadí podle oblíbenosti. <br/> <b>Poznámka</b>: Vaše hodnocení toto pořadí změní!"
+    random_stack_2: "<strong>Jak to funguje?</strong><br/>Příspěvky jsou zobrazeny v chronologickém pořadí začínajícím nejnovějším"
     voglioredigere: "Požádejte editory, aby vám umožnili upravovat text návrhu na základě příspěvků uživatelů."
     voteup: "Návrh je dostatečně vyspělý a může jít do hlasovací fáze (můžete změnit své hodnocení, když je text návrhu aktualizován)"
     votedown: "Text návrhu ještě není zralý, protože příspěvky uživatelů musí být integrovány (můžete změnit své hodnocení, až bude text návrhu aktualizován)"
