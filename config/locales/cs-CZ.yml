@@ -460,6 +460,9 @@ cs-CZ:
         category_prompt: "--Vyberte kategorii--"
         tags_separated_by_comma: "(oddělené čárkou)"
         cannot_add_proposal_in_work_area: "Nemáte dostatečná oprávnění k přidání návrhu v jakékoli oblasti"
+        no_work_area_selected: "Žádný pracovní prostor"
+        solution1: "Položka programu"
+        solution: "Položka programu"
         step_base_info: "Počáteční informace"
         advanced_options: "Rozšířené možnosti"
         wait: |
@@ -713,8 +716,19 @@ cs-CZ:
         back_to_blog: "Zpět na můj blog"
       index:
         blog_subtitle: "%{posts} příspěvků, %{comments} komentářů"
+        find_blog_label: "Najděte blog, který by vás mohl zajímat"
+        search_description: "Použijte vyhledávací nástroj nebo klikněte na tag pro nalezení blogů vašeho zájmu"
+        search_with_query: "pomocí individualizovaného dotazu"
+        find_title: "Hledat v názvu blogu nebo v názvu autora"
+        search_with_place: "nebo podle zeměpisné hranice"
+    quorums:
+      index:
+        title: "Všechny dostupné usnášeníschopnosti"
+        how_read: "Co je usnášeníschopnost?"
+        debate_end: "Konec rozpravy"
     home:
       index:
+        whatis: "CO JE"
         partecipate: "ZAPOJIT SE"
         videos: "VIDEO NÁVODY"
         whowe: "O NÁS"
@@ -735,7 +749,9 @@ cs-CZ:
         follw_on_twitter: "Sledujte @demokraciyo na Twitteru"
         field_1:
           title: "<em>Navrhnout</em> řešení"
+          content: "Místo pro podávání zpráv o problémech, navrhování řešení, diskusi o alternativách ke shrnutí sdíleného rozhodnutí. Mocný nástroj pro zvýšení kolektivní inteligence."
         field_2:
+          title: "<em>Zapojte se</em> do e-demokracie"
           content: "Připojte se ke skupinám, vyberte si, kdo vás zastupuje a zapojte se do akcí podle vašich zájmů. Společně jsme silnější."
         field_3:
           content: "Nástroj pro rozhodování o inovativních rozhodnutích ve skupinách. Jednoduchý hlasovací systém, který realizuje přímou a likvidní demokracii."
@@ -982,6 +998,13 @@ cs-CZ:
     areas_required: "Je nezbytné umožnit pracovní prostory"
     quorums:
       quorum_creation: "Chyba při vytváření usnášeníschopnosti"
+      quorum_modification: "Chyba při aktualizaci usnášeníschopnosti"
+      advanced_proposals_settings: "Chyba při nastavení předvoleb"
+    participation_roles:
+      role_updated: "Chyba při aktualizaci role"
+      role_created: "Chyba při vytváření role"
+    groups:
+      update: "Chyba při aktualizaci skupiny"
     proposals:
       contribute_report: "Chyba při hlášení příspěvku"
       updating: "Chyba při aktualizaci"
