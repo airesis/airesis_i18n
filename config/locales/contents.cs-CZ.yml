@@ -263,6 +263,8 @@ cs-CZ:
         title: "Sestavte svou skupinu"
       paragraph_3:
         title: "Uspořádat účastníky"
+      paragraph_6:
+        title: "Archiv sdílených dokumentů"
       paragraph_7:
         title: "Prostor k diskuzi"
       paragraph_8:
@@ -304,6 +306,7 @@ cs-CZ:
       title: "Airesis - Sociální síť pro E-demokracii"
     engage:
       title: "Účast na projektu nové demokracie"
+      description: "Přispějte k tomuto projektu s vašimi zkušenostmi. Pomozte nám budovat novou demokracii, transparentnější a sdílenou"
       nav:
         opensource: "Open Source"
         participate: "Účastnit se"
@@ -316,6 +319,10 @@ cs-CZ:
         title: "Vývojář"
       analyst:
         title: "Analytik"
+      first_lev_tester:
+        title: "Testující první úrovně"
+      sec_lev_tester:
+        title: "Testující druhé úrovně"
       graphic:
         title: "Grafický návrhář"
       i18n:
