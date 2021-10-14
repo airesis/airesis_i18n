@@ -59,12 +59,21 @@ cs-CZ:
             pros: "Plusy"
             cons: "Mínusy"
             title: "Řešení 1"
+          suggestion_html: |
+            <div> <b> Příklad: </b> </div>
+            <div> Omezte používání pitné vody k zavlažování. </div>
+            <div> Používání pitné vody k zalévání veřejných parků a soukromých zahrad je plýtvání a má to své náklady. Navíc vodonosná vrstva, která zásobuje akvadukt, dochází </div>
           paragraph:
             similar: "Podobné zkušenosti"
             stakeholders: "Zúčastněné strany"
             requirements: "Požadavky na řešení"
           question:
+            paragraph:
+              similar: "Existují zkušenosti, které mají inspirovat k dosažení cíle? Mezi možná řešení / iniciativy, které již existují, které z nich dosáhly nejlepších výsledků a které z nich mají nejhorší? Proč?"
+              stakeholders: "Komu přinese dosažení cíle a navrhovaná řešení výhody a nevýhody? Byly tyto subjekty zapojeny do projednávání tohoto návrhu? Jakým způsobem?"
+              requirements: "Jaké jsou charakteristiky, které by měly respektovat ideální řešení? Lze odkazovat jak na technické požadavky, které hodnotí, tak na zásady, které je třeba dodržovat."
             solution:
+              description: "Popište řešení, které je v praxi navrženo k dosažení cíle."
               time: "Kdy bude toto řešení provedeno? Určete možné fáze provádění."
               subject: "Kdo toto řešení zavede nebo zařídí jeho realizaci? V případě jeho realizace jak sledovat a ověřovat jeho výsledky?"
               resources: "Budou k realizaci tohoto řešení zapotřebí finanční prostředky, dobrovolníci, nástroje a dovednosti? Vyplňte a vyčíslte je. Jak budou tyto zdroje nalezeny?"
@@ -76,6 +85,10 @@ cs-CZ:
           problems_title: "Problémy"
           problems_title_label: "Jaké problémy mají být vyřešeny při uplatňování tohoto nařízení? Jaké otázky je třeba řešit? proč?"
           problems_question: "Jaké problémy mají být vyřešeny při uplatňování tohoto nařízení? Jaké otázky je třeba řešit? proč?"
+          suggestion_html: |
+            <div><b>Příklad:</b></div>
+            <div>Kniha pravidel pro rezervaci sálu svatého Petra</div>
+            <div>Město Silverham má zasedací místnost, kterou v současné době využívají pouze "kolegové" starosty. Je na čase zvolit nestranný postup, který by všem občanům a veřejným sdružením přiznal právo rezervovat si místnost pro veřejné akce.</div>
           solution:
             title: "Řešení 1"
             article: "Článek %{num}"
