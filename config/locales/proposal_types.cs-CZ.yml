@@ -110,12 +110,23 @@ cs-CZ:
           paragraph:
             target: "Příjemci/cíl"
           question:
+            paragraph:
+              target: "Kdo jsou cíloví čtenáři článku / tiskové zprávy? Které aspekty poselství, které chcete sdělit, jsou pro ně nejzajímavější?"
             solution:
+              maintitle: "Jak můžete shrnout několika slovy poselství článku / tiskové zprávy?"
+              subtitle: "Uveďte v kostce klíčový pojem článku nebo doplňující informace k informacím obsaženým v názvu."
+              incipit: "Uveďte pár slovy, co dělal, kde a proč, a zdůrazněte, proč je tato skutečnost velmi důležitá."
+              body: "Popište podrobněji, ale synteticky, fakta. Napište krátké a významné věty."
               conclusion: "Existují návrhy na předložení čtenářům? Jaký by mohl být možný vývoj skutečností nebo jejich důsledků?"
+              deep: "Vložte odkazy, kontakty nebo doplňující informace pro ty, kteří chtějí zprávy prohloubit."
         estimate:
           problems_title_label: "Jaké zboží nebo služby si přejete koupit? K vyřešení těchto problémů?"
           problems_title: "Problémy"
           problems_question: "Jaké zboží nebo služby si přejete koupit? K vyřešení těchto problémů?"
+          suggestion_html: |
+            <div><b>Příklad:</b></div>
+            <div>Nahrazení tepelné elektrárny v sídle sdružení.</div>
+            <div>Kvůli selhání starého kotle, je naše čtvrť během zimy nepoužitelná. Vzhledem k tomu, že není možné ji opravit, musíme nahradit starou tepelnou elektrárnu novou, s nízkou spotřebou energie.</div>
           solution:
             title: "Řešení 1"
             cost: "Částka"
@@ -146,6 +157,10 @@ cs-CZ:
           problems_title: "Rozsah události"
           problems_title_label: "Proč chcete uspořádat událost? Jaké jsou cíle?"
           problems_question: "Proč chcete uspořádat událost? Jaké jsou cíle?"
+          suggestion_html: |
+            <div><b>Příklad:</b></div>
+            <div>Organizujte nízkonákladový rockový koncert.</div>
+            <div>V našem městě je spousta mladých kapel, které se nemohou ukázat a zlepšovat jejich talent, z důvodu nedostatku místa. Kromě toho existuje jen málo akcí podporovaných naší obcí na příští léto, z důvodu nedostatku zdrojů</div>
           solution:
             title: "Řešení 1"
             maintitle: "Nadpis"
@@ -171,6 +186,7 @@ cs-CZ:
         simple:
           problems_title: "Problém"
           problems_title_label: "Jaký problém má být vyřešen nebo jaké překážky je třeba překonat, aby bylo cíle dosaženo?"
+          problems_question: "Jaký problém má být vyřešen, nebo jaké překážky je třeba překonat, aby bylo cíle dosaženo?"
           solution:
             description: "Popis"
             title: "Řešení 1"
