@@ -1322,10 +1322,20 @@ cs-CZ:
       already_voted: "Již jste hlasovali pro tento návrh"
     proposal:
       authors_added: "Chyba při přidávání nových autorů"
+  draft_tooltip: "Tento příspěvek je viditelný pouze vám"
+  reserved_tooltip: "Tento příspěvek je viditelný pouze pro účastníky skupiny"
   keep_reading: "pokračovat ve čtení"
   feedback_subject: "%{time} - Nová zpětná vazba"
   delete_event_confirm: "Opravdu chcete odstranit tento komentář?"
   groups:
     group:
       delete_group_warning_html: "Máte oprávnění odstranit tuto skupinu. Smazáním této skupiny odstraníte všechna fóra, návrhy a dokumenty spojené s ní.<br/>Data nelze obnovit.<br/>Buďte opatrní!"
+  confirm:
+    unintegrate: "Svůj příspěvek se chystáte vložit zpět do diskuse. Jste si jistý?"
+  cookie_policy: "Cookies"
+  blog:
+    delete:
+      confirm_message: "Jste si jisti, že chcete smazat svůj blog? %{count} příspěvků bude také smazáno."
+  click_here_to_view: "Klikněte zde pro zobrazení na %{app_short_name}."
+  unsubscribe_from_topic: "Chcete-li se odhlásit z tohoto tématu, %{click_here}"
   select_debate_duration: "Vyberte dobu trvání první rozpravy"
