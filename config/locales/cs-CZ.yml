@@ -1317,6 +1317,11 @@ cs-CZ:
   errors:
     messages:
       invalid_token: "Bezpečnostní token je neplatný"
+      votation: "Omlouváme se, ale při hlasování se něco pokazilo. Zkuste to znovu později."
+    votation:
+      already_voted: "Již jste hlasovali pro tento návrh"
+    proposal:
+      authors_added: "Chyba při přidávání nových autorů"
   keep_reading: "pokračovat ve čtení"
   feedback_subject: "%{time} - Nová zpětná vazba"
   delete_event_confirm: "Opravdu chcete odstranit tento komentář?"
