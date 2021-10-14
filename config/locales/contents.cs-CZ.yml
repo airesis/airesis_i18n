@@ -261,6 +261,13 @@ cs-CZ:
         title: "Sociální síť pro E-demokracie"
       paragraph_2:
         title: "Sestavte svou skupinu"
+        content_html: |
+          <p>
+          Pokud jste sdružení, firma, škola nebo strana, Airesis je pro vás určitě vhodný!<br/>
+          Vytvořte si během několika minut svou skupinu a vyzkoušejte všechny dostupné nástroje.<br/>
+          Vytvoření skupiny je zdarma, rychlé a snadné a %{groups} skupiny jsou již aktivní.<br/>
+          Přečtěte si naše dokumenty o politice, abyste zjistili, jak ji lépe organizovat, a zjistěte, jak snadné je organizovat skupinu pomocí Airesis a poskytovat nástroje e-demokracie!
+          </p>
       paragraph_3:
         title: "Uspořádat účastníky"
       paragraph_6:
