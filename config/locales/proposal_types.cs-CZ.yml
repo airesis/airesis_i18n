@@ -67,7 +67,11 @@ cs-CZ:
               subject: "Kdo toto řešení zavede nebo zařídí jeho realizaci? V případě jeho realizace jak sledovat a ověřovat jeho výsledky?"
               resources: "Budou k realizaci tohoto řešení zapotřebí finanční prostředky, dobrovolníci, nástroje a dovednosti? Vyplňte a vyčíslte je. Jak budou tyto zdroje nalezeny?"
               aspects: "Splňuje toto řešení etické požadavky skupiny nebo společenství, kterým je určeno? Jaké je jeho sociální a environmentální dopady?"
+              documents: "Je pro řešení k dispozici dokumentace?"
+              pros: "Seznam a shrnutí hlavních výhod a silných stránek tohoto řešení Uveďte zúčastněné strany u výhod."
+              cons: "Seznam a shrnutí hlavních problémů a nevýhod tohoto řešení. Uveďte zúčastněné strany u nevýhod."
         rule_book:
+          problems_title: "Problémy"
           solution:
             title: "Řešení 1"
             article: "Článek %{num}"
