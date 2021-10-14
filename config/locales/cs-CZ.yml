@@ -615,6 +615,8 @@ cs-CZ:
         vote_positive: 'Pozitivní hodnocení'
         vote_neutral: 'Neutrální hodnocení'
         vote_negative: 'Negativní hodnocení'
+        confirm_positive: "Potvrďte vaše POSITIVE hlasování o návrhu%{name}'? Jakmile budete hlasovat, nelze jej upravit."
+        confirm_schulze: "Potvrzujete své hlasování o návrhu %{name}? Jakmile jste hlasovali, nelze jej upravit."
     blog_posts:
       new:
         title: 'Přidat nový příspěvek'
@@ -673,6 +675,7 @@ cs-CZ:
         preferences: "PŘEDVOLBY"
         administration: "SPRÁVA"
         logout: "ODHLÁŠENÍ"
+        remember_me: "Zapamatovat si mě na tomto počítači"
         login_button: "Přihlásit se"
         registration_button: "PŘIPOJIT SE"
         forgot_password_button: "Zapomenuté heslo?"
@@ -683,6 +686,33 @@ cs-CZ:
       welcome: "Vítejte"
       groups_title: "SKUPINY"
       login: "PŘIHLÁŠENÍ"
+      login_placeholder: "E-mail"
+      groups_list: "Skupiny, kterých se účastníte"
+      open_group: "Začít novou skupinu"
+      new_group: "Najít skupiny"
+      support_us: "PODPOŘTE NÁS"
+      no_alerts: "Žádná upozornění"
+      read: "Číst"
+    blogs:
+      show:
+        no_posts: "Žádné příspěvky"
+        no_posts_long: "Zatím v tomto blogu žádné příspěvky, zkuste to prosím později."
+        tag: "Štítek"
+        previous_posts: "Předchozí příspěvky..."
+        edit_button: "Upravit blog"
+        title: "Seznam blogů"
+        no_unpublished_posts: "V tuto chvíli nejsou žádné nepublikované příspěvky"
+        other_blogs: "Další blogy"
+      new:
+        title: "Vytvořte si svůj osobní blog!"
+        cancel_button: "Ne, děkuji!"
+        create_button: "Vytvořit"
+      edit:
+        title: "Upravit blog"
+        title_label: "Název blogu"
+        back_to_blog: "Zpět na můj blog"
+      index:
+        blog_subtitle: "%{posts} příspěvků, %{comments} komentářů"
     home:
       index:
         partecipate: "ZAPOJIT SE"
