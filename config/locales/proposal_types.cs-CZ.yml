@@ -61,6 +61,12 @@ cs-CZ:
             similar: "Podobné zkušenosti"
             stakeholders: "Zúčastněné strany"
             requirements: "Požadavky na řešení"
+          question:
+            solution:
+              time: "Kdy bude toto řešení provedeno? Určete možné fáze provádění."
+              subject: "Kdo toto řešení zavede nebo zařídí jeho realizaci? V případě jeho realizace jak sledovat a ověřovat jeho výsledky?"
+              resources: "Budou k realizaci tohoto řešení zapotřebí finanční prostředky, dobrovolníci, nástroje a dovednosti? Vyplňte a vyčíslte je. Jak budou tyto zdroje nalezeny?"
+              aspects: "Splňuje toto řešení etické požadavky skupiny nebo společenství, kterým je určeno? Jaké je jeho sociální a environmentální dopady?"
         rule_book:
           solution:
             title: "Řešení 1"
