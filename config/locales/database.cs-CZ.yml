@@ -331,3 +331,5 @@ cs:
         description: Příznivé
       neutral:
         description: Neutrální
+      dissenting:
+        description: Nesouhlas
