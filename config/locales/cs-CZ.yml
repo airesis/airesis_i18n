@@ -1008,6 +1008,8 @@ cs-CZ:
     votedown: "Text návrhu ještě není zralý, protože příspěvky uživatelů musí být integrovány (můžete změnit své hodnocení, až bude text návrhu aktualizován)"
     valutazioni: "celkový počet obdržených hodnocení"
     gradimento: "procento pozitivních hodnocení z celkového počtu"
+    quorum_minutes: "do <b>%{date}</b> v %{time}"
+    quorum_valutations: "dokud nebude hodnoceno <b>alespoň %{valutations} lidmi</b>"
   group: "skupina"
   saving: "Ukládání..."
   sending: "Odesílání..."
@@ -1035,6 +1037,9 @@ cs-CZ:
       role_created: "Chyba při vytváření role"
     groups:
       update: "Chyba při aktualizaci skupiny"
+      work_area:
+        area_created: "Chyba při vytváření pracovního prostoru"
+      creation: "Chyba při vytváření skupiny"
     proposals:
       contribute_report: "Chyba při hlášení příspěvku"
       updating: "Chyba při aktualizaci"
@@ -1289,6 +1294,13 @@ cs-CZ:
       title: "Potvrďte vaše přihlašovací údaje"
     statistics:
       title: "Statistiky uživatelů"
+      last_login: "Poslední přihlášení"
+      integrated_count: "Počet integrovaných příspěvků"
+      spam_count: "Počet SPAM příspěvků"
+      noisy_count: "Počet příspěvků šumu"
+      total_count: "Počet příspěvků celkem"
+      total_comments_count: "Počet komentářů celkem"
+      proposals_editor: "Počet návrhů, které jste upravili"
   keep_reading: "pokračovat ve čtení"
   feedback_subject: "%{time} - Nová zpětná vazba"
   delete_event_confirm: "Opravdu chcete odstranit tento komentář?"
