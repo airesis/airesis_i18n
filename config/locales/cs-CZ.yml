@@ -1,4 +1,6 @@
 cs-CZ:
+  unauthorized:
+    default: "Nemáte dostatečná oprávnění k provedení této akce"
   test: "Test"
   open_space: 'Otevřený prostor'
   hello: 'Ahoj světe!'
@@ -455,11 +457,24 @@ cs-CZ:
       new:
         quorum_prompt: "Vybrat usnášeníschopnost"
         quorum_help: "Nápověda"
+        category_prompt: "--Vyberte kategorii--"
+        tags_separated_by_comma: "(oddělené čárkou)"
+        cannot_add_proposal_in_work_area: "Nemáte dostatečná oprávnění k přidání návrhu v jakékoli oblasti"
+        step_base_info: "Počáteční informace"
+        advanced_options: "Rozšířené možnosti"
+        wait: |
+          Můžete vytvořit pouze jeden návrh každé dvě minuty
+          Počkejte prosím %{minutes} minut a %{seconds} sekund.
       tabs:
+        last_inserted: "Naposledy aktualizováno"
+        most_popular: "Vyšší hodnost"
+        most_valutated: "Další hodnocení"
         most_urgent: "Nejnaléhavější"
       list:
         last_update: "Aktualizováno před %{time_ago}"
+        waiting_date: "Čekání na datum"
         voting_from_to: "Od %{from} do %{to}"
+        voting_until: "Do <br/>%{date}"
         votation_finished: "Ukončeno<br/>%{time_ago}"
         no_votation: "Neproběhlo žádné hlasování"
         votation_finished_approved: "Schváleno<br/> %{date}"
@@ -510,6 +525,14 @@ cs-CZ:
         you_know_what_you_do: "Víte, co uděláte?"
         schulze_title: "Jedno nebo více řešení?"
         inserted_contributes: "Podepište příspěvky, které jste integrovali do této revize"
+        more_solutions_explained_html: |
+          <b>Proč se vás ptáme, jestli víte, co děláte?</b><br/>
+          %{app_short_name} umožňuje přidat jedno nebo více řešení do návrhu.<br/>
+          Pokud bude existovat pouze řešení, účastníci hlasování budou mít možnost schválit nebo odmítnout navržený text.<br/>
+          Pokud bude existovat více než jen řešení, hlasování se bude lišit a každý účastník bude moci hlasovat pomocí metody Schulze.<br/>
+          Pokud se snažíte sestavit shrnutí problému a chcete, aby sdílený text <b>nevytvářel alternativní řešení</b>!<br/>
+          Pokud ano, hledáte anketu, nebo chcete alternativu, která není integrovatelná v prvním řešení, pak pokračovat.<br/>
+          Pamatujte na to, že před ukončením rozpravy budete moci přidávat nebo odstraňovat řešení a upravovat metodu hlasování.
         paragraph: "Odstavec"
         confirm_paragraph_deletion: "Opravdu chcete odstranit tento odstavec?"
         confirm_solution_deletion: "Opravdu chcete odstranit toto řešení?"
@@ -531,7 +554,11 @@ cs-CZ:
       new_rank_bar:
         creation: "VYTVOŘENO: %{time_ago}<br/>%{date}"
         end: "KONEC ROZPRAVY:<br/> %{date}"
+        good_score: "POZITIVNÍ USNÁŠENÍSCHOPNOST %{score}%"
+        bad_score: "NEGATIVE USNÁŠENÍSCHOPNOST %{score}%"
+        now: "%{left} ZBÝVÁ"
       left_panel:
+        creation_date: "Datum vytvoření"
         any_date: "Jakékoliv datum"
         choose_creation_date: "Zvolte časový interval"
         last_hour: "Poslední hodina"
@@ -545,6 +572,7 @@ cs-CZ:
       index:
         title: 'Kalendář'
         group_title: "Kalendář událostí"
+        choose_type: "VYBRAT TYP UDÁLOSTI"
       new:
         private_tooltip: "Pouze členové skupiny se mohou na události podívat a účastnit se"
         title: "Nová událost"
@@ -552,6 +580,8 @@ cs-CZ:
         type_for_town: "Zadejte nějaké znaky pro vyhledání města"
         no_town_found: "Nebylo nalezeno žádné město"
         town_searching: "Vyhledávání"
+        title_event: "NOVÁ UDÁLOST HLASOVÁNÍ"
+        title_meeting: "NOVÝ MEETUP UDÁLOSTI"
         step_1: "Typ události"
         step_2: "Popis"
         step_3: "Kdy"
