@@ -685,6 +685,7 @@ cs-CZ:
         resend_email_button: "Neobdrželi jste potvrzovací e-mail?"
         no_notifications: "Žádné oznámení"
         sign_has_read: "Označit jako přečtené"
+        moderator: "PANEL MODERÁTORA"
         profile: "PROFIL"
       welcome: "Vítejte"
       groups_title: "SKUPINY"
@@ -821,6 +822,11 @@ cs-CZ:
           Pokud Airesis ví, na kterých území máte zájem, může vám doporučit, abyste sledovali a zobrazovali nové návrhy související s vaším územím.<br />
       rank_bar_explain:
         title: "Ukazatel vyspělosti"
+        newdescription4: "Když si myslíte, že je rozprava ukončena a editor integroval příspěvky ostatních uživatelů, použijte toto tlačítko"
+        newdescription5: "Pokud si myslíte, že by rozprava měla pokračovat, použijte toto tlačítko"
+        newdescription6: "Až bude text návrhu aktualizován, budete moci změnit své hodnocení"
+      welcome:
+        title_html: <b>Vítejte na %{app_short_name}, %{user}</b><br/>
       first_proposal:
         title_html: Váš první příspěvek
     proposal_histories:
@@ -923,10 +929,14 @@ cs-CZ:
       good_score_condition: "Návrh se bude hlasovat, pokud má vyspělost větší než <b>%{good_score}%</b> a %{participants}, jinak bude opuštěn"
       good_score_condition_past: "Návrh se bude hlasovat, pokud má vyspělost větší než <b>%{good_score}%</b> a %{participants}, jinak bude opuštěn"
     quorum:
+      or_condition_1_past: "Rozprava trvala %{time} nebo když %{participants_num}."
+      and_condition_1: "Rozprava skončí v %{time}, ale bude pokračovat, dokud %{participants_num}."
+      and_condition_1_past: "Rozprava trvala %{time}, ale pokračovala, dokud %{participants_num}."
       time_condition_1: "Rozprava skončí v %{time}"
       time_condition_1_past: "Rozprava trvala %{time}"
       participants_condition_1: "Rozprava bude pokračovat do %{participants_num}."
       participants_condition_1_past: "Rozprava pokračovala až do %{participants_num}."
+      good_score_condition: "Návrh se bude hlasovat, pokud má vyspělost větší než <b>%{good_score}%</b>, jinak bude opuštěn"
       until_date: "(do %{date})"
       help_content:
         participants: "Minimální počet účastníků:"
