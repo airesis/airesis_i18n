@@ -323,7 +323,36 @@ cs-CZ:
         title: "Testující první úrovně"
       sec_lev_tester:
         title: "Testující druhé úrovně"
+        description_html: |
+          <p>
+          Dobrá znalost programování je nutná k tomu, aby se stal testujícím druhé úrovně. Je požádán, aby provedl přísnější a podrobnější testy než testující první úrovně. Druhý testující pracuje na složitých problémech a je schopen uvést celý systém do stresu k odhalení skrytých problémů.
+          </p>
       graphic:
         title: "Grafický návrhář"
+        description_html: |
+          <p>
+          Grafický designér vykresluje uživatelská rozhraní a dává jejich koncepty vývojové skupině.
+          Zlepšuje použitelnost a komplexnost textů v softwaru (např. uživatelské příručky...)
+          </p>
+      recruiter:
+        title: "Nábor"
+        description_html: |
+          <p>
+          Má na starosti hledání nových dobrovolníků, kteří jsou ochotni pomoci v tomto projektu, testovatelé, stejně jako skupiny dostupné pro používání softwaru pro své potřeby.
+          Zapojuje skupiny lidí, které nejsou zastoupeny vývojovou skupinou (ženy, osoby s nízkými informačními dovednostmi atd. .) tak, aby software mohl být přitažlivý dokonce a především pro ně, založený na jejich zpětné vazbě.
+          </p>
+      communication:
+        title: "Správce komunikace"
+        description_html: |
+          <p>
+          Spravuje tiskové kontakty, podporuje software hledající nové uživatele, technické aspekty, jako je propojení, SEO (optimalizace pro vyhledávání),
+          virální marketing (např. vytváření zajímavých návrhů), videa a informativní dokumentace.
+          Aktualizuje sociální sítě a sdělovací prostředky, zastupuje externího referenta-mluvčího.
+          </p>
       i18n:
         title: "Internacionalizace"
+        description_html: |
+          <p>
+          Má na starosti překlad softwaru. Kontaktuje a koordinuje zahraniční překladatele.<br/>
+          (P.S.: nejsou vyžadovány žádné znalosti programování)
+          </p>
