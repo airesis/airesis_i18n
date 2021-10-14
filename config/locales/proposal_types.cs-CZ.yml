@@ -48,8 +48,10 @@ cs-CZ:
           problems_question: "Jaký problém má být vyřešen nebo jaké překážky je třeba překonat, aby bylo cíle dosaženo?"
           problems_title_label: "Jaký problém má být vyřešen nebo jaké překážky je třeba překonat, aby bylo cíle dosaženo?"
           objectives_title: "Cíle"
+          step_4_title: "Můžete zadat text návrhu nebo jej napsat později na základě obdrženého vstupu"
           solution:
             description: "Popis řešení"
+            time: "Kolikrát"
             subject: "Dozor"
             resources: "Nezbytné zdroje a jak je získat"
             aspects: "Etický, ekologický a společenský aspekt"
