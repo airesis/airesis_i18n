@@ -1301,6 +1301,22 @@ cs-CZ:
       total_count: "Počet příspěvků celkem"
       total_comments_count: "Počet komentářů celkem"
       proposals_editor: "Počet návrhů, které jste upravili"
+      proposals_voted: "Počet návrhů, o nichž bylo hlasováno"
+      average_rank_voted_proposals: "Průměrné pořadí návrhů, o nichž se hlasovalo"
+      proposals_accepted_count: "Počet přijatých návrhů"
+      proposals_abandonend_count: "Počet návrhů, od kterých bylo upuštěno"
+      good_writer: "Dobrý autor příspěvků"
+      good_proposals_writer: "Dobrý autor návrhů"
+  proposal_comments:
+    manage_noise:
+      title: "Spravovat zbytečné příspěvky"
+      help: "Přetáhněte příspěvky, které považujete za zbytečné pro diskusi vpravo"
+  votations:
+    create:
+      confirm: "Hlasuj správně zaregistrován. Děkujeme!"
+  errors:
+    messages:
+      invalid_token: "Bezpečnostní token je neplatný"
   keep_reading: "pokračovat ve čtení"
   feedback_subject: "%{time} - Nová zpětná vazba"
   delete_event_confirm: "Opravdu chcete odstranit tento komentář?"
