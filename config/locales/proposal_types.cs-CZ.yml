@@ -72,6 +72,8 @@ cs-CZ:
               cons: "Seznam a shrnutí hlavních problémů a nevýhod tohoto řešení. Uveďte zúčastněné strany u nevýhod."
         rule_book:
           problems_title: "Problémy"
+          problems_title_label: "Jaké problémy mají být vyřešeny při uplatňování tohoto nařízení? Jaké otázky je třeba řešit? proč?"
+          problems_question: "Jaké problémy mají být vyřešeny při uplatňování tohoto nařízení? Jaké otázky je třeba řešit? proč?"
           solution:
             title: "Řešení 1"
             article: "Článek %{num}"
@@ -81,13 +83,30 @@ cs-CZ:
             inspire: "Regulace k inspiraci od"
             requirements: "Požadavky na splnění"
             stakeholders: "Zúčastněné strany (zapojení lidé)"
+          question:
+            paragraph:
+              inspire: "Existují podobné předpisy, od nichž se inspiruje? Ze zkušeností s podobnými pravidly, která přinesla nejlepší výsledky a která z nich mají nejhorší? Proč?"
+              requirements: "Jaké jsou hlavní překážky, které by nařízení mělo zohlednit? Jaké jsou hodnoty a zásady, které je třeba dodržet? Jaké budou náklady na uplatňování nařízení? Jaké subjekty budou pověřeny, aby je prosadily?"
+              stakeholders: "Kdo je uplatňováním tohoto nařízení nejvíce zasažen? Kdo utrpí důsledky? Byla tato témata zapojena do diskuse o tomto návrhu? Jak?"
+            solution:
+              article: "Zadejte text prvního článku a ujistěte se, že jeho výklad je jedinečný. Vložte definici pojmů nebo výrazů, které jsou předmětem nedorozumění."
+              pros: "Seznam a shrnutí hlavních výhod a silných stránek tohoto řešení Uveďte zúčastněné strany u výhod."
+              cons: "Seznam a shrnutí hlavních problémů a nevýhod tohoto řešení. Uveďte zúčastněné strany u nevýhod."
         press:
+          problems_title_label: "Jaké je poselství, které chcete sdělit? Jaké překážky se od něj očekávají v jeho správném pochopení a dalším předání? Existují články nebo nedávné zprávy, které chcete replikovat nebo kterým chcete provést úpravu?"
+          problems_title: "Zpráva k přenosu"
+          problems_question: "Jaké je poselství, které chcete sdělit? Jaké překážky se od něj očekávají v jeho správném pochopení a dalším předání? Existují články nebo nedávné zprávy, které chcete replikovat nebo kterým chcete provést úpravu?"
+          suggestion_html: |
+            <div><b>Příklad:</b></div>
+            <div>Reklama vydání verze 3. z Airesis.</div>
+            <div>Musíme inzerovat vydání verze 3. Airesis, který má důležité rysy pro veřejnou správu. Je nezbytné vysvětlit, co je Airesis a uchvátit pozornost tisku, vzhledem k nedávným zvěstem o používání Airesis v Bílém domě.</div>
           solution:
             title: "Řešení 1"
             maintitle: "Název"
             subtitle: "Podtitulek"
             body: "Tělo"
             conclusion: "Závěry"
+            deep: "Vhledy"
           paragraph:
             target: "Příjemci/cíl"
           question:
