@@ -306,7 +306,16 @@ cs-CZ:
     helpus:
       paragraph1:
         title: "Proč vás žádáme, abyste podpořili Airesis?"
+      paragraph4:
+        content_html: |
+          <p><a href="mailto:%{mail}">Kontaktujte nás</a> pro další informace</p>
+      paragraph5:
+        title: "Šiřte informace o tomto projektu"
+      title: "Pomozte nám, jak sami chcete, kdokoliv může přispět"
+      description: "Přispějte k realizaci nástroje schopného rozvoje elektronické demokracie"
     linkback:
+      paragraph1:
+        title: "Pomozte nám šířit povědomí o tomto nástroji elektronické demokracie"
       paragraph2:
         title: "Bannery"
       paragraph3:
