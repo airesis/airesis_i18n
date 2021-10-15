@@ -57,6 +57,8 @@ cs-CZ:
         what_i_cant_do: "Co nemohu dělat?"
         certified_from: "Certifikováno od"
         group_level_permission_title: "Oprávnění na úrovni skupiny"
+        admin_permissions: "Jste správcem této skupiny a máte všechna oprávnění"
+        certified_cannot_edit_info: "Jste ověřený uživatel: nemůžete upravovat své jméno, příjmení a e-mail"
         twitter_url: "URL Twitteru"
         meetup_url: "URL Meetup"
       send_message:
@@ -78,6 +80,7 @@ cs-CZ:
         show_urls: "Zobrazit uživatelům Facebook, Google+ a LinkedIn URL"
         private_messages: "Přijímat soukromé zprávy od ostatních uživatelů"
         join_accounts: "Připojit se k jinému účtu"
+        joined_all: "Již jste se připojili ke všem dostupným poskytovatelům. Děkujeme!"
         join_facebook: "Připojte se k vašemu účtu na Facebooku"
         join_google: "Připojte se ke svému účtu Google"
         join_twitter: "Připojte se k vašemu Twitter účtu"
@@ -88,6 +91,7 @@ cs-CZ:
         rotp: "Povolit bezpečnostní token"
         rotp_title: "Bezpečnostní token"
         rotp_confirm_enable: "Jste si jisti, že chcete povolit bezpečnostní token?"
+        rotp_confirm_disable: "Jste si jisti, že chcete povolit bezpečnostní token?"
         mail_language: "Jazyk e-mailů"
         time_zone: "Časové pásmo"
       border_preferences:
@@ -162,6 +166,8 @@ cs-CZ:
         new_group: "Nová skupina"
         create_button: "Vytvořte skupinu!"
         change_permissions_button: "Chcete změnit standardní oprávnění?"
+        change_permissions_title: "Změnit standardní oprávnění nových uživatelů"
+        change_permissions_description: "Toto jsou akce, které mohou noví uživatelé provádět v rámci skupiny: nezapomeňte, že je můžete vždy upravovat a vytvářet nové role!"
         errors_title: "Omlouváme se, ale příspěvek nelze vložit"
         tags:
           title: "Štítky (oddělené čárkou)"
@@ -170,6 +176,12 @@ cs-CZ:
         change_permissions: "V nastavení rolí a oprávnění můžete vždy změnit oprávnění členů."
         remove_user_confirm: "Opravdu chcete odstranit %{name} ze skupiny?"
         modify_group: "Upravit skupinu"
+        private_warning_html: |
+          <b> Rady pro soukromé skupiny </ b> <br/>
+          Veřejné návrhy budou stále viditelné zvenčí. <br/>
+          Přejděte na <b>%{link}</b> a deaktivujte možnost 'Návrhy viditelné zvenčí. <br/>
+          Příspěvky publikované na stěně skupiny jsou vždy viditelné na osobních stránkách uživatelů. <br/>
+          Veřejná fóra jsou vždy viditelná zvenku.
       layout:
         home_button: "ZEĎ"
         proposals_button: "NÁVRHY"
@@ -254,6 +266,10 @@ cs-CZ:
           switch_area_participants: "Přepnout na správu uživatelů"
           list_title: "Seznam pracovních oblastí. Pro každého z nich vyberte účastníky nebo klikněte na jméno pro správu rolí a oprávnění v této pracovní oblasti"
           title: "Nastavení pracovního prostoru"
+          switch_area_management: "Přepnout na správu pracovních oblastí"
+          confirm_deletion: "Jste si jisti, že chcete odstranit tento pracovní prostor?"
+          manage_roles_in_area: "Upravit role a oprávnění v pracovní oblasti %{area}"
+        manage_group_areas: "Spravovat uživatele v pracovních oblastech"
         form:
           title: "Nový pracovní prostor"
       default_admin_title: "Administrátor"
@@ -460,6 +476,20 @@ cs-CZ:
       new:
         quorum_prompt: "Vybrat usnášeníschopnost"
         quorum_help: "Nápověda"
+        step_classification: "Klasifikace"
+        step_similar: "Podobné návrhy"
+        step_3: "Problémy/překážky"
+        step_dates: "Rozprava a hlasování"
+        step_3_title: "Komplexně popište problémy, kterým čelíte, a jaké cíle chce návrh splnit."
+        create_button: "Vytvořit návrh"
+        title: "Nový návrh"
+        title_group: "%{name}:"
+        title_synthetic: "Cíl (shrnutí)"
+        title_placeholder: "např. 'Usnadnit převoz jízdních kol ve vlacích'"
+        interest_borders_tkn_placeholder: "Města, regiony nebo státy, které mají zájem o návrh"
+        tags_list_placeholder: "Vložte nějaké štítky pro váš návrh"
+        step_1_title: "Můžete představovat problém k řešení, myšlenku na vylepšení, iniciativu k organizování ... Důležité je mít jasný cíl: %{app_short_name} ti pomůže s pomocí jiných lidí, prostřednictvím procesu společného řešení problémů."
+        step_2_title: "Možná už někdo podobný návrh vytvořil: zkontrolujte níže a případně zastavte vytváření a vyhněte se duplicitě. Spojené síly dávají sílu vašim myšlenkám! Kliknutím na název budou návrhy otevřeny v nové kartě."
         category_prompt: "--Vyberte kategorii--"
         tags_separated_by_comma: "(oddělené čárkou)"
         cannot_add_proposal_in_work_area: "Nemáte dostatečná oprávnění k přidání návrhu v jakékoli oblasti"
