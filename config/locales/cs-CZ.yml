@@ -1088,6 +1088,7 @@ cs-CZ:
         area_created: "Chyba při vytváření pracovního prostoru"
       creation: "Chyba při vytváření skupiny"
     proposals:
+      insert_comment: "Chyba při přidávání komentáře"
       contribute_report: "Chyba při hlášení příspěvku"
       updating: "Chyba při aktualizaci"
       proposal_rank: "Chyba při nahrávání vašeho hodnocení. Omlouváme se za nepříjemnosti. Opakujte akci později. Děkujeme"
@@ -1293,10 +1294,15 @@ cs-CZ:
         email_label: "E-mail:"
       edit_preferences: "Předvolby"
       click_here: "Klikněte zde"
+    new_contribute:
+      view_proposal: "%{click_here} pro zobrazení návrhu."
     text_update:
+      integrated_contributes: "Gratulujeme! Následující příspěvky, které jste vložili, byly začleněny editory:"
+      view_proposal_2: "%{click_here} a ověřte, že nový text obsahuje vaše návrhy. <br/> Pokud nejste spokojeni, můžete své příspěvky vždy vrátit zpět do diskuse tím, že je stáhnete z historie."
       connect: "Přihlásit se k %{name}"
     unintegrated_contribute:
       view_proposal: "Příspěvek, který byl začleněn do návrhu <b>%{click_here}</b> , byl jeho autorem vrácen k opětovnému projednání."
+      view_proposal_2: "%{click_here} proč si autor nemyslel, že jeho příspěvek byl správně integrován."
       verify: "Zkontrolovat"
     user_message:
       hi_user: "Ahoj %{user},"
@@ -1313,6 +1319,14 @@ cs-CZ:
       hi_user: "Dobrý den!"
       invitation: "%{user} vás pozval k účasti ve skupině <b>%{group}</b> na %{app_name}, platformy e-demokracie pro přímou a participativní demokracii."
       message_intro: "Zde je zpráva, kterou vám poslal:"
+      accept: "Přijmout"
+      reject: "Odmítnout"
+      greetings: "Zdravíme!"
+      no_more_button: "Žádné další pozvánky"
+      subject: "Byli jste pozváni do %{group_name}"
+    update_contribute:
+      title: "%{user} změnil svůj příspěvek"
+      view_proposal: "%{click_here} pro zobrazení příspěvku a změnu vašeho hodnocení"
     new_forum_topic:
       view: "pro zobrazení tématu na %{app_short_name}."
   words:
