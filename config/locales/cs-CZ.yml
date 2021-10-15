@@ -490,6 +490,11 @@ cs-CZ:
         tags_list_placeholder: "Vložte nějaké štítky pro váš návrh"
         step_1_title: "Můžete představovat problém k řešení, myšlenku na vylepšení, iniciativu k organizování ... Důležité je mít jasný cíl: %{app_short_name} ti pomůže s pomocí jiných lidí, prostřednictvím procesu společného řešení problémů."
         step_2_title: "Možná už někdo podobný návrh vytvořil: zkontrolujte níže a případně zastavte vytváření a vyhněte se duplicitě. Spojené síly dávají sílu vašim myšlenkám! Kliknutím na název budou návrhy otevřeny v nové kartě."
+        step_4_title: "Výborně! Vyberte si své možnosti a klikněte na \"Vytvořit návrh\" pro dokončení průvodce. Váš návrh bude zahrnut do %{app_short_name} a budete moci přidávat více informací, kdykoli budete chtít více informací."
+        step_4_footer_html: |
+          %{app_short_name} vám pomůže dosáhnout vašeho cíle prostřednictvím sdíleného řešení problémů: uživatelé navrhnou změny a příspěvky k vašemu textu a pak <b>je na vás</b> abyste integrovali ty nejoblíbenější.<br/>
+          Pokud to neuděláte, váš návrh nepůjde do fáze hlasování.<br/>
+          Hodně štěstí a nebojte se:  mohou vám pomoci ostatní lidé ve vašem úkolu.
         category_prompt: "--Vyberte kategorii--"
         tags_separated_by_comma: "(oddělené čárkou)"
         cannot_add_proposal_in_work_area: "Nemáte dostatečná oprávnění k přidání návrhu v jakékoli oblasti"
@@ -652,6 +657,8 @@ cs-CZ:
         vote_neutral: 'Neutrální hodnocení'
         vote_negative: 'Negativní hodnocení'
         confirm_positive: "Potvrďte vaše POSITIVE hlasování o návrhu%{name}'? Jakmile budete hlasovat, nelze jej upravit."
+        confirm_neutral: "Potvrzujete svůj NEUTRÁLNÍ hlas o návrhu %{name}'? Jakmile budete hlasovat, nelze jej upravit."
+        confirm_negative: "Potvrzujete svůj NEGATIVNÍ hlas o návrhu %{name}? Jakmile jste hlasovali, nelze jej upravit."
         confirm_schulze: "Potvrzujete své hlasování o návrhu %{name}? Jakmile jste hlasovali, nelze jej upravit."
     blog_posts:
       new:
@@ -855,6 +862,13 @@ cs-CZ:
           Pokud Airesis ví, na kterých území máte zájem, může vám doporučit, abyste sledovali a zobrazovali nové návrhy související s vaším územím.<br />
       rank_bar_explain:
         title: "Ukazatel vyspělosti"
+        description_html: |
+          Lišta vyspělosti se nachází v levém bočním menu.<br />
+          Lišta zobrazuje vyspělost schválení návrhu mezi účastníky.<br />
+          Můžete navrhnout, zda je text návrhu úplný nebo nepoužívá dvě tlačítka pod lištou.<br />
+          Editor návrhu musí psát text na základě příspěvků ostatních účastníků. Až se změní text návrhu, budete mít možnost navrhnout, zda se vám nový text líbí, nebo ne, a v důsledku toho změníte své předchozí hodnocení.<br />
+          Barva pruhu ukazuje, zda je návrh připraven jít do hlasovací fáze, zatímco délka ukazuje, kolik času a/nebo hodnocení zbývá před skončením diskuse.<br />
+        newdescription2: "Lišta zobrazuje vyspělost návrhu mezi účastníky a kolik času zbývá do konce debaty."
         newdescription4: "Když si myslíte, že je rozprava ukončena a editor integroval příspěvky ostatních uživatelů, použijte toto tlačítko"
         newdescription5: "Pokud si myslíte, že by rozprava měla pokračovat, použijte toto tlačítko"
         newdescription6: "Až bude text návrhu aktualizován, budete moci změnit své hodnocení"
@@ -1287,6 +1301,20 @@ cs-CZ:
     user_message:
       hi_user: "Ahoj %{user},"
       user_sent_message: "%{user} vám poslal následující zprávu:"
+    blocked:
+      hi_user: "Ahoj %{user},"
+      deleted_correctly: "informujeme vás, že váš účet byl úspěšně odstraněn z Airesis."
+      greetings: "Zdravím,<br/> Airesis tým"
+    new_blog_comment:
+      title: "%{user} přidal nový komentář k vašemu příspěvku %{post}."
+      click_here: "Klikněte zde"
+      view_post: "%{click_here} pro zobrazení příspěvku."
+    invite:
+      hi_user: "Dobrý den!"
+      invitation: "%{user} vás pozval k účasti ve skupině <b>%{group}</b> na %{app_name}, platformy e-demokracie pro přímou a participativní demokracii."
+      message_intro: "Zde je zpráva, kterou vám poslal:"
+    new_forum_topic:
+      view: "pro zobrazení tématu na %{app_short_name}."
   words:
     contribute: "příspěvek"
     comment: "komentář"
