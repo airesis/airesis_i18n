@@ -122,6 +122,11 @@ cs-CZ:
         default_role_name: "Výchozí název role"
     errors:
       template:
+        header:
+          one: '1 chyba zabránila tomuto %{model} v uložení'
+          few: '%{count} chyby zabránily %{model} v uložení'
+          many: '%{count} chyb zabránilo %{model} v uložení'
+          other: '%{count} chyb zabránilo %{model} v uložení'
         body: 'Vyskytly se problémy s následujícími poli'
       messages:
         inclusion: 'není zahrnuto v seznamu'
