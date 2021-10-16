@@ -119,6 +119,7 @@ cs-CZ:
             title: "Řešení 1"
             maintitle: "Název"
             subtitle: "Podtitulek"
+            incipit: "Začátek"
             body: "Tělo"
             conclusion: "Závěry"
             deep: "Vhledy"
