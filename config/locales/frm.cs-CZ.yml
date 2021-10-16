@@ -88,6 +88,11 @@ cs-CZ:
       forums: Fóra
       new: Vytváření nového fóra
       edit: "Úprava fóra %{title}"
+      posts_count:
+        one: 1 příspěvek
+        few: "%{count} příspěvky"
+        many: "%{count} příspěvků"
+        other: "%{count} příspěvky"
       moderator_tools: "Moderační nástroje"
       topic_tools: "Nástroje témat"
       admin_tools: "Administrativní nástroje"
