@@ -1319,6 +1319,7 @@ cs-CZ:
       hi_user: "Dobrý den!"
       invitation: "%{user} vás pozval k účasti ve skupině <b>%{group}</b> na %{app_name}, platformy e-demokracie pro přímou a participativní demokracii."
       message_intro: "Zde je zpráva, kterou vám poslal:"
+      no_more: "Pokud nechcete dostávat pozvánky od %{app_name} klikněte na \"Žádné další pozvánky\"."
       accept: "Přijmout"
       reject: "Odmítnout"
       greetings: "Zdravíme!"
@@ -1343,6 +1344,9 @@ cs-CZ:
     searches:
       index:
         groups_divider: "Skupiny"
+  tags:
+    index:
+      tag_title: "%{proposals} návrhy - %{blog_posts} blogových příspěvků - %{groups} skupiny"
   blog_posts:
     form:
       published_title: "Váš příspěvek bude zveřejněn na webu a každý jej bude moci vidět, sdílet a komentovat"
