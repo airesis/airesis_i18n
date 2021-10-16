@@ -1375,6 +1375,10 @@ cs-CZ:
   users:
     confirm_credentials:
       title: "Potvrďte vaše přihlašovací údaje"
+      instructions_html: |
+        Na Airesis již existuje jiný uživatel se stejnou e-mailovou adresou.<br />
+        Vložte své heslo na Airesis, abyste se mohli připojit ke dvěma účtům.<br />
+        Pokud si heslo nepamatujete, přejděte na stránku "Obnovit heslo".
     statistics:
       title: "Statistiky uživatelů"
       last_login: "Poslední přihlášení"
