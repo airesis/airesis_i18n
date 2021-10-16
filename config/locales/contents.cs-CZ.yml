@@ -259,6 +259,9 @@ cs-CZ:
       description: "Nástroj přímé demokracie narodil se rozhodovat a jednat kolektivně na návrhy a nápady vytvořené kdekoli pro jakékoliv téma."
       paragraph_1:
         title: "Sociální síť pro E-demokracie"
+        content_html: |
+          <p>Airesis je <a href="http://en.wikipedia.org/wiki/Free_software">svobodná softwarová platforma</a> vytvořená týmem italských vývojářů a přispěvatelů, která umožňuje komunitám a skupinám organizovat se produktivním způsobem podle zásad <a href="http://en.wikipedia.org/wiki/Direct_democracy" target="_blank">přímé demokracie</a> a participace.
+          </p>
       paragraph_2:
         title: "Sestavte svou skupinu"
         content_html: |
@@ -270,6 +273,13 @@ cs-CZ:
           </p>
       paragraph_3:
         title: "Uspořádat účastníky"
+        content_html: |
+          <p>
+          Výkonný mechanismus pro práci s <strong>rolemi a oprávněními </strong> vám umožní dát skupině takovou podobu, jakou si přejete: můžete mít uživatele s více či méně oprávněními v závislosti na jejich roli, hierarchicky uspořádat účastníky nebo poskytnout všem stejná práva a povinnosti. </br>
+          To je důvod, proč se Airesis dokonale hodí pro potřeby <strong>společnosti </strong>, stejně jako <strong>demokratického hnutí </strong> nebo <strong>asociace </strong>.
+          </p>
+
+          Translated with www.DeepL.com/Translator (free version)
       paragraph_4:
         title: "Navrhnout a promyslet"
       paragraph_5:
