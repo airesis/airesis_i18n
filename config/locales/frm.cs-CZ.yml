@@ -5,6 +5,11 @@ cs-CZ:
       topics: Témata
       topic: Témá
       posts: Příspěvky
+      posts_count:
+        one: 1 příspěvek
+        few: "%{count} příspěvky"
+        many: "%{count} příspěvků"
+        other: "%{count} příspěvků"
       flagged_for_spam: Váš účet byl označen jako spam.
       cannot_create_topic: Momentálně nelze vytvořit nové téma.
       cannot_create_post: Momentálně nelze vytvořit nový příspěvek.
