@@ -1014,6 +1014,9 @@ cs-CZ:
       bad_score_explain: |
         Pokud návrh získá vyspělost vyšší než <b>%{good_score}%</b>, postoupí do fáze hlasování. Pokud však získá vyspělost pod <b>%{bad_score}%</b>, bude vyřazen.<br/>
         Debata bude pokračovat, pokud hodnocení zůstane mezi těmito dvěma hraničními hodnotami, bez ohledu na čas nebo počet hodnocení
+      bad_score_explain_past: |
+        Pokud návrh získal vyspělost vyšší než <b>%{good_score}%</b>, postoupil do fáze hlasování. Pokud však získal vyspělost pod <b>%{bad_score}%</b>, byl opuštěn.<br/>
+        Debata pokračovala, pokud hodnocení zůstalo mezi těmito dvěma hraničními hodnotami, bez ohledu na čas nebo počet hodnocení
       until_date: "(do %{date})"
       help_content:
         participants: "Minimální počet účastníků:"
