@@ -282,8 +282,21 @@ cs-CZ:
           Translated with www.DeepL.com/Translator (free version)
       paragraph_4:
         title: "Navrhnout a promyslet"
+        content_html: |
+          <p>
+          Srdcem Airesisu jsou návrhy: k dispozici budete mít několik šablon, pomocí kterých můžete zapojit lidi ve skupině a vyslechnout si jejich názor. <br/>
+          Můžete diskutovat o jednotlivých tématech, vytvářet společný program nebo demokraticky hlasovat o kandidátech. <br/>
+          Nástroj Návrhy v systému Airesis je nyní nejpropracovanějším a nejkomplexnějším systémem pro hromadné projednávání, který je k dispozici online! <br/>
+          V tuto chvíli %{users} uživatelů diskutuje o %{proposals} návrzích.
+          </p>
       paragraph_5:
         title: "Uspořádejte vaše události, zvyšte účast"
+        content_html: |
+          <p>
+          Kompletní systém pro plánování akcí vám umožní lépe organizovat aktivity vaší skupiny. <br/>
+          Účastníci budou upozorněni na nadcházející události a budou moci synchronizovat svůj kalendář s kalendářem skupiny. <br/>
+          Každý účastník pak může určit, zda se akce zúčastní, či nikoliv, což organizátorům umožní lépe řídit událost.
+          </p>
       paragraph_6:
         title: "Archiv sdílených dokumentů"
         content_html: |
@@ -329,11 +342,20 @@ cs-CZ:
           za účelem uplatnění procesu neustálého zlepšování. </ p>
       paragraph2:
         title: "Vývoj Airesis"
+        content_html: |
+          <p>Níže uvedený seznam ukazuje změny Airesis během jeho vývoje.
+          Najdete zde také zvýrazněné novinky plánované pro budoucí verze.
+          Pokud vás zajímá, jaké funkce se vyvíjejí, sledujte tuto stránku často a vraťte se k nám!</p>
       title: "Vývoj Airesis"
       description: "Naše cesta k realizaci nového softwaru, myšlenka schopná rozvíjet demokracii, která přišla do života na webu."
     helpus:
       paragraph1:
         title: "Proč vás žádáme, abyste podpořili Airesis?"
+        content_html: |
+          <p>
+          Dobrovolníci pracující na tomto projektu věnují značné množství času tomu, aby přinesli užitečný software pro naše komunity.
+          Samotná dobrovolnická práce a tvrdá práce však nestačí: na udržování veřejně dostupného serveru, aktualizaci softwaru a experimentování s novými funkcemi a vylepšeními, které vyvíjíme, jsou potřeba peníze. Kromě toho je zapotřebí placená práce na údržbě serveru a uživatelském helpdesku.
+          </p>
       paragraph4:
         content_html: |
           <p><a href="mailto:%{mail}">Kontaktujte nás</a> pro další informace</p>
@@ -344,6 +366,9 @@ cs-CZ:
     linkback:
       paragraph1:
         title: "Pomozte nám šířit povědomí o tomto nástroji elektronické demokracie"
+        content_html: |
+          <p>Náš projekt musí být znám všem, kterým záleží na budoucnosti naší demokracie. Pomozte nám ho šířit na blozích a fórech, na Facebooku, na sociálních sítích a všude tam, kde je touha po demokracii.</p>
+          <p>Náš odkaz nebo banner můžete použít na svých stránkách nebo na stránkách přátel, sdružení či organizací, které sdílejí cíle projektu. Chcete-li banner nebo odkaz zobrazit na svých webových stránkách, zkopírujte níže uvedený kód a vložte jej do kódu stránky na místě, kde jej chcete zobrazit:</p>
       paragraph2:
         title: "Bannery"
       paragraph3:
@@ -362,14 +387,54 @@ cs-CZ:
         banner: "Banner"
       paragraph1:
         title: "Airesis je otevřen všem"
+        description_html: |
+          <p> Airesis je projekt založený na bezplatném a open-source softwaru. K jeho rozvoji můžete přispět: </p>
+          <ul>
+          <li> Používání platformy a kontrola chyb </li>
+          <li> Poskytování komentářů a návrhů ohledně použitelnosti a uživatelského rozhraní platformy </li>
+          <li> Programování uživatelského rozhraní platformy (POVINNÉ: znalost HTML, CSS nebo Javascriptu) </li>
+          <li> Programování platformy na straně serveru (VYŽADOVÁNO: znalost jazyka Ruby a/nebo C ++ nebo vůle naučit se jej s pomocí dalších dobrovolníků) </li>
+          <li> Podpořte nás darem nebo sháněním zakladatelů </li>
+          <li> <a href="#linkback"> Propagace projektu </a> a správa jeho komunikace </li>
+          </ul>
+          <p> Abychom nám pomohli koordinovat naše aktivity, používáme tyto nástroje. Začít můžete zde: </p>
+          <ul>
+          <li> <a href="https://groups.google.com/forum/?fromgroups=#!forum/agora-20" target="_blank"> Vývojová skupina ve Skupinách Google </a> </li>
+          <li> <a href="https://www.facebook.com/groups/airesis/" target="_blank"> Vývojová skupina na Faceooku </a> </li>
+          <li> <a href="https://github.com/coorasse/Airesis" target="_blank"> Zdrojový kód </a> </li>
+          </ul>
       paragraph2:
         title: "Jak přispět"
+        description_html: |
+          <p>Kdokoli může pomoci v open-source projektu Airesis: nemusíte být programátorem, protože i tak je zde spousta činností, které je třeba udělat.
+          V projektu <a href=%{chisiamo}>jsme všichni neplacení dobrovolníci</a>, kteří sdílejí vůli pomáhat občanům transparentně se organizovat a podílet se na vytváření špičkové demokracie.</p>
+          <p>Pro nahlášení své dostupnosti vyplňte <a href="%{form}" target="_blank"><strong>tento formulář</strong></a>, nebo kontaktujte <strong>Nicolu Giulietti</strong>&nbsp;- %{email} - mobil. %{cell} v případě nejasností nebo chcete-li získat více informací.</p>
+          <p>Tady je seznam dobrovolníků, které potřebujeme:</p>
       developer:
         title: "Vývojář"
+        description_html: |
+          <p>
+          Vývojář je osoba, která skutečně píše kód Airesisu. <br/>
+          Řídí se specifikacemi a pokyny, na kterých se dohodl tým.
+          Vývojář píše nové moduly v jazyce Ruby, pokud budou přidány nové funkce, nebo stránky HTML, přičemž v případě funkcí uživatelského rozhraní používá také CSS a Javascript.<br/>
+          Novým uchazečům bude <a href="%{chisiamo}" target="_blank">hlavní programátor</a> pomáhat a vést je v prvních krocích, aby mohli snadno začít pracovat.
+          </p>
       analyst:
         title: "Analytik"
+        description_html: |
+          <p>
+          Je spojovacím článkem mezi uživateli a vývojovým týmem. <br/>
+          Shromažďuje zpětnou vazbu od skupin a občanů a poskytuje vývojovému týmu všechny potřebné podklady pro vývoj nových funkcí nebo vylepšení těch stávajících.<br/>
+          Zpracovává algoritmy a také klady a zápory jednotlivých funkcí a jejich případné nevhodné využití.
+          </p>
       first_lev_tester:
         title: "Testující první úrovně"
+        description_html: |
+          <p>
+          Prvostupňový tester je osoba, která je k dispozici pro testování systému, aniž by nutně musela poskytovat jakoukoli technickou zpětnou vazbu ke kódu.
+          Od testera první úrovně se vyžaduje, aby věděl, jak systém spustit, a uměl používat internetový prohlížeč nebo systém sociálních sítí, ale nevyžaduje se od něj znalost žádného programovacího jazyka.<br/>
+          Zpětná vazba od testera první úrovně se pak bude týkat neočekávaných výskytů ze systému a chyb.
+          </p>
       sec_lev_tester:
         title: "Testující druhé úrovně"
         description_html: |
