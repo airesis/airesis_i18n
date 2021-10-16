@@ -298,6 +298,11 @@ cs-CZ:
         name: "Jméno"
         role: "Role"
         member_since: "Členem od"
+        participants_html:
+          one: <b>1</b> účastník
+          few: '%{count} účastníci'
+          many: '%{count} účastníků'
+          other: '%{count} účastníci'
         added_by: "Přidal"
         remove_all: "Odstranit vše"
       statistics:
@@ -1299,6 +1304,12 @@ cs-CZ:
     locale_changed: "Lokalizace byla úspěšně změněna"
     blog_post_updated: "Váš příspěvek byl úspěšně aktualizován"
     blog_post_deleted: "Váš příspěvek byl úspěšně odstraněn"
+    participation_request:
+      multiple_request:
+        one: "Požádali jste o účast v %{count} nové skupině"
+        few: "Požádali jste o účast ve %{count} nových skupinách"
+        many: "Požádali jste o účast v %{count} nových skupinách"
+        other: "Požádali jste o účast v %{count} nových skupinách"
     group_participations:
       destroy_ok_1: "Opustili jste skupinu. V budoucnu můžete požádat o další účast"
       request_sent: "Žádost o účast byla úspěšně odeslána"
@@ -1315,6 +1326,11 @@ cs-CZ:
       create: "Uživatel přidán do oblasti"
       destroy: "Uživatel odebrán z oblasti"
     group_invitations:
+      create:
+        one: "Pozvánka byla správně odeslána do %{email_addresses}"
+        few: "%{count} pozvánky byly správě odeslány do %{email_addresses}"
+        many: "%{count} pozvánek bylo správně odesláno do %{email_addresses}"
+        other: "%{count} pozvánek bylo správně odesláno do %{email_addresses}"
       accept: "Pozvánka přijata! Nyní jste členem této skupiny."
       reject: "Pozvánka zamítnuta."
       anymore: "Pozvánka byla zamítnuta. Další pozvánky nebudete dostávat."
@@ -1460,6 +1476,8 @@ cs-CZ:
       authors_added: "Chyba při přidávání nových autorů"
   draft_tooltip: "Tento příspěvek je viditelný pouze vám"
   reserved_tooltip: "Tento příspěvek je viditelný pouze pro účastníky skupiny"
+  placeholder:
+    find: "Najít věci"
   keep_reading: "pokračovat ve čtení"
   feedback_subject: "%{time} - Nová zpětná vazba"
   delete_event_confirm: "Opravdu chcete odstranit tento komentář?"
