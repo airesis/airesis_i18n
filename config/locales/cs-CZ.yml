@@ -80,6 +80,7 @@ cs-CZ:
         show_urls: "Zobrazit uživatelům Facebook, Google+ a LinkedIn URL"
         private_messages: "Přijímat soukromé zprávy od ostatních uživatelů"
         join_accounts: "Připojit se k jinému účtu"
+        join_accounts_description: "V %{app_short_name} máte možnost připojit všechny své sociální sítě k jednomu účtu. <br/> Vyberte poskytovatele, ke kterému se chcete připojit, a budete mít vždy přístup ke stejnému účtu z Facebooku, Googlu, Twitteru a mnoha dalších!"
         joined_all: "Již jste se připojili ke všem dostupným poskytovatelům. Děkujeme!"
         join_facebook: "Připojte se k vašemu účtu na Facebooku"
         join_google: "Připojte se ke svému účtu Google"
@@ -212,6 +213,12 @@ cs-CZ:
         last_proposals: "Nedávno přidané návrhy"
         last_topics: "Poslední téma bylo vytvořeno"
         next_events: "Další události"
+        rule_book_html: |
+          Pravidla lze vybrat při vytváření skupiny.<br/>
+          <p>Všichni uživatelé mohou od nynějška vytvářet skupiny.</p>
+          <p>Při účasti ve skupině se příspěvky ve vašem blogu mohou zobrazovat na zdi skupiny.</p>
+          <p>Skupiny mohou udržovat návrhy, vytvářet nové, vytvářet průzkumy a organizovat členy pomocí rolí a oprávnění.</p>
+          <p>Prostřednictvím  <b>Nastavení</b> je možné změnit  pravidla skupiny.</p>
         short_url: "Krátká adresa URL"
         featured_post:
           'true': Odepnout
@@ -237,6 +244,7 @@ cs-CZ:
           simple_percentage_description: "a vyspělost rovnající se, nebo vyšší než %{good_score}%."
           advanced_participation_description: "(%{current_number} z %{total_number} , které mají práva) <b>(průměrná hodnota: %{average})</b>"
           advanced_percentage_description: "Pokud je však vyspělost nižší než %{bad_score}%, je od návrhu upuštěno."
+          advanced_percentage_description3: "Návrh zůstává v diskusi, pokud je vyspělost mezi dvěma hraničními hodnotami."
         active: "Aktivní"
         name: "Název"
         participants: "Účastníci"
@@ -266,6 +274,7 @@ cs-CZ:
           switch_area_participants: "Přepnout na správu uživatelů"
           list_title: "Seznam pracovních oblastí. Pro každého z nich vyberte účastníky nebo klikněte na jméno pro správu rolí a oprávnění v této pracovní oblasti"
           title: "Nastavení pracovního prostoru"
+          list_participants: "Seznam členů skupiny. Vyberte pro každého z nich pracovní oblast, do které patří."
           switch_area_management: "Přepnout na správu pracovních oblastí"
           confirm_deletion: "Jste si jisti, že chcete odstranit tento pracovní prostor?"
           manage_roles_in_area: "Upravit role a oprávnění v pracovní oblasti %{area}"
@@ -869,13 +878,29 @@ cs-CZ:
           Editor návrhu musí psát text na základě příspěvků ostatních účastníků. Až se změní text návrhu, budete mít možnost navrhnout, zda se vám nový text líbí, nebo ne, a v důsledku toho změníte své předchozí hodnocení.<br />
           Barva pruhu ukazuje, zda je návrh připraven jít do hlasovací fáze, zatímco délka ukazuje, kolik času a/nebo hodnocení zbývá před skončením diskuse.<br />
         newdescription2: "Lišta zobrazuje vyspělost návrhu mezi účastníky a kolik času zbývá do konce debaty."
+        newdescription3: "Barva zobrazuje, pokud je návrh schopen přejít do fáze hlasování, zatímco délka zobrazuje, kolik času zbývá před ukončením rozpravy"
         newdescription4: "Když si myslíte, že je rozprava ukončena a editor integroval příspěvky ostatních uživatelů, použijte toto tlačítko"
         newdescription5: "Pokud si myslíte, že by rozprava měla pokračovat, použijte toto tlačítko"
         newdescription6: "Až bude text návrhu aktualizován, budete moci změnit své hodnocení"
       welcome:
         title_html: <b>Vítejte na %{app_short_name}, %{user}</b><br/>
+        description_html: |
+          Tento krátký návod vám pomůže při prvních volbách uvnitř platformy.<br/>
+          Toto je vaše pracovní plocha: zde najdete všechny informace, které potřebujete ke kontaktu s vaším územím.<br/>
+          Můžete spravovat své návrhy a skupiny, prohlížet si události ve svém okolí a navazovat kontakty s ostatními občany.<br/>
+          Vylepšete Airesis zasláním zpětné vazby na adresu <a href="mailto:info@airesis.it">info@airesis.it</a>.<br/>
+      choose_follow:
+        description_html: |
+          Zde jsou nejaktivnější skupiny na území uvnitř vašich zájmových hranic.<br />
+          Vyberte si ty, do kterých se chcete zapojit, abyste s nimi mohli navázat kontakt a účastnit se jejich akcí a návrhů.<br />
+          Výběr provedete jedním kliknutím, výběr zrušíte dalším kliknutím.<br />
       first_proposal:
         title_html: Váš první příspěvek
+        description_html: |
+          Je čas vyjádřit svůj názor!<br />
+          Přidejte návrh, nápad nebo zpětnou vazbu z území. <br />
+          Přispějte do diskuse a dejte o sobě vědět ostatním uživatelům. <br/>
+          Váš návrh bude přidán do %{proposal} a může být podpořen skupinami na vašem území!
     proposal_histories:
       index:
         title: "%{title} - Historie revizí"
@@ -976,6 +1001,7 @@ cs-CZ:
       good_score_condition: "Návrh se bude hlasovat, pokud má vyspělost větší než <b>%{good_score}%</b> a %{participants}, jinak bude opuštěn"
       good_score_condition_past: "Návrh se bude hlasovat, pokud má vyspělost větší než <b>%{good_score}%</b> a %{participants}, jinak bude opuštěn"
     quorum:
+      or_condition_1: "Rozprava skončí v %{time} nebo při %{participants_num}."
       or_condition_1_past: "Rozprava trvala %{time} nebo když %{participants_num}."
       and_condition_1: "Rozprava skončí v %{time}, ale bude pokračovat, dokud %{participants_num}."
       and_condition_1_past: "Rozprava trvala %{time}, ale pokračovala, dokud %{participants_num}."
@@ -984,6 +1010,10 @@ cs-CZ:
       participants_condition_1: "Rozprava bude pokračovat do %{participants_num}."
       participants_condition_1_past: "Rozprava pokračovala až do %{participants_num}."
       good_score_condition: "Návrh se bude hlasovat, pokud má vyspělost větší než <b>%{good_score}%</b>, jinak bude opuštěn"
+      good_score_condition_past: "Návrh by byl předložen k hlasování, pokud by měl vyspělost vyšší než <b>%{good_score}%</b>jinak bude opuštěn"
+      bad_score_explain: |
+        Pokud návrh získá vyspělost vyšší než <b>%{good_score}%</b>, postoupí do fáze hlasování. Pokud však získá vyspělost pod <b>%{bad_score}%</b>, bude vyřazen.<br/>
+        Debata bude pokračovat, pokud hodnocení zůstane mezi těmito dvěma hraničními hodnotami, bez ohledu na čas nebo počet hodnocení
       until_date: "(do %{date})"
       help_content:
         participants: "Minimální počet účastníků:"
