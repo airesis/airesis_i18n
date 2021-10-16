@@ -1088,6 +1088,9 @@ cs-CZ:
         area_created: "Chyba při vytváření pracovního prostoru"
       creation: "Chyba při vytváření skupiny"
     proposals:
+      view_proposal: "Nemáte dostatečná oprávnění k zobrazení tohoto návrhu"
+      participate: "Nemáte potřebná oprávnění k aktivní účasti na tomto návrhu. Obraťte se na správce skupiny"
+      modify_comments: "Nemůžete upravovat komentáře, které vám nepatří"
       insert_comment: "Chyba při přidávání komentáře"
       contribute_report: "Chyba při hlášení příspěvku"
       updating: "Chyba při aktualizaci"
@@ -1295,6 +1298,7 @@ cs-CZ:
       edit_preferences: "Předvolby"
       click_here: "Klikněte zde"
     new_contribute:
+      title: "%{user} vložil do návrhu nový %{comment}"
       view_proposal: "%{click_here} pro zobrazení návrhu."
     text_update:
       integrated_contributes: "Gratulujeme! Následující příspěvky, které jste vložili, byly začleněny editory:"
