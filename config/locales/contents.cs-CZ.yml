@@ -284,8 +284,20 @@ cs-CZ:
           </p>
       paragraph_7:
         title: "Prostor k diskuzi"
+        content_html: |
+          <p>
+          Nejlepší nápady vycházejí z dialogu: proto se společnost Airesis rozhodla pro každou skupinu vytvořit fórum, kde si uživatelé mohou vyměňovat nápady, návrhy nebo si prostě jen volně povídat. <br/>
+          Poskytnuté fórum je kompletní a moderní, plně konfigurovatelné a rozšiřitelné skupinou, která si jej může uspořádat podle svých potřeb. Můžete mít veřejné diskuse, viditelné pro všechny, a soukromé diskuse, vyhrazené účastníkům skupiny. Uspořádejte fórum do sekcí a vytvořte skupiny moderátorů! Vše je ve vašich rukou! <br/>
+          V současné době jsou v Airesis již %{topics} aktivní diskuse!
+          </p>
       paragraph_8:
         title: "Mnohem, mnohem více"
+        content_html: |
+          <p>
+          Funkce Airesis nejsou jen tyto! <br/>
+          Podívejte se na naši %{intro_page} a objevte desítky nástrojů a možností, které jsou pro vaši skupinu k dispozici. <br/>
+          Objevte nesčetné množství funkcí, které vám pomohou skupinu spravovat a umožní vám ji co nejlépe zorganizovat: pokud máte nějakou potřebu, jistě vám ji Airesis umožní uspokojit!
+          </p>
         link: 'uvítací stránka'
     press:
       title: "Tisková zpráva"
