@@ -1019,6 +1019,13 @@ cs-CZ:
         Debata pokračovala, pokud hodnocení zůstalo mezi těmito dvěma hraničními hodnotami, bez ohledu na čas nebo počet hodnocení
       until_date: "(do %{date})"
       help_content:
+        description_html: |
+          <h3>Co je to usnášeníschopnosti?</h3>
+          <p>
+          Usnášeníschopnost neboli kvorum je parametr, který určuje, kdy končí rozprava o návrhu a začíná fáze hlasování.<br />
+          Při vytváření nového návrhu vyberete jedno z kvor dostupných v otevřeném prostoru nebo jedno z kvor dostupných ve vaší skupině.<br />
+          V tomto okně můžete kliknout na jednotlivá kvora, abyste si mohli prohlédnout jejich charakteristiku: najdete zde popis a seznam zvolených parametrů.<br />
+          </p>
         participants: "Minimální počet účastníků:"
         not_specified: "Nespecifikováno"
         time_discussion: "Doba diskuse:"
@@ -1083,13 +1090,19 @@ cs-CZ:
   tooltips:
     random_stack_1: "<strong>Jak to funguje?</strong><br/>Nejprve se zobrazí nové příspěvky nebo příspěvky, které jste ještě nehodnotili, a poté příspěvky, které jste již hodnotili, v pořadí podle oblíbenosti. <br/> <b>Poznámka</b>: Vaše hodnocení toto pořadí změní!"
     random_stack_2: "<strong>Jak to funguje?</strong><br/>Příspěvky jsou zobrazeny v chronologickém pořadí začínajícím nejnovějším"
+    random_stack_3: "<strong>Jak to funguje?</strong><br/>Příspěvky jsou zobrazeny podle pořadí popularity. <br/> <b>Poznámka</b>: Vaše hodnocení změní toto pořadí!"
+    miglioricontributi: "<strong> Jak mohu pomoci? </strong> <br/> Příspěvky by neměly vyjadřovat pouhé uznání, ale podstatné změny textu: konstruktivní kritika, alternativy nebo vylepšení návrhu pomohou autorovi vypracovat společné shrnutí textu. <br /> <br/> <b>Poznámka</b>: Nejcennějším příspěvkem je to, co umožní najít řešení návrhu!"
     voglioredigere: "Požádejte editory, aby vám umožnili upravovat text návrhu na základě příspěvků uživatelů."
     voteup: "Návrh je dostatečně vyspělý a může jít do hlasovací fáze (můžete změnit své hodnocení, když je text návrhu aktualizován)"
     votedown: "Text návrhu ještě není zralý, protože příspěvky uživatelů musí být integrovány (můžete změnit své hodnocení, až bude text návrhu aktualizován)"
     valutazioni: "celkový počet obdržených hodnocení"
     gradimento: "procento pozitivních hodnocení z celkového počtu"
+    nickname: "<strong> V tomto návrhu jsme se rozhodli diskutovat anonymně </strong> <br /> Tímto způsobem není možné, aby ostatní uživatelé věděli, kdo jste, a zároveň není možné, abyste vy věděli, kdo jsou ostatní. <br /> Pracovat a diskutovat tímto způsobem budete moci rozhodovat a hodnotit návrhy pouze na základě obsahu. <br/> <b>Poznámka</b>: Po skončení diskuse a schválení nebo zamítnutí návrhu pak uvidíte skutečná jména uživatelů!"
+    manage_noise: "<strong> Správa zbytečných příspěvků</strong> <br /> Účastníci vám poradí, které příspěvky jsou pro diskusi zbytečné. Pomocí tohoto panelu je můžete odstranit a umístit do složky Odstraněné příspěvky."
+    view_noise: "Zobrazit <strong>neužitečné příspěvky</strong> <br /> Zde najdete všechny příspěvky, které editoři  návrhu označili za zbytečné a odstranili je z diskuse."
     quorum_minutes: "do <b>%{date}</b> v %{time}"
     quorum_valutations: "dokud nebude hodnoceno <b>alespoň %{valutations} lidmi</b>"
+    quorum_description: "Návrh bude projednán za %{conditions}. Do fáze hlasování postoupí pouze v případě, že jeho <b>vyspělost</b> bude vyšší než <b>%{good_score}%</b>."
   group: "skupina"
   saving: "Ukládání..."
   sending: "Odesílání..."
@@ -1120,6 +1133,7 @@ cs-CZ:
       work_area:
         area_created: "Chyba při vytváření pracovního prostoru"
       creation: "Chyba při vytváření skupiny"
+      post_removed: "Chyba při odstraňování příspěvku ze skupiny"
     proposals:
       view_proposal: "Nemáte dostatečná oprávnění k zobrazení tohoto návrhu"
       participate: "Nemáte potřebná oprávnění k aktivní účasti na tomto návrhu. Obraťte se na správce skupiny"
