@@ -276,6 +276,12 @@ cs-CZ:
         title: "Uspořádejte vaše události, zvyšte účast"
       paragraph_6:
         title: "Archiv sdílených dokumentů"
+        content_html: |
+          <p>
+          Vaše skupina bude mít k dispozici velmi užitečný a kompletní Archiv dokumentů, který lze uspořádat do složek a podsložek, aby měli všichni účastníci k dispozici všechny potřebné materiály. <br/>
+          Snadné používání Archivu dokumentů Airesis je bezkonkurenční: soubory můžete na server nahrát pouhým přetažením z počítače do prohlížeče. <br/>
+          Stačí několik sekund a nahrávání bude dokončeno! Zeptejte se našeho týmu, jak zvýšit úložný prostor, který máte k dispozici, a nahrajte až 1 GB dokumentů.
+          </p>
       paragraph_7:
         title: "Prostor k diskuzi"
       paragraph_8:
