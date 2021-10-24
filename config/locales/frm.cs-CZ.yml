@@ -93,6 +93,11 @@ cs-CZ:
       forums: Fóra
       new: Vytváření nového fóra
       edit: "Úprava fóra %{title}"
+      topics_count:
+        one: 1 téma
+        few: "%{count} témata"
+        many: "%{count} témat"
+        other: "%{count} témat"
       posts_count:
         one: 1 příspěvek
         few: "%{count} příspěvky"
