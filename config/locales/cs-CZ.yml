@@ -609,6 +609,11 @@ cs-CZ:
       new_rank_bar:
         creation: "VYTVOŘENO: %{time_ago}<br/>%{date}"
         end: "KONEC ROZPRAVY:<br/> %{date}"
+        valutations:
+          one: "%{count} HODNOCENÍ"
+          few: "%{count} HODNOCENÍ"
+          many: "%{count} HODNOCENÍ"
+          other: "%{count} HODNOCENÍ"
         good_score: "POZITIVNÍ USNÁŠENÍSCHOPNOST %{score}%"
         bad_score: "NEGATIVE USNÁŠENÍSCHOPNOST %{score}%"
         now: "%{left} ZBÝVÁ"
@@ -1006,6 +1011,16 @@ cs-CZ:
       good_score_condition: "Návrh se bude hlasovat, pokud má vyspělost větší než <b>%{good_score}%</b> a %{participants}, jinak bude opuštěn"
       good_score_condition_past: "Návrh se bude hlasovat, pokud má vyspělost větší než <b>%{good_score}%</b> a %{participants}, jinak bude opuštěn"
     quorum:
+      participants:
+        one: '<b>člověk</b> se zúčastní'
+        few: 'zúčastnili se <b>%{count}</b> lidé'
+        many: 'zúčastnilo se <b>%{count}</b> lidí'
+        other: 'zúčastnilo se <b>%{count}</b> lidí'
+      participants_past:
+        one: '<b>člověk</b> se zúčastnil'
+        few: 'zúčastnili se <b>%{count}</b> lidé'
+        many: 'zúčastnilo se <b>%{count}</b> lidí'
+        other: 'účastnilo se <b>%{count}</b> osob'
       or_condition_1: "Rozprava skončí v %{time} nebo při %{participants_num}."
       or_condition_1_past: "Rozprava trvala %{time} nebo když %{participants_num}."
       and_condition_1: "Rozprava skončí v %{time}, ale bude pokračovat, dokud %{participants_num}."
@@ -1364,6 +1379,11 @@ cs-CZ:
       title: "%{user} vložil do návrhu nový %{comment}"
       view_proposal: "%{click_here} pro zobrazení návrhu."
     text_update:
+      view_proposal:
+        one: "Návrh <b>%{proposal}</b> byl aktualizován."
+        few: "Návrh <b>%{proposal}</b> byl aktualizován %{count} krát."
+        many: "Návrh <b>%{proposal}</b> byl aktualizován %{count} krát."
+        other: "Návrh <b>%{proposal}</b> byl aktualizován %{count} krát."
       integrated_contributes: "Gratulujeme! Následující příspěvky, které jste vložili, byly začleněny editory:"
       view_proposal_2: "%{click_here} a ověřte, že nový text obsahuje vaše návrhy. <br/> Pokud nejste spokojeni, můžete své příspěvky vždy vrátit zpět do diskuse tím, že je stáhnete z historie."
       connect: "Přihlásit se k %{name}"
