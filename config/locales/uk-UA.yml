@@ -4,6 +4,9 @@ uk-UA:
     create:
       group: "Ви не можете створити більше однієї групи на день"
   permissions_required: "Ви не маєте права виконати цю дію"
+  test: "Тест"
+  open_space: 'Відкритий простір'
+  hello: 'Привіт, світ'
   pages:
     top_panel:
       facebook_login: 'Увійти через Facebook'
