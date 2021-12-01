@@ -9,9 +9,28 @@ uk-UA:
   hello: 'Привіт, світ'
   pages:
     top_panel:
+      login: 'Увійдіть або зареєструйтесь'
       facebook_login: 'Увійти через Facebook'
+      google_login: 'Увійти через Google'
+      twitter_login: "Увійти через Twitter"
+      meetup_login: "Увійти через Meetup"
+      linkedin_login: "Увійти через LinkedIn"
+      openid_login: "Увійти через OpenID"
+      find_groups: 'Пошук груп'
+      parma_login: "Увійти через Parma"
+      tecnologiedemocratiche_login: "Увійти через Tecnologie Democratiche"
+      tecnologiedemocratiche: "Tecnologie Democratiche"
+    user:
+      notifications: 'Дзвінки та сповіщення'
+      privacy: "Акаунт та приватність"
     users:
+      index:
+        title: 'Список користувачів'
       show:
+        groups_title: "Мої групи"
+        group_column: "Група"
+        role_column: "Роль"
+        get_out_of_group_button: "Покинути цю групу"
         name_label: "Ім'я"
         surname_label: "Прізвище"
         email_label: "Email"
