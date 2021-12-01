@@ -31,6 +31,8 @@ uk-UA:
         group_column: "Група"
         role_column: "Роль"
         get_out_of_group_button: "Покинути цю групу"
+        get_out_of_group_confermation: "Ви впевнені?\n"
+        secret_vote: "Таємний код"
         name_label: "Ім'я"
         surname_label: "Прізвище"
         email_label: "Email"
