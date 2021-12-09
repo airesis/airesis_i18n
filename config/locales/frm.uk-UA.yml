@@ -1,5 +1,9 @@
 uk-UA:
   frm:
+    general:
+      forum: Форум
+      topics: Теми
+      topic: Тема
     admin:
       forum:
         new: Створення нового форуму
