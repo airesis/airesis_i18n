@@ -103,6 +103,12 @@ ru-RU:
       datetimepicker: "%Y-%m-%d %H:%M"
     am: "утра"
     pm: "вечера"
+    left:
+      seconds:
+        one: "1 секунда"
+        few: "%{count} секунды"
+        many: "%{count} секунды "
+        other: "%{count} секунд"
   datetime:
     added_on: "%{date}"
     distance_in_words:
