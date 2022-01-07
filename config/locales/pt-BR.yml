@@ -80,6 +80,7 @@ pt-BR:
         show_urls: "Mostrar URLs Facebook, Google+ e LinkedIn para outros usuários"
         private_messages: "Receber mensagens privadas de outros usuários"
         join_accounts: "Conectar outra conta"
+        join_accounts_description: "No %{app_short_name} , você tem a capacidade de conectar toda a sua Rede Social a uma única conta. <br/> Selecione o provedor para se conectar e você sempre poderá acessar a mesma conta do Facebook, Google, Twitter e muito mais!"
         joined_all: "Você já conectou todos os provedores disponíveis. Obrigado!"
         join_facebook: "Conecte a sua conta Facebook"
         join_google: "Conecte a sua conta Google"
@@ -176,6 +177,12 @@ pt-BR:
         change_permissions: "Em Funções e Configurações de Permissões, você poderá alterar as permissões dos membros."
         remove_user_confirm: "Tem certeza que deseja remover %{name} do grupo?"
         modify_group: "Modificar o grupo"
+        private_warning_html: |
+          <b> Conselhos para grupos privados </ b> <br/>
+          Propostas públicas ainda serão visíveis a partir de fora. <br/>
+          Vá para <b>%{link}</b> e desative a opção 'Propostas visíveis do lado de fora'. <br/>
+          Os posts publicados na parede do grupo são sempre visíveis nas páginas pessoais dos usuários. <br/>
+          fóruns públicos são sempre visíveis no lado de fora.
       layout:
         home_button: "PAREDE"
         proposals_button: "PROPOSTAS"
