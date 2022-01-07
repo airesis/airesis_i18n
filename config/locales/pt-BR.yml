@@ -19,6 +19,7 @@ pt-BR:
       find_groups: 'Procurar Grupos'
       parma_login: "Entrar com Parma"
       tecnologiedemocratiche_login: "Entrar com Tecnologie Democratiche"
+      tecnologiedemocratiche: "Tecnologias democráticas"
     user:
       notifications: 'Alarmes e Notificações'
       privacy: "Conta e privacidade"
