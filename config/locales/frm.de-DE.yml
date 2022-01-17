@@ -91,6 +91,12 @@ de-DE:
       forums: Foren
       new: Neues Forum erstellen
       edit: "Bearbeiten des %{title} Forums"
+      topics_count:
+        one: 1 Thema
+        other: "%{count} Themen"
+      posts_count:
+        one: 1 Beitrag
+        other: "%{count} Beiträge"
       moderator_tools: "Moderatorwerkzeuge"
       topic_tools: "Themen-Tools"
       admin_tools: "Administration"
