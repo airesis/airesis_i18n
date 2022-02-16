@@ -365,3 +365,12 @@ uk-UA:
           <li><a href="https://groups.google.com/forum/?fromgroups=#!forum/agora-20" target="_blank"> Група розробників у Google Groups</a></li>
           <li><a href="https://www.facebook.com/groups/airesis/" target="_blank">Група розвитку у Facebook</a></li>
           <li><a href="https://github.com/coorasse/Airesis" target="_blank">Вихідний код</a></li></ul>
+      paragraph2:
+        title: "Як зробити свій внесок"
+        description_html: |
+          <p>Будь-хто може допомогти в проєкті Airesis з відкритим кодом: вам не обов’язково бути програмістом, оскільки в будь-якому випадку є багато діяльності.
+          У проекті<a href=%{chisiamo}> ми всі — безоплатні волонтери</a>, які поділяють бажання допомогти громадянам організовуватись прозоро та брати участь у створенні демократії найвищого рівня.</p>
+          <p>Щоб повідомити про вашу доступність, будь ласка, заповніть <a href="%{form}" target="_blank">цю форму</strong></a>, або зв’яжіться<strong> з відділенням%{cell} Nicola Giulietti</strong>&nbsp;%{email} у разі сумнівів або якщо вам потрібна додаткова інформація.</p>
+          <p>Ось список волонтерів, які нам потрібні:</p>
+      developer:
+        title: "Розробник\n"
