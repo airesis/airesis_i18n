@@ -5,10 +5,30 @@ uk-UA:
       topics: Теми
       topic: Тема
       posts: Публікації
+      flagged_for_spam: Ваш обліковий запис позначено як спам.
+      cannot_create_topic: Зараз ви не можете створити нову тему.
+      cannot_create_post: Зараз ви не можете створити нову публікацію.
+    access_denied: "Вам не дозволено це робити."
     admin:
+      area: Область адміністратора
+      back_to_admin: "Повернутися до адміністратора"
+      back_to_forums: "Назад до форумів"
+      back_to_groups: "Назад до груп\n"
       forum:
+        moderator_groups: Групи модераторів
+        index: Управління Форумами
         new: Створення нового форуму
         new_link: Новий форум
+        deleted: Вибраний форум видалено
+        created: "Цей форум створено.\n"
+        not_created: Не вдалося створити цей форум
+        updated: Цей форум оновлено.
+        not_updated: Не вдалося оновити цей форум
+      forums:
+        edit: Редагувати
+        delete: Видалити
+        category: "Категорія\n"
+        delete_confirm: "Ви впевнені, що хочете видалити цей форум?\n"
       mod:
         index: Керувати групами
         new: Нова Група
