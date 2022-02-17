@@ -29,15 +29,33 @@ uk-UA:
         delete: Видалити
         category: "Категорія\n"
         delete_confirm: "Ви впевнені, що хочете видалити цей форум?\n"
+        index:
+          last_post: Остання публікація
+          none: Жодного
+          moderators: Модератори
+          no_category: (без категорії)
+        default_private: "Приватний Форум"
+        default_public: "Публічний Форум"
+        default_private_description: "Форум призначений для учасників групи"
+        default_public_description: "Форум видимий для всіх користувачів Airesis. Також для користувачів, які не входять до групи"
       mod:
         index: Керувати групами
         new: Нова Група
+        created: Група успішно створена
+        not_created: Не вдалося створити групу
+        deleted: Вибрану групу було видалено
+        members: "Учасники в %{group}"
       mods:
         show:
           add_member: Додати
+          add_a_new_member: "Додати нового учасника"
+          current_members: "Поточні учасники"
         edit: Редагувати
         delete: Видалити
         name: Ім'я
+      category:
+        index: Керування категоріями форуму
+        new: Створення нової категорії форуму
     common:
       pages: Сторінки
     errors:
