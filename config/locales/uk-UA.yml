@@ -63,8 +63,16 @@ uk-UA:
         meetup_url: "URL-адреса Meetup"
       send_message:
         subject_label: "Тема"
+        massive_email: "Надсилання масової пошти"
+      left_panel:
+        general_info: "Загальна інформація"
+        alarm_and_notifications: "Будильник та сповіщення"
+        geographic_borders: "Географічні кордони"
+        account_and_privacy: "Обліковий запис і конфіденційність"
+        title: "НАЛАШТУВАННЯ ТА ПЕРЕВАГИ"
       alarm_preferences:
         receive_on_address: "Отримуйте розсилку на %{email}"
+        alerts: "Сповіщення"
       privacy_preferences:
         join_facebook: "Приєднайте свій обліковий запис Facebook"
         join_google: "Під'єднайте свій профіль Google"
