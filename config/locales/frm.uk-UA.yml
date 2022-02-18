@@ -5,6 +5,11 @@ uk-UA:
       topics: Теми
       topic: Тема
       posts: Публікації
+      posts_count:
+        one: Публікація
+        few: "Публікацій%{count}"
+        many: "Публікацій%{count}"
+        other: "%{count}Публікації"
       flagged_for_spam: Ваш обліковий запис позначено як спам.
       cannot_create_topic: Зараз ви не можете створити нову тему.
       cannot_create_post: Зараз ви не можете створити нову публікацію.
