@@ -74,11 +74,31 @@ uk-UA:
         index: "Керування групами модераторів"
         show:
           title: "Керування модераторами"
+        new: "Нова група модераторів"
+        created: "Успішно створено групу модераторів"
+        not_created: "Помилка при створенні групи модераторів"
+        deleted: "Групу модераторів успішно видалено"
     common:
       pages: Сторінки
     errors:
       not_signed_in: Ви повинні авторизуватись
       access_denied: Доступ заборонено.
+    forum:
+      header: "Перегляд %{title}"
+      forums: Форуми
+      new: Створення нового форуму
+      edit: "Редагування %{title} форуму"
+      topics_count:
+        one: 1 тема
+        few: "%{count} Мало тем"
+        many: "%{count} Багато тем"
+        other: "%{count}Інші теми"
+      posts_count:
+        one: Одна публікація
+        few: "%{count} Мало публікацій"
+        many: " %{count} Багато публікацій"
+        other: "%{count}Інші публікації"
+      moderator_tools: "Інструменти модерації"
     topic:
       reply: Відповісти
       locked:
