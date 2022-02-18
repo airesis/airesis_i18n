@@ -99,6 +99,15 @@ uk-UA:
         many: " %{count} Багато публікацій"
         other: "%{count}Інші публікації"
       moderator_tools: "Інструменти модерації"
+      topic_tools: "Інструменти теми"
+      admin_tools: "Інструменти адміністратора"
+      title: "Новий форум"
+    forums:
+      index:
+        title: Форум
+        forum: Форум
+        views: Перегляди
+        last_post: 'Остання публікація:'
     topic:
       reply: Відповісти
       locked:
