@@ -186,3 +186,61 @@ uk-UA:
         approve: Затвердити
         spam: Спам
         success: Вибрані публікації пройшли модерацію
+      post:
+        pending_review: Наразі ця публікація очікує на розгляд. Переглядати її можуть лише користувач, який її опублікував, і модератори.
+        in_reply_to: У відповідь на
+    moderation:
+      index:
+        title: "Інструменти модерації для %{forum}"
+  helpers:
+    submit:
+      frm_forum:
+        create: Створити форум
+        update: Оновити форум
+      topic:
+        create: Створити тему
+        update: Оновити тему
+      frm_mod:
+        create: Створити групу
+      frm_category:
+        create: Створити категорію
+        update: "Оновити категорію\n\n"
+  simple_form:
+    labels:
+      frm_forum:
+        category: Категорія
+        title: Заголовок
+        name: Заголовок
+        description: Опис
+        moderators: Модератори
+        visible_outside: Видно за межами групи
+      topic:
+        subject: Тема
+        locked: Заблоковано
+        pinned: Закріплено
+        hidden: Приховано
+        posts:
+          text: Текст
+      frm_category:
+        name: Назва
+      post:
+        text: Текст
+      frm_mod:
+        name: Назва
+  #General stuff
+  time_ago_in_words: "%{time}тому"
+  ago: "тому"
+  ago_by: "тому"
+  by: за
+  started_by: "Розпочато з"
+  are_you_sure: Ви впевнені?
+  lst_post: "Остання публікація"
+  last_post: "Остання тема"
+  back_to_forums: "Повернутися до форуму"
+  pages:
+    forum_groups:
+      index:
+        create_first: Груп модераторів поки немає. Створіть першу!
+  info:
+    members:
+      ok_message: Користувача успішно додано до групи
