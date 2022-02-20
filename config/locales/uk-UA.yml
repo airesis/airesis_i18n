@@ -128,7 +128,15 @@ uk-UA:
         confirm_role_change2: "зміниться з\n"
         confirm_role_change3: "до"
         confirm_role_change4: "Підтвердити?"
+        confirm_delete_1: "Операція може зайняти кілька хвилин. Ви впевнені, що хочете видалити  %{count} користувачів із групи?"
+        confirm_delete_2: "Ця операція передбачає видалення всіх %{count} вибраних користувачів і не може бути скасована! Ви дійсно впевнені, що хочете продовжити?"
+      edit_proposals:
+        title: 'Керувати кворумом та пропозиціями'
       index:
+        title: 'Всі групи '
+        open_space_button: "Перейти до Open Space"
+        create_group_button: "Створити нову групу"
+        find_group_label: "Знайдіть групу, яка вас може зацікавити"
         show_more: "Показати більше груп"
         tags: "Мітки"
         participants_number: "Кількість учасників"
