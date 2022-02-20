@@ -50,8 +50,14 @@ uk:
         description: Прес-реліз
       EVENT:
         description: Організація заходу
+      ESTIMATE:
+        description: Оцінка вартості
       AGENDA:
         description: Розклад
+      CANDIDATES:
+        description: Голосувати за кандидата
+      SIMPLE:
+        description: Проста пропозиція
     group_actions:
       accept_participation_requests:
         description: Додати учасників в групу
@@ -108,3 +114,17 @@ uk:
           voted: "%{title} — Голосування припинено"
           24_hours: "Дебати на тему %{title} закінчуються завтра!"
           1_hour: "Дебати на тему %{title} закінчуються через годину!"
+          24_hours_vote: "Голосування за %{title} закінчується завтра!"
+          1_hour_vote: "Голосування за %{title} закінчується через годину!"
+        message:
+          waiting_date: "%{name} вибрав дату голосування за пропозицію <b>%{title}</b>"
+          in_vote: "Пропозиція <b>%{title}</b> зараз проходить голосування!"
+          abandoned: "Пропозиція <b>%{title}</b> не пройшла обговорення та була відкинута"
+          rejected: "Користувачі відхилили пропозицію <b>%{title}</b>"
+          voted: "%{title} — Голосування закінчилося"
+          24_hours: "Дебати щодо <b>%{title}</b> закінчуються завтра!"
+          1_hour: "Дебати щодо <b>%{title}</b> закінчуються через годину!"
+          24_hours_vote: "Голосування за <b>%{title}</b> закінчується завтра!"
+          1_hour_vote: "Голосування за <b>%{title}</b> закінчується через годину!"
+      change_status_mine:
+        description: Зміна статусу моїх пропозицій
