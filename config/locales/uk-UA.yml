@@ -63,6 +63,7 @@ uk-UA:
         meetup_url: "URL-адреса Meetup"
       send_message:
         subject_label: "Тема"
+        body_label: "Тіло"
         massive_email: "Надсилання масової пошти"
       left_panel:
         general_info: "Загальна інформація"
@@ -137,17 +138,27 @@ uk-UA:
         open_space_button: "Перейти до Open Space"
         create_group_button: "Створити нову групу"
         find_group_label: "Знайдіть групу, яка вас може зацікавити"
+        find_title: "Шукайте в назві або описі групи"
+        find_button: "Пошук"
+        groups_list: "Групи, в яких ви берете участь"
         show_more: "Показати більше груп"
+        search_description: "Використовуйте інструмент пошуку або клацніть тег, щоб знайти групи, які вас цікавлять"
+        insert_query_or_place: "Ви повинні ввести щонайменше три символи або географічну межу"
         tags: "Мітки"
         participants_number: "Кількість учасників"
         proposals_number: "Кількість пропозицій"
         events_number: "Кількість подій"
         no_results: "Групу не знайдено"
         limit_reached: "Можна створювати тільки одну групу на добу"
+        switchButton:
+          exact_border: "Точний пошук: пошук у всіх групах, які використовують цю точну географічну межу"
       new:
         title: 'Створити нову групу'
         new_group: "Нова група"
         create_button: "Створити групу"
+        errors_title: "Вибачте, але пост не можна вставити:"
+      edit:
+        change_permissions: "У налаштуваннях ролей і дозволів ви завжди можете змінити дозволи користувачів."
       layout:
         calendar: "КАЛЕНДАР"
       show:
