@@ -83,6 +83,9 @@ uk:
     notification_types:
       new_public_events:
         description: Нові публічні події
+      new_valutation:
+        message:
+          one: "Пропозиція <b>%{title}</b> отримала нову оцінку"
       new_contributes:
         message:
           other: "У пропозиції <b>%{title}</b> є <b>%{count}</b> нових внесків"
