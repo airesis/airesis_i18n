@@ -90,6 +90,10 @@ uk-UA:
         options: "Параметри"
         rotp: "Невірний ключ безпеки"
         rotp_title: "Ключ безпеки"
+        rotp_confirm_enable: "Ви впевнені, що хочете ввімкнути токен безпеки?"
+        rotp_confirm_disable: "Ви впевнені, що хочете вимкнути токен безпеки?"
+        mail_language: "Мова для електронних листів"
+        time_zone: "Часовий пояс"
     groups:
       administration_panel:
         events: 'Події та зустрічі'
