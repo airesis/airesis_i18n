@@ -175,6 +175,8 @@ uk-UA:
       edit:
         title: 'Редагувати налаштування групи'
         change_permissions: "У налаштуваннях ролей і дозволів ви завжди можете змінити дозволи користувачів."
+        remove_user_confirm: "Ви впевнені, що хочете видалити %{name} з групи?"
+        modify_group: "Змінити групу"
         private_warning_html: |
           <b> Поради для приватних груп </ b> <br/>
           Публічні пропозиції все одно будуть помітні ззовні. <br/>
@@ -189,13 +191,24 @@ uk-UA:
         rules_button: "Правила"
         post_button: "Опублікувати на стіні групи"
         blog_button: "Створити мій блог"
+        participants_list: "Список учасників"
+        invite_button: "Запросіть друзів!"
+        show_all_participants: "Показати всі %{count} ..."
+        show_all_admins: "Показати всі %{count} ..."
+        show_all_requests: "Показати всі %{count} ..."
+        participants_full_list: "Повний список учасників групи"
         no_participants: "У цій групі ще немає користувачів."
         no_blogs_yet: "У цій групі ще немає публікацій у блозі, незабаром поверніться."
+        waiting_participation_requests: "Запити на участь чекають відповіді"
+        accept_request_button: "Прийняти"
+        reject_request_button: "Відхилити"
+        ask_participate_button: "Попросити стати частиною групи"
         destroy_button: "Видалити"
         confirm_destroy: "ВИ ВИДАЛЯЄТЕ ГРУПУ!!! Ви впевнені, що хочете це зробити?"
         list_permissions:
           title: "Список ваших дозволів всередині групи"
           button: "Список дозволів"
+        print_all_participants: "Роздрукувати список учасників"
         featured_post:
           'false': Закріпити!
       header:
