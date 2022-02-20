@@ -40,8 +40,16 @@ uk:
       zh:
         description: Китайська
     proposal_types:
+      STANDARD:
+        description: Стандартна пропозиція
       POLL:
         description: Опитування
+      RULE_BOOK:
+        description: Книга правил
+      PRESS:
+        description: Прес-реліз
+      EVENT:
+        description: Організація заходу
       AGENDA:
         description: Розклад
     group_actions:
@@ -69,3 +77,34 @@ uk:
     notification_types:
       new_public_events:
         description: Нові публічні події
+      new_contributes:
+        message:
+          other: "У пропозиції <b>%{title}</b> є <b>%{count}</b> нових внесків"
+      text_update:
+        description: "Оновлення тексту пропозиції, в якій я беру участь"
+        email_subject:
+          one: "%{title} оновлено"
+          other: "%{title} оновлено %{count} разів"
+        message:
+          one: "Пропозицію <b>%{title}</b> оновлено"
+          other: "Пропозицію <b>%{title}</b> оновлено %{count} разів"
+      new_contributes_mine:
+        description: "Нові внески в моїх пропозиціях"
+        email_subject:
+          one: "%{title} — Додано новий внесок"
+          other: "%{title} — Є %{count} нових внесків"
+        message:
+          zero: "<b>%{name}</b> додав новий внесок у вашу пропозицію <b>%{title}</b>"
+          one: "<b>%{name}</b> додав новий внесок у вашу пропозицію <b>%{title}</b>"
+          other: "У вашій пропозиції <b>%{title}</b> є <b>%{count}</b> нові внески"
+      change_status:
+        description: "Зміна статусу пропозиції, в якій я беру участь"
+        email_subject:
+          wait: "%{title} — Виберіть дату голосування"
+          waiting_date: "%{title} — дату голосування вибрано"
+          in_vote: "%{title} — ПРИХОДЬ ТА ГОЛОСУЙ!"
+          abandoned: "%{title} не пройшов через дебати"
+          rejected: "%{title} відхилено"
+          voted: "%{title} — Голосування припинено"
+          24_hours: "Дебати на тему %{title} закінчуються завтра!"
+          1_hour: "Дебати на тему %{title} закінчуються через годину!"
