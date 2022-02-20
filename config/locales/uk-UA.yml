@@ -238,6 +238,8 @@ uk-UA:
       edit_quorums:
         new_quorum:
           title: "Новий кворум"
+          simple: "Простий"
+          advanced: "Розширений"
         name: "Назва"
         participants: "Дозволи"
         edit_quorum_warning: "Увага! Зміни цього кворуму не вплинуть на пропозиції, які вже використовують його!"
