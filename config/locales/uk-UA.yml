@@ -203,6 +203,7 @@ uk-UA:
         accept_request_button: "Прийняти"
         reject_request_button: "Відхилити"
         ask_participate_button: "Попросити стати частиною групи"
+        remove_post: "Видалити з дошки групи"
         destroy_button: "Видалити"
         confirm_destroy: "ВИ ВИДАЛЯЄТЕ ГРУПУ!!! Ви впевнені, що хочете це зробити?"
         list_permissions:
@@ -230,7 +231,13 @@ uk-UA:
         alarm_settings: "Налаштування"
       documents:
         documents_archive: "Архів документів"
+        storage_size: "Обсяг сховища зайнятий"
+        max_storage_size: "Доступний максимальний розмір зберігання"
+        current_storage_usage: "Використання розміру сховища"
+        not_authorized: "Ви не маєте необхідних дозволів для перегляду документів. Зверніться до адміністратора групи"
       edit_quorums:
+        new_quorum:
+          title: "Новий кворум"
         name: "Назва"
         participants: "Дозволи"
         edit_quorum_warning: "Увага! Зміни цього кворуму не вплинуть на пропозиції, які вже використовують його!"
