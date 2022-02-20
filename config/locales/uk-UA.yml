@@ -94,6 +94,9 @@ uk-UA:
         rotp_confirm_disable: "Ви впевнені, що хочете вимкнути токен безпеки?"
         mail_language: "Мова для електронних листів"
         time_zone: "Часовий пояс"
+      border_preferences:
+        updating: "Будь ласка, зачекайте, поки ми оновимо ваші налаштування відповідно до ваших налаштувань кордону"
+        your_borders: "Ваші географічні кордони інтересів"
     groups:
       administration_panel:
         events: 'Події та зустрічі'
