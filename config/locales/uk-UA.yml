@@ -73,7 +73,12 @@ uk-UA:
       alarm_preferences:
         receive_on_address: "Отримуйте розсилку на %{email}"
         alerts: "Сповіщення"
+        emails: "Електронні листи"
       privacy_preferences:
+        tooltips: "Показати підказки"
+        show_urls: "Показати URL-адреси Facebook, Google+ і LinkedIn користувачам"
+        private_messages: "Отримувати приватні повідомлення від інших користувачів"
+        join_accounts: "Приєднатися до іншого облікового запису"
         join_facebook: "Приєднайте свій обліковий запис Facebook"
         join_google: "Під'єднайте свій профіль Google"
         join_twitter: "Під'єднайте свій профіль на Твіттері"
