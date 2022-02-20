@@ -209,6 +209,9 @@ uk-UA:
           title: "Список ваших дозволів всередині групи"
           button: "Список дозволів"
         print_all_participants: "Роздрукувати список учасників"
+        last_proposals: "Нещодавно додані пропозиції"
+        last_topics: "Остання тема створена"
+        next_events: "Наступні події"
         featured_post:
           'false': Закріпити!
       header:
