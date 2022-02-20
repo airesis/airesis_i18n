@@ -240,6 +240,8 @@ uk-UA:
           title: "Новий кворум"
           simple: "Простий"
           advanced: "Розширений"
+          time_description: "Дебати останні %{days}%{hours}%{minutes}"
+          simple_percentage_description: "і термін погашення дорівнює або перевищує %{good_score}%."
         name: "Назва"
         participants: "Дозволи"
         edit_quorum_warning: "Увага! Зміни цього кворуму не вплинуть на пропозиції, які вже використовують його!"
