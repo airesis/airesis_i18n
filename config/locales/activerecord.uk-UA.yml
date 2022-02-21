@@ -29,10 +29,16 @@ uk-UA:
         image_url: 'Веб-адреса зображення'
         default_role_name: "Яке нове ім'я користувача?"
         default_role_name_placeholder: "Наприклад: користувачі, члени, активісти, пірати"
+        name_placeholder: "Виберіть назву, пов’язану з групою та/або місцем розташування."
         title_bar_placeholder: "Групувати за назвою"
+        description_placeholder: "Це повідомлення буде на першій сторінці групи"
         image_url_placeholder: "Посилання на зображення групи"
+        facebook_page_url_placeholder: "Сторінка групи у Facebook? вставте посилання тут."
+        admin_title: "Як називають адміністраторів групи?"
         private: "Приватна група"
+        rule_book: "Книга правил"
         image: "Завантажити зображення"
+        admin_title_placeholder: "Назва ролі адміністраторів групи (за замовчуванням: адміністратор)"
       blog:
         title: 'Заголовок'
       blog_post:
@@ -63,6 +69,7 @@ uk-UA:
         problems: 'Проблеми'
         objectives: 'Завдання'
         content: 'Текст'
+        interest_borders_tkn: 'Географічні визначні місця'
         tags_list: "Теги"
         quorum_id: "Тривалість дебатів"
         anonima: "Тимчасова анонімність"
@@ -75,12 +82,17 @@ uk-UA:
       proposal_comment:
         content: 'Контент'
       quorum:
+        name: 'Назва кворуму'
+        name_title: 'Будь ласка, введіть коротку пояснювальну назву'
         description: 'Опис / Коротке пояснення'
+        description_title: 'Опис, щоб зрозуміти мету цього кворуму'
         minutes: Тривалість дебатів
         days_m: Дні
         hours_m: години
         minutes_m: Хвилин
         percentage: 'Мінімум учасників'
+        percentage_title: 'Мінімальна кількість користувачів обговорення у відсотках від кількості користувачів у групі'
+        good_score: 'Зрілість'
         vote_minutes: 'Тривалість дебатів'
         vote_percentage: 'Кворум (виборці)'
         vote_good_score: 'Затвердження'
