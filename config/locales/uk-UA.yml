@@ -444,6 +444,8 @@ uk-UA:
         new_valutation_message: "Пропозиція отримала нову оцінку"
         old_editors_title: "Старі редактори"
         new_quorum_title: "Виберіть новий кворум"
+        enable_alerts: "Увімкнути сповіщення"
+        disable_alerts: "Вимкнути сповіщення"
         add_comment: "Додати коментар"
         model_title: "Шаблон"
         nickname_assigned: "Ми призначили вам псевдонім «%{nickname}». Якщо вам це не подобається, ви можете змінити це з меню зліва протягом 10 хвилин"
