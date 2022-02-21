@@ -278,7 +278,14 @@ uk-UA:
           switch_area_management: "Перейти до керування робочою зоною"
           confirm_deletion: "Ви впевнені, що хочете видалити цю робочу область?"
           manage_roles_in_area: "Редагувати ролі та дозволи в робочій області %{area}"
+        manage_group_areas: "Керувати користувачами всередині робочих зон"
+        form:
+          title: "Нова робоча зона"
       default_admin_title: "Адміністратор"
+      invite_your_friends:
+        type_email_addresses: "Введіть адреси електронної пошти, розділивши їх комами"
+        email_not_valid: "Адреса електронної пошти недійсна"
+        text_to_send: "Текст для надсилання (необов'язково)"
       participations:
         search: "Пошук"
         filter: "Фільтр"
