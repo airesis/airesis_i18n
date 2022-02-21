@@ -251,6 +251,15 @@ uk-UA:
         condition: "Умова"
         good_percentage: "% Зрілість"
         bad_percentage: "% Відмова"
+        confirm_deletion: "Ви впевнені, що хочете видалити кворум %{quorum}?"
+        add_quorum: "Створити новий кворум"
+        edit_quorum: "Змінити кворум"
+        configure_proposal_parameters: "Налаштувати параметри пропозицій"
+        default_anonymous_proposal: "Тимчасова анонімність активна"
+        default_private_proposal: "Пропозиції, видимі за межами групи"
+        default_secret_vote: "Таємне голосування"
+        let_editor_change_settings: "Редактори можуть вільно вибирати наведені вище варіанти"
+        time: "Час"
         edit_quorum_warning: "Увага! Зміни цього кворуму не вплинуть на пропозиції, які вже використовують його!"
       edit_work_areas:
         index:
