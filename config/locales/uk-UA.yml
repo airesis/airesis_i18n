@@ -286,13 +286,18 @@ uk-UA:
         type_email_addresses: "Введіть адреси електронної пошти, розділивши їх комами"
         email_not_valid: "Адреса електронної пошти недійсна"
         text_to_send: "Текст для надсилання (необов'язково)"
+        title: "Запросіть друзів приєднатися до групи!"
       participations:
+        list_participations: "Список учасників"
         search: "Пошук"
         filter: "Фільтр"
         anything: "Усе"
+        operations_on_user: "Операції доступні для користувачів"
+        send_email: "Відправити лист"
         surname: "Прізвище"
         name: "Ім'я"
         role: "Роль"
+        member_since: "Учасник з"
         added_by: "Додано"
         remove_all: "Видалити все"
     login:
