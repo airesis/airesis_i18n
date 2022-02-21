@@ -442,6 +442,8 @@ uk-UA:
         what_nickname: "Що це?"
         no_contributes: "Під час голосування внески не відображаються"
         new_valutation_message: "Пропозиція отримала нову оцінку"
+        old_editors_title: "Старі редактори"
+        new_quorum_title: "Виберіть новий кворум"
         add_comment: "Додати коментар"
         model_title: "Шаблон"
         nickname_assigned: "Ми призначили вам псевдонім «%{nickname}». Якщо вам це не подобається, ви можете змінити це з меню зліва протягом 10 хвилин"
