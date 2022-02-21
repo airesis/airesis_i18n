@@ -300,13 +300,24 @@ uk-UA:
         member_since: "Учасник з"
         added_by: "Додано"
         remove_all: "Видалити все"
+      statistics:
+        title: "Обчислено середні значення (останнє оновлення %{date})"
+      archives:
+        page_title: "Архів за %{month}, %{year}"
     login:
       title: 'Увійти'
+    confirmation:
+      title: 'Повторне надсилання інструкцій для підтвердження'
+      submit: 'Надіслати мені інструкції'
     password:
+      title: 'Ви забули пароль?'
+      submit: 'Будь ласка, надішліть мені інструкції щодо відновлення пароля'
       edit:
         new_password: "Новий пароль"
+        confirm_password: "Підтвердьте новий пароль"
         confirm_button: "Змінити пароль"
     registration:
+      title: 'Зареєструватися'
       choose_password: "Вибрати пароль"
       register_button: "Зареєструватися"
     proposals:
