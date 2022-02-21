@@ -318,10 +318,17 @@ uk-UA:
         confirm_button: "Змінити пароль"
     registration:
       title: 'Зареєструватися'
+      email_confirmed: "Якщо ви зареєструєтеся з цією адресою електронної пошти, вам не буде запропоновано підтвердити свою адресу електронної пошти."
       choose_password: "Вибрати пароль"
+      confirm_password: "Підтвердити пароль"
+      accept_conditions: "Прийміть Умови використання"
       register_button: "Зареєструватися"
+      identity_provviders_title: "Увійдіть відразу з вашим улюбленим обліковим записом"
+      accept_privacy: "Прийняти умови конфіденційності"
     proposals:
       index:
+        title: 'Список пропозицій'
+        debate: 'Усі пропозиції, які розглядаються, обговорюються'
         most_popular: "Найпопулярніші"
         login_with: "увійти з:"
         categories_title: "КАТЕГОРІЇ"
