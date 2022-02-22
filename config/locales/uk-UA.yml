@@ -660,6 +660,19 @@ uk-UA:
         volunteers: "Волонтери"
       show:
         your_proposals: "Пропозиції, в яких ви берете участь"
+        proposals:
+          title: "Заголовок"
+          last_edit: "Останнє редагування"
+          authors: "Редактори"
+          notifications: "Сповіщення"
+        notifications:
+          title: "Сповіщення"
+        your_contributes: "Ваші останні внески"
+        no_proposals_to_vote_now: "Наразі немає пропозицій на етапі голосування"
+    open_space:
+      layout:
+        proposals_button: "ПРОПОЗИЦІЇ"
+        calendar_button: "КАЛЕНДАР"
     steps:
       interest_borders:
         description_html: |
