@@ -673,8 +673,30 @@ uk-UA:
       layout:
         proposals_button: "ПРОПОЗИЦІЇ"
         calendar_button: "КАЛЕНДАР"
+        map_button: "КАРТА"
+        groups_button: "ГРУПИ"
+        blogs_button: "БЛОГИ"
+        petitions_button: "ПЕТИЦІЇ"
+        tags_button: "ТЕГИ"
+    proposal_supports:
+      new:
+        panel_title: "Підтвердити підтримку пропозиції"
+        no_available_groups: "Вам не дозволено підтримувати цю пропозицію від імені будь-якої групи"
+      confirm_button: "Підтвердити"
+    calendar:
+      create_event_button: "Створити нову подію"
+    sessions:
+      new:
+        login_label: "Електронна пошта"
+        remember_me_label: "Запам'ятати мене"
+      links:
+        register: "Ще не зареєстровані? Зареєструйтеся!"
+        forgot_password: "Забули пароль?"
+        havent_received_email: "Не отримали електронного листа з підтвердженням?"
     steps:
+      next: "Продовжити"
       interest_borders:
+        title: "Почати брати участь"
         description_html: |
           Встановіть межі своїх географічних інтересів.<br />
           Якщо Airesis знає, які території вас цікавлять, він може запропонувати вам групи, на які слід стежити, і показати нові пропозиції, пов’язані з вашою територією.<br />
@@ -720,11 +742,23 @@ uk-UA:
       send_feedback: "Зворотній зв'язок"
       add_details: "Додати деталі"
       view_preview: "Попередній перегляд"
+    proposal_comments:
+      noise:
+        no_contributes: "Тут немає внесків"
     available_authors:
       index:
         explain_html: |
           Виберіть користувачів, яких ви хочете допомогти вам скласти підсумок пропозиції, і натисніть «Зберегти».<br/>
           Будь обережний! Ці користувачі матимуть однакові дозволи на керування вашою пропозицією.
+    participation_roles:
+      edit:
+        title: "Редагувати роль участі"
+    group_participations:
+      index:
+        title: "Список учасників"
+    certifications:
+      index:
+        title: "Сертифіковані групи"
   models:
     quorum:
       bad_score_explain: |
@@ -742,7 +776,12 @@ uk-UA:
           Коли ви створюєте нову пропозицію, ви вибираєте один із кворумів, доступних у Open Space, або один із кворумів, доступних у вашій групі.<br />
           У цьому вікні ви можете натиснути різні кворуми, щоб переглянути його характеристики: ви знайдете опис і список вибраних параметрів.<br />
           </p>
+        not_specified: "Не вказано"
+        time_discussion: "Період обговорення:"
+        condition: "Умова проходження:"
         at_least_one: "Принаймні один"
+        both: "Обидва"
+        bad_score: "Відмова:"
   proposals:
     create_button: "Створити пропозицію"
   buttons:
