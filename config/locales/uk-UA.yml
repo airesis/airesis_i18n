@@ -544,6 +544,15 @@ uk-UA:
         expand_solutions: "Розгорнути рішення"
         show_contributes: "Показати внески"
         cancel_confirm: "Скасувати дії та показати пропозицію?"
+        update_confirm: "Ви не внесли жодного внеску. Ви впевнені, що хочете продовжити?"
+      manage_noise:
+        available: "Внески, які можна видалити"
+        removed: "Внески видалено з обговорення"
+      contribution_valuation: "Що ви думаєте?"
+      contribution_valuation_again: "Ви передумали?"
+      new_rank_bar:
+        creation: "СТВОРЕННЯ:%{time_ago}<br/>%{date}"
+        end: "ЗАКІНЧЕННЯ ДЕБАТІВ: <br/>%{date}"
       left_panel:
         creation_date: "Дата створення"
         any_date: "Будь-яка дата"
