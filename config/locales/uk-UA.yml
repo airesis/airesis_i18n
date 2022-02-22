@@ -784,6 +784,9 @@ uk-UA:
         bad_score: "Відмова:"
   proposals:
     create_button: "Створити пропозицію"
+    show:
+      ready_for_vote: "Готові до голосування"
+      keep_discuss: "Продовжити обговорення"
   buttons:
     cancel: "Скасувати"
     save: "Зберегти"
