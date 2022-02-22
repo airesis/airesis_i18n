@@ -488,6 +488,13 @@ uk-UA:
           Зачекайте %{minutes} хвилин і %{seconds} секунд.
       tabs:
         last_inserted: "Останнє оновлення"
+      list:
+        authors: "Редактори"
+        support_group: "Групи підтримки"
+        no_proposals: "Поки що немає пропозицій"
+        time_left: "Час вийшов"
+        vote: "Голосування"
+      delete_comment: "Видалити"
       results:
         percentage_column: "Процент"
         positive: "Сприятливий"
