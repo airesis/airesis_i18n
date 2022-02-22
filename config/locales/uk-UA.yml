@@ -787,6 +787,22 @@ uk-UA:
     show:
       ready_for_vote: "Готові до голосування"
       keep_discuss: "Продовжити обговорення"
+    regenerate_button: "Повернути в дебати"
+    edit:
+      expand_all: "Розгорнути все"
+      collapse_all: "Зруйнувати все"
+    schulze_vote_results:
+      results: "Результати"
+      votes: "Голоси"
+      solution: "Рішення"
+      random_ordered_votes: "Голосування у випадковому порядку"
+      number_of_voters: "Кількість виборців"
+      vote: "Їхній голос"
+    authors_list_panel:
+      dont_want_to_be_an_author: "Я більше не хочу бути автором"
+    left_panel:
+      promote_proposal: "Просувати пропозицію"
+      share_with_friends: "Поділитися з друзями"
   buttons:
     cancel: "Скасувати"
     save: "Зберегти"
