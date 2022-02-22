@@ -567,9 +567,34 @@ uk-UA:
     events:
       index:
         title: 'Календар'
+      new:
+        step_3: "Коли"
+        step_4: "Де"
       show:
         map: "Мапа"
+        event_place: "Місце події"
+        when_past: "Коли це було?"
+        when: "Коли?"
+        where_past: "Де це було?"
+        where: "Де?"
+        show_on_map: "Показати на карті"
         reply: "Відповісти!"
+        no_answer: "Ви не відповіли на запрошення"
+        yes_partecipated: "Ви брали участь у заході"
+        no_partecipated: "Ви не брали участь у заході"
+        yes_partecipate: "Ви візьмете участь у заході"
+        no_partecipate: "Ви не будете брати участь у заході\n"
+        with_guests: "З %{field} гостей"
+        participants: "Хто відвідав?"
+        will_partecipate: "Хто відвідає?"
+    votations:
+      show:
+        vote_positive: 'Позитивний рейтинг'
+        vote_neutral: 'Нейтральний рейтинг'
+        vote_negative: 'Негативний рейтинг'
+        confirm_positive: "Підтвердити свій ПОЗИТИВНИЙ голос за пропозицію \"%{name}\"? Після того, як ви проголосували, його не можна змінити."
+        confirm_neutral: "Підтвердити свій НЕЙТРАЛЬНИЙ голос за пропозицію \"%{name}\"? Після того, як ви проголосували, його не можна змінити."
+        confirm_negative: "Підтвердити свій НЕГАТИВНИЙ голос за пропозицію \"%{name}\"? Після того, як ви проголосували, його не можна змінити."
     blog_posts:
       show:
         previous_comments: "Попередні коментарі..."
