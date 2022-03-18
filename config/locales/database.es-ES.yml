@@ -1,10 +1,44 @@
 es:
   db:
     sys_locales:
+      bs:
+        description: Bosnio
+      de:
+        description: Alemán
+      el:
+        description: Griego
+      en:
+        description: Inglés
+      es:
+        description: Español
+      fr:
+        description: Francés
+      hu:
+        description: Húngaro
+      id:
+        description: Indonesio
+      it:
+        description: Italiano
+      jp:
+        description: Japonés
+      me:
+        description: Montenegrino
+      nl:
+        description: Holanda
+      pt:
+        description: Portugués
+      ro:
+        description: Rumano
+      ru:
+        description: Ruso
+      sh:
+        description: Serbo-Croata
       sr-CS:
         description: Serbo (Latin)
       sr-SP:
         description: Serbio (cirilico)
+      zh:
+        description: Chino
     proposal_types:
       STANDARD:
         description: Propuesta estándar
@@ -38,12 +72,16 @@ es:
     group_actions:
       write_to_wall:
         description: Publicar en el muro del grupo
+      create_events:
+        description: Crear eventos de conocerse
       support_proposals:
         description: Apoya propuestas en nombre del grupo
       accept_participation_requests:
         description: Añadir a nuevos miembros al grupo
       view_proposals:
         description: Ver propuestas privadas
+      participate_proposals:
+        description: Contribuir a las propuestas
       insert_proposals:
         description: Insertar nuevas propuestas en el grupo
       view_documents:
@@ -52,6 +90,8 @@ es:
         description: Gestione documentos
       vote_proposals:
         description: Vota las propuestas
+      choose_date_proposals:
+        description: Crear eventos de voto
     notification_categories:
       MYPROP:
         description: Las propuestas que escribo
