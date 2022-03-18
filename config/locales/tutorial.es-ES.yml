@@ -23,6 +23,8 @@ es-ES:
       end: "Ésta es la estructura de la lista de propuestas. Es la misma en cada grupo en el que participas y te ayudará a orientarte en las discusiones del grupo"
     proposals_show:
       welcome: "Bienvenido a la propuesta debatida en Airesis. Este tutorial explica en detalle las diferentes partes que la componen"
+      title: "Este es el título de la propuesta, es decir, el tema de la discusión"
+      status_description: "Esto muestra las condiciones para finalizar el debate"
       main: "Estos son los párrafos de los que están hechas las propuestas"
       solution_main: "Ésta es una solución. Incluso la solución está formada por diferentes párrafos. Los editores escribirán una o más soluciones para resolver el problema encontrado"
       contributeButton: "Con estos botones puedes ver las contribuciones de otros usuarios y añadir las tuyas. Las contribuciones se refieren al párrafo desde el que se accede a ellas"
