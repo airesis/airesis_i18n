@@ -65,20 +65,36 @@ uk:
         description: зустріч
       vote:
         description: голосувати
+      meeting2:
+        description: зустріч
+      election:
+        description: вибори
     group_actions:
+      write_to_wall:
+        description: опублікувати на стіні групи
+      create_events:
+        description: Створити події зустрічі
+      support_proposals:
+        description: Підтримка пропозиції від імені групи
       accept_participation_requests:
         description: Додати учасників в групу
       view_proposals:
         description: Переглянути приватні пропозиції
       participate_proposals:
         description: Допоможіть платформі!
+      insert_proposals:
+        description: Вставте нові пропозиції в групу
       view_documents:
         description: Перегляд документів
       manage_documents:
         description: Керування документами
       vote_proposals:
         description: Переглянути пропозицію
+      choose_date_proposals:
+        description: Створити події голосування
     notification_categories:
+      MYPROP:
+        description: Пропозиції які я пишу
       PROP:
         description: Пропозиції, в яких я беру участь
       NEWPROP:
@@ -90,6 +106,9 @@ uk:
     notification_types:
       new_public_events:
         description: Нові публічні події
+        email_subject: "Нова публічна подія: %{event}"
+      new_events:
+        description: Нові події в групах,в яких я беру участь
       new_valutation:
         message:
           one: "Пропозиція <b>%{title}</b> отримала нову оцінку"
