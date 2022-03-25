@@ -109,6 +109,14 @@ uk:
         email_subject: "Нова публічна подія: %{event}"
       new_events:
         description: Нові події в групах,в яких я беру участь
+      new_posts_user_follow:
+        email_subject: Є нова публікація
+        message: "%{user} додав новий допис у свій блог <b>%{blog}</b>"
+      new_valutation_mine:
+        description: Нове оцінювання для моєї пропозиції
+        email_subject:
+          one: "%{title} має нову оцінку"
+          other: "%{title} має %{count} нових оцінок"
       new_valutation:
         message:
           one: "Пропозиція <b>%{title}</b> отримала нову оцінку"
