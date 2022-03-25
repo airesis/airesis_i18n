@@ -58,6 +58,13 @@ uk:
         description: Голосувати за кандидата
       SIMPLE:
         description: Проста пропозиція
+      PETITION:
+        description: петиція
+    event_types:
+      meeting:
+        description: зустріч
+      vote:
+        description: голосувати
     group_actions:
       accept_participation_requests:
         description: Додати учасників в групу
