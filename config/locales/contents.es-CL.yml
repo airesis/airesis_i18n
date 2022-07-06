@@ -41,7 +41,7 @@ es-CL:
           Ya sea dentro de los grupos y el espacio abierto es posible publicar las iniciativas / propuestas, <strong>evaluarlos</strong>, la edición compartida <strong>el resumen</strong> y luego <strong>votarlas</strong>. En el mismo contexto ud. puede crear eventos relacionados con <strong> reuniones</strong> y <strong>votación</strong>. </p>
       paragraph_6:
         title: "Características básicas"
-        content_html: |2
+        content_html: |
           <ul><li><strong>Registrarse y login</strong> <br>
           para cada página o incluso después de agregar un comentario o una contribución. Incluso es posible iniciar sesión usando Facebook, Google +, Meetup, Twitter o Linkedin</li>
            <li><strong>área pública o privada para grupos</strong> (<a href="http://youtu.be/n_ZruAcNkVk" target="blank"> más info en este video-tutorial</a>) <br> Registrarse le permite participar en los espacios abiertos, para unirse a uno de los grupos ya presentes o crear uno nuevo.   </li> 
@@ -203,7 +203,7 @@ es-CL:
         banner: "Banner"
       paragraph1:
         title: "AIRESIS está abierto a todo el mundo"
-        description_html: |2
+        description_html: |
           Airesis <p>es un proyecto basado en un software libre y open-source. Puede contribuir a su desarrollo:</p> <ul>
           <li>utilizando la plataforma y haciendo comprobación de error</li>
           <li>dar comentarios y sugerencias sobre la usabilidad de la plataforma e interfaz de usuario</li>
