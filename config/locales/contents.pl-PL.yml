@@ -79,7 +79,7 @@ pl-PL:
           </p>
       paragraph_6:
         title: "Podstawowe funkcje"
-        content_html: |2
+        content_html: |
           <ul>
           <li><strong>Zarejestruj się i zaloguj</strong><br>z każdej strony, lub nawet po dodaniu komentarza lub udziału. Istnieje nawet możliwość zalogowania się za pomocą Facebook, Google +, Meetup, Twitter lub Linkedin
           </li>
