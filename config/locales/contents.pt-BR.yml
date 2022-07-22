@@ -49,7 +49,7 @@ pt-BR:
           Cada grupo tem suas próprias necessidades, cada proposta é diferente de outra, cada usuário tem suas próprias necessidades.</li>
       paragraph_4:
         title: "O nosso objetivo: democracia direta e participativa"
-        content_html: |2
+        content_html: |
           <p>Estruturada para ser uma rede social, Airesis permite que os usuários possam envolver outras pessoas de acordo com seus interesses e explorar as qualidades de cada um com o objetivo de deliberar de maneira consensual qualquer tipo de proposta.
           A arquitetura e o núcleo dos valores permitem a plataforma perseguir objetivos sociais e debates construtivos
           sobre questões que talvez envolvam territórios, promoção social, setores políticos e consequentemente trazer as melhores ideias.</p>
@@ -172,7 +172,7 @@ pt-BR:
           </ul>
       paragraph_10:
         title: "Temporariamente anônimo, voto secreto e auditoria dos votos"
-        content_html: |2
+        content_html: |
           <p>Uma das peculiaridades da Airesis é que <strong>os grupos podem escolher se o debate de propostas será anónima ou não</strong>.</p>  
 
           <p>Se o anonimato está habilitado, os autores e comentadores das propostas são indicadas por meio de um pseudónimo. Esse recurso permite que você pode avaliar as propostas, críticas e sugestões de acordo do seu conteúdo apenas, imparcial, sem o "nome" dos autores e a dinâmica interpessoal gostar/não gostar influencia o debate. </p> 
@@ -353,7 +353,7 @@ pt-BR:
         banner: "Anúncio"
       paragraph1:
         title: "Airesis é aberto para todos"
-        description_html: |2
+        description_html: |
           <p>A Airesis é um projeto baseado em software livre e Código Aberto. Pode contribuir para seu desenvolvimento:</p> 
           <ul>
           <li>Utilizando a plataforma e fazer a verificação de bugs</li>
