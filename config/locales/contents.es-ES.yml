@@ -376,6 +376,7 @@ es-ES:
         content_html: |
           <p>Si eliges publicar tu 'banner', será de gran ayuda al proyecto. Gracias.</p>
     tags:
+      title: "Airesis - La Red Social Para La Democracia Electrónica"
       description: "Una herramienta de toma de decisiones para una democracia directa y e-gobierno: participación en discusiones, aportar tus ideas, sugerir soluciones y votar en línea"
     engage:
       title: "Participa en el proyecto para una nueva democracia"
