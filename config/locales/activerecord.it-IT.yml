@@ -90,7 +90,7 @@ it-IT:
         days_m: Giorni
         hours_m: Ore
         minutes_m: Minuti
-        percentage: 'Quorum (partecipanti)'
+        percentage: 'Partecipanti minimi'
         percentage_title: 'Numero minimo di partecipanti alla discussione in percentuale rispetto al numero di partecipanti al gruppo'
         good_score: 'Maturità'
         good_score_title: 'Maturità da raggiungere per portare in votazione la proposta'
