@@ -1,6 +1,7 @@
 pl-PL:
   tutorial:
     proposals_index:
+      welcome_open_space: "Witaj w otwartej przestrzeni Airesis! Otwarta przestrzeń to bardzo szczególna grupa, w której uczestniczy każdy użytkownik. Tutaj znajdziesz listę wniosków, swobodnie dodanych przez użytkowników aplikacji i możesz dodać nawet swoje własne."
       welcome_group: "To jest lista propozycji grupy <b>%{group_name}</b>. Tutaj znajdziesz listę wniosków, dodanych przez członków grupy oraz masz możliwość dodania swoich własnych"
       new_proposal: "W prawym bocznym menu znajdziesz przycisk do tworzenia nowych wniosków..."
       filters: "... i inne filtry do znajdowania wniosków które cię interesują"
@@ -23,9 +24,12 @@ pl-PL:
       end: "To jest struktura listy wniosków. Jest taka sama w każdej grupie w której uczestniczysz i pomoże Ci w zorientowaniu się w dyskusjach grupy"
     proposals_show:
       welcome: "Witamy w niniejszym wniosku, w debacie na Airesis. Ten poradnik wyjaśni szczegółowo różne części, które składają się z"
+      title: "To jest tytuł wniosku, który jest tematem dyskusji"
+      status_description: "To pokazuje warunki zakończenia debaty"
       main: "To są paragrafy z których składa się wniosek"
       solution_main: "To jest rozwiązanie. Nawet rozwiązanie składa się z różnych paragrafów. Edytorzy napiszą jedno lub więcej rozwiązań aby rozwiązać znaleziony problem"
       contributeButton: "Używając tych guzików możesz zobaczyć wkład innych użytkowników i dodać swój własny. Wkłady zawsze odwołują się do paragrafu w którym są dostępne"
+      newComment: "Użyj tego pola, aby dodać wkład, który nie odnosi się do konkretnego paragrafu"
       menu_left: "W tym menu, po lewej stronie znajdziesz wszystkie informacje na temat wniosku"
       evaluations: "Liczba ocen wyrażonych przez uczestników, która wskazuje czy wniosek jest gotowy do głosowania, lub czy debata powinna być kontynuowana"
       status: "Status wniosku. W tym wypadku jest w fazie dyskusji"
