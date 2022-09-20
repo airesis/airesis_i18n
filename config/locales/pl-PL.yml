@@ -298,6 +298,11 @@ pl-PL:
         name: "Imię"
         role: "Rola"
         member_since: "Zarejestrowany od"
+        participants_html:
+          one: <b>1</b> uczestnik
+          few: <b>%{count}</b> uczestników
+          many: <b>%{count}</b> uczestników
+          other: <b>%{count}</b> uczestników
         added_by: "Dodany przez"
         remove_all: "Usuń wszystkie"
       statistics:
@@ -601,6 +606,11 @@ pl-PL:
       new_rank_bar:
         creation: "Tworzenie: %{time_ago}<br/>%{date}"
         end: "Skończ debatę:<br/>%{date}"
+        valutations:
+          one: "%{count} OCENA"
+          few: "%{count} OCEN"
+          many: "%{count} OCEN"
+          other: "%{count} OCEN"
         good_score: "Kworum pozytywne %{score}%"
         bad_score: "Kworum negatywne %{score}%"
         now: "%{left} POZOSTAŁO"
@@ -985,11 +995,22 @@ pl-PL:
     certifications:
       index:
         title: "Certyfikowane grupy"
+  pl:
+    comments:
+      one: "jeden komentarz"
+      few: "%{count} komentarze"
+      many: "%{count} komentarzy"
+      other: "%{count} komentarzy"
   models:
     best_quorum:
       good_score_condition: "Wniosek będzie poddany głosowaniu jeśli osiągnie dojrzałość większą niż <b>%{good_score}%</b> i %{participants}, w innym wypadku zostanie odrzucony"
       good_score_condition_past: "Wniosek byłby poddany głosowaniu jeśli miałby dojrzałość większą niż <b>%{good_score}%</b> i %{participants}, w innym wypadku zostałby odrzucony"
     quorum:
+      participants:
+        one: '<b>osoba</b> będzie uczestniczyła'
+        few: '<b>osoby</b> będą uczestniczyły'
+        many: '<b>osób</b> będzie uczestniczyło'
+        other: 'oni uczestniczyli <b>%{count}</b> ludzi'
       or_condition_1: "Debata skończy się w %{time} lub kiedy %{participants_num}."
       or_condition_1_past: "Debata trwała %{time} i kiedy %{participants_num}."
       and_condition_1: "Debata skończy się w %{time}, ale będzie kontynuowana, chyba że %{participants_num}."
